@@ -90,6 +90,11 @@ arxiv:
 
 # --- Web scrapers (for orgs without RSS) ---
 scrapers:
+  # Frontier lab alignment blogs (no RSS, scraper needed)
+  - name: "Anthropic Alignment Science"
+    url: "https://alignment.anthropic.com/"
+    org: "Anthropic"
+
   # Safety orgs
   - name: "METR"
     url: "https://metr.org/blog/"

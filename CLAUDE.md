@@ -26,20 +26,21 @@ There are no tests or linting configured.
 
 ## Architecture
 
-**Pipeline:** `config.yaml` → fetchers → dedup → research filter → enrich → clean → `data/papers.json` → `render.py` → `site/index.html`
+**Pipeline:** `config.yaml` → fetchers → **7-day date filter** → dedup → research filter → enrich → clean → `data/papers.json` → `render.py` → `site/index.html`
 
 **Data model:** Everything flows through `scripts/models.Paper` dataclass. Fields: title, authors, organization, abstract, url, published_date, source_type (`"rss"`, `"arxiv"`, `"scrape"`), source_url, fetched_at. All fetchers must return `list[Paper]`.
 
 **Fetchers** (`scripts/fetchers/`):
-- `rss.py` — RSS/Atom feeds via feedparser. 7-day window. Two-layer keyword filtering: explicit per-feed keywords + default research keywords for all feeds.
+- `rss.py` — RSS/Atom feeds via feedparser. 7-day window. Three-layer filtering: RSS `categories` tags, explicit per-feed `keywords`, default research keywords.
 - `arxiv_fetcher.py` — arXiv API via `arxiv` package. Searches by keyword+category.
-- `scraper.py` — BeautifulSoup scraper for orgs without RSS. Heuristic article element detection. Optional `link_must_contain` filter.
+- `scraper.py` — BeautifulSoup scraper for orgs without RSS. Heuristic article element detection (articles → class-matched elements → heading links → container links). Optional `link_must_contain` filter. Papers without parseable dates are dropped. Supports "Month Year" date format.
 - `lesswrong.py` — LessWrong GraphQL API. Filters by karma threshold (150+) client-side.
 - `trending.py` — HN (Algolia API) + Reddit JSON API. Research content filtering via URL domain checks and title keyword analysis. All use `source_type="rss"`.
 
 **Processing** (called by `fetch.py` in order):
-1. `dedup.py` — Two-pass: exact normalized title match, then SequenceMatcher (ratio > 0.85). Keeps entry with longest abstract.
-2. **Research relevance filter** in `fetch.py` — Scoring-based: 144 research terms checked against title+abstract. arXiv always passes. Known research orgs need score >= 1, others >= 2.
+1. **Global 7-day date filter** — Removes all papers older than 7 days. Applied to ALL sources before dedup.
+2. `dedup.py` — Two-pass: exact normalized title match, then SequenceMatcher (ratio > 0.85). Keeps entry with longest abstract.
+3. **Research relevance filter** (`filter.py`) — Scoring-based: 144 research terms checked against title+abstract. arXiv always passes. Known research orgs need score >= 1, others >= 2.
 3. `enrich.py` — Fetches URLs of papers with short/missing abstracts (<50 chars). Strategies: LessWrong GraphQL API, arXiv abs/html pages, meta descriptions, semantic CSS classes, first paragraph. Synthetic fallback for remaining. ThreadPoolExecutor (5 workers), retry on 5xx/timeout, User-Agent rotation.
 4. Abstract cleaning in `fetch.py` — strips HTML, collapses whitespace, removes date prefixes, caps at 150 words.
 
@@ -52,8 +53,8 @@ There are no tests or linting configured.
 
 ## Adding a New Source
 
-- **RSS/Atom feed:** Add entry to `rss_feeds` in `config.yaml`. Use `keywords` list for selective feeds.
-- **Web scraper:** Add entry to `scrapers` in `config.yaml`. Use `link_must_contain` to filter noise.
+- **RSS/Atom feed:** Add entry to `rss_feeds` in `config.yaml`. Use `keywords` for keyword filtering, or `categories` for RSS `<category>` tag filtering.
+- **Web scraper:** Add entry to `scrapers` in `config.yaml`. Use `link_must_contain` to filter noise. Page must have parseable dates or papers will be dropped.
 - **New fetcher type:** Create `scripts/fetchers/new_fetcher.py` returning `list[Paper]`, wire it into `fetch.py` main loop, add config section to `config.yaml`.
 
 ## Conventions

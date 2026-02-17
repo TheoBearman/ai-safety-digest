@@ -85,6 +85,10 @@ def _parse_date_string(text: str) -> Optional[str]:
                     dt = datetime.strptime(date_str, fmt).replace(
                         tzinfo=timezone.utc
                     )
+                    # For month-only dates (e.g. "February 2026"), use the 15th
+                    # so current-month papers aren't excluded by the 7-day filter.
+                    if fmt == "%B %Y":
+                        dt = dt.replace(day=15)
                     return dt.isoformat()
                 except ValueError:
                     continue
@@ -116,6 +120,17 @@ def _extract_date(element) -> Optional[str]:
     if parsed:
         return parsed
 
+    # Check previous siblings for date (common pattern: date div before article links)
+    for sibling in element.previous_siblings:
+        if hasattr(sibling, "get_text"):
+            sib_text = sibling.get_text(strip=True)
+            if sib_text:
+                parsed = _parse_date_string(sib_text)
+                if parsed:
+                    return parsed
+                # Stop after checking a few siblings to avoid scanning the whole page
+                break
+
     return None
 
 
@@ -145,6 +160,9 @@ def _extract_abstract(element) -> str:
 
 def _extract_link(element, base_url: str) -> str:
     """Extract the most relevant href from an element."""
+    # If the element itself is an <a> tag, use its href directly
+    if element.name == "a" and element.get("href"):
+        return urljoin(base_url, element["href"])
     link = element.find("a", href=True)
     if link:
         href = link["href"]
@@ -200,7 +218,15 @@ def _find_article_elements(soup: BeautifulSoup) -> list:
     if candidates:
         return candidates
 
-    # 3. Links inside known container ids / classes
+    # 3. <a> tags that contain headings — common pattern for article cards
+    heading_links = [
+        a for a in soup.find_all("a", href=True)
+        if a.find(["h2", "h3", "h4"])
+    ]
+    if heading_links:
+        return heading_links
+
+    # 4. Links inside known container ids / classes
     for container_attr in ("main", "content", "posts", "articles", "blog"):
         container = soup.find(id=re.compile(container_attr, re.IGNORECASE))
         if container is None:

@@ -10,7 +10,7 @@
     "published_date": "2026-02-17T05:27:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.reddit.com/r/ControlProblem/",
-    "fetched_at": "2026-02-17T20:35:48.018923+00:00"
+    "fetched_at": "2026-02-17T21:11:20.949566+00:00"
   },
   {
     "title": "Will reward-seekers respond to distant incentives?",
@@ -23,7 +23,7 @@
     "published_date": "2026-02-17T00:35:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T20:35:34.590976+00:00"
+    "fetched_at": "2026-02-17T21:11:09.598075+00:00"
   },
   {
     "title": "Boundary Point Jailbreaking: A new way to break the strongest AI defences",
@@ -34,7 +34,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-17T20:35:40.058177+00:00"
+    "fetched_at": "2026-02-17T21:11:13.940928+00:00"
   },
   {
     "title": "Tool-Aware Planning in Contact Center AI: Evaluating LLMs through Lineage-Guided Query Decomposition",
@@ -49,7 +49,7 @@
     "published_date": "2026-02-16T17:36:05+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175237+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556111+00:00"
   },
   {
     "title": "Is alignment missing a dataset that no one has built yet?",
@@ -62,7 +62,7 @@
     "published_date": "2026-02-16T17:01:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.reddit.com/r/aisafety/",
-    "fetched_at": "2026-02-17T20:35:47.409268+00:00"
+    "fetched_at": "2026-02-17T21:11:20.174119+00:00"
   },
   {
     "title": "Web-Scale Multimodal Summarization using CLIP-Based Semantic Alignment",
@@ -76,7 +76,7 @@
     "published_date": "2026-02-16T16:20:37+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175289+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556144+00:00"
   },
   {
     "title": "Concept Influence: Leveraging Interpretability to Improve Performance and Efficiency in Training Data Attribution",
@@ -97,7 +97,7 @@
     "published_date": "2026-02-16T16:02:09+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175349+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556179+00:00"
   },
   {
     "title": "Interactionless Inverse Reinforcement Learning: A Data-Centric Framework for Durable Alignment",
@@ -111,7 +111,7 @@
     "published_date": "2026-02-16T15:40:10+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175392+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556205+00:00"
   },
   {
     "title": "\"An LLM-controlled robot dog saw us press its shutdown button, rewrote the robot code so it could stay on. When AI interacts with physical world, it brings all its capabilities and failure modes with it.\" - I find AI alignment very crucial no 2nd chance! They used Grok 4 but found other LLMs do too.",
@@ -124,7 +124,7 @@
     "published_date": "2026-02-16T13:46:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.reddit.com/r/ControlProblem/",
-    "fetched_at": "2026-02-17T20:35:48.018727+00:00"
+    "fetched_at": "2026-02-17T21:11:20.949327+00:00"
   },
   {
     "title": "Alignment Adapter to Improve the Performance of Compressed Deep Learning Models",
@@ -139,7 +139,7 @@
     "published_date": "2026-02-16T10:53:02+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175438+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556232+00:00"
   },
   {
     "title": "Socially-Weighted Alignment: A Game-Theoretic Framework for Multi-Agent LLM Systems",
@@ -153,7 +153,7 @@
     "published_date": "2026-02-16T05:17:58+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175482+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556263+00:00"
   },
   {
     "title": "“Will reward-seekers respond to distant incentives?” by Alex Mallen",
@@ -166,7 +166,7 @@
     "published_date": "2026-02-16T05:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-17T20:35:34.096315+00:00"
+    "fetched_at": "2026-02-17T21:11:09.218775+00:00"
   },
   {
     "title": "A unified framework for evaluating the robustness of machine-learning interpretability for prospect risking",
@@ -182,7 +182,7 @@
     "published_date": "2026-02-16T03:32:10+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175531+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556294+00:00"
   },
   {
     "title": "OpenAI may have violated California’s new AI safety law with the release of its latest coding model, according to allegations from an AI watchdog group.",
@@ -195,7 +195,7 @@
     "published_date": "2026-02-15T20:20:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.reddit.com/r/ControlProblem/",
-    "fetched_at": "2026-02-17T20:35:48.018619+00:00"
+    "fetched_at": "2026-02-17T21:11:20.949188+00:00"
   },
   {
     "title": "GRAIL: Goal Recognition Alignment through Imitation Learning",
@@ -210,7 +210,7 @@
     "published_date": "2026-02-15T17:45:03+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175575+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556320+00:00"
   },
   {
     "title": "REAL: Resolving Knowledge Conflicts in Knowledge-Intensive Visual Question Answering via Reasoning-Pivot Alignment",
@@ -231,7 +231,7 @@
     "published_date": "2026-02-15T09:29:53+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175635+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556352+00:00"
   },
   {
     "title": "AXRP Episode 48 - Guive Assadi on AI Property Rights",
@@ -244,7 +244,7 @@
     "published_date": "2026-02-15T07:20:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T20:35:34.591959+00:00"
+    "fetched_at": "2026-02-17T21:11:09.598673+00:00"
   },
   {
     "title": "Bridging AI and Clinical Reasoning: Abductive Explanations for Alignment on Critical Symptoms",
@@ -258,7 +258,18 @@
     "published_date": "2026-02-15T04:27:59+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175677+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556378+00:00"
+  },
+  {
+    "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Research done as part of the first Anthropic Fellows Program during Summer 2025.",
+    "url": "https://alignment.anthropic.com/2026/hot-mess-of-ai/",
+    "published_date": "2026-02-15T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-02-17T21:11:10.742558+00:00"
   },
   {
     "title": "GSRM: Generative Speech Reward Model for Speech RLHF",
@@ -283,7 +294,7 @@
     "published_date": "2026-02-14T21:22:55+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175734+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556413+00:00"
   },
   {
     "title": "Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages",
@@ -298,7 +309,7 @@
     "published_date": "2026-02-14T19:56:40+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175785+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556440+00:00"
   },
   {
     "title": "sleep2vec: Unified Cross-Modal Alignment for Heterogeneous Nocturnal Biosignals",
@@ -317,7 +328,7 @@
     "published_date": "2026-02-14T19:40:04+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175834+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556470+00:00"
   },
   {
     "title": "Experimentation Accelerator: Interpretable Insights and Creative Recommendations for A/B Testing with Content-Aware ranking",
@@ -334,7 +345,7 @@
     "published_date": "2026-02-14T19:22:58+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175900+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556500+00:00"
   },
   {
     "title": "Interpretable clustering via optimal multiway-split decision trees",
@@ -349,7 +360,7 @@
     "published_date": "2026-02-14T04:08:52+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175950+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556526+00:00"
   },
   {
     "title": "Elo-Evolve: A Co-evolutionary Framework for Language Model Alignment",
@@ -366,7 +377,7 @@
     "published_date": "2026-02-14T03:18:52+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.175998+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556554+00:00"
   },
   {
     "title": "Mitigating the Safety-utility Trade-off in LLM Alignment via Adaptive Safe Context Learning",
@@ -384,7 +395,7 @@
     "published_date": "2026-02-14T02:37:36+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176052+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556584+00:00"
   },
   {
     "title": "Singular Vectors of Attention Heads Align with Features",
@@ -399,7 +410,7 @@
     "published_date": "2026-02-13T23:30:02+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176096+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556611+00:00"
   },
   {
     "title": "Federated Learning of Nonlinear Temporal Dynamics with Graph Attention-based Cross-Client Interpretability",
@@ -415,7 +426,7 @@
     "published_date": "2026-02-13T21:41:52+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176143+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556638+00:00"
   },
   {
     "title": "Finding Highly Interpretable Prompt-Specific Circuits in Language Models",
@@ -431,7 +442,7 @@
     "published_date": "2026-02-13T21:41:17+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176199+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556666+00:00"
   },
   {
     "title": "Towards interpretable models for language proficiency assessment: Predicting the CEFR level of Estonian learner texts",
@@ -444,7 +455,7 @@
     "published_date": "2026-02-13T17:06:17+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176241+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556691+00:00"
   },
   {
     "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -457,7 +468,7 @@
     "published_date": "2026-02-13T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-17T20:35:33.336806+00:00"
+    "fetched_at": "2026-02-17T21:11:08.643999+00:00"
   },
   {
     "title": "MoralityGym: A Benchmark for Evaluating Hierarchical Moral Alignment in Sequential Decision-Making Agents",
@@ -478,7 +489,7 @@
     "published_date": "2026-02-13T15:40:32+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176293+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556723+00:00"
   },
   {
     "title": "Human-Aligned MLLM Judges for Fine-Grained Image Editing Evaluation: A Benchmark, Framework, and Analysis",
@@ -511,7 +522,7 @@
     "published_date": "2026-02-13T15:34:32+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176377+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556766+00:00"
   },
   {
     "title": "Synaptic Activation and Dual Liquid Dynamics for Interpretable Bio-Inspired Models",
@@ -525,7 +536,7 @@
     "published_date": "2026-02-13T15:23:37+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176422+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556792+00:00"
   },
   {
     "title": "RGAlign-Rec: Ranking-Guided Alignment for Latent Query Reasoning in Recommendation Systems",
@@ -543,7 +554,7 @@
     "published_date": "2026-02-13T14:38:02+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176471+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556822+00:00"
   },
   {
     "title": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
@@ -570,7 +581,7 @@
     "published_date": "2026-02-13T13:10:46+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176531+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556859+00:00"
   },
   {
     "title": "ADEPT: RL-Aligned Agentic Decoding of Emotion via Evidence Probing Tools -- From Consensus Learning to Ambiguity-Driven Emotion Reasoning",
@@ -587,7 +598,7 @@
     "published_date": "2026-02-13T08:33:37+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176579+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556889+00:00"
   },
   {
     "title": "Power Interpretable Causal ODE Networks: A Unified Model for Explainable Anomaly Detection and Root Cause Analysis in Power Systems",
@@ -603,7 +614,7 @@
     "published_date": "2026-02-13T04:06:47+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176631+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556918+00:00"
   },
   {
     "title": "Human-like metacognitive skills will reduce LLM slop and aid alignment and capabilities",
@@ -616,7 +627,7 @@
     "published_date": "2026-02-13T00:38:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T20:35:34.592239+00:00"
+    "fetched_at": "2026-02-17T21:11:09.598856+00:00"
   },
   {
     "title": "How do we (more) safely defer to AIs?",
@@ -629,7 +640,7 @@
     "published_date": "2026-02-12T21:55:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T20:35:34.593207+00:00"
+    "fetched_at": "2026-02-17T21:11:09.599492+00:00"
   },
   {
     "title": "models have some pretty funny attractor states",
@@ -642,7 +653,7 @@
     "published_date": "2026-02-12T21:14:52.004000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-17T20:35:45.696171+00:00"
+    "fetched_at": "2026-02-17T21:11:18.395110+00:00"
   },
   {
     "title": "Why Deep Jacobian Spectra Separate: Depth-Induced Scaling and Singular-Vector Alignment",
@@ -658,7 +669,7 @@
     "published_date": "2026-02-12T20:27:59+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176675+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556945+00:00"
   },
   {
     "title": "Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment",
@@ -677,7 +688,7 @@
     "published_date": "2026-02-12T18:59:59+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176730+00:00"
+    "fetched_at": "2026-02-17T21:11:10.556977+00:00"
   },
   {
     "title": "Abstractive Red-Teaming of Language Model Character",
@@ -695,7 +706,7 @@
     "published_date": "2026-02-12T18:12:12+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176776+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557005+00:00"
   },
   {
     "title": "Diffusion Alignment Beyond KL: Variance Minimisation as Effective Policy Optimiser",
@@ -714,7 +725,7 @@
     "published_date": "2026-02-12T18:06:03+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176825+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557034+00:00"
   },
   {
     "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
@@ -732,7 +743,7 @@
     "published_date": "2026-02-12T17:29:52+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176880+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557065+00:00"
   },
   {
     "title": "How Sampling Shapes LLM Alignment: From One-Shot Optima to Iterative Dynamics",
@@ -748,7 +759,7 @@
     "published_date": "2026-02-12T17:11:08+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176930+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557093+00:00"
   },
   {
     "title": "SafeNeuron: Neuron-Level Safety Alignment for Large Language Models",
@@ -768,7 +779,7 @@
     "published_date": "2026-02-12T16:40:05+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.176979+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557122+00:00"
   },
   {
     "title": "Value Alignment Tax: Measuring Value Trade-offs in LLM Alignment",
@@ -782,7 +793,7 @@
     "published_date": "2026-02-12T16:21:22+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.177020+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557147+00:00"
   },
   {
     "title": "Capability-Oriented Training Induced Alignment Risk",
@@ -805,7 +816,7 @@
     "published_date": "2026-02-12T16:13:14+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.177073+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557179+00:00"
   },
   {
     "title": "A$^{2}$V-SLP: Alignment-Aware Variational Modeling for Disentangled Sign Language Production",
@@ -820,7 +831,7 @@
     "published_date": "2026-02-12T12:07:32+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.177117+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557206+00:00"
   },
   {
     "title": "Prototype Transformer: Towards Language Model Architectures Interpretable by Design",
@@ -841,7 +852,7 @@
     "published_date": "2026-02-12T11:43:39+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.177169+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557238+00:00"
   },
   {
     "title": "SpaTeoGL: Spatiotemporal Graph Learning for Interpretable Seizure Onset Zone Analysis from Intracranial EEG",
@@ -856,7 +867,7 @@
     "published_date": "2026-02-12T10:28:38+00:00",
     "source_type": "arxiv",
     "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T20:35:36.177215+00:00"
+    "fetched_at": "2026-02-17T21:11:10.557265+00:00"
   },
   {
     "title": "Research note: A simpler AI timelines model predicts 99% AI R&D automation in ~2032",
@@ -869,7 +880,7 @@
     "published_date": "2026-02-12T05:13:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T20:35:34.593458+00:00"
+    "fetched_at": "2026-02-17T21:11:09.599654+00:00"
   },
   {
     "title": "“How do we (more) safely defer to AIs?” by Ryan Greenblatt",
@@ -882,7 +893,7 @@
     "published_date": "2026-02-12T05:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-17T20:35:34.096371+00:00"
+    "fetched_at": "2026-02-17T21:11:09.218808+00:00"
   },
   {
     "title": "International consensus and open questions in AI evaluations",
@@ -893,7 +904,29 @@
     "published_date": "2026-02-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-17T20:35:40.058698+00:00"
+    "fetched_at": "2026-02-17T21:11:13.941358+00:00"
+  },
+  {
+    "title": "What to Expect from AI in 2026: Q&A with William Marcellino",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Commentary Feb 12, 2026 RAND's William Marcellino directs the development of AI tools at RAND. He discusses how RAND is using AI, what AI might mean for human productivity, the limits of large language models, and more.",
+    "url": "https://www.rand.org/pubs/commentary/2026/02/what-to-expect-from-ai-in-2026.html",
+    "published_date": "2026-02-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-02-17T21:11:14.206759+00:00"
+  },
+  {
+    "title": "The Weapons of Mass Destruction AI Security Gap",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Commentary Feb 12, 2026 The AI ecosystem may be too narrowly focused on a single threat model: the “lone wolf virus terrorist.” This emphasis on individual actors could leave state-based and terrorist group threats dangerously under-examined.",
+    "url": "https://www.rand.org/pubs/commentary/2026/02/the-weapons-of-mass-destruction-ai-security-gap.html",
+    "published_date": "2026-02-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-02-17T21:11:14.206923+00:00"
   },
   {
     "title": "Distinguish between inference scaling and \"larger tasks use more compute\"",
@@ -906,7 +939,7 @@
     "published_date": "2026-02-11T23:37:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T20:35:34.593550+00:00"
+    "fetched_at": "2026-02-17T21:11:09.599712+00:00"
   },
   {
     "title": "1: What will the first human-level AI look like, and how might things go wrong?",
@@ -917,7 +950,7 @@
     "published_date": "2026-02-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-17T20:35:39.620499+00:00"
+    "fetched_at": "2026-02-17T21:11:13.514054+00:00"
   },
   {
     "title": "Revisiting Frontier LLMs’ Attempts to Persuade on Extreme Topics: GPT and Claude Improved, Gemini Worsened",
@@ -928,6 +961,6 @@
     "published_date": "2026-02-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-17T20:35:39.621044+00:00"
+    "fetched_at": "2026-02-17T21:11:13.514419+00:00"
   }
 ]

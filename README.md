@@ -1,59 +1,79 @@
 # AI Safety Weekly Digest
 
-A curated weekly digest of AI safety research — papers, technical posts, and reports from leading labs and research organizations. Updated automatically every Monday.
+A curated weekly digest of AI safety research — papers, technical posts, and reports from leading labs and research organizations.
 
 **[Read the latest digest](https://sambhav-mahesh.github.io/ai-safety-digest/)**
 
+## Reading the Digest
+
+No setup required. Just bookmark the link above. The digest updates automatically every Monday with the latest AI safety research from the past week.
+
+You can also open `site/index.html` directly in any browser if you clone the repo.
+
+## Sources
+
+The digest aggregates research from 35+ sources across five fetcher types:
+
+### RSS Feeds
+| Organization | Feed |
+|---|---|
+| Google DeepMind | Blog RSS |
+| Microsoft Research | Research feed (AI keyword filtered) |
+| Anthropic | News + Engineering (via community RSS mirrors) |
+| OpenAI | News RSS (Research/Safety/Publication categories) + Alignment Research Blog |
+| Redwood Research | Blog RSS |
+| Alignment Forum | Feed (research keyword filtered) |
+| Dan Hendrycks | ML Safety Newsletter |
+| FLI | Blog feed |
+| Epoch AI | Blog RSS |
+
+### arXiv
+Keyword search across `cs.AI`, `cs.LG`, `cs.CL` for: AI safety, alignment, interpretability, mechanistic interpretability, RLHF, scalable oversight, AI governance, red teaming, AI evaluations. Up to 40 papers per week.
+
+### Web Scrapers
+| Organization | URL | Filter |
+|---|---|---|
+| Anthropic Alignment Science | alignment.anthropic.com | Blog posts with dates |
+| METR | metr.org/blog | Links containing `/blog/` |
+| Apollo Research | apolloresearch.ai/blog | All blog posts |
+| ARC (Alignment Research Center) | alignment.org/blog | Links containing `/blog/` |
+| MIRI | intelligence.org/research | Links containing `/research/` |
+| CAIS | safe.ai/research | Links to arxiv.org |
+| FAR AI | far.ai/blog | Links containing `/news/` |
+| UK AISI | aisi.gov.uk/work | Links containing `/blog/` |
+| US AISI (NIST) | nist.gov | Links containing `/artificial-intelligence` |
+| RAND | rand.org/topics/artificial-intelligence | All items |
+| CSET Georgetown | cset.georgetown.edu/publications | All publications |
+| GovAI Oxford | governance.ai/research | Links containing `/research-paper/` |
+| IAPS | iaps.ai/research | Links containing `/research-paper/` |
+| CHAI Berkeley | humancompatible.ai/news | All items |
+| MATS | matsprogram.org/research | Links containing `/research/` |
+| Paul Christiano | paulfchristiano.com | All items |
+| Yoshua Bengio | yoshuabengio.org (AI safety) | All items |
+| Lennart Heim | blog.heim.xyz | All items |
+
+### LessWrong
+GraphQL API — posts with 150+ karma from the past 7 days.
+
+### Trending
+Hacker News (Algolia API, 100+ points) + Reddit (r/aisafety, r/mlsafety, r/ControlProblem) — research-filtered by URL domain and title keywords.
+
 ## How It Works
 
-Python scripts fetch from 30+ sources, deduplicate, filter for research relevance, enrich missing abstracts, and render a static HTML site deployed to GitHub Pages.
-
 ```
-config.yaml → fetchers → dedup → research filter → enrich → render → GitHub Pages
+config.yaml → fetchers → 7-day date filter → dedup → research filter → enrich → render → GitHub Pages
 ```
 
-### Sources
-
-| Type | Sources | Examples |
-|------|---------|----------|
-| **RSS feeds** | 10 feeds | Anthropic, OpenAI, DeepMind, Alignment Forum, Epoch AI |
-| **arXiv** | Keyword search across cs.AI, cs.LG, cs.CL | Safety, alignment, interpretability papers |
-| **Web scrapers** | 18 research org sites | METR, Apollo Research, ARC, MIRI, CAIS, UK AISI, GovAI |
-| **LessWrong** | GraphQL API (150+ karma) | High-quality technical posts |
-| **Trending** | HN + Reddit (research-filtered) | Viral research from r/aisafety, r/mlsafety |
-
-### Pipeline
-
-1. **Fetch** — Each source has a dedicated fetcher returning `Paper` objects
-2. **Deduplicate** — Exact title match, then fuzzy matching (>85% similarity)
-3. **Filter** — Score-based research relevance filter removes news/opinion
-4. **Enrich** — Papers with missing abstracts get them fetched from URLs (arXiv, LessWrong API, meta tags, etc.) or a synthetic fallback
-5. **Render** — Jinja2 template + CSS produces a static site with featured hero section, org filters, and expandable abstracts
-
-## Setup
-
-```bash
-pip install -r requirements.txt
-```
-
-Requires Python 3.9+.
-
-## Usage
-
-```bash
-# Fetch papers and render the site
-python scripts/fetch.py
-python scripts/render.py
-
-# Or do both and open in browser
-bash scripts/update-and-open.sh
-```
-
-The rendered site is written to `site/index.html`.
+1. **Fetch** — Five fetcher types (RSS, arXiv, scraper, LessWrong, trending) collect papers
+2. **Date filter** — Only papers from the last 7 days are kept. Scraped papers without parseable dates are dropped.
+3. **Deduplicate** — Exact title match, then fuzzy matching (>85% similarity)
+4. **Research filter** — 144-term scoring filter removes news/opinion. arXiv always passes. Known research orgs need score >= 1, others >= 2.
+5. **Enrich** — Papers with short/missing abstracts get them fetched from URLs or a synthetic fallback
+6. **Render** — Jinja2 template produces a static site with featured section, org filters, and expandable abstracts
 
 ## Deployment
 
-A GitHub Actions workflow (`.github/workflows/weekly-update.yml`) runs every Monday at 9 AM UTC:
+A GitHub Actions workflow runs every Monday at 9 AM UTC:
 
 1. Fetches papers from all sources
 2. Renders the site
@@ -62,49 +82,37 @@ A GitHub Actions workflow (`.github/workflows/weekly-update.yml`) runs every Mon
 
 You can also trigger it manually from the Actions tab.
 
-## Project Structure
+## Development
 
-```
-├── config.yaml              # Source configuration (feeds, scrapers, keywords)
-├── scripts/
-│   ├── fetch.py             # Main orchestrator — runs the full pipeline
-│   ├── render.py            # Jinja2 → static HTML with featured scoring
-│   ├── models.py            # Paper dataclass and config loader
-│   ├── filter.py            # Research relevance scoring and filtering
-│   ├── dedup.py             # Title-based deduplication
-│   ├── enrich.py            # Abstract extraction and enrichment
-│   └── fetchers/
-│       ├── rss.py           # RSS/Atom feeds via feedparser
-│       ├── arxiv_fetcher.py # arXiv API
-│       ├── scraper.py       # BeautifulSoup web scraper
-│       ├── lesswrong.py     # LessWrong GraphQL API
-│       └── trending.py      # Hacker News + Reddit
-├── templates/
-│   └── index.html.j2        # Jinja2 template
-├── static/
-│   └── style.css            # Stylesheet (inlined at render time)
-├── data/
-│   └── papers.json          # Fetched paper data (committed)
-└── site/
-    └── index.html           # Rendered output (deployed to GitHub Pages)
+```bash
+# Install dependencies
+pip install -r requirements.txt  # Python 3.9+
+
+# Fetch papers and render
+python scripts/fetch.py
+python scripts/render.py
+
+# Or do both and open in browser
+bash scripts/update-and-open.sh
 ```
 
-## Adding Sources
+### Adding a source
 
-**RSS feed** — Add an entry to `rss_feeds` in `config.yaml`:
+**RSS feed** — Add to `rss_feeds` in `config.yaml`:
 ```yaml
 - name: "Example Lab"
   url: "https://example.com/feed.xml"
   org: "Example Lab"
-  keywords: ["research", "paper", "model"]  # optional, filters entries
+  keywords: ["research", "paper", "model"]  # optional
+  categories: ["Research"]                   # optional, filters by RSS <category> tags
 ```
 
-**Web scraper** — Add an entry to `scrapers` in `config.yaml`:
+**Web scraper** — Add to `scrapers` in `config.yaml`:
 ```yaml
 - name: "Example Org"
   url: "https://example.com/research"
   org: "Example Org"
-  link_must_contain: "/research/"  # optional, filters link URLs
+  link_must_contain: "/research/"  # optional
 ```
 
 ## License
