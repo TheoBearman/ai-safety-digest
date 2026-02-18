@@ -17,8 +17,6 @@ import os
 import re
 import sys
 from datetime import datetime, timedelta
-from itertools import groupby
-
 from jinja2 import Environment, FileSystemLoader
 
 # ---------------------------------------------------------------------------
@@ -308,18 +306,6 @@ def select_featured(
     return featured
 
 
-def _org_sort_key(paper: dict) -> tuple:
-    """Return a sort key that puts priority orgs first, then sorts by date."""
-    org = paper.get("organization", "")
-    if org in PRIORITY_ORGS:
-        tier = PRIORITY_ORGS.index(org)
-    else:
-        tier = len(PRIORITY_ORGS)
-    # Within each tier, sort by date descending (negate by using reverse string)
-    date = paper.get("published_date", "")
-    return (tier, date)
-
-
 def extract_organizations(papers: list[dict]) -> list[str]:
     """Return a sorted list of unique organization names from the papers,
     with priority orgs listed first."""
@@ -350,14 +336,8 @@ def render(papers: list[dict], css: str) -> str:
     last_updated = now.strftime("%Y-%m-%d %H:%M:%S %Z").strip()
     organizations = extract_organizations(papers)
 
-    # Sort: priority orgs first, then by date descending within each tier
-    papers = sorted(papers, key=_org_sort_key)
-    # Reverse date order within each tier (sort is stable, so we reverse dates)
-    sorted_papers: list[dict] = []
-    for _tier, group in groupby(papers, key=lambda p: _org_sort_key(p)[0]):
-        tier_papers = sorted(group, key=lambda p: p.get("published_date", ""), reverse=True)
-        sorted_papers.extend(tier_papers)
-    papers = sorted_papers
+    # Sort by published date, newest first
+    papers = sorted(papers, key=lambda p: p.get("published_date", ""), reverse=True)
 
     # --- Hero section: select featured papers with the new algorithm ---
     featured_papers = select_featured(papers, now)
