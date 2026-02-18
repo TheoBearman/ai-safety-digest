@@ -136,16 +136,23 @@ def _extract_date(element) -> Optional[str]:
 
 def _extract_title(element) -> str:
     """Extract a title from headings or the first prominent link."""
-    for tag in ("h1", "h2", "h3", "h4"):
-        heading = element.find(tag)
-        if heading:
-            return heading.get_text(strip=True)
+    # Search both the element and its first link for headings
+    candidates = [element]
+    first_link = element.find("a")
+    if first_link:
+        candidates.append(first_link)
 
-    # Try the first link text
-    link = element.find("a")
-    if link:
-        text = link.get_text(strip=True)
-        if text:
+    for candidate in candidates:
+        for tag in ("h1", "h2", "h3", "h4"):
+            heading = candidate.find(tag)
+            if heading:
+                return heading.get_text(strip=True)
+
+    # Fallback: use link text, but get_text with separator to avoid
+    # concatenation of child elements (title + date + desc + "Read more")
+    if first_link:
+        text = first_link.get_text(" ", strip=True)
+        if text and len(text) <= 200:
             return text
 
     return ""
@@ -292,6 +299,10 @@ def fetch_scraped(scrapers_config: list[dict]) -> list[Paper]:
                 # Filter obvious non-paper content
                 if _is_junk_title(title):
                     continue
+
+                # Truncate garbled titles (e.g. card text with date/desc concatenated)
+                if len(title) > 200:
+                    title = title[:200].rsplit(" ", 1)[0] + "..."
 
                 link = _extract_link(elem, site_url)
 

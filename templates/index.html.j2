@@ -152,11 +152,9 @@
       var currentOrg = 'all';
       var currentMode = 'weekly';
 
-      // Compute the daily cutoff date (1 day before fetch date)
+      // Daily mode shows only papers from the fetch date
       function getDailyCutoff() {
-        var d = new Date(FETCH_DATE + 'T00:00:00');
-        d.setDate(d.getDate() - 1);
-        return d.toISOString().slice(0, 10);
+        return FETCH_DATE;
       }
 
       // Format a date string like "February 18, 2026"

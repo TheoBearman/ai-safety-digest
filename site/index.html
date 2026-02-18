@@ -1225,7 +1225,7 @@ a:hover {
   <footer class="site-footer">
     <div class="footer-inner">
       <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-02-18 16:57:33</p>
+      <p class="footer-timestamp">2026-02-18 17:01:11</p>
     </div>
   </footer>
 
@@ -1251,11 +1251,9 @@ a:hover {
       var currentOrg = 'all';
       var currentMode = 'weekly';
 
-      // Compute the daily cutoff date (1 day before fetch date)
+      // Daily mode shows only papers from the fetch date
       function getDailyCutoff() {
-        var d = new Date(FETCH_DATE + 'T00:00:00');
-        d.setDate(d.getDate() - 1);
-        return d.toISOString().slice(0, 10);
+        return FETCH_DATE;
       }
 
       // Format a date string like "February 18, 2026"
