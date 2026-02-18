@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Safety Weekly Digest — {{ week_start }} to {{ week_end }}</title>
-  <meta name="description" content="A curated weekly digest of {{ total_count }} AI safety research papers from leading organizations and researchers. {{ week_start }} through {{ week_end }}.">
+  <title>AI Safety Digest — {{ week_start }} to {{ week_end }}</title>
+  <meta name="description" content="A curated digest of {{ total_count }} AI safety research papers from leading organizations and researchers. {{ week_start }} through {{ week_end }}.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@
 
   {# ── Reusable paper card macro ── #}
   {%- macro paper_card(paper, card_class="grid-card") -%}
-  <article class="paper-card {{ card_class }}" data-org="{{ paper.organization }}">
+  <article class="paper-card {{ card_class }}" data-org="{{ paper.organization }}" data-date="{{ paper.published_date[:10] }}">
     <div class="paper-meta">
       <span class="org-tag" data-org="{{ paper.organization }}">{{ paper.organization }}</span>
       <span class="paper-date">{{ fmt_date(paper.published_date) }}</span>
@@ -65,14 +65,18 @@
   <!-- Masthead -->
   <header class="site-header">
     <div class="header-inner">
-      <h1 class="site-title">AI Safety Weekly Digest</h1>
+      <h1 class="site-title" id="digest-title">AI Safety Weekly Digest</h1>
       <hr class="header-rule">
       <div class="header-meta">
-        <span class="header-daterange">{{ week_start }} &mdash; {{ week_end }}</span>
+        <span class="header-daterange" id="date-range">{{ week_start }} &mdash; {{ week_end }}</span>
         {%- if total_count %}
         <span class="header-separator">&middot;</span>
-        <span class="header-count"><strong>{{ total_count }}</strong> papers</span>
+        <span class="header-count" id="paper-count"><strong>{{ total_count }}</strong> papers</span>
         {%- endif %}
+      </div>
+      <div class="digest-toggle" role="group" aria-label="Digest time range">
+        <button class="toggle-btn" data-mode="daily">Daily</button>
+        <button class="toggle-btn active" data-mode="weekly">Weekly</button>
       </div>
     </div>
   </header>
@@ -126,43 +130,137 @@
     </div>
   </footer>
 
-  <!-- Filter JS -->
+  <!-- Filter + Digest Mode JS -->
   <script>
     (function () {
+      var FETCH_DATE = '{{ fetch_date }}';
+      var WEEK_START = '{{ week_start }}';
+      var WEEK_END = '{{ week_end }}';
+      var TOTAL_COUNT = {{ total_count }};
+
       var pills = document.querySelectorAll('.filter-pill');
       var cards = document.querySelectorAll('.paper-card');
       var heroSection = document.querySelector('.hero-section');
-      var heroLabel = heroSection ? heroSection.querySelector('.section-label') : null;
       var gridLabel = document.querySelector('.papers-section .section-label');
+      var toggleBtns = document.querySelectorAll('.toggle-btn');
+      var digestTitle = document.getElementById('digest-title');
+      var dateRange = document.getElementById('date-range');
+      var paperCount = document.getElementById('paper-count');
+      var emptyState = document.querySelector('.empty-state');
+      var papersGrid = document.querySelector('.papers-grid');
 
+      var currentOrg = 'all';
+      var currentMode = 'weekly';
+
+      // Compute the daily cutoff date (1 day before fetch date)
+      function getDailyCutoff() {
+        var d = new Date(FETCH_DATE + 'T00:00:00');
+        d.setDate(d.getDate() - 1);
+        return d.toISOString().slice(0, 10);
+      }
+
+      // Format a date string like "February 18, 2026"
+      function formatDateLong(dateStr) {
+        var d = new Date(dateStr + 'T00:00:00');
+        var months = ['January','February','March','April','May','June',
+                      'July','August','September','October','November','December'];
+        return months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+      }
+
+      function applyFilters() {
+        var dailyCutoff = getDailyCutoff();
+        var visible = 0;
+        var heroVisible = 0;
+        var gridVisible = 0;
+
+        cards.forEach(function (card) {
+          var orgMatch = (currentOrg === 'all' || card.getAttribute('data-org') === currentOrg);
+          var dateMatch = true;
+          if (currentMode === 'daily') {
+            var cardDate = card.getAttribute('data-date');
+            dateMatch = (cardDate >= dailyCutoff);
+          }
+          if (orgMatch && dateMatch) {
+            card.style.display = '';
+            visible++;
+            if (card.classList.contains('hero-card')) heroVisible++;
+            if (card.classList.contains('grid-card')) gridVisible++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Show/hide sections
+        if (heroSection) heroSection.style.display = heroVisible > 0 ? '' : 'none';
+        if (gridLabel) gridLabel.style.display = gridVisible > 0 ? '' : 'none';
+
+        // Update header
+        if (currentMode === 'daily') {
+          digestTitle.textContent = 'AI Safety Daily Digest';
+          dateRange.textContent = formatDateLong(FETCH_DATE);
+        } else {
+          digestTitle.textContent = 'AI Safety Weekly Digest';
+          dateRange.innerHTML = WEEK_START + ' &mdash; ' + WEEK_END;
+        }
+
+        // Update paper count
+        if (paperCount) {
+          paperCount.innerHTML = '<strong>' + visible + '</strong> papers';
+        }
+
+        // Handle empty state
+        if (visible === 0) {
+          if (!emptyState) {
+            emptyState = document.createElement('div');
+            emptyState.className = 'empty-state';
+            var main = document.querySelector('.papers-section');
+            if (papersGrid) {
+              main.insertBefore(emptyState, papersGrid);
+            } else {
+              main.appendChild(emptyState);
+            }
+          }
+          emptyState.innerHTML = currentMode === 'daily'
+            ? '<p>No papers found for today.</p><p class="empty-sub">Try the weekly view or check back later.</p>'
+            : '<p>No papers found for this week.</p><p class="empty-sub">Check back soon &mdash; new research is published daily.</p>';
+          emptyState.style.display = '';
+        } else if (emptyState) {
+          emptyState.style.display = 'none';
+        }
+      }
+
+      // Org filter pills
       pills.forEach(function (pill) {
         pill.addEventListener('click', function () {
-          var filter = this.getAttribute('data-filter');
-
-          // Update active pill
+          currentOrg = this.getAttribute('data-filter');
           pills.forEach(function (p) { p.classList.remove('active'); });
           this.classList.add('active');
-
-          // Filter cards and count visible
-          var visible = 0;
-          var heroVisible = 0;
-          var gridVisible = 0;
-          cards.forEach(function (card) {
-            if (filter === 'all' || card.getAttribute('data-org') === filter) {
-              card.style.display = '';
-              visible++;
-              if (card.classList.contains('hero-card')) heroVisible++;
-              if (card.classList.contains('grid-card')) gridVisible++;
-            } else {
-              card.style.display = 'none';
-            }
-          });
-
-          // Show/hide section labels when no cards visible in that section
-          if (heroSection) heroSection.style.display = heroVisible > 0 ? '' : 'none';
-          if (gridLabel) gridLabel.style.display = gridVisible > 0 ? '' : 'none';
+          applyFilters();
         });
       });
+
+      // Digest mode toggle
+      toggleBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          currentMode = this.getAttribute('data-mode');
+          toggleBtns.forEach(function (b) { b.classList.remove('active'); });
+          this.classList.add('active');
+          try { localStorage.setItem('digestMode', currentMode); } catch (e) {}
+          applyFilters();
+        });
+      });
+
+      // Restore saved mode
+      try {
+        var saved = localStorage.getItem('digestMode');
+        if (saved === 'daily' || saved === 'weekly') {
+          currentMode = saved;
+          toggleBtns.forEach(function (b) {
+            b.classList.toggle('active', b.getAttribute('data-mode') === currentMode);
+          });
+          applyFilters();
+        }
+      } catch (e) {}
     })();
   </script>
 

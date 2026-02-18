@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-Weekly AI safety **research** digest. Python scripts fetch from multiple sources, deduplicate, enrich abstracts, filter for research relevance, and render a static HTML site. Deployed via GitHub Pages with a Monday 9AM UTC cron workflow.
+AI safety **research** digest with daily/weekly toggle. Python scripts fetch from multiple sources, deduplicate, enrich abstracts, filter for research relevance, and render a static HTML site. Deployed via GitHub Pages with a daily 9AM UTC cron workflow.
 
 ## Commands
 
@@ -28,11 +28,10 @@ There are no tests or linting configured.
 
 **Pipeline:** `config.yaml` → fetchers → **7-day date filter** → dedup → research filter → enrich → clean → `data/papers.json` → `render.py` → `site/index.html`
 
-**Data model:** Everything flows through `scripts/models.Paper` dataclass. Fields: title, authors, organization, abstract, url, published_date, source_type (`"rss"`, `"arxiv"`, `"scrape"`), source_url, fetched_at. All fetchers must return `list[Paper]`.
+**Data model:** Everything flows through `scripts/models.Paper` dataclass. Fields: title, authors, organization, abstract, url, published_date, source_type (`"rss"`, `"scrape"`), source_url, fetched_at. All fetchers must return `list[Paper]`.
 
 **Fetchers** (`scripts/fetchers/`):
 - `rss.py` — RSS/Atom feeds via feedparser. 7-day window. Three-layer filtering: RSS `categories` tags, explicit per-feed `keywords`, default research keywords.
-- `arxiv_fetcher.py` — arXiv API via `arxiv` package. Searches by keyword+category.
 - `scraper.py` — BeautifulSoup scraper for orgs without RSS. Heuristic article element detection (articles → class-matched elements → heading links → container links). Optional `link_must_contain` filter. Papers without parseable dates are dropped. Supports "Month Year" date format.
 - `lesswrong.py` — LessWrong GraphQL API. Filters by karma threshold (150+) client-side.
 - `trending.py` — HN (Algolia API) + Reddit JSON API. Research content filtering via URL domain checks and title keyword analysis. All use `source_type="rss"`.
@@ -40,16 +39,17 @@ There are no tests or linting configured.
 **Processing** (called by `fetch.py` in order):
 1. **Global 7-day date filter** — Removes all papers older than 7 days. Applied to ALL sources before dedup.
 2. `dedup.py` — Two-pass: exact normalized title match, then SequenceMatcher (ratio > 0.85). Keeps entry with longest abstract.
-3. **Research relevance filter** (`filter.py`) — Scoring-based: 144 research terms checked against title+abstract. arXiv always passes. Known research orgs need score >= 1, others >= 2.
+3. **Research relevance filter** (`filter.py`) — Scoring-based: 144 research terms checked against title+abstract. Known research orgs need score >= 1, others >= 2.
 3. `enrich.py` — Fetches URLs of papers with short/missing abstracts (<50 chars). Strategies: LessWrong GraphQL API, arXiv abs/html pages, meta descriptions, semantic CSS classes, first paragraph. Synthetic fallback for remaining. ThreadPoolExecutor (5 workers), retry on 5xx/timeout, User-Agent rotation.
 4. Abstract cleaning in `fetch.py` — strips HTML, collapses whitespace, removes date prefixes, caps at 150 words.
 
 **Rendering** (`render.py`):
 - Jinja2 template at `templates/index.html.j2`, CSS inlined from `static/style.css`.
-- Featured section: up to 3 papers selected by multi-signal scoring (source authority tiers, abstract richness, research title terms, named authors, arXiv boost, exponential recency decay). Org diversity enforced. Minimum score threshold (12.0).
-- Client-side JS org filter. Dark mode support.
+- Featured section: up to 3 papers selected by multi-signal scoring (source authority tiers, abstract richness, research title terms, named authors, exponential recency decay). Org diversity enforced. Minimum score threshold (12.0).
+- Client-side JS org filter and daily/weekly digest toggle. Dark mode support.
+- Daily/weekly toggle is purely client-side: filters paper cards by `data-date` attribute, updates header text and counts, persists choice in `localStorage`. Backend always fetches 7 days.
 
-**Deployment:** GitHub Pages serves `site/` directory. Weekly cron workflow fetches, renders, commits, and deploys.
+**Deployment:** GitHub Pages serves `site/` directory. Daily cron workflow (9 AM UTC) fetches, renders, commits, and deploys.
 
 ## Adding a New Source
 

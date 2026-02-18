@@ -122,6 +122,11 @@
     --pill-active-bg: #2ca0a0;
     --pill-active-text: #111113;
   }
+
+  .toggle-btn.active {
+    background-color: var(--accent);
+    color: #111113;
+  }
 }
 
 /* --- Reset & Base --- */
@@ -219,6 +224,39 @@ a:hover {
 .header-count strong {
   font-weight: 600;
   color: var(--accent-text);
+}
+
+/* --- Digest Mode Toggle --- */
+.digest-toggle {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  overflow: hidden;
+  margin-top: var(--space-sm);
+}
+
+.toggle-btn {
+  padding: 0.35rem 1rem;
+  font-size: 0.78rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.4;
+}
+
+.toggle-btn:hover {
+  color: var(--text-secondary);
+  background-color: var(--accent-subtle);
+}
+
+.toggle-btn.active {
+  background-color: var(--accent);
+  color: #ffffff;
+  font-weight: 600;
 }
 
 /* --- Filter Bar --- */
@@ -853,5 +891,10 @@ a:hover {
 
   .section-label {
     font-size: 0.65rem;
+  }
+
+  .toggle-btn {
+    font-size: 0.72rem;
+    padding: 0.3rem 0.8rem;
   }
 }

@@ -27,7 +27,6 @@ if PROJECT_ROOT not in sys.path:
 
 from scripts.models import load_config, Paper
 from scripts.fetchers.rss import fetch_rss
-from scripts.fetchers.arxiv_fetcher import fetch_arxiv
 from scripts.fetchers.scraper import fetch_scraped
 from scripts.fetchers.lesswrong import fetch_lesswrong
 from scripts.fetchers.trending import fetch_trending
@@ -91,7 +90,6 @@ def main() -> None:
 
     for label, fetch_fn, cfg_key in [
         ("RSS feeds",   fetch_rss,       "rss_feeds"),
-        ("arXiv",       fetch_arxiv,     "arxiv"),
         ("scrapers",    fetch_scraped,   "scrapers"),
         ("LessWrong",   fetch_lesswrong, "lesswrong"),
         ("trending",    fetch_trending,  "trending"),
@@ -141,7 +139,7 @@ def main() -> None:
     # -- Summary ---------------------------------------------------------------
     counts = Counter(p.source_type for p in papers)
     logger.info("--- Summary ---")
-    for src in ("rss", "arxiv", "scrape"):
+    for src in ("rss", "scrape"):
         logger.info("  %-8s %d papers", src, counts.get(src, 0))
     logger.info("  %-8s %d papers", "TOTAL", len(papers))
 

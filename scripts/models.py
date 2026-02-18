@@ -18,13 +18,13 @@ class Paper:
     abstract: str
     url: str
     published_date: str  # ISO 8601 format
-    source_type: str     # "rss", "arxiv", or "scrape"
+    source_type: str     # "rss" or "scrape"
     source_url: str
     fetched_at: str = field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat()
     )
 
-    VALID_SOURCE_TYPES: ClassVar[list[str]] = ["rss", "arxiv", "scrape"]
+    VALID_SOURCE_TYPES: ClassVar[list[str]] = ["rss", "scrape"]
 
     def __post_init__(self):
         if self.source_type not in self.VALID_SOURCE_TYPES:

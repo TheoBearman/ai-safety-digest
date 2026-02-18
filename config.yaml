@@ -72,22 +72,6 @@ rss_feeds:
     org: "Epoch AI"
     keywords: ["research", "paper", "study", "model", "training", "compute", "scaling", "benchmark", "dataset", "trend", "forecast"]
 
-# --- arXiv keyword search ---
-arxiv:
-  categories: ["cs.AI", "cs.LG", "cs.CL"]
-  keywords:
-    - "AI safety"
-    - "alignment"
-    - "interpretability"
-    - "mechanistic interpretability"
-    - "RLHF"
-    - "scalable oversight"
-    - "AI governance"
-    - "red teaming"
-    - "AI evaluations"
-  max_results: 40
-  days_back: 7
-
 # --- Web scrapers (for orgs without RSS) ---
 scrapers:
   # Frontier lab alignment blogs (no RSS, scraper needed)

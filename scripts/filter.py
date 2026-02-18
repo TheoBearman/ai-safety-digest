@@ -70,13 +70,9 @@ THRESHOLD_RESEARCH_ORG = 1  # known research orgs
 def is_research_relevant(paper: Paper) -> bool:
     """Return True if a paper should be kept based on research relevance.
 
-    - arXiv papers always pass.
     - Known research org papers need >= 1 matching term.
     - All others need >= 2 matching terms.
     """
-    if paper.source_type == "arxiv":
-        return True
-
     searchable = (paper.title + " " + paper.abstract).lower()
     score = sum(1 for term in RESEARCH_TERMS if term in searchable)
 

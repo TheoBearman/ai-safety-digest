@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-render.py — Renders the AI Safety Weekly Digest static site.
+render.py — Renders the AI Safety Digest static site.
 
 Loads paper data from data/papers.json, applies the Jinja2 template,
 inlines the CSS, and writes the final HTML to site/index.html.
@@ -129,7 +129,6 @@ PRIORITY_ORGS: list[str] = [
 # Community/aggregator sources: useful for the grid but should not dominate
 # the featured hero section since they surface others' work, not primary research.
 COMMUNITY_ORGS: set[str] = {
-    "arXiv",
     "Reddit",
     "Hacker News",
     "LessWrong",
@@ -191,11 +190,10 @@ def score_paper(paper: dict, now: datetime | None = None) -> float:
        - Other named orgs (not community): +5
        - COMMUNITY_ORGS: +0
 
-    2. Content quality (0-13 pts)
+    2. Content quality (0-10 pts)
        - Abstract length:  scaled 0-5 based on character count (0-500+ chars)
        - Research-y title: +3 if title matches research term patterns
        - Named authors:    +2 if at least one non-empty, non-"Unknown" author
-       - arXiv source:     +3 boost for source_type == "arxiv"
 
     3. Recency (0-10 pts)
        - Exponential decay: 10 * exp(-0.2 * days_ago)
@@ -242,10 +240,6 @@ def score_paper(paper: dict, now: datetime | None = None) -> float:
     )
     if has_real_author:
         score += 2.0
-
-    # arXiv source type boost (always actual research papers)
-    if source_type == "arxiv":
-        score += 3.0
 
     # ----- 3. Recency (smooth exponential decay) -----
     pub_date = _parse_date(paper.get("published_date", ""))
@@ -352,6 +346,7 @@ def render(papers: list[dict], css: str) -> str:
 
     now = datetime.now()
     week_start, week_end = compute_week_range(now)
+    fetch_date = now.strftime("%Y-%m-%d")
     last_updated = now.strftime("%Y-%m-%d %H:%M:%S %Z").strip()
     organizations = extract_organizations(papers)
 
@@ -376,6 +371,7 @@ def render(papers: list[dict], css: str) -> str:
         total_count=total_count,
         week_start=week_start,
         week_end=week_end,
+        fetch_date=fetch_date,
         last_updated=last_updated,
         organizations=organizations,
         css=css,
