@@ -136,7 +136,10 @@ scrapers:
     org: "IAPS"
     link_must_contain: "/research-paper/"
 
-  # CLTR — longtermresilience.org/research returns 404, JS-rendered SPA
+  - name: "CLTR"
+    url: "https://www.longtermresilience.org/reports/?_reports_filter=artificial-intelligence"
+    org: "CLTR"
+    link_must_contain: "/reports/"
 
   - name: "Epoch AI"
     url: "https://epoch.ai/blog"
