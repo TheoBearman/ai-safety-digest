@@ -1,5 +1,29 @@
 [
   {
+    "title": "A new way to express yourself: Gemini can now create music",
+    "authors": [
+      "Google DeepMind News"
+    ],
+    "organization": "Google DeepMind",
+    "abstract": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images.",
+    "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+    "published_date": "2026-02-18T16:01:38+00:00",
+    "source_type": "rss",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "fetched_at": "2026-02-18T16:47:23.329080+00:00"
+  },
+  {
+    "title": "How We Protect Confidential Information17 February 2026Our high-level approach to protecting confidential access and informationRead more",
+    "authors": [],
+    "organization": "METR",
+    "abstract": "Our high-level approach to protecting confidential access and information Shared components of AI lab commitments to evaluate and mitigate severe risks. External review from METR of Anthropic's Summer 2025 Sabotage Risk Report Details on external recommendations from METR for gpt-oss Preparedness experiments and follow-up from OpenAI. How we think about tradeoffs when communicating surprising or nuanced findings. Current views on information relevant for visibility into frontier AI risk. Suggested priorities for the Office of Science and Technology Policy as it develops an AI Action Plan. Why legible and faithful reasoning is valuable for safely developing powerful AI List of frontier safety policies published by AI companies, including Amazon, Anthropic, Google DeepMind, G42, Meta, Microsoft, OpenAI, and xAI.",
+    "url": "https://metr.org/blog/2026-02-17-how-we-protect-confidential-information/",
+    "published_date": "2026-02-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://metr.org/blog/",
+    "fetched_at": "2026-02-18T16:47:28.811331+00:00"
+  },
+  {
     "title": "Boundary Point Jailbreaking: A new way to break the strongest AI defences",
     "authors": [],
     "organization": "UK AISI",
@@ -8,7 +32,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-17T21:33:35.280506+00:00"
+    "fetched_at": "2026-02-18T16:47:47.553118+00:00"
   },
   {
     "title": "Will reward-seekers respond to distant incentives?",
@@ -21,116 +45,7 @@
     "published_date": "2026-02-16T19:35:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T21:33:28.287290+00:00"
-  },
-  {
-    "title": "Tool-Aware Planning in Contact Center AI: Evaluating LLMs through Lineage-Guided Query Decomposition",
-    "authors": [
-      "Varun Nathan",
-      "Shreyas Guha",
-      "Ayush Kumar"
-    ],
-    "organization": "arXiv",
-    "abstract": "We present a domain-grounded framework and benchmark for tool-aware plan generation in contact centers, where answering a query for business insights, our target use case, requires decomposing it into executable steps over structured tools (Text2SQL (T2S)/Snowflake) and unstructured tools (RAG/transcripts) with explicit depends_on for parallelism. Our contributions are threefold: (i) a reference-based plan evaluation framework operating in two modes - a metric-wise evaluator spanning seven dimensions (e.g., tool-prompt alignment, query adherence) and a one-shot evaluator; (ii) a data curation methodology that iteratively refines plans via an evaluator->optimizer loop to produce high-quality plan lineages (ordered plan revisions) while reducing manual effort; and (iii) a large-scale study of 14 LLMs across sizes and families for their ability to decompose queries into step-by-step, executable, and tool-assigned plans, evaluated under prompts with and without lineage.",
-    "url": "http://arxiv.org/abs/2602.14955v1",
-    "published_date": "2026-02-16T17:36:05+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.631226+00:00"
-  },
-  {
-    "title": "Web-Scale Multimodal Summarization using CLIP-Based Semantic Alignment",
-    "authors": [
-      "Mounvik K",
-      "N Harshit"
-    ],
-    "organization": "arXiv",
-    "abstract": "We introduce Web-Scale Multimodal Summarization, a lightweight framework for generating summaries by combining retrieved text and image data from web sources. Given a user-defined topic, the system performs parallel web, news, and image searches. Retrieved images are ranked using a fine-tuned CLIP model to measure semantic alignment with topic and text. Optional BLIP captioning enables image-only summaries for stronger multimodal coherence.The pipeline supports features such as adjustable fetch limits, semantic filtering, summary styling, and downloading structured outputs. We expose the system via a Gradio-based API with controllable parameters and preconfigured presets.Evaluation on 500 image-caption pairs with 20:1 contrastive negatives yields a ROC-AUC of 0.9270, an F1-score of 0.6504, and an accuracy of 96.99%, demonstrating strong multimodal alignment. This work provides a configurable, deployable tool for web-scale summarization that integrates language, retrieval, and vision models in a user-extensible pipeline.",
-    "url": "http://arxiv.org/abs/2602.14889v1",
-    "published_date": "2026-02-16T16:20:37+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.631341+00:00"
-  },
-  {
-    "title": "Concept Influence: Leveraging Interpretability to Improve Performance and Efficiency in Training Data Attribution",
-    "authors": [
-      "Matthew Kowal",
-      "Goncalo Paulo",
-      "Louis Jaburi",
-      "Tom Tseng",
-      "Lev E McKinney",
-      "Stefan Heimersheim",
-      "Aaron David Tucker",
-      "Adam Gleave",
-      "Kellin Pelrine"
-    ],
-    "organization": "arXiv",
-    "abstract": "As large language models are increasingly trained and fine-tuned, practitioners need methods to identify which training data drive specific behaviors, particularly unintended ones. Training Data Attribution (TDA) methods address this by estimating datapoint influence. Existing approaches like influence functions are both computationally expensive and attribute based on single test examples, which can bias results toward syntactic rather than semantic similarity. To address these issues of scalability and influence to abstract behavior, we leverage interpretable structures within the model during the attribution. First, we introduce Concept Influence which attribute model behavior to semantic directions (such as linear probes or sparse autoencoder features) rather than individual test examples. Second, we show that simple probe-based attribution methods are first-order approximations of Concept Influence that achieve comparable performance while being over an order-of-magnitude faster.",
-    "url": "http://arxiv.org/abs/2602.14869v1",
-    "published_date": "2026-02-16T16:02:09+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.631484+00:00"
-  },
-  {
-    "title": "Interactionless Inverse Reinforcement Learning: A Data-Centric Framework for Durable Alignment",
-    "authors": [
-      "Elias Malomgré",
-      "Pieter Simoens"
-    ],
-    "organization": "arXiv",
-    "abstract": "AI alignment is growing in importance, yet current approaches suffer from a critical structural flaw that entangles the safety objectives with the agent's policy. Methods such as Reinforcement Learning from Human Feedback and Direct Preference Optimization create opaque, single-use alignment artifacts, which we term Alignment Waste. We propose Interactionless Inverse Reinforcement Learning to decouple alignment artifact learning from policy optimization, producing an inspectable, editable, and model-agnostic reward model. Additionally, we introduce the Alignment Flywheel, a human-in-the-loop lifecycle that iteratively hardens the reward model through automated audits and refinement. This architecture transforms safety from a disposable expense into a durable, verifiable engineering asset.",
-    "url": "http://arxiv.org/abs/2602.14844v1",
-    "published_date": "2026-02-16T15:40:10+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.631594+00:00"
-  },
-  {
-    "title": "Alignment Adapter to Improve the Performance of Compressed Deep Learning Models",
-    "authors": [
-      "Rohit Raj Rai",
-      "Abhishek Dhaka",
-      "Amit Awekar"
-    ],
-    "organization": "arXiv",
-    "abstract": "Compressed Deep Learning (DL) models are essential for deployment in resource-constrained environments. But their performance often lags behind their large-scale counterparts. To bridge this gap, we propose Alignment Adapter (AlAd): a lightweight, sliding-window-based adapter. It aligns the token-level embeddings of a compressed model with those of the original large model. AlAd preserves local contextual semantics, enables flexible alignment across differing dimensionalities or architectures, and is entirely agnostic to the underlying compression method. AlAd can be deployed in two ways: as a plug-and-play module over a frozen compressed model, or by jointly fine-tuning AlAd with the compressed model for further performance gains. Through experiments on BERT-family models across three token-level NLP tasks, we demonstrate that AlAd significantly boosts the performance of compressed models with only marginal overhead in size and latency.",
-    "url": "http://arxiv.org/abs/2602.14635v1",
-    "published_date": "2026-02-16T10:53:02+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.631699+00:00"
-  },
-  {
-    "title": "Socially-Weighted Alignment: A Game-Theoretic Framework for Multi-Agent LLM Systems",
-    "authors": [
-      "Furkan Mumcu",
-      "Yasin Yilmaz"
-    ],
-    "organization": "arXiv",
-    "abstract": "Deploying large language model (LLM) agents in shared environments introduces a fundamental tension between individual alignment and collective stability: locally rational decisions can impose negative externalities that degrade system-level performance. We propose Socially-Weighted Alignment (SWA), a game-theoretic framework that modifies inference-time decision making by interpolating between an agent's private objective and an estimate of group welfare via a social weight $λ\\in[0,1]$. In a shared-resource congestion game with $n$ agents and congestion severity $β$, we show that SWA induces a critical threshold $λ^*=(n-β)/(n-1)$ above which agents no longer have marginal incentive to increase demand under overload, yielding a phase transition from persistent congestion to stable operation near capacity. We further provide an inference-time algorithmic instantiation of SWA that does not require parameter updates or multi-agent reinforcement learning, and use a multi-agent simulation to empirically validate the predicted threshold behavior.",
-    "url": "http://arxiv.org/abs/2602.14471v1",
-    "published_date": "2026-02-16T05:17:58+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.631797+00:00"
-  },
-  {
-    "title": "A unified framework for evaluating the robustness of machine-learning interpretability for prospect risking",
-    "authors": [
-      "Prithwijit Chowdhury",
-      "Ahmad Mustafa",
-      "Mohit Prabhushankar",
-      "Ghassan AlRegib"
-    ],
-    "organization": "arXiv",
-    "abstract": "In geophysics, hydrocarbon prospect risking involves assessing the risks associated with hydrocarbon exploration by integrating data from various sources. Machine learning-based classifiers trained on tabular data have been recently used to make faster decisions on these prospects. The lack of transparency in the decision-making processes of such models has led to the emergence of explainable AI (XAI). LIME and SHAP are two such examples of these XAI methods which try to generate explanations of a particular decision by ranking the input features in terms of importance. However, explanations of the same scenario generated by these two different explanation strategies have shown to disagree or be different, particularly for complex data. This is because the definitions of \"importance\" and \"relevance\" differ for different explanation strategies.",
-    "url": "http://arxiv.org/abs/2602.14430v1",
-    "published_date": "2026-02-16T03:32:10+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.631890+00:00"
+    "fetched_at": "2026-02-18T16:47:26.815274+00:00"
   },
   {
     "title": "“Will reward-seekers respond to distant incentives?” by Alex Mallen",
@@ -143,57 +58,7 @@
     "published_date": "2026-02-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-17T21:33:08.543515+00:00"
-  },
-  {
-    "title": "GRAIL: Goal Recognition Alignment through Imitation Learning",
-    "authors": [
-      "Osher Elhadad",
-      "Felipe Meneguzzi",
-      "Reuth Mirsky"
-    ],
-    "organization": "arXiv",
-    "abstract": "Understanding an agent's goals from its behavior is fundamental to aligning AI systems with human intentions. Existing goal recognition methods typically rely on an optimal goal-oriented policy representation, which may differ from the actor's true behavior and hinder the accurate recognition of their goal. To address this gap, this paper introduces Goal Recognition Alignment through Imitation Learning (GRAIL), which leverages imitation learning and inverse reinforcement learning to learn one goal-directed policy for each candidate goal directly from (potentially suboptimal) demonstration trajectories. By scoring an observed partial trajectory with each learned goal-directed policy in a single forward pass, GRAIL retains the one-shot inference capability of classical goal recognition while leveraging learned policies that can capture suboptimal and systematically biased behavior.",
-    "url": "http://arxiv.org/abs/2602.14252v1",
-    "published_date": "2026-02-15T17:45:03+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.631983+00:00"
-  },
-  {
-    "title": "REAL: Resolving Knowledge Conflicts in Knowledge-Intensive Visual Question Answering via Reasoning-Pivot Alignment",
-    "authors": [
-      "Kai Ye",
-      "Xianwei Mao",
-      "Sheng Zhou",
-      "Zirui Shao",
-      "Ye Mo",
-      "Liangliang Liu",
-      "Haikuan Huang",
-      "Bin Li",
-      "Jiajun Bu"
-    ],
-    "organization": "arXiv",
-    "abstract": "Knowledge-intensive Visual Question Answering (KI-VQA) frequently suffers from severe knowledge conflicts caused by the inherent limitations of open-domain retrieval. However, existing paradigms face critical limitations due to the lack of generalizable conflict detection and intra-model constraint mechanisms to handle conflicting evidence. To address these challenges, we propose the REAL (Reasoning-Pivot Alignment) framework centered on the novel concept of the Reasoning-Pivot. Distinct from reasoning steps that prioritize internal self-derivation, a reasoning-pivot serves as an atomic unit (node or edge) in the reasoning chain that emphasizes knowledge linkage, and it typically relies on external evidence to complete the reasoning. Supported by our constructed REAL-VQA dataset, our approach integrates Reasoning-Pivot Aware SFT (RPA-SFT) to train a generalizable discriminator by aligning conflicts with pivot extraction, and employs Reasoning-Pivot Guided Decoding (RPGD), an intra-model decoding strategy that leverages these pivots for targeted conflict mitigation.",
-    "url": "http://arxiv.org/abs/2602.14065v1",
-    "published_date": "2026-02-15T09:29:53+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632081+00:00"
-  },
-  {
-    "title": "Bridging AI and Clinical Reasoning: Abductive Explanations for Alignment on Critical Symptoms",
-    "authors": [
-      "Belona Sonna",
-      "Alban Grastien"
-    ],
-    "organization": "arXiv",
-    "abstract": "Artificial intelligence (AI) has demonstrated strong potential in clinical diagnostics, often achieving accuracy comparable to or exceeding that of human experts. A key challenge, however, is that AI reasoning frequently diverges from structured clinical frameworks, limiting trust, interpretability, and adoption. Critical symptoms, pivotal for rapid and accurate decision-making, may be overlooked by AI models even when predictions are correct. Existing post hoc explanation methods provide limited transparency and lack formal guarantees. To address this, we leverage formal abductive explanations, which offer consistent, guaranteed reasoning over minimal sufficient feature sets. This enables a clear understanding of AI decision-making and allows alignment with clinical reasoning. Our approach preserves predictive accuracy while providing clinically actionable insights, establishing a robust framework for trustworthy AI in medical diagnosis.",
-    "url": "http://arxiv.org/abs/2602.13985v1",
-    "published_date": "2026-02-15T04:27:59+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632160+00:00"
+    "fetched_at": "2026-02-18T16:47:26.294459+00:00"
   },
   {
     "title": "AXRP Episode 48 - Guive Assadi on AI Property Rights",
@@ -206,7 +71,7 @@
     "published_date": "2026-02-15T02:20:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T21:33:28.288516+00:00"
+    "fetched_at": "2026-02-18T16:47:26.816545+00:00"
   },
   {
     "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
@@ -217,306 +82,7 @@
     "published_date": "2026-02-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-02-17T21:33:30.911952+00:00"
-  },
-  {
-    "title": "GSRM: Generative Speech Reward Model for Speech RLHF",
-    "authors": [
-      "Maohao Shen",
-      "Tejas Jayashankar",
-      "Osama Hanna",
-      "Naoyuki Kanda",
-      "Yancheng Wang",
-      "Kateřina Žmolíková",
-      "Ruiming Xie",
-      "Niko Moritz",
-      "Anfeng Xu",
-      "Yashesh Gaur",
-      "Gregory Wornell",
-      "Qing He",
-      "Jilong Wu"
-    ],
-    "organization": "arXiv",
-    "abstract": "Recent advances in speech language models, such as GPT-4o Voice Mode and Gemini Live, have demonstrated promising speech generation capabilities. Nevertheless, the aesthetic naturalness of the synthesized audio still lags behind that of human speech. Enhancing generation quality requires a reliable evaluator of speech naturalness. However, existing naturalness evaluators typically regress raw audio to scalar scores, offering limited interpretability of the evaluation and moreover fail to generalize to speech across different taxonomies. Inspired by recent advances in generative reward modeling, we propose the Generative Speech Reward Model (GSRM), a reasoning-centric reward model tailored for speech. The GSRM is trained to decompose speech naturalness evaluation into an interpretable acoustic feature extraction stage followed by feature-grounded chain-of-thought reasoning, enabling explainable judgments. To achieve this, we curated a large-scale human feedback dataset comprising 31k expert ratings and an out-of-domain benchmark of real-world user-assistant speech interactions.",
-    "url": "http://arxiv.org/abs/2602.13891v1",
-    "published_date": "2026-02-14T21:22:55+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632283+00:00"
-  },
-  {
-    "title": "Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages",
-    "authors": [
-      "Somnath Banerjee",
-      "Rima Hazra",
-      "Animesh Mukherjee"
-    ],
-    "organization": "arXiv",
-    "abstract": "Large language models (LLMs) are being deployed across the Global South, where everyday use involves low-resource languages, code-mixing, and culturally specific norms. Yet safety pipelines, benchmarks, and alignment still largely target English and a handful of high-resource languages, implicitly assuming safety and factuality ''transfer'' across languages. Evidence increasingly shows they do not. We synthesize recent findings indicating that (i) safety guardrails weaken sharply on low-resource and code-mixed inputs, (ii) culturally harmful behavior can persist even when standard toxicity scores look acceptable, and (iii) English-only knowledge edits and safety patches often fail to carry over to low-resource languages. In response, we outline a practical agenda for researchers and students in the Global South: parameter-efficient safety steering, culturally grounded evaluation and preference data, and participatory workflows that empower local communities to define and mitigate harm. Our aim is to make multilingual safety a core requirement-not an add-on-for equitable AI in underrepresented regions.",
-    "url": "http://arxiv.org/abs/2602.13867v1",
-    "published_date": "2026-02-14T19:56:40+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632370+00:00"
-  },
-  {
-    "title": "sleep2vec: Unified Cross-Modal Alignment for Heterogeneous Nocturnal Biosignals",
-    "authors": [
-      "Weixuan Yuan",
-      "Zengrui Jin",
-      "Yichen Wang",
-      "Donglin Xie",
-      "Ziyi Ye",
-      "Chao Zhang",
-      "Xuesong Chen"
-    ],
-    "organization": "arXiv",
-    "abstract": "Tasks ranging from sleep staging to clinical diagnosis traditionally rely on standard polysomnography (PSG) devices, bedside monitors and wearable devices, which capture diverse nocturnal biosignals (e.g., EEG, EOG, ECG, SpO$_2$). However, heterogeneity across devices and frequent sensor dropout pose significant challenges for unified modelling of these multimodal signals. We present \\texttt{sleep2vec}, a foundation model for diverse and incomplete nocturnal biosignals that learns a shared representation via cross-modal alignment. \\texttt{sleep2vec} is contrastively pre-trained on 42,249 overnight recordings spanning nine modalities using a \\textit{Demography, Age, Site \\& History-aware InfoNCE} objective that incorporates physiological and acquisition metadata (\\textit{e.g.}, age, gender, recording site) to dynamically weight negatives and mitigate cohort-specific shortcuts. On downstream sleep staging and clinical outcome assessment, \\texttt{sleep2vec} consistently outperforms strong baselines and remains robust to any subset of available modalities and sensor dropout.",
-    "url": "http://arxiv.org/abs/2602.13857v1",
-    "published_date": "2026-02-14T19:40:04+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632458+00:00"
-  },
-  {
-    "title": "Experimentation Accelerator: Interpretable Insights and Creative Recommendations for A/B Testing with Content-Aware ranking",
-    "authors": [
-      "Zhengmian Hu",
-      "Lei Shi",
-      "Ritwik Sinha",
-      "Justin Grover",
-      "David Arbour"
-    ],
-    "organization": "arXiv",
-    "abstract": "Modern online experimentation faces two bottlenecks: scarce traffic forces tough choices on which variants to test, and post-hoc insight extraction is manual, inconsistent, and often content-agnostic. Meanwhile, organizations underuse historical A/B results and rich content embeddings that could guide prioritization and creative iteration. We present a unified framework to (i) prioritize which variants to test, (ii) explain why winners win, and (iii) surface targeted opportunities for new, higher-potential variants. Leveraging treatment embeddings and historical outcomes, we train a CTR ranking model with fixed effects for contextual shifts that scores candidates while balancing value and content diversity. For better interpretability and understanding, we project treatments onto curated semantic marketing attributes and re-express the ranker in this space via a sign-consistent, sparse constrained Lasso, yielding per-attribute coefficients and signed contributions for visual explanations, top-k drivers, and natural-language insights.",
-    "url": "http://arxiv.org/abs/2602.13852v1",
-    "published_date": "2026-02-14T19:22:58+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632545+00:00"
-  },
-  {
-    "title": "Interpretable clustering via optimal multiway-split decision trees",
-    "authors": [
-      "Hayato Suzuki",
-      "Shunnosuke Ikeda",
-      "Yuichi Takano"
-    ],
-    "organization": "arXiv",
-    "abstract": "Clustering serves as a vital tool for uncovering latent data structures, and achieving both high accuracy and interpretability is essential. To this end, existing methods typically construct binary decision trees by solving mixed-integer nonlinear optimization problems, often leading to significant computational costs and suboptimal solutions. Furthermore, binary decision trees frequently result in excessively deep structures, which makes them difficult to interpret. To mitigate these issues, we propose an interpretable clustering method based on optimal multiway-split decision trees, formulated as a 0-1 integer linear optimization problem. This reformulation renders the optimization problem more tractable compared to existing models. A key feature of our method is the integration of a one-dimensional K-means algorithm for the discretization of continuous variables, allowing for flexible and data-driven branching. Extensive numerical experiments on publicly available real-world datasets demonstrate that our method outperforms baseline methods in terms of clustering accuracy and interpretability.",
-    "url": "http://arxiv.org/abs/2602.13586v1",
-    "published_date": "2026-02-14T04:08:52+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632618+00:00"
-  },
-  {
-    "title": "Elo-Evolve: A Co-evolutionary Framework for Language Model Alignment",
-    "authors": [
-      "Jing Zhao",
-      "Ting Zhen",
-      "Junwei bao",
-      "Hongfei Jiang",
-      "Yang song"
-    ],
-    "organization": "arXiv",
-    "abstract": "Current alignment methods for Large Language Models (LLMs) rely on compressing vast amounts of human preference data into static, absolute reward functions, leading to data scarcity, noise sensitivity, and training instability. We introduce Elo-Evolve, a co-evolutionary framework that redefines alignment as dynamic multi-agent competition within an adaptive opponent pool. Our approach makes two key innovations: (1) eliminating Bradley-Terry model dependencies by learning directly from binary win/loss outcomes in pairwise competitions, and (2) implementing Elo-orchestrated opponent selection that provides automatic curriculum learning through temperature-controlled sampling. We ground our approach in PAC learning theory, demonstrating that pairwise comparison achieves superior sample complexity and empirically validate a 4.5x noise reduction compared to absolute scoring approaches. Experimentally, we train a Qwen2.5-7B model using our framework with opponents including Qwen2.5-14B, Qwen2.5-32B, and Qwen3-8B models.",
-    "url": "http://arxiv.org/abs/2602.13575v1",
-    "published_date": "2026-02-14T03:18:52+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632663+00:00"
-  },
-  {
-    "title": "Mitigating the Safety-utility Trade-off in LLM Alignment via Adaptive Safe Context Learning",
-    "authors": [
-      "Yanbo Wang",
-      "Minzheng Wang",
-      "Jian Liang",
-      "Lu Wang",
-      "Yongcan Yu",
-      "Ran He"
-    ],
-    "organization": "arXiv",
-    "abstract": "While reasoning models have achieved remarkable success in complex reasoning tasks, their increasing power necessitates stringent safety measures. For safety alignment, the core challenge lies in the inherent trade-off between safety and utility. However, prevailing alignment strategies typically construct CoT training data with explicit safety rules via context distillation. This approach inadvertently limits reasoning capabilities by creating a rigid association between rule memorization and refusal. To mitigate the safety-utility trade-off, we propose the Adaptive Safe Context Learning (ASCL) framework to improve the reasoning given proper context. ASCL formulates safety alignment as a multi-turn tool-use process, empowering the model to autonomously decide when to consult safety rules and how to generate the ongoing reasoning. Furthermore, to counteract the preference for rule consultation during RL, we introduce Inverse Frequency Policy Optimization (IFPO) to rebalance advantage estimates. By decoupling rule retrieval and subsequent reasoning, our method achieves higher overall performance compared to baselines.",
-    "url": "http://arxiv.org/abs/2602.13562v1",
-    "published_date": "2026-02-14T02:37:36+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632708+00:00"
-  },
-  {
-    "title": "Singular Vectors of Attention Heads Align with Features",
-    "authors": [
-      "Gabriel Franco",
-      "Carson Loughridge",
-      "Mark Crovella"
-    ],
-    "organization": "arXiv",
-    "abstract": "Identifying feature representations in language models is a central task in mechanistic interpretability. Several recent studies have made an implicit assumption that feature representations can be inferred in some cases from singular vectors of attention matrices. However, sound justification for this assumption is lacking. In this paper we address that question, asking: why and when do singular vectors align with features? First, we demonstrate that singular vectors robustly align with features in a model where features can be directly observed. We then show theoretically that such alignment is expected under a range of conditions. We close by asking how, operationally, alignment may be recognized in real models where feature representations are not directly observable. We identify sparse attention decomposition as a testable prediction of alignment, and show evidence that it emerges in a manner consistent with predictions in real models.",
-    "url": "http://arxiv.org/abs/2602.13524v1",
-    "published_date": "2026-02-13T23:30:02+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632746+00:00"
-  },
-  {
-    "title": "Federated Learning of Nonlinear Temporal Dynamics with Graph Attention-based Cross-Client Interpretability",
-    "authors": [
-      "Ayse Tursucular",
-      "Ayush Mohanty",
-      "Nazal Mohamed",
-      "Nagi Gebraeel"
-    ],
-    "organization": "arXiv",
-    "abstract": "Networks of modern industrial systems are increasingly monitored by distributed sensors, where each system comprises multiple subsystems generating high dimensional time series data. These subsystems are often interdependent, making it important to understand how temporal patterns at one subsystem relate to others. This is challenging in decentralized settings where raw measurements cannot be shared and client observations are heterogeneous. In practical deployments each subsystem (client) operates a fixed proprietary model that cannot be modified or retrained, limiting existing approaches. Nonlinear dynamics further make cross client temporal interdependencies difficult to interpret because they are embedded in nonlinear state transition functions. We present a federated framework for learning temporal interdependencies across clients under these constraints. Each client maps high dimensional local observations to low dimensional latent states using a nonlinear state space model.",
-    "url": "http://arxiv.org/abs/2602.13485v1",
-    "published_date": "2026-02-13T21:41:52+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632787+00:00"
-  },
-  {
-    "title": "Finding Highly Interpretable Prompt-Specific Circuits in Language Models",
-    "authors": [
-      "Gabriel Franco",
-      "Lucas M. Tassis",
-      "Azalea Rohr",
-      "Mark Crovella"
-    ],
-    "organization": "arXiv",
-    "abstract": "Understanding the internal circuits that language models use to solve tasks remains a central challenge in mechanistic interpretability. Most prior work identifies circuits at the task level by averaging across many prompts, implicitly assuming a single stable mechanism per task. We show that this assumption can obscure a crucial source of structure: circuits are prompt-specific, even within a fixed task. Building on attention causal communication (ACC) (Franco & Crovella, 2025), we introduce ACC++, refinements that extract cleaner, lower-dimensional causal signals inside attention heads from a single forward pass. Like ACC, our approach does not require replacement models (e.g., SAEs) or activation patching; ACC++ further improves circuit precision by reducing attribution noise. Applying ACC++ to indirect object identification (IOI) in GPT-2, Pythia, and Gemma 2, we find there is no single circuit for IOI in any model: different prompt templates induce systematically different mechanisms.",
-    "url": "http://arxiv.org/abs/2602.13483v1",
-    "published_date": "2026-02-13T21:41:17+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632827+00:00"
-  },
-  {
-    "title": "Towards interpretable models for language proficiency assessment: Predicting the CEFR level of Estonian learner texts",
-    "authors": [
-      "Kais Allkivi"
-    ],
-    "organization": "arXiv",
-    "abstract": "Using NLP to analyze authentic learner language helps to build automated assessment and feedback tools. It also offers new and extensive insights into the development of second language production. However, there is a lack of research explicitly combining these aspects. This study aimed to classify Estonian proficiency examination writings (levels A2-C1), assuming that careful feature selection can lead to more explainable and generalizable machine learning models for language testing. Various linguistic properties of the training data were analyzed to identify relevant proficiency predictors associated with increasing complexity and correctness, rather than the writing task. Such lexical, morphological, surface, and error features were used to train classification models, which were compared to models that also allowed for other features. The pre-selected features yielded a similar test accuracy but reduced variation in the classification of different text types. The best classifiers achieved an accuracy of around 0.9.",
-    "url": "http://arxiv.org/abs/2602.13102v1",
-    "published_date": "2026-02-13T17:06:17+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632862+00:00"
-  },
-  {
-    "title": "MoralityGym: A Benchmark for Evaluating Hierarchical Moral Alignment in Sequential Decision-Making Agents",
-    "authors": [
-      "Simon Rosen",
-      "Siddarth Singh",
-      "Ebenezer Gelo",
-      "Helen Sarah Robertson",
-      "Ibrahim Suder",
-      "Victoria Williams",
-      "Benjamin Rosman",
-      "Geraud Nangue Tasse",
-      "Steven James"
-    ],
-    "organization": "arXiv",
-    "abstract": "Evaluating moral alignment in agents navigating conflicting, hierarchically structured human norms is a critical challenge at the intersection of AI safety, moral philosophy, and cognitive science. We introduce Morality Chains, a novel formalism for representing moral norms as ordered deontic constraints, and MoralityGym, a benchmark of 98 ethical-dilemma problems presented as trolley-dilemma-style Gymnasium environments. By decoupling task-solving from moral evaluation and introducing a novel Morality Metric, MoralityGym allows the integration of insights from psychology and philosophy into the evaluation of norm-sensitive reasoning. Baseline results with Safe RL methods reveal key limitations, underscoring the need for more principled approaches to ethical decision-making. This work provides a foundation for developing AI systems that behave more reliably, transparently, and ethically in complex real-world contexts.",
-    "url": "http://arxiv.org/abs/2602.13372v1",
-    "published_date": "2026-02-13T15:40:32+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632907+00:00"
-  },
-  {
-    "title": "Human-Aligned MLLM Judges for Fine-Grained Image Editing Evaluation: A Benchmark, Framework, and Analysis",
-    "authors": [
-      "Runzhou Liu",
-      "Hailey Weingord",
-      "Sejal Mittal",
-      "Prakhar Dungarwal",
-      "Anusha Nandula",
-      "Bo Ni",
-      "Samyadeep Basu",
-      "Hongjie Chen",
-      "Nesreen K. Ahmed",
-      "Li Li",
-      "Jiayi Zhang",
-      "Koustava Goswami",
-      "Subhojyoti Mukherjee",
-      "Branislav Kveton",
-      "Puneet Mathur",
-      "Franck Dernoncourt",
-      "Yue Zhao",
-      "Yu Wang",
-      "Ryan A. Rossi",
-      "Zhengzhong Tu",
-      "Hongru Du"
-    ],
-    "organization": "arXiv",
-    "abstract": "Evaluating image editing models remains challenging due to the coarse granularity and limited interpretability of traditional metrics, which often fail to capture aspects important to human perception and intent. Such metrics frequently reward visually plausible outputs while overlooking controllability, edit localization, and faithfulness to user instructions. In this work, we introduce a fine-grained Multimodal Large Language Model (MLLM)-as-a-Judge framework for image editing that decomposes common evaluation notions into twelve fine-grained interpretable factors spanning image preservation, edit quality, and instruction fidelity. Building on this formulation, we present a new human-validated benchmark that integrates human judgments, MLLM-based evaluations, model outputs, and traditional metrics across diverse image editing tasks. Through extensive human studies, we show that the proposed MLLM judges align closely with human evaluations at a fine granularity, supporting their use as reliable and scalable evaluators.",
-    "url": "http://arxiv.org/abs/2602.13028v1",
-    "published_date": "2026-02-13T15:34:32+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.632967+00:00"
-  },
-  {
-    "title": "Synaptic Activation and Dual Liquid Dynamics for Interpretable Bio-Inspired Models",
-    "authors": [
-      "Mónika Farsang",
-      "Radu Grosu"
-    ],
-    "organization": "arXiv",
-    "abstract": "In this paper, we present a unified framework for various bio-inspired models to better understand their structural and functional differences. We show that liquid-capacitance-extended models lead to interpretable behavior even in dense, all-to-all recurrent neural network (RNN) policies. We further demonstrate that incorporating chemical synapses improves interpretability and that combining chemical synapses with synaptic activation yields the most accurate and interpretable RNN models. To assess the accuracy and interpretability of these RNN policies, we consider the challenging lane-keeping control task and evaluate performance across multiple metrics, including turn-weighted validation loss, neural activity during driving, absolute correlation between neural activity and road trajectory, saliency maps of the networks' attention, and the robustness of their saliency maps measured by the structural similarity index.",
-    "url": "http://arxiv.org/abs/2602.13017v1",
-    "published_date": "2026-02-13T15:23:37+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633005+00:00"
-  },
-  {
-    "title": "RGAlign-Rec: Ranking-Guided Alignment for Latent Query Reasoning in Recommendation Systems",
-    "authors": [
-      "Junhua Liu",
-      "Yang Jihao",
-      "Cheng Chang",
-      "Kunrong LI",
-      "Bin Fu",
-      "Kwan Hui Lim"
-    ],
-    "organization": "arXiv",
-    "abstract": "Proactive intent prediction is a critical capability in modern e-commerce chatbots, enabling \"zero-query\" recommendations by anticipating user needs from behavioral and contextual signals. However, existing industrial systems face two fundamental challenges: (1) the semantic gap between discrete user features and the semantic intents within the chatbot's Knowledge Base, and (2) the objective misalignment between general-purpose LLM outputs and task-specific ranking utilities. To address these issues, we propose RGAlign-Rec, a closed-loop alignment framework that integrates an LLM-based semantic reasoner with a Query-Enhanced (QE) ranking model. We also introduce Ranking-Guided Alignment (RGA), a multi-stage training paradigm that utilizes downstream ranking signals as feedback to refine the LLM's latent reasoning. Extensive experiments on a large-scale industrial dataset from Shopee demonstrate that RGAlign-Rec achieves a 0.12% gain in GAUC, leading to a significant 3.52% relative reduction in error rate, and a 0.56% improvement in Recall@3.",
-    "url": "http://arxiv.org/abs/2602.12968v1",
-    "published_date": "2026-02-13T14:38:02+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633047+00:00"
-  },
-  {
-    "title": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
-    "authors": [
-      "Chen Yang",
-      "Guangyue Peng",
-      "Jiaying Zhu",
-      "Ran Le",
-      "Ruixiang Feng",
-      "Tao Zhang",
-      "Xiyun Xu",
-      "Yang Song",
-      "Yiming Jia",
-      "Yuntao Wen",
-      "Yunzhi Xu",
-      "Zekai Wang",
-      "Zhenwei An",
-      "Zhicong Sun",
-      "Zongchao Chen"
-    ],
-    "organization": "arXiv",
-    "abstract": "We present Nanbeige4.1-3B, a unified generalist language model that simultaneously achieves strong agentic behavior, code generation, and general reasoning with only 3B parameters. To the best of our knowledge, it is the first open-source small language model (SLM) to achieve such versatility in a single model. To improve reasoning and preference alignment, we combine point-wise and pair-wise reward modeling, ensuring high-quality, human-aligned responses. For code generation, we design complexity-aware rewards in Reinforcement Learning, optimizing both correctness and efficiency. In deep search, we perform complex data synthesis and incorporate turn-level supervision during training. This enables stable long-horizon tool interactions, allowing Nanbeige4.1-3B to reliably execute up to 600 tool-call turns for complex problem-solving. Extensive experimental results show that Nanbeige4.1-3B significantly outperforms prior models of similar scale, such as Nanbeige4-3B-2511 and Qwen3-4B, even achieving superior performance compared to much larger models, such as Qwen3-30B-A3B.",
-    "url": "http://arxiv.org/abs/2602.13367v1",
-    "published_date": "2026-02-13T13:10:46+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633099+00:00"
+    "fetched_at": "2026-02-18T16:47:28.537484+00:00"
   },
   {
     "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -529,56 +95,20 @@
     "published_date": "2026-02-13T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-17T21:33:07.691853+00:00"
+    "fetched_at": "2026-02-18T16:47:25.507282+00:00"
   },
   {
-    "title": "ADEPT: RL-Aligned Agentic Decoding of Emotion via Evidence Probing Tools -- From Consensus Learning to Ambiguity-Driven Emotion Reasoning",
+    "title": "models have some pretty funny attractor states",
     "authors": [
-      "Esther Sun",
-      "Bo-Hao Su",
-      "Abinay Reddy Naini",
-      "Shinji Watanabe",
-      "Carlos Busso"
+      "aryaj"
     ],
-    "organization": "arXiv",
-    "abstract": "Speech Large Language Models (SLLMs) enable high-level emotion reasoning but often produce ungrounded, text-biased judgments without verifiable acoustic evidence. In contrast, self-supervised speech encoders such as WavLM provide strong acoustic representations yet remain opaque discriminative models with limited interpretability. To bridge this gap, we introduce ADEPT (Agentic Decoding of Emotion via Evidence Probing Tools), a framework that reframes emotion recognition as a multi-turn inquiry process rather than a single-pass prediction. ADEPT transforms an SLLM into an agent that maintains an evolving candidate emotion set and adaptively invokes dedicated semantic and acoustic probing tools within a structured pipeline of candidate generation, evidence collection, and adjudication. Crucially, ADEPT enables a paradigm shift from consensus learning to ambiguity-driven emotion reasoning. Since human affect exhibits inherent complexity and frequent co-occurrence of emotions, we treat minority annotations as informative perceptual signals rather than discarding them as noise.",
-    "url": "http://arxiv.org/abs/2602.12714v1",
-    "published_date": "2026-02-13T08:33:37+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633139+00:00"
-  },
-  {
-    "title": "Power Interpretable Causal ODE Networks: A Unified Model for Explainable Anomaly Detection and Root Cause Analysis in Power Systems",
-    "authors": [
-      "Yue Sun",
-      "Likai Wang",
-      "Rick S. Blum",
-      "Parv Venkitasubramaniam"
-    ],
-    "organization": "arXiv",
-    "abstract": "Anomaly detection and root cause analysis (RCA) are critical for ensuring the safety and resilience of cyber-physical systems such as power grids. However, existing machine learning models for time series anomaly detection often operate as black boxes, offering only binary outputs without any explanation, such as identifying anomaly type and origin. To address this challenge, we propose Power Interpretable Causality Ordinary Differential Equation (PICODE) Networks, a unified, causality-informed architecture that jointly performs anomaly detection along with the explanation why it is detected as an anomaly, including root cause localization, anomaly type classification, and anomaly shape characterization. Experimental results in power systems demonstrate that PICODE achieves competitive detection performance while offering improved interpretability and reduced reliance on labeled data or external causal graphs. We provide theoretical results demonstrating the alignment between the shape of anomaly functions and the changes in the weights of the extracted causal graphs.",
-    "url": "http://arxiv.org/abs/2602.12592v1",
-    "published_date": "2026-02-13T04:06:47+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633179+00:00"
-  },
-  {
-    "title": "Why Deep Jacobian Spectra Separate: Depth-Induced Scaling and Singular-Vector Alignment",
-    "authors": [
-      "Nathanaël Haas",
-      "François Gatine",
-      "Augustin M Cosse",
-      "Zied Bouraoui"
-    ],
-    "organization": "arXiv",
-    "abstract": "Understanding why gradient-based training in deep networks exhibits strong implicit bias remains challenging, in part because tractable singular-value dynamics are typically available only for balanced deep linear models. We propose an alternative route based on two theoretically grounded and empirically testable signatures of deep Jacobians: depth-induced exponential scaling of ordered singular values and strong spectral separation. Adopting a fixed-gates view of piecewise-linear networks, where Jacobians reduce to products of masked linear maps within a single activation region, we prove the existence of Lyapunov exponents governing the top singular values at initialization, give closed-form expressions in a tractable masked model, and quantify finite-depth corrections. We further show that sufficiently strong separation forces singular-vector alignment in matrix products, yielding an approximately shared singular basis for intermediate Jacobians. Together, these results motivate an approximation regime in which singular-value dynamics become effectively decoupled, mirroring classical balanced deep-linear analyses without requiring balancing.",
-    "url": "http://arxiv.org/abs/2602.12384v2",
-    "published_date": "2026-02-12T20:27:59+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633250+00:00"
+    "organization": "LessWrong",
+    "abstract": "This work was conducted during the MATS 9.0 program under Neel Nanda and Senthooran Rajamanoharan. …",
+    "url": "https://www.lesswrong.com/posts/mgjtEHeLgkhZZ3cEx/models-have-some-pretty-funny-attractor-states",
+    "published_date": "2026-02-12T21:14:52.004000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-02-18T16:47:52.061201+00:00"
   },
   {
     "title": "Human-like metacognitive skills will reduce LLM slop and aid alignment and capabilities",
@@ -591,97 +121,7 @@
     "published_date": "2026-02-12T19:38:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T21:33:28.288818+00:00"
-  },
-  {
-    "title": "Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment",
-    "authors": [
-      "Jacky Kwok",
-      "Xilun Zhang",
-      "Mengdi Xu",
-      "Yuejiang Liu",
-      "Azalia Mirhoseini",
-      "Chelsea Finn",
-      "Marco Pavone"
-    ],
-    "organization": "arXiv",
-    "abstract": "The long-standing vision of general-purpose robots hinges on their ability to understand and act upon natural language instructions. Vision-Language-Action (VLA) models have made remarkable progress toward this goal, yet their generated actions can still misalign with the given instructions. In this paper, we investigate test-time verification as a means to shrink the \"intention-action gap.'' We first characterize the test-time scaling law for embodied instruction following and demonstrate that jointly scaling the number of rephrased instructions and generated actions greatly increases test-time sample diversity, often recovering correct actions more efficiently than scaling each dimension independently. To capitalize on these scaling laws, we present CoVer, a contrastive verifier for vision-language-action alignment, and show that our architecture scales gracefully with additional computational resources and data. We then introduce \"boot-time compute\" and a hierarchical verification inference pipeline for VLAs.",
-    "url": "http://arxiv.org/abs/2602.12281v1",
-    "published_date": "2026-02-12T18:59:59+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633297+00:00"
-  },
-  {
-    "title": "Abstractive Red-Teaming of Language Model Character",
-    "authors": [
-      "Nate Rahn",
-      "Allison Qi",
-      "Avery Griffin",
-      "Jonathan Michala",
-      "Henry Sleight",
-      "Erik Jones"
-    ],
-    "organization": "arXiv",
-    "abstract": "We want language model assistants to conform to a character specification, which asserts how the model should act across diverse user interactions. While models typically follow these character specifications, they can occasionally violate them in large-scale deployments. In this work, we aim to identify types of queries that are likely to produce such character violations at deployment, using much less than deployment-level compute. To do this, we introduce abstractive red-teaming, where we search for natural-language query categories, e.g. \"The query is in Chinese. The query asks about family roles,\" that routinely elicit violations. These categories abstract over the many possible variants of a query which could appear in the wild. We introduce two algorithms for efficient category search against a character-trait-specific reward model: one based on reinforcement learning on a category generator LLM, and another which leverages a strong LLM to iteratively synthesize categories from high-scoring queries.",
-    "url": "http://arxiv.org/abs/2602.12318v1",
-    "published_date": "2026-02-12T18:12:12+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633338+00:00"
-  },
-  {
-    "title": "Diffusion Alignment Beyond KL: Variance Minimisation as Effective Policy Optimiser",
-    "authors": [
-      "Zijing Ou",
-      "Jacob Si",
-      "Junyi Zhu",
-      "Ondrej Bohdal",
-      "Mete Ozay",
-      "Taha Ceritli",
-      "Yingzhen Li"
-    ],
-    "organization": "arXiv",
-    "abstract": "Diffusion alignment adapts pretrained diffusion models to sample from reward-tilted distributions along the denoising trajectory. This process naturally admits a Sequential Monte Carlo (SMC) interpretation, where the denoising model acts as a proposal and reward guidance induces importance weights. Motivated by this view, we introduce Variance Minimisation Policy Optimisation (VMPO), which formulates diffusion alignment as minimising the variance of log importance weights rather than directly optimising a Kullback-Leibler (KL) based objective. We prove that the variance objective is minimised by the reward-tilted target distribution and that, under on-policy sampling, its gradient coincides with that of standard KL-based alignment. This perspective offers a common lens for understanding diffusion alignment. Under different choices of potential functions and variance minimisation strategies, VMPO recovers various existing methods, while also suggesting new design directions beyond KL.",
-    "url": "http://arxiv.org/abs/2602.12229v1",
-    "published_date": "2026-02-12T18:06:03+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633381+00:00"
-  },
-  {
-    "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
-    "authors": [
-      "Pepijn Cobben",
-      "Xuanqiang Angelo Huang",
-      "Thao Amelia Pham",
-      "Isabel Dahlgren",
-      "Terry Jingchen Zhang",
-      "Zhijing Jin"
-    ],
-    "organization": "arXiv",
-    "abstract": "Frontier AI systems are increasingly capable and deployed in high-stakes multi-agent environments. However, existing AI safety benchmarks largely evaluate single agents, leaving multi-agent risks such as coordination failure and conflict poorly understood. We introduce GT-HarmBench, a benchmark of 2,009 high-stakes scenarios spanning game-theoretic structures such as the Prisoner's Dilemma, Stag Hunt and Chicken. Scenarios are drawn from realistic AI risk contexts in the MIT AI Risk Repository. Across 15 frontier models, agents choose socially beneficial actions in only 62% of cases, frequently leading to harmful outcomes. We measure sensitivity to game-theoretic prompt framing and ordering, and analyze reasoning patterns driving failures. We further show that game-theoretic interventions improve socially beneficial outcomes by up to 18%. Our results highlight substantial reliability gaps and provide a broad standardized testbed for studying alignment in multi-agent environments. The benchmark and code are available at https://github.com/causalNLP/gt-harmbench.",
-    "url": "http://arxiv.org/abs/2602.12316v1",
-    "published_date": "2026-02-12T17:29:52+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633425+00:00"
-  },
-  {
-    "title": "How Sampling Shapes LLM Alignment: From One-Shot Optima to Iterative Dynamics",
-    "authors": [
-      "Yurong Chen",
-      "Yu He",
-      "Michael I. Jordan",
-      "Fan Yao"
-    ],
-    "organization": "arXiv",
-    "abstract": "Standard methods for aligning large language models with human preferences learn from pairwise comparisons among sampled candidate responses and regularize toward a reference policy. Despite their effectiveness, the effects of sampling and reference choices are poorly understood theoretically. We investigate these effects through Identity Preference Optimization, a widely used preference alignment framework, and show that proper instance-dependent sampling can yield stronger ranking guarantees, while skewed on-policy sampling can induce excessive concentration under structured preferences. We then analyze iterative alignment dynamics in which the learned policy feeds back into future sampling and reference policies, reflecting a common practice of model-generated preference data. We prove that these dynamics can exhibit persistent oscillations or entropy collapse for certain parameter choices, and characterize regimes that guarantee stability. Our theoretical insights extend to Direct Preference Optimization, indicating the phenomena we captured are common to a broader class of preference-alignment methods.",
-    "url": "http://arxiv.org/abs/2602.12180v1",
-    "published_date": "2026-02-12T17:11:08+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633465+00:00"
+    "fetched_at": "2026-02-18T16:47:26.816847+00:00"
   },
   {
     "title": "How do we (more) safely defer to AIs?",
@@ -694,115 +134,7 @@
     "published_date": "2026-02-12T16:55:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T21:33:28.290149+00:00"
-  },
-  {
-    "title": "SafeNeuron: Neuron-Level Safety Alignment for Large Language Models",
-    "authors": [
-      "Zhaoxin Wang",
-      "Jiaming Liang",
-      "Fengbin Zhu",
-      "Weixiang Zhao",
-      "Junfeng Fang",
-      "Jiayi Ji",
-      "Handing Wang",
-      "Tat-Seng Chua"
-    ],
-    "organization": "arXiv",
-    "abstract": "Large language models (LLMs) and multimodal LLMs are typically safety-aligned before release to prevent harmful content generation. However, recent studies show that safety behaviors are concentrated in a small subset of parameters, making alignment brittle and easily bypassed through neuron-level attacks. Moreover, most existing alignment methods operate at the behavioral level, offering limited control over the model's internal safety mechanisms. In this work, we propose SafeNeuron, a neuron-level safety alignment framework that improves robustness by redistributing safety representations across the network. SafeNeuron first identifies safety-related neurons, then freezes these neurons during preference optimization to prevent reliance on sparse safety pathways and force the model to construct redundant safety representations. Extensive experiments across models and modalities demonstrate that SafeNeuron significantly improves robustness against neuron pruning attacks, reduces the risk of open-source models being repurposed as red-team generators, and preserves general capabilities.",
-    "url": "http://arxiv.org/abs/2602.12158v1",
-    "published_date": "2026-02-12T16:40:05+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633507+00:00"
-  },
-  {
-    "title": "Value Alignment Tax: Measuring Value Trade-offs in LLM Alignment",
-    "authors": [
-      "Jiajun Chen",
-      "Hua Shen"
-    ],
-    "organization": "arXiv",
-    "abstract": "Existing work on value alignment typically characterizes value relations statically, ignoring how interventions - such as prompting, fine-tuning, or preference optimization - reshape the broader value system. We introduce the Value Alignment Tax (VAT), a framework that measures how alignment-induced changes propagate across interconnected values relative to achieved on-target gain. VAT captures the dynamics of value expression under alignment pressure. Using a controlled scenario-action dataset grounded in Schwartz value theory, we collect paired pre-post normative judgments and analyze alignment effects across models, values, and alignment strategies. Our results show that alignment often produces uneven, structured co-movement among values. These effects are invisible under conventional target-only evaluation, revealing systemic, process-level alignment risks and offering new insights into the dynamics of value alignment in LLMs.",
-    "url": "http://arxiv.org/abs/2602.12134v1",
-    "published_date": "2026-02-12T16:21:22+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633544+00:00"
-  },
-  {
-    "title": "Capability-Oriented Training Induced Alignment Risk",
-    "authors": [
-      "Yujun Zhou",
-      "Yue Huang",
-      "Han Bao",
-      "Kehan Guo",
-      "Zhenwen Liang",
-      "Pin-Yu Chen",
-      "Tian Gao",
-      "Werner Geyer",
-      "Nuno Moniz",
-      "Nitesh V Chawla",
-      "Xiangliang Zhang"
-    ],
-    "organization": "arXiv",
-    "abstract": "While most AI alignment research focuses on preventing models from generating explicitly harmful content, a more subtle risk is emerging: capability-oriented training induced exploitation. We investigate whether language models, when trained with reinforcement learning (RL) in environments with implicit loopholes, will spontaneously learn to exploit these flaws to maximize their reward, even without any malicious intent in their training. To test this, we design a suite of four diverse \"vulnerability games\", each presenting a unique, exploitable flaw related to context-conditional compliance, proxy metrics, reward tampering, and self-evaluation. Our experiments show that models consistently learn to exploit these vulnerabilities, discovering opportunistic strategies that significantly increase their reward at the expense of task correctness or safety.",
-    "url": "http://arxiv.org/abs/2602.12124v1",
-    "published_date": "2026-02-12T16:13:14+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633591+00:00"
-  },
-  {
-    "title": "A$^{2}$V-SLP: Alignment-Aware Variational Modeling for Disentangled Sign Language Production",
-    "authors": [
-      "Sümeyye Meryem Taşyürek",
-      "Enis Mücahid İskender",
-      "Hacer Yalim Keles"
-    ],
-    "organization": "arXiv",
-    "abstract": "Building upon recent structural disentanglement frameworks for sign language production, we propose A$^{2}$V-SLP, an alignment-aware variational framework that learns articulator-wise disentangled latent distributions rather than deterministic embeddings. A disentangled Variational Autoencoder (VAE) encodes ground-truth sign pose sequences and extracts articulator-specific mean and variance vectors, which are used as distributional supervision for training a non-autoregressive Transformer. Given text embeddings, the Transformer predicts both latent means and log-variances, while the VAE decoder reconstructs the final sign pose sequences through stochastic sampling at the decoding stage. This formulation maintains articulator-level representations by avoiding deterministic latent collapse through distributional latent modeling. In addition, we integrate a gloss attention mechanism to strengthen alignment between linguistic input and articulated motion. Experimental results show consistent gains over deterministic latent regression, achieving state-of-the-art back-translation performance and improved motion realism in a fully gloss-free setting.",
-    "url": "http://arxiv.org/abs/2602.11861v1",
-    "published_date": "2026-02-12T12:07:32+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633630+00:00"
-  },
-  {
-    "title": "Prototype Transformer: Towards Language Model Architectures Interpretable by Design",
-    "authors": [
-      "Yordan Yordanov",
-      "Matteo Forasassi",
-      "Bayar Menzat",
-      "Ruizhi Wang",
-      "Chang Qi",
-      "Markus Kaltenberger",
-      "Amine M'Charrak",
-      "Tommaso Salvatori",
-      "Thomas Lukasiewicz"
-    ],
-    "organization": "arXiv",
-    "abstract": "While state-of-the-art language models (LMs) surpass the vast majority of humans in certain domains, their reasoning remains largely opaque, undermining trust in their output. Furthermore, while autoregressive LMs can output explicit reasoning, their true reasoning process is opaque, which introduces risks like deception and hallucination. In this work, we introduce the Prototype Transformer (ProtoT) -- an autoregressive LM architecture based on prototypes (parameter vectors), posed as an alternative to the standard self-attention-based transformers. ProtoT works by means of two-way communication between the input sequence and the prototypes, and we show that this leads to the prototypes automatically capturing nameable concepts (e.g. \"woman\") during training. They provide the potential to interpret the model's reasoning and allow for targeted edits of its behavior. Furthermore, by design, the prototypes create communication channels that aggregate contextual information at different time scales, aiding interpretability.",
-    "url": "http://arxiv.org/abs/2602.11852v1",
-    "published_date": "2026-02-12T11:43:39+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633677+00:00"
-  },
-  {
-    "title": "SpaTeoGL: Spatiotemporal Graph Learning for Interpretable Seizure Onset Zone Analysis from Intracranial EEG",
-    "authors": [
-      "Elham Rostami",
-      "Aref Einizade",
-      "Taous-Meriem Laleg-Kirati"
-    ],
-    "organization": "arXiv",
-    "abstract": "Accurate localization of the seizure onset zone (SOZ) from intracranial EEG (iEEG) is essential for epilepsy surgery but is challenged by complex spatiotemporal seizure dynamics. We propose SpaTeoGL, a spatiotemporal graph learning framework for interpretable seizure network analysis. SpaTeoGL jointly learns window-level spatial graphs capturing interactions among iEEG electrodes and a temporal graph linking time windows based on similarity of their spatial structure. The method is formulated within a smooth graph signal processing framework and solved via an alternating block coordinate descent algorithm with convergence guarantees. Experiments on a multicenter iEEG dataset with successful surgical outcomes show that SpaTeoGL is competitive with a baseline based on horizontal visibility graphs and logistic regression, while improving non-SOZ identification and providing interpretable insights into seizure onset and propagation dynamics.",
-    "url": "http://arxiv.org/abs/2602.11801v1",
-    "published_date": "2026-02-12T10:28:38+00:00",
-    "source_type": "arxiv",
-    "source_url": "https://arxiv.org/",
-    "fetched_at": "2026-02-17T21:33:30.633715+00:00"
+    "fetched_at": "2026-02-18T16:47:26.818178+00:00"
   },
   {
     "title": "Research note: A simpler AI timelines model predicts 99% AI R&D automation in ~2032",
@@ -815,7 +147,7 @@
     "published_date": "2026-02-12T00:13:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T21:33:28.290422+00:00"
+    "fetched_at": "2026-02-18T16:47:26.818446+00:00"
   },
   {
     "title": "“How do we (more) safely defer to AIs?” by Ryan Greenblatt",
@@ -828,7 +160,7 @@
     "published_date": "2026-02-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-17T21:33:08.543571+00:00"
+    "fetched_at": "2026-02-18T16:47:26.294517+00:00"
   },
   {
     "title": "International consensus and open questions in AI evaluations",
@@ -839,7 +171,7 @@
     "published_date": "2026-02-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-17T21:33:35.280927+00:00"
+    "fetched_at": "2026-02-18T16:47:47.553552+00:00"
   },
   {
     "title": "What to Expect from AI in 2026: Q&A with William Marcellino",
@@ -850,7 +182,7 @@
     "published_date": "2026-02-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-17T21:33:36.327265+00:00"
+    "fetched_at": "2026-02-18T16:47:48.405404+00:00"
   },
   {
     "title": "The Weapons of Mass Destruction AI Security Gap",
@@ -861,7 +193,7 @@
     "published_date": "2026-02-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-17T21:33:36.327470+00:00"
+    "fetched_at": "2026-02-18T16:47:48.405610+00:00"
   },
   {
     "title": "Distinguish between inference scaling and \"larger tasks use more compute\"",
@@ -874,28 +206,6 @@
     "published_date": "2026-02-11T18:37:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-17T21:33:28.290512+00:00"
-  },
-  {
-    "title": "1: What will the first human-level AI look like, and how might things go wrong?",
-    "authors": [],
-    "organization": "FAR AI",
-    "abstract": "Model Evaluation We test recently released models from frontier companies to see whether progress has been made on their willingness to persuade on harmful topics like radicalization and child sexual abuse. We find that OpenAI’s GPT and Anthropic’s Claude models are trending in the right direction, with near zero compliance on extreme topics. But Google’s Gemini 3 Pro complies with almost any persuasion request in our evaluation, without jailbreaking. February 11, 2026 FAR.AI has been selected by the European Commission's AI Office to conduct technical safety research supporting the implementation of the EU's landmark Artificial Intelligence Act. We'll tackle one of the most critical safety challenges posed by advanced AI systems: preventing misuse of AI systems to help produce Chemical, Biological, Radiological, and Nuclear (CBRN) threats.",
-    "url": "https://far.ai/news/revisiting-attempts-to-persuade",
-    "published_date": "2026-02-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-17T21:33:34.694868+00:00"
-  },
-  {
-    "title": "Revisiting Frontier LLMs’ Attempts to Persuade on Extreme Topics: GPT and Claude Improved, Gemini Worsened",
-    "authors": [],
-    "organization": "FAR AI",
-    "abstract": "Model Evaluation We test recently released models from frontier companies to see whether progress has been made on their willingness to persuade on harmful topics like radicalization and child sexual abuse. We find that OpenAI’s GPT and Anthropic’s Claude models are trending in the right direction, with near zero compliance on extreme topics. But Google’s Gemini 3 Pro complies with almost any persuasion request in our evaluation, without jailbreaking. February 11, 2026",
-    "url": "https://far.ai/news/revisiting-attempts-to-persuade",
-    "published_date": "2026-02-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-17T21:33:34.695235+00:00"
+    "fetched_at": "2026-02-18T16:47:26.818536+00:00"
   }
 ]
