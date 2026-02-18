@@ -10,7 +10,7 @@
     "published_date": "2026-02-18T16:01:38+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-18T16:54:33.838956+00:00"
+    "fetched_at": "2026-02-18T16:57:20.654030+00:00"
   },
   {
     "title": "How We Protect Confidential Information17 February 2026Our high-level approach to protecting confidential access and informationRead more",
@@ -21,7 +21,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://metr.org/blog/",
-    "fetched_at": "2026-02-18T16:54:40.153105+00:00"
+    "fetched_at": "2026-02-18T16:57:24.356559+00:00"
   },
   {
     "title": "Boundary Point Jailbreaking: A new way to break the strongest AI defences",
@@ -32,7 +32,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-18T16:54:44.031546+00:00"
+    "fetched_at": "2026-02-18T16:57:27.144383+00:00"
   },
   {
     "title": "Will reward-seekers respond to distant incentives?",
@@ -45,7 +45,7 @@
     "published_date": "2026-02-16T19:35:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-18T16:54:38.184699+00:00"
+    "fetched_at": "2026-02-18T16:57:23.046145+00:00"
   },
   {
     "title": "“Will reward-seekers respond to distant incentives?” by Alex Mallen",
@@ -58,7 +58,7 @@
     "published_date": "2026-02-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-18T16:54:37.853914+00:00"
+    "fetched_at": "2026-02-18T16:57:22.599898+00:00"
   },
   {
     "title": "AXRP Episode 48 - Guive Assadi on AI Property Rights",
@@ -71,7 +71,7 @@
     "published_date": "2026-02-15T02:20:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-18T16:54:38.185986+00:00"
+    "fetched_at": "2026-02-18T16:57:23.047497+00:00"
   },
   {
     "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
@@ -82,7 +82,7 @@
     "published_date": "2026-02-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-02-18T16:54:39.752902+00:00"
+    "fetched_at": "2026-02-18T16:57:24.059321+00:00"
   },
   {
     "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -95,7 +95,7 @@
     "published_date": "2026-02-13T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-18T16:54:36.881537+00:00"
+    "fetched_at": "2026-02-18T16:57:21.937032+00:00"
   },
   {
     "title": "models have some pretty funny attractor states",
@@ -108,7 +108,7 @@
     "published_date": "2026-02-12T21:14:52.004000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-18T16:54:49.132369+00:00"
+    "fetched_at": "2026-02-18T16:57:31.088015+00:00"
   },
   {
     "title": "Human-like metacognitive skills will reduce LLM slop and aid alignment and capabilities",
@@ -121,7 +121,7 @@
     "published_date": "2026-02-12T19:38:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-18T16:54:38.186286+00:00"
+    "fetched_at": "2026-02-18T16:57:23.047852+00:00"
   },
   {
     "title": "How do we (more) safely defer to AIs?",
@@ -134,7 +134,7 @@
     "published_date": "2026-02-12T16:55:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-18T16:54:38.187613+00:00"
+    "fetched_at": "2026-02-18T16:57:23.049249+00:00"
   },
   {
     "title": "Research note: A simpler AI timelines model predicts 99% AI R&D automation in ~2032",
@@ -147,7 +147,7 @@
     "published_date": "2026-02-12T00:13:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-18T16:54:38.187867+00:00"
+    "fetched_at": "2026-02-18T16:57:23.049512+00:00"
   },
   {
     "title": "“How do we (more) safely defer to AIs?” by Ryan Greenblatt",
@@ -160,7 +160,7 @@
     "published_date": "2026-02-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-18T16:54:37.853971+00:00"
+    "fetched_at": "2026-02-18T16:57:22.599984+00:00"
   },
   {
     "title": "International consensus and open questions in AI evaluations",
@@ -171,7 +171,7 @@
     "published_date": "2026-02-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-18T16:54:44.031962+00:00"
+    "fetched_at": "2026-02-18T16:57:27.144804+00:00"
   },
   {
     "title": "What to Expect from AI in 2026: Q&A with William Marcellino",
@@ -182,7 +182,7 @@
     "published_date": "2026-02-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-18T16:54:44.441273+00:00"
+    "fetched_at": "2026-02-18T16:57:27.518624+00:00"
   },
   {
     "title": "The Weapons of Mass Destruction AI Security Gap",
@@ -193,7 +193,7 @@
     "published_date": "2026-02-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-18T16:54:44.441489+00:00"
+    "fetched_at": "2026-02-18T16:57:27.518821+00:00"
   },
   {
     "title": "Distinguish between inference scaling and \"larger tasks use more compute\"",
@@ -206,6 +206,6 @@
     "published_date": "2026-02-11T18:37:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-18T16:54:38.187956+00:00"
+    "fetched_at": "2026-02-18T16:57:23.049604+00:00"
   }
 ]
