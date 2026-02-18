@@ -67,10 +67,8 @@ rss_feeds:
     org: "FLI"
     keywords: ["research", "paper", "study", "report", "technical", "evaluation", "benchmark", "model", "safety", "alignment", "governance"]
 
-  - name: "Epoch AI"
-    url: "https://epochai.org/blog/rss.xml"
-    org: "Epoch AI"
-    keywords: ["research", "paper", "study", "model", "training", "compute", "scaling", "benchmark", "dataset", "trend", "forecast"]
+  # Epoch AI — RSS feed removed from their site (epoch.ai), switched to scraper
+
 
 # --- Web scrapers (for orgs without RSS) ---
 scrapers:
@@ -138,9 +136,12 @@ scrapers:
     org: "IAPS"
     link_must_contain: "/research-paper/"
 
-  - name: "CLTR"
-    url: "https://www.longtermresilience.org/research"
-    org: "CLTR"
+  # CLTR — longtermresilience.org/research returns 404, JS-rendered SPA
+
+  - name: "Epoch AI"
+    url: "https://epoch.ai/blog"
+    org: "Epoch AI"
+    link_must_contain: "/blog/"
 
   # Academic
   - name: "CHAI Berkeley"
