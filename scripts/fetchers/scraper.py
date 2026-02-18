@@ -134,9 +134,17 @@ def _extract_date(element) -> Optional[str]:
     return None
 
 
+_TITLE_CLASS_RE = re.compile(r"title", re.IGNORECASE)
+
+
 def _extract_title(element) -> str:
-    """Extract a title from headings or the first prominent link."""
-    # Search both the element and its first link for headings
+    """Extract a title from headings, data attributes, or the first link."""
+    # 1. Check data-title attribute (used by some JS-rendered card systems)
+    data_title = element.get("data-title", "")
+    if data_title:
+        return data_title.strip()
+
+    # 2. Search both the element and its first link for heading tags
     candidates = [element]
     first_link = element.find("a")
     if first_link:
@@ -148,8 +156,15 @@ def _extract_title(element) -> str:
             if heading:
                 return heading.get_text(strip=True)
 
-    # Fallback: use link text, but get_text with separator to avoid
-    # concatenation of child elements (title + date + desc + "Read more")
+    # 3. Look for elements with "title" in their class name
+    for candidate in candidates:
+        title_el = candidate.find(class_=_TITLE_CLASS_RE)
+        if title_el:
+            text = title_el.get_text(strip=True)
+            if text:
+                return text
+
+    # 4. Fallback: use link text with separator to avoid concatenation
     if first_link:
         text = first_link.get_text(" ", strip=True)
         if text and len(text) <= 200:
