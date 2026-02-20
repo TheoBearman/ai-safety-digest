@@ -8,7 +8,31 @@
     "published_date": "2026-03-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-02-19T09:51:01.096229+00:00"
+    "fetched_at": "2026-02-20T09:43:29.792398+00:00"
+  },
+  {
+    "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+    "authors": [
+      "Google DeepMind News"
+    ],
+    "organization": "Google DeepMind",
+    "abstract": "3.1 Pro is designed for tasks where a simple answer isn’t enough.",
+    "url": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
+    "published_date": "2026-02-19T16:06:14+00:00",
+    "source_type": "rss",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "fetched_at": "2026-02-20T09:43:18.473617+00:00"
+  },
+  {
+    "title": "Funding 60 projects to advance AI alignment research",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "The Alignment Project welcomes its first cohort of grantees, and new partners join the coalition, bringing total funding to £27m.",
+    "url": "https://www.aisi.gov.uk/blog/funding-60-projects-to-advance-ai-alignment-research",
+    "published_date": "2026-02-19T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-02-20T09:43:28.532225+00:00"
   },
   {
     "title": "Why we should expect ruthless sociopath ASI",
@@ -21,7 +45,7 @@
     "published_date": "2026-02-18T17:28:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-19T09:50:51.894964+00:00"
+    "fetched_at": "2026-02-20T09:43:22.463641+00:00"
   },
   {
     "title": "A new way to express yourself: Gemini can now create music",
@@ -34,7 +58,7 @@
     "published_date": "2026-02-18T16:01:38+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-19T09:50:47.806389+00:00"
+    "fetched_at": "2026-02-20T09:43:18.473657+00:00"
   },
   {
     "title": "How We Protect Confidential Information",
@@ -45,7 +69,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://metr.org/blog/",
-    "fetched_at": "2026-02-19T09:50:53.943246+00:00"
+    "fetched_at": "2026-02-20T09:43:24.111253+00:00"
   },
   {
     "title": "Boundary Point Jailbreaking: A new way to break the strongest AI defences",
@@ -56,7 +80,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-19T09:50:59.548192+00:00"
+    "fetched_at": "2026-02-20T09:43:28.533088+00:00"
   },
   {
     "title": "Will reward-seekers respond to distant incentives?",
@@ -69,7 +93,20 @@
     "published_date": "2026-02-16T19:35:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-19T09:50:51.895199+00:00"
+    "fetched_at": "2026-02-20T09:43:22.463883+00:00"
+  },
+  {
+    "title": "Don't Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails",
+    "authors": [
+      "benbreen"
+    ],
+    "organization": "Hacker News",
+    "abstract": "Hacker News discussion with 211 points and 81 comments.",
+    "url": "https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails",
+    "published_date": "2026-02-16T17:57:46+00:00",
+    "source_type": "rss",
+    "source_url": "https://news.ycombinator.com/",
+    "fetched_at": "2026-02-20T09:43:34.351880+00:00"
   },
   {
     "title": "“Will reward-seekers respond to distant incentives?” by Alex Mallen",
@@ -82,7 +119,7 @@
     "published_date": "2026-02-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-19T09:50:50.787049+00:00"
+    "fetched_at": "2026-02-20T09:43:21.116680+00:00"
   },
   {
     "title": "AXRP Episode 48 - Guive Assadi on AI Property Rights",
@@ -95,7 +132,7 @@
     "published_date": "2026-02-15T02:20:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-19T09:50:51.896457+00:00"
+    "fetched_at": "2026-02-20T09:43:22.465135+00:00"
   },
   {
     "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
@@ -106,7 +143,7 @@
     "published_date": "2026-02-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-02-19T09:50:53.392530+00:00"
+    "fetched_at": "2026-02-20T09:43:23.742841+00:00"
   },
   {
     "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -119,56 +156,6 @@
     "published_date": "2026-02-13T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-19T09:50:49.432133+00:00"
-  },
-  {
-    "title": "What do “economic value” benchmarks tell us?",
-    "authors": [],
-    "organization": "Epoch AI",
-    "abstract": "These benchmarks track a wide range of digital work. Progress will correlate with economic utility, but tasks are too self-contained to indicate full automation.",
-    "url": "https://epoch.ai/blog/what-do-economic-value-benchmarks-tell-us",
-    "published_date": "2026-02-13T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://epoch.ai/blog",
-    "fetched_at": "2026-02-19T09:51:03.397873+00:00"
-  },
-  {
-    "title": "models have some pretty funny attractor states",
-    "authors": [
-      "aryaj"
-    ],
-    "organization": "LessWrong",
-    "abstract": "This work was conducted during the MATS 9.0 program under Neel Nanda and Senthooran Rajamanoharan. …",
-    "url": "https://www.lesswrong.com/posts/mgjtEHeLgkhZZ3cEx/models-have-some-pretty-funny-attractor-states",
-    "published_date": "2026-02-12T21:14:52.004000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-19T09:51:06.374456+00:00"
-  },
-  {
-    "title": "Human-like metacognitive skills will reduce LLM slop and aid alignment and capabilities",
-    "authors": [
-      "Seth Herd"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "1. Summary and overview LLMs seem to lack metacognitive skills that help humans catch errors. Improvements to those skills might be net positive for alignment, despite improving capabilities in new directions. Better metacognition would reduce LLM errors by catching mistakes, and by managing complex cognition to produce better answers in the first place. This could stabilize or regularize alignment, allowing systems to avoid actions they would not \"endorse on reflection\" (in some functional sense). [1] Better metacognition could also make LLM systems useful for clarifying the conceptual problems of alignment. It would reduce sycophancy, and help LLMs organize the complex thinking necessary for clarifying claims and cruxes in the literature. Without such improvements, collaborating with LLM systems on alignment research could be the median doom-path: slop, not scheming . They are sycophantic, agreeing with their users too much, and produce compelling-but-erroneous \"slop\".",
-    "url": "https://www.alignmentforum.org/posts/m5d4sYgHbTxBnFeat/human-like-metacognitive-skills-will-reduce-llm-slop-and-aid",
-    "published_date": "2026-02-12T19:38:50+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-19T09:50:51.896765+00:00"
-  },
-  {
-    "title": "How do we (more) safely defer to AIs?",
-    "authors": [
-      "ryan_greenblatt"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "As AI systems get more capable, it becomes increasingly uncompetitive and infeasible to avoid deferring to AIs on increasingly many decisions. Further, once systems are sufficiently capable, control becomes infeasible . [1] Thus, one of the main strategies for handling AI risk is fully (or almost fully) deferring to AIs on managing these risks. Broadly speaking, when I say \"deferring to AIs\" [2] I mean having these AIs do virtually all of the work to develop more capable and aligned successor AIs, managing exogenous risks, and making strategic decisions. [3] If we plan to defer to AIs, I think it's safest to do so only a bit above the minimum level of qualitative capability/intelligence required to automate safety research, implementation, and strategy.",
-    "url": "https://www.alignmentforum.org/posts/vjAM7F8vMZS7oRrrh/how-do-we-more-safely-defer-to-ais",
-    "published_date": "2026-02-12T16:55:52+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-19T09:50:51.898099+00:00"
+    "fetched_at": "2026-02-20T09:43:20.343198+00:00"
   }
 ]
