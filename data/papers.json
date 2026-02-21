@@ -8,7 +8,33 @@
     "published_date": "2026-03-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-02-20T09:43:29.792398+00:00"
+    "fetched_at": "2026-02-21T09:32:08.882763+00:00"
+  },
+  {
+    "title": "How will we do SFT on models with opaque reasoning?",
+    "authors": [
+      "Alek Westover"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Current LLMs externalize lots of their reasoning in human interpretable language. This reasoning is sometimes unfaithful , sometimes strange and concerning , and LLMs can do somewhat impressive reasoning without using CoT , but my overall impression is that CoT currently is a reasonably complete and accurate representation of LLM reasoning. However, reasoning in interpretable language might turn out to be uncompetitive—if so, it seems probable that opaque reasoning will be adopted in frontier AI labs. If future AI models have opaque reasoning, this will probably change what training we can apply to these AIs. For example, currently we train models to reason in a good way about math problems, or to reason in a desired way about the spec that we hope they’ll follow.",
+    "url": "https://www.alignmentforum.org/posts/GJTzhQgaRWLFJkPbt/how-will-we-do-sft-on-models-with-opaque-reasoning",
+    "published_date": "2026-02-21T00:00:17+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-02-21T09:32:03.953571+00:00"
+  },
+  {
+    "title": "Our First Proof submissions",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.",
+    "url": "https://openai.com/index/first-proof-submissions",
+    "published_date": "2026-02-20T14:30:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-02-21T09:32:02.420549+00:00"
   },
   {
     "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
@@ -21,7 +47,7 @@
     "published_date": "2026-02-19T16:06:14+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-20T09:43:18.473617+00:00"
+    "fetched_at": "2026-02-21T09:32:01.091491+00:00"
   },
   {
     "title": "Funding 60 projects to advance AI alignment research",
@@ -32,7 +58,7 @@
     "published_date": "2026-02-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-20T09:43:28.532225+00:00"
+    "fetched_at": "2026-02-21T09:32:07.723527+00:00"
   },
   {
     "title": "Why we should expect ruthless sociopath ASI",
@@ -45,7 +71,7 @@
     "published_date": "2026-02-18T17:28:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-20T09:43:22.463641+00:00"
+    "fetched_at": "2026-02-21T09:32:03.953731+00:00"
   },
   {
     "title": "A new way to express yourself: Gemini can now create music",
@@ -58,7 +84,7 @@
     "published_date": "2026-02-18T16:01:38+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-20T09:43:18.473657+00:00"
+    "fetched_at": "2026-02-21T09:32:01.091530+00:00"
   },
   {
     "title": "How We Protect Confidential Information",
@@ -69,7 +95,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://metr.org/blog/",
-    "fetched_at": "2026-02-20T09:43:24.111253+00:00"
+    "fetched_at": "2026-02-21T09:32:04.991963+00:00"
   },
   {
     "title": "Boundary Point Jailbreaking: A new way to break the strongest AI defences",
@@ -80,7 +106,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-20T09:43:28.533088+00:00"
+    "fetched_at": "2026-02-21T09:32:07.724394+00:00"
   },
   {
     "title": "Will reward-seekers respond to distant incentives?",
@@ -93,7 +119,7 @@
     "published_date": "2026-02-16T19:35:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-20T09:43:22.463883+00:00"
+    "fetched_at": "2026-02-21T09:32:03.953969+00:00"
   },
   {
     "title": "Don't Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails",
@@ -101,12 +127,12 @@
       "benbreen"
     ],
     "organization": "Hacker News",
-    "abstract": "Hacker News discussion with 211 points and 81 comments.",
+    "abstract": "Hacker News discussion with 221 points and 87 comments.",
     "url": "https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails",
     "published_date": "2026-02-16T17:57:46+00:00",
     "source_type": "rss",
     "source_url": "https://news.ycombinator.com/",
-    "fetched_at": "2026-02-20T09:43:34.351880+00:00"
+    "fetched_at": "2026-02-21T09:32:13.365999+00:00"
   },
   {
     "title": "“Will reward-seekers respond to distant incentives?” by Alex Mallen",
@@ -119,7 +145,7 @@
     "published_date": "2026-02-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-20T09:43:21.116680+00:00"
+    "fetched_at": "2026-02-21T09:32:03.346810+00:00"
   },
   {
     "title": "AXRP Episode 48 - Guive Assadi on AI Property Rights",
@@ -132,7 +158,7 @@
     "published_date": "2026-02-15T02:20:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-20T09:43:22.465135+00:00"
+    "fetched_at": "2026-02-21T09:32:03.954890+00:00"
   },
   {
     "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
@@ -143,19 +169,6 @@
     "published_date": "2026-02-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-02-20T09:43:23.742841+00:00"
-  },
-  {
-    "title": "GPT-5.2 derives a new result in theoretical physics",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
-    "url": "https://openai.com/index/new-result-theoretical-physics",
-    "published_date": "2026-02-13T11:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-20T09:43:20.343198+00:00"
+    "fetched_at": "2026-02-21T09:32:04.850121+00:00"
   }
 ]
