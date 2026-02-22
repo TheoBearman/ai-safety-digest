@@ -8,7 +8,7 @@
     "published_date": "2026-03-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-02-21T09:32:08.882763+00:00"
+    "fetched_at": "2026-02-22T09:33:45.623686+00:00"
   },
   {
     "title": "How will we do SFT on models with opaque reasoning?",
@@ -21,7 +21,7 @@
     "published_date": "2026-02-21T00:00:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-21T09:32:03.953571+00:00"
+    "fetched_at": "2026-02-22T09:33:37.163384+00:00"
   },
   {
     "title": "Our First Proof submissions",
@@ -34,7 +34,7 @@
     "published_date": "2026-02-20T14:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-21T09:32:02.420549+00:00"
+    "fetched_at": "2026-02-22T09:33:35.257945+00:00"
   },
   {
     "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
@@ -47,7 +47,7 @@
     "published_date": "2026-02-19T16:06:14+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-21T09:32:01.091491+00:00"
+    "fetched_at": "2026-02-22T09:33:33.462055+00:00"
   },
   {
     "title": "Funding 60 projects to advance AI alignment research",
@@ -58,7 +58,7 @@
     "published_date": "2026-02-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-21T09:32:07.723527+00:00"
+    "fetched_at": "2026-02-22T09:33:44.638088+00:00"
   },
   {
     "title": "Why we should expect ruthless sociopath ASI",
@@ -71,7 +71,7 @@
     "published_date": "2026-02-18T17:28:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-21T09:32:03.953731+00:00"
+    "fetched_at": "2026-02-22T09:33:37.163544+00:00"
   },
   {
     "title": "A new way to express yourself: Gemini can now create music",
@@ -84,7 +84,7 @@
     "published_date": "2026-02-18T16:01:38+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-21T09:32:01.091530+00:00"
+    "fetched_at": "2026-02-22T09:33:33.462092+00:00"
   },
   {
     "title": "How We Protect Confidential Information",
@@ -95,7 +95,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://metr.org/blog/",
-    "fetched_at": "2026-02-21T09:32:04.991963+00:00"
+    "fetched_at": "2026-02-22T09:33:39.010854+00:00"
   },
   {
     "title": "Boundary Point Jailbreaking: A new way to break the strongest AI defences",
@@ -106,7 +106,7 @@
     "published_date": "2026-02-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-21T09:32:07.724394+00:00"
+    "fetched_at": "2026-02-22T09:33:44.638939+00:00"
   },
   {
     "title": "Will reward-seekers respond to distant incentives?",
@@ -119,7 +119,7 @@
     "published_date": "2026-02-16T19:35:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-21T09:32:03.953969+00:00"
+    "fetched_at": "2026-02-22T09:33:37.163767+00:00"
   },
   {
     "title": "Don't Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails",
@@ -127,12 +127,12 @@
       "benbreen"
     ],
     "organization": "Hacker News",
-    "abstract": "Hacker News discussion with 221 points and 87 comments.",
+    "abstract": "Hacker News discussion with 223 points and 87 comments.",
     "url": "https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails",
     "published_date": "2026-02-16T17:57:46+00:00",
     "source_type": "rss",
     "source_url": "https://news.ycombinator.com/",
-    "fetched_at": "2026-02-21T09:32:13.365999+00:00"
+    "fetched_at": "2026-02-22T09:33:50.995243+00:00"
   },
   {
     "title": "“Will reward-seekers respond to distant incentives?” by Alex Mallen",
@@ -145,30 +145,6 @@
     "published_date": "2026-02-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-21T09:32:03.346810+00:00"
-  },
-  {
-    "title": "AXRP Episode 48 - Guive Assadi on AI Property Rights",
-    "authors": [
-      "DanielFilan"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "YouTube link In this episode, Guive Assadi argues that we should give AIs property rights, so that they are integrated in our system of property and come to rely on it. The claim is that this means that AIs would not kill or steal from humans, because that would undermine the whole property system, which would be extremely valuable to them. Topics we discuss: AI property rights Why not steal from and kill humans Why AIs may fear it could be them next AI retirement Could humans be upgraded to stay useful? Will AI progress continue? Why non-obsoletable AIs may still not end human property rights Why make AIs with property rights? Do property rights incentivize alignment? Humans and non-human property rights Humans and non-human bodily autonomy Step changes in coordination ability Acausal coordination AI, humans, and civilizations with different technology levels The case of British settlers and Tasmanians Non-total...",
-    "url": "https://www.alignmentforum.org/posts/4foFK5Lz65ywSz4eo/axrp-episode-48-guive-assadi-on-ai-property-rights",
-    "published_date": "2026-02-15T02:20:55+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-21T09:32:03.954890+00:00"
-  },
-  {
-    "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research done as part of the first Anthropic Fellows Program during Summer 2025.",
-    "url": "https://alignment.anthropic.com/2026/hot-mess-of-ai/",
-    "published_date": "2026-02-15T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-02-21T09:32:04.850121+00:00"
+    "fetched_at": "2026-02-22T09:33:36.329767+00:00"
   }
 ]
