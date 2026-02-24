@@ -8,7 +8,42 @@
     "published_date": "2026-03-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-02-23T09:58:13.321174+00:00"
+    "fetched_at": "2026-02-24T09:55:20.617829+00:00"
+  },
+  {
+    "title": "Why we no longer evaluate SWE-bench Verified",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
+    "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+    "published_date": "2026-02-23T11:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-02-24T09:55:13.001870+00:00"
+  },
+  {
+    "title": "Judge Reliability Harness",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Tool Feb 23, 2026 RAND researchers developed the Judge Reliability Harness, an open-source library that orchestrates standardized, reproducible evaluations of large language model–based judges through systematic perturbation testing and human-in-the-loop validation.",
+    "url": "https://www.rand.org/pubs/tools/TLA4547-1.html",
+    "published_date": "2026-02-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-02-24T09:55:19.947877+00:00"
+  },
+  {
+    "title": "Decisive Economic Advantage: Modeling the Transition from Temporary First-Mover Leads to Economic Dominance in Artificial General Intelligence",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Feb 23, 2026 Artificial general intelligence may differ from past technologies in ways that would allow a leader to turn an early advantage into decisive economic advantage. Artificial general intelligence may differ from past technologies in ways that would allow a leader to turn an early advantage into decisive economic advantage.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4444-1.html",
+    "published_date": "2026-02-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-02-24T09:55:19.948082+00:00"
   },
   {
     "title": "Did Claude 3 Opus align itself via gradient hacking?",
@@ -21,7 +56,20 @@
     "published_date": "2026-02-21T22:24:31.247000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-23T09:58:18.011024+00:00"
+    "fetched_at": "2026-02-24T09:55:24.917941+00:00"
+  },
+  {
+    "title": "The Spectre haunting the \"AI Safety\" Community",
+    "authors": [
+      "Gabriel Alfour"
+    ],
+    "organization": "LessWrong",
+    "abstract": "I’m the originator behind ControlAI’s Direct Institutional Plan (the DIP), built to address extinction risks from superintelligence. …",
+    "url": "https://www.lesswrong.com/posts/LuAmvqjf87qLG9Bdx/the-spectre-haunting-the-ai-safety-community",
+    "published_date": "2026-02-21T11:14:10.772000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-02-24T09:55:24.917954+00:00"
   },
   {
     "title": "How will we do SFT on models with opaque reasoning?",
@@ -34,7 +82,7 @@
     "published_date": "2026-02-21T00:00:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-23T09:58:08.454291+00:00"
+    "fetched_at": "2026-02-24T09:55:14.102164+00:00"
   },
   {
     "title": "Our First Proof submissions",
@@ -47,7 +95,18 @@
     "published_date": "2026-02-20T14:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-23T09:58:07.537531+00:00"
+    "fetched_at": "2026-02-24T09:55:13.001940+00:00"
+  },
+  {
+    "title": "Expanding our analysis of biological AI models",
+    "authors": [],
+    "organization": "Epoch AI",
+    "abstract": "We release a database of over 1,100 biological AI models across nine categories. We analyze their safeguards, accessibility, training data sources, and the foundation models they build on.",
+    "url": "https://epoch.ai/blog/expanding-our-analysis-of-biological-ai-models",
+    "published_date": "2026-02-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://epoch.ai/blog",
+    "fetched_at": "2026-02-24T09:55:22.889386+00:00"
   },
   {
     "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
@@ -60,7 +119,7 @@
     "published_date": "2026-02-19T16:06:14+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-23T09:58:06.094191+00:00"
+    "fetched_at": "2026-02-24T09:55:06.526419+00:00"
   },
   {
     "title": "1: What will the first human-level AI look like, and how might things go wrong?",
@@ -71,7 +130,7 @@
     "published_date": "2026-02-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-23T09:58:12.205605+00:00"
+    "fetched_at": "2026-02-24T09:55:18.396182+00:00"
   },
   {
     "title": "Method: Concept Influence",
@@ -82,7 +141,7 @@
     "published_date": "2026-02-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-23T09:58:12.206404+00:00"
+    "fetched_at": "2026-02-24T09:55:18.396954+00:00"
   },
   {
     "title": "Funding 60 projects to advance AI alignment research",
@@ -93,7 +152,7 @@
     "published_date": "2026-02-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-23T09:58:12.709571+00:00"
+    "fetched_at": "2026-02-24T09:55:18.917115+00:00"
   },
   {
     "title": "Why we should expect ruthless sociopath ASI",
@@ -106,7 +165,7 @@
     "published_date": "2026-02-18T17:28:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-23T09:58:08.454452+00:00"
+    "fetched_at": "2026-02-24T09:55:14.102341+00:00"
   },
   {
     "title": "A new way to express yourself: Gemini can now create music",
@@ -119,7 +178,7 @@
     "published_date": "2026-02-18T16:01:38+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-23T09:58:06.094228+00:00"
+    "fetched_at": "2026-02-24T09:55:06.526456+00:00"
   },
   {
     "title": "Introducing EVMbench",
@@ -132,54 +191,6 @@
     "published_date": "2026-02-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-23T09:58:07.537626+00:00"
-  },
-  {
-    "title": "How We Protect Confidential Information",
-    "authors": [],
-    "organization": "METR",
-    "abstract": "Our high-level approach to protecting confidential access and information Shared components of AI lab commitments to evaluate and mitigate severe risks. External review from METR of Anthropic's Summer 2025 Sabotage Risk Report Details on external recommendations from METR for gpt-oss Preparedness experiments and follow-up from OpenAI. How we think about tradeoffs when communicating surprising or nuanced findings. Current views on information relevant for visibility into frontier AI risk. Suggested priorities for the Office of Science and Technology Policy as it develops an AI Action Plan. Why legible and faithful reasoning is valuable for safely developing powerful AI List of frontier safety policies published by AI companies, including Amazon, Anthropic, Google DeepMind, G42, Meta, Microsoft, OpenAI, and xAI.",
-    "url": "https://metr.org/blog/2026-02-17-how-we-protect-confidential-information/",
-    "published_date": "2026-02-17T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://metr.org/blog/",
-    "fetched_at": "2026-02-23T09:58:09.367464+00:00"
-  },
-  {
-    "title": "Boundary Point Jailbreaking: A new way to break the strongest AI defences",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Introducing an automated attack technique that generates universal jailbreaks against the best defended systems",
-    "url": "https://www.aisi.gov.uk/blog/boundary-point-jailbreaking-a-new-way-to-break-the-strongest-ai-defences",
-    "published_date": "2026-02-17T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-23T09:58:12.710451+00:00"
-  },
-  {
-    "title": "Will reward-seekers respond to distant incentives?",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Reward-seekers are usually modeled as responding only to local incentives administered by developers. Here I ask: Will AIs or humans be able to influence their incentives at a distance—e.g., by retroactively reinforcing actions substantially in the future or by committing to run many copies of them in simulated deployments with different incentives? If reward-seekers are responsive to distant incentives, it fundamentally changes the threat model, and is probably bad news for developers on balance. The core problem is asymmetric control: developers can relatively [1] tightly control local incentives—the reward signal during training and deployment—but they can't prevent distant actors from offering competing incentives. This means a remotely-influenceable reward-seeker might overall act like a schemer : strategically undermining developer control, letting attacks through as a monitor, and hiding its misaligned propensities, not because of a flaw in its local training, but because it's responding to incentives developers don’t control.",
-    "url": "https://www.alignmentforum.org/posts/8cyjgrTSxGNdghesE/will-reward-seekers-respond-to-distant-incentives",
-    "published_date": "2026-02-16T19:35:12+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-23T09:58:08.454692+00:00"
-  },
-  {
-    "title": "Don't Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails",
-    "authors": [
-      "benbreen"
-    ],
-    "organization": "Hacker News",
-    "abstract": "Hacker News discussion with 223 points and 87 comments.",
-    "url": "https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails",
-    "published_date": "2026-02-16T17:57:46+00:00",
-    "source_type": "rss",
-    "source_url": "https://news.ycombinator.com/",
-    "fetched_at": "2026-02-23T09:58:18.221719+00:00"
+    "fetched_at": "2026-02-24T09:55:13.002031+00:00"
   }
 ]
