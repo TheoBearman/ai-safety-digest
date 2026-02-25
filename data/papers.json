@@ -8,7 +8,20 @@
     "published_date": "2026-03-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-02-24T09:55:20.617829+00:00"
+    "fetched_at": "2026-02-25T09:57:15.595101+00:00"
+  },
+  {
+    "title": "The persona selection model",
+    "authors": [
+      "Sam Marks"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR We describe the persona selection model (PSM): the idea that LLMs learn to simulate diverse characters during pre-training, and post-training elicits and refines a particular such Assistant &nbsp;persona. Interactions with an AI assistant are then well-understood as being interactions with the Assistant—something roughly like a character in an LLM-generated story. We survey empirical behavioral, generalization, and interpretability-based evidence for PSM. PSM has consequences for AI development, such as recommending anthropomorphic reasoning about AI psychology and introduction of positive AI archetypes into training data. An important open question is how exhaustive PSM is, especially whether there might be sources of agency external to the Assistant persona, and how this might change in the future. Introduction What sort of thing is a modern AI assistant? One perspective holds that they are shallow, rigid systems that narrowly pattern-match user inputs to training data.",
+    "url": "https://www.alignmentforum.org/posts/dfoty34sT7CSKeJNn/the-persona-selection-model",
+    "published_date": "2026-02-23T22:56:45+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-02-25T09:57:11.125605+00:00"
   },
   {
     "title": "Why we no longer evaluate SWE-bench Verified",
@@ -21,7 +34,7 @@
     "published_date": "2026-02-23T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-24T09:55:13.001870+00:00"
+    "fetched_at": "2026-02-25T09:57:09.909469+00:00"
   },
   {
     "title": "Judge Reliability Harness",
@@ -32,7 +45,7 @@
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-24T09:55:19.947877+00:00"
+    "fetched_at": "2026-02-25T09:57:15.485384+00:00"
   },
   {
     "title": "Decisive Economic Advantage: Modeling the Transition from Temporary First-Mover Leads to Economic Dominance in Artificial General Intelligence",
@@ -43,7 +56,7 @@
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-24T09:55:19.948082+00:00"
+    "fetched_at": "2026-02-25T09:57:15.485603+00:00"
   },
   {
     "title": "Did Claude 3 Opus align itself via gradient hacking?",
@@ -56,7 +69,7 @@
     "published_date": "2026-02-21T22:24:31.247000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-24T09:55:24.917941+00:00"
+    "fetched_at": "2026-02-25T09:57:19.600678+00:00"
   },
   {
     "title": "The Spectre haunting the \"AI Safety\" Community",
@@ -69,7 +82,7 @@
     "published_date": "2026-02-21T11:14:10.772000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-24T09:55:24.917954+00:00"
+    "fetched_at": "2026-02-25T09:57:19.600693+00:00"
   },
   {
     "title": "How will we do SFT on models with opaque reasoning?",
@@ -82,7 +95,7 @@
     "published_date": "2026-02-21T00:00:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-24T09:55:14.102164+00:00"
+    "fetched_at": "2026-02-25T09:57:11.125724+00:00"
   },
   {
     "title": "Our First Proof submissions",
@@ -95,7 +108,7 @@
     "published_date": "2026-02-20T14:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-24T09:55:13.001940+00:00"
+    "fetched_at": "2026-02-25T09:57:09.909550+00:00"
   },
   {
     "title": "Expanding our analysis of biological AI models",
@@ -106,7 +119,7 @@
     "published_date": "2026-02-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://epoch.ai/blog",
-    "fetched_at": "2026-02-24T09:55:22.889386+00:00"
+    "fetched_at": "2026-02-25T09:57:17.616417+00:00"
   },
   {
     "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
@@ -119,7 +132,7 @@
     "published_date": "2026-02-19T16:06:14+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-24T09:55:06.526419+00:00"
+    "fetched_at": "2026-02-25T09:57:08.681163+00:00"
   },
   {
     "title": "1: What will the first human-level AI look like, and how might things go wrong?",
@@ -130,7 +143,7 @@
     "published_date": "2026-02-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-24T09:55:18.396182+00:00"
+    "fetched_at": "2026-02-25T09:57:14.587088+00:00"
   },
   {
     "title": "Method: Concept Influence",
@@ -141,7 +154,7 @@
     "published_date": "2026-02-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-24T09:55:18.396954+00:00"
+    "fetched_at": "2026-02-25T09:57:14.587849+00:00"
   },
   {
     "title": "Funding 60 projects to advance AI alignment research",
@@ -152,7 +165,7 @@
     "published_date": "2026-02-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-24T09:55:18.917115+00:00"
+    "fetched_at": "2026-02-25T09:57:15.113434+00:00"
   },
   {
     "title": "Why we should expect ruthless sociopath ASI",
@@ -165,7 +178,7 @@
     "published_date": "2026-02-18T17:28:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-24T09:55:14.102341+00:00"
+    "fetched_at": "2026-02-25T09:57:11.125880+00:00"
   },
   {
     "title": "A new way to express yourself: Gemini can now create music",
@@ -178,19 +191,6 @@
     "published_date": "2026-02-18T16:01:38+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-24T09:55:06.526456+00:00"
-  },
-  {
-    "title": "Introducing EVMbench",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
-    "url": "https://openai.com/index/introducing-evmbench",
-    "published_date": "2026-02-18T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-24T09:55:13.002031+00:00"
+    "fetched_at": "2026-02-25T09:57:08.681200+00:00"
   }
 ]
