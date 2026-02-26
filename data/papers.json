@@ -8,7 +8,42 @@
     "published_date": "2026-03-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-02-25T09:57:15.595101+00:00"
+    "fetched_at": "2026-02-26T09:53:17.874350+00:00"
+  },
+  {
+    "title": "“Announcing ControlConf 2026” by Buck Shlegeris",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: Berkeley, April 18-19. We’re running ControlConf, a two-day conference on AI control: the study of reducing risks from misalignment through safeguards that work even when AI models are trying to undermine them. Since the last ControlConf (Feb 2025), AI agents have gotten way better. We’re approaching the point where control techniques are load-bearing for the safety of real agent deployments. There's been a lot of progress too. Researchers have run control evaluations in more realistic settings, and AI companies have started building initial control measures—with much more to come. At ControlConf, the people at the frontier of this work will present on current research problems, promising interventions, and the most important research directions going forward. Apply here.",
+    "url": "https://blog.redwoodresearch.org/p/announcing-controlconf-2026",
+    "published_date": "2026-02-26T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-02-26T09:53:12.455875+00:00"
+  },
+  {
+    "title": "A pipeline for transcript analysis using Inspect Scout",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "We outline a step-by-step pipeline for using our open-source transcript analysis tool, Inspect Scout.",
+    "url": "https://www.aisi.gov.uk/blog/a-pipeline-for-transcript-analysis-using-inspect-scout",
+    "published_date": "2026-02-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-02-26T09:53:17.073573+00:00"
+  },
+  {
+    "title": "The Science and Practice of Proportionality in AI Risk Evaluations: AI Evaluations Should Provide Meaningful Risk Information Without Imposing Excessive Burden",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Feb 25, 2026 Artificial intelligence evaluations should provide meaningful risk information without imposing excessive burden.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71258.html",
+    "published_date": "2026-02-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-02-26T09:53:17.446540+00:00"
   },
   {
     "title": "The persona selection model",
@@ -21,7 +56,7 @@
     "published_date": "2026-02-23T22:56:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-25T09:57:11.125605+00:00"
+    "fetched_at": "2026-02-26T09:53:12.903846+00:00"
   },
   {
     "title": "Why we no longer evaluate SWE-bench Verified",
@@ -34,7 +69,7 @@
     "published_date": "2026-02-23T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-25T09:57:09.909469+00:00"
+    "fetched_at": "2026-02-26T09:53:11.411890+00:00"
   },
   {
     "title": "Judge Reliability Harness",
@@ -45,7 +80,7 @@
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-25T09:57:15.485384+00:00"
+    "fetched_at": "2026-02-26T09:53:17.446806+00:00"
   },
   {
     "title": "Decisive Economic Advantage: Modeling the Transition from Temporary First-Mover Leads to Economic Dominance in Artificial General Intelligence",
@@ -56,7 +91,7 @@
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-25T09:57:15.485603+00:00"
+    "fetched_at": "2026-02-26T09:53:17.447001+00:00"
   },
   {
     "title": "Did Claude 3 Opus align itself via gradient hacking?",
@@ -69,7 +104,7 @@
     "published_date": "2026-02-21T22:24:31.247000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-25T09:57:19.600678+00:00"
+    "fetched_at": "2026-02-26T09:53:21.939283+00:00"
   },
   {
     "title": "The Spectre haunting the \"AI Safety\" Community",
@@ -82,7 +117,7 @@
     "published_date": "2026-02-21T11:14:10.772000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-25T09:57:19.600693+00:00"
+    "fetched_at": "2026-02-26T09:53:21.939298+00:00"
   },
   {
     "title": "How will we do SFT on models with opaque reasoning?",
@@ -95,7 +130,7 @@
     "published_date": "2026-02-21T00:00:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-25T09:57:11.125724+00:00"
+    "fetched_at": "2026-02-26T09:53:12.903968+00:00"
   },
   {
     "title": "Our First Proof submissions",
@@ -108,7 +143,7 @@
     "published_date": "2026-02-20T14:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-25T09:57:09.909550+00:00"
+    "fetched_at": "2026-02-26T09:53:11.411966+00:00"
   },
   {
     "title": "Expanding our analysis of biological AI models",
@@ -119,7 +154,7 @@
     "published_date": "2026-02-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://epoch.ai/blog",
-    "fetched_at": "2026-02-25T09:57:17.616417+00:00"
+    "fetched_at": "2026-02-26T09:53:20.013236+00:00"
   },
   {
     "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
@@ -132,65 +167,6 @@
     "published_date": "2026-02-19T16:06:14+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-25T09:57:08.681163+00:00"
-  },
-  {
-    "title": "1: What will the first human-level AI look like, and how might things go wrong?",
-    "authors": [],
-    "organization": "FAR AI",
-    "abstract": "Interpretability Concept Influence attributes model behaviors to semantic directions (like linear probes or sparse autoencoder features) rather than individual test examples, improving identification of the training data that disproportionately drive unintended behaviors. Simple first-order approximations match or outperform standard influence functions while achieving over 20× computational speedups, though they degrade under significant distribution shifts. February 19, 2026 The Problem: When Syntax Masks Semantics Which training examples teach models to generate insecure code or exhibit harmful behaviors? Traditional TDA methods, like standard influence functions, are susceptible to ``surface-level’’ correlations. By relying on single test examples, they often prioritize lexical overlap – essentially finding training data that looks like thequery outputpromptrather than data that actually causes the targetbehaviorof interest. Simple keyword search can rival sophisticated influence methods on fact retrieval tasks because the most influential examples often just share words with the test input, not meaning.",
-    "url": "https://far.ai/news/concept-data-attribution-02-2026",
-    "published_date": "2026-02-19T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-25T09:57:14.587088+00:00"
-  },
-  {
-    "title": "Method: Concept Influence",
-    "authors": [],
-    "organization": "FAR AI",
-    "abstract": "Interpretability Concept Influence attributes model behaviors to semantic directions (like linear probes or sparse autoencoder features) rather than individual test examples, improving identification of the training data that disproportionately drive unintended behaviors. Simple first-order approximations match or outperform standard influence functions while achieving over 20× computational speedups, though they degrade under significant distribution shifts. February 19, 2026 The Problem: When Syntax Masks Semantics Which training examples teach models to generate insecure code or exhibit harmful behaviors? Traditional TDA methods, like standard influence functions, are susceptible to ``surface-level’’ correlations. By relying on single test examples, they often prioritize lexical overlap – essentially finding training data that looks like thequery outputpromptrather than data that actually causes the targetbehaviorof interest. Simple keyword search can rival sophisticated influence methods on fact retrieval tasks because the most influential examples often just share words with the test input, not meaning.",
-    "url": "https://far.ai/news/concept-data-attribution-02-2026",
-    "published_date": "2026-02-19T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-02-25T09:57:14.587849+00:00"
-  },
-  {
-    "title": "Funding 60 projects to advance AI alignment research",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "The Alignment Project welcomes its first cohort of grantees, and new partners join the coalition, bringing total funding to £27m.",
-    "url": "https://www.aisi.gov.uk/blog/funding-60-projects-to-advance-ai-alignment-research",
-    "published_date": "2026-02-19T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-25T09:57:15.113434+00:00"
-  },
-  {
-    "title": "Why we should expect ruthless sociopath ASI",
-    "authors": [
-      "Steven Byrnes"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "The conversation begins (Fictional) Optimist: So you expect future artificial superintelligence (ASI) “by default”, i.e. in the absence of yet-to-be-invented techniques, to be a ruthless sociopath, happy to lie, cheat, and steal, whenever doing so is selfishly beneficial, and with callous indifference to whether anyone (including its own programmers and users) lives or dies? Me: Yup! (Alas.) Optimist: …Despite all the evidence right in front of our eyes from humans and LLMs. Me: Yup! Optimist: OK, well, I’m here to tell you: that is a very specific and strange thing to expect, especially in the absence of any concrete evidence whatsoever. There’s no reason to expect it. If you think that ruthless sociopathy is the “true core nature of intelligence” or whatever, then&nbsp; you should really look at yourself in a mirror and ask yourself where your life went horribly wrong .",
-    "url": "https://www.alignmentforum.org/posts/ZJZZEuPFKeEdkrRyf/why-we-should-expect-ruthless-sociopath-asi",
-    "published_date": "2026-02-18T17:28:17+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-25T09:57:11.125880+00:00"
-  },
-  {
-    "title": "A new way to express yourself: Gemini can now create music",
-    "authors": [
-      "Google DeepMind News"
-    ],
-    "organization": "Google DeepMind",
-    "abstract": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images.",
-    "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
-    "published_date": "2026-02-18T16:01:38+00:00",
-    "source_type": "rss",
-    "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-25T09:57:08.681200+00:00"
+    "fetched_at": "2026-02-26T09:53:10.319493+00:00"
   }
 ]
