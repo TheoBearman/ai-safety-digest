@@ -8,7 +8,59 @@
     "published_date": "2026-03-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-02-26T09:53:17.874350+00:00"
+    "fetched_at": "2026-02-27T09:43:35.149225+00:00"
+  },
+  {
+    "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
+    "authors": [
+      "aditya singh"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Authors: Aditya Singh*, Gerson Kroiz*, Senthooran Rajamanoharan, Neel Nanda Aditya and Gerson are co-first authors. This work was conducted during MATS 9.0 and was advised by Senthooran Rajamanoharan and Neel Nanda. Motivation Imagine that a frontier lab’s coding agent has been caught putting a bug in the key code for monitoring what that agent does. Naively, this seems like a clear smoking gun that the agent is scheming. But LLMs often do weird things; they could easily just be confused, or have made a mistake. These all require a response, but the cause and appropriate fix are very different between a scheming and confused model. As such, it is extremely important that we have high-quality methods to be able to incriminate or exonerate a model caught taking sketchy actions, to either build a rigorous case that serious action is needed, or conclude it’s a false alarm.",
+    "url": "https://www.alignmentforum.org/posts/Bv4CLkNzuG6XYTjEe/why-did-my-model-do-that-model-incrimination-for-diagnosing",
+    "published_date": "2026-02-27T03:20:21+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-02-27T09:43:30.227025+00:00"
+  },
+  {
+    "title": "CORPGEN advances AI agents for real work",
+    "authors": [
+      "Abubakarr Jaye, Nigel Boachie Kumankumah, Chidera Biringa, Sulaiman Vesal, Anjel Patel, Dayquan Julienne"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "By mid-morning, a typical knowledge worker is already juggling a client report, a budget spreadsheet, a slide deck, and an email backlog, all interdependent and all demanding attention at once. For AI agents to be genuinely useful in that environment, they will need to operate the same way, but today’s best models are evaluated one [&#8230;] The post CORPGEN advances AI agents for real work appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/",
+    "published_date": "2026-02-26T17:06:34+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-02-27T09:43:28.174017+00:00"
+  },
+  {
+    "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+    "authors": [
+      "Google DeepMind News"
+    ],
+    "organization": "Google DeepMind",
+    "abstract": "Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed.",
+    "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
+    "published_date": "2026-02-26T16:01:50+00:00",
+    "source_type": "rss",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "fetched_at": "2026-02-27T09:43:27.650838+00:00"
+  },
+  {
+    "title": "“Frontier AI companies probably can’t leave the US” by Anders Cairns Woodruff",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: The executive branch has substantial authority to restrict the movement of chips and assets, which they are they are likely to use to prevent the departure of a frontier company.. It's plausible that, over the next few years, US-based frontier AI companies will become very unhappy with the domestic political situation. This could happen as a result of democratic backsliding, weaponization of government power (along the lines of Anthropic's recent dispute with the Department of War), or because of restrictive federal regulations (perhaps including those motivated by concern about catastrophic risk). These companies might want to relocate out of the US. However, it would be very easy for the US executive branch to prevent such a relocation, and it likely would.",
+    "url": "https://blog.redwoodresearch.org/p/frontier-ai-companies-probably-cant",
+    "published_date": "2026-02-26T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-02-27T09:43:29.577564+00:00"
   },
   {
     "title": "“Announcing ControlConf 2026” by Buck Shlegeris",
@@ -21,7 +73,29 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-26T09:53:12.455875+00:00"
+    "fetched_at": "2026-02-27T09:43:29.577616+00:00"
+  },
+  {
+    "title": "An evaluation framework for AI misuse in fraud and cybercrime",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "We developed a scalable approach to measuring how text-based AI models can assist in three complex fraud and cybercrime scenarios.",
+    "url": "https://www.aisi.gov.uk/blog/an-evaluation-framework-for-ai-misuse-in-fraud-and-cybercrime",
+    "published_date": "2026-02-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-02-27T09:43:34.693861+00:00"
+  },
+  {
+    "title": "Stay Tuned: Improving Sentiment Analysis and Stance Detection Using Large Language Models",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Feb 26, 2026 We consider fine-tuning strategies to improve performance—including cross-target tuning using an assumption of congressmembers’ stance based on party affiliation—and strategies for fine-tuning LLMs, including few shot and chain-of-thought prompting.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71188.html",
+    "published_date": "2026-02-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-02-27T09:43:35.036346+00:00"
   },
   {
     "title": "A pipeline for transcript analysis using Inspect Scout",
@@ -32,7 +106,7 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-26T09:53:17.073573+00:00"
+    "fetched_at": "2026-02-27T09:43:34.694310+00:00"
   },
   {
     "title": "The Science and Practice of Proportionality in AI Risk Evaluations: AI Evaluations Should Provide Meaningful Risk Information Without Imposing Excessive Burden",
@@ -43,7 +117,7 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-26T09:53:17.446540+00:00"
+    "fetched_at": "2026-02-27T09:43:35.036552+00:00"
   },
   {
     "title": "The persona selection model",
@@ -56,7 +130,7 @@
     "published_date": "2026-02-23T22:56:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-26T09:53:12.903846+00:00"
+    "fetched_at": "2026-02-27T09:43:30.227664+00:00"
   },
   {
     "title": "Why we no longer evaluate SWE-bench Verified",
@@ -69,7 +143,7 @@
     "published_date": "2026-02-23T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-26T09:53:11.411890+00:00"
+    "fetched_at": "2026-02-27T09:43:28.864593+00:00"
   },
   {
     "title": "Judge Reliability Harness",
@@ -80,18 +154,18 @@
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-26T09:53:17.446806+00:00"
+    "fetched_at": "2026-02-27T09:43:35.036748+00:00"
   },
   {
     "title": "Decisive Economic Advantage: Modeling the Transition from Temporary First-Mover Leads to Economic Dominance in Artificial General Intelligence",
     "authors": [],
     "organization": "RAND",
-    "abstract": "Research Feb 23, 2026 Artificial general intelligence may differ from past technologies in ways that would allow a leader to turn an early advantage into decisive economic advantage. Artificial general intelligence may differ from past technologies in ways that would allow a leader to turn an early advantage into decisive economic advantage.",
+    "abstract": "Research Feb 23, 2026 Artificial general intelligence may differ from past technologies in ways that would allow a leader to turn an early advantage into decisive economic advantage.",
     "url": "https://www.rand.org/pubs/research_reports/RRA4444-1.html",
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-26T09:53:17.447001+00:00"
+    "fetched_at": "2026-02-27T09:43:35.036958+00:00"
   },
   {
     "title": "Did Claude 3 Opus align itself via gradient hacking?",
@@ -104,7 +178,7 @@
     "published_date": "2026-02-21T22:24:31.247000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-26T09:53:21.939283+00:00"
+    "fetched_at": "2026-02-27T09:43:39.492786+00:00"
   },
   {
     "title": "The Spectre haunting the \"AI Safety\" Community",
@@ -117,7 +191,7 @@
     "published_date": "2026-02-21T11:14:10.772000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-26T09:53:21.939298+00:00"
+    "fetched_at": "2026-02-27T09:43:39.492797+00:00"
   },
   {
     "title": "How will we do SFT on models with opaque reasoning?",
@@ -130,7 +204,7 @@
     "published_date": "2026-02-21T00:00:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-26T09:53:12.903968+00:00"
+    "fetched_at": "2026-02-27T09:43:30.227779+00:00"
   },
   {
     "title": "Our First Proof submissions",
@@ -143,30 +217,6 @@
     "published_date": "2026-02-20T14:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-26T09:53:11.411966+00:00"
-  },
-  {
-    "title": "Expanding our analysis of biological AI models",
-    "authors": [],
-    "organization": "Epoch AI",
-    "abstract": "We release a database of over 1,100 biological AI models across nine categories. We analyze their safeguards, accessibility, training data sources, and the foundation models they build on.",
-    "url": "https://epoch.ai/blog/expanding-our-analysis-of-biological-ai-models",
-    "published_date": "2026-02-20T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://epoch.ai/blog",
-    "fetched_at": "2026-02-26T09:53:20.013236+00:00"
-  },
-  {
-    "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
-    "authors": [
-      "Google DeepMind News"
-    ],
-    "organization": "Google DeepMind",
-    "abstract": "3.1 Pro is designed for tasks where a simple answer isn’t enough.",
-    "url": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
-    "published_date": "2026-02-19T16:06:14+00:00",
-    "source_type": "rss",
-    "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-26T09:53:10.319493+00:00"
+    "fetched_at": "2026-02-27T09:43:28.864656+00:00"
   }
 ]
