@@ -1,14 +1,16 @@
 [
   {
-    "title": "Future-Ready: Building Tomorrow’s Tech Workforce",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Please join the Center for Security and Emerging Technology on Tuesday, March 10, for our 2026 Spring Symposium, which will include discussions on building the AI and emerging technology workforce. The event will feature a fireside chat with Senator Lisa Blunt Rochester, as well as insights from industry and labor experts at the cutting edge of technology workforce policy.",
-    "url": "https://cset.georgetown.edu/news",
-    "published_date": "2026-03-10T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-02-27T09:43:35.149225+00:00"
+    "title": "Schelling Goodness, and Shared Morality as a Goal",
+    "authors": [
+      "Andrew_Critch"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Also available in markdown at theMultiplicity.ai/blog/schelling-goodness . This post explores a notion I'll call Schelling goodness . Claims of Schelling goodness are not first-order moral verdicts like \"X is good\" or \"X is bad.\" They are claims about a class of hypothetical coordination games in the sense of Thomas Schelling, where the task being coordinated on is a moral verdict. In each such game, participants aim to give the same response regarding a moral question, by reasoning about what a very diverse population of intelligent beings would converge on, using only broadly shared constraints: common knowledge of the question at hand, and background knowledge from the survival and growth pressures that shape successful civilizations. Unlike many Schelling coordination games, we'll be focused on scenarios with no shared history or knowledge amongst the participants, other than being from successful civilizations.",
+    "url": "https://www.alignmentforum.org/posts/TkBCR8XRGw7qmao6z/schelling-goodness-and-shared-morality-as-a-goal",
+    "published_date": "2026-02-28T04:25:42+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-02-28T09:28:55.360907+00:00"
   },
   {
     "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
@@ -21,12 +23,23 @@
     "published_date": "2026-02-27T03:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-27T09:43:30.227025+00:00"
+    "fetched_at": "2026-02-28T09:28:55.361977+00:00"
+  },
+  {
+    "title": "Breaking Down the Federal Budget: New Tools from RAND",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Podcast Feb 27, 2026 Duration34:17 Economist Jeffrey Wenger explains how the RAND Budget Model works, ways it can be used to gain new insights into the federal budget, and why it matters to all Americans.",
+    "url": "https://www.rand.org/pubs/podcasts/policy-minded/2026/breaking-down-the-federal-budget.html",
+    "published_date": "2026-02-27T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-02-28T09:29:02.208427+00:00"
   },
   {
     "title": "CORPGEN advances AI agents for real work",
     "authors": [
-      "Abubakarr Jaye, Nigel Boachie Kumankumah, Chidera Biringa, Sulaiman Vesal, Anjel Patel, Dayquan Julienne"
+      "Abubakarr Jaye, Nigel Boachie Kumankumah, Chidera Biringa, Anjel Patel, Dayquan Julienne, Tianwei Chen, Sulaiman Vesal"
     ],
     "organization": "Microsoft Research",
     "abstract": "By mid-morning, a typical knowledge worker is already juggling a client report, a budget spreadsheet, a slide deck, and an email backlog, all interdependent and all demanding attention at once. For AI agents to be genuinely useful in that environment, they will need to operate the same way, but today’s best models are evaluated one [&#8230;] The post CORPGEN advances AI agents for real work appeared first on Microsoft Research .",
@@ -34,7 +47,7 @@
     "published_date": "2026-02-26T17:06:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-02-27T09:43:28.174017+00:00"
+    "fetched_at": "2026-02-28T09:28:52.481318+00:00"
   },
   {
     "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
@@ -47,7 +60,7 @@
     "published_date": "2026-02-26T16:01:50+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-27T09:43:27.650838+00:00"
+    "fetched_at": "2026-02-28T09:28:51.550181+00:00"
   },
   {
     "title": "“Frontier AI companies probably can’t leave the US” by Anders Cairns Woodruff",
@@ -60,7 +73,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-27T09:43:29.577564+00:00"
+    "fetched_at": "2026-02-28T09:28:54.627579+00:00"
   },
   {
     "title": "“Announcing ControlConf 2026” by Buck Shlegeris",
@@ -73,7 +86,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-27T09:43:29.577616+00:00"
+    "fetched_at": "2026-02-28T09:28:54.627635+00:00"
   },
   {
     "title": "An evaluation framework for AI misuse in fraud and cybercrime",
@@ -84,7 +97,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-27T09:43:34.693861+00:00"
+    "fetched_at": "2026-02-28T09:29:01.426420+00:00"
   },
   {
     "title": "Stay Tuned: Improving Sentiment Analysis and Stance Detection Using Large Language Models",
@@ -95,7 +108,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-27T09:43:35.036346+00:00"
+    "fetched_at": "2026-02-28T09:29:02.208625+00:00"
   },
   {
     "title": "A pipeline for transcript analysis using Inspect Scout",
@@ -106,7 +119,7 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-27T09:43:34.694310+00:00"
+    "fetched_at": "2026-02-28T09:29:01.426854+00:00"
   },
   {
     "title": "The Science and Practice of Proportionality in AI Risk Evaluations: AI Evaluations Should Provide Meaningful Risk Information Without Imposing Excessive Burden",
@@ -117,7 +130,7 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-27T09:43:35.036552+00:00"
+    "fetched_at": "2026-02-28T09:29:02.208831+00:00"
   },
   {
     "title": "The persona selection model",
@@ -130,7 +143,7 @@
     "published_date": "2026-02-23T22:56:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-27T09:43:30.227664+00:00"
+    "fetched_at": "2026-02-28T09:28:55.362613+00:00"
   },
   {
     "title": "Why we no longer evaluate SWE-bench Verified",
@@ -143,7 +156,7 @@
     "published_date": "2026-02-23T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-27T09:43:28.864593+00:00"
+    "fetched_at": "2026-02-28T09:28:53.411996+00:00"
   },
   {
     "title": "Judge Reliability Harness",
@@ -154,7 +167,7 @@
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-27T09:43:35.036748+00:00"
+    "fetched_at": "2026-02-28T09:29:02.209024+00:00"
   },
   {
     "title": "Decisive Economic Advantage: Modeling the Transition from Temporary First-Mover Leads to Economic Dominance in Artificial General Intelligence",
@@ -165,7 +178,7 @@
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-27T09:43:35.036958+00:00"
+    "fetched_at": "2026-02-28T09:29:02.209230+00:00"
   },
   {
     "title": "Did Claude 3 Opus align itself via gradient hacking?",
@@ -178,7 +191,7 @@
     "published_date": "2026-02-21T22:24:31.247000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-27T09:43:39.492786+00:00"
+    "fetched_at": "2026-02-28T09:29:07.842542+00:00"
   },
   {
     "title": "The Spectre haunting the \"AI Safety\" Community",
@@ -191,32 +204,6 @@
     "published_date": "2026-02-21T11:14:10.772000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-27T09:43:39.492797+00:00"
-  },
-  {
-    "title": "How will we do SFT on models with opaque reasoning?",
-    "authors": [
-      "Alek Westover"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Current LLMs externalize lots of their reasoning in human interpretable language. This reasoning is sometimes unfaithful , sometimes strange and concerning , and LLMs can do somewhat impressive reasoning without using CoT , but my overall impression is that CoT currently is a reasonably complete and accurate representation of LLM reasoning. However, reasoning in interpretable language might turn out to be uncompetitive—if so, it seems probable that opaque reasoning will be adopted in frontier AI labs. If future AI models have opaque reasoning, this will probably change what training we can apply to these AIs. For example, currently we train models to reason in a good way about math problems, or to reason in a desired way about the spec that we hope they’ll follow.",
-    "url": "https://www.alignmentforum.org/posts/GJTzhQgaRWLFJkPbt/how-will-we-do-sft-on-models-with-opaque-reasoning",
-    "published_date": "2026-02-21T00:00:17+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-27T09:43:30.227779+00:00"
-  },
-  {
-    "title": "Our First Proof submissions",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.",
-    "url": "https://openai.com/index/first-proof-submissions",
-    "published_date": "2026-02-20T14:30:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-27T09:43:28.864656+00:00"
+    "fetched_at": "2026-02-28T09:29:07.842558+00:00"
   }
 ]
