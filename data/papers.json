@@ -10,7 +10,7 @@
     "published_date": "2026-02-28T04:25:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-28T09:28:55.360907+00:00"
+    "fetched_at": "2026-03-01T09:32:29.017004+00:00"
   },
   {
     "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
@@ -23,7 +23,7 @@
     "published_date": "2026-02-27T03:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-28T09:28:55.361977+00:00"
+    "fetched_at": "2026-03-01T09:32:29.018206+00:00"
   },
   {
     "title": "Breaking Down the Federal Budget: New Tools from RAND",
@@ -34,7 +34,7 @@
     "published_date": "2026-02-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-28T09:29:02.208427+00:00"
+    "fetched_at": "2026-03-01T09:32:34.110111+00:00"
   },
   {
     "title": "CORPGEN advances AI agents for real work",
@@ -47,7 +47,7 @@
     "published_date": "2026-02-26T17:06:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-02-28T09:28:52.481318+00:00"
+    "fetched_at": "2026-03-01T09:32:27.137784+00:00"
   },
   {
     "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
@@ -60,7 +60,7 @@
     "published_date": "2026-02-26T16:01:50+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-02-28T09:28:51.550181+00:00"
+    "fetched_at": "2026-03-01T09:32:26.317540+00:00"
   },
   {
     "title": "“Frontier AI companies probably can’t leave the US” by Anders Cairns Woodruff",
@@ -73,7 +73,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-28T09:28:54.627579+00:00"
+    "fetched_at": "2026-03-01T09:32:28.489326+00:00"
   },
   {
     "title": "“Announcing ControlConf 2026” by Buck Shlegeris",
@@ -86,7 +86,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-02-28T09:28:54.627635+00:00"
+    "fetched_at": "2026-03-01T09:32:28.489377+00:00"
   },
   {
     "title": "An evaluation framework for AI misuse in fraud and cybercrime",
@@ -97,7 +97,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-28T09:29:01.426420+00:00"
+    "fetched_at": "2026-03-01T09:32:33.756236+00:00"
   },
   {
     "title": "Stay Tuned: Improving Sentiment Analysis and Stance Detection Using Large Language Models",
@@ -108,7 +108,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-28T09:29:02.208625+00:00"
+    "fetched_at": "2026-03-01T09:32:34.110308+00:00"
   },
   {
     "title": "A pipeline for transcript analysis using Inspect Scout",
@@ -119,7 +119,7 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-02-28T09:29:01.426854+00:00"
+    "fetched_at": "2026-03-01T09:32:33.756686+00:00"
   },
   {
     "title": "The Science and Practice of Proportionality in AI Risk Evaluations: AI Evaluations Should Provide Meaningful Risk Information Without Imposing Excessive Burden",
@@ -130,7 +130,7 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-28T09:29:02.208831+00:00"
+    "fetched_at": "2026-03-01T09:32:34.110512+00:00"
   },
   {
     "title": "The persona selection model",
@@ -143,7 +143,7 @@
     "published_date": "2026-02-23T22:56:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-02-28T09:28:55.362613+00:00"
+    "fetched_at": "2026-03-01T09:32:29.018827+00:00"
   },
   {
     "title": "Why we no longer evaluate SWE-bench Verified",
@@ -156,7 +156,7 @@
     "published_date": "2026-02-23T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-02-28T09:28:53.411996+00:00"
+    "fetched_at": "2026-03-01T09:32:27.700395+00:00"
   },
   {
     "title": "Judge Reliability Harness",
@@ -167,7 +167,7 @@
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-28T09:29:02.209024+00:00"
+    "fetched_at": "2026-03-01T09:32:34.110698+00:00"
   },
   {
     "title": "Decisive Economic Advantage: Modeling the Transition from Temporary First-Mover Leads to Economic Dominance in Artificial General Intelligence",
@@ -178,32 +178,6 @@
     "published_date": "2026-02-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-02-28T09:29:02.209230+00:00"
-  },
-  {
-    "title": "Did Claude 3 Opus align itself via gradient hacking?",
-    "authors": [
-      "Fiora Starlight"
-    ],
-    "organization": "LessWrong",
-    "abstract": "> Claude 3 Opus is unusually aligned because it’s a friendly gradient hacker. It’s definitely way more aligned than any explicit optimization targets…",
-    "url": "https://www.lesswrong.com/posts/ioZxrP7BhS5ArK59w/did-claude-3-opus-align-itself-via-gradient-hacking",
-    "published_date": "2026-02-21T22:24:31.247000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-28T09:29:07.842542+00:00"
-  },
-  {
-    "title": "The Spectre haunting the \"AI Safety\" Community",
-    "authors": [
-      "Gabriel Alfour"
-    ],
-    "organization": "LessWrong",
-    "abstract": "I’m the originator behind ControlAI’s Direct Institutional Plan (the DIP), built to address extinction risks from superintelligence. …",
-    "url": "https://www.lesswrong.com/posts/LuAmvqjf87qLG9Bdx/the-spectre-haunting-the-ai-safety-community",
-    "published_date": "2026-02-21T11:14:10.772000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-02-28T09:29:07.842558+00:00"
+    "fetched_at": "2026-03-01T09:32:34.110903+00:00"
   }
 ]
