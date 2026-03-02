@@ -1,5 +1,18 @@
 [
   {
+    "title": "How to Design Environments for Understanding Model Motives",
+    "authors": [
+      "gersonkroiz"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Authors: Gerson Kroiz*, Aditya Singh*, Senthooran Rajamanoharan, Neel Nanda Gerson and Aditya are co-first authors. This work was conducted during MATS 9.0 and was advised by Senthooran Rajamanoharan and Neel Nanda. TL;DR Understanding why a model took an action is a key question in AI Safety. It is a difficult question, as often many motivations could plausibly lead to the same action. We are particularly concerned about the case of model incrimination, i.e. observing a model taking a bad action and distinguishing between benign and malign motivations, e.g. scheming vs confusion. To practice the skill of understanding motivations, we need to build high-quality environments that serve as realistic proxy tasks for investigating future models. But we’ve found that there are many ways in which environments can be contrived. It is valuable to invest effort in ruling out confounds like ambiguity, instruction conflict, or confusion.",
+    "url": "https://www.alignmentforum.org/posts/8pZuQnCve6K5ZrnM8/how-to-design-environments-for-understanding-model-motives",
+    "published_date": "2026-03-02T07:14:36+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-03-02T09:53:32.487185+00:00"
+  },
+  {
     "title": "Schelling Goodness, and Shared Morality as a Goal",
     "authors": [
       "Andrew_Critch"
@@ -10,7 +23,7 @@
     "published_date": "2026-02-28T04:25:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-01T09:32:29.017004+00:00"
+    "fetched_at": "2026-03-02T09:53:32.487713+00:00"
   },
   {
     "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
@@ -23,7 +36,7 @@
     "published_date": "2026-02-27T03:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-01T09:32:29.018206+00:00"
+    "fetched_at": "2026-03-02T09:53:32.488806+00:00"
   },
   {
     "title": "Breaking Down the Federal Budget: New Tools from RAND",
@@ -34,7 +47,7 @@
     "published_date": "2026-02-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-01T09:32:34.110111+00:00"
+    "fetched_at": "2026-03-02T09:53:38.191549+00:00"
   },
   {
     "title": "CORPGEN advances AI agents for real work",
@@ -47,7 +60,7 @@
     "published_date": "2026-02-26T17:06:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-01T09:32:27.137784+00:00"
+    "fetched_at": "2026-03-02T09:53:30.432225+00:00"
   },
   {
     "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
@@ -60,7 +73,7 @@
     "published_date": "2026-02-26T16:01:50+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-01T09:32:26.317540+00:00"
+    "fetched_at": "2026-03-02T09:53:29.603672+00:00"
   },
   {
     "title": "“Frontier AI companies probably can’t leave the US” by Anders Cairns Woodruff",
@@ -73,7 +86,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-01T09:32:28.489326+00:00"
+    "fetched_at": "2026-03-02T09:53:31.958235+00:00"
   },
   {
     "title": "“Announcing ControlConf 2026” by Buck Shlegeris",
@@ -86,7 +99,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-01T09:32:28.489377+00:00"
+    "fetched_at": "2026-03-02T09:53:31.958279+00:00"
   },
   {
     "title": "An evaluation framework for AI misuse in fraud and cybercrime",
@@ -97,7 +110,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-01T09:32:33.756236+00:00"
+    "fetched_at": "2026-03-02T09:53:37.658004+00:00"
   },
   {
     "title": "Stay Tuned: Improving Sentiment Analysis and Stance Detection Using Large Language Models",
@@ -108,7 +121,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-01T09:32:34.110308+00:00"
+    "fetched_at": "2026-03-02T09:53:38.191725+00:00"
   },
   {
     "title": "A pipeline for transcript analysis using Inspect Scout",
@@ -119,7 +132,7 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-01T09:32:33.756686+00:00"
+    "fetched_at": "2026-03-02T09:53:37.658396+00:00"
   },
   {
     "title": "The Science and Practice of Proportionality in AI Risk Evaluations: AI Evaluations Should Provide Meaningful Risk Information Without Imposing Excessive Burden",
@@ -130,7 +143,7 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-01T09:32:34.110512+00:00"
+    "fetched_at": "2026-03-02T09:53:38.191912+00:00"
   },
   {
     "title": "The persona selection model",
@@ -143,7 +156,7 @@
     "published_date": "2026-02-23T22:56:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-01T09:32:29.018827+00:00"
+    "fetched_at": "2026-03-02T09:53:32.489423+00:00"
   },
   {
     "title": "Why we no longer evaluate SWE-bench Verified",
@@ -156,28 +169,6 @@
     "published_date": "2026-02-23T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-01T09:32:27.700395+00:00"
-  },
-  {
-    "title": "Judge Reliability Harness",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Tool Feb 23, 2026 RAND researchers developed the Judge Reliability Harness, an open-source library that orchestrates standardized, reproducible evaluations of large language model–based judges through systematic perturbation testing and human-in-the-loop validation.",
-    "url": "https://www.rand.org/pubs/tools/TLA4547-1.html",
-    "published_date": "2026-02-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-01T09:32:34.110698+00:00"
-  },
-  {
-    "title": "Decisive Economic Advantage: Modeling the Transition from Temporary First-Mover Leads to Economic Dominance in Artificial General Intelligence",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Feb 23, 2026 Artificial general intelligence may differ from past technologies in ways that would allow a leader to turn an early advantage into decisive economic advantage.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4444-1.html",
-    "published_date": "2026-02-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-01T09:32:34.110903+00:00"
+    "fetched_at": "2026-03-02T09:53:31.197809+00:00"
   }
 ]
