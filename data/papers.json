@@ -10,7 +10,7 @@
     "published_date": "2026-03-02T07:14:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-02T09:53:32.487185+00:00"
+    "fetched_at": "2026-03-03T09:44:08.583888+00:00"
   },
   {
     "title": "Schelling Goodness, and Shared Morality as a Goal",
@@ -23,7 +23,20 @@
     "published_date": "2026-02-28T04:25:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-02T09:53:32.487713+00:00"
+    "fetched_at": "2026-03-03T09:44:08.584441+00:00"
+  },
+  {
+    "title": "Statement from Max Tegmark on the Department of War’s ultimatum",
+    "authors": [
+      "Future of Life Institute"
+    ],
+    "organization": "FLI",
+    "abstract": "\"Our safety and basic rights must not be at the mercy of a company's internal policy; lawmakers must work to codify these overwhelmingly popular red lines into law.\"",
+    "url": "https://futureoflife.org/ai/tegmark-statement-on-dow-ultimatum/",
+    "published_date": "2026-02-27T09:30:44+00:00",
+    "source_type": "rss",
+    "source_url": "https://futureoflife.org/feed/",
+    "fetched_at": "2026-03-03T09:44:09.565277+00:00"
   },
   {
     "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
@@ -36,7 +49,7 @@
     "published_date": "2026-02-27T03:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-02T09:53:32.488806+00:00"
+    "fetched_at": "2026-03-03T09:44:08.585488+00:00"
   },
   {
     "title": "Breaking Down the Federal Budget: New Tools from RAND",
@@ -47,7 +60,7 @@
     "published_date": "2026-02-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-02T09:53:38.191549+00:00"
+    "fetched_at": "2026-03-03T09:44:13.920915+00:00"
   },
   {
     "title": "CORPGEN advances AI agents for real work",
@@ -60,7 +73,7 @@
     "published_date": "2026-02-26T17:06:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-02T09:53:30.432225+00:00"
+    "fetched_at": "2026-03-03T09:44:06.565915+00:00"
   },
   {
     "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
@@ -73,7 +86,7 @@
     "published_date": "2026-02-26T16:01:50+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-02T09:53:29.603672+00:00"
+    "fetched_at": "2026-03-03T09:44:05.958433+00:00"
   },
   {
     "title": "“Frontier AI companies probably can’t leave the US” by Anders Cairns Woodruff",
@@ -86,7 +99,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-02T09:53:31.958235+00:00"
+    "fetched_at": "2026-03-03T09:44:07.986901+00:00"
   },
   {
     "title": "“Announcing ControlConf 2026” by Buck Shlegeris",
@@ -99,7 +112,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-02T09:53:31.958279+00:00"
+    "fetched_at": "2026-03-03T09:44:07.986950+00:00"
   },
   {
     "title": "An evaluation framework for AI misuse in fraud and cybercrime",
@@ -110,7 +123,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-02T09:53:37.658004+00:00"
+    "fetched_at": "2026-03-03T09:44:13.341854+00:00"
   },
   {
     "title": "Stay Tuned: Improving Sentiment Analysis and Stance Detection Using Large Language Models",
@@ -121,7 +134,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-02T09:53:38.191725+00:00"
+    "fetched_at": "2026-03-03T09:44:13.921117+00:00"
   },
   {
     "title": "A pipeline for transcript analysis using Inspect Scout",
@@ -132,7 +145,7 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-02T09:53:37.658396+00:00"
+    "fetched_at": "2026-03-03T09:44:13.342327+00:00"
   },
   {
     "title": "The Science and Practice of Proportionality in AI Risk Evaluations: AI Evaluations Should Provide Meaningful Risk Information Without Imposing Excessive Burden",
@@ -143,32 +156,6 @@
     "published_date": "2026-02-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-02T09:53:38.191912+00:00"
-  },
-  {
-    "title": "The persona selection model",
-    "authors": [
-      "Sam Marks"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR We describe the persona selection model (PSM): the idea that LLMs learn to simulate diverse characters during pre-training, and post-training elicits and refines a particular such Assistant &nbsp;persona. Interactions with an AI assistant are then well-understood as being interactions with the Assistant—something roughly like a character in an LLM-generated story. We survey empirical behavioral, generalization, and interpretability-based evidence for PSM. PSM has consequences for AI development, such as recommending anthropomorphic reasoning about AI psychology and introduction of positive AI archetypes into training data. An important open question is how exhaustive PSM is, especially whether there might be sources of agency external to the Assistant persona, and how this might change in the future. Introduction What sort of thing is a modern AI assistant? One perspective holds that they are shallow, rigid systems that narrowly pattern-match user inputs to training data.",
-    "url": "https://www.alignmentforum.org/posts/dfoty34sT7CSKeJNn/the-persona-selection-model",
-    "published_date": "2026-02-23T22:56:45+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-02T09:53:32.489423+00:00"
-  },
-  {
-    "title": "Why we no longer evaluate SWE-bench Verified",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
-    "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
-    "published_date": "2026-02-23T11:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-02T09:53:31.197809+00:00"
+    "fetched_at": "2026-03-03T09:44:13.921349+00:00"
   }
 ]
