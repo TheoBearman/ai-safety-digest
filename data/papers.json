@@ -1,5 +1,44 @@
 [
   {
+    "title": "An Alignment Journal: Coming Soon",
+    "authors": [
+      "Dan MacKinlay"
+    ],
+    "organization": "LessWrong",
+    "abstract": "tl;dr We’re incubating an academic journal for AI alignment: rapid peer-review of under-served foundational Alignment research.",
+    "url": "https://www.lesswrong.com/posts/msnGbm52ZcG3xYcFo/an-alignment-journal-coming-soon",
+    "published_date": "2026-03-03T20:27:07.435000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-03-04T09:42:57.914100+00:00"
+  },
+  {
+    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "authors": [
+      "Google DeepMind News"
+    ],
+    "organization": "Google DeepMind",
+    "abstract": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+    "published_date": "2026-03-03T16:35:55+00:00",
+    "source_type": "rss",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "fetched_at": "2026-03-04T09:42:44.394366+00:00"
+  },
+  {
+    "title": "GPT-5.3 Instant System Card",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'GPT-5.3 Instant System Card'. Published 2026-03-03. Authors: OpenAI News.",
+    "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+    "published_date": "2026-03-03T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-03-04T09:42:45.948607+00:00"
+  },
+  {
     "title": "How to Design Environments for Understanding Model Motives",
     "authors": [
       "gersonkroiz"
@@ -10,7 +49,7 @@
     "published_date": "2026-03-02T07:14:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-03T09:44:08.583888+00:00"
+    "fetched_at": "2026-03-04T09:42:47.351951+00:00"
   },
   {
     "title": "Schelling Goodness, and Shared Morality as a Goal",
@@ -23,7 +62,7 @@
     "published_date": "2026-02-28T04:25:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-03T09:44:08.584441+00:00"
+    "fetched_at": "2026-03-04T09:42:47.352493+00:00"
   },
   {
     "title": "Statement from Max Tegmark on the Department of War’s ultimatum",
@@ -36,7 +75,7 @@
     "published_date": "2026-02-27T09:30:44+00:00",
     "source_type": "rss",
     "source_url": "https://futureoflife.org/feed/",
-    "fetched_at": "2026-03-03T09:44:09.565277+00:00"
+    "fetched_at": "2026-03-04T09:42:48.325260+00:00"
   },
   {
     "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
@@ -49,7 +88,7 @@
     "published_date": "2026-02-27T03:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-03T09:44:08.585488+00:00"
+    "fetched_at": "2026-03-04T09:42:47.353540+00:00"
   },
   {
     "title": "Breaking Down the Federal Budget: New Tools from RAND",
@@ -60,7 +99,7 @@
     "published_date": "2026-02-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-03T09:44:13.920915+00:00"
+    "fetched_at": "2026-03-04T09:42:53.342943+00:00"
   },
   {
     "title": "CORPGEN advances AI agents for real work",
@@ -73,7 +112,7 @@
     "published_date": "2026-02-26T17:06:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-03T09:44:06.565915+00:00"
+    "fetched_at": "2026-03-04T09:42:45.189669+00:00"
   },
   {
     "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
@@ -86,7 +125,7 @@
     "published_date": "2026-02-26T16:01:50+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-03T09:44:05.958433+00:00"
+    "fetched_at": "2026-03-04T09:42:44.394436+00:00"
   },
   {
     "title": "“Frontier AI companies probably can’t leave the US” by Anders Cairns Woodruff",
@@ -99,7 +138,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-03T09:44:07.986901+00:00"
+    "fetched_at": "2026-03-04T09:42:46.676868+00:00"
   },
   {
     "title": "“Announcing ControlConf 2026” by Buck Shlegeris",
@@ -112,7 +151,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-03T09:44:07.986950+00:00"
+    "fetched_at": "2026-03-04T09:42:46.676916+00:00"
   },
   {
     "title": "An evaluation framework for AI misuse in fraud and cybercrime",
@@ -123,7 +162,7 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-03T09:44:13.341854+00:00"
+    "fetched_at": "2026-03-04T09:42:52.792762+00:00"
   },
   {
     "title": "Stay Tuned: Improving Sentiment Analysis and Stance Detection Using Large Language Models",
@@ -134,28 +173,6 @@
     "published_date": "2026-02-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-03T09:44:13.921117+00:00"
-  },
-  {
-    "title": "A pipeline for transcript analysis using Inspect Scout",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "We outline a step-by-step pipeline for using our open-source transcript analysis tool, Inspect Scout.",
-    "url": "https://www.aisi.gov.uk/blog/a-pipeline-for-transcript-analysis-using-inspect-scout",
-    "published_date": "2026-02-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-03T09:44:13.342327+00:00"
-  },
-  {
-    "title": "The Science and Practice of Proportionality in AI Risk Evaluations: AI Evaluations Should Provide Meaningful Risk Information Without Imposing Excessive Burden",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Feb 25, 2026 Artificial intelligence evaluations should provide meaningful risk information without imposing excessive burden.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71258.html",
-    "published_date": "2026-02-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-03T09:44:13.921349+00:00"
+    "fetched_at": "2026-03-04T09:42:53.343143+00:00"
   }
 ]
