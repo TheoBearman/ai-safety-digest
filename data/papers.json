@@ -1,5 +1,42 @@
 [
   {
+    "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
+    "authors": [
+      "Jyoti Aneja, Michael Harrison, Neel Joshi, Tyler LaBonte, John Langford, Eduardo Salinas"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "We are pleased to announce Phi-4-reasoning-vision-15B, a 15 billion parameter open‑weight multimodal reasoning model, available through Microsoft Foundry (opens in new tab), HuggingFace (opens in new tab) and GitHub (opens in new tab). Phi-4-reasoning-vision-15B is a broadly capable model that can be used for a wide array of vision-language tasks such as image captioning, asking [&#8230;] The post Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
+    "published_date": "2026-03-04T18:05:57+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-03-05T09:46:47.421279+00:00"
+  },
+  {
+    "title": "Extending single-minus amplitudes to gravitons",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
+    "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+    "published_date": "2026-03-04T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-03-05T09:46:48.198299+00:00"
+  },
+  {
+    "title": "The People's Liberation Army's Perspectives on Artificial Intelligence Highlighting Integration as Key to \"Intelligentization\" Goals",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Mar 4, 2026 The authors reviewed academic journals and news media to determine the People's Liberation Army's views on integrating artificial intelligence into its military operations as part of China's larger \"intelligentization\" strategy.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4574-1.html",
+    "published_date": "2026-03-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-03-05T09:46:55.760660+00:00"
+  },
+  {
     "title": "An Alignment Journal: Coming Soon",
     "authors": [
       "Dan MacKinlay"
@@ -10,7 +47,7 @@
     "published_date": "2026-03-03T20:27:07.435000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-03-04T09:42:57.914100+00:00"
+    "fetched_at": "2026-03-05T09:46:59.248167+00:00"
   },
   {
     "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
@@ -23,7 +60,7 @@
     "published_date": "2026-03-03T16:35:55+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-04T09:42:44.394366+00:00"
+    "fetched_at": "2026-03-05T09:46:46.840751+00:00"
   },
   {
     "title": "GPT-5.3 Instant System Card",
@@ -36,7 +73,7 @@
     "published_date": "2026-03-03T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-04T09:42:45.948607+00:00"
+    "fetched_at": "2026-03-05T09:46:48.198401+00:00"
   },
   {
     "title": "How to Design Environments for Understanding Model Motives",
@@ -49,7 +86,7 @@
     "published_date": "2026-03-02T07:14:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-04T09:42:47.351951+00:00"
+    "fetched_at": "2026-03-05T09:46:49.448604+00:00"
   },
   {
     "title": "Schelling Goodness, and Shared Morality as a Goal",
@@ -62,7 +99,20 @@
     "published_date": "2026-02-28T04:25:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-04T09:42:47.352493+00:00"
+    "fetched_at": "2026-03-05T09:46:49.449150+00:00"
+  },
+  {
+    "title": "Coherent Care",
+    "authors": [
+      "abramdemski"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I've been trying to gather my thoughts for my next tiling theorem ( agenda write-up here ; first paper ; second paper ; recent project update ). I have a lot of ideas for how to improve upon my work so far, and trying to narrow them down to an achievable next step has been difficult. However, my mind keeps returning to specific friends who are not yet convinced of Updateless Decision Theory (UDT). I am not out to argue that UDT is the perfect decision theory; see eg here and here . However, I strongly believe that those who don't see the appeal of UDT are missing something.",
+    "url": "https://www.alignmentforum.org/posts/CDkbYSFTwggGE8mWp/coherent-care",
+    "published_date": "2026-02-27T21:59:41+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-03-05T09:46:49.449448+00:00"
   },
   {
     "title": "Statement from Max Tegmark on the Department of War’s ultimatum",
@@ -75,7 +125,7 @@
     "published_date": "2026-02-27T09:30:44+00:00",
     "source_type": "rss",
     "source_url": "https://futureoflife.org/feed/",
-    "fetched_at": "2026-03-04T09:42:48.325260+00:00"
+    "fetched_at": "2026-03-05T09:46:51.671445+00:00"
   },
   {
     "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
@@ -88,7 +138,7 @@
     "published_date": "2026-02-27T03:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-04T09:42:47.353540+00:00"
+    "fetched_at": "2026-03-05T09:46:49.450675+00:00"
   },
   {
     "title": "Breaking Down the Federal Budget: New Tools from RAND",
@@ -99,7 +149,7 @@
     "published_date": "2026-02-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-04T09:42:53.342943+00:00"
+    "fetched_at": "2026-03-05T09:46:55.760898+00:00"
   },
   {
     "title": "CORPGEN advances AI agents for real work",
@@ -112,7 +162,7 @@
     "published_date": "2026-02-26T17:06:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-04T09:42:45.189669+00:00"
+    "fetched_at": "2026-03-05T09:46:47.421336+00:00"
   },
   {
     "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
@@ -125,54 +175,6 @@
     "published_date": "2026-02-26T16:01:50+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-04T09:42:44.394436+00:00"
-  },
-  {
-    "title": "“Frontier AI companies probably can’t leave the US” by Anders Cairns Woodruff",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: The executive branch has substantial authority to restrict the movement of chips and assets, which they are they are likely to use to prevent the departure of a frontier company.. It's plausible that, over the next few years, US-based frontier AI companies will become very unhappy with the domestic political situation. This could happen as a result of democratic backsliding, weaponization of government power (along the lines of Anthropic's recent dispute with the Department of War), or because of restrictive federal regulations (perhaps including those motivated by concern about catastrophic risk). These companies might want to relocate out of the US. However, it would be very easy for the US executive branch to prevent such a relocation, and it likely would.",
-    "url": "https://blog.redwoodresearch.org/p/frontier-ai-companies-probably-cant",
-    "published_date": "2026-02-26T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-04T09:42:46.676868+00:00"
-  },
-  {
-    "title": "“Announcing ControlConf 2026” by Buck Shlegeris",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Berkeley, April 18-19. We’re running ControlConf, a two-day conference on AI control: the study of reducing risks from misalignment through safeguards that work even when AI models are trying to undermine them. Since the last ControlConf (Feb 2025), AI agents have gotten way better. We’re approaching the point where control techniques are load-bearing for the safety of real agent deployments. There's been a lot of progress too. Researchers have run control evaluations in more realistic settings, and AI companies have started building initial control measures—with much more to come. At ControlConf, the people at the frontier of this work will present on current research problems, promising interventions, and the most important research directions going forward. Apply here.",
-    "url": "https://blog.redwoodresearch.org/p/announcing-controlconf-2026",
-    "published_date": "2026-02-26T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-04T09:42:46.676916+00:00"
-  },
-  {
-    "title": "An evaluation framework for AI misuse in fraud and cybercrime",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "We developed a scalable approach to measuring how text-based AI models can assist in three complex fraud and cybercrime scenarios.",
-    "url": "https://www.aisi.gov.uk/blog/an-evaluation-framework-for-ai-misuse-in-fraud-and-cybercrime",
-    "published_date": "2026-02-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-04T09:42:52.792762+00:00"
-  },
-  {
-    "title": "Stay Tuned: Improving Sentiment Analysis and Stance Detection Using Large Language Models",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Feb 26, 2026 We consider fine-tuning strategies to improve performance—including cross-target tuning using an assumption of congressmembers’ stance based on party affiliation—and strategies for fine-tuning LLMs, including few shot and chain-of-thought prompting.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71188.html",
-    "published_date": "2026-02-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-04T09:42:53.343143+00:00"
+    "fetched_at": "2026-03-05T09:46:46.840790+00:00"
   }
 ]
