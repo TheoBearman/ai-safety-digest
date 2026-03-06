@@ -1,5 +1,42 @@
 [
   {
+    "title": "GPT-5.4 Thinking System Card",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'GPT-5.4 Thinking System Card'. Published 2026-03-05. Authors: OpenAI News.",
+    "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+    "published_date": "2026-03-05T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-03-06T09:41:42.084641+00:00"
+  },
+  {
+    "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+    "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+    "published_date": "2026-03-05T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-03-06T09:41:42.084711+00:00"
+  },
+  {
+    "title": "Evidence for inference scaling in AI cyber tasks: Increased evaluation budgets reveal higher success rates",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Alongside Irregular, we found evidence demonstrating that evaluators need to use large token budgets to understand the cyber capabilities of recent Large Language Models (LLMs).",
+    "url": "https://www.aisi.gov.uk/blog/evidence-for-inference-scaling-in-ai-cyber-tasks-increased-evaluation-budgets-reveal-higher-success-rates",
+    "published_date": "2026-03-05T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-03-06T09:41:50.679402+00:00"
+  },
+  {
     "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
     "authors": [
       "Jyoti Aneja, Michael Harrison, Neel Joshi, Tyler LaBonte, John Langford, Eduardo Salinas"
@@ -10,7 +47,7 @@
     "published_date": "2026-03-04T18:05:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-05T09:46:47.421279+00:00"
+    "fetched_at": "2026-03-06T09:41:41.210886+00:00"
   },
   {
     "title": "Extending single-minus amplitudes to gravitons",
@@ -23,7 +60,7 @@
     "published_date": "2026-03-04T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-05T09:46:48.198299+00:00"
+    "fetched_at": "2026-03-06T09:41:42.084872+00:00"
   },
   {
     "title": "The People's Liberation Army's Perspectives on Artificial Intelligence Highlighting Integration as Key to \"Intelligentization\" Goals",
@@ -34,7 +71,7 @@
     "published_date": "2026-03-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-05T09:46:55.760660+00:00"
+    "fetched_at": "2026-03-06T09:41:51.254723+00:00"
   },
   {
     "title": "An Alignment Journal: Coming Soon",
@@ -47,7 +84,7 @@
     "published_date": "2026-03-03T20:27:07.435000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-03-05T09:46:59.248167+00:00"
+    "fetched_at": "2026-03-06T09:41:56.720029+00:00"
   },
   {
     "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
@@ -60,7 +97,7 @@
     "published_date": "2026-03-03T16:35:55+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-05T09:46:46.840751+00:00"
+    "fetched_at": "2026-03-06T09:41:40.308632+00:00"
   },
   {
     "title": "GPT-5.3 Instant System Card",
@@ -73,7 +110,7 @@
     "published_date": "2026-03-03T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-05T09:46:48.198401+00:00"
+    "fetched_at": "2026-03-06T09:41:42.084983+00:00"
   },
   {
     "title": "How to Design Environments for Understanding Model Motives",
@@ -86,7 +123,7 @@
     "published_date": "2026-03-02T07:14:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-05T09:46:49.448604+00:00"
+    "fetched_at": "2026-03-06T09:41:43.507377+00:00"
   },
   {
     "title": "Schelling Goodness, and Shared Morality as a Goal",
@@ -99,7 +136,7 @@
     "published_date": "2026-02-28T04:25:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-05T09:46:49.449150+00:00"
+    "fetched_at": "2026-03-06T09:41:43.507935+00:00"
   },
   {
     "title": "Coherent Care",
@@ -112,69 +149,6 @@
     "published_date": "2026-02-27T21:59:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-05T09:46:49.449448+00:00"
-  },
-  {
-    "title": "Statement from Max Tegmark on the Department of War’s ultimatum",
-    "authors": [
-      "Future of Life Institute"
-    ],
-    "organization": "FLI",
-    "abstract": "\"Our safety and basic rights must not be at the mercy of a company's internal policy; lawmakers must work to codify these overwhelmingly popular red lines into law.\"",
-    "url": "https://futureoflife.org/ai/tegmark-statement-on-dow-ultimatum/",
-    "published_date": "2026-02-27T09:30:44+00:00",
-    "source_type": "rss",
-    "source_url": "https://futureoflife.org/feed/",
-    "fetched_at": "2026-03-05T09:46:51.671445+00:00"
-  },
-  {
-    "title": "Why Did My Model Do That? Model Incrimination for Diagnosing LLM Misbehavior",
-    "authors": [
-      "aditya singh"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Authors: Aditya Singh*, Gerson Kroiz*, Senthooran Rajamanoharan, Neel Nanda Aditya and Gerson are co-first authors. This work was conducted during MATS 9.0 and was advised by Senthooran Rajamanoharan and Neel Nanda. Motivation Imagine that a frontier lab’s coding agent has been caught putting a bug in the key code for monitoring what that agent does. Naively, this seems like a clear smoking gun that the agent is scheming. But LLMs often do weird things; they could easily just be confused, or have made a mistake. These all require a response, but the cause and appropriate fix are very different between a scheming and confused model. As such, it is extremely important that we have high-quality methods to be able to incriminate or exonerate a model caught taking sketchy actions, to either build a rigorous case that serious action is needed, or conclude it’s a false alarm.",
-    "url": "https://www.alignmentforum.org/posts/Bv4CLkNzuG6XYTjEe/why-did-my-model-do-that-model-incrimination-for-diagnosing",
-    "published_date": "2026-02-27T03:20:21+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-05T09:46:49.450675+00:00"
-  },
-  {
-    "title": "Breaking Down the Federal Budget: New Tools from RAND",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Podcast Feb 27, 2026 Duration34:17 Economist Jeffrey Wenger explains how the RAND Budget Model works, ways it can be used to gain new insights into the federal budget, and why it matters to all Americans.",
-    "url": "https://www.rand.org/pubs/podcasts/policy-minded/2026/breaking-down-the-federal-budget.html",
-    "published_date": "2026-02-27T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-05T09:46:55.760898+00:00"
-  },
-  {
-    "title": "CORPGEN advances AI agents for real work",
-    "authors": [
-      "Abubakarr Jaye, Nigel Boachie Kumankumah, Chidera Biringa, Anjel Patel, Dayquan Julienne, Tianwei Chen, Sulaiman Vesal"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "By mid-morning, a typical knowledge worker is already juggling a client report, a budget spreadsheet, a slide deck, and an email backlog, all interdependent and all demanding attention at once. For AI agents to be genuinely useful in that environment, they will need to operate the same way, but today’s best models are evaluated one [&#8230;] The post CORPGEN advances AI agents for real work appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/",
-    "published_date": "2026-02-26T17:06:34+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-05T09:46:47.421336+00:00"
-  },
-  {
-    "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
-    "authors": [
-      "Google DeepMind News"
-    ],
-    "organization": "Google DeepMind",
-    "abstract": "Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed.",
-    "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
-    "published_date": "2026-02-26T16:01:50+00:00",
-    "source_type": "rss",
-    "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-05T09:46:46.840790+00:00"
+    "fetched_at": "2026-03-06T09:41:43.508231+00:00"
   }
 ]
