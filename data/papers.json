@@ -1,5 +1,16 @@
 [
   {
+    "title": "3 Challenges and 2 Hopes for the Safety of Unsupervised Elicitation",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We study 3 realistic challenges to the safety of unsupervised elicitation and easy-to-hard generalization techniques, which aim to steer models on tasks which are beyond human supervision. We create datasets to test the robustness of methods against these challenges. We stress-test existing techniques on them along with new methods relying on 2 hopes: ensembling and combining unsupervised and easy-to-hard methods. We find that although the new hopes sometimes perform better than other approaches, no technique reliably performs well on the 3 challenges.",
+    "url": "https://alignment.anthropic.com/2026/challenges-hopes/",
+    "published_date": "2026-03-15T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-03-07T09:31:15.629029+00:00"
+  },
+  {
     "title": "GPT-5.4 Thinking System Card",
     "authors": [
       "OpenAI News"
@@ -10,7 +21,7 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-06T09:41:42.084641+00:00"
+    "fetched_at": "2026-03-07T09:31:12.916002+00:00"
   },
   {
     "title": "Reasoning models struggle to control their chains of thought, and that’s good",
@@ -23,7 +34,7 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-06T09:41:42.084711+00:00"
+    "fetched_at": "2026-03-07T09:31:12.916040+00:00"
   },
   {
     "title": "Evidence for inference scaling in AI cyber tasks: Increased evaluation budgets reveal higher success rates",
@@ -34,7 +45,7 @@
     "published_date": "2026-03-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-06T09:41:50.679402+00:00"
+    "fetched_at": "2026-03-07T09:31:19.250403+00:00"
   },
   {
     "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
@@ -47,7 +58,7 @@
     "published_date": "2026-03-04T18:05:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-06T09:41:41.210886+00:00"
+    "fetched_at": "2026-03-07T09:31:11.960707+00:00"
   },
   {
     "title": "Extending single-minus amplitudes to gravitons",
@@ -60,7 +71,7 @@
     "published_date": "2026-03-04T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-06T09:41:42.084872+00:00"
+    "fetched_at": "2026-03-07T09:31:12.916189+00:00"
   },
   {
     "title": "The People's Liberation Army's Perspectives on Artificial Intelligence Highlighting Integration as Key to \"Intelligentization\" Goals",
@@ -71,7 +82,7 @@
     "published_date": "2026-03-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-06T09:41:51.254723+00:00"
+    "fetched_at": "2026-03-07T09:31:19.872690+00:00"
   },
   {
     "title": "An Alignment Journal: Coming Soon",
@@ -84,7 +95,7 @@
     "published_date": "2026-03-03T20:27:07.435000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-03-06T09:41:56.720029+00:00"
+    "fetched_at": "2026-03-07T09:31:24.281520+00:00"
   },
   {
     "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
@@ -97,7 +108,7 @@
     "published_date": "2026-03-03T16:35:55+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-06T09:41:40.308632+00:00"
+    "fetched_at": "2026-03-07T09:31:11.114888+00:00"
   },
   {
     "title": "GPT-5.3 Instant System Card",
@@ -110,7 +121,7 @@
     "published_date": "2026-03-03T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-06T09:41:42.084983+00:00"
+    "fetched_at": "2026-03-07T09:31:12.916284+00:00"
   },
   {
     "title": "How to Design Environments for Understanding Model Motives",
@@ -123,32 +134,6 @@
     "published_date": "2026-03-02T07:14:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-06T09:41:43.507377+00:00"
-  },
-  {
-    "title": "Schelling Goodness, and Shared Morality as a Goal",
-    "authors": [
-      "Andrew_Critch"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Also available in markdown at theMultiplicity.ai/blog/schelling-goodness . This post explores a notion I'll call Schelling goodness . Claims of Schelling goodness are not first-order moral verdicts like \"X is good\" or \"X is bad.\" They are claims about a class of hypothetical coordination games in the sense of Thomas Schelling, where the task being coordinated on is a moral verdict. In each such game, participants aim to give the same response regarding a moral question, by reasoning about what a very diverse population of intelligent beings would converge on, using only broadly shared constraints: common knowledge of the question at hand, and background knowledge from the survival and growth pressures that shape successful civilizations. Unlike many Schelling coordination games, we'll be focused on scenarios with no shared history or knowledge amongst the participants, other than being from successful civilizations.",
-    "url": "https://www.alignmentforum.org/posts/TkBCR8XRGw7qmao6z/schelling-goodness-and-shared-morality-as-a-goal",
-    "published_date": "2026-02-28T04:25:42+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-06T09:41:43.507935+00:00"
-  },
-  {
-    "title": "Coherent Care",
-    "authors": [
-      "abramdemski"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "I've been trying to gather my thoughts for my next tiling theorem ( agenda write-up here ; first paper ; second paper ; recent project update ). I have a lot of ideas for how to improve upon my work so far, and trying to narrow them down to an achievable next step has been difficult. However, my mind keeps returning to specific friends who are not yet convinced of Updateless Decision Theory (UDT). I am not out to argue that UDT is the perfect decision theory; see eg here and here . However, I strongly believe that those who don't see the appeal of UDT are missing something.",
-    "url": "https://www.alignmentforum.org/posts/CDkbYSFTwggGE8mWp/coherent-care",
-    "published_date": "2026-02-27T21:59:41+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-06T09:41:43.508231+00:00"
+    "fetched_at": "2026-03-07T09:31:13.852829+00:00"
   }
 ]
