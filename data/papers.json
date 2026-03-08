@@ -8,20 +8,20 @@
     "published_date": "2026-03-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-07T09:31:15.629029+00:00"
+    "fetched_at": "2026-03-08T09:31:55.458281+00:00"
   },
   {
-    "title": "GPT-5.4 Thinking System Card",
+    "title": "Can governments quickly and cheaply slow AI training?",
     "authors": [
-      "OpenAI News"
+      "joshc"
     ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'GPT-5.4 Thinking System Card'. Published 2026-03-05. Authors: OpenAI News.",
-    "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
-    "published_date": "2026-03-05T10:00:00+00:00",
+    "organization": "Alignment Forum",
+    "abstract": "I originally wrote this as a private doc for people working in the field - it's not super polished, or optimized for a broad audience. But I'm publishing anyway because inference-verification is a new and exciting area, and there few birds-eye-view explainers of what's going on and what the bottlenecks are. Tl;dr:&nbsp; At least one of the following would need to be implemented for me to be confident that inference verification would substantially slow training given today's algorithms: Proof of work or proof of memory that accounts for &gt; 95% of computation. Memory wipes every few minutes. Output re-computation that reduces covert channel capacity below 0.01%. To my knowledge, no one has prototyped verification demos that reach these thresholds; so whether rapidly-implementable inference verification is feasible is still an open question. 1.",
+    "url": "https://www.alignmentforum.org/posts/Xzf3eMnhTko7AxnEy/can-governments-quickly-and-cheaply-slow-ai-training",
+    "published_date": "2026-03-07T19:11:22+00:00",
     "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-07T09:31:12.916002+00:00"
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-03-08T09:31:53.268768+00:00"
   },
   {
     "title": "Reasoning models struggle to control their chains of thought, and that’s good",
@@ -34,7 +34,20 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-07T09:31:12.916040+00:00"
+    "fetched_at": "2026-03-08T09:31:51.662966+00:00"
+  },
+  {
+    "title": "GPT-5.4 Thinking System Card",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'GPT-5.4 Thinking System Card'. Published 2026-03-05. Authors: OpenAI News.",
+    "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+    "published_date": "2026-03-05T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-03-08T09:31:51.663002+00:00"
   },
   {
     "title": "Evidence for inference scaling in AI cyber tasks: Increased evaluation budgets reveal higher success rates",
@@ -45,7 +58,7 @@
     "published_date": "2026-03-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-07T09:31:19.250403+00:00"
+    "fetched_at": "2026-03-08T09:31:59.761256+00:00"
   },
   {
     "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
@@ -58,7 +71,7 @@
     "published_date": "2026-03-04T18:05:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-07T09:31:11.960707+00:00"
+    "fetched_at": "2026-03-08T09:31:50.663913+00:00"
   },
   {
     "title": "Extending single-minus amplitudes to gravitons",
@@ -71,7 +84,7 @@
     "published_date": "2026-03-04T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-07T09:31:12.916189+00:00"
+    "fetched_at": "2026-03-08T09:31:51.663107+00:00"
   },
   {
     "title": "The People's Liberation Army's Perspectives on Artificial Intelligence Highlighting Integration as Key to \"Intelligentization\" Goals",
@@ -82,7 +95,7 @@
     "published_date": "2026-03-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-07T09:31:19.872690+00:00"
+    "fetched_at": "2026-03-08T09:32:00.318840+00:00"
   },
   {
     "title": "An Alignment Journal: Coming Soon",
@@ -95,7 +108,7 @@
     "published_date": "2026-03-03T20:27:07.435000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-03-07T09:31:24.281520+00:00"
+    "fetched_at": "2026-03-08T09:32:05.137640+00:00"
   },
   {
     "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
@@ -108,7 +121,7 @@
     "published_date": "2026-03-03T16:35:55+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-07T09:31:11.114888+00:00"
+    "fetched_at": "2026-03-08T09:31:50.015973+00:00"
   },
   {
     "title": "GPT-5.3 Instant System Card",
@@ -121,7 +134,7 @@
     "published_date": "2026-03-03T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-07T09:31:12.916284+00:00"
+    "fetched_at": "2026-03-08T09:31:51.663196+00:00"
   },
   {
     "title": "How to Design Environments for Understanding Model Motives",
@@ -134,6 +147,6 @@
     "published_date": "2026-03-02T07:14:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-07T09:31:13.852829+00:00"
+    "fetched_at": "2026-03-08T09:31:53.269074+00:00"
   }
 ]
