@@ -8,7 +8,7 @@
     "published_date": "2026-03-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-08T09:31:55.458281+00:00"
+    "fetched_at": "2026-03-09T09:54:29.345443+00:00"
   },
   {
     "title": "Can governments quickly and cheaply slow AI training?",
@@ -21,20 +21,7 @@
     "published_date": "2026-03-07T19:11:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-08T09:31:53.268768+00:00"
-  },
-  {
-    "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
-    "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
-    "published_date": "2026-03-05T10:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-08T09:31:51.662966+00:00"
+    "fetched_at": "2026-03-09T09:54:27.284554+00:00"
   },
   {
     "title": "GPT-5.4 Thinking System Card",
@@ -47,7 +34,20 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-08T09:31:51.663002+00:00"
+    "fetched_at": "2026-03-09T09:54:25.874204+00:00"
+  },
+  {
+    "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+    "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+    "published_date": "2026-03-05T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-03-09T09:54:25.874239+00:00"
   },
   {
     "title": "Evidence for inference scaling in AI cyber tasks: Increased evaluation budgets reveal higher success rates",
@@ -58,7 +58,7 @@
     "published_date": "2026-03-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-08T09:31:59.761256+00:00"
+    "fetched_at": "2026-03-09T09:54:33.402540+00:00"
   },
   {
     "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
@@ -71,7 +71,7 @@
     "published_date": "2026-03-04T18:05:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-08T09:31:50.663913+00:00"
+    "fetched_at": "2026-03-09T09:54:24.823184+00:00"
   },
   {
     "title": "Extending single-minus amplitudes to gravitons",
@@ -84,7 +84,7 @@
     "published_date": "2026-03-04T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-08T09:31:51.663107+00:00"
+    "fetched_at": "2026-03-09T09:54:25.874368+00:00"
   },
   {
     "title": "The People's Liberation Army's Perspectives on Artificial Intelligence Highlighting Integration as Key to \"Intelligentization\" Goals",
@@ -95,7 +95,7 @@
     "published_date": "2026-03-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-08T09:32:00.318840+00:00"
+    "fetched_at": "2026-03-09T09:54:34.071667+00:00"
   },
   {
     "title": "An Alignment Journal: Coming Soon",
@@ -108,7 +108,7 @@
     "published_date": "2026-03-03T20:27:07.435000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-03-08T09:32:05.137640+00:00"
+    "fetched_at": "2026-03-09T09:54:38.398639+00:00"
   },
   {
     "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
@@ -121,7 +121,7 @@
     "published_date": "2026-03-03T16:35:55+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-08T09:31:50.015973+00:00"
+    "fetched_at": "2026-03-09T09:54:24.080969+00:00"
   },
   {
     "title": "GPT-5.3 Instant System Card",
@@ -134,19 +134,6 @@
     "published_date": "2026-03-03T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-08T09:31:51.663196+00:00"
-  },
-  {
-    "title": "How to Design Environments for Understanding Model Motives",
-    "authors": [
-      "gersonkroiz"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Authors: Gerson Kroiz*, Aditya Singh*, Senthooran Rajamanoharan, Neel Nanda Gerson and Aditya are co-first authors. This work was conducted during MATS 9.0 and was advised by Senthooran Rajamanoharan and Neel Nanda. TL;DR Understanding why a model took an action is a key question in AI Safety. It is a difficult question, as often many motivations could plausibly lead to the same action. We are particularly concerned about the case of model incrimination, i.e. observing a model taking a bad action and distinguishing between benign and malign motivations, e.g. scheming vs confusion. To practice the skill of understanding motivations, we need to build high-quality environments that serve as realistic proxy tasks for investigating future models. But we’ve found that there are many ways in which environments can be contrived. It is valuable to invest effort in ruling out confounds like ambiguity, instruction conflict, or confusion.",
-    "url": "https://www.alignmentforum.org/posts/8pZuQnCve6K5ZrnM8/how-to-design-environments-for-understanding-model-motives",
-    "published_date": "2026-03-02T07:14:36+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-08T09:31:53.269074+00:00"
+    "fetched_at": "2026-03-09T09:54:25.874436+00:00"
   }
 ]
