@@ -9,7 +9,7 @@ rss_feeds:
   - name: "Google DeepMind"
     url: "https://deepmind.google/blog/rss.xml"
     org: "Google DeepMind"
-    keywords: ["research", "paper", "model", "training", "benchmark", "evaluation", "safety", "alignment", "interpretability", "scaling", "architecture", "dataset", "fine-tuning", "reinforcement learning", "neural", "transformer"]
+    keywords: ["safety", "alignment", "interpretability", "evaluation", "red team", "responsible", "risk", "governance", "robustness", "benchmark", "adversarial", "oversight", "jailbreak", "reward model", "RLHF", "scalable oversight"]
 
   - name: "Microsoft Research (AI)"
     url: "https://www.microsoft.com/en-us/research/feed/"
@@ -47,14 +47,37 @@ rss_feeds:
     org: "Alignment Forum"
     keywords: ["research", "paper", "alignment", "interpretability", "safety", "model", "training", "evaluation", "mechanistic", "RLHF", "reward model", "scalable oversight", "benchmark", "framework", "architecture", "optimization", "probe", "ablation", "transformer", "gradient"]
 
-  # Substacks & newsletters — REMOVED pure news/opinion/commentary sources:
-  # - Zvi Mowshowitz (weekly news roundups)
-  # - Dean Ball — Hyperdimensional (policy opinion)
-  # - Peter Wildeford (opinion)
-  # - Jack Clark — Import AI (newsletter)
-  # - Scott Alexander — Astral Codex Ten (essays/opinion)
-  # - Nathan Labenz — Cognitive Revolution (podcast/opinion)
-  # - Kelsey Piper — Vox Future Perfect (journalism)
+  - name: "METR"
+    url: "https://metr.org/feed.xml"
+    org: "METR"
+
+  - name: "Zvi Mowshowitz"
+    url: "https://thezvi.substack.com/feed"
+    org: "Zvi Mowshowitz"
+    keywords: ["AI", "safety", "alignment", "model", "research", "policy", "governance", "risk", "lab", "compute", "evaluation", "benchmark", "training", "scaling"]
+
+  - name: "SemiAnalysis"
+    url: "https://newsletter.semianalysis.com/feed"
+    org: "SemiAnalysis"
+    keywords: ["AI", "model", "training", "inference", "compute", "chip", "gpu", "architecture", "scaling", "benchmark", "safety", "hardware"]
+
+  # Substacks & newsletters — curated AI voices (no keyword filter;
+  # these authors primarily write about AI so all posts are included)
+  - name: "Dean Ball — Hyperdimensional"
+    url: "https://www.hyperdimensional.co/feed"
+    org: "Dean Ball"
+
+  - name: "Seb Krier — Technologik"
+    url: "https://technologik.substack.com/feed"
+    org: "Seb Krier"
+
+  - name: "Peter Wildeford — The Power Law"
+    url: "https://peterwildeford.substack.com/feed"
+    org: "Peter Wildeford"
+
+  - name: "Ajeya Cotra — Planned Obsolescence"
+    url: "https://www.planned-obsolescence.org/feed"
+    org: "Ajeya Cotra"
 
   - name: "Dan Hendrycks — ML Safety Newsletter"
     url: "https://newsletter.mlsafety.org/feed"
@@ -77,11 +100,15 @@ scrapers:
     url: "https://alignment.anthropic.com/"
     org: "Anthropic"
 
+  - name: "Google DeepMind Safety"
+    url: "https://deepmind.google/discover/blog/?category=responsible-development-and-safety"
+    org: "Google DeepMind"
+
   # Safety orgs
-  - name: "METR"
-    url: "https://metr.org/blog/"
-    org: "METR"
-    link_must_contain: "/blog/"
+  - name: "Forethought"
+    url: "https://www.forethought.org/research"
+    org: "Forethought"
+    link_must_contain: "/research/"
 
   - name: "Apollo Research"
     url: "https://www.apolloresearch.ai/blog"
@@ -125,6 +152,10 @@ scrapers:
   - name: "CSET Georgetown"
     url: "https://cset.georgetown.edu/publications/"
     org: "CSET"
+    article_class: "teaser"
+    link_must_contain: "/publication/"
+    type_class: "teaser__eyebrow"
+    type_values: ["Reports", "Report"]
 
   - name: "GovAI Oxford"
     url: "https://www.governance.ai/research"
@@ -169,38 +200,56 @@ scrapers:
     url: "https://blog.heim.xyz/"
     org: "Lennart Heim"
 
+  - name: "CNAS"
+    url: "https://www.cnas.org/publications?fwp_areas=technology-and-national-security"
+    org: "CNAS"
+    keywords: ["AI", "artificial intelligence", "machine learning", "compute", "chip"]
+
 # --- LessWrong (high-karma posts via GraphQL API) ---
 lesswrong:
   min_karma: 150
   days_back: 7
   max_results: 20
 
-# --- Trending (viral content from HN + Reddit) ---
-trending:
-  hn_queries:
-    - "AI safety"
-    - "AI alignment"
-    - "mechanistic interpretability"
-    - "AI governance"
-    - "AI evaluations"
-  hn_min_points: 100
-  hn_keywords:
-    - "paper"
-    - "research"
-    - "study"
-    - "arxiv"
-    - "model"
-    - "training"
-    - "benchmark"
-    - "evaluation"
-    - "alignment"
-    - "interpretability"
+# --- Twitter/X (AI-filtered feeds from specific accounts) ---
+# Requires TWITTER_BEARER_TOKEN env var (X API Basic tier, $200/mo).
+# If no token is set, this fetcher is silently skipped.
+twitter:
+  accounts:
+    - username: "DeanWBall"
+      org: "Dean Ball"
+    - username: "SebKrier"
+      org: "Seb Krier"
+    - username: "peterwildeford"
+      org: "Peter Wildeford"
+  keywords:
+    - "AI"
     - "safety"
-    - "dataset"
-    - "neural"
-    - "transformer"
-    - "RLHF"
-    - "fine-tuning"
+    - "alignment"
+    - "model"
+    - "governance"
+    - "frontier"
+    - "compute"
+    - "training"
+    - "scaling"
+    - "AGI"
+    - "regulation"
+    - "risk"
+    - "artificial intelligence"
+    - "machine learning"
+    - "LLM"
+    - "GPT"
+    - "Claude"
+    - "superintelligence"
+  max_results_per_user: 50
+  days_back: 7
+
+# --- Trending (viral content from Reddit) ---
+trending:
+  hn_queries: []
+  hn_min_points: 100
+  hn_keywords: []
+  reddit_min_score: 250
   subreddits:
     - "aisafety"
     - "mlsafety"

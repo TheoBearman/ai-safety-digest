@@ -68,16 +68,14 @@ def load_css(path: str) -> str:
 def compute_week_range(reference: datetime | None = None) -> tuple[str, str]:
     """Return (week_start, week_end) formatted as 'Month Day, Year'.
 
-    week_start is the most recent Monday at or before *reference*,
-    week_end is the following Sunday.
+    week_start is 7 days before *reference*, week_end is *reference*.
+    This matches the 7-day data window used by the fetchers.
     """
     if reference is None:
         reference = datetime.now()
-    # Monday = 0 in weekday()
-    monday = reference - timedelta(days=reference.weekday())
-    sunday = monday + timedelta(days=6)
+    week_start = reference - timedelta(days=7)
     fmt = "%B %d, %Y"
-    return monday.strftime(fmt), sunday.strftime(fmt)
+    return week_start.strftime(fmt), reference.strftime(fmt)
 
 
 # ---------------------------------------------------------------------------
@@ -122,6 +120,14 @@ PRIORITY_ORGS: list[str] = [
     "CSET",
     "Yoshua Bengio",
     "Lennart Heim",
+    "SemiAnalysis",
+    "Zvi Mowshowitz",
+    "Dean Ball",
+    "Seb Krier",
+    "Peter Wildeford",
+    "Ajeya Cotra",
+    "CNAS",
+    "Forethought",
 ]
 
 # Community/aggregator sources: useful for the grid but should not dominate

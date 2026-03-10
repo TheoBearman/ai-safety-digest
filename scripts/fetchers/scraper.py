@@ -85,10 +85,15 @@ def _parse_date_string(text: str) -> Optional[str]:
                     dt = datetime.strptime(date_str, fmt).replace(
                         tzinfo=timezone.utc
                     )
-                    # For month-only dates (e.g. "February 2026"), use the 15th
-                    # so current-month papers aren't excluded by the 7-day filter.
+                    # For month-only dates (e.g. "February 2026"), use the
+                    # current day-of-month if it's the current month so papers
+                    # aren't excluded by the 7-day filter late in the month.
                     if fmt == "%B %Y":
-                        dt = dt.replace(day=15)
+                        now = datetime.now(timezone.utc)
+                        if dt.year == now.year and dt.month == now.month:
+                            dt = dt.replace(day=now.day)
+                        else:
+                            dt = dt.replace(day=15)
                     return dt.isoformat()
                 except ValueError:
                     continue
@@ -114,6 +119,16 @@ def _extract_date(element) -> Optional[str]:
         if parsed:
             return parsed
 
+    # Try short metadata elements (spans, small tags) before full-text scan.
+    # This avoids picking up dates from paragraph content (e.g. "between
+    # January 1, 2023 and...") instead of the actual publication date.
+    for tag in element.find_all(["span", "small"]):
+        tag_text = tag.get_text(strip=True)
+        if tag_text and len(tag_text) < 60:
+            parsed = _parse_date_string(tag_text)
+            if parsed:
+                return parsed
+
     # Fall back to scanning the element text
     text = element.get_text(" ", strip=True)
     parsed = _parse_date_string(text)
@@ -134,6 +149,11 @@ def _extract_date(element) -> Optional[str]:
     return None
 
 
+def _strip_list_numbering(title: str) -> str:
+    """Strip leading list-numbering patterns like '1: ', '2. ' from titles."""
+    return re.sub(r"^\d+[\.:]\s*", "", title)
+
+
 _TITLE_CLASS_RE = re.compile(r"title", re.IGNORECASE)
 
 
@@ -142,7 +162,7 @@ def _extract_title(element) -> str:
     # 1. Check data-title attribute (used by some JS-rendered card systems)
     data_title = element.get("data-title", "")
     if data_title:
-        return data_title.strip()
+        return _strip_list_numbering(data_title.strip())
 
     # 2. Search both the element and its first link for heading tags
     candidates = [element]
@@ -154,7 +174,7 @@ def _extract_title(element) -> str:
         for tag in ("h1", "h2", "h3", "h4"):
             heading = candidate.find(tag)
             if heading:
-                return heading.get_text(strip=True)
+                return _strip_list_numbering(heading.get_text(strip=True))
 
     # 3. Look for elements with "title" in their class name
     for candidate in candidates:
@@ -162,13 +182,13 @@ def _extract_title(element) -> str:
         if title_el:
             text = title_el.get_text(strip=True)
             if text:
-                return text
+                return _strip_list_numbering(text)
 
     # 4. Fallback: use link text with separator to avoid concatenation
     if first_link:
         text = first_link.get_text(" ", strip=True)
         if text and len(text) <= 200:
-            return text
+            return _strip_list_numbering(text)
 
     return ""
 
@@ -193,7 +213,7 @@ def _extract_link(element, base_url: str) -> str:
 
 
 ARTICLE_CLASSES = re.compile(
-    r"post|card|entry|research|publication|article|blog|item", re.IGNORECASE
+    r"post|card|entry|research|publication|article|blog|item|teaser", re.IGNORECASE
 )
 
 # Titles that are obviously not papers/articles
@@ -207,6 +227,10 @@ _JUNK_TITLES = {
 # Minimum title length to avoid single-word nav items
 _MIN_TITLE_LENGTH = 10
 
+# Maximum title length — titles beyond this are likely garbled (concatenated
+# heading + date + subtitle from scraper extraction)
+_MAX_TITLE_LENGTH = 150
+
 
 def _is_junk_title(title: str) -> bool:
     """Return True if the title looks like navigation / non-paper content."""
@@ -215,8 +239,16 @@ def _is_junk_title(title: str) -> bool:
         return True
     if len(stripped) < _MIN_TITLE_LENGTH:
         return True
+    if len(stripped) > _MAX_TITLE_LENGTH:
+        return True
     # Reject titles that are just domain names or URLs
     if stripped.startswith("http") or ".gov" in stripped or ".com" in stripped:
+        return True
+    # Reject garbled titles where text nodes were concatenated without spaces
+    # e.g. "Some Title17 February 2026Some subtitleRead more"
+    if re.search(r"20\d{2}[A-Z]", stripped):
+        return True
+    if re.search(r"[Rr]ead more\s*$", stripped):
         return True
     return False
 
@@ -289,6 +321,10 @@ def fetch_scraped(scrapers_config: list[dict]) -> list[Paper]:
         org = site_cfg.get("org", "Unknown")
         site_name = site_cfg.get("name", site_url)
         link_must_contain = site_cfg.get("link_must_contain", "")
+        keywords = [k.lower() for k in site_cfg.get("keywords", [])]
+        article_class = site_cfg.get("article_class", "")
+        type_class = site_cfg.get("type_class", "")
+        type_values = [v.lower() for v in site_cfg.get("type_values", [])]
 
         logger.info("Scraping: %s (%s)", site_name, site_url)
 
@@ -299,7 +335,10 @@ def fetch_scraped(scrapers_config: list[dict]) -> list[Paper]:
             response.raise_for_status()
 
             soup = BeautifulSoup(response.text, "html.parser")
-            elements = _find_article_elements(soup)
+            if article_class:
+                elements = soup.find_all(class_=article_class)
+            else:
+                elements = _find_article_elements(soup)
 
             if not elements:
                 logger.info("No article elements found on %s", site_name)
@@ -319,6 +358,12 @@ def fetch_scraped(scrapers_config: list[dict]) -> list[Paper]:
                 if len(title) > 200:
                     title = title[:200].rsplit(" ", 1)[0] + "..."
 
+                # Filter by publication type (e.g. "Reports" eyebrow badge)
+                if type_class and type_values:
+                    type_tag = elem.find(class_=type_class)
+                    if not type_tag or type_tag.get_text(strip=True).lower() not in type_values:
+                        continue
+
                 link = _extract_link(elem, site_url)
 
                 # Apply URL filter if configured
@@ -336,6 +381,13 @@ def fetch_scraped(scrapers_config: list[dict]) -> list[Paper]:
                 # old papers from a research listing page.
                 if pub_date is None:
                     continue
+
+                # Keyword filter: if configured, skip items that don't
+                # match any keyword in title + abstract
+                if keywords:
+                    searchable = (title + " " + abstract).lower()
+                    if not any(kw in searchable for kw in keywords):
+                        continue
 
                 papers.append(
                     Paper(

@@ -8,6 +8,7 @@ but before abstract enrichment.
 from __future__ import annotations
 
 import logging
+import re
 
 from scripts.models import Paper
 
@@ -59,7 +60,15 @@ RESEARCH_ORGS: set[str] = {
     "arc", "miri", "cais", "far ai", "uk aisi", "us aisi",
     "epoch ai", "chai", "mats", "govai", "cset", "iaps", "cltr",
     "rand", "dan hendrycks", "paul christiano", "yoshua bengio",
-    "lennart heim", "fli", "lesswrong",
+    "lennart heim", "fli", "lesswrong", "semianalysis", "forethought",
+    "zvi mowshowitz", "dean ball", "seb krier", "peter wildeford",
+    "ajeya cotra", "cnas",
+}
+
+# Curated voices — always included (bypass research-term scoring).
+# These are hand-picked authors who primarily write about AI.
+ALWAYS_INCLUDE_ORGS: set[str] = {
+    "dean ball", "seb krier", "peter wildeford", "ajeya cotra",
 }
 
 # Minimum matching terms to keep a paper
@@ -67,17 +76,47 @@ THRESHOLD_DEFAULT = 2       # general sources
 THRESHOLD_RESEARCH_ORG = 1  # known research orgs
 
 
+# Title patterns that indicate non-research content (org updates, policy, hiring, etc.)
+_NON_RESEARCH_TITLE_RE = re.compile(
+    r"\b(?:"
+    r"how we protect|confidential information|hiring|join our team|we'?re hiring|"
+    r"job opening|careers at|annual report|year in review|"
+    r"introducing our team|meet the team|"
+    r"donor|fundrais|thank you|update on our org"
+    r")\b",
+    re.IGNORECASE,
+)
+
+
 def is_research_relevant(paper: Paper) -> bool:
     """Return True if a paper should be kept based on research relevance.
 
-    - Known research org papers need >= 1 matching term.
+    - Papers with non-research titles (org updates, hiring, etc.) are rejected.
+    - Curated voices are always included.
+    - arXiv papers and known research org papers need >= 1 matching term.
     - All others need >= 2 matching terms.
     """
+    # Reject obviously non-research titles regardless of source
+    if _NON_RESEARCH_TITLE_RE.search(paper.title):
+        logger.info("Filtered non-research title: %s", paper.title[:80])
+        return False
+
+    org_lower = paper.organization.lower()
+
+    # Curated voices are always included
+    if org_lower in ALWAYS_INCLUDE_ORGS:
+        return True
+
     searchable = (paper.title + " " + paper.abstract).lower()
     score = sum(1 for term in RESEARCH_TERMS if term in searchable)
 
-    org_lower = paper.organization.lower()
-    threshold = THRESHOLD_RESEARCH_ORG if org_lower in RESEARCH_ORGS else THRESHOLD_DEFAULT
+    # arXiv papers are treated like known research orgs (need score >= 1)
+    if paper.source_type == "arxiv":
+        threshold = THRESHOLD_RESEARCH_ORG
+    elif org_lower in RESEARCH_ORGS:
+        threshold = THRESHOLD_RESEARCH_ORG
+    else:
+        threshold = THRESHOLD_DEFAULT
 
     return score >= threshold
 

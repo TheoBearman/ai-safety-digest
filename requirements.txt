@@ -3,3 +3,4 @@ requests>=2.28,<3.0
 beautifulsoup4>=4.12,<5.0
 jinja2>=3.1,<4.0
 pyyaml>=6.0,<7.0
+tweepy>=4.14,<5.0              # Optional: Twitter/X fetcher (requires TWITTER_BEARER_TOKEN)

@@ -45,7 +45,8 @@ from scripts.models import Paper
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-MIN_ABSTRACT_LEN = 50       # abstracts shorter than this are considered "missing"
+MIN_ABSTRACT_LEN = 100      # abstracts shorter than this are considered "missing"
+MIN_ABSTRACT_WORDS = 20     # abstracts with fewer words also trigger enrichment
 MIN_PARAGRAPH_LEN = 80      # minimum length for a <p> tag to be considered useful
 MAX_ABSTRACT_WORDS = 150    # cap enriched abstracts at this many words
 MAX_CONCURRENT = 5           # polite concurrency limit
@@ -540,7 +541,11 @@ def enrich_abstracts(papers: list[Paper]) -> list[Paper]:
     list[Paper]
         The same list, with abstracts enriched where possible.
     """
-    to_enrich = [p for p in papers if len((p.abstract or "").strip()) < MIN_ABSTRACT_LEN]
+    to_enrich = [
+        p for p in papers
+        if len((p.abstract or "").strip()) < MIN_ABSTRACT_LEN
+        or len((p.abstract or "").split()) < MIN_ABSTRACT_WORDS
+    ]
 
     if not to_enrich:
         logger.info("All %d papers already have good abstracts; nothing to enrich", len(papers))
@@ -576,7 +581,8 @@ def enrich_abstracts(papers: list[Paper]) -> list[Paper]:
     # ---- Synthetic fallback for anything still missing ----
     synthetic_count = 0
     for paper in papers:
-        if len((paper.abstract or "").strip()) < MIN_ABSTRACT_LEN:
+        abstract_text = (paper.abstract or "").strip()
+        if len(abstract_text) < MIN_ABSTRACT_LEN or len(abstract_text.split()) < MIN_ABSTRACT_WORDS:
             paper.abstract = _generate_synthetic_abstract(paper)
             synthetic_count += 1
             logger.debug("  Synthetic abstract for: %s", paper.title[:80])

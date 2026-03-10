@@ -30,6 +30,7 @@ from scripts.fetchers.rss import fetch_rss
 from scripts.fetchers.scraper import fetch_scraped
 from scripts.fetchers.lesswrong import fetch_lesswrong
 from scripts.fetchers.trending import fetch_trending
+from scripts.fetchers.twitter import fetch_twitter
 from scripts.dedup import deduplicate
 from scripts.enrich import enrich_abstracts
 from scripts.filter import filter_papers
@@ -93,6 +94,7 @@ def main() -> None:
         ("scrapers",    fetch_scraped,   "scrapers"),
         ("LessWrong",   fetch_lesswrong, "lesswrong"),
         ("trending",    fetch_trending,  "trending"),
+        ("Twitter/X",   fetch_twitter,   "twitter"),
     ]:
         cfg = config.get(cfg_key, [] if cfg_key in ("rss_feeds", "scrapers") else {})
         if cfg:
@@ -102,7 +104,10 @@ def main() -> None:
     logger.info("Total papers before processing: %d", len(all_papers))
 
     # -- Global date filter: keep only papers from the last 7 days -------------
-    cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+    # Use start-of-day so we include the full day 7 days ago
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).replace(
+        hour=0, minute=0, second=0, microsecond=0
+    )
     date_filtered: list[Paper] = []
     for p in all_papers:
         try:
@@ -139,7 +144,7 @@ def main() -> None:
     # -- Summary ---------------------------------------------------------------
     counts = Counter(p.source_type for p in papers)
     logger.info("--- Summary ---")
-    for src in ("rss", "scrape"):
+    for src in ("rss", "scrape", "twitter"):
         logger.info("  %-8s %d papers", src, counts.get(src, 0))
     logger.info("  %-8s %d papers", "TOTAL", len(papers))
 

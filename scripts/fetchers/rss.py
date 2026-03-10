@@ -42,7 +42,13 @@ _DEFAULT_RESEARCH_KEYWORDS = [
 _KNOWN_RESEARCH_FEED_ORGS = {
     "anthropic", "openai", "google deepmind", "microsoft research",
     "redwood research", "alignment forum", "dan hendrycks", "epoch ai",
-    "fli", "lesswrong",
+    "fli", "lesswrong", "semianalysis", "zvi mowshowitz",
+}
+
+# Curated voices — skip ALL keyword filtering (both explicit and default).
+# These authors primarily write about AI, so every post is included.
+_ALWAYS_INCLUDE_FEED_ORGS = {
+    "dean ball", "seb krier", "peter wildeford", "ajeya cotra",
 }
 
 
@@ -157,7 +163,9 @@ def fetch_rss(feeds_config: list[dict]) -> list[Paper]:
     list[Paper]
         Papers published within the last 7 days.
     """
-    cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).replace(
+        hour=0, minute=0, second=0, microsecond=0
+    )
     papers: list[Paper] = []
 
     for feed_cfg in feeds_config:
@@ -167,6 +175,7 @@ def fetch_rss(feeds_config: list[dict]) -> list[Paper]:
         explicit_keywords = [k.lower() for k in feed_cfg.get("keywords", [])]
         required_categories = [c.lower() for c in feed_cfg.get("categories", [])]
         is_research_org = org.lower() in _KNOWN_RESEARCH_FEED_ORGS
+        is_always_include = org.lower() in _ALWAYS_INCLUDE_FEED_ORGS
 
         logger.info("Fetching RSS feed: %s (%s)", feed_name, feed_url)
 
@@ -218,34 +227,36 @@ def fetch_rss(feeds_config: list[dict]) -> list[Paper]:
 
                 # ---------------------------------------------------------
                 # Keyword filtering (two layers)
+                # Curated voices bypass all keyword filtering.
                 # ---------------------------------------------------------
 
-                # Layer 1: Explicit per-feed keywords (hard filter)
-                if explicit_keywords:
-                    if not _matches_keywords(title, abstract, explicit_keywords):
-                        continue
-
-                # Layer 2: Default research keywords (applies to ALL feeds)
-                # For known research orgs this is a soft filter (warn only).
-                # For other feeds this is a hard skip.
-                if not explicit_keywords and not required_categories:
-                    if not _matches_keywords(title, abstract, _DEFAULT_RESEARCH_KEYWORDS):
-                        if is_research_org:
-                            logger.warning(
-                                "Feed %s: entry '%s' did not match default "
-                                "research keywords but is from known research "
-                                "org — keeping with warning",
-                                feed_name,
-                                title,
-                            )
-                        else:
-                            logger.info(
-                                "Feed %s: skipping entry '%s' — no research "
-                                "keyword match",
-                                feed_name,
-                                title,
-                            )
+                if not is_always_include:
+                    # Layer 1: Explicit per-feed keywords (hard filter)
+                    if explicit_keywords:
+                        if not _matches_keywords(title, abstract, explicit_keywords):
                             continue
+
+                    # Layer 2: Default research keywords (applies to ALL feeds)
+                    # For known research orgs this is a soft filter (warn only).
+                    # For other feeds this is a hard skip.
+                    if not explicit_keywords and not required_categories:
+                        if not _matches_keywords(title, abstract, _DEFAULT_RESEARCH_KEYWORDS):
+                            if is_research_org:
+                                logger.warning(
+                                    "Feed %s: entry '%s' did not match default "
+                                    "research keywords but is from known research "
+                                    "org — keeping with warning",
+                                    feed_name,
+                                    title,
+                                )
+                            else:
+                                logger.info(
+                                    "Feed %s: skipping entry '%s' — no research "
+                                    "keyword match",
+                                    feed_name,
+                                    title,
+                                )
+                                continue
 
                 papers.append(
                     Paper(
