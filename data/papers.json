@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "We study 3 realistic challenges to the safety of unsupervised elicitation and easy-to-hard generalization techniques, which aim to steer models on tasks which are beyond human supervision. We create datasets to test the robustness of methods against these challenges. We stress-test existing techniques on them along with new methods relying on 2 hopes: ensembling and combining unsupervised and easy-to-hard methods. We find that although the new hopes sometimes perform better than other approaches, no technique reliably performs well on the 3 challenges.",
     "url": "https://alignment.anthropic.com/2026/challenges-hopes/",
-    "published_date": "2026-03-15T00:00:00+00:00",
+    "published_date": "2026-03-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-10T13:25:48.154098+00:00"
+    "fetched_at": "2026-03-10T13:39:41.461066+00:00"
   },
   {
     "title": "Estimating Global Yearly Cybercrime Damage Costs",
@@ -16,10 +16,10 @@
     "organization": "GovAI",
     "abstract": "AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... In early 2025, AI systems began outperforming biology experts on biology benchmarks – OpenAI’s o3 outperformed... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...",
     "url": "https://www.governance.ai/research-paper/estimating-global-yearly-cybercrime-damage-costs",
-    "published_date": "2026-03-15T00:00:00+00:00",
+    "published_date": "2026-03-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-10T13:25:52.561926+00:00"
+    "fetched_at": "2026-03-10T13:40:01.356518+00:00"
   },
   {
     "title": "Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation",
@@ -32,7 +32,7 @@
     "published_date": "2026-03-09T18:50:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-10T13:25:46.013381+00:00"
+    "fetched_at": "2026-03-10T13:39:36.740544+00:00"
   },
   {
     "title": "Governor DeSantis Directs Florida State Agencies to Partner with Future of Life Institute to Shield Families from AI Harm",
@@ -45,18 +45,7 @@
     "published_date": "2026-03-09T13:45:13+00:00",
     "source_type": "rss",
     "source_url": "https://futureoflife.org/feed/",
-    "fetched_at": "2026-03-10T13:25:47.865552+00:00"
-  },
-  {
-    "title": "Infinite Potential—Insights from the Cyber Surprise Scenario: Post-Series Scenario Report from a Sequence of Day After Artificial General Intelligence Exercises",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Mar 9, 2026 This report summarizes the results of six runs of Day After AGI games using the Cyber Surprise scenario, where players confronted the sudden deployment of a powerful cyber-artificial intelligence capability by the People’s Republic of China and the implications for the United States.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4626-1.html",
-    "published_date": "2026-03-09T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-10T13:25:52.012502+00:00"
+    "fetched_at": "2026-03-10T13:39:41.170068+00:00"
   },
   {
     "title": "Finding Common Ground in AGI Strategy Debates: A Diagnosis and Prescription",
@@ -67,7 +56,7 @@
     "published_date": "2026-03-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-10T13:25:52.012722+00:00"
+    "fetched_at": "2026-03-10T13:40:00.832958+00:00"
   },
   {
     "title": "Can governments quickly and cheaply slow AI training?",
@@ -80,7 +69,20 @@
     "published_date": "2026-03-07T19:11:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-10T13:25:46.013687+00:00"
+    "fetched_at": "2026-03-10T13:39:36.740853+00:00"
+  },
+  {
+    "title": "I underestimated AI capabilities (again)",
+    "authors": [
+      "Ajeya Cotra"
+    ],
+    "organization": "Ajeya Cotra",
+    "abstract": "On Jan 14th, I made predictions about AI progress in 2026. My forecasts for software engineering capabilities already feel much too conservative.",
+    "url": "https://www.planned-obsolescence.org/p/i-underestimated-ai-capabilities",
+    "published_date": "2026-03-05T15:02:56+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.planned-obsolescence.org/feed",
+    "fetched_at": "2026-03-10T13:39:39.490375+00:00"
   },
   {
     "title": "Reasoning models struggle to control their chains of thought, and that’s good",
@@ -93,7 +95,7 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-10T13:25:44.712976+00:00"
+    "fetched_at": "2026-03-10T13:39:35.215490+00:00"
   },
   {
     "title": "GPT-5.4 Thinking System Card",
@@ -106,7 +108,7 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-10T13:25:44.713018+00:00"
+    "fetched_at": "2026-03-10T13:39:35.215530+00:00"
   },
   {
     "title": "Evidence for inference scaling in AI cyber tasks: Increased evaluation budgets reveal higher success rates",
@@ -117,7 +119,7 @@
     "published_date": "2026-03-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-10T13:25:51.474806+00:00"
+    "fetched_at": "2026-03-10T13:40:00.364270+00:00"
   },
   {
     "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
@@ -130,7 +132,7 @@
     "published_date": "2026-03-04T18:05:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-10T13:25:43.649114+00:00"
+    "fetched_at": "2026-03-10T13:39:34.204338+00:00"
   },
   {
     "title": "Extending single-minus amplitudes to gravitons",
@@ -143,7 +145,7 @@
     "published_date": "2026-03-04T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-10T13:25:44.713148+00:00"
+    "fetched_at": "2026-03-10T13:39:35.215655+00:00"
   },
   {
     "title": "The People's Liberation Army's Perspectives on Artificial Intelligence Highlighting Integration as Key to \"Intelligentization\" Goals",
@@ -154,7 +156,7 @@
     "published_date": "2026-03-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-10T13:25:52.013346+00:00"
+    "fetched_at": "2026-03-10T13:40:00.833630+00:00"
   },
   {
     "title": "An Alignment Journal: Coming Soon",
@@ -162,24 +164,37 @@
       "Dan MacKinlay"
     ],
     "organization": "LessWrong",
-    "abstract": "tl;dr We’re incubating an academic journal for AI alignment: rapid peer-review of under-served foundational Alignment research.",
+    "abstract": "Research from LessWrong titled 'An Alignment Journal: Coming Soon'. Published 2026-03-03. Authors: Dan MacKinlay.",
     "url": "https://www.lesswrong.com/posts/msnGbm52ZcG3xYcFo/an-alignment-journal-coming-soon",
     "published_date": "2026-03-03T20:27:07.435000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-03-10T13:25:56.246844+00:00"
+    "fetched_at": "2026-03-10T13:40:06.083227+00:00"
   },
   {
-    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "title": "GPT-5.3 Instant System Card",
     "authors": [
-      "Google DeepMind News"
+      "OpenAI News"
     ],
-    "organization": "Google DeepMind",
-    "abstract": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
-    "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
-    "published_date": "2026-03-03T16:35:55+00:00",
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'GPT-5.3 Instant System Card'. Published 2026-03-03. Authors: OpenAI News.",
+    "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+    "published_date": "2026-03-03T10:00:00+00:00",
     "source_type": "rss",
-    "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-10T13:25:43.014928+00:00"
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-03-10T13:39:35.215761+00:00"
+  },
+  {
+    "title": "Observations from two CLI game reimplementation runs with Opus 4.6",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Summary: Opus 4.6 can, with a simple agent scaffold, create mostly-playable but somewhat broken CLI versions of Slay the Spire and Balatro 1 . Intro Last weekend I was trying to think of really difficult tasks we could give to AI agents to upper-bound their capabilities. I thought of two examples: Recreating a basic version of the video game Slay the Spire in the CLI Recreating a basic version of the video game Balatro in the CLI Both of these video games have a few properties that make it especially easy for AI systems to implement them: They already exist, so the AI doesn’t have to come up with new game ideas and do the enormous amount of work necessary to make it a fun game to play. Most player-relevant information is conveyed through text. They have well-defined rules and interactions between game mechanics.",
+    "url": "https://metr.org/notes/2026-03-03-balatro-sts-cli/",
+    "published_date": "2026-03-03T08:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-03-10T13:39:37.646295+00:00"
   }
 ]
