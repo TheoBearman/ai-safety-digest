@@ -8,18 +8,7 @@
     "published_date": "2026-03-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-10T09:48:29.438017+00:00"
-  },
-  {
-    "title": "All Research",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... In early 2025, AI systems began outperforming biology experts on biology benchmarks – OpenAI’s o3 outperformed... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...",
-    "url": "https://www.governance.ai/research-paper/estimating-global-yearly-cybercrime-damage-costs",
-    "published_date": "2026-03-15T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-10T09:48:39.480302+00:00"
+    "fetched_at": "2026-03-10T13:20:35.259781+00:00"
   },
   {
     "title": "Estimating Global Yearly Cybercrime Damage Costs",
@@ -30,7 +19,7 @@
     "published_date": "2026-03-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-10T09:48:39.490226+00:00"
+    "fetched_at": "2026-03-10T13:20:45.124020+00:00"
   },
   {
     "title": "Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation",
@@ -43,7 +32,7 @@
     "published_date": "2026-03-09T18:50:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-10T09:48:27.230587+00:00"
+    "fetched_at": "2026-03-10T13:20:33.390580+00:00"
   },
   {
     "title": "Governor DeSantis Directs Florida State Agencies to Partner with Future of Life Institute to Shield Families from AI Harm",
@@ -56,7 +45,7 @@
     "published_date": "2026-03-09T13:45:13+00:00",
     "source_type": "rss",
     "source_url": "https://futureoflife.org/feed/",
-    "fetched_at": "2026-03-10T09:48:29.315312+00:00"
+    "fetched_at": "2026-03-10T13:20:34.893190+00:00"
   },
   {
     "title": "Infinite Potential—Insights from the Cyber Surprise Scenario: Post-Series Scenario Report from a Sequence of Day After Artificial General Intelligence Exercises",
@@ -67,7 +56,7 @@
     "published_date": "2026-03-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-10T09:48:38.934455+00:00"
+    "fetched_at": "2026-03-10T13:20:44.026275+00:00"
   },
   {
     "title": "Finding Common Ground in AGI Strategy Debates: A Diagnosis and Prescription",
@@ -78,7 +67,7 @@
     "published_date": "2026-03-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-10T09:48:38.934677+00:00"
+    "fetched_at": "2026-03-10T13:20:44.026430+00:00"
   },
   {
     "title": "Can governments quickly and cheaply slow AI training?",
@@ -91,7 +80,7 @@
     "published_date": "2026-03-07T19:11:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-10T09:48:27.230906+00:00"
+    "fetched_at": "2026-03-10T13:20:33.390785+00:00"
   },
   {
     "title": "GPT-5.4 Thinking System Card",
@@ -104,7 +93,7 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-10T09:48:26.404724+00:00"
+    "fetched_at": "2026-03-10T13:20:32.768743+00:00"
   },
   {
     "title": "Reasoning models struggle to control their chains of thought, and that’s good",
@@ -117,7 +106,7 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-10T09:48:26.404788+00:00"
+    "fetched_at": "2026-03-10T13:20:32.768756+00:00"
   },
   {
     "title": "Evidence for inference scaling in AI cyber tasks: Increased evaluation budgets reveal higher success rates",
@@ -128,7 +117,7 @@
     "published_date": "2026-03-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-10T09:48:33.633879+00:00"
+    "fetched_at": "2026-03-10T13:20:40.272718+00:00"
   },
   {
     "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
@@ -141,7 +130,20 @@
     "published_date": "2026-03-04T18:05:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-10T09:48:25.325705+00:00"
+    "fetched_at": "2026-03-10T13:20:31.563581+00:00"
+  },
+  {
+    "title": "Are we trying to align the wrong architecture? Why probabilistic LLMs might be a dead end for safety.",
+    "authors": [
+      "caroulos123"
+    ],
+    "organization": "Reddit",
+    "abstract": "Most of our current alignment efforts (like RLHF or constitutional AI) feel like putting band-aids on a fundamentally unsafe architecture. Autoregressive LLMs are probabilistic black boxes. We can’t mathematically prove they won’t deceive us; we just hope we trained them well enough to \"guess\" the safe output. But what if the control problem is essentially unsolvable with LLMs simply because of how they are built? I’ve been looking into alternative paradigms that don't rely on token...",
+    "url": "https://www.reddit.com/r/ControlProblem/comments/1rksann/are_we_trying_to_align_the_wrong_architecture_why/",
+    "published_date": "2026-03-04T17:52:24+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.reddit.com/r/ControlProblem/",
+    "fetched_at": "2026-03-10T13:20:56.110151+00:00"
   },
   {
     "title": "Extending single-minus amplitudes to gravitons",
@@ -154,7 +156,7 @@
     "published_date": "2026-03-04T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-10T09:48:26.404937+00:00"
+    "fetched_at": "2026-03-10T13:20:32.768804+00:00"
   },
   {
     "title": "The People's Liberation Army's Perspectives on Artificial Intelligence Highlighting Integration as Key to \"Intelligentization\" Goals",
@@ -165,7 +167,7 @@
     "published_date": "2026-03-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-10T09:48:38.935319+00:00"
+    "fetched_at": "2026-03-10T13:20:44.026864+00:00"
   },
   {
     "title": "An Alignment Journal: Coming Soon",
@@ -178,7 +180,7 @@
     "published_date": "2026-03-03T20:27:07.435000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-03-10T09:48:43.419720+00:00"
+    "fetched_at": "2026-03-10T13:20:50.531853+00:00"
   },
   {
     "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
@@ -191,19 +193,6 @@
     "published_date": "2026-03-03T16:35:55+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-10T09:48:24.311733+00:00"
-  },
-  {
-    "title": "GPT-5.3 Instant System Card",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'GPT-5.3 Instant System Card'. Published 2026-03-03. Authors: OpenAI News.",
-    "url": "https://openai.com/index/gpt-5-3-instant-system-card",
-    "published_date": "2026-03-03T10:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-10T09:48:26.405045+00:00"
+    "fetched_at": "2026-03-10T13:20:30.673786+00:00"
   }
 ]

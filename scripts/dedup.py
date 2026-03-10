@@ -44,10 +44,29 @@ def deduplicate(papers: list[Paper]) -> list[Paper]:
         return []
 
     # ------------------------------------------------------------------
+    # Pass 0: exact-URL dedup (same URL = same paper regardless of title)
+    # ------------------------------------------------------------------
+    url_groups: dict[str, list[Paper]] = {}
+    for paper in papers:
+        url_key = paper.url.rstrip("/").lower()
+        url_groups.setdefault(url_key, []).append(paper)
+
+    url_deduped: list[Paper] = []
+    url_dupes = 0
+    for url_key, group in url_groups.items():
+        if len(group) > 1:
+            url_dupes += len(group) - 1
+        best = max(group, key=lambda p: len(p.abstract))
+        url_deduped.append(best)
+
+    if url_dupes:
+        logger.info("Removed %d exact-URL duplicates", url_dupes)
+
+    # ------------------------------------------------------------------
     # Pass 1: exact-match dedup on normalized title
     # ------------------------------------------------------------------
     groups: dict[str, list[Paper]] = {}
-    for paper in papers:
+    for paper in url_deduped:
         key = _normalize_title(paper.title)
         groups.setdefault(key, []).append(paper)
 

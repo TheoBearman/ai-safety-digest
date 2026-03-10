@@ -200,8 +200,8 @@ ARTICLE_CLASSES = re.compile(
 _JUNK_TITLES = {
     "home", "about", "about us", "careers", "donate", "contact", "team",
     "privacy", "privacy policy", "transparency", "news", "blog", "research",
-    "events", "programs", "faq", "alumni", "save & accept", "necessary",
-    "privacy overview", "policies", "work", "publications",
+    "all research", "events", "programs", "faq", "alumni", "save & accept",
+    "necessary", "privacy overview", "policies", "work", "publications",
 }
 
 # Minimum title length to avoid single-word nav items
