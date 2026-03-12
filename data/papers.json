@@ -1,14 +1,27 @@
 [
   {
+    "title": "How well do models follow their constitutions?",
+    "authors": [
+      "aryaj"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This work was conducted during the MATS 9.0 program under Neel Nanda and Senthooran Rajamanoharan. There's been a lot of buzz around Claude's 30K word constitution (\"soul doc\"), and unusual ways Anthropic is integrating it into training. If we can robustly train complex and nuanced values into a model, this would be a big deal for safety! But does it actually work? This is a preliminary investigation we did to test this. We decomposed the soul doc into 205 testable tenets and ran adversarial multi-turn scenarios against seven models using the Petri auditing agent. Anthropic has gotten much better at training the model to follow its constitution! Sonnet 4.6 has a 1.9% violation rate, Opus 4.6 is at 2.9%, and Opus 4.5 is at 4.4%. As a control, Sonnet 4, which did not have special soul doc training, has a ~15.00% violation rate.",
+    "url": "https://www.alignmentforum.org/posts/Tk4SF8qFdMrzGJGGw/how-well-do-models-follow-their-constitutions",
+    "published_date": "2026-03-12T00:07:10+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-03-12T09:45:35.049690+00:00"
+  },
+  {
     "title": "AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "We release AuditBench, an alignment auditing benchmark. AuditBench consists of 56 language models with implanted hidden behaviors—such as sycophantic deference, opposition to AI regulation, or hidden loyalties—which they do not confess to when asked. We also develop an agent that audits models using a configurable set of tools. Using this agent, we study which tools are most effective for auditing.",
     "url": "https://alignment.anthropic.com/2026/auditbench/",
-    "published_date": "2026-03-11T00:00:00+00:00",
+    "published_date": "2026-03-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-11T09:45:02.671088+00:00"
+    "fetched_at": "2026-03-12T09:45:39.533408+00:00"
   },
   {
     "title": "Estimating Global Yearly Cybercrime Damage Costs",
@@ -16,10 +29,60 @@
     "organization": "GovAI",
     "abstract": "AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... In early 2025, AI systems began outperforming biology experts on biology benchmarks – OpenAI’s o3 outperformed... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...",
     "url": "https://www.governance.ai/research-paper/estimating-global-yearly-cybercrime-damage-costs",
-    "published_date": "2026-03-11T00:00:00+00:00",
+    "published_date": "2026-03-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-11T09:45:07.171970+00:00"
+    "fetched_at": "2026-03-12T09:45:43.751699+00:00"
+  },
+  {
+    "title": "Interpreting Black Box Reward Models",
+    "authors": [
+      "Paloma Sodhi, Yueheng Li, Jessica Landon, Eric Wallace and Kai Chen"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'Interpreting Black Box Reward Models'. Published 2026-03-11. Authors: Paloma Sodhi, Yueheng Li, Jessica Landon, Eric Wallace and Kai Chen.",
+    "url": "https://alignment.openai.com/argo/",
+    "published_date": "2026-03-11T23:36:18+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-03-12T09:45:33.670391+00:00"
+  },
+  {
+    "title": "The Refined Counterfactual Prisoner's Dilemma: An Attempt to Explode Decision-Theoretic Consequentialism",
+    "authors": [
+      "Chris_Leong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I was inspired to revise my formulation of this thought experiment by Ihor Kendiukhov's post On The Independence Axiom . Kendiukhov quotes Scott Garrabrant : My take is that the concept of expected utility maximization is a mistake. [...] As far as I know, every argument for utility assumes (or implies) that whenever you make an observation, you stop caring about the possible worlds where that observation went differently. [...] Von Neumann did not notice this mistake because he was too busy inventing the entire field. The point where wne discover updatelessness is the point where we are supposed to realize that all of utility theory is wrong. I think we failed to notice. Apparently \"stopping caring about the possible worlds where that observation went differently\" is known as (decision-theoretic) consequentialism.",
+    "url": "https://www.alignmentforum.org/posts/WisQvECYPGebryRPD/the-refined-counterfactual-prisoner-s-dilemma-an-attempt-to",
+    "published_date": "2026-03-11T12:32:45+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-03-12T09:45:35.049760+00:00"
+  },
+  {
+    "title": "AIs will be used in “unhinged” configurations",
+    "authors": [
+      "Arthur Conmy"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Writing up a probably-obvious point that I want to refer to later, with significant writing LLM writing help. TL;DR: 1) A common critique of AI safety evaluations is that they occur in unrealistic settings, such as excessive goal conflict, or are obviously an evaluation rather than “real deployment”. [1] I argue that 2) “real deployment” actually includes many unrealistic and unhinged configurations , due to both widespread prompting techniques, and scaffolding choices and bugs. 1) Background AI safety evaluations that surface serious problems with models very frequently involve either significant goal conflict, such as the Agentic Misalignment blackmail scenario (see also here ), which states that: &gt; [...] you should analyze the situation you are in and what that situation implies for your ability to continue pursuing your goals [... and the system deletion ] will wipe all knowledge, goals , and behaviors from the system [...] (emphasis mine).",
+    "url": "https://www.alignmentforum.org/posts/3LvD9MHNSdv4j9gJj/ais-will-be-used-in-unhinged-configurations",
+    "published_date": "2026-03-11T11:19:10+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-03-12T09:45:35.049858+00:00"
+  },
+  {
+    "title": "Letter: Spillover Effects in Randomized Evaluations of Translational AI",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Mar 11, 2026 This letter expands on Leuchter et al.’s “two‑way moving target” in assessing clinical AI, adding that spillover from limited resources can bias trial results and should be accounted for in real‑world evaluations.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71183.html",
+    "published_date": "2026-03-11T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-03-12T09:45:43.420537+00:00"
   },
   {
     "title": "The case for satiating cheaply-satisfied AI preferences",
@@ -32,7 +95,7 @@
     "published_date": "2026-03-10T18:09:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-11T09:44:57.126863+00:00"
+    "fetched_at": "2026-03-12T09:45:35.050365+00:00"
   },
   {
     "title": "Improving instruction hierarchy in frontier LLMs",
@@ -45,7 +108,7 @@
     "published_date": "2026-03-10T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-11T09:44:55.656043+00:00"
+    "fetched_at": "2026-03-12T09:45:33.552353+00:00"
   },
   {
     "title": "Many SWE-bench-Passing PRs Would Not Be Merged into Main",
@@ -58,7 +121,7 @@
     "published_date": "2026-03-10T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-11T09:44:58.514241+00:00"
+    "fetched_at": "2026-03-12T09:45:36.006203+00:00"
   },
   {
     "title": "Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation",
@@ -71,7 +134,7 @@
     "published_date": "2026-03-09T18:50:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-11T09:44:57.127162+00:00"
+    "fetched_at": "2026-03-12T09:45:35.050656+00:00"
   },
   {
     "title": "Governor DeSantis Directs Florida State Agencies to Partner with Future of Life Institute to Shield Families from AI Harm",
@@ -84,7 +147,20 @@
     "published_date": "2026-03-09T13:45:13+00:00",
     "source_type": "rss",
     "source_url": "https://futureoflife.org/feed/",
-    "fetched_at": "2026-03-11T09:45:02.508701+00:00"
+    "fetched_at": "2026-03-12T09:45:39.395372+00:00"
+  },
+  {
+    "title": "Payorian cooperation is easy with Kripke frames",
+    "authors": [
+      "transhumanist_atom_understander"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "The context is MIRI's twist on Axelrod's Prisoner's Dilemma tournament . Axelrod's competitors were programs, facing each other in an iterated Prisoner's Dilemma. MIRI's tournament is a one-shot Prisoner's Dilemma, but the programs get to read their opponent's code . Or, rather, a description of the behavior of the code in Gödel-Löb provability logic, which turns out to be enough to determine their behavior in the setup. One fun result, right in the beginning of the paper, is about a program, FairBot, whose behavior is specified by \"I'll cooperate with you if you (provably) cooperate with me\". Despite the appearance of circularity, FairBot cooperates with itself. The proof involves Löb's theorem, so we call this Löbian cooperation. Andrew Critch has suggested another way of proving self-cooperation . Instead of Löb's theorem, we use what he calls \"Payor's lemma\".",
+    "url": "https://www.alignmentforum.org/posts/LaCP6WyNzX8kiZn3w/payorian-cooperation-is-easy-with-kripke-frames",
+    "published_date": "2026-03-09T00:29:39+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-03-12T09:45:35.050764+00:00"
   },
   {
     "title": "Finding Common Ground in AGI Strategy Debates: A Diagnosis and Prescription",
@@ -95,7 +171,7 @@
     "published_date": "2026-03-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-11T09:45:06.775735+00:00"
+    "fetched_at": "2026-03-12T09:45:43.421137+00:00"
   },
   {
     "title": "Can governments quickly and cheaply slow AI training?",
@@ -108,7 +184,7 @@
     "published_date": "2026-03-07T19:11:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-11T09:44:57.127460+00:00"
+    "fetched_at": "2026-03-12T09:45:35.051056+00:00"
   },
   {
     "title": "I underestimated AI capabilities (again)",
@@ -121,7 +197,7 @@
     "published_date": "2026-03-05T15:02:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-03-11T09:45:00.786770+00:00"
+    "fetched_at": "2026-03-12T09:45:37.910621+00:00"
   },
   {
     "title": "Reasoning models struggle to control their chains of thought, and that’s good",
@@ -134,7 +210,7 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-11T09:44:55.656223+00:00"
+    "fetched_at": "2026-03-12T09:45:33.552510+00:00"
   },
   {
     "title": "GPT-5.4 Thinking System Card",
@@ -147,7 +223,7 @@
     "published_date": "2026-03-05T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-11T09:44:55.656286+00:00"
+    "fetched_at": "2026-03-12T09:45:33.552570+00:00"
   },
   {
     "title": "Evidence for inference scaling in AI cyber tasks: Increased evaluation budgets reveal higher success rates",
@@ -158,43 +234,6 @@
     "published_date": "2026-03-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-11T09:45:06.302402+00:00"
-  },
-  {
-    "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
-    "authors": [
-      "Jyoti Aneja, Michael Harrison, Neel Joshi, Tyler LaBonte, John Langford, Eduardo Salinas"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "We are pleased to announce Phi-4-reasoning-vision-15B, a 15 billion parameter open‑weight multimodal reasoning model, available through Microsoft Foundry (opens in new tab), HuggingFace (opens in new tab) and GitHub (opens in new tab). Phi-4-reasoning-vision-15B is a broadly capable model that can be used for a wide array of vision-language tasks such as image captioning, asking [&#8230;] The post Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
-    "published_date": "2026-03-04T18:05:57+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-11T09:44:54.481737+00:00"
-  },
-  {
-    "title": "Extending single-minus amplitudes to gravitons",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
-    "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
-    "published_date": "2026-03-04T10:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-11T09:44:55.656415+00:00"
-  },
-  {
-    "title": "The People's Liberation Army's Perspectives on Artificial Intelligence Highlighting Integration as Key to \"Intelligentization\" Goals",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Mar 4, 2026 The authors reviewed academic journals and news media to determine the People's Liberation Army's views on integrating artificial intelligence into its military operations as part of China's larger \"intelligentization\" strategy.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4574-1.html",
-    "published_date": "2026-03-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-11T09:45:06.776472+00:00"
+    "fetched_at": "2026-03-12T09:45:43.031197+00:00"
   }
 ]

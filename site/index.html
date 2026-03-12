@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Safety Digest — March 04, 2026 to March 11, 2026</title>
-  <meta name="description" content="A curated digest of 16 AI safety research papers from leading organizations and researchers. March 04, 2026 through March 11, 2026.">
+  <title>AI Safety Digest — March 05, 2026 to March 12, 2026</title>
+  <meta name="description" content="A curated digest of 19 AI safety research papers from leading organizations and researchers. March 05, 2026 through March 12, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -940,8 +940,8 @@ a:hover {
       <h1 class="site-title" id="digest-title">AI Safety Digest</h1>
       <hr class="header-rule">
       <div class="header-meta">
-        <span class="header-daterange" id="date-range">March 04, 2026 &mdash; March 11, 2026</span>        <span class="header-separator">&middot;</span>
-        <span class="header-count" id="paper-count"><strong>16</strong> papers</span>      </div>
+        <span class="header-daterange" id="date-range">March 05, 2026 &mdash; March 12, 2026</span>        <span class="header-separator">&middot;</span>
+        <span class="header-count" id="paper-count"><strong>19</strong> papers</span>      </div>
       <div class="digest-toggle" role="group" aria-label="Digest time range">
         <button class="toggle-btn" data-mode="daily">Daily</button>
         <button class="toggle-btn active" data-mode="weekly">Weekly</button>
@@ -953,7 +953,7 @@ a:hover {
   <nav class="filter-bar" aria-label="Filter papers by organization">
     <div class="filter-bar-inner">
       <div class="filter-scroll">
-        <button class="filter-pill active" data-filter="all">All <span class="pill-count">16</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="METR">METR</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="Ajeya Cotra">Ajeya Cotra</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="FLI">FLI</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">19</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="METR">METR</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="Ajeya Cotra">Ajeya Cotra</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="FLI">FLI</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
     </div>
   </nav>
 
@@ -961,10 +961,26 @@ a:hover {
   <!-- Papers Grid -->
   <main class="papers-section">
     <h2 class="section-label">All Papers</h2>
-    <div class="papers-grid">      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-03-11">
+    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-12">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Mar 12, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/Tk4SF8qFdMrzGJGGw/how-well-do-models-follow-their-constitutions" target="_blank" rel="noopener noreferrer">How well do models follow their constitutions?</a>
+    </h3>    <p class="paper-authors">aryaj</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">This work was conducted during the MATS 9.0 program under Neel Nanda and Senthooran Rajamanoharan. There&#39;s been a lot of buzz around Claude&#39;s 30K word constitution (&#34;soul doc&#34;), and unusual ways Anthropic is integrating it into training. If we can robustly train complex and nuanced values into a model, this would be a big deal for safety! But does it actually work? This is a preliminary investigation we did to test this. We decomposed the soul doc into 205 testable tenets and ran adversarial multi-turn scenarios against seven models using the Petri auditing agent. Anthropic has gotten much better at training the model to follow its constitution! Sonnet 4.6 has a 1.9% violation rate, Opus 4.6 is at 2.9%, and Opus 4.5 is at 4.4%. As a control, Sonnet 4, which did not have special soul doc training, has a ~15.00% violation rate.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">This work was conducted during the MATS 9.0 program under Neel Nanda and Senthooran Rajamanoharan. There&#39;s been a lot of buzz around Claude&#39;s 30K word constitution (&#34;soul doc&#34;), and unusual ways Anthropic is integrating it into training. If we can robustly train complex and nuanced values into a model, this would be a big deal for safety! But does it actually work? This is a preliminary investigation we did to test this. We decomposed the soul doc into 205 testable tenets and ran adversarial multi-turn scenarios against seven models using the Petri auditing agent. Anthropic has gotten much better at training the model to follow its constitution! Sonnet 4.6 has a 1.9% violation rate, Opus 4.6 is at 2.9%, and Opus 4.5 is at 4.4%. As a control, Sonnet 4, which did not have special soul doc training, has a ~15.00% violation rate.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/Tk4SF8qFdMrzGJGGw/how-well-do-models-follow-their-constitutions" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-03-12">
     <div class="paper-meta">
       <span class="org-tag" data-org="GovAI">GovAI</span>
-      <span class="paper-date">Mar 11, 2026</span>
+      <span class="paper-date">Mar 12, 2026</span>
     </div>
     <h3 class="paper-title">
       <a href="https://www.governance.ai/research-paper/estimating-global-yearly-cybercrime-damage-costs" target="_blank" rel="noopener noreferrer">Estimating Global Yearly Cybercrime Damage Costs</a>
@@ -977,6 +993,54 @@ a:hover {
         <div class="abstract-full">AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... In early 2025, AI systems began outperforming biology experts on biology benchmarks – OpenAI’s o3 outperformed... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers&#39; safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...</div>
       </details>
     </div>    <a href="https://www.governance.ai/research-paper/estimating-global-yearly-cybercrime-damage-costs" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Mar 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/WisQvECYPGebryRPD/the-refined-counterfactual-prisoner-s-dilemma-an-attempt-to" target="_blank" rel="noopener noreferrer">The Refined Counterfactual Prisoner&#39;s Dilemma: An Attempt to Explode Decision-Theoretic Consequentialism</a>
+    </h3>    <p class="paper-authors">Chris_Leong</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">I was inspired to revise my formulation of this thought experiment by Ihor Kendiukhov&#39;s post On The Independence Axiom . Kendiukhov quotes Scott Garrabrant : My take is that the concept of expected utility maximization is a mistake. [...] As far as I know, every argument for utility assumes (or implies) that whenever you make an observation, you stop caring about the possible worlds where that observation went differently. [...] Von Neumann did not notice this mistake because he was too busy inventing the entire field. The point where wne discover updatelessness is the point where we are supposed to realize that all of utility theory is wrong. I think we failed to notice. Apparently &#34;stopping caring about the possible worlds where that observation went differently&#34; is known as (decision-theoretic) consequentialism.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">I was inspired to revise my formulation of this thought experiment by Ihor Kendiukhov&#39;s post On The Independence Axiom . Kendiukhov quotes Scott Garrabrant : My take is that the concept of expected utility maximization is a mistake. [...] As far as I know, every argument for utility assumes (or implies) that whenever you make an observation, you stop caring about the possible worlds where that observation went differently. [...] Von Neumann did not notice this mistake because he was too busy inventing the entire field. The point where wne discover updatelessness is the point where we are supposed to realize that all of utility theory is wrong. I think we failed to notice. Apparently &#34;stopping caring about the possible worlds where that observation went differently&#34; is known as (decision-theoretic) consequentialism.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/WisQvECYPGebryRPD/the-refined-counterfactual-prisoner-s-dilemma-an-attempt-to" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Mar 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/3LvD9MHNSdv4j9gJj/ais-will-be-used-in-unhinged-configurations" target="_blank" rel="noopener noreferrer">AIs will be used in “unhinged” configurations</a>
+    </h3>    <p class="paper-authors">Arthur Conmy</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Writing up a probably-obvious point that I want to refer to later, with significant writing LLM writing help. TL;DR: 1) A common critique of AI safety evaluations is that they occur in unrealistic settings, such as excessive goal conflict, or are obviously an evaluation rather than “real deployment”. [1] I argue that 2) “real deployment” actually includes many unrealistic and unhinged configurations , due to both widespread prompting techniques, and scaffolding choices and bugs. 1) Background AI safety evaluations that surface serious problems with models very frequently involve either significant goal conflict, such as the Agentic Misalignment blackmail scenario (see also here ), which states that: &amp;gt; [...] you should analyze the situation you are in and what that situation implies for your ability to continue pursuing your goals [... and the system deletion ] will wipe all knowledge, goals , and behaviors from the system [...] (emphasis mine).</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Writing up a probably-obvious point that I want to refer to later, with significant writing LLM writing help. TL;DR: 1) A common critique of AI safety evaluations is that they occur in unrealistic settings, such as excessive goal conflict, or are obviously an evaluation rather than “real deployment”. [1] I argue that 2) “real deployment” actually includes many unrealistic and unhinged configurations , due to both widespread prompting techniques, and scaffolding choices and bugs. 1) Background AI safety evaluations that surface serious problems with models very frequently involve either significant goal conflict, such as the Agentic Misalignment blackmail scenario (see also here ), which states that: &amp;gt; [...] you should analyze the situation you are in and what that situation implies for your ability to continue pursuing your goals [... and the system deletion ] will wipe all knowledge, goals , and behaviors from the system [...] (emphasis mine).</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/3LvD9MHNSdv4j9gJj/ais-will-be-used-in-unhinged-configurations" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-03-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="RAND">RAND</span>
+      <span class="paper-date">Mar 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.rand.org/pubs/external_publications/EP71183.html" target="_blank" rel="noopener noreferrer">Letter: Spillover Effects in Randomized Evaluations of Translational AI</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research Mar 11, 2026 This letter expands on Leuchter et al.’s “two‑way moving target” in assessing clinical AI, adding that spillover from limited resources can bias trial results and should be accounted for in real‑world evaluations.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research Mar 11, 2026 This letter expands on Leuchter et al.’s “two‑way moving target” in assessing clinical AI, adding that spillover from limited resources can bias trial results and should be accounted for in real‑world evaluations.</div>
+      </details>
+    </div>    <a href="https://www.rand.org/pubs/external_publications/EP71183.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-10">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1041,6 +1105,22 @@ a:hover {
         <div class="abstract-full">The collaboration will produce a Crisis Counselor Training Curriculum and a statewide AI Harms Reporting Form targeting dangerous AI companion applications</div>
       </details>
     </div>    <a href="https://futureoflife.org/press-release/desantis-directs-florida-agencies-to-partner-with-fli/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-09">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Mar 9, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/LaCP6WyNzX8kiZn3w/payorian-cooperation-is-easy-with-kripke-frames" target="_blank" rel="noopener noreferrer">Payorian cooperation is easy with Kripke frames</a>
+    </h3>    <p class="paper-authors">transhumanist_atom_understander</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">The context is MIRI&#39;s twist on Axelrod&#39;s Prisoner&#39;s Dilemma tournament . Axelrod&#39;s competitors were programs, facing each other in an iterated Prisoner&#39;s Dilemma. MIRI&#39;s tournament is a one-shot Prisoner&#39;s Dilemma, but the programs get to read their opponent&#39;s code . Or, rather, a description of the behavior of the code in Gödel-Löb provability logic, which turns out to be enough to determine their behavior in the setup. One fun result, right in the beginning of the paper, is about a program, FairBot, whose behavior is specified by &#34;I&#39;ll cooperate with you if you (provably) cooperate with me&#34;. Despite the appearance of circularity, FairBot cooperates with itself. The proof involves Löb&#39;s theorem, so we call this Löbian cooperation. Andrew Critch has suggested another way of proving self-cooperation . Instead of Löb&#39;s theorem, we use what he calls &#34;Payor&#39;s lemma&#34;.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">The context is MIRI&#39;s twist on Axelrod&#39;s Prisoner&#39;s Dilemma tournament . Axelrod&#39;s competitors were programs, facing each other in an iterated Prisoner&#39;s Dilemma. MIRI&#39;s tournament is a one-shot Prisoner&#39;s Dilemma, but the programs get to read their opponent&#39;s code . Or, rather, a description of the behavior of the code in Gödel-Löb provability logic, which turns out to be enough to determine their behavior in the setup. One fun result, right in the beginning of the paper, is about a program, FairBot, whose behavior is specified by &#34;I&#39;ll cooperate with you if you (provably) cooperate with me&#34;. Despite the appearance of circularity, FairBot cooperates with itself. The proof involves Löb&#39;s theorem, so we call this Löbian cooperation. Andrew Critch has suggested another way of proving self-cooperation . Instead of Löb&#39;s theorem, we use what he calls &#34;Payor&#39;s lemma&#34;.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/LaCP6WyNzX8kiZn3w/payorian-cooperation-is-easy-with-kripke-frames" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-03-09">
     <div class="paper-meta">
       <span class="org-tag" data-org="RAND">RAND</span>
@@ -1137,38 +1217,6 @@ a:hover {
         <div class="abstract-full">Alongside Irregular, we found evidence demonstrating that evaluators need to use large token budgets to understand the cyber capabilities of recent Large Language Models (LLMs).</div>
       </details>
     </div>    <a href="https://www.aisi.gov.uk/blog/evidence-for-inference-scaling-in-ai-cyber-tasks-increased-evaluation-budgets-reveal-higher-success-rates" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-03-04">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="OpenAI">OpenAI</span>
-      <span class="paper-date">Mar 4, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://openai.com/index/extending-single-minus-amplitudes-to-gravitons" target="_blank" rel="noopener noreferrer">Extending single-minus amplitudes to gravitons</a>
-    </h3>    <p class="paper-authors">OpenAI News</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.</div>
-      </details>
-    </div>    <a href="https://openai.com/index/extending-single-minus-amplitudes-to-gravitons" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-03-04">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="RAND">RAND</span>
-      <span class="paper-date">Mar 4, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.rand.org/pubs/perspectives/PEA4574-1.html" target="_blank" rel="noopener noreferrer">The People&#39;s Liberation Army&#39;s Perspectives on Artificial Intelligence Highlighting Integration as Key to &#34;Intelligentization&#34; Goals</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Expert Insights Mar 4, 2026 The authors reviewed academic journals and news media to determine the People&#39;s Liberation Army&#39;s views on integrating artificial intelligence into its military operations as part of China&#39;s larger &#34;intelligentization&#34; strategy.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Expert Insights Mar 4, 2026 The authors reviewed academic journals and news media to determine the People&#39;s Liberation Army&#39;s views on integrating artificial intelligence into its military operations as part of China&#39;s larger &#34;intelligentization&#34; strategy.</div>
-      </details>
-    </div>    <a href="https://www.rand.org/pubs/perspectives/PEA4574-1.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>    </div>
   </main>
 
@@ -1176,17 +1224,17 @@ a:hover {
   <footer class="site-footer">
     <div class="footer-inner">
       <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-03-11 09:45:11</p>
+      <p class="footer-timestamp">2026-03-12 09:45:48</p>
     </div>
   </footer>
 
   <!-- Filter + Digest Mode JS -->
   <script>
     (function () {
-      var FETCH_DATE = '2026-03-11';
-      var WEEK_START = 'March 04, 2026';
-      var WEEK_END = 'March 11, 2026';
-      var TOTAL_COUNT = 16;
+      var FETCH_DATE = '2026-03-12';
+      var WEEK_START = 'March 05, 2026';
+      var WEEK_END = 'March 12, 2026';
+      var TOTAL_COUNT = 19;
 
       var pills = document.querySelectorAll('.filter-pill');
       var cards = document.querySelectorAll('.paper-card');
