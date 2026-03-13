@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Safety Digest — March 05, 2026 to March 12, 2026</title>
-  <meta name="description" content="A curated digest of 19 AI safety research papers from leading organizations and researchers. March 05, 2026 through March 12, 2026.">
+  <title>AI Safety Digest — March 06, 2026 to March 13, 2026</title>
+  <meta name="description" content="A curated digest of 21 AI safety research papers from leading organizations and researchers. March 06, 2026 through March 13, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -940,8 +940,8 @@ a:hover {
       <h1 class="site-title" id="digest-title">AI Safety Digest</h1>
       <hr class="header-rule">
       <div class="header-meta">
-        <span class="header-daterange" id="date-range">March 05, 2026 &mdash; March 12, 2026</span>        <span class="header-separator">&middot;</span>
-        <span class="header-count" id="paper-count"><strong>19</strong> papers</span>      </div>
+        <span class="header-daterange" id="date-range">March 06, 2026 &mdash; March 13, 2026</span>        <span class="header-separator">&middot;</span>
+        <span class="header-count" id="paper-count"><strong>21</strong> papers</span>      </div>
       <div class="digest-toggle" role="group" aria-label="Digest time range">
         <button class="toggle-btn" data-mode="daily">Daily</button>
         <button class="toggle-btn active" data-mode="weekly">Weekly</button>
@@ -953,7 +953,7 @@ a:hover {
   <nav class="filter-bar" aria-label="Filter papers by organization">
     <div class="filter-bar-inner">
       <div class="filter-scroll">
-        <button class="filter-pill active" data-filter="all">All <span class="pill-count">19</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="METR">METR</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="Ajeya Cotra">Ajeya Cotra</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="FLI">FLI</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">21</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="METR">METR</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="Dan Hendrycks">Dan Hendrycks</button>        <button class="filter-pill" data-filter="FLI">FLI</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
     </div>
   </nav>
 
@@ -961,7 +961,71 @@ a:hover {
   <!-- Papers Grid -->
   <main class="papers-section">
     <h2 class="section-label">All Papers</h2>
-    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-12">
+    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-13">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Mar 13, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/RyDkpWGLQsCnABE78/operationalizing-fdt" target="_blank" rel="noopener noreferrer">Operationalizing FDT</a>
+    </h3>    <p class="paper-authors">Vivek Hebbar</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">This post is an attempt to better operationalize FDT (functional decision theory). &amp;nbsp;It answers the following questions: given a logical causal graph, how do we define the logical do-operator? what is logical causality and how might it be formalized? how does FDT interact with anthropic updating? why do we need logical causality? &amp;nbsp;why FDT and not EDT? Defining the logical do-operator Consider Parfit&#39;s hitchhiker : A logical causal graph for Parfit&#39;s hitchhiker, where blue nodes are logical facts An FDT agent is supposed to reason as follows: I am deciding the value of the node &#34;Does my algorithm pay?&#34; If I set that node to &#34;yes&#34; , then omega will save me and I will get +1000 utility. &amp;nbsp;Also I will pay and lose 1 utility. &amp;nbsp;Total is +999. If I set that node to &#34;no&#34; , then omega will not save me. &amp;nbsp;I will get 0 utility.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">This post is an attempt to better operationalize FDT (functional decision theory). &amp;nbsp;It answers the following questions: given a logical causal graph, how do we define the logical do-operator? what is logical causality and how might it be formalized? how does FDT interact with anthropic updating? why do we need logical causality? &amp;nbsp;why FDT and not EDT? Defining the logical do-operator Consider Parfit&#39;s hitchhiker : A logical causal graph for Parfit&#39;s hitchhiker, where blue nodes are logical facts An FDT agent is supposed to reason as follows: I am deciding the value of the node &#34;Does my algorithm pay?&#34; If I set that node to &#34;yes&#34; , then omega will save me and I will get +1000 utility. &amp;nbsp;Also I will pay and lose 1 utility. &amp;nbsp;Total is +999. If I set that node to &#34;no&#34; , then omega will not save me. &amp;nbsp;I will get 0 utility.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/RyDkpWGLQsCnABE78/operationalizing-fdt" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Anthropic" data-date="2026-03-13">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Anthropic">Anthropic</span>
+      <span class="paper-date">Mar 13, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://alignment.anthropic.com/2026/automated-alignment-agent/" target="_blank" rel="noopener noreferrer">A3: An Automated Alignment Agent for Safety Finetuning</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">We introduce our Automated Alignment Agent (A3), a new agentic framework which automatically mitigates safety failures in Large Language Models (LLMs) with minimal human intervention. Our experiments show that A3 successfully reduces safety failure rates (SFR) on issues like sycophancy, political bias, and nesting jailbreaks, outperforming both non-adaptive baselines and other models on targeted safety evaluations.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">We introduce our Automated Alignment Agent (A3), a new agentic framework which automatically mitigates safety failures in Large Language Models (LLMs) with minimal human intervention. Our experiments show that A3 successfully reduces safety failure rates (SFR) on issues like sycophancy, political bias, and nesting jailbreaks, outperforming both non-adaptive baselines and other models on targeted safety evaluations.</div>
+      </details>
+    </div>    <a href="https://alignment.anthropic.com/2026/automated-alignment-agent/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-03-13">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="GovAI">GovAI</span>
+      <span class="paper-date">Mar 13, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models" target="_blank" rel="noopener noreferrer">AI and Bomb Plots: Distinguishing Potential Effects from Language Models</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers&#39; safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers&#39; safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...</div>
+      </details>
+    </div>    <a href="https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Dan Hendrycks" data-date="2026-03-12">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Dan Hendrycks">Dan Hendrycks</span>
+      <span class="paper-date">Mar 12, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://newsletter.mlsafety.org/p/mlsn-19-honesty-disempowerment-and" target="_blank" rel="noopener noreferrer">MLSN #19: Honesty, Disempowerment, &amp; Cybersecurity</a>
+    </h3>    <p class="paper-authors">Alice Blair</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from Dan Hendrycks titled &#39;MLSN #19: Honesty, Disempowerment, &amp; Cybersecurity&#39;. Published 2026-03-12. Authors: Alice Blair.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from Dan Hendrycks titled &#39;MLSN #19: Honesty, Disempowerment, &amp; Cybersecurity&#39;. Published 2026-03-12. Authors: Alice Blair.</div>
+      </details>
+    </div>    <a href="https://newsletter.mlsafety.org/p/mlsn-19-honesty-disempowerment-and" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-12">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
       <span class="paper-date">Mar 12, 2026</span>
@@ -977,22 +1041,38 @@ a:hover {
         <div class="abstract-full">This work was conducted during the MATS 9.0 program under Neel Nanda and Senthooran Rajamanoharan. There&#39;s been a lot of buzz around Claude&#39;s 30K word constitution (&#34;soul doc&#34;), and unusual ways Anthropic is integrating it into training. If we can robustly train complex and nuanced values into a model, this would be a big deal for safety! But does it actually work? This is a preliminary investigation we did to test this. We decomposed the soul doc into 205 testable tenets and ran adversarial multi-turn scenarios against seven models using the Petri auditing agent. Anthropic has gotten much better at training the model to follow its constitution! Sonnet 4.6 has a 1.9% violation rate, Opus 4.6 is at 2.9%, and Opus 4.5 is at 4.4%. As a control, Sonnet 4, which did not have special soul doc training, has a ~15.00% violation rate.</div>
       </details>
     </div>    <a href="https://www.alignmentforum.org/posts/Tk4SF8qFdMrzGJGGw/how-well-do-models-follow-their-constitutions" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-03-12">
+  </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-03-12">
     <div class="paper-meta">
-      <span class="org-tag" data-org="GovAI">GovAI</span>
+      <span class="org-tag" data-org="RAND">RAND</span>
       <span class="paper-date">Mar 12, 2026</span>
     </div>
     <h3 class="paper-title">
-      <a href="https://www.governance.ai/research-paper/estimating-global-yearly-cybercrime-damage-costs" target="_blank" rel="noopener noreferrer">Estimating Global Yearly Cybercrime Damage Costs</a>
+      <a href="https://www.rand.org/pubs/research_reports/RRA3845-3.html" target="_blank" rel="noopener noreferrer">Evaluating Potential Artificial Intelligence Energy Capacity at Different Data Center Sites</a>
     </h3>    <div class="paper-abstract">
       <details class="abstract-expand">
         <summary class="abstract-toggle">
-          <span class="abstract-preview">AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... In early 2025, AI systems began outperforming biology experts on biology benchmarks – OpenAI’s o3 outperformed... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers&#39; safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...</span>
+          <span class="abstract-preview">Research Mar 12, 2026 RAND researchers studied U.S. power capacity for large artificial intelligence data centers by 2030, reviewing 22 sites. Most showed moderate potential; Stargate and Pantex in Texas and the Kansas City National Security Campus ranked highest.</span>
           <span class="toggle-label">More</span>
         </summary>
-        <div class="abstract-full">AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... In early 2025, AI systems began outperforming biology experts on biology benchmarks – OpenAI’s o3 outperformed... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers&#39; safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...</div>
+        <div class="abstract-full">Research Mar 12, 2026 RAND researchers studied U.S. power capacity for large artificial intelligence data centers by 2030, reviewing 22 sites. Most showed moderate potential; Stargate and Pantex in Texas and the Kansas City National Security Campus ranked highest.</div>
       </details>
-    </div>    <a href="https://www.governance.ai/research-paper/estimating-global-yearly-cybercrime-damage-costs" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+    </div>    <a href="https://www.rand.org/pubs/research_reports/RRA3845-3.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-03-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="OpenAI">OpenAI</span>
+      <span class="paper-date">Mar 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://alignment.openai.com/argo/" target="_blank" rel="noopener noreferrer">Interpreting Black Box Reward Models</a>
+    </h3>    <p class="paper-authors">Paloma Sodhi, Yueheng Li, Jessica Landon, Eric Wallace and Kai Chen</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from OpenAI titled &#39;Interpreting Black Box Reward Models&#39;. Published 2026-03-11. Authors: Paloma Sodhi, Yueheng Li, Jessica Landon, Eric Wallace and Kai Chen.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from OpenAI titled &#39;Interpreting Black Box Reward Models&#39;. Published 2026-03-11. Authors: Paloma Sodhi, Yueheng Li, Jessica Landon, Eric Wallace and Kai Chen.</div>
+      </details>
+    </div>    <a href="https://alignment.openai.com/argo/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-11">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1073,6 +1153,22 @@ a:hover {
         <div class="abstract-full">Research from OpenAI titled &#39;Improving instruction hierarchy in frontier LLMs&#39;. Published 2026-03-10. Authors: OpenAI News.</div>
       </details>
     </div>    <a href="https://openai.com/index/instruction-hierarchy-challenge" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="METR" data-date="2026-03-10">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="METR">METR</span>
+      <span class="paper-date">Mar 10, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/" target="_blank" rel="noopener noreferrer">Many SWE-bench-Passing PRs Would Not Be Merged into Main</a>
+    </h3>    <p class="paper-authors">METR</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Summary: We find that roughly half of test-passing SWE-bench Verified PRs written by mid-2024 to mid/late-2025 agents would not be merged into main by repo maintainers, even after adjusting for noise in maintainer merge decisions. Since the agents are not given a chance to iterate on their solution in response to feedback the way a human developer would, we do not claim that this represents a fundamental capability limitation. Rather, our results indicate that a naive interpretation of benchmark scores may lead one to overestimate how useful agents are without more elicitation or human feedback. Introduction It is often unclear how to translate benchmark scores into real-world usefulness. For example, if a model’s SWE-bench Verified score is 60%, does that mean it can resolve 60% of real-world open-source issues? One reason to doubt this is that benchmarks are clean and verifiable in ways the real world is not.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Summary: We find that roughly half of test-passing SWE-bench Verified PRs written by mid-2024 to mid/late-2025 agents would not be merged into main by repo maintainers, even after adjusting for noise in maintainer merge decisions. Since the agents are not given a chance to iterate on their solution in response to feedback the way a human developer would, we do not claim that this represents a fundamental capability limitation. Rather, our results indicate that a naive interpretation of benchmark scores may lead one to overestimate how useful agents are without more elicitation or human feedback. Introduction It is often unclear how to translate benchmark scores into real-world usefulness. For example, if a model’s SWE-bench Verified score is 60%, does that mean it can resolve 60% of real-world open-source issues? One reason to doubt this is that benchmarks are clean and verifiable in ways the real world is not.</div>
+      </details>
+    </div>    <a href="https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-03-09">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1083,10 +1179,10 @@ a:hover {
     </h3>    <p class="paper-authors">Bartosz Cywiński</p>    <div class="paper-abstract">
       <details class="abstract-expand">
         <summary class="abstract-toggle">
-          <span class="abstract-preview">TL;DR: We introduce a testbed based on censored Chinese LLMs, which serve as natural objects of study for studying secret elicitation techniques. Then we study the efficacy of honesty elicitation and lie detection techniques for detecting and removing generated falsehoods. This post presents a summary of the paper, including examples of transcripts and other miscellaneous findings. X thread | arXiv paper | Code | Transcripts Summary We construct a testbed for honesty elicitation and lie detection techniques comprising questions on censored topics and corresponding ground-truth facts. Of the honesty elicitation techniques we evaluate, sampling without a chat template, few-shot prompting, and fine-tuning on generic honesty data most reliably increase truthful responses. The strongest inference-time honesty elicitation techniques also transfer to frontier open-weights models , including DeepSeek-R1-0528, Qwen3.5-397B and MiniMax-M2.5.</span>
+          <span class="abstract-preview">TL;DR: We introduce a testbed based on censored Chinese LLMs, which serve as natural objects of study for studying secret elicitation techniques. Then we study the efficacy of honesty elicitation and lie detection techniques for detecting and removing generated falsehoods. This post presents a summary of the paper, including examples of transcripts and other miscellaneous findings. arXiv paper | Code | Transcripts Summary We construct a testbed for honesty elicitation and lie detection techniques comprising questions on censored topics and corresponding ground-truth facts. Of the honesty elicitation techniques we evaluate, sampling without a chat template, few-shot prompting, and fine-tuning on generic honesty data most reliably increase truthful responses. The strongest inference-time honesty elicitation techniques also transfer to frontier open-weights models , including DeepSeek-R1-0528, Qwen3.5-397B and MiniMax-M2.5.</span>
           <span class="toggle-label">More</span>
         </summary>
-        <div class="abstract-full">TL;DR: We introduce a testbed based on censored Chinese LLMs, which serve as natural objects of study for studying secret elicitation techniques. Then we study the efficacy of honesty elicitation and lie detection techniques for detecting and removing generated falsehoods. This post presents a summary of the paper, including examples of transcripts and other miscellaneous findings. X thread | arXiv paper | Code | Transcripts Summary We construct a testbed for honesty elicitation and lie detection techniques comprising questions on censored topics and corresponding ground-truth facts. Of the honesty elicitation techniques we evaluate, sampling without a chat template, few-shot prompting, and fine-tuning on generic honesty data most reliably increase truthful responses. The strongest inference-time honesty elicitation techniques also transfer to frontier open-weights models , including DeepSeek-R1-0528, Qwen3.5-397B and MiniMax-M2.5.</div>
+        <div class="abstract-full">TL;DR: We introduce a testbed based on censored Chinese LLMs, which serve as natural objects of study for studying secret elicitation techniques. Then we study the efficacy of honesty elicitation and lie detection techniques for detecting and removing generated falsehoods. This post presents a summary of the paper, including examples of transcripts and other miscellaneous findings. arXiv paper | Code | Transcripts Summary We construct a testbed for honesty elicitation and lie detection techniques comprising questions on censored topics and corresponding ground-truth facts. Of the honesty elicitation techniques we evaluate, sampling without a chat template, few-shot prompting, and fine-tuning on generic honesty data most reliably increase truthful responses. The strongest inference-time honesty elicitation techniques also transfer to frontier open-weights models , including DeepSeek-R1-0528, Qwen3.5-397B and MiniMax-M2.5.</div>
       </details>
     </div>    <a href="https://www.alignmentforum.org/posts/xq5taGA6Tz6YShCB9/censored-llms-as-a-natural-testbed-for-secret-knowledge-2" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="FLI" data-date="2026-03-09">
@@ -1153,70 +1249,6 @@ a:hover {
         <div class="abstract-full">I originally wrote this as a private doc for people working in the field - it&#39;s not super polished, or optimized for a broad audience. But I&#39;m publishing anyway because inference-verification is a new and exciting area, and there few birds-eye-view explainers of what&#39;s going on and what the bottlenecks are. Tl;dr:&amp;nbsp; At least one of the following would need to be implemented for me to be confident that inference verification would substantially slow training given today&#39;s algorithms: Proof of work or proof of memory that accounts for &amp;gt; 95% of computation. Memory wipes every few minutes. Output re-computation that reduces covert channel capacity below 0.01%. To my knowledge, no one has prototyped verification demos that reach these thresholds; so whether rapidly-implementable inference verification is feasible is still an open question. 1.</div>
       </details>
     </div>    <a href="https://www.alignmentforum.org/posts/Xzf3eMnhTko7AxnEy/can-governments-quickly-and-cheaply-slow-ai-training" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Ajeya Cotra" data-date="2026-03-05">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Ajeya Cotra">Ajeya Cotra</span>
-      <span class="paper-date">Mar 5, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.planned-obsolescence.org/p/i-underestimated-ai-capabilities" target="_blank" rel="noopener noreferrer">I underestimated AI capabilities (again)</a>
-    </h3>    <p class="paper-authors">Ajeya Cotra</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">On Jan 14th, I made predictions about AI progress in 2026. My forecasts for software engineering capabilities already feel much too conservative.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">On Jan 14th, I made predictions about AI progress in 2026. My forecasts for software engineering capabilities already feel much too conservative.</div>
-      </details>
-    </div>    <a href="https://www.planned-obsolescence.org/p/i-underestimated-ai-capabilities" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-03-05">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="OpenAI">OpenAI</span>
-      <span class="paper-date">Mar 5, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://openai.com/index/reasoning-models-chain-of-thought-controllability" target="_blank" rel="noopener noreferrer">Reasoning models struggle to control their chains of thought, and that’s good</a>
-    </h3>    <p class="paper-authors">OpenAI News</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.</div>
-      </details>
-    </div>    <a href="https://openai.com/index/reasoning-models-chain-of-thought-controllability" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-03-05">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="OpenAI">OpenAI</span>
-      <span class="paper-date">Mar 5, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://openai.com/index/gpt-5-4-thinking-system-card" target="_blank" rel="noopener noreferrer">GPT-5.4 Thinking System Card</a>
-    </h3>    <p class="paper-authors">OpenAI News</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Research from OpenAI titled &#39;GPT-5.4 Thinking System Card&#39;. Published 2026-03-05. Authors: OpenAI News.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Research from OpenAI titled &#39;GPT-5.4 Thinking System Card&#39;. Published 2026-03-05. Authors: OpenAI News.</div>
-      </details>
-    </div>    <a href="https://openai.com/index/gpt-5-4-thinking-system-card" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="UK AISI" data-date="2026-03-05">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="UK AISI">UK AISI</span>
-      <span class="paper-date">Mar 5, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.aisi.gov.uk/blog/evidence-for-inference-scaling-in-ai-cyber-tasks-increased-evaluation-budgets-reveal-higher-success-rates" target="_blank" rel="noopener noreferrer">Evidence for inference scaling in AI cyber tasks: Increased evaluation budgets reveal higher success rates</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Alongside Irregular, we found evidence demonstrating that evaluators need to use large token budgets to understand the cyber capabilities of recent Large Language Models (LLMs).</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Alongside Irregular, we found evidence demonstrating that evaluators need to use large token budgets to understand the cyber capabilities of recent Large Language Models (LLMs).</div>
-      </details>
-    </div>    <a href="https://www.aisi.gov.uk/blog/evidence-for-inference-scaling-in-ai-cyber-tasks-increased-evaluation-budgets-reveal-higher-success-rates" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>    </div>
   </main>
 
@@ -1224,17 +1256,17 @@ a:hover {
   <footer class="site-footer">
     <div class="footer-inner">
       <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-03-12 09:45:48</p>
+      <p class="footer-timestamp">2026-03-13 09:41:50</p>
     </div>
   </footer>
 
   <!-- Filter + Digest Mode JS -->
   <script>
     (function () {
-      var FETCH_DATE = '2026-03-12';
-      var WEEK_START = 'March 05, 2026';
-      var WEEK_END = 'March 12, 2026';
-      var TOTAL_COUNT = 19;
+      var FETCH_DATE = '2026-03-13';
+      var WEEK_START = 'March 06, 2026';
+      var WEEK_END = 'March 13, 2026';
+      var TOTAL_COUNT = 21;
 
       var pills = document.querySelectorAll('.filter-pill');
       var cards = document.querySelectorAll('.paper-card');
