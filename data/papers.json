@@ -1,5 +1,27 @@
 [
   {
+    "title": "A3: An Automated Alignment Agent for Safety Finetuning",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We introduce our Automated Alignment Agent (A3), a new agentic framework which automatically mitigates safety failures in Large Language Models (LLMs) with minimal human intervention. Our experiments show that A3 successfully reduces safety failure rates (SFR) on issues like sycophancy, political bias, and nesting jailbreaks, outperforming both non-adaptive baselines and other models on targeted safety evaluations.",
+    "url": "https://alignment.anthropic.com/2026/automated-alignment-agent/",
+    "published_date": "2026-03-14T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-03-14T09:35:33.591988+00:00"
+  },
+  {
+    "title": "AI and Bomb Plots: Distinguishing Potential Effects from Language Models",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...",
+    "url": "https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models",
+    "published_date": "2026-03-14T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-03-14T09:35:38.675418+00:00"
+  },
+  {
     "title": "Operationalizing FDT",
     "authors": [
       "Vivek Hebbar"
@@ -10,29 +32,7 @@
     "published_date": "2026-03-13T00:12:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:35.324792+00:00"
-  },
-  {
-    "title": "A3: An Automated Alignment Agent for Safety Finetuning",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "We introduce our Automated Alignment Agent (A3), a new agentic framework which automatically mitigates safety failures in Large Language Models (LLMs) with minimal human intervention. Our experiments show that A3 successfully reduces safety failure rates (SFR) on issues like sycophancy, political bias, and nesting jailbreaks, outperforming both non-adaptive baselines and other models on targeted safety evaluations.",
-    "url": "https://alignment.anthropic.com/2026/automated-alignment-agent/",
-    "published_date": "2026-03-13T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-13T09:41:39.597778+00:00"
-  },
-  {
-    "title": "AI and Bomb Plots: Distinguishing Potential Effects from Language Models",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...",
-    "url": "https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models",
-    "published_date": "2026-03-13T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-13T09:41:45.179819+00:00"
+    "fetched_at": "2026-03-14T09:35:24.986325+00:00"
   },
   {
     "title": "Systematic debugging for AI agents: Introducing the AgentRx framework",
@@ -45,7 +45,7 @@
     "published_date": "2026-03-12T16:38:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-13T09:41:32.294543+00:00"
+    "fetched_at": "2026-03-14T09:35:22.485830+00:00"
   },
   {
     "title": "MLSN #19: Honesty, Disempowerment, & Cybersecurity",
@@ -58,7 +58,7 @@
     "published_date": "2026-03-12T14:15:50+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-03-13T09:41:38.383918+00:00"
+    "fetched_at": "2026-03-14T09:35:32.157332+00:00"
   },
   {
     "title": "Review of the Anthropic Sabotage Risk Report: Claude Opus 4.6",
@@ -71,7 +71,7 @@
     "published_date": "2026-03-12T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:36.184890+00:00"
+    "fetched_at": "2026-03-14T09:35:25.939551+00:00"
   },
   {
     "title": "How well do models follow their constitutions?",
@@ -84,7 +84,7 @@
     "published_date": "2026-03-12T00:07:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:35.326165+00:00"
+    "fetched_at": "2026-03-14T09:35:24.987697+00:00"
   },
   {
     "title": "“Are AIs more likely to pursue on-episode or beyond-episode reward?” by Anders Cairns Woodruff, Alex Mallen",
@@ -97,7 +97,7 @@
     "published_date": "2026-03-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-13T09:41:33.934801+00:00"
+    "fetched_at": "2026-03-14T09:35:24.045770+00:00"
   },
   {
     "title": "Evaluating Potential Artificial Intelligence Energy Capacity at Different Data Center Sites",
@@ -108,7 +108,7 @@
     "published_date": "2026-03-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-13T09:41:44.593005+00:00"
+    "fetched_at": "2026-03-14T09:35:38.239107+00:00"
   },
   {
     "title": "Interpreting Black Box Reward Models",
@@ -121,7 +121,7 @@
     "published_date": "2026-03-11T23:36:18+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-03-13T09:41:33.398235+00:00"
+    "fetched_at": "2026-03-14T09:35:23.567435+00:00"
   },
   {
     "title": "The Refined Counterfactual Prisoner's Dilemma: An Attempt to Explode Decision-Theoretic Consequentialism",
@@ -134,7 +134,7 @@
     "published_date": "2026-03-11T12:32:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:35.326234+00:00"
+    "fetched_at": "2026-03-14T09:35:24.987762+00:00"
   },
   {
     "title": "AIs will be used in “unhinged” configurations",
@@ -147,7 +147,7 @@
     "published_date": "2026-03-11T11:19:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:35.326332+00:00"
+    "fetched_at": "2026-03-14T09:35:24.987860+00:00"
   },
   {
     "title": "Letter: Spillover Effects in Randomized Evaluations of Translational AI",
@@ -158,7 +158,20 @@
     "published_date": "2026-03-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-13T09:41:44.593243+00:00"
+    "fetched_at": "2026-03-14T09:35:38.239373+00:00"
+  },
+  {
+    "title": "Don't Let LLMs Write For You",
+    "authors": [
+      "JustisMills"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Content note: nothing in this piece is a prank or jumpscare where I smirkingly reveal you've been reading AI prose all along. …",
+    "url": "https://www.lesswrong.com/posts/FCE6MeDzLEYKFPZX6/don-t-let-llms-write-for-you",
+    "published_date": "2026-03-10T18:49:47.289000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-03-14T09:35:42.917764+00:00"
   },
   {
     "title": "The case for satiating cheaply-satisfied AI preferences",
@@ -171,7 +184,7 @@
     "published_date": "2026-03-10T18:09:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:35.326804+00:00"
+    "fetched_at": "2026-03-14T09:35:24.988360+00:00"
   },
   {
     "title": "Improving instruction hierarchy in frontier LLMs",
@@ -184,7 +197,7 @@
     "published_date": "2026-03-10T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-13T09:41:33.322678+00:00"
+    "fetched_at": "2026-03-14T09:35:23.447916+00:00"
   },
   {
     "title": "Many SWE-bench-Passing PRs Would Not Be Merged into Main",
@@ -197,7 +210,7 @@
     "published_date": "2026-03-10T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:36.186268+00:00"
+    "fetched_at": "2026-03-14T09:35:25.940953+00:00"
   },
   {
     "title": "Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation",
@@ -210,7 +223,7 @@
     "published_date": "2026-03-09T18:50:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:35.327098+00:00"
+    "fetched_at": "2026-03-14T09:35:24.988656+00:00"
   },
   {
     "title": "Governor DeSantis Directs Florida State Agencies to Partner with Future of Life Institute to Shield Families from AI Harm",
@@ -223,7 +236,7 @@
     "published_date": "2026-03-09T13:45:13+00:00",
     "source_type": "rss",
     "source_url": "https://futureoflife.org/feed/",
-    "fetched_at": "2026-03-13T09:41:39.502246+00:00"
+    "fetched_at": "2026-03-14T09:35:33.475196+00:00"
   },
   {
     "title": "Payorian cooperation is easy with Kripke frames",
@@ -236,7 +249,7 @@
     "published_date": "2026-03-09T00:29:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:35.327208+00:00"
+    "fetched_at": "2026-03-14T09:35:24.988764+00:00"
   },
   {
     "title": "Finding Common Ground in AGI Strategy Debates: A Diagnosis and Prescription",
@@ -247,7 +260,7 @@
     "published_date": "2026-03-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-13T09:41:44.593856+00:00"
+    "fetched_at": "2026-03-14T09:35:38.239965+00:00"
   },
   {
     "title": "Can governments quickly and cheaply slow AI training?",
@@ -260,6 +273,6 @@
     "published_date": "2026-03-07T19:11:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-13T09:41:35.327516+00:00"
+    "fetched_at": "2026-03-14T09:35:24.989061+00:00"
   }
 ]
