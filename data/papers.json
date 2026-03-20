@@ -5,21 +5,54 @@
     "organization": "Anthropic",
     "abstract": "We introduce our Automated Alignment Agent (A3), a new agentic framework which automatically mitigates safety failures in Large Language Models (LLMs) with minimal human intervention. Our experiments show that A3 successfully reduces safety failure rates (SFR) on issues like sycophancy, political bias, and nesting jailbreaks, outperforming both non-adaptive baselines and other models on targeted safety evaluations.",
     "url": "https://alignment.anthropic.com/2026/automated-alignment-agent/",
-    "published_date": "2026-03-19T00:00:00+00:00",
+    "published_date": "2026-03-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-19T09:48:28.747952+00:00"
+    "fetched_at": "2026-03-20T09:43:41.013060+00:00"
+  },
+  {
+    "title": "Requirements for Model Specifications in the EU GPAI Code of Practice",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating...",
+    "url": "https://www.governance.ai/research-paper/requirements-for-model-specifications-in-the-eu-gpai-code-of-practice",
+    "published_date": "2026-03-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-03-20T09:43:46.736470+00:00"
   },
   {
     "title": "AI and Bomb Plots: Distinguishing Potential Effects from Language Models",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating... American hyperscalers are increasingly exploring building data centers in the UAE, but it is unclear whether doing so is...",
+    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-20.",
     "url": "https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models",
-    "published_date": "2026-03-19T00:00:00+00:00",
+    "published_date": "2026-03-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-19T09:48:34.750908+00:00"
+    "fetched_at": "2026-03-20T09:43:46.737846+00:00"
+  },
+  {
+    "title": "Unlocking the Tax Code with RAND's Tax Code Analysis Tool",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Summary Mar 19, 2026 To disentangle the U.S. tax code and help policymakers better understand the effects of proposed tax changes, researchers developed the RAND Tax Code Analysis Tool (CAT). This brief describes current CAT analyses and potential future capabilities.",
+    "url": "https://www.rand.org/pubs/research_briefs/RBA4392-1.html",
+    "published_date": "2026-03-19T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-03-20T09:43:46.354884+00:00"
+  },
+  {
+    "title": "Tax Code Analysis Tool 1.0: Applying Machine Learning to Map the Tax Code",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Tool Mar 19, 2026 The authors describe a tool to analyze the U.S. tax code by building a graph database of legal text. The Tax Code Analysis Tool consists of a comprehensive graph database mapping Title 26 of the U.S. Code on internal revenue.",
+    "url": "https://www.rand.org/pubs/tools/TLA4392-1.html",
+    "published_date": "2026-03-19T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-03-20T09:43:46.355147+00:00"
   },
   {
     "title": "Metagaming matters for training, evaluation, and oversight",
@@ -32,7 +65,7 @@
     "published_date": "2026-03-18T21:26:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-19T09:48:23.160177+00:00"
+    "fetched_at": "2026-03-20T09:43:35.075472+00:00"
   },
   {
     "title": "“Act-based approval-directed agents”, for IDA skeptics",
@@ -45,7 +78,7 @@
     "published_date": "2026-03-18T18:47:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-19T09:48:23.160323+00:00"
+    "fetched_at": "2026-03-20T09:43:35.075629+00:00"
   },
   {
     "title": "What will the first human-level AI look like, and how might things go wrong?",
@@ -56,7 +89,7 @@
     "published_date": "2026-03-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-03-19T09:48:33.220481+00:00"
+    "fetched_at": "2026-03-20T09:43:45.294914+00:00"
   },
   {
     "title": "New RFP on Interpretability from Schmidt Sciences",
@@ -69,7 +102,7 @@
     "published_date": "2026-03-17T16:08:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-19T09:48:23.160439+00:00"
+    "fetched_at": "2026-03-20T09:43:35.075769+00:00"
   },
   {
     "title": "Measuring progress toward AGI: A cognitive framework",
@@ -82,7 +115,7 @@
     "published_date": "2026-03-17T16:03:47+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-19T09:48:20.049368+00:00"
+    "fetched_at": "2026-03-20T09:43:32.269192+00:00"
   },
   {
     "title": "More Students Use AI for Homework, and More Believe It Harms Critical Thinking: Selected Findings from the American Youth Panel",
@@ -93,7 +126,7 @@
     "published_date": "2026-03-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-19T09:48:34.365405+00:00"
+    "fetched_at": "2026-03-20T09:43:46.355952+00:00"
   },
   {
     "title": "How do frontier AI agents perform in multi-step cyber-attack scenarios?",
@@ -104,7 +137,7 @@
     "published_date": "2026-03-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-19T09:48:34.095743+00:00"
+    "fetched_at": "2026-03-20T09:43:45.756561+00:00"
   },
   {
     "title": "Power Steering: Behavior Steering via Layer-to-Layer Jacobian Singular Vectors",
@@ -117,7 +150,7 @@
     "published_date": "2026-03-13T04:05:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-19T09:48:23.160780+00:00"
+    "fetched_at": "2026-03-20T09:43:35.076360+00:00"
   },
   {
     "title": "Operationalizing FDT",
@@ -130,82 +163,6 @@
     "published_date": "2026-03-13T00:12:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-19T09:48:23.160847+00:00"
-  },
-  {
-    "title": "Systematic debugging for AI agents: Introducing the AgentRx framework",
-    "authors": [
-      "Shraddha Barke, Arnav Goyal, Alind Khare, Chetan Bansal"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "As AI agents transition from simple chatbots to autonomous systems capable of managing cloud incidents, navigating complex web interfaces, and executing multi-step API workflows, a new challenge has emerged: transparency. When a human makes a mistake, we can usually trace the logic. But when an AI agent fails, perhaps by hallucinating a tool output or [&#8230;] The post Systematic debugging for AI agents: Introducing the AgentRx framework appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/",
-    "published_date": "2026-03-12T16:38:45+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-19T09:48:20.801209+00:00"
-  },
-  {
-    "title": "MLSN #19: Honesty, Disempowerment, & Cybersecurity",
-    "authors": [
-      "Alice Blair"
-    ],
-    "organization": "Dan Hendrycks",
-    "abstract": "Research from Dan Hendrycks titled 'MLSN #19: Honesty, Disempowerment, & Cybersecurity'. Published 2026-03-12. Authors: Alice Blair.",
-    "url": "https://newsletter.mlsafety.org/p/mlsn-19-honesty-disempowerment-and",
-    "published_date": "2026-03-12T14:15:50+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-03-19T09:48:26.686266+00:00"
-  },
-  {
-    "title": "Review of the Anthropic Sabotage Risk Report: Claude Opus 4.6",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "We reviewed two versions of Anthropic’s Sabotage Risk Report for Claude Opus 4.6, producing two corresponding review documents: our review of the February 11 version and our review of the March 3 version . We recommend that readers refer to our review of the February 11 version, which represents our review of the report as originally received. We expect the public version of the Sabotage Risk Report to be updated to resemble the document we received on March 3, 2026 in content, though not necessarily in exact wording. We expect our second review to cover those changes, but if the updated public version includes any changes that materially affect our opinions, we will publish an updated review. Both documents include an appendix detailing our review process and the differences between the two versions of our review.",
-    "url": "https://metr.org/blog/2026-03-12-sabotage-risk-report-opus-4-6-review/",
-    "published_date": "2026-03-12T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-19T09:48:24.186060+00:00"
-  },
-  {
-    "title": "How well do models follow their constitutions?",
-    "authors": [
-      "aryaj"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This work was conducted during the MATS 9.0 program under Neel Nanda and Senthooran Rajamanoharan. There's been a lot of buzz around Claude's 30K word constitution (\"soul doc\"), and unusual ways Anthropic is integrating it into training. If we can robustly train complex and nuanced values into a model, this would be a big deal for safety! But does it actually work? This is a preliminary investigation we did to test this. We decomposed the soul doc into 205 testable tenets and ran adversarial multi-turn scenarios against seven models using the Petri auditing agent. Anthropic has gotten much better at training the model to follow its constitution! Sonnet 4.6 has a 1.9% violation rate, Opus 4.6 is at 2.9%, and Opus 4.5 is at 4.4%. As a control, Sonnet 4, which did not have special soul doc training, has a ~15.00% violation rate.",
-    "url": "https://www.alignmentforum.org/posts/Tk4SF8qFdMrzGJGGw/how-well-do-models-follow-their-constitutions",
-    "published_date": "2026-03-12T00:07:10+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-19T09:48:23.162214+00:00"
-  },
-  {
-    "title": "“Are AIs more likely to pursue on-episode or beyond-episode reward?” by Anders Cairns Woodruff, Alex Mallen",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: RL would encourage on-episode reward seeking, but beyond-episode reward seekers may learn to goal-guard.. Consider an AI that terminally pursues reward. How dangerous is this? It depends on how broadly-scoped a notion of reward the model pursues. It could be: on-episode reward-seeking: only maximizing reward on the current training episode — i.e., reward that reinforces their current action in RL. This is what people usually mean by “reward-seeker” (e.g. in Carlsmith or The behavioral selection model…). beyond-episode reward-seeking: maximizing reward for a larger-scoped notion of “self” (e.g., all models sharing the same weights). In this post, I’ll discuss which motivation is more likely. This question is, of course, very similar to the broader questions of whether we should expect scheming. But there are a number of considerations particular to motivations that aim for reward; this post focuses on these.",
-    "url": "https://blog.redwoodresearch.org/p/are-ais-more-likely-to-pursue-on",
-    "published_date": "2026-03-12T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-19T09:48:22.720214+00:00"
-  },
-  {
-    "title": "Evaluating Potential Artificial Intelligence Energy Capacity at Different Data Center Sites",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Mar 12, 2026 RAND researchers studied U.S. power capacity for large artificial intelligence data centers by 2030, reviewing 22 sites. Most showed moderate potential; Stargate and Pantex in Texas and the Kansas City National Security Campus ranked highest.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA3845-3.html",
-    "published_date": "2026-03-12T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-19T09:48:34.365712+00:00"
+    "fetched_at": "2026-03-20T09:43:35.076477+00:00"
   }
 ]
