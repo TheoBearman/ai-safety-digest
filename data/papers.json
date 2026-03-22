@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "We introduce our Automated Alignment Agent (A3), a new agentic framework which automatically mitigates safety failures in Large Language Models (LLMs) with minimal human intervention. Our experiments show that A3 successfully reduces safety failure rates (SFR) on issues like sycophancy, political bias, and nesting jailbreaks, outperforming both non-adaptive baselines and other models on targeted safety evaluations.",
     "url": "https://alignment.anthropic.com/2026/automated-alignment-agent/",
-    "published_date": "2026-03-21T00:00:00+00:00",
+    "published_date": "2026-03-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-21T09:34:47.822725+00:00"
+    "fetched_at": "2026-03-22T09:35:32.466076+00:00"
   },
   {
     "title": "Requirements for Model Specifications in the EU GPAI Code of Practice",
@@ -16,21 +16,34 @@
     "organization": "GovAI",
     "abstract": "The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating...",
     "url": "https://www.governance.ai/research-paper/requirements-for-model-specifications-in-the-eu-gpai-code-of-practice",
-    "published_date": "2026-03-21T00:00:00+00:00",
+    "published_date": "2026-03-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-21T09:34:54.752248+00:00"
+    "fetched_at": "2026-03-22T09:35:38.879791+00:00"
   },
   {
     "title": "AI and Bomb Plots: Distinguishing Potential Effects from Language Models",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-21.",
+    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-22.",
     "url": "https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models",
-    "published_date": "2026-03-21T00:00:00+00:00",
+    "published_date": "2026-03-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-21T09:34:54.753586+00:00"
+    "fetched_at": "2026-03-22T09:35:38.880927+00:00"
+  },
+  {
+    "title": "Training agents to self-report misbehavior",
+    "authors": [
+      "Bruce W. Lee, Yueh-Han Chen and Tomek Korbak"
+    ],
+    "organization": "OpenAI",
+    "abstract": "We train agents to call a reporting tool when they covertly misbehave, sharply reducing undetected successful attacks across 15 environments.",
+    "url": "https://alignment.openai.com/self-incrimination/",
+    "published_date": "2026-03-21T18:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-03-22T09:35:25.443285+00:00"
   },
   {
     "title": "Impact of modelling assumptions on time horizon results",
@@ -43,7 +56,7 @@
     "published_date": "2026-03-20T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-21T09:34:43.170591+00:00"
+    "fetched_at": "2026-03-22T09:35:27.762987+00:00"
   },
   {
     "title": "Unlocking the Tax Code with RAND's Tax Code Analysis Tool",
@@ -54,7 +67,7 @@
     "published_date": "2026-03-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-21T09:34:54.096557+00:00"
+    "fetched_at": "2026-03-22T09:35:38.163634+00:00"
   },
   {
     "title": "Tax Code Analysis Tool 1.0: Applying Machine Learning to Map the Tax Code",
@@ -65,7 +78,7 @@
     "published_date": "2026-03-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-21T09:34:54.096849+00:00"
+    "fetched_at": "2026-03-22T09:35:38.163867+00:00"
   },
   {
     "title": "Metagaming matters for training, evaluation, and oversight",
@@ -78,7 +91,7 @@
     "published_date": "2026-03-18T21:26:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-21T09:34:42.020016+00:00"
+    "fetched_at": "2026-03-22T09:35:26.715424+00:00"
   },
   {
     "title": "“Act-based approval-directed agents”, for IDA skeptics",
@@ -91,7 +104,7 @@
     "published_date": "2026-03-18T18:47:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-21T09:34:42.020160+00:00"
+    "fetched_at": "2026-03-22T09:35:26.715600+00:00"
   },
   {
     "title": "What will the first human-level AI look like, and how might things go wrong?",
@@ -102,7 +115,7 @@
     "published_date": "2026-03-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-03-21T09:34:52.861846+00:00"
+    "fetched_at": "2026-03-22T09:35:36.709720+00:00"
   },
   {
     "title": "New RFP on Interpretability from Schmidt Sciences",
@@ -115,7 +128,7 @@
     "published_date": "2026-03-17T16:08:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-21T09:34:42.020275+00:00"
+    "fetched_at": "2026-03-22T09:35:26.715706+00:00"
   },
   {
     "title": "Measuring progress toward AGI: A cognitive framework",
@@ -128,7 +141,7 @@
     "published_date": "2026-03-17T16:03:47+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-21T09:34:39.023363+00:00"
+    "fetched_at": "2026-03-22T09:35:23.048049+00:00"
   },
   {
     "title": "More Students Use AI for Homework, and More Believe It Harms Critical Thinking: Selected Findings from the American Youth Panel",
@@ -139,7 +152,20 @@
     "published_date": "2026-03-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-21T09:34:54.097641+00:00"
+    "fetched_at": "2026-03-22T09:35:38.164566+00:00"
+  },
+  {
+    "title": "Terrified Comments on Corrigibility in Claude's Constitution",
+    "authors": [
+      "Zack_M_Davis"
+    ],
+    "organization": "LessWrong",
+    "abstract": "(Previously: Prologue.) • Corrigibility as a term of art in AI alignment was coined as a word to refer to a property of an AI being willing to let it…",
+    "url": "https://www.lesswrong.com/posts/K2Ae2vmAKwhiwKEo5/terrified-comments-on-corrigibility-in-claude-s-constitution",
+    "published_date": "2026-03-16T07:36:28.638000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-03-22T09:35:43.157611+00:00"
   },
   {
     "title": "How do frontier AI agents perform in multi-step cyber-attack scenarios?",
@@ -150,6 +176,6 @@
     "published_date": "2026-03-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-21T09:34:53.614885+00:00"
+    "fetched_at": "2026-03-22T09:35:37.600029+00:00"
   }
 ]
