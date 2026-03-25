@@ -1,5 +1,49 @@
 [
   {
+    "title": "Measuring and improving coding audit realism with deployment resources",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We study realism win rate, a metric for measuring how distinguishable Petri audit transcripts are from real deployment interactions. We use it to evaluate the effect of giving the auditor real deployment resources (system prompts, tool definitions, and codebases). Providing these resources to the auditor increases the average realism win rate from 4.6% to 32.8% for reward hacking audits, and doesn’t significantly change hack rate.",
+    "url": "https://alignment.anthropic.com/2026/coding-audit-realism/",
+    "published_date": "2026-03-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-03-25T09:56:16.644058+00:00"
+  },
+  {
+    "title": "Measuring progress toward AGI: A cognitive framework",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Measuring progress toward AGI: A cognitive framework'. Published 2026-03-25.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework",
+    "published_date": "2026-03-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-03-25T09:56:17.227179+00:00"
+  },
+  {
+    "title": "Requirements for Model Specifications in the EU GPAI Code of Practice",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating...",
+    "url": "https://www.governance.ai/research-paper/requirements-for-model-specifications-in-the-eu-gpai-code-of-practice",
+    "published_date": "2026-03-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-03-25T09:56:23.325195+00:00"
+  },
+  {
+    "title": "AI and Bomb Plots: Distinguishing Potential Effects from Language Models",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-25.",
+    "url": "https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models",
+    "published_date": "2026-03-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-03-25T09:56:23.326554+00:00"
+  },
+  {
     "title": "Nvidia – The Inference Kingdom Expands",
     "authors": [
       "Dylan Patel"
@@ -10,40 +54,18 @@
     "published_date": "2026-03-24T00:27:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-03-24T09:57:56.737822+00:00"
+    "fetched_at": "2026-03-25T09:56:13.547454+00:00"
   },
   {
-    "title": "Measuring and improving coding audit realism with deployment resources",
+    "title": "Artificial General Intelligence Forecasting and Scenario Analysis: State of the Field, Methodological Gaps, and Strategic Implications",
     "authors": [],
-    "organization": "Anthropic",
-    "abstract": "We study realism win rate, a metric for measuring how distinguishable Petri audit transcripts are from real deployment interactions. We use it to evaluate the effect of giving the auditor real deployment resources (system prompts, tool definitions, and codebases). Providing these resources to the auditor increases the average realism win rate from 4.6% to 32.8% for reward hacking audits, and doesn’t significantly change hack rate.",
-    "url": "https://alignment.anthropic.com/2026/coding-audit-realism/",
+    "organization": "RAND",
+    "abstract": "Research Mar 24, 2026 The authors synthesize diverse artificial general intelligence forecasting methodologies to help decisionmakers navigate uncertainty about both the timing and nature of advanced artificial intelligence capabilities.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4692-1.html",
     "published_date": "2026-03-24T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-24T09:57:59.550212+00:00"
-  },
-  {
-    "title": "Requirements for Model Specifications in the EU GPAI Code of Practice",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating...",
-    "url": "https://www.governance.ai/research-paper/requirements-for-model-specifications-in-the-eu-gpai-code-of-practice",
-    "published_date": "2026-03-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-24T09:58:04.612255+00:00"
-  },
-  {
-    "title": "AI and Bomb Plots: Distinguishing Potential Effects from Language Models",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-24.",
-    "url": "https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models",
-    "published_date": "2026-03-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-24T09:58:04.613399+00:00"
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-03-25T09:56:22.733168+00:00"
   },
   {
     "title": "Will machines ever be intelligent?",
@@ -56,7 +78,7 @@
     "published_date": "2026-03-23T15:00:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-24T09:57:52.381190+00:00"
+    "fetched_at": "2026-03-25T09:56:07.923301+00:00"
   },
   {
     "title": "Can AI agents escape their sandboxes? A benchmark for safely measuring container breakout capabilities",
@@ -67,7 +89,7 @@
     "published_date": "2026-03-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-24T09:58:03.821132+00:00"
+    "fetched_at": "2026-03-25T09:56:22.189943+00:00"
   },
   {
     "title": "Training agents to self-report misbehavior",
@@ -80,7 +102,7 @@
     "published_date": "2026-03-21T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-03-24T09:57:53.304688+00:00"
+    "fetched_at": "2026-03-25T09:56:09.336731+00:00"
   },
   {
     "title": "Impact of modelling assumptions on time horizon results",
@@ -93,7 +115,7 @@
     "published_date": "2026-03-20T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-24T09:57:55.384838+00:00"
+    "fetched_at": "2026-03-25T09:56:12.032488+00:00"
   },
   {
     "title": "We spent 2 hours working in the future",
@@ -106,7 +128,7 @@
     "published_date": "2026-03-19T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-24T09:57:55.384985+00:00"
+    "fetched_at": "2026-03-25T09:56:12.032647+00:00"
   },
   {
     "title": "Unlocking the Tax Code with RAND's Tax Code Analysis Tool",
@@ -117,7 +139,7 @@
     "published_date": "2026-03-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-24T09:58:04.165051+00:00"
+    "fetched_at": "2026-03-25T09:56:22.733436+00:00"
   },
   {
     "title": "Tax Code Analysis Tool 1.0: Applying Machine Learning to Map the Tax Code",
@@ -128,7 +150,7 @@
     "published_date": "2026-03-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-24T09:58:04.165291+00:00"
+    "fetched_at": "2026-03-25T09:56:22.733722+00:00"
   },
   {
     "title": "Metagaming matters for training, evaluation, and oversight",
@@ -141,7 +163,7 @@
     "published_date": "2026-03-18T21:26:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-24T09:57:54.198039+00:00"
+    "fetched_at": "2026-03-25T09:56:10.832866+00:00"
   },
   {
     "title": "“Act-based approval-directed agents”, for IDA skeptics",
@@ -154,7 +176,7 @@
     "published_date": "2026-03-18T18:47:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-24T09:57:54.198188+00:00"
+    "fetched_at": "2026-03-25T09:56:10.833009+00:00"
   },
   {
     "title": "What will the first human-level AI look like, and how might things go wrong?",
@@ -165,43 +187,6 @@
     "published_date": "2026-03-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-03-24T09:58:03.104003+00:00"
-  },
-  {
-    "title": "New RFP on Interpretability from Schmidt Sciences",
-    "authors": [
-      "Peter Hase"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Request for Proposals Deadline: Tuesday, May 26, 2026 Schmidt Sciences invites proposals for a pilot program in AI interpretability. We seek new methods for detecting and mitigating deceptive behaviors from AI models, such as when models knowingly give misleading or harmful advice to users. If this pilot uncovers signs of meaningful progress, it may unlock a significantly larger investment in this space. Core Question and Overview Can we develop interpretability methods that (1) detect deceptive behaviors exhibited by LLMs and (2) steer their reasoning to eliminate these behaviors? Successful tools will generalize to realistic use cases, moving beyond typical academic benchmarks and addressing concrete risks arising from deceptive behaviors. Importantly, we are looking for interpretability tools that outperform baselines that do not rely on access to weights, to prove that we can truly capitalize on our understanding of model internals.",
-    "url": "https://www.alignmentforum.org/posts/Pc789vx2oHgEXYZZH/new-rfp-on-interpretability-from-schmidt-sciences-1",
-    "published_date": "2026-03-17T16:08:05+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-24T09:57:54.198304+00:00"
-  },
-  {
-    "title": "Measuring progress toward AGI: A cognitive framework",
-    "authors": [
-      "Google DeepMind News"
-    ],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Measuring progress toward AGI: A cognitive framework'. Published 2026-03-17. Authors: Google DeepMind News.",
-    "url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
-    "published_date": "2026-03-17T16:03:47+00:00",
-    "source_type": "rss",
-    "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-24T09:57:51.653296+00:00"
-  },
-  {
-    "title": "More Students Use AI for Homework, and More Believe It Harms Critical Thinking: Selected Findings from the American Youth Panel",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Mar 17, 2026 In 2025, most U.S. students who used artificial intelligence (AI) for homework worried about its effects on critical thinking. Survey results from 1,214 youth offer insights to help schools guide students in using AI to enhance, not replace, learning.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4742-1.html",
-    "published_date": "2026-03-17T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-24T09:58:04.165974+00:00"
+    "fetched_at": "2026-03-25T09:56:21.000364+00:00"
   }
 ]
