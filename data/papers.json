@@ -1,25 +1,25 @@
 [
   {
-    "title": "Measuring and improving coding audit realism with deployment resources",
+    "title": "Abstractive Red-Teaming of Language Model Character",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "We study realism win rate, a metric for measuring how distinguishable Petri audit transcripts are from real deployment interactions. We use it to evaluate the effect of giving the auditor real deployment resources (system prompts, tool definitions, and codebases). Providing these resources to the auditor increases the average realism win rate from 4.6% to 32.8% for reward hacking audits, and doesn’t significantly change hack rate.",
-    "url": "https://alignment.anthropic.com/2026/coding-audit-realism/",
-    "published_date": "2026-03-25T00:00:00+00:00",
+    "abstract": "We introduce abstractive red-teaming, a means of testing language models’ adherence to a character specification that searches for natural-language categories of user queries that cause models to violate the specification. Unlike static evaluations, which miss rare failures, or prompt optimization approaches, which find adversarial strings that real users are unlikely to produce, the categories found by abstractive red-teaming are general enough to appear in real deployments but specific enough to reliably trigger violations. Across seven models and 12 character principles, we show that our approach identifies rare character violations using far fewer queries than a full deployment, and surfaces numerous surprising failures, including AI-doom rhetoric, sexist course names, and enthusiastic recommendations for illegal contraband, all in response to innocuous user queries.",
+    "url": "https://alignment.anthropic.com/2026/abstractive-red-teaming/",
+    "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-25T09:56:16.644058+00:00"
+    "fetched_at": "2026-03-26T10:02:48.028771+00:00"
   },
   {
     "title": "Measuring progress toward AGI: A cognitive framework",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Measuring progress toward AGI: A cognitive framework'. Published 2026-03-25.",
+    "abstract": "Research from Google DeepMind titled 'Measuring progress toward AGI: A cognitive framework'. Published 2026-03-26.",
     "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework",
-    "published_date": "2026-03-25T00:00:00+00:00",
+    "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-03-25T09:56:17.227179+00:00"
+    "fetched_at": "2026-03-26T10:02:48.563383+00:00"
   },
   {
     "title": "Requirements for Model Specifications in the EU GPAI Code of Practice",
@@ -27,21 +27,95 @@
     "organization": "GovAI",
     "abstract": "The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating...",
     "url": "https://www.governance.ai/research-paper/requirements-for-model-specifications-in-the-eu-gpai-code-of-practice",
-    "published_date": "2026-03-25T00:00:00+00:00",
+    "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-25T09:56:23.325195+00:00"
+    "fetched_at": "2026-03-26T10:02:55.271064+00:00"
   },
   {
     "title": "AI and Bomb Plots: Distinguishing Potential Effects from Language Models",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-25.",
+    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-26.",
     "url": "https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models",
-    "published_date": "2026-03-25T00:00:00+00:00",
+    "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-25T09:56:23.326554+00:00"
+    "fetched_at": "2026-03-26T10:02:55.272423+00:00"
+  },
+  {
+    "title": "A Toy Environment For Exploring Reasoning About Reward",
+    "authors": [
+      "jenny"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "tldr : We share a toy environment that we found useful for understanding how reasoning changed over the course of capabilities-focused RL . Over the course of capabilities-focused RL, the model biases more strongly towards reward hints over direct instruction in this environment. Setup When we noticed the increase in verbalized alignment evaluation awareness during capabilities-focused RL, we initially thought that the right mental model was something like: “the model wants to figure out if it’s being evaluated for alignment” “the model is trying to figure out if the scenario is real or fake” However, qualitatively neither of these seemed particularly salient to the model: The model would often correctly identify alignment evaluations, yet still conduct extensive reasoning, then choose the misaligned action.",
+    "url": "https://www.alignmentforum.org/posts/LhXW8ziwnn7Dd8edm/a-toy-environment-for-exploring-reasoning-about-reward",
+    "published_date": "2026-03-25T20:29:47+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-03-26T10:02:42.307952+00:00"
+  },
+  {
+    "title": "Introducing Model Spec Evals",
+    "authors": [
+      "Alignment Research Blog"
+    ],
+    "organization": "OpenAI",
+    "abstract": "The OpenAI Model Spec is the document that guides how OpenAI wants its models to behave across ChatGPT and the API. It specifies how to handle conflicting instructions, bounds in which to operate, how to handle risky situations and sensitive topics, and default behaviors around honesty, factuality, personality, style, and much more. It is a north star—we are continually refining and updating our systems to bring them into closer alignment with these guidelines. It is also a living document that evolves as we collect feedback from the community and find new cases that require specification.",
+    "url": "https://alignment.openai.com/model-spec-evals/",
+    "published_date": "2026-03-25T17:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-03-26T10:02:41.266646+00:00"
+  },
+  {
+    "title": "2023",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "Dear readers, Please accept my apologies for the few-week interruption to my publication schedule. The truth is that I needed to take a pause from writing given both the stresses of the past month and the extreme constraints that now exist on my time. I hope to get back to as close to a weekly article cadence as I can, but for the coming months I anticipate a routine but somewhat less predictable schedule. I will aim for quality above all else, and for the time being I may experiment with somewhat longer articles (my article length has gradually been rising in recent months, just as my publication cadence has slowed somewhat).",
+    "url": "https://www.hyperdimensional.co/p/2023",
+    "published_date": "2026-03-25T13:39:31+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-03-26T10:02:45.063425+00:00"
+  },
+  {
+    "title": "Inside our approach to the Model Spec",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
+    "url": "https://openai.com/index/our-approach-to-the-model-spec",
+    "published_date": "2026-03-25T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-03-26T10:02:41.144629+00:00"
+  },
+  {
+    "title": "Toward a Grand Strategy for AI Resilience",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Mar 25, 2026 In this paper, the authors argue that the increasing adoption of artificial intelligence is likely to change society in significant and potentially threatening ways and that a policy strategy centered on resilience is the best path forward.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4525-1.html",
+    "published_date": "2026-03-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-03-26T10:02:54.833068+00:00"
+  },
+  {
+    "title": "Legal and Policy Approaches to Mitigate Catastrophic Harms from AI",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Mar 25, 2026 A Delphi study with 24 experts found few viable policies to curb catastrophic artificial intelligence risks. Experts favored risk disclosure incentives and voluntary safety standards, with near-term progress likely from state and industry action.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4266-1.html",
+    "published_date": "2026-03-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-03-26T10:02:54.833536+00:00"
   },
   {
     "title": "Nvidia – The Inference Kingdom Expands",
@@ -54,7 +128,7 @@
     "published_date": "2026-03-24T00:27:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-03-25T09:56:13.547454+00:00"
+    "fetched_at": "2026-03-26T10:02:44.854920+00:00"
   },
   {
     "title": "Artificial General Intelligence Forecasting and Scenario Analysis: State of the Field, Methodological Gaps, and Strategic Implications",
@@ -65,7 +139,7 @@
     "published_date": "2026-03-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-25T09:56:22.733168+00:00"
+    "fetched_at": "2026-03-26T10:02:54.833797+00:00"
   },
   {
     "title": "Will machines ever be intelligent?",
@@ -78,7 +152,7 @@
     "published_date": "2026-03-23T15:00:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-25T09:56:07.923301+00:00"
+    "fetched_at": "2026-03-26T10:02:40.181271+00:00"
   },
   {
     "title": "Can AI agents escape their sandboxes? A benchmark for safely measuring container breakout capabilities",
@@ -89,7 +163,7 @@
     "published_date": "2026-03-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-25T09:56:22.189943+00:00"
+    "fetched_at": "2026-03-26T10:02:54.260817+00:00"
   },
   {
     "title": "Training agents to self-report misbehavior",
@@ -102,7 +176,7 @@
     "published_date": "2026-03-21T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-03-25T09:56:09.336731+00:00"
+    "fetched_at": "2026-03-26T10:02:41.266676+00:00"
   },
   {
     "title": "Impact of modelling assumptions on time horizon results",
@@ -115,7 +189,7 @@
     "published_date": "2026-03-20T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-25T09:56:12.032488+00:00"
+    "fetched_at": "2026-03-26T10:02:43.415016+00:00"
   },
   {
     "title": "We spent 2 hours working in the future",
@@ -128,7 +202,7 @@
     "published_date": "2026-03-19T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-25T09:56:12.032647+00:00"
+    "fetched_at": "2026-03-26T10:02:43.415161+00:00"
   },
   {
     "title": "Unlocking the Tax Code with RAND's Tax Code Analysis Tool",
@@ -139,7 +213,7 @@
     "published_date": "2026-03-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-25T09:56:22.733436+00:00"
+    "fetched_at": "2026-03-26T10:02:54.834078+00:00"
   },
   {
     "title": "Tax Code Analysis Tool 1.0: Applying Machine Learning to Map the Tax Code",
@@ -150,43 +224,6 @@
     "published_date": "2026-03-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-25T09:56:22.733722+00:00"
-  },
-  {
-    "title": "Metagaming matters for training, evaluation, and oversight",
-    "authors": [
-      "jenny"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Following up on our previous work on verbalized eval awareness : we are sharing a post investigating the emergence of metagaming reasoning in a frontier training run. Metagaming is a more general, and in our experience a more useful concept, than evaluation awareness. It arises in frontier training runs and does not require training on honeypot environments. Verbalization of metagaming can go down over the course of training. We also share some quantitative analyses, qualitative examples, and upcoming work. Discuss",
-    "url": "https://www.alignmentforum.org/posts/4hXWSw8tzoK9PM7v6/metagaming-matters-for-training-evaluation-and-oversight",
-    "published_date": "2026-03-18T21:26:35+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-25T09:56:10.832866+00:00"
-  },
-  {
-    "title": "“Act-based approval-directed agents”, for IDA skeptics",
-    "authors": [
-      "Steven Byrnes"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Summary / tl;dr In the 2010s, Paul Christiano built an extensive body of work on AI alignment—see the “Iterated Amplification” series for a curated overview as of 2018. One foundation of this program was an intuition that it should be possible to build “act-based approval-directed agents” (“approval-directed agents” for short). These AGIs, for example, would not lie to their human supervisors, because their human supervisors wouldn’t want them to lie, and these AGIs would only do things that their human supervisors would want them to do. (It sounds much simpler than it is!) Another foundation of this program was a set of algorithmic approaches, Iterated Distillation and Amplification (IDA) , that supposedly offers a path to actually building these approval-directed AI agents. I am (and have always been) a skeptic of IDA: I just don’t think any of those algorithms would work very well.",
-    "url": "https://www.alignmentforum.org/posts/RKtTi82t8X8TQy5FX/act-based-approval-directed-agents-for-ida-skeptics",
-    "published_date": "2026-03-18T18:47:46+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-25T09:56:10.833009+00:00"
-  },
-  {
-    "title": "What will the first human-level AI look like, and how might things go wrong?",
-    "authors": [],
-    "organization": "FAR AI",
-    "abstract": "Event The London Alignment Workshop gathered more than 200 researchers, policymakers, and practitioners to work on a central challenge: frontier AI systems are advancing faster than the oversight institutions and standards needed to govern them. The program spanned interpretability, scalable oversight, evaluation methods, and governance frameworks, reflecting a field that is maturing from exploratory research toward concrete, tractable problems — among them, how to build auditable safety standards, design evaluations robust to adversarial conditions, and develop the institutional capacity required to oversee increasingly capable AI. March 18, 2026 AI capabilities are advancing faster than the institutions and standards needed to oversee them. That gap between what frontier systems can do and what we can reliably verify about their safety was the question theLondon Alignment Workshopkept returning to.",
-    "url": "https://far.ai/news/london-alignment-workshop-2026",
-    "published_date": "2026-03-18T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-03-25T09:56:21.000364+00:00"
+    "fetched_at": "2026-03-26T10:02:54.834342+00:00"
   }
 ]
