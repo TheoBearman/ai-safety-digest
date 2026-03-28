@@ -1,25 +1,38 @@
 [
   {
+    "title": "“Reward-seekers will probably behave according to causal decision theory” by Alex Mallen",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: They'd renege on non-binding commitments, defect against copies of themselves in prisoner's dilemmas, etc.. Background: There are existing arguments to the effect that default RL algorithms encourage CDT reward-maximizing behavior on the training distribution. (That is: Most RL algorithms search for policies by selecting for actions that cause high reward. E.g., in the twin prisoner's dilemma, RL algorithms randomize actions conditional on the policy, which means that the action provides no evidence to the RL algorithm about the counterparty's action.1) This doesn’t imply RL produces CDT reward-maximizing policies: CDT behavior on the training distribution doesn’t imply CDT generalization because agents can fake CDT in the same way that they can fake alignment, or might develop arbitrary other propensities that were correlated with reward on the training distribution. But conditional on reward-on-the-episode seeking, the AI is likely to generalize CDT.",
+    "url": "https://blog.redwoodresearch.org/p/reward-seekers-will-probably-behave",
+    "published_date": "2026-03-28T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-03-28T09:39:33.589697+00:00"
+  },
+  {
     "title": "Abstractive Red-Teaming of Language Model Character",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "We introduce abstractive red-teaming, a means of testing language models’ adherence to a character specification that searches for natural-language categories of user queries that cause models to violate the specification. Unlike static evaluations, which miss rare failures, or prompt optimization approaches, which find adversarial strings that real users are unlikely to produce, the categories found by abstractive red-teaming are general enough to appear in real deployments but specific enough to reliably trigger violations. Across seven models and 12 character principles, we show that our approach identifies rare character violations using far fewer queries than a full deployment, and surfaces numerous surprising failures, including AI-doom rhetoric, sexist course names, and enthusiastic recommendations for illegal contraband, all in response to innocuous user queries.",
     "url": "https://alignment.anthropic.com/2026/abstractive-red-teaming/",
-    "published_date": "2026-03-27T00:00:00+00:00",
+    "published_date": "2026-03-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-27T09:56:33.715564+00:00"
+    "fetched_at": "2026-03-28T09:39:39.007447+00:00"
   },
   {
     "title": "Measuring progress toward AGI: A cognitive framework",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Measuring progress toward AGI: A cognitive framework'. Published 2026-03-27.",
+    "abstract": "Research from Google DeepMind titled 'Measuring progress toward AGI: A cognitive framework'. Published 2026-03-28.",
     "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework",
-    "published_date": "2026-03-27T00:00:00+00:00",
+    "published_date": "2026-03-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-03-27T09:56:34.048731+00:00"
+    "fetched_at": "2026-03-28T09:39:39.494001+00:00"
   },
   {
     "title": "Requirements for Model Specifications in the EU GPAI Code of Practice",
@@ -27,21 +40,47 @@
     "organization": "GovAI",
     "abstract": "The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating...",
     "url": "https://www.governance.ai/research-paper/requirements-for-model-specifications-in-the-eu-gpai-code-of-practice",
-    "published_date": "2026-03-27T00:00:00+00:00",
+    "published_date": "2026-03-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-27T09:56:39.563973+00:00"
+    "fetched_at": "2026-03-28T09:39:43.818217+00:00"
   },
   {
     "title": "AI and Bomb Plots: Distinguishing Potential Effects from Language Models",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-27.",
+    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-28.",
     "url": "https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models",
-    "published_date": "2026-03-27T00:00:00+00:00",
+    "published_date": "2026-03-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-27T09:56:39.565298+00:00"
+    "fetched_at": "2026-03-28T09:39:43.819589+00:00"
+  },
+  {
+    "title": "How far does alignment midtraining generalize?",
+    "authors": [
+      "Tomek Korbak, Cameron Raymond, Micah Carroll, Marcus Williams, Mikita Balesni, Alan Guo, Jason Wolfe, Akshay Jagadeesh, Ian Kivlichan"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'How far does alignment midtraining generalize?'. Published 2026-03-27. Authors: Tomek Korbak, Cameron Raymond, Micah Carroll, Marcus Williams, Mikita Balesni, Alan Guo, Jason Wolfe, Akshay Jagadeesh, Ian Kivlichan.",
+    "url": "https://alignment.openai.com/how-far-does-alignment-midtraining-generalize/",
+    "published_date": "2026-03-27T18:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-03-28T09:39:33.063633+00:00"
+  },
+  {
+    "title": "“AI’s capability improvements haven’t come from it getting less affordable” by Anders Cairns Woodruff",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: AI inference is still cheap relative to human labor. METR's frontier time horizons are doubling every few months, providing substantial evidence that AI will soon be able to automate many tasks or even jobs. But per-task inference costs have also risen sharply, and automation requires AI labor to be affordable, not just possible.1 Many people look at the rising compute bills behind frontier models and conclude that automation will soon become unaffordable. I think this misreads the data. The rise in inference cost reflects models completing longer tasks, not models becoming more expensive relative to the human labor they replace. Current frontier models complete tasks at their 50% reliability horizon for roughly 3% of human cost, and this hasn’t increased as capabilities have improved.",
+    "url": "https://blog.redwoodresearch.org/p/ais-capability-improvements-havent",
+    "published_date": "2026-03-27T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-03-28T09:39:33.589843+00:00"
   },
   {
     "title": "Test your best methods on our hard CoT interp tasks",
@@ -49,17 +88,17 @@
       "daria"
     ],
     "organization": "Alignment Forum",
-    "abstract": "Authors: Daria Ivanova, Riya Tyagi, Arthur Conmy, Neel Nanda Daria and Riya are co-first authors. This work was done during Neel Nanda’s MATS 9.0. Claude helped write code and suggest edits for this post. TL;DR One of our best safety techniques right now is “just read the chain of thought”. But this isn’t always enough : can we learn more by going beyond just reading the reasoning? Yet it's such an effective technique that it's hard to tell if we have made much progress on improving methods. To help the community develop more powerful chain of thought analysis tools, we introduce and open source nine objective tasks, where a black box GPT 5.2 monitor falls short OOD. We also baseline probes (linear, attention, SAE) and text frequency analysis (TF-IDF), and find they often do better than zero-shot and few-shot LLM monitors OOD .",
+    "abstract": "Authors: Daria Ivanova, Riya Tyagi, Josh Engels, Neel Nanda Daria and Riya are co-first authors. This work was done during Neel Nanda’s MATS 9.0. Claude helped write code and suggest edits for this post. Most of our tasks fall in 3 categories: predicting future actions, detecting the effect of an intervention, and identifying distributional properties of a rollout. [1] TL;DR One of our best safety techniques right now is “just read the chain of thought”. But this isn’t always enough : can we learn more by going beyond just reading the reasoning? Yet it's such an effective technique that it's hard to tell if we have made much progress on improving methods. To help the community develop more powerful chain of thought analysis tools, we introduce and open source nine objective tasks, where a black box GPT 5.2 monitor falls short OOD.",
     "url": "https://www.alignmentforum.org/posts/tDJWZLQNN7poqCwKa/test-your-best-methods-on-our-hard-cot-interp-tasks",
     "published_date": "2026-03-26T19:24:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-27T09:56:27.859500+00:00"
+    "fetched_at": "2026-03-28T09:39:33.953423+00:00"
   },
   {
     "title": "AsgardBench: A benchmark for visually grounded interactive planning",
     "authors": [
-      "Andrea Tupini, Lars Liden, Reuben Tan, Jianfeng Gao"
+      "Andrea Tupini, Lars Liden, Reuben Tan, Yu Wang, Jianfeng Gao"
     ],
     "organization": "Microsoft Research",
     "abstract": "Imagine a robot tasked with cleaning a kitchen. It needs to observe its environment, decide what to do, and adjust when things don&#8217;t go as expected, for example, when the mug it was tasked to wash is already clean, or the sink is full of other items. This is the domain of embodied AI: systems [&#8230;] The post AsgardBench: A benchmark for visually grounded interactive planning appeared first on Microsoft Research .",
@@ -67,7 +106,7 @@
     "published_date": "2026-03-26T19:02:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-27T09:56:26.025123+00:00"
+    "fetched_at": "2026-03-28T09:39:31.900165+00:00"
   },
   {
     "title": "GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation",
@@ -80,7 +119,7 @@
     "published_date": "2026-03-26T16:03:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-27T09:56:26.025152+00:00"
+    "fetched_at": "2026-03-28T09:39:31.900193+00:00"
   },
   {
     "title": "Red-Teaming Anthropic's Internal Agent Monitoring Systems",
@@ -93,10 +132,10 @@
     "published_date": "2026-03-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-27T09:56:28.918611+00:00"
+    "fetched_at": "2026-03-28T09:39:35.020646+00:00"
   },
   {
-    "title": "How are AI Agents Are used? Evidence from 177,000 AI agent tools",
+    "title": "How are AI Agents used? Evidence from 177,000 AI agent tools",
     "authors": [],
     "organization": "UK AISI",
     "abstract": "A monitoring method and large‑scale analysis to understand the tasks AI agents are performing today.",
@@ -104,7 +143,7 @@
     "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-27T09:56:38.161775+00:00"
+    "fetched_at": "2026-03-28T09:39:43.079397+00:00"
   },
   {
     "title": "Open Models, Soft Power, and the Spectrum of U.S.-China Artificial Intelligence Competition",
@@ -115,7 +154,7 @@
     "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-27T09:56:39.050593+00:00"
+    "fetched_at": "2026-03-28T09:39:43.415919+00:00"
   },
   {
     "title": "A Toy Environment For Exploring Reasoning About Reward",
@@ -128,7 +167,7 @@
     "published_date": "2026-03-25T20:29:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-27T09:56:27.859596+00:00"
+    "fetched_at": "2026-03-28T09:39:33.953522+00:00"
   },
   {
     "title": "Introducing Model Spec Evals",
@@ -141,7 +180,7 @@
     "published_date": "2026-03-25T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-03-27T09:56:26.995428+00:00"
+    "fetched_at": "2026-03-28T09:39:33.063677+00:00"
   },
   {
     "title": "Protecting people from harmful manipulation",
@@ -154,7 +193,7 @@
     "published_date": "2026-03-25T16:46:20+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-27T09:56:25.361830+00:00"
+    "fetched_at": "2026-03-28T09:39:31.064231+00:00"
   },
   {
     "title": "2023",
@@ -167,7 +206,7 @@
     "published_date": "2026-03-25T13:39:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-03-27T09:56:30.661825+00:00"
+    "fetched_at": "2026-03-28T09:39:36.583644+00:00"
   },
   {
     "title": "Inside our approach to the Model Spec",
@@ -180,7 +219,7 @@
     "published_date": "2026-03-25T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-27T09:56:26.864457+00:00"
+    "fetched_at": "2026-03-28T09:39:32.874511+00:00"
   },
   {
     "title": "Toward a Grand Strategy for AI Resilience",
@@ -191,7 +230,7 @@
     "published_date": "2026-03-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-27T09:56:39.050846+00:00"
+    "fetched_at": "2026-03-28T09:39:43.416152+00:00"
   },
   {
     "title": "Legal and Policy Approaches to Mitigate Catastrophic Harms from AI",
@@ -202,7 +241,7 @@
     "published_date": "2026-03-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-27T09:56:39.051313+00:00"
+    "fetched_at": "2026-03-28T09:39:43.416607+00:00"
   },
   {
     "title": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs",
@@ -213,7 +252,7 @@
     "published_date": "2026-03-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-03-27T09:56:42.186492+00:00"
+    "fetched_at": "2026-03-28T09:39:46.093250+00:00"
   },
   {
     "title": "Nvidia – The Inference Kingdom Expands",
@@ -226,7 +265,7 @@
     "published_date": "2026-03-24T00:27:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-03-27T09:56:30.372004+00:00"
+    "fetched_at": "2026-03-28T09:39:36.344338+00:00"
   },
   {
     "title": "Artificial General Intelligence Forecasting and Scenario Analysis: State of the Field, Methodological Gaps, and Strategic Implications",
@@ -237,7 +276,7 @@
     "published_date": "2026-03-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-27T09:56:39.051571+00:00"
+    "fetched_at": "2026-03-28T09:39:43.416888+00:00"
   },
   {
     "title": "Will machines ever be intelligent?",
@@ -250,7 +289,7 @@
     "published_date": "2026-03-23T15:00:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-27T09:56:26.025178+00:00"
+    "fetched_at": "2026-03-28T09:39:31.900227+00:00"
   },
   {
     "title": "Can AI agents escape their sandboxes? A benchmark for safely measuring container breakout capabilities",
@@ -261,7 +300,7 @@
     "published_date": "2026-03-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-27T09:56:38.162374+00:00"
+    "fetched_at": "2026-03-28T09:39:43.080025+00:00"
   },
   {
     "title": "Training agents to self-report misbehavior",
@@ -274,19 +313,6 @@
     "published_date": "2026-03-21T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-03-27T09:56:26.995456+00:00"
-  },
-  {
-    "title": "Impact of modelling assumptions on time horizon results",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "As METR’s time horizon task suite saturates, the results are becoming more sensitive to analysis choices. One example of this was the recent update to fix a modelling mistake with regularization, which decreased recent models’ 50% time horizon results by up to 20%, but had a smaller impact on earlier LLMs’ 50% time horizons. 1 In this post I’ll: Give a refresher on the current model used to calculate time horizon results and more detail about the regularization mistake METR recently fixed Go over what I see as the other main sources of uncertainty in time horizon results (outside of needing more tasks).",
-    "url": "https://metr.org/notes/2026-03-20-impact-of-modelling-assumptions-on-time-horizon-results/",
-    "published_date": "2026-03-20T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-27T09:56:28.918998+00:00"
+    "fetched_at": "2026-03-28T09:39:33.063700+00:00"
   }
 ]
