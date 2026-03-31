@@ -5,21 +5,21 @@
     "organization": "Anthropic",
     "abstract": "We introduce abstractive red-teaming, a means of testing language models’ adherence to a character specification that searches for natural-language categories of user queries that cause models to violate the specification. Unlike static evaluations, which miss rare failures, or prompt optimization approaches, which find adversarial strings that real users are unlikely to produce, the categories found by abstractive red-teaming are general enough to appear in real deployments but specific enough to reliably trigger violations. Across seven models and 12 character principles, we show that our approach identifies rare character violations using far fewer queries than a full deployment, and surfaces numerous surprising failures, including AI-doom rhetoric, sexist course names, and enthusiastic recommendations for illegal contraband, all in response to innocuous user queries.",
     "url": "https://alignment.anthropic.com/2026/abstractive-red-teaming/",
-    "published_date": "2026-03-30T00:00:00+00:00",
+    "published_date": "2026-03-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-03-30T10:19:02.718293+00:00"
+    "fetched_at": "2026-03-31T10:07:11.123452+00:00"
   },
   {
     "title": "Measuring progress toward AGI: A cognitive framework",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Measuring progress toward AGI: A cognitive framework'. Published 2026-03-30.",
+    "abstract": "Research from Google DeepMind titled 'Measuring progress toward AGI: A cognitive framework'. Published 2026-03-31.",
     "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework",
-    "published_date": "2026-03-30T00:00:00+00:00",
+    "published_date": "2026-03-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-03-30T10:19:03.201521+00:00"
+    "fetched_at": "2026-03-31T10:07:11.452961+00:00"
   },
   {
     "title": "Requirements for Model Specifications in the EU GPAI Code of Practice",
@@ -27,21 +27,47 @@
     "organization": "GovAI",
     "abstract": "The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of... We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating...",
     "url": "https://www.governance.ai/research-paper/requirements-for-model-specifications-in-the-eu-gpai-code-of-practice",
-    "published_date": "2026-03-30T00:00:00+00:00",
+    "published_date": "2026-03-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-30T10:19:08.695346+00:00"
+    "fetched_at": "2026-03-31T10:07:17.504306+00:00"
   },
   {
     "title": "AI and Bomb Plots: Distinguishing Potential Effects from Language Models",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-30.",
+    "abstract": "Research from GovAI titled 'AI and Bomb Plots: Distinguishing Potential Effects from Language Models'. Published 2026-03-31.",
     "url": "https://www.governance.ai/research-paper/ai-and-bomb-plots-distinguishing-potential-effects-from-language-models",
-    "published_date": "2026-03-30T00:00:00+00:00",
+    "published_date": "2026-03-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-03-30T10:19:08.696693+00:00"
+    "fetched_at": "2026-03-31T10:07:17.505683+00:00"
+  },
+  {
+    "title": "(Some) Natural Emergent Misalignment from Reward Hacking in Non-Production RL",
+    "authors": [
+      "7vik"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Authors: Satvik Golechha*, Sid Black*, Joseph Bloom * Equal Contribution. This work was done as part of the Model Transparency team at the UK AI Security Institute (AISI). Our code is available on GitHub and the model checkpoints and data is available on HuggingFace . Executive Summary In Natural Emergent Misalignment from Reward Hacking in Production RL (MacDiarmid et al., 2025), Anthropic recently demonstrated that language models that learn reward hacking in their production RL environments become emergently misaligned (EM). Their pipeline, illustrated below, proceeds from pre-training through to RL on coding tasks, where models that discover reward hacks subsequently exhibit misaligned behaviour on unrelated evaluations: Figure 0: The experimental pipeline from MacDiarmid et al. that we reproduce. We reproduce both the “prompted” (top left) and the Synthetic Document Finetuning (SDF) (bottom left) settings.",
+    "url": "https://www.alignmentforum.org/posts/2ANCyejqxfqK2obEj/some-natural-emergent-misalignment-from-reward-hacking-in",
+    "published_date": "2026-03-30T10:56:10+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-03-31T10:07:05.897635+00:00"
+  },
+  {
+    "title": "“Blocking live failures with synchronous monitors” by James Lucassen, Adam Kaufman",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "A common element in many AI control schemes is monitoring – using some model to review actions taken by an untrusted model in order to catch dangerous actions if they occur. Monitoring can serve two different goals. The first is detection: identifying misbehavior so you can understand it and prevent similar actions from happening in the future. For instance, some monitoring at AI companies is already used to identify behaviors like complying with misuse requests, reward hacking, and hallucination. The second goal is prevention: identifying misbehavior in order to mitigate the harmful effects of the particular action. For instance, constitutional classifiers are used by Anthropic to detect and prevent jailbreaks, and Claude Code auto mode prevents destructive mistakes in real time. The latency requirements for monitoring are different depending on whether the goal is detection or prevention.",
+    "url": "https://blog.redwoodresearch.org/p/blocking-live-failures-with-synchronous",
+    "published_date": "2026-03-30T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-03-31T10:07:05.333167+00:00"
   },
   {
     "title": "“Reward-seekers will probably behave according to causal decision theory” by Alex Mallen",
@@ -54,7 +80,7 @@
     "published_date": "2026-03-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-30T10:18:56.398141+00:00"
+    "fetched_at": "2026-03-31T10:07:05.333217+00:00"
   },
   {
     "title": "ControlAI 2025 Impact Report",
@@ -67,7 +93,7 @@
     "published_date": "2026-03-27T18:10:48+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-30T10:18:56.809144+00:00"
+    "fetched_at": "2026-03-31T10:07:05.897745+00:00"
   },
   {
     "title": "How far does alignment midtraining generalize?",
@@ -80,7 +106,20 @@
     "published_date": "2026-03-27T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-03-30T10:18:55.630863+00:00"
+    "fetched_at": "2026-03-31T10:07:05.005134+00:00"
+  },
+  {
+    "title": "My hobby: running deranged surveys",
+    "authors": [
+      "leogao"
+    ],
+    "organization": "LessWrong",
+    "abstract": "In late 2024, I was on a long walk with some friends along the coast of the San Francisco Bay when the question arose of just how much of a bubble we…",
+    "url": "https://www.lesswrong.com/posts/fQz6afpcZhdMdYzgE/my-hobby-running-deranged-surveys",
+    "published_date": "2026-03-27T00:41:07.675000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-03-31T10:07:21.474045+00:00"
   },
   {
     "title": "“AI’s capability improvements haven’t come from it getting less affordable” by Anders Cairns Woodruff",
@@ -93,7 +132,7 @@
     "published_date": "2026-03-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-03-30T10:18:56.398257+00:00"
+    "fetched_at": "2026-03-31T10:07:05.333326+00:00"
   },
   {
     "title": "Test your best methods on our hard CoT interp tasks",
@@ -106,7 +145,7 @@
     "published_date": "2026-03-26T19:24:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-30T10:18:56.810666+00:00"
+    "fetched_at": "2026-03-31T10:07:05.898896+00:00"
   },
   {
     "title": "AsgardBench: A benchmark for visually grounded interactive planning",
@@ -119,7 +158,7 @@
     "published_date": "2026-03-26T19:02:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-30T10:18:54.354966+00:00"
+    "fetched_at": "2026-03-31T10:07:03.848217+00:00"
   },
   {
     "title": "GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation",
@@ -132,7 +171,7 @@
     "published_date": "2026-03-26T16:03:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-30T10:18:54.354994+00:00"
+    "fetched_at": "2026-03-31T10:07:03.848243+00:00"
   },
   {
     "title": "Red-Teaming Anthropic's Internal Agent Monitoring Systems",
@@ -145,7 +184,7 @@
     "published_date": "2026-03-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-03-30T10:18:57.890992+00:00"
+    "fetched_at": "2026-03-31T10:07:06.938724+00:00"
   },
   {
     "title": "How are AI Agents used? Evidence from 177,000 AI agent tools",
@@ -156,7 +195,7 @@
     "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-30T10:19:07.747054+00:00"
+    "fetched_at": "2026-03-31T10:07:16.463835+00:00"
   },
   {
     "title": "Open Models, Soft Power, and the Spectrum of U.S.-China Artificial Intelligence Competition",
@@ -167,7 +206,7 @@
     "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-30T10:19:08.222767+00:00"
+    "fetched_at": "2026-03-31T10:07:17.005924+00:00"
   },
   {
     "title": "A Toy Environment For Exploring Reasoning About Reward",
@@ -180,7 +219,7 @@
     "published_date": "2026-03-25T20:29:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-03-30T10:18:56.810751+00:00"
+    "fetched_at": "2026-03-31T10:07:05.898978+00:00"
   },
   {
     "title": "Introducing Model Spec Evals",
@@ -193,7 +232,7 @@
     "published_date": "2026-03-25T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-03-30T10:18:55.630902+00:00"
+    "fetched_at": "2026-03-31T10:07:05.005170+00:00"
   },
   {
     "title": "Protecting people from harmful manipulation",
@@ -206,7 +245,7 @@
     "published_date": "2026-03-25T16:46:20+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-03-30T10:18:53.262677+00:00"
+    "fetched_at": "2026-03-31T10:07:03.153856+00:00"
   },
   {
     "title": "2023",
@@ -219,7 +258,7 @@
     "published_date": "2026-03-25T13:39:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-03-30T10:18:59.652988+00:00"
+    "fetched_at": "2026-03-31T10:07:08.450382+00:00"
   },
   {
     "title": "Inside our approach to the Model Spec",
@@ -232,7 +271,7 @@
     "published_date": "2026-03-25T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-03-30T10:18:55.484636+00:00"
+    "fetched_at": "2026-03-31T10:07:04.756705+00:00"
   },
   {
     "title": "Toward a Grand Strategy for AI Resilience",
@@ -243,7 +282,7 @@
     "published_date": "2026-03-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-30T10:19:08.223003+00:00"
+    "fetched_at": "2026-03-31T10:07:17.006151+00:00"
   },
   {
     "title": "Legal and Policy Approaches to Mitigate Catastrophic Harms from AI",
@@ -254,7 +293,7 @@
     "published_date": "2026-03-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-30T10:19:08.223494+00:00"
+    "fetched_at": "2026-03-31T10:07:17.006636+00:00"
   },
   {
     "title": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs",
@@ -265,7 +304,7 @@
     "published_date": "2026-03-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-03-30T10:19:11.319818+00:00"
+    "fetched_at": "2026-03-31T10:07:19.959790+00:00"
   },
   {
     "title": "Nvidia – The Inference Kingdom Expands",
@@ -278,7 +317,7 @@
     "published_date": "2026-03-24T00:27:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-03-30T10:18:59.368065+00:00"
+    "fetched_at": "2026-03-31T10:07:08.251725+00:00"
   },
   {
     "title": "Artificial General Intelligence Forecasting and Scenario Analysis: State of the Field, Methodological Gaps, and Strategic Implications",
@@ -289,30 +328,6 @@
     "published_date": "2026-03-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-03-30T10:19:08.223760+00:00"
-  },
-  {
-    "title": "Will machines ever be intelligent?",
-    "authors": [
-      "Doug Burger,  Subutai Ahmad, Nicolo Fusi"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Are machines truly intelligent? AI researchers Subutai Ahmad and Nicolò Fusi join Doug Burger to compare transformer-based AI with the human brain, exploring continual learning, efficiency, and whether today’s models are on a path toward human intelligence. The post Will machines ever be intelligent? appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/podcast/will-machines-ever-be-intelligent/",
-    "published_date": "2026-03-23T15:00:21+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-03-30T10:18:54.355019+00:00"
-  },
-  {
-    "title": "Can AI agents escape their sandboxes? A benchmark for safely measuring container breakout capabilities",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "We introduce SandboxEscapeBench, the first benchmark to systematically evaluate whether AI agents can break out of their sandboxes, and share some early results.",
-    "url": "https://www.aisi.gov.uk/blog/can-ai-agents-escape-their-sandboxes-a-benchmark-for-safely-measuring-container-breakout-capabilities",
-    "published_date": "2026-03-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-03-30T10:19:07.747667+00:00"
+    "fetched_at": "2026-03-31T10:07:17.006895+00:00"
   }
 ]
