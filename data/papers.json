@@ -1,5 +1,68 @@
 [
   {
+    "title": "The Great GPU Shortage – Rental Capacity – Launching our H100 1 Year Rental Price Index",
+    "authors": [
+      "Dylan Patel"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Anthropic’s Claude 4.6 Opus and Claude Code have soared in demand. Anthropic’s ARR has nearly tripled in just a single quarter from $9B at the end of last year to over $25B today. Open models such as GLM and Kimi K2.5 caused open model use cases to soar. Capital raises by firms like Anthropic, OpenAI, and various Neolabs also demand GPUs.",
+    "url": "https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity",
+    "published_date": "2026-04-02T04:25:57+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-04-02T10:03:00.863076+00:00"
+  },
+  {
+    "title": "My most common advice for junior researchers",
+    "authors": [
+      "LawrenceC"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Written quickly as part of the Inkhaven Residency . At a high level, research feedback I give to more junior research collaborators often can fall into one of three categories: Doing quick sanity checks Saying precisely what you want to say Asking why one more time In each case, I think the advice can be taken to an extreme I no longer endorse. Accordingly, I’ve tried to spell out the degree to which you should implement the advice, as well as what “taking it too far” might look like. This piece covers doing quick sanity checks, which is the most common advice I give to junior researchers. I’ll cover the other two pieces of advice in a subsequent piece. Doing quick sanity checks Research is hard (almost by definition) and people are often wrong.",
+    "url": "https://www.alignmentforum.org/posts/dYHFtEnKc4BdJEYY4/my-most-common-advice-for-junior-researchers",
+    "published_date": "2026-04-02T02:41:13+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-02T10:02:57.949331+00:00"
+  },
+  {
+    "title": "ADeLe: Predicting and explaining AI performance across tasks",
+    "authors": [
+      "Lexin Zhou, Xing Xie"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "AI benchmarks report how large language models (LLMs) perform on specific tasks but provide little insight into their underlying capabilities that drive their performance. They do not explain failures or reliably predict outcomes on new tasks. To address this, Microsoft researchers in collaboration with Princeton University and&#160;Universitat&#160;Politècnica&#160;de València introduce ADeLe (opens in new tab) (AI [&#8230;] The post ADeLe: Predicting and explaining AI performance across tasks appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/adele-predicting-and-explaining-ai-performance-across-tasks/",
+    "published_date": "2026-04-01T16:00:58+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-04-02T10:02:56.043251+00:00"
+  },
+  {
+    "title": "Predicting When RL Training Breaks Chain-of-Thought Monitorability",
+    "authors": [
+      "David Lindner"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Crossposted from the DeepMind Safety Research Medium Blog . Read our full paper about this topic by Max Kaufmann, David Lindner, Roland S. Zimmermann, and Rohin Shah. Overseeing AI agents by reading their intermediate reasoning “scratchpad” is a promising tool for AI safety. This approach, known as Chain-of-Thought (CoT) monitoring, allows us to check what a model is thinking before it acts, often helping us catch concerning behaviors like reward hacking and scheming . However, CoT monitoring can fail if a model’s chain-of-thought is not a good representation of the reasoning process we want to monitor. For example, training LLMs with reinforcement learning (RL) to avoid outputting problematic reasoning can result in a model learning to hide such reasoning without actually removing problematic behavior. Previous work produced an inconsistent picture of whether RL training hurts CoT monitorability.",
+    "url": "https://www.alignmentforum.org/posts/SvxaKP5KdkksZPcG7/predicting-when-rl-training-breaks-chain-of-thought",
+    "published_date": "2026-04-01T10:23:01+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-02T10:02:57.949447+00:00"
+  },
+  {
+    "title": "Bounding Causal Effects with an Unknown Mixture of Informative and Non-Informative Missingness",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Apr 1, 2026 We propose bounds on causal effects for missing outcomes, accommodating the scenario where missingness is an unobserved mixture of informative and non-informative components.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71281.html",
+    "published_date": "2026-04-01T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-04-02T10:03:09.737366+00:00"
+  },
+  {
     "title": "Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield",
     "authors": [
       "Kimbo Chen"
@@ -10,7 +73,7 @@
     "published_date": "2026-03-31T22:00:02+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-01T10:07:26.612970+00:00"
+    "fetched_at": "2026-04-02T10:03:00.863105+00:00"
   },
   {
     "title": "(Some) Natural Emergent Misalignment from Reward Hacking in Non-Production RL",
@@ -23,7 +86,7 @@
     "published_date": "2026-03-30T10:56:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-01T10:07:23.726118+00:00"
+    "fetched_at": "2026-04-02T10:02:57.949926+00:00"
   },
   {
     "title": "“Blocking live failures with synchronous monitors” by James Lucassen, Adam Kaufman",
@@ -36,7 +99,7 @@
     "published_date": "2026-03-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-01T10:07:22.895457+00:00"
+    "fetched_at": "2026-04-02T10:02:57.523996+00:00"
   },
   {
     "title": "“Reward-seekers will probably behave according to causal decision theory” by Alex Mallen",
@@ -49,7 +112,7 @@
     "published_date": "2026-03-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-01T10:07:22.895513+00:00"
+    "fetched_at": "2026-04-02T10:02:57.524048+00:00"
   },
   {
     "title": "ControlAI 2025 Impact Report: our progress toward an international ban on ASI",
@@ -62,7 +125,7 @@
     "published_date": "2026-03-27T18:10:48+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-01T10:07:23.726233+00:00"
+    "fetched_at": "2026-04-02T10:02:57.950036+00:00"
   },
   {
     "title": "How far does alignment midtraining generalize?",
@@ -75,7 +138,7 @@
     "published_date": "2026-03-27T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-01T10:07:22.286973+00:00"
+    "fetched_at": "2026-04-02T10:02:57.056246+00:00"
   },
   {
     "title": "My hobby: running deranged surveys",
@@ -88,7 +151,7 @@
     "published_date": "2026-03-27T00:41:07.675000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-04-01T10:07:39.717458+00:00"
+    "fetched_at": "2026-04-02T10:03:13.799683+00:00"
   },
   {
     "title": "“AI’s capability improvements haven’t come from it getting less affordable” by Anders Cairns Woodruff",
@@ -101,7 +164,7 @@
     "published_date": "2026-03-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-01T10:07:22.895624+00:00"
+    "fetched_at": "2026-04-02T10:02:57.524157+00:00"
   },
   {
     "title": "Test your best methods on our hard CoT interp tasks",
@@ -114,7 +177,7 @@
     "published_date": "2026-03-26T19:24:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-01T10:07:23.727649+00:00"
+    "fetched_at": "2026-04-02T10:02:57.951448+00:00"
   },
   {
     "title": "AsgardBench: A benchmark for visually grounded interactive planning",
@@ -127,7 +190,7 @@
     "published_date": "2026-03-26T19:02:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-01T10:07:21.135630+00:00"
+    "fetched_at": "2026-04-02T10:02:56.043284+00:00"
   },
   {
     "title": "GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation",
@@ -140,7 +203,7 @@
     "published_date": "2026-03-26T16:03:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-01T10:07:21.135659+00:00"
+    "fetched_at": "2026-04-02T10:02:56.043306+00:00"
   },
   {
     "title": "Red-Teaming Anthropic's Internal Agent Monitoring Systems",
@@ -153,7 +216,7 @@
     "published_date": "2026-03-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-04-01T10:07:25.077894+00:00"
+    "fetched_at": "2026-04-02T10:02:59.638472+00:00"
   },
   {
     "title": "How are AI Agents used? Evidence from 177,000 AI agent tools",
@@ -164,7 +227,7 @@
     "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-01T10:07:34.160594+00:00"
+    "fetched_at": "2026-04-02T10:03:09.218919+00:00"
   },
   {
     "title": "Open Models, Soft Power, and the Spectrum of U.S.-China Artificial Intelligence Competition",
@@ -175,104 +238,6 @@
     "published_date": "2026-03-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-01T10:07:35.195621+00:00"
-  },
-  {
-    "title": "A Toy Environment For Exploring Reasoning About Reward",
-    "authors": [
-      "jenny"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "tldr : We share a toy environment that we found useful for understanding how reasoning changed over the course of capabilities-focused RL . Over the course of capabilities-focused RL, the model biases more strongly towards reward hints over direct instruction in this environment. Setup When we noticed the increase in verbalized alignment evaluation awareness during capabilities-focused RL, we initially thought that the right mental model was something like: “the model wants to figure out if it’s being evaluated for alignment” “the model is trying to figure out if the scenario is real or fake” However, qualitatively neither of these seemed particularly salient to the model: The model would often correctly identify alignment evaluations, yet still conduct extensive reasoning, then choose the misaligned action.",
-    "url": "https://www.alignmentforum.org/posts/LhXW8ziwnn7Dd8edm/a-toy-environment-for-exploring-reasoning-about-reward",
-    "published_date": "2026-03-25T20:29:47+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-01T10:07:23.727750+00:00"
-  },
-  {
-    "title": "Introducing Model Spec Evals",
-    "authors": [
-      "Alignment Research Blog"
-    ],
-    "organization": "OpenAI",
-    "abstract": "The OpenAI Model Spec is the document that guides how OpenAI wants its models to behave across ChatGPT and the API. It specifies how to handle conflicting instructions, bounds in which to operate, how to handle risky situations and sensitive topics, and default behaviors around honesty, factuality, personality, style, and much more. It is a north star—we are continually refining and updating our systems to bring them into closer alignment with these guidelines. It is also a living document that evolves as we collect feedback from the community and find new cases that require specification.",
-    "url": "https://alignment.openai.com/model-spec-evals/",
-    "published_date": "2026-03-25T17:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-01T10:07:22.287012+00:00"
-  },
-  {
-    "title": "Protecting people from harmful manipulation",
-    "authors": [
-      "Google DeepMind News"
-    ],
-    "organization": "Google DeepMind",
-    "abstract": "Google DeepMind releases new findings and an evaluation framework to measure AI's potential for harmful manipulation in areas like finance and health, with the goal of enhancing AI safety.",
-    "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
-    "published_date": "2026-03-25T16:46:20+00:00",
-    "source_type": "rss",
-    "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-04-01T10:07:20.396080+00:00"
-  },
-  {
-    "title": "2023",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "Dear readers, Please accept my apologies for the few-week interruption to my publication schedule. The truth is that I needed to take a pause from writing given both the stresses of the past month and the extreme constraints that now exist on my time. I hope to get back to as close to a weekly article cadence as I can, but for the coming months I anticipate a routine but somewhat less predictable schedule. I will aim for quality above all else, and for the time being I may experiment with somewhat longer articles (my article length has gradually been rising in recent months, just as my publication cadence has slowed somewhat).",
-    "url": "https://www.hyperdimensional.co/p/2023",
-    "published_date": "2026-03-25T13:39:31+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-04-01T10:07:26.961237+00:00"
-  },
-  {
-    "title": "Inside our approach to the Model Spec",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
-    "url": "https://openai.com/index/our-approach-to-the-model-spec",
-    "published_date": "2026-03-25T10:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-04-01T10:07:22.030588+00:00"
-  },
-  {
-    "title": "Toward a Grand Strategy for AI Resilience",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Mar 25, 2026 In this paper, the authors argue that the increasing adoption of artificial intelligence is likely to change society in significant and potentially threatening ways and that a policy strategy centered on resilience is the best path forward.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4525-1.html",
-    "published_date": "2026-03-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-01T10:07:35.195885+00:00"
-  },
-  {
-    "title": "Legal and Policy Approaches to Mitigate Catastrophic Harms from AI",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Mar 25, 2026 A Delphi study with 24 experts found few viable policies to curb catastrophic artificial intelligence risks. Experts favored risk disclosure incentives and voluntary safety standards, with near-term progress likely from state and industry action.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4266-1.html",
-    "published_date": "2026-03-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-01T10:07:35.196343+00:00"
-  },
-  {
-    "title": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs LLM agents like Claude Code can not only write code but also be used for autonomous AI research and engineering. We show that an autoresearch-style pipeline powered by Claude Code discovers novel white-box adversarial attack algorithms that significantly outperform all existing (30+) methods in jailbreaking and prompt injection evaluations. Starting from existing attack implementations, such as GCG, the agent iterates to produce new algorithms achieving up to 40% attack success rate on CBRN queries against GPT-OSS-Safeguard-20B, compared to ≤10% for existing algorithms. The discovered algorithms generalize: attacks optimized on surrogate models transfer directly to held-out models, achieving 100% ASR against Meta-SecAlign-70B versus 56% for the best baseline. Extending the findings of AutoAdvExBench, our results are an early demonstration that incremental safety and security research can be automated using LLM agents.",
-    "url": "https://www.matsprogram.org/research/claudini-autoresearch-discovers-state-of-the-art-adversarial-attack-algorithms-for-llms",
-    "published_date": "2026-03-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-04-01T10:07:38.282044+00:00"
+    "fetched_at": "2026-04-02T10:03:09.737857+00:00"
   }
 ]
