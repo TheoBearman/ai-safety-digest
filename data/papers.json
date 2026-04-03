@@ -1,8 +1,19 @@
 [
   {
+    "title": "Gemma 4: Byte for byte, the most capable open models",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-03.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+    "published_date": "2026-04-03T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-04-03T09:54:37.758016+00:00"
+  },
+  {
     "title": "The Great GPU Shortage – Rental Capacity – Launching our H100 1 Year Rental Price Index",
     "authors": [
-      "Dylan Patel"
+      "Daniel Nishball"
     ],
     "organization": "SemiAnalysis",
     "abstract": "Anthropic’s Claude 4.6 Opus and Claude Code have soared in demand. Anthropic’s ARR has nearly tripled in just a single quarter from $9B at the end of last year to over $25B today. Open models such as GLM and Kimi K2.5 caused open model use cases to soar. Capital raises by firms like Anthropic, OpenAI, and various Neolabs also demand GPUs.",
@@ -10,20 +21,20 @@
     "published_date": "2026-04-02T04:25:57+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-02T10:03:00.863076+00:00"
+    "fetched_at": "2026-04-03T09:54:34.251795+00:00"
   },
   {
-    "title": "My most common advice for junior researchers",
+    "title": "My most common research advice: do quick sanity checks",
     "authors": [
       "LawrenceC"
     ],
     "organization": "Alignment Forum",
     "abstract": "Written quickly as part of the Inkhaven Residency . At a high level, research feedback I give to more junior research collaborators often can fall into one of three categories: Doing quick sanity checks Saying precisely what you want to say Asking why one more time In each case, I think the advice can be taken to an extreme I no longer endorse. Accordingly, I’ve tried to spell out the degree to which you should implement the advice, as well as what “taking it too far” might look like. This piece covers doing quick sanity checks, which is the most common advice I give to junior researchers. I’ll cover the other two pieces of advice in a subsequent piece. Doing quick sanity checks Research is hard (almost by definition) and people are often wrong.",
-    "url": "https://www.alignmentforum.org/posts/dYHFtEnKc4BdJEYY4/my-most-common-advice-for-junior-researchers",
+    "url": "https://www.alignmentforum.org/posts/dYHFtEnKc4BdJEYY4/my-most-common-research-advice-do-quick-sanity-checks",
     "published_date": "2026-04-02T02:41:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-02T10:02:57.949331+00:00"
+    "fetched_at": "2026-04-03T09:54:31.320098+00:00"
   },
   {
     "title": "ADeLe: Predicting and explaining AI performance across tasks",
@@ -36,7 +47,7 @@
     "published_date": "2026-04-01T16:00:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-02T10:02:56.043251+00:00"
+    "fetched_at": "2026-04-03T09:54:29.487847+00:00"
   },
   {
     "title": "Predicting When RL Training Breaks Chain-of-Thought Monitorability",
@@ -49,7 +60,7 @@
     "published_date": "2026-04-01T10:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-02T10:02:57.949447+00:00"
+    "fetched_at": "2026-04-03T09:54:31.320214+00:00"
   },
   {
     "title": "Bounding Causal Effects with an Unknown Mixture of Informative and Non-Informative Missingness",
@@ -60,7 +71,7 @@
     "published_date": "2026-04-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-02T10:03:09.737366+00:00"
+    "fetched_at": "2026-04-03T09:54:56.472038+00:00"
   },
   {
     "title": "Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield",
@@ -73,7 +84,20 @@
     "published_date": "2026-03-31T22:00:02+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-02T10:03:00.863105+00:00"
+    "fetched_at": "2026-04-03T09:54:34.251825+00:00"
+  },
+  {
+    "title": "Product Alignment is not Superintelligence Alignment (and we need the latter to survive)",
+    "authors": [
+      "plex"
+    ],
+    "organization": "LessWrong",
+    "abstract": "progress on making Claude friendly[1] is not the same as progress on making it safe to build godlike superintelligence. solving the former doe…",
+    "url": "https://www.lesswrong.com/posts/mrwYCNocXCP2hrWt8/product-alignment-is-not-superintelligence-alignment-and-we",
+    "published_date": "2026-03-31T16:53:33.159000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-04-03T09:54:59.800344+00:00"
   },
   {
     "title": "(Some) Natural Emergent Misalignment from Reward Hacking in Non-Production RL",
@@ -86,7 +110,7 @@
     "published_date": "2026-03-30T10:56:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-02T10:02:57.949926+00:00"
+    "fetched_at": "2026-04-03T09:54:31.320668+00:00"
   },
   {
     "title": "“Blocking live failures with synchronous monitors” by James Lucassen, Adam Kaufman",
@@ -99,7 +123,7 @@
     "published_date": "2026-03-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-02T10:02:57.523996+00:00"
+    "fetched_at": "2026-04-03T09:54:30.861780+00:00"
   },
   {
     "title": "“Reward-seekers will probably behave according to causal decision theory” by Alex Mallen",
@@ -112,7 +136,7 @@
     "published_date": "2026-03-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-02T10:02:57.524048+00:00"
+    "fetched_at": "2026-04-03T09:54:30.861834+00:00"
   },
   {
     "title": "ControlAI 2025 Impact Report: our progress toward an international ban on ASI",
@@ -125,7 +149,7 @@
     "published_date": "2026-03-27T18:10:48+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-02T10:02:57.950036+00:00"
+    "fetched_at": "2026-04-03T09:54:31.320792+00:00"
   },
   {
     "title": "How far does alignment midtraining generalize?",
@@ -138,7 +162,7 @@
     "published_date": "2026-03-27T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-02T10:02:57.056246+00:00"
+    "fetched_at": "2026-04-03T09:54:30.378664+00:00"
   },
   {
     "title": "My hobby: running deranged surveys",
@@ -151,7 +175,7 @@
     "published_date": "2026-03-27T00:41:07.675000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-04-02T10:03:13.799683+00:00"
+    "fetched_at": "2026-04-03T09:54:59.800322+00:00"
   },
   {
     "title": "“AI’s capability improvements haven’t come from it getting less affordable” by Anders Cairns Woodruff",
@@ -164,80 +188,6 @@
     "published_date": "2026-03-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-02T10:02:57.524157+00:00"
-  },
-  {
-    "title": "Test your best methods on our hard CoT interp tasks",
-    "authors": [
-      "daria"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Authors: Daria Ivanova, Riya Tyagi, Josh Engels, Neel Nanda Daria and Riya are co-first authors. This work was done during Neel Nanda’s MATS 9.0. Claude helped write code and suggest edits for this post. Most of our tasks fall in 3 categories: predicting future actions, detecting the effect of an intervention, and identifying distributional properties of a rollout. [1] TL;DR One of our best safety techniques right now is “just read the chain of thought”. But this isn’t always enough : can we learn more by going beyond just reading the reasoning? Yet it's such an effective technique that it's hard to tell if we have made much progress on improving methods. To help the community develop more powerful chain of thought analysis tools, we introduce and open source nine objective tasks, where a black box GPT 5.2 monitor falls short OOD.",
-    "url": "https://www.alignmentforum.org/posts/tDJWZLQNN7poqCwKa/test-your-best-methods-on-our-hard-cot-interp-tasks",
-    "published_date": "2026-03-26T19:24:40+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-02T10:02:57.951448+00:00"
-  },
-  {
-    "title": "AsgardBench: A benchmark for visually grounded interactive planning",
-    "authors": [
-      "Andrea Tupini, Lars Liden, Reuben Tan, Yu Wang, Jianfeng Gao"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Imagine a robot tasked with cleaning a kitchen. It needs to observe its environment, decide what to do, and adjust when things don&#8217;t go as expected, for example, when the mug it was tasked to wash is already clean, or the sink is full of other items. This is the domain of embodied AI: systems [&#8230;] The post AsgardBench: A benchmark for visually grounded interactive planning appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/",
-    "published_date": "2026-03-26T19:02:53+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-02T10:02:56.043284+00:00"
-  },
-  {
-    "title": "GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation",
-    "authors": [
-      "Sehun Jung, HyunJee Song, Dong-Hee Kim, Reuben Tan, Jianfeng Gao, Yong Jae Lee, Donghyun Kim"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural language, and a separate model translates it into executable actions. This approach often breaks [&#8230;] The post GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/groundedplanbench-spatially-grounded-long-horizon-task-planning-for-robot-manipulation/",
-    "published_date": "2026-03-26T16:03:56+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-02T10:02:56.043306+00:00"
-  },
-  {
-    "title": "Red-Teaming Anthropic's Internal Agent Monitoring Systems",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "In collaboration with Anthropic, a METR staff member (David Rein) recently spent three weeks red-teaming a subset of Anthropic’s internal agent monitoring and security systems, many of which are described in the Opus 4.6 Sabotage Risk Report (Appendix 8.4, especially 8.4.8). Anthropic provided substantial access to relevant internal systems and information, and made staff available to answer questions and provide feedback throughout the exercise. The exercise discovered several specific novel vulnerabilities, some of which have since been patched, and none of which severely undermine major claims in the Opus 4.6 Sabotage Risk Report. It also produced several artifacts, including agent trajectories containing covert attacks and a small attack strategy ideation test set. We expect both of these to be useful for ongoing improvements to Anthropic’s monitoring systems. The resulting 26 page report was shared with Anthropic, and a redacted version was shared with a subset of METR staff.",
-    "url": "https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/",
-    "published_date": "2026-03-26T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-04-02T10:02:59.638472+00:00"
-  },
-  {
-    "title": "How are AI Agents used? Evidence from 177,000 AI agent tools",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "A monitoring method and large‑scale analysis to understand the tasks AI agents are performing today.",
-    "url": "https://www.aisi.gov.uk/blog/how-are-ai-agents-used-evidence-from-177000-ai-agent-tools",
-    "published_date": "2026-03-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-02T10:03:09.218919+00:00"
-  },
-  {
-    "title": "Open Models, Soft Power, and the Spectrum of U.S.-China Artificial Intelligence Competition",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Mar 26, 2026 The authors analyze the United States' and China's respective artificial intelligence (AI) action plans, how AI companies in both countries approach open-source AI models, and the implications for U.S. soft power.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4686-1.html",
-    "published_date": "2026-03-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-02T10:03:09.737857+00:00"
+    "fetched_at": "2026-04-03T09:54:30.861942+00:00"
   }
 ]
