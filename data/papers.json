@@ -3,12 +3,38 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-03.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-04.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-03T00:00:00+00:00",
+    "published_date": "2026-04-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-03T09:54:37.758016+00:00"
+    "fetched_at": "2026-04-04T09:40:30.834539+00:00"
+  },
+  {
+    "title": "There should be $100M grants to automate AI safety",
+    "authors": [
+      "Marius Hobbhahn"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This post reflects my personal opinion and not necessarily that of other members of Apollo Research. TLDR: I think funders should heavily incentivize AI safety work that enables spending $100M+ in compute or API budgets on automated AI labor that directly and differentially translates to safety. Motivation I think we are in a short timeline world (and we should take the possibility seriously even if we don't have full confidence yet). This means that I think funders should aim to allocate large amounts of money (e.g. $1-50B per year across the ecosystem) on AI safety in the next 2-3 years. I think that the AI safety funders have been allocating way too little funding and their spending has been far too conservative in the past 5 years. So, in my opinion, we should definitely continue ramping up “normal” spending, e.g.",
+    "url": "https://www.alignmentforum.org/posts/qdhyrN4uKwBAftmQx/there-should-be-usd100m-grants-to-automate-ai-safety",
+    "published_date": "2026-04-03T18:44:05+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-04T09:40:23.729760+00:00"
+  },
+  {
+    "title": "Six milestones for AI automation",
+    "authors": [
+      "Ajeya Cotra"
+    ],
+    "organization": "Ajeya Cotra",
+    "abstract": "The closer you think you are to your “powerful AI” milestone of choice, the more important it becomes to define it precisely. If your timelines are in the few-year range, changing the particular definition of powerful AI can easily double or triple your median forecast. Take my definition of “full automation of AI R&D” from my predictions post earlier this year:",
+    "url": "https://www.planned-obsolescence.org/p/six-milestones-for-ai-automation",
+    "published_date": "2026-04-03T14:03:26+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.planned-obsolescence.org/feed",
+    "fetched_at": "2026-04-04T09:40:26.690881+00:00"
   },
   {
     "title": "The Great GPU Shortage – Rental Capacity – Launching our H100 1 Year Rental Price Index",
@@ -21,7 +47,7 @@
     "published_date": "2026-04-02T04:25:57+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-03T09:54:34.251795+00:00"
+    "fetched_at": "2026-04-04T09:40:25.992125+00:00"
   },
   {
     "title": "My most common research advice: do quick sanity checks",
@@ -34,7 +60,7 @@
     "published_date": "2026-04-02T02:41:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-03T09:54:31.320098+00:00"
+    "fetched_at": "2026-04-04T09:40:23.729859+00:00"
   },
   {
     "title": "ADeLe: Predicting and explaining AI performance across tasks",
@@ -47,7 +73,7 @@
     "published_date": "2026-04-01T16:00:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-03T09:54:29.487847+00:00"
+    "fetched_at": "2026-04-04T09:40:21.832379+00:00"
   },
   {
     "title": "Predicting When RL Training Breaks Chain-of-Thought Monitorability",
@@ -60,7 +86,7 @@
     "published_date": "2026-04-01T10:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-03T09:54:31.320214+00:00"
+    "fetched_at": "2026-04-04T09:40:23.729987+00:00"
   },
   {
     "title": "Bounding Causal Effects with an Unknown Mixture of Informative and Non-Informative Missingness",
@@ -71,7 +97,7 @@
     "published_date": "2026-04-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-03T09:54:56.472038+00:00"
+    "fetched_at": "2026-04-04T09:40:34.485666+00:00"
   },
   {
     "title": "Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield",
@@ -84,7 +110,7 @@
     "published_date": "2026-03-31T22:00:02+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-03T09:54:34.251825+00:00"
+    "fetched_at": "2026-04-04T09:40:25.992160+00:00"
   },
   {
     "title": "Product Alignment is not Superintelligence Alignment (and we need the latter to survive)",
@@ -97,7 +123,7 @@
     "published_date": "2026-03-31T16:53:33.159000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-04-03T09:54:59.800344+00:00"
+    "fetched_at": "2026-04-04T09:40:38.388081+00:00"
   },
   {
     "title": "(Some) Natural Emergent Misalignment from Reward Hacking in Non-Production RL",
@@ -110,7 +136,7 @@
     "published_date": "2026-03-30T10:56:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-03T09:54:31.320668+00:00"
+    "fetched_at": "2026-04-04T09:40:23.730443+00:00"
   },
   {
     "title": "“Blocking live failures with synchronous monitors” by James Lucassen, Adam Kaufman",
@@ -123,7 +149,7 @@
     "published_date": "2026-03-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-03T09:54:30.861780+00:00"
+    "fetched_at": "2026-04-04T09:40:23.407607+00:00"
   },
   {
     "title": "“Reward-seekers will probably behave according to causal decision theory” by Alex Mallen",
@@ -136,58 +162,6 @@
     "published_date": "2026-03-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-03T09:54:30.861834+00:00"
-  },
-  {
-    "title": "ControlAI 2025 Impact Report: our progress toward an international ban on ASI",
-    "authors": [
-      "Andrea_Miotti"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This post highlights a few key excerpts from our full impact report. You can read the full report at https://controlai.com/impact-report-2025 . ControlAI is a non-profit organization working to avert the extinction risks posed by superintelligence. We help hundreds of thousands of people understand these risks and meet hundreds of lawmakers to inform them, without mincing words, about what is at stake. In little more than a year, we briefed over 200 parliamentarians, built a coalition of 110+ UK lawmakers recognizing superintelligence as a national security threat , led to two debates in the UK House of Lords , and our work led to a series of hearings on AI risk and superintelligence at the Canadian Parliament. [1] These hearings included testimonies from me ( Andrea ) and Samuel at ControlAI, Connor Leahy, Malo Bourgon (MIRI), Max Tegmark and Anthony Aguirre (FLI), David Krueger, and more.",
-    "url": "https://www.alignmentforum.org/posts/BwfydMhjuroqiZs4x/controlai-2025-impact-report-our-progress-toward-an",
-    "published_date": "2026-03-27T18:10:48+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-03T09:54:31.320792+00:00"
-  },
-  {
-    "title": "How far does alignment midtraining generalize?",
-    "authors": [
-      "Tomek Korbak, Cameron Raymond, Micah Carroll, Marcus Williams, Mikita Balesni, Alan Guo, Jason Wolfe, Akshay Jagadeesh, Ian Kivlichan"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'How far does alignment midtraining generalize?'. Published 2026-03-27. Authors: Tomek Korbak, Cameron Raymond, Micah Carroll, Marcus Williams, Mikita Balesni, Alan Guo, Jason Wolfe, Akshay Jagadeesh, Ian Kivlichan.",
-    "url": "https://alignment.openai.com/how-far-does-alignment-midtraining-generalize/",
-    "published_date": "2026-03-27T18:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-03T09:54:30.378664+00:00"
-  },
-  {
-    "title": "My hobby: running deranged surveys",
-    "authors": [
-      "leogao"
-    ],
-    "organization": "LessWrong",
-    "abstract": "In late 2024, I was on a long walk with some friends along the coast of the San Francisco Bay when the question arose of just how much of a bubble we…",
-    "url": "https://www.lesswrong.com/posts/fQz6afpcZhdMdYzgE/my-hobby-running-deranged-surveys",
-    "published_date": "2026-03-27T00:41:07.675000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-04-03T09:54:59.800322+00:00"
-  },
-  {
-    "title": "“AI’s capability improvements haven’t come from it getting less affordable” by Anders Cairns Woodruff",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: AI inference is still cheap relative to human labor. METR's frontier time horizons are doubling every few months, providing substantial evidence that AI will soon be able to automate many tasks or even jobs. But per-task inference costs have also risen sharply, and automation requires AI labor to be affordable, not just possible.1 Many people look at the rising compute bills behind frontier models and conclude that automation will soon become unaffordable. I think this misreads the data. The rise in inference cost reflects models completing longer tasks, not models becoming more expensive relative to the human labor they replace. Current frontier models complete tasks at their 50% reliability horizon for roughly 3% of human cost, and this hasn’t increased as capabilities have improved.",
-    "url": "https://blog.redwoodresearch.org/p/ais-capability-improvements-havent",
-    "published_date": "2026-03-27T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-03T09:54:30.861942+00:00"
+    "fetched_at": "2026-04-04T09:40:23.407660+00:00"
   }
 ]
