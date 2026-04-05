@@ -3,12 +3,12 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-04.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-05.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-04T00:00:00+00:00",
+    "published_date": "2026-04-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-04T09:40:30.834539+00:00"
+    "fetched_at": "2026-04-05T09:40:44.888036+00:00"
   },
   {
     "title": "There should be $100M grants to automate AI safety",
@@ -21,7 +21,7 @@
     "published_date": "2026-04-03T18:44:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-04T09:40:23.729760+00:00"
+    "fetched_at": "2026-04-05T09:40:38.984329+00:00"
   },
   {
     "title": "Six milestones for AI automation",
@@ -34,7 +34,7 @@
     "published_date": "2026-04-03T14:03:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-04-04T09:40:26.690881+00:00"
+    "fetched_at": "2026-04-05T09:40:41.904055+00:00"
   },
   {
     "title": "The Great GPU Shortage – Rental Capacity – Launching our H100 1 Year Rental Price Index",
@@ -47,7 +47,7 @@
     "published_date": "2026-04-02T04:25:57+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-04T09:40:25.992125+00:00"
+    "fetched_at": "2026-04-05T09:40:41.283722+00:00"
   },
   {
     "title": "My most common research advice: do quick sanity checks",
@@ -60,7 +60,7 @@
     "published_date": "2026-04-02T02:41:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-04T09:40:23.729859+00:00"
+    "fetched_at": "2026-04-05T09:40:38.984420+00:00"
   },
   {
     "title": "ADeLe: Predicting and explaining AI performance across tasks",
@@ -73,7 +73,7 @@
     "published_date": "2026-04-01T16:00:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-04T09:40:21.832379+00:00"
+    "fetched_at": "2026-04-05T09:40:37.261725+00:00"
   },
   {
     "title": "Predicting When RL Training Breaks Chain-of-Thought Monitorability",
@@ -86,7 +86,7 @@
     "published_date": "2026-04-01T10:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-04T09:40:23.729987+00:00"
+    "fetched_at": "2026-04-05T09:40:38.984532+00:00"
   },
   {
     "title": "Bounding Causal Effects with an Unknown Mixture of Informative and Non-Informative Missingness",
@@ -97,7 +97,7 @@
     "published_date": "2026-04-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-04T09:40:34.485666+00:00"
+    "fetched_at": "2026-04-05T09:40:49.189482+00:00"
   },
   {
     "title": "Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield",
@@ -110,7 +110,7 @@
     "published_date": "2026-03-31T22:00:02+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-04T09:40:25.992160+00:00"
+    "fetched_at": "2026-04-05T09:40:41.283755+00:00"
   },
   {
     "title": "Product Alignment is not Superintelligence Alignment (and we need the latter to survive)",
@@ -123,7 +123,7 @@
     "published_date": "2026-03-31T16:53:33.159000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-04-04T09:40:38.388081+00:00"
+    "fetched_at": "2026-04-05T09:40:53.866742+00:00"
   },
   {
     "title": "(Some) Natural Emergent Misalignment from Reward Hacking in Non-Production RL",
@@ -136,7 +136,7 @@
     "published_date": "2026-03-30T10:56:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-04T09:40:23.730443+00:00"
+    "fetched_at": "2026-04-05T09:40:38.985003+00:00"
   },
   {
     "title": "“Blocking live failures with synchronous monitors” by James Lucassen, Adam Kaufman",
@@ -149,19 +149,6 @@
     "published_date": "2026-03-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-04T09:40:23.407607+00:00"
-  },
-  {
-    "title": "“Reward-seekers will probably behave according to causal decision theory” by Alex Mallen",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: They'd renege on non-binding commitments, defect against copies of themselves in prisoner's dilemmas, etc.. Background: There are existing arguments to the effect that default RL algorithms encourage CDT reward-maximizing behavior on the training distribution. (That is: Most RL algorithms search for policies by selecting for actions that cause high reward. E.g., in the twin prisoner's dilemma, RL algorithms randomize actions conditional on the policy, which means that the action provides no evidence to the RL algorithm about the counterparty's action.1) This doesn’t imply RL produces CDT reward-maximizing policies: CDT behavior on the training distribution doesn’t imply CDT generalization because agents can fake CDT in the same way that they can fake alignment, or might develop arbitrary other propensities that were correlated with reward on the training distribution. But conditional on reward-on-the-episode seeking, the AI is likely to generalize CDT.",
-    "url": "https://blog.redwoodresearch.org/p/reward-seekers-will-probably-behave",
-    "published_date": "2026-03-28T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-04T09:40:23.407660+00:00"
+    "fetched_at": "2026-04-05T09:40:38.595193+00:00"
   }
 ]
