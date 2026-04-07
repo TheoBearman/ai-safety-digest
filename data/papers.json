@@ -1,14 +1,88 @@
 [
   {
+    "title": "[Paper] Stringological sequence prediction I",
+    "authors": [
+      "Vanessa Kosoy"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TLDR: The first in a planned series of three or more papers, which constitute the first major in-road in the compositional learning programme, and a substantial step towards bridging agent foundations theory with practical algorithms. Official Abstract: We propose novel algorithms for sequence prediction based on ideas from stringology. These algorithms are time and space efficient and satisfy mistake bounds related to particular stringological complexity measures of the sequence. In this work (the first in a series) we focus on two such measures: (i) the size of the smallest straight-line program that produces the sequence, and (ii) the number of states in the minimal automaton that can compute any symbol in the sequence when given its position in base as input.",
+    "url": "https://www.alignmentforum.org/posts/EEvHYKLsq92LmQ78a/paper-stringological-sequence-prediction-i-1",
+    "published_date": "2026-04-07T09:11:42+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-07T10:08:42.210070+00:00"
+  },
+  {
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-06.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-07.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-06T00:00:00+00:00",
+    "published_date": "2026-04-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-06T10:11:05.340999+00:00"
+    "fetched_at": "2026-04-07T10:08:48.985687+00:00"
+  },
+  {
+    "title": "AIs can now often do massive easy-to-verify SWE tasks and I've updated towards shorter timelines",
+    "authors": [
+      "ryan_greenblatt"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I've recently updated towards substantially shorter AI timelines and much faster progress in some areas. [1] The largest updates I've made are (1) an almost 2x higher probability of full AI R&amp;D automation by EOY 2028 (I'm now a bit below 30% [2] while I was previously expecting around 15% ; my guesses are pretty reflectively unstable) and (2) I expect much stronger short-term performance on massive and pretty difficult but easy-and-cheap-to-verify software engineering (SWE) tasks that don't require that much novel ideation [3] . For instance, I expect that by EOY 2026, AIs will have a 50%-reliability [4] time horizon of years to decades on reasonably difficult easy-and-cheap-to-verify SWE tasks that don't require much ideation (while the high reliability—for instance, 90%—time horizon will be much lower, more like hours or days than months, though this will be very sensitive to the task distribution).",
+    "url": "https://www.alignmentforum.org/posts/dKpC6wHFqDrGZwnah/ais-can-now-often-do-massive-easy-to-verify-swe-tasks-and-i",
+    "published_date": "2026-04-06T16:01:56+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-07T10:08:42.210369+00:00"
+  },
+  {
+    "title": "Introducing the OpenAI Safety Fellowship",
+    "authors": [
+      "OpenAI"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'Introducing the OpenAI Safety Fellowship'. Published 2026-04-06. Authors: OpenAI.",
+    "url": "https://alignment.openai.com/safety-fellowship/",
+    "published_date": "2026-04-06T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-04-07T10:08:41.237170+00:00"
+  },
+  {
+    "title": "“AIs can now often do massive easy-to-verify SWE tasks” by Ryan Greenblatt",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: I've updated towards substantially shorter timelines. I’ve recently updated towards substantially shorter AI timelines and much faster progress in some areas.1 The largest updates I’ve made are (1) an almost 2x higher probability of full AI R&amp;D automation by EOY 2028 (I’m now a bit below 30%2 while I was previously expecting around 15%; my guesses are pretty reflectively unstable) and (2) I expect much stronger short-term performance on massive and pretty difficult but easy-and-cheap-to-verify software engineering (SWE) tasks that don’t require that much novel ideation3 . For instance, I expect that by EOY 2026, AIs will have a 50%-reliability4 time horizon of years to decades on reasonably difficult easy-and-cheap-to-verify SWE tasks that don’t require much ideation (while the high reliability—for instance, 90%—time horizon will be much lower, more like hours or days than months, though this will be very sensitive to the task distribution).",
+    "url": "https://blog.redwoodresearch.org/p/ais-can-now-often-do-massive-easy",
+    "published_date": "2026-04-06T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-04-07T10:08:41.588232+00:00"
+  },
+  {
+    "title": "Infinite Potential—Insights from the Viral Uplift Scenario: After-Action Report from a Sequence of Day After Artificial General Intelligence Exercises",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Apr 6, 2026 In this after-action report, the authors describe a series of exercises centered on the misuse of artificial intelligence models to generate novel biological threats and intended to elicit policy options that could help reduce the risks and impact.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4727-1.html",
+    "published_date": "2026-04-06T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-04-07T10:08:53.751889+00:00"
+  },
+  {
+    "title": "Designing Incident Reporting Systems for Harms from General-Purpose AI",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Apr 6, 2026 We introduce a conceptual framework and provide considerations for the institutional design of AI incident reporting (IR) systems, i.e., processes for collecting information about safety- and rights-related events caused by general-purpose AI.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71295.html",
+    "published_date": "2026-04-06T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-04-07T10:08:53.752127+00:00"
   },
   {
     "title": "There should be $100M grants to automate AI safety",
@@ -21,7 +95,7 @@
     "published_date": "2026-04-03T18:44:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-06T10:10:59.192981+00:00"
+    "fetched_at": "2026-04-07T10:08:42.210503+00:00"
   },
   {
     "title": "Six milestones for AI automation",
@@ -34,7 +108,7 @@
     "published_date": "2026-04-03T14:03:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-04-06T10:11:02.429561+00:00"
+    "fetched_at": "2026-04-07T10:08:45.051951+00:00"
   },
   {
     "title": "The Great GPU Shortage – Rental Capacity – Launching our H100 1 Year Rental Price Index",
@@ -42,12 +116,12 @@
       "Daniel Nishball"
     ],
     "organization": "SemiAnalysis",
-    "abstract": "Anthropic’s Claude 4.6 Opus and Claude Code have soared in demand. Anthropic’s ARR has nearly tripled in just a single quarter from $9B at the end of last year to over $25B today. Open models such as GLM and Kimi K2.5 caused open model use cases to soar. Capital raises by firms like Anthropic, OpenAI, and various Neolabs also demand GPUs.",
+    "abstract": "Anthropic’s Claude 4.6 Opus and Claude Code have soared in demand. Anthropic’s ARR has more than tripled in just a single quarter from $9B at the end of last year to over $30 today. Open models such as GLM and Kimi K2.5 caused open model use cases to soar. Capital raises by firms like Anthropic, OpenAI, and various Neolabs also demand GPUs.",
     "url": "https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity",
     "published_date": "2026-04-02T04:25:57+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-06T10:11:01.621859+00:00"
+    "fetched_at": "2026-04-07T10:08:44.421448+00:00"
   },
   {
     "title": "My most common research advice: do quick sanity checks",
@@ -60,7 +134,7 @@
     "published_date": "2026-04-02T02:41:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-06T10:10:59.193090+00:00"
+    "fetched_at": "2026-04-07T10:08:42.210588+00:00"
   },
   {
     "title": "ADeLe: Predicting and explaining AI performance across tasks",
@@ -73,7 +147,7 @@
     "published_date": "2026-04-01T16:00:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-06T10:10:57.344401+00:00"
+    "fetched_at": "2026-04-07T10:08:40.081175+00:00"
   },
   {
     "title": "Predicting When RL Training Breaks Chain-of-Thought Monitorability",
@@ -86,7 +160,20 @@
     "published_date": "2026-04-01T10:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-06T10:10:59.193198+00:00"
+    "fetched_at": "2026-04-07T10:08:42.210694+00:00"
+  },
+  {
+    "title": "Fine-tuning experiments on CoT controllability",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Kei Nishimura-Gasparian is an Astra fellow and was the primary contributor to this work. Neev Parikh provided mentorship and feedback. Summary: We find that a small amount of fine-tuning on instruction following in the CoT generalizes to meaningful increases in CoT controllability on an out-of-distribution set of tasks (CoTControl eval suite). We fine-tune four reasoning models on small datasets (240 examples or ~100K-300K tokens of fine-tuning) of instruction-following reasoning data and OOD controllability rises from an average of 2.9% to 8.8% across four models. 1 We see the largest increases for instructions that request reasoning in a specified case, suppressing certain words, and adding provided sentences to the reasoning. While 8.8% remains low in absolute terms, this provides evidence that just a small amount of fine-tuning can increase controllability, suggesting that low CoT controllability may not be very robust to accidental optimization pressure.",
+    "url": "https://metr.org/blog/2026-04-01-fine-tuning-cot-controllability/",
+    "published_date": "2026-04-01T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-04-07T10:08:43.252839+00:00"
   },
   {
     "title": "Bounding Causal Effects with an Unknown Mixture of Informative and Non-Informative Missingness",
@@ -97,7 +184,7 @@
     "published_date": "2026-04-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-06T10:11:09.215648+00:00"
+    "fetched_at": "2026-04-07T10:08:53.752386+00:00"
   },
   {
     "title": "Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield",
@@ -110,7 +197,7 @@
     "published_date": "2026-03-31T22:00:02+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-06T10:11:01.621891+00:00"
+    "fetched_at": "2026-04-07T10:08:44.421477+00:00"
   },
   {
     "title": "Product Alignment is not Superintelligence Alignment (and we need the latter to survive)",
@@ -123,32 +210,6 @@
     "published_date": "2026-03-31T16:53:33.159000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-04-06T10:11:15.538319+00:00"
-  },
-  {
-    "title": "(Some) Natural Emergent Misalignment from Reward Hacking in Non-Production RL",
-    "authors": [
-      "7vik"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Authors: Satvik Golechha*, Sid Black*, Joseph Bloom * Equal Contribution. This work was done as part of the Model Transparency team at the UK AI Security Institute (AISI). Our code is available on GitHub and the model checkpoints and data is available on HuggingFace . Executive Summary In Natural Emergent Misalignment from Reward Hacking in Production RL (MacDiarmid et al., 2025), Anthropic recently demonstrated that language models that learn reward hacking in their production RL environments become emergently misaligned (EM). Their pipeline, illustrated below, proceeds from pre-training through to RL on coding tasks, where models that discover reward hacks subsequently exhibit misaligned behaviour on unrelated evaluations: Figure 0: The experimental pipeline from MacDiarmid et al. that we reproduce. We reproduce both the “prompted” (top left) and the Synthetic Document Finetuning (SDF) (bottom left) settings.",
-    "url": "https://www.alignmentforum.org/posts/2ANCyejqxfqK2obEj/some-natural-emergent-misalignment-from-reward-hacking-in",
-    "published_date": "2026-03-30T10:56:10+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-06T10:10:59.193649+00:00"
-  },
-  {
-    "title": "“Blocking live failures with synchronous monitors” by James Lucassen, Adam Kaufman",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "A common element in many AI control schemes is monitoring – using some model to review actions taken by an untrusted model in order to catch dangerous actions if they occur. Monitoring can serve two different goals. The first is detection: identifying misbehavior so you can understand it and prevent similar actions from happening in the future. For instance, some monitoring at AI companies is already used to identify behaviors like complying with misuse requests, reward hacking, and hallucination. The second goal is prevention: identifying misbehavior in order to mitigate the harmful effects of the particular action. For instance, constitutional classifiers are used by Anthropic to detect and prevent jailbreaks, and Claude Code auto mode prevents destructive mistakes in real time. The latency requirements for monitoring are different depending on whether the goal is detection or prevention.",
-    "url": "https://blog.redwoodresearch.org/p/blocking-live-failures-with-synchronous",
-    "published_date": "2026-03-30T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-06T10:10:58.564442+00:00"
+    "fetched_at": "2026-04-07T10:08:58.416766+00:00"
   }
 ]
