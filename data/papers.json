@@ -1,5 +1,42 @@
 [
   {
+    "title": "My unsupervised elicitation challenge",
+    "authors": [
+      "DanielFilan"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Note: you are ineligible to complete this challenge if you’ve studied Ancient or Modern Greek, or if you natively speak Modern Greek, or if for other reasons you know what mistakes I’m claiming Opus 4.6 makes. If you’re ineligible, please don’t help other people complete the challenge. I have recently started using Claude Opus 4.6 to start studying Ancient Greek. Specifically, I initially used it to grade problem sets at the end of the textbook I’ve been using, but then I got worried about it being sycophantic towards my answers, so started having it just write out the answers itself.",
+    "url": "https://www.alignmentforum.org/posts/ASoFTyk3bzBE62dyn/my-unsupervised-elicitation-challenge",
+    "published_date": "2026-04-08T01:30:26+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-08T10:09:24.243409+00:00"
+  },
+  {
+    "title": "Gemma 4: Byte for byte, the most capable open models",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-08.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+    "published_date": "2026-04-08T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-04-08T10:09:30.243456+00:00"
+  },
+  {
+    "title": "My picture of the present in AI",
+    "authors": [
+      "ryan_greenblatt"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "In this post, I'll go through some of my best guesses for the current situation in AI as of the start of April 2026. You can think of this as a scenario forecast , but for the present (which is already uncertain!) rather than the future. I will generally state my best guess without argumentation and without explaining my level of confidence: some of these claims are highly speculative while others are better grounded, certainly some will be wrong. I tried to make it clear which claims are relatively speculative by saying something like \"I guess\", \"I expect\", etc. (but I may have missed some). You can think of this post as more like a list of my current views rather than a structured post with a thesis, but I think it may be informative nonetheless.",
+    "url": "https://www.alignmentforum.org/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai",
+    "published_date": "2026-04-07T16:44:58+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-08T10:09:24.243592+00:00"
+  },
+  {
     "title": "[Paper] Stringological sequence prediction I",
     "authors": [
       "Vanessa Kosoy"
@@ -10,18 +47,20 @@
     "published_date": "2026-04-07T09:11:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-07T10:08:42.210070+00:00"
+    "fetched_at": "2026-04-08T10:09:24.243618+00:00"
   },
   {
-    "title": "Gemma 4: Byte for byte, the most capable open models",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-07.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+    "title": "“My picture of the present in AI” by Ryan Greenblatt",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: My predictions about what is going on right now. In this post, I’ll go through some of my best guesses for the current situation in AI as of the start of April 2026. You can think of this as a scenario forecast, but for the present (which is already uncertain!) rather than the future. I will generally state my best guess without argumentation and without explaining my level of confidence: some of these claims are highly speculative while others are better grounded, certainly some will be wrong. I tried to make it clear which claims are relatively speculative by saying something like “I guess”, “I expect”, etc. (but I may have missed some). You can think of this post as more like a list of my current views rather than a structured post with a thesis, but I think it may be informative nonetheless.",
+    "url": "https://blog.redwoodresearch.org/p/my-picture-of-the-present-in-ai",
     "published_date": "2026-04-07T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-07T10:08:48.985687+00:00"
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-04-08T10:09:23.729834+00:00"
   },
   {
     "title": "AIs can now often do massive easy-to-verify SWE tasks and I've updated towards shorter timelines",
@@ -34,7 +73,7 @@
     "published_date": "2026-04-06T16:01:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-07T10:08:42.210369+00:00"
+    "fetched_at": "2026-04-08T10:09:24.243910+00:00"
   },
   {
     "title": "Introducing the OpenAI Safety Fellowship",
@@ -47,7 +86,7 @@
     "published_date": "2026-04-06T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-07T10:08:41.237170+00:00"
+    "fetched_at": "2026-04-08T10:09:23.044483+00:00"
   },
   {
     "title": "“AIs can now often do massive easy-to-verify SWE tasks” by Ryan Greenblatt",
@@ -60,18 +99,7 @@
     "published_date": "2026-04-06T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-07T10:08:41.588232+00:00"
-  },
-  {
-    "title": "Infinite Potential—Insights from the Viral Uplift Scenario: After-Action Report from a Sequence of Day After Artificial General Intelligence Exercises",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Apr 6, 2026 In this after-action report, the authors describe a series of exercises centered on the misuse of artificial intelligence models to generate novel biological threats and intended to elicit policy options that could help reduce the risks and impact.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4727-1.html",
-    "published_date": "2026-04-06T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-07T10:08:53.751889+00:00"
+    "fetched_at": "2026-04-08T10:09:23.729899+00:00"
   },
   {
     "title": "Designing Incident Reporting Systems for Harms from General-Purpose AI",
@@ -82,7 +110,18 @@
     "published_date": "2026-04-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-07T10:08:53.752127+00:00"
+    "fetched_at": "2026-04-08T10:09:35.754625+00:00"
+  },
+  {
+    "title": "Infinite Potential—Insights from the Viral Uplift Scenario: After-Action Report from a Sequence of Day After Artificial General Intelligence Exercises",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Apr 6, 2026 In this after-action report, the authors describe a series of exercises centered on the misuse of artificial intelligence models to generate novel biological threats and intended to elicit policy options that could help reduce the risks and impact.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4727-1.html",
+    "published_date": "2026-04-06T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-04-08T10:09:35.754846+00:00"
   },
   {
     "title": "There should be $100M grants to automate AI safety",
@@ -95,7 +134,7 @@
     "published_date": "2026-04-03T18:44:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-07T10:08:42.210503+00:00"
+    "fetched_at": "2026-04-08T10:09:24.244056+00:00"
   },
   {
     "title": "Six milestones for AI automation",
@@ -108,7 +147,7 @@
     "published_date": "2026-04-03T14:03:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-04-07T10:08:45.051951+00:00"
+    "fetched_at": "2026-04-08T10:09:28.145270+00:00"
   },
   {
     "title": "The Great GPU Shortage – Rental Capacity – Launching our H100 1 Year Rental Price Index",
@@ -121,7 +160,7 @@
     "published_date": "2026-04-02T04:25:57+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-07T10:08:44.421448+00:00"
+    "fetched_at": "2026-04-08T10:09:27.611294+00:00"
   },
   {
     "title": "My most common research advice: do quick sanity checks",
@@ -134,7 +173,7 @@
     "published_date": "2026-04-02T02:41:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-07T10:08:42.210588+00:00"
+    "fetched_at": "2026-04-08T10:09:24.244141+00:00"
   },
   {
     "title": "ADeLe: Predicting and explaining AI performance across tasks",
@@ -147,7 +186,7 @@
     "published_date": "2026-04-01T16:00:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-07T10:08:40.081175+00:00"
+    "fetched_at": "2026-04-08T10:09:22.138788+00:00"
   },
   {
     "title": "Predicting When RL Training Breaks Chain-of-Thought Monitorability",
@@ -160,7 +199,7 @@
     "published_date": "2026-04-01T10:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-07T10:08:42.210694+00:00"
+    "fetched_at": "2026-04-08T10:09:24.244244+00:00"
   },
   {
     "title": "Fine-tuning experiments on CoT controllability",
@@ -173,7 +212,7 @@
     "published_date": "2026-04-01T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-04-07T10:08:43.252839+00:00"
+    "fetched_at": "2026-04-08T10:09:26.551503+00:00"
   },
   {
     "title": "Bounding Causal Effects with an Unknown Mixture of Informative and Non-Informative Missingness",
@@ -184,32 +223,6 @@
     "published_date": "2026-04-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-07T10:08:53.752386+00:00"
-  },
-  {
-    "title": "Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield",
-    "authors": [
-      "Kimbo Chen"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'Dissecting Nvidia Blackwell - Tensor Cores, PTX Instructions, SASS, Floorsweep, Yield'. Published 2026-03-31. Authors: Kimbo Chen.",
-    "url": "https://newsletter.semianalysis.com/p/dissecting-nvidia-blackwell-tensor",
-    "published_date": "2026-03-31T22:00:02+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-07T10:08:44.421477+00:00"
-  },
-  {
-    "title": "Product Alignment is not Superintelligence Alignment (and we need the latter to survive)",
-    "authors": [
-      "plex"
-    ],
-    "organization": "LessWrong",
-    "abstract": "progress on making Claude friendly[1] is not the same as progress on making it safe to build godlike superintelligence. solving the former doe…",
-    "url": "https://www.lesswrong.com/posts/mrwYCNocXCP2hrWt8/product-alignment-is-not-superintelligence-alignment-and-we",
-    "published_date": "2026-03-31T16:53:33.159000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-04-07T10:08:58.416766+00:00"
+    "fetched_at": "2026-04-08T10:09:35.755058+00:00"
   }
 ]
