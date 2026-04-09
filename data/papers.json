@@ -1,5 +1,29 @@
 [
   {
+    "title": "Gemma 4: Byte for byte, the most capable open models",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-09.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+    "published_date": "2026-04-09T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-04-09T10:14:29.452547+00:00"
+  },
+  {
+    "title": "\"New Sages Unrivalled\"",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "Columbia! Columbia! to glory arise, The queen of the world, and the child of the skies, Thy genius commands thee, with raptures behold, While ages on ages thy splendors unfold: Thy reign is the last and the noblest of time, Most fruitful thy soil, most inviting thy clime; Let crimes of the east ne’er encrimson thy name, Be freedom, and science, and virtue thy fame.",
+    "url": "https://www.hyperdimensional.co/p/new-sages-unrivalled",
+    "published_date": "2026-04-08T14:16:21+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-04-09T10:14:26.711384+00:00"
+  },
+  {
     "title": "My unsupervised elicitation challenge",
     "authors": [
       "DanielFilan"
@@ -10,18 +34,7 @@
     "published_date": "2026-04-08T01:30:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-08T10:09:24.243409+00:00"
-  },
-  {
-    "title": "Gemma 4: Byte for byte, the most capable open models",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-08.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-08T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-08T10:09:30.243456+00:00"
+    "fetched_at": "2026-04-09T10:14:24.211929+00:00"
   },
   {
     "title": "My picture of the present in AI",
@@ -34,7 +47,7 @@
     "published_date": "2026-04-07T16:44:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-08T10:09:24.243592+00:00"
+    "fetched_at": "2026-04-09T10:14:24.212134+00:00"
   },
   {
     "title": "[Paper] Stringological sequence prediction I",
@@ -47,7 +60,7 @@
     "published_date": "2026-04-07T09:11:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-08T10:09:24.243618+00:00"
+    "fetched_at": "2026-04-09T10:14:24.212164+00:00"
   },
   {
     "title": "“My picture of the present in AI” by Ryan Greenblatt",
@@ -60,7 +73,7 @@
     "published_date": "2026-04-07T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-08T10:09:23.729834+00:00"
+    "fetched_at": "2026-04-09T10:14:23.774012+00:00"
   },
   {
     "title": "AIs can now often do massive easy-to-verify SWE tasks and I've updated towards shorter timelines",
@@ -73,7 +86,7 @@
     "published_date": "2026-04-06T16:01:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-08T10:09:24.243910+00:00"
+    "fetched_at": "2026-04-09T10:14:24.212426+00:00"
   },
   {
     "title": "Introducing the OpenAI Safety Fellowship",
@@ -86,7 +99,7 @@
     "published_date": "2026-04-06T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-08T10:09:23.044483+00:00"
+    "fetched_at": "2026-04-09T10:14:23.182877+00:00"
   },
   {
     "title": "“AIs can now often do massive easy-to-verify SWE tasks” by Ryan Greenblatt",
@@ -99,7 +112,7 @@
     "published_date": "2026-04-06T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-08T10:09:23.729899+00:00"
+    "fetched_at": "2026-04-09T10:14:23.774098+00:00"
   },
   {
     "title": "Designing Incident Reporting Systems for Harms from General-Purpose AI",
@@ -110,7 +123,7 @@
     "published_date": "2026-04-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-08T10:09:35.754625+00:00"
+    "fetched_at": "2026-04-09T10:14:48.879768+00:00"
   },
   {
     "title": "Infinite Potential—Insights from the Viral Uplift Scenario: After-Action Report from a Sequence of Day After Artificial General Intelligence Exercises",
@@ -121,7 +134,7 @@
     "published_date": "2026-04-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-08T10:09:35.754846+00:00"
+    "fetched_at": "2026-04-09T10:14:48.880020+00:00"
   },
   {
     "title": "There should be $100M grants to automate AI safety",
@@ -134,7 +147,7 @@
     "published_date": "2026-04-03T18:44:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-08T10:09:24.244056+00:00"
+    "fetched_at": "2026-04-09T10:14:24.212556+00:00"
   },
   {
     "title": "Six milestones for AI automation",
@@ -147,7 +160,7 @@
     "published_date": "2026-04-03T14:03:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-04-08T10:09:28.145270+00:00"
+    "fetched_at": "2026-04-09T10:14:27.080871+00:00"
   },
   {
     "title": "The Great GPU Shortage – Rental Capacity – Launching our H100 1 Year Rental Price Index",
@@ -160,7 +173,7 @@
     "published_date": "2026-04-02T04:25:57+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-08T10:09:27.611294+00:00"
+    "fetched_at": "2026-04-09T10:14:26.510226+00:00"
   },
   {
     "title": "My most common research advice: do quick sanity checks",
@@ -173,56 +186,6 @@
     "published_date": "2026-04-02T02:41:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-08T10:09:24.244141+00:00"
-  },
-  {
-    "title": "ADeLe: Predicting and explaining AI performance across tasks",
-    "authors": [
-      "Lexin Zhou, Xing Xie"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "AI benchmarks report how large language models (LLMs) perform on specific tasks but provide little insight into their underlying capabilities that drive their performance. They do not explain failures or reliably predict outcomes on new tasks. To address this, Microsoft researchers in collaboration with Princeton University and&#160;Universitat&#160;Politècnica&#160;de València introduce ADeLe (opens in new tab) (AI [&#8230;] The post ADeLe: Predicting and explaining AI performance across tasks appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/adele-predicting-and-explaining-ai-performance-across-tasks/",
-    "published_date": "2026-04-01T16:00:58+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-08T10:09:22.138788+00:00"
-  },
-  {
-    "title": "Predicting When RL Training Breaks Chain-of-Thought Monitorability",
-    "authors": [
-      "David Lindner"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Crossposted from the DeepMind Safety Research Medium Blog . Read our full paper about this topic by Max Kaufmann, David Lindner, Roland S. Zimmermann, and Rohin Shah. Overseeing AI agents by reading their intermediate reasoning “scratchpad” is a promising tool for AI safety. This approach, known as Chain-of-Thought (CoT) monitoring, allows us to check what a model is thinking before it acts, often helping us catch concerning behaviors like reward hacking and scheming . However, CoT monitoring can fail if a model’s chain-of-thought is not a good representation of the reasoning process we want to monitor. For example, training LLMs with reinforcement learning (RL) to avoid outputting problematic reasoning can result in a model learning to hide such reasoning without actually removing problematic behavior. Previous work produced an inconsistent picture of whether RL training hurts CoT monitorability.",
-    "url": "https://www.alignmentforum.org/posts/SvxaKP5KdkksZPcG7/predicting-when-rl-training-breaks-chain-of-thought",
-    "published_date": "2026-04-01T10:23:01+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-08T10:09:24.244244+00:00"
-  },
-  {
-    "title": "Fine-tuning experiments on CoT controllability",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Kei Nishimura-Gasparian is an Astra fellow and was the primary contributor to this work. Neev Parikh provided mentorship and feedback. Summary: We find that a small amount of fine-tuning on instruction following in the CoT generalizes to meaningful increases in CoT controllability on an out-of-distribution set of tasks (CoTControl eval suite). We fine-tune four reasoning models on small datasets (240 examples or ~100K-300K tokens of fine-tuning) of instruction-following reasoning data and OOD controllability rises from an average of 2.9% to 8.8% across four models. 1 We see the largest increases for instructions that request reasoning in a specified case, suppressing certain words, and adding provided sentences to the reasoning. While 8.8% remains low in absolute terms, this provides evidence that just a small amount of fine-tuning can increase controllability, suggesting that low CoT controllability may not be very robust to accidental optimization pressure.",
-    "url": "https://metr.org/blog/2026-04-01-fine-tuning-cot-controllability/",
-    "published_date": "2026-04-01T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-04-08T10:09:26.551503+00:00"
-  },
-  {
-    "title": "Bounding Causal Effects with an Unknown Mixture of Informative and Non-Informative Missingness",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Apr 1, 2026 We propose bounds on causal effects for missing outcomes, accommodating the scenario where missingness is an unobserved mixture of informative and non-informative components.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71281.html",
-    "published_date": "2026-04-01T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-08T10:09:35.755058+00:00"
+    "fetched_at": "2026-04-09T10:14:24.212640+00:00"
   }
 ]
