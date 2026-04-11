@@ -1,14 +1,27 @@
 [
   {
+    "title": "“If Mythos actually made Anthropic employees 4x more productive, I would radically shorten my timelines” by Ryan Greenblatt",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: Better estimates of uplift at AI companies seem helpful. Anthropic's system card for Mythos Preview says: It's unclear how we should interpret this. What do they mean by productivity uplift? To what extent is Anthropic's institutional view that the uplift is 4x? (Like, what do they mean by “We take this seriously and it is consistent with our own internal experience of the model.”) One straightforward interpretation is: AI systems improve the productivity of Anthropic so much that Anthropic would be indifferent between the current situation and a situation where all of their technical employees magically work 4 hours for every 1 hour (at equal productivity without burnout) but they get zero AI assistance.",
+    "url": "https://blog.redwoodresearch.org/p/if-mythos-actually-made-anthropic",
+    "published_date": "2026-04-11T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-04-11T09:42:15.603167+00:00"
+  },
+  {
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-10.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-11.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-10T00:00:00+00:00",
+    "published_date": "2026-04-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-10T10:08:47.955886+00:00"
+    "fetched_at": "2026-04-11T09:42:22.303129+00:00"
   },
   {
     "title": "New Future of Work: AI is driving rapid change, uneven benefits",
@@ -21,7 +34,7 @@
     "published_date": "2026-04-09T16:11:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-10T10:08:39.376663+00:00"
+    "fetched_at": "2026-04-11T09:42:13.850624+00:00"
   },
   {
     "title": "\"New Sages Unrivalled\"",
@@ -34,7 +47,7 @@
     "published_date": "2026-04-08T14:16:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-04-10T10:08:45.021482+00:00"
+    "fetched_at": "2026-04-11T09:42:19.058097+00:00"
   },
   {
     "title": "My unsupervised elicitation challenge",
@@ -47,7 +60,7 @@
     "published_date": "2026-04-08T01:30:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-10T10:08:41.869006+00:00"
+    "fetched_at": "2026-04-11T09:42:16.167536+00:00"
   },
   {
     "title": "My picture of the present in AI",
@@ -60,7 +73,7 @@
     "published_date": "2026-04-07T16:44:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-10T10:08:41.869211+00:00"
+    "fetched_at": "2026-04-11T09:42:16.167722+00:00"
   },
   {
     "title": "[Paper] Stringological sequence prediction I",
@@ -73,7 +86,7 @@
     "published_date": "2026-04-07T09:11:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-10T10:08:41.869241+00:00"
+    "fetched_at": "2026-04-11T09:42:16.167750+00:00"
   },
   {
     "title": "“My picture of the present in AI” by Ryan Greenblatt",
@@ -86,7 +99,7 @@
     "published_date": "2026-04-07T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-10T10:08:41.280715+00:00"
+    "fetched_at": "2026-04-11T09:42:15.603221+00:00"
   },
   {
     "title": "AIs can now often do massive easy-to-verify SWE tasks and I've updated towards shorter timelines",
@@ -99,7 +112,7 @@
     "published_date": "2026-04-06T16:01:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-10T10:08:41.869502+00:00"
+    "fetched_at": "2026-04-11T09:42:16.168011+00:00"
   },
   {
     "title": "Introducing the OpenAI Safety Fellowship",
@@ -112,7 +125,7 @@
     "published_date": "2026-04-06T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-10T10:08:40.913795+00:00"
+    "fetched_at": "2026-04-11T09:42:15.158352+00:00"
   },
   {
     "title": "“AIs can now often do massive easy-to-verify SWE tasks” by Ryan Greenblatt",
@@ -125,7 +138,7 @@
     "published_date": "2026-04-06T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-10T10:08:41.280780+00:00"
+    "fetched_at": "2026-04-11T09:42:15.603304+00:00"
   },
   {
     "title": "Designing Incident Reporting Systems for Harms from General-Purpose AI",
@@ -136,7 +149,7 @@
     "published_date": "2026-04-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-10T10:08:51.971370+00:00"
+    "fetched_at": "2026-04-11T09:42:26.571148+00:00"
   },
   {
     "title": "Infinite Potential—Insights from the Viral Uplift Scenario: After-Action Report from a Sequence of Day After Artificial General Intelligence Exercises",
@@ -147,32 +160,6 @@
     "published_date": "2026-04-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-10T10:08:51.971629+00:00"
-  },
-  {
-    "title": "There should be $100M grants to automate AI safety",
-    "authors": [
-      "Marius Hobbhahn"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This post reflects my personal opinion and not necessarily that of other members of Apollo Research. TLDR: I think funders should heavily incentivize AI safety work that enables spending $100M+ in compute or API budgets on automated AI labor that directly and differentially translates to safety. Motivation I think we are in a short timeline world (and we should take the possibility seriously even if we don't have full confidence yet). This means that I think funders should aim to allocate large amounts of money (e.g. $1-50B per year across the ecosystem) on AI safety in the next 2-3 years. I think that the AI safety funders have been allocating way too little funding and their spending has been far too conservative in the past 5 years. So, in my opinion, we should definitely continue ramping up “normal” spending, e.g.",
-    "url": "https://www.alignmentforum.org/posts/qdhyrN4uKwBAftmQx/there-should-be-usd100m-grants-to-automate-ai-safety",
-    "published_date": "2026-04-03T18:44:05+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-10T10:08:41.869629+00:00"
-  },
-  {
-    "title": "Six milestones for AI automation",
-    "authors": [
-      "Ajeya Cotra"
-    ],
-    "organization": "Ajeya Cotra",
-    "abstract": "The closer you think you are to your “powerful AI” milestone of choice, the more important it becomes to define it precisely. If your timelines are in the few-year range, changing the particular definition of powerful AI can easily double or triple your median forecast. Take my definition of “full automation of AI R&D” from my predictions post earlier this year:",
-    "url": "https://www.planned-obsolescence.org/p/six-milestones-for-ai-automation",
-    "published_date": "2026-04-03T14:03:26+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-04-10T10:08:45.563206+00:00"
+    "fetched_at": "2026-04-11T09:42:26.571422+00:00"
   }
 ]
