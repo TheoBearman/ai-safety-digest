@@ -1,14 +1,51 @@
 [
   {
+    "title": "Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes",
+    "authors": [
+      "Alex Mallen"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "It turns out that Anthropic accidentally trained against the chain of thought of Claude Mythos Preview in around 8% of training episodes. This is at least the second independent incident in which Anthropic accidentally exposed their model's CoT to the oversight signal. In more powerful systems, this kind of failure would jeopardize safely navigating the intelligence explosion. It's crucial to build good processes to ensure development is executed according to plan, especially as human oversight becomes spread thin over increasing amounts of potentially untrusted and sloppy AI labor . This particular failure is also directly harmful, because it significantly reduces our confidence that the model's reasoning trace is monitorable (reflective of the AI's intent to misbehave). [1] I'm grateful that Anthropic has transparently reported on this issue as much as they have, allowing for outside scrutiny. I want to encourage them to continue to do so.",
+    "url": "https://www.alignmentforum.org/posts/K8FxfK9GmJfiAhgcT/anthropic-repeatedly-accidentally-trained-against-the-cot",
+    "published_date": "2026-04-14T01:44:44+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-14T10:16:27.398977+00:00"
+  },
+  {
+    "title": "“Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes” by Alex Mallen, Ryan Greenblatt",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: Safely navigating the intelligence explosion will require much more careful development. It turns out that Anthropic accidentally trained against the chain of thought of Claude Mythos Preview in around 8% of training episodes. This is at least the second independent incident in which Anthropic accidentally exposed their model's CoT to the oversight signal. In more powerful systems, this kind of failure would jeopardize safely navigating the intelligence explosion. It's crucial to build good processes to ensure development is executed according to plan, especially as human oversight becomes spread thin over increasing amounts of potentially untrusted and sloppy AI labor. This particular failure is also directly harmful, because it significantly reduces our confidence that the model's reasoning trace is monitorable (reflective of the AI's intent to misbehave).[1] I’m grateful that Anthropic has transparently reported on this issue as much as they have, allowing for outside scrutiny.",
+    "url": "https://blog.redwoodresearch.org/p/anthropic-repeatedly-accidentally",
+    "published_date": "2026-04-14T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-04-14T10:16:27.013679+00:00"
+  },
+  {
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-13.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-14.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-13T00:00:00+00:00",
+    "published_date": "2026-04-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-13T10:47:57.313294+00:00"
+    "fetched_at": "2026-04-14T10:16:32.916608+00:00"
+  },
+  {
+    "title": "Our evaluation of Claude Mythos Preview’s cyber capabilities",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "We conducted cyber evaluations of Anthropic’s Claude Mythos Preview and found continued improvement in capture-the-flag (CTF) challenges and significant improvement on multi-step cyber-attack simulations.",
+    "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+    "published_date": "2026-04-13T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-04-14T10:16:36.331203+00:00"
   },
   {
     "title": "“Logit ROCs: Monitor TPR is linear in FPR in logit space” by Kerrick Staley, Aryan Bhatt, Julian Stastny",
@@ -21,7 +58,7 @@
     "published_date": "2026-04-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-13T10:47:50.723207+00:00"
+    "fetched_at": "2026-04-14T10:16:27.013784+00:00"
   },
   {
     "title": "“If Mythos actually made Anthropic employees 4x more productive, I would radically shorten my timelines” by Ryan Greenblatt",
@@ -34,7 +71,7 @@
     "published_date": "2026-04-11T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-13T10:47:50.723265+00:00"
+    "fetched_at": "2026-04-14T10:16:27.013834+00:00"
   },
   {
     "title": "New Future of Work: AI is driving rapid change, uneven benefits",
@@ -47,7 +84,7 @@
     "published_date": "2026-04-09T16:11:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-13T10:47:48.955001+00:00"
+    "fetched_at": "2026-04-14T10:16:25.382503+00:00"
   },
   {
     "title": "\"New Sages Unrivalled\"",
@@ -60,7 +97,7 @@
     "published_date": "2026-04-08T14:16:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-04-13T10:47:54.090211+00:00"
+    "fetched_at": "2026-04-14T10:16:29.635874+00:00"
   },
   {
     "title": "My unsupervised elicitation challenge",
@@ -73,7 +110,7 @@
     "published_date": "2026-04-08T01:30:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-13T10:47:51.258530+00:00"
+    "fetched_at": "2026-04-14T10:16:27.399050+00:00"
   },
   {
     "title": "My picture of the present in AI",
@@ -86,7 +123,7 @@
     "published_date": "2026-04-07T16:44:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-13T10:47:51.258715+00:00"
+    "fetched_at": "2026-04-14T10:16:27.399228+00:00"
   },
   {
     "title": "[Paper] Stringological sequence prediction I",
@@ -99,7 +136,7 @@
     "published_date": "2026-04-07T09:11:42+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-13T10:47:51.258743+00:00"
+    "fetched_at": "2026-04-14T10:16:27.399253+00:00"
   },
   {
     "title": "“My picture of the present in AI” by Ryan Greenblatt",
@@ -112,67 +149,6 @@
     "published_date": "2026-04-07T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-13T10:47:50.723312+00:00"
-  },
-  {
-    "title": "AIs can now often do massive easy-to-verify SWE tasks and I've updated towards shorter timelines",
-    "authors": [
-      "ryan_greenblatt"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "I've recently updated towards substantially shorter AI timelines and much faster progress in some areas. [1] The largest updates I've made are (1) an almost 2x higher probability of full AI R&amp;D automation by EOY 2028 (I'm now a bit below 30% [2] while I was previously expecting around 15% ; my guesses are pretty reflectively unstable) and (2) I expect much stronger short-term performance on massive and pretty difficult but easy-and-cheap-to-verify software engineering (SWE) tasks that don't require that much novel ideation [3] . For instance, I expect that by EOY 2026, AIs will have a 50%-reliability [4] time horizon of years to decades on reasonably difficult easy-and-cheap-to-verify SWE tasks that don't require much ideation (while the high reliability—for instance, 90%—time horizon will be much lower, more like hours or days than months, though this will be very sensitive to the task distribution).",
-    "url": "https://www.alignmentforum.org/posts/dKpC6wHFqDrGZwnah/ais-can-now-often-do-massive-easy-to-verify-swe-tasks-and-i",
-    "published_date": "2026-04-06T16:01:56+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-13T10:47:51.259028+00:00"
-  },
-  {
-    "title": "Introducing the OpenAI Safety Fellowship",
-    "authors": [
-      "OpenAI"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'Introducing the OpenAI Safety Fellowship'. Published 2026-04-06. Authors: OpenAI.",
-    "url": "https://alignment.openai.com/safety-fellowship/",
-    "published_date": "2026-04-06T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-13T10:47:50.172777+00:00"
-  },
-  {
-    "title": "“AIs can now often do massive easy-to-verify SWE tasks” by Ryan Greenblatt",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: I've updated towards substantially shorter timelines. I’ve recently updated towards substantially shorter AI timelines and much faster progress in some areas.1 The largest updates I’ve made are (1) an almost 2x higher probability of full AI R&amp;D automation by EOY 2028 (I’m now a bit below 30%2 while I was previously expecting around 15%; my guesses are pretty reflectively unstable) and (2) I expect much stronger short-term performance on massive and pretty difficult but easy-and-cheap-to-verify software engineering (SWE) tasks that don’t require that much novel ideation3 . For instance, I expect that by EOY 2026, AIs will have a 50%-reliability4 time horizon of years to decades on reasonably difficult easy-and-cheap-to-verify SWE tasks that don’t require much ideation (while the high reliability—for instance, 90%—time horizon will be much lower, more like hours or days than months, though this will be very sensitive to the task distribution).",
-    "url": "https://blog.redwoodresearch.org/p/ais-can-now-often-do-massive-easy",
-    "published_date": "2026-04-06T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-13T10:47:50.723371+00:00"
-  },
-  {
-    "title": "Designing Incident Reporting Systems for Harms from General-Purpose AI",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Apr 6, 2026 We introduce a conceptual framework and provide considerations for the institutional design of AI incident reporting (IR) systems, i.e., processes for collecting information about safety- and rights-related events caused by general-purpose AI.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71295.html",
-    "published_date": "2026-04-06T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-13T10:48:02.409696+00:00"
-  },
-  {
-    "title": "Infinite Potential—Insights from the Viral Uplift Scenario: After-Action Report from a Sequence of Day After Artificial General Intelligence Exercises",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Apr 6, 2026 In this after-action report, the authors describe a series of exercises centered on the misuse of artificial intelligence models to generate novel biological threats and intended to elicit policy options that could help reduce the risks and impact.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4727-1.html",
-    "published_date": "2026-04-06T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-13T10:48:02.409982+00:00"
+    "fetched_at": "2026-04-14T10:16:27.013877+00:00"
   }
 ]
