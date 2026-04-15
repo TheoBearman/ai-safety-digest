@@ -1,5 +1,27 @@
 [
   {
+    "title": "Gemma 4: Byte for byte, the most capable open models",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-15.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+    "published_date": "2026-04-15T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-04-15T10:17:51.019101+00:00"
+  },
+  {
+    "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
+    "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
+    "published_date": "2026-04-15T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-04-15T10:17:55.937536+00:00"
+  },
+  {
     "title": "Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes",
     "authors": [
       "Alex Mallen"
@@ -10,7 +32,7 @@
     "published_date": "2026-04-14T01:44:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-14T10:16:27.398977+00:00"
+    "fetched_at": "2026-04-15T10:17:45.287051+00:00"
   },
   {
     "title": "“Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes” by Alex Mallen, Ryan Greenblatt",
@@ -23,18 +45,7 @@
     "published_date": "2026-04-14T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-14T10:16:27.013679+00:00"
-  },
-  {
-    "title": "Gemma 4: Byte for byte, the most capable open models",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-14.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-14T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-14T10:16:32.916608+00:00"
+    "fetched_at": "2026-04-15T10:17:44.442350+00:00"
   },
   {
     "title": "Our evaluation of Claude Mythos Preview’s cyber capabilities",
@@ -45,7 +56,7 @@
     "published_date": "2026-04-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-14T10:16:36.331203+00:00"
+    "fetched_at": "2026-04-15T10:17:54.840620+00:00"
   },
   {
     "title": "“Logit ROCs: Monitor TPR is linear in FPR in logit space” by Kerrick Staley, Aryan Bhatt, Julian Stastny",
@@ -58,7 +69,7 @@
     "published_date": "2026-04-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-14T10:16:27.013784+00:00"
+    "fetched_at": "2026-04-15T10:17:44.442457+00:00"
   },
   {
     "title": "“If Mythos actually made Anthropic employees 4x more productive, I would radically shorten my timelines” by Ryan Greenblatt",
@@ -71,7 +82,7 @@
     "published_date": "2026-04-11T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-14T10:16:27.013834+00:00"
+    "fetched_at": "2026-04-15T10:17:44.442511+00:00"
   },
   {
     "title": "New Future of Work: AI is driving rapid change, uneven benefits",
@@ -84,7 +95,7 @@
     "published_date": "2026-04-09T16:11:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-14T10:16:25.382503+00:00"
+    "fetched_at": "2026-04-15T10:17:42.406086+00:00"
   },
   {
     "title": "\"New Sages Unrivalled\"",
@@ -97,7 +108,7 @@
     "published_date": "2026-04-08T14:16:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-04-14T10:16:29.635874+00:00"
+    "fetched_at": "2026-04-15T10:17:48.042924+00:00"
   },
   {
     "title": "My unsupervised elicitation challenge",
@@ -110,45 +121,6 @@
     "published_date": "2026-04-08T01:30:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-14T10:16:27.399050+00:00"
-  },
-  {
-    "title": "My picture of the present in AI",
-    "authors": [
-      "ryan_greenblatt"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "In this post, I'll go through some of my best guesses for the current situation in AI as of the start of April 2026. You can think of this as a scenario forecast , but for the present (which is already uncertain!) rather than the future. I will generally state my best guess without argumentation and without explaining my level of confidence: some of these claims are highly speculative while others are better grounded, certainly some will be wrong. I tried to make it clear which claims are relatively speculative by saying something like \"I guess\", \"I expect\", etc. (but I may have missed some). You can think of this post as more like a list of my current views rather than a structured post with a thesis, but I think it may be informative nonetheless.",
-    "url": "https://www.alignmentforum.org/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai",
-    "published_date": "2026-04-07T16:44:58+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-14T10:16:27.399228+00:00"
-  },
-  {
-    "title": "[Paper] Stringological sequence prediction I",
-    "authors": [
-      "Vanessa Kosoy"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TLDR: The first in a planned series of three or more papers, which constitute the first major in-road in the compositional learning programme, and a substantial step towards bridging agent foundations theory with practical algorithms. Official Abstract: We propose novel algorithms for sequence prediction based on ideas from stringology. These algorithms are time and space efficient and satisfy mistake bounds related to particular stringological complexity measures of the sequence. In this work (the first in a series) we focus on two such measures: (i) the size of the smallest straight-line program that produces the sequence, and (ii) the number of states in the minimal automaton that can compute any symbol in the sequence when given its position in base as input.",
-    "url": "https://www.alignmentforum.org/posts/EEvHYKLsq92LmQ78a/paper-stringological-sequence-prediction-i-1",
-    "published_date": "2026-04-07T09:11:42+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-14T10:16:27.399253+00:00"
-  },
-  {
-    "title": "“My picture of the present in AI” by Ryan Greenblatt",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: My predictions about what is going on right now. In this post, I’ll go through some of my best guesses for the current situation in AI as of the start of April 2026. You can think of this as a scenario forecast, but for the present (which is already uncertain!) rather than the future. I will generally state my best guess without argumentation and without explaining my level of confidence: some of these claims are highly speculative while others are better grounded, certainly some will be wrong. I tried to make it clear which claims are relatively speculative by saying something like “I guess”, “I expect”, etc. (but I may have missed some). You can think of this post as more like a list of my current views rather than a structured post with a thesis, but I think it may be informative nonetheless.",
-    "url": "https://blog.redwoodresearch.org/p/my-picture-of-the-present-in-ai",
-    "published_date": "2026-04-07T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-14T10:16:27.013877+00:00"
+    "fetched_at": "2026-04-15T10:17:45.287120+00:00"
   }
 ]
