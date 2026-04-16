@@ -3,12 +3,23 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-15.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-16.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-15T00:00:00+00:00",
+    "published_date": "2026-04-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-15T10:17:51.019101+00:00"
+    "fetched_at": "2026-04-16T10:16:57.974010+00:00"
+  },
+  {
+    "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
+    "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
+    "published_date": "2026-04-16T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-04-16T10:17:01.965027+00:00"
   },
   {
     "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
@@ -16,10 +27,36 @@
     "organization": "GovAI",
     "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
     "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-15T00:00:00+00:00",
+    "published_date": "2026-04-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-15T10:17:55.937536+00:00"
+    "fetched_at": "2026-04-16T10:17:02.118385+00:00"
+  },
+  {
+    "title": "Current AIs seem pretty misaligned to me",
+    "authors": [
+      "ryan_greenblatt"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Many people—especially AI company employees [1] —believe current AI systems are well-aligned in the sense of genuinely trying to do what they're supposed to do (e.g., following their spec or constitution, obeying a reasonable interpretation of instructions). [2] I disagree. Current AI systems seem pretty misaligned to me in a mundane behavioral sense: they oversell their work, downplay or fail to mention problems, stop working early and claim to have finished when they clearly haven't, and often seem to \"try\" to make their outputs look good while actually doing something sloppy or incomplete. These issues mostly occur on more difficult/larger tasks, tasks that aren't straightforward SWE tasks, and tasks that aren't easy to programmatically check.",
+    "url": "https://www.alignmentforum.org/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me",
+    "published_date": "2026-04-15T15:14:11+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-16T10:16:52.538857+00:00"
+  },
+  {
+    "title": "“Current AIs seem pretty misaligned to me” by Ryan Greenblatt",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: In my experience, AIs often oversell their work, downplay problems, and cheat. Many people—especially AI company employees1 —believe current AI systems are well-aligned in the sense of genuinely trying to do what they’re supposed to do (e.g., following their spec or constitution, obeying a reasonable interpretation of instructions).2 I disagree. Current AI systems seem pretty misaligned to me in a mundane behavioral sense: they oversell their work, downplay or fail to mention problems, stop working early and claim to have finished when they clearly haven’t, and often seem to “try” to make their outputs look good while actually doing something sloppy or incomplete. These issues mostly occur on more difficult/larger tasks, tasks that aren’t straightforward SWE tasks, and tasks that aren’t easy to programmatically check.",
+    "url": "https://blog.redwoodresearch.org/p/current-ais-seem-pretty-misaligned",
+    "published_date": "2026-04-15T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-04-16T10:16:52.251167+00:00"
   },
   {
     "title": "Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes",
@@ -32,7 +69,7 @@
     "published_date": "2026-04-14T01:44:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-15T10:17:45.287051+00:00"
+    "fetched_at": "2026-04-16T10:16:52.539103+00:00"
   },
   {
     "title": "“Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes” by Alex Mallen, Ryan Greenblatt",
@@ -45,7 +82,7 @@
     "published_date": "2026-04-14T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-15T10:17:44.442350+00:00"
+    "fetched_at": "2026-04-16T10:16:52.251235+00:00"
   },
   {
     "title": "Our evaluation of Claude Mythos Preview’s cyber capabilities",
@@ -56,7 +93,7 @@
     "published_date": "2026-04-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-15T10:17:54.840620+00:00"
+    "fetched_at": "2026-04-16T10:17:00.981263+00:00"
   },
   {
     "title": "“Logit ROCs: Monitor TPR is linear in FPR in logit space” by Kerrick Staley, Aryan Bhatt, Julian Stastny",
@@ -69,7 +106,7 @@
     "published_date": "2026-04-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-15T10:17:44.442457+00:00"
+    "fetched_at": "2026-04-16T10:16:52.251318+00:00"
   },
   {
     "title": "“If Mythos actually made Anthropic employees 4x more productive, I would radically shorten my timelines” by Ryan Greenblatt",
@@ -82,7 +119,7 @@
     "published_date": "2026-04-11T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-15T10:17:44.442511+00:00"
+    "fetched_at": "2026-04-16T10:16:52.251366+00:00"
   },
   {
     "title": "New Future of Work: AI is driving rapid change, uneven benefits",
@@ -95,32 +132,6 @@
     "published_date": "2026-04-09T16:11:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-15T10:17:42.406086+00:00"
-  },
-  {
-    "title": "\"New Sages Unrivalled\"",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "Columbia! Columbia! to glory arise, The queen of the world, and the child of the skies, Thy genius commands thee, with raptures behold, While ages on ages thy splendors unfold: Thy reign is the last and the noblest of time, Most fruitful thy soil, most inviting thy clime; Let crimes of the east ne’er encrimson thy name, Be freedom, and science, and virtue thy fame.",
-    "url": "https://www.hyperdimensional.co/p/new-sages-unrivalled",
-    "published_date": "2026-04-08T14:16:21+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-04-15T10:17:48.042924+00:00"
-  },
-  {
-    "title": "My unsupervised elicitation challenge",
-    "authors": [
-      "DanielFilan"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Note: you are ineligible to complete this challenge if you’ve studied Ancient or Modern Greek, or if you natively speak Modern Greek, or if for other reasons you know what mistakes I’m claiming Opus 4.6 makes. If you’re ineligible, please don’t help other people complete the challenge. I have recently started using Claude Opus 4.6 to start studying Ancient Greek. Specifically, I initially used it to grade problem sets at the end of the textbook I’ve been using, but then I got worried about it being sycophantic towards my answers, so started having it just write out the answers itself.",
-    "url": "https://www.alignmentforum.org/posts/ASoFTyk3bzBE62dyn/my-unsupervised-elicitation-challenge",
-    "published_date": "2026-04-08T01:30:26+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-15T10:17:45.287120+00:00"
+    "fetched_at": "2026-04-16T10:16:50.193480+00:00"
   }
 ]
