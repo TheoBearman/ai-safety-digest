@@ -3,12 +3,12 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-16.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-17.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-16T00:00:00+00:00",
+    "published_date": "2026-04-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-16T10:16:57.974010+00:00"
+    "fetched_at": "2026-04-17T10:14:59.882122+00:00"
   },
   {
     "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
@@ -16,10 +16,10 @@
     "organization": "CSET",
     "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
     "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
-    "published_date": "2026-04-16T00:00:00+00:00",
+    "published_date": "2026-04-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-04-16T10:17:01.965027+00:00"
+    "fetched_at": "2026-04-17T10:15:04.158141+00:00"
   },
   {
     "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
@@ -27,10 +27,47 @@
     "organization": "GovAI",
     "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
     "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-16T00:00:00+00:00",
+    "published_date": "2026-04-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-16T10:17:02.118385+00:00"
+    "fetched_at": "2026-04-17T10:15:04.316482+00:00"
+  },
+  {
+    "title": "You can only build safe ASI if ASI is globally banned",
+    "authors": [
+      "Connor Leahy"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Sometimes people make various suggestions that we should simply build \"safe\" artificial Superintelligence (ASI), rather than the presumably \"unsafe\" kind. [1] There are various flavors of “safe” people suggest. Sometimes they suggest building “aligned” ASI: You have a full agentic autonomous god-like ASI running around, but it really really loves you and definitely will do the right thing. Sometimes they suggest we should simply build “tool AI” or “non-agentic” AI. Sometimes they have even more exotic, or more obviously-stupid ideas. Now I could argue at lengths about why this is astronomically harder than people think it is, why their various proposals are almost universally unworkable, why even attempting this is insanely immoral [2] , but that’s not the main point I want to make.",
+    "url": "https://www.alignmentforum.org/posts/7noKve57za3yg2LEb/you-can-only-build-safe-asi-if-asi-is-globally-banned-1",
+    "published_date": "2026-04-16T15:10:55+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-17T10:14:54.161400+00:00"
+  },
+  {
+    "title": "Introducing GPT-Rosalind for life sciences research",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+    "url": "https://openai.com/index/introducing-gpt-rosalind",
+    "published_date": "2026-04-16T01:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-04-17T10:14:52.956486+00:00"
+  },
+  {
+    "title": "AI Implications for Chemical, Biological, Radiological, and Nuclear Defense Policy and Programs: A Strategic Analytic Research Agenda",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Apr 16, 2026 Artificial intelligence is reshaping chemical, biological, radiological, and nuclear deterrence, posing new risks and opportunities. This paper outlines a roadmap to guide research and policy on challenges amid rising global technological rivalry.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4611-1.html",
+    "published_date": "2026-04-16T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-04-17T10:15:03.916454+00:00"
   },
   {
     "title": "Current AIs seem pretty misaligned to me",
@@ -43,7 +80,7 @@
     "published_date": "2026-04-15T15:14:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-16T10:16:52.538857+00:00"
+    "fetched_at": "2026-04-17T10:14:54.161889+00:00"
   },
   {
     "title": "“Current AIs seem pretty misaligned to me” by Ryan Greenblatt",
@@ -56,7 +93,7 @@
     "published_date": "2026-04-15T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-16T10:16:52.251167+00:00"
+    "fetched_at": "2026-04-17T10:14:53.728706+00:00"
   },
   {
     "title": "Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes",
@@ -69,7 +106,7 @@
     "published_date": "2026-04-14T01:44:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-16T10:16:52.539103+00:00"
+    "fetched_at": "2026-04-17T10:14:54.162013+00:00"
   },
   {
     "title": "“Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes” by Alex Mallen, Ryan Greenblatt",
@@ -82,7 +119,7 @@
     "published_date": "2026-04-14T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-16T10:16:52.251235+00:00"
+    "fetched_at": "2026-04-17T10:14:53.728772+00:00"
   },
   {
     "title": "Our evaluation of Claude Mythos Preview’s cyber capabilities",
@@ -93,7 +130,7 @@
     "published_date": "2026-04-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-16T10:17:00.981263+00:00"
+    "fetched_at": "2026-04-17T10:15:03.509145+00:00"
   },
   {
     "title": "“Logit ROCs: Monitor TPR is linear in FPR in logit space” by Kerrick Staley, Aryan Bhatt, Julian Stastny",
@@ -106,7 +143,7 @@
     "published_date": "2026-04-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-16T10:16:52.251318+00:00"
+    "fetched_at": "2026-04-17T10:14:53.728853+00:00"
   },
   {
     "title": "“If Mythos actually made Anthropic employees 4x more productive, I would radically shorten my timelines” by Ryan Greenblatt",
@@ -119,19 +156,6 @@
     "published_date": "2026-04-11T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-16T10:16:52.251366+00:00"
-  },
-  {
-    "title": "New Future of Work: AI is driving rapid change, uneven benefits",
-    "authors": [
-      "Jaime Teevan, Sonia Jaffe, Rebecca Janssen, Nancy Baym, Siân Lindley, Bahar Sarrafzadeh, Brent Hecht, Jenna Butler, Jake Hofman, Sean Rintel"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "For the past five years, the New Future of Work report has captured how work is changing. This year, the shift feels especially sharp. Previous editions have focused on technology’s role in increasing productivity by automating tasks, accelerating communication, and expanding access to information, as well as the rise of remote work. Today, generative AI [&#8230;] The post New Future of Work: AI is driving rapid change, uneven benefits appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/new-future-of-work-ai-is-driving-rapid-change-uneven-benefits/",
-    "published_date": "2026-04-09T16:11:44+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-16T10:16:50.193480+00:00"
+    "fetched_at": "2026-04-17T10:14:53.728903+00:00"
   }
 ]
