@@ -3,12 +3,12 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-18.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-19.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-18T00:00:00+00:00",
+    "published_date": "2026-04-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-18T09:51:03.774861+00:00"
+    "fetched_at": "2026-04-19T09:49:40.940018+00:00"
   },
   {
     "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
@@ -16,10 +16,10 @@
     "organization": "CSET",
     "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
     "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
-    "published_date": "2026-04-18T00:00:00+00:00",
+    "published_date": "2026-04-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-04-18T09:51:07.791264+00:00"
+    "fetched_at": "2026-04-19T09:50:00.654072+00:00"
   },
   {
     "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
@@ -27,10 +27,10 @@
     "organization": "GovAI",
     "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
     "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-18T00:00:00+00:00",
+    "published_date": "2026-04-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-18T09:51:07.944054+00:00"
+    "fetched_at": "2026-04-19T09:50:00.860306+00:00"
   },
   {
     "title": "Prompted CoT Early Exit Undermines the Monitoring Benefits of CoT Uncontrollability",
@@ -43,7 +43,7 @@
     "published_date": "2026-04-17T19:30:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-18T09:50:58.355432+00:00"
+    "fetched_at": "2026-04-19T09:49:34.881396+00:00"
   },
   {
     "title": "You can only build safe ASI if ASI is globally banned",
@@ -56,7 +56,7 @@
     "published_date": "2026-04-16T15:10:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-18T09:50:58.355498+00:00"
+    "fetched_at": "2026-04-19T09:49:34.881463+00:00"
   },
   {
     "title": "Introducing GPT-Rosalind for life sciences research",
@@ -69,7 +69,7 @@
     "published_date": "2026-04-16T01:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-04-18T09:50:57.415881+00:00"
+    "fetched_at": "2026-04-19T09:49:34.029350+00:00"
   },
   {
     "title": "AI Implications for Chemical, Biological, Radiological, and Nuclear Defense Policy and Programs: A Strategic Analytic Research Agenda",
@@ -80,7 +80,7 @@
     "published_date": "2026-04-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-18T09:51:07.452804+00:00"
+    "fetched_at": "2026-04-19T09:50:00.547633+00:00"
   },
   {
     "title": "Current AIs seem pretty misaligned to me",
@@ -93,7 +93,7 @@
     "published_date": "2026-04-15T15:14:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-18T09:50:58.355988+00:00"
+    "fetched_at": "2026-04-19T09:49:34.881954+00:00"
   },
   {
     "title": "“Current AIs seem pretty misaligned to me” by Ryan Greenblatt",
@@ -106,7 +106,7 @@
     "published_date": "2026-04-15T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-18T09:50:58.014957+00:00"
+    "fetched_at": "2026-04-19T09:49:34.565825+00:00"
   },
   {
     "title": "Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes",
@@ -119,7 +119,7 @@
     "published_date": "2026-04-14T01:44:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-18T09:50:58.356116+00:00"
+    "fetched_at": "2026-04-19T09:49:34.882076+00:00"
   },
   {
     "title": "“Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes” by Alex Mallen, Ryan Greenblatt",
@@ -132,7 +132,7 @@
     "published_date": "2026-04-14T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-18T09:50:58.015024+00:00"
+    "fetched_at": "2026-04-19T09:49:34.565894+00:00"
   },
   {
     "title": "Our evaluation of Claude Mythos Preview’s cyber capabilities",
@@ -143,7 +143,7 @@
     "published_date": "2026-04-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-18T09:51:07.059278+00:00"
+    "fetched_at": "2026-04-19T09:50:00.046714+00:00"
   },
   {
     "title": "“Logit ROCs: Monitor TPR is linear in FPR in logit space” by Kerrick Staley, Aryan Bhatt, Julian Stastny",
@@ -156,19 +156,6 @@
     "published_date": "2026-04-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-18T09:50:58.015107+00:00"
-  },
-  {
-    "title": "“If Mythos actually made Anthropic employees 4x more productive, I would radically shorten my timelines” by Ryan Greenblatt",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Better estimates of uplift at AI companies seem helpful. Anthropic's system card for Mythos Preview says: It's unclear how we should interpret this. What do they mean by productivity uplift? To what extent is Anthropic's institutional view that the uplift is 4x? (Like, what do they mean by “We take this seriously and it is consistent with our own internal experience of the model.”) One straightforward interpretation is: AI systems improve the productivity of Anthropic so much that Anthropic would be indifferent between the current situation and a situation where all of their technical employees magically work 4 hours for every 1 hour (at equal productivity without burnout) but they get zero AI assistance.",
-    "url": "https://blog.redwoodresearch.org/p/if-mythos-actually-made-anthropic",
-    "published_date": "2026-04-11T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-18T09:50:58.015155+00:00"
+    "fetched_at": "2026-04-19T09:49:34.565977+00:00"
   }
 ]
