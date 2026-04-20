@@ -3,12 +3,12 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-19.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-20.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-19T00:00:00+00:00",
+    "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-19T09:49:40.940018+00:00"
+    "fetched_at": "2026-04-20T10:50:03.524448+00:00"
   },
   {
     "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
@@ -16,10 +16,10 @@
     "organization": "CSET",
     "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
     "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
-    "published_date": "2026-04-19T00:00:00+00:00",
+    "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-04-19T09:50:00.654072+00:00"
+    "fetched_at": "2026-04-20T10:50:08.894174+00:00"
   },
   {
     "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
@@ -27,10 +27,10 @@
     "organization": "GovAI",
     "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
     "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-19T00:00:00+00:00",
+    "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-19T09:50:00.860306+00:00"
+    "fetched_at": "2026-04-20T10:50:09.150972+00:00"
   },
   {
     "title": "Prompted CoT Early Exit Undermines the Monitoring Benefits of CoT Uncontrollability",
@@ -43,7 +43,7 @@
     "published_date": "2026-04-17T19:30:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-19T09:49:34.881396+00:00"
+    "fetched_at": "2026-04-20T10:49:57.609778+00:00"
   },
   {
     "title": "You can only build safe ASI if ASI is globally banned",
@@ -56,7 +56,7 @@
     "published_date": "2026-04-16T15:10:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-19T09:49:34.881463+00:00"
+    "fetched_at": "2026-04-20T10:49:57.609844+00:00"
   },
   {
     "title": "Introducing GPT-Rosalind for life sciences research",
@@ -69,7 +69,7 @@
     "published_date": "2026-04-16T01:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-04-19T09:49:34.029350+00:00"
+    "fetched_at": "2026-04-20T10:49:56.211408+00:00"
   },
   {
     "title": "AI Implications for Chemical, Biological, Radiological, and Nuclear Defense Policy and Programs: A Strategic Analytic Research Agenda",
@@ -80,7 +80,7 @@
     "published_date": "2026-04-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-19T09:50:00.547633+00:00"
+    "fetched_at": "2026-04-20T10:50:08.592572+00:00"
   },
   {
     "title": "Current AIs seem pretty misaligned to me",
@@ -93,7 +93,7 @@
     "published_date": "2026-04-15T15:14:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-19T09:49:34.881954+00:00"
+    "fetched_at": "2026-04-20T10:49:57.610345+00:00"
   },
   {
     "title": "“Current AIs seem pretty misaligned to me” by Ryan Greenblatt",
@@ -106,7 +106,7 @@
     "published_date": "2026-04-15T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-19T09:49:34.565825+00:00"
+    "fetched_at": "2026-04-20T10:49:57.147567+00:00"
   },
   {
     "title": "Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes",
@@ -119,7 +119,7 @@
     "published_date": "2026-04-14T01:44:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-19T09:49:34.882076+00:00"
+    "fetched_at": "2026-04-20T10:49:57.610469+00:00"
   },
   {
     "title": "“Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes” by Alex Mallen, Ryan Greenblatt",
@@ -132,7 +132,7 @@
     "published_date": "2026-04-14T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-19T09:49:34.565894+00:00"
+    "fetched_at": "2026-04-20T10:49:57.147636+00:00"
   },
   {
     "title": "Our evaluation of Claude Mythos Preview’s cyber capabilities",
@@ -143,19 +143,6 @@
     "published_date": "2026-04-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-19T09:50:00.046714+00:00"
-  },
-  {
-    "title": "“Logit ROCs: Monitor TPR is linear in FPR in logit space” by Kerrick Staley, Aryan Bhatt, Julian Stastny",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Summary We study trusted monitoring for AI control, where a weaker trusted model reviews the actions of a stronger untrusted agent and flags suspicious behavior for human audit. We propose a simple mathematical model relating safety (true positive rate) to audit budget (false positive rate) at realistic, low FPRs: logit(TPR) is linear in logit(FPR). Equivalently, benign and attack scores can be modeled with logistic distributions. This gives two practical benefits. It lets practitioners estimate TPRs more accurately at deployment-relevant FPRs when data are limited, and it gives a compact, interpretable way to summarize and compare monitor performance. We find clear evidence for this pattern in BashArena across several monitor models and attacks, and see supporting evidence in LinuxArena. While it does not hold in every setting, we find it to be a useful tool for understanding and improving monitor performance.",
-    "url": "https://blog.redwoodresearch.org/p/logit-rocs-monitor-tpr-is-linear",
-    "published_date": "2026-04-12T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-19T09:49:34.565977+00:00"
+    "fetched_at": "2026-04-20T10:50:08.116166+00:00"
   }
 ]
