@@ -3,12 +3,12 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-20.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-21.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-20T00:00:00+00:00",
+    "published_date": "2026-04-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-20T10:50:03.524448+00:00"
+    "fetched_at": "2026-04-21T10:19:13.810144+00:00"
   },
   {
     "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
@@ -16,10 +16,10 @@
     "organization": "CSET",
     "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
     "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
-    "published_date": "2026-04-20T00:00:00+00:00",
+    "published_date": "2026-04-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-04-20T10:50:08.894174+00:00"
+    "fetched_at": "2026-04-21T10:19:22.193225+00:00"
   },
   {
     "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
@@ -27,10 +27,82 @@
     "organization": "GovAI",
     "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
     "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-20T00:00:00+00:00",
+    "published_date": "2026-04-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-20T10:50:09.150972+00:00"
+    "fetched_at": "2026-04-21T10:19:22.372872+00:00"
+  },
+  {
+    "title": "Can we AI our way to a more sustainable world?",
+    "authors": [
+      "Doug Burger, Amy Luers, Ishai Menache"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Doug Burger, sustainability expert Amy Luers, and optimization researcher Ishai Menache examine the global emissions implications of datacenter operations, efficiency gains, and AI's potential across electrification, materials, and food systems. The post Can we AI our way to a more sustainable world? appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/podcast/can-we-ai-our-way-to-a-more-sustainable-world/",
+    "published_date": "2026-04-20T16:24:01+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-04-21T10:19:05.344333+00:00"
+  },
+  {
+    "title": "How Much Do GPU Clusters Really Cost?",
+    "authors": [
+      "Jordan Nanos"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Research from SemiAnalysis titled 'How Much Do GPU Clusters Really Cost?'. Published 2026-04-20. Authors: Jordan Nanos.",
+    "url": "https://newsletter.semianalysis.com/p/how-much-do-gpu-clusters-really-cost",
+    "published_date": "2026-04-20T14:21:59+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-04-21T10:19:09.826975+00:00"
+  },
+  {
+    "title": "“Introducing LinuxArena” by Tyler",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: A new control setting for more realistic software engineering deployments. We are releasing LinuxArena, a new control setting comprised of 20 software engineering environments. Each environment consists of a set of SWE tasks, a set of possible safety failures, and a set of covert sabotage trajectories that cause these safety failures. LinuxArena can be used to evaluate the risk of AI deployments by assessing AI's sabotage capabilities, assessing control mitigations such as monitoring, and developing novel control techniques. This post will cover what LinuxArena is and the basics of its use cases. I’m excited about LinuxArena because it is a much more complex control setting with many moving parts and enables a lot of new control research. It was already used in the Claude Mythos Preview System Card to measure Mythos's sabotage ability.",
+    "url": "https://blog.redwoodresearch.org/p/introducing-linuxarena",
+    "published_date": "2026-04-20T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-04-21T10:19:06.807019+00:00"
+  },
+  {
+    "title": "What can sandboxed AI agents learn about their evaluation environments?",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "We deployed open-source AI agent OpenClaw inside a sandbox on our research platform. Despite our initial countermeasures, it successfully identified our organisation by name, inferred the identity of a human operator and reconstructed a timeline of some of our research activities.",
+    "url": "https://www.aisi.gov.uk/blog/what-can-sandboxed-ai-agents-learn-about-their-evaluation-environments",
+    "published_date": "2026-04-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-04-21T10:19:21.250189+00:00"
+  },
+  {
+    "title": "A Formal Model of How Artificial Intelligence Erodes Human Agency",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Apr 20, 2026 In this report, the authors draw on social choice theory to develop a formal model of how AI erodes collective human agency; they also model decisionmaking to identify the point beyond which this erosion could become irreversible.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4817-1.html",
+    "published_date": "2026-04-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-04-21T10:19:21.817646+00:00"
+  },
+  {
+    "title": "Where is the Mind? Persona Vectors and LLM Individuation",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Where is the Mind? Persona Vectors and LLM Individuation The individuation problem for large language models asks which entities associated with them, if any, should be identified as minds. We approach this problem through mechanistic interpretability, engaging in particular with recent empirical work on persona vectors, persona space, and emergent misalignment. We argue that three views are the strongest candidates: the virtual instance view and two new views we introduce, the (virtual) instance-persona view and the model-persona view. First, we argue for the virtual instance view on the grounds that attention streams sustain quasi-psychological connections across token-time. Then we present the persona literature, organised around three hypotheses about the internal structure underlying personas in LLMs, and show that the two persona-based views are promising alternatives.",
+    "url": "https://www.matsprogram.org/research/where-is-the-mind-persona-vectors-and-llm-individuation",
+    "published_date": "2026-04-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-04-21T10:19:24.580995+00:00"
   },
   {
     "title": "Prompted CoT Early Exit Undermines the Monitoring Benefits of CoT Uncontrollability",
@@ -43,7 +115,7 @@
     "published_date": "2026-04-17T19:30:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-20T10:49:57.609778+00:00"
+    "fetched_at": "2026-04-21T10:19:07.067123+00:00"
   },
   {
     "title": "You can only build safe ASI if ASI is globally banned",
@@ -56,7 +128,7 @@
     "published_date": "2026-04-16T15:10:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-20T10:49:57.609844+00:00"
+    "fetched_at": "2026-04-21T10:19:07.067195+00:00"
   },
   {
     "title": "Introducing GPT-Rosalind for life sciences research",
@@ -69,7 +141,7 @@
     "published_date": "2026-04-16T01:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-04-20T10:49:56.211408+00:00"
+    "fetched_at": "2026-04-21T10:19:06.177934+00:00"
   },
   {
     "title": "AI Implications for Chemical, Biological, Radiological, and Nuclear Defense Policy and Programs: A Strategic Analytic Research Agenda",
@@ -80,7 +152,7 @@
     "published_date": "2026-04-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-20T10:50:08.592572+00:00"
+    "fetched_at": "2026-04-21T10:19:21.817938+00:00"
   },
   {
     "title": "Current AIs seem pretty misaligned to me",
@@ -93,7 +165,7 @@
     "published_date": "2026-04-15T15:14:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-20T10:49:57.610345+00:00"
+    "fetched_at": "2026-04-21T10:19:07.067696+00:00"
   },
   {
     "title": "“Current AIs seem pretty misaligned to me” by Ryan Greenblatt",
@@ -106,7 +178,7 @@
     "published_date": "2026-04-15T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-20T10:49:57.147567+00:00"
+    "fetched_at": "2026-04-21T10:19:06.807084+00:00"
   },
   {
     "title": "Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes",
@@ -119,7 +191,7 @@
     "published_date": "2026-04-14T01:44:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-20T10:49:57.610469+00:00"
+    "fetched_at": "2026-04-21T10:19:07.067821+00:00"
   },
   {
     "title": "“Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes” by Alex Mallen, Ryan Greenblatt",
@@ -132,17 +204,6 @@
     "published_date": "2026-04-14T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-20T10:49:57.147636+00:00"
-  },
-  {
-    "title": "Our evaluation of Claude Mythos Preview’s cyber capabilities",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "We conducted cyber evaluations of Anthropic’s Claude Mythos Preview and found continued improvement in capture-the-flag (CTF) challenges and significant improvement on multi-step cyber-attack simulations.",
-    "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
-    "published_date": "2026-04-13T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-20T10:50:08.116166+00:00"
+    "fetched_at": "2026-04-21T10:19:06.807147+00:00"
   }
 ]
