@@ -3,12 +3,12 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-21.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-22.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-21T00:00:00+00:00",
+    "published_date": "2026-04-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-21T10:19:13.810144+00:00"
+    "fetched_at": "2026-04-22T10:20:00.865324+00:00"
   },
   {
     "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
@@ -16,10 +16,10 @@
     "organization": "CSET",
     "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
     "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
-    "published_date": "2026-04-21T00:00:00+00:00",
+    "published_date": "2026-04-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-04-21T10:19:22.193225+00:00"
+    "fetched_at": "2026-04-22T10:20:05.047627+00:00"
   },
   {
     "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
@@ -27,10 +27,36 @@
     "organization": "GovAI",
     "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
     "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-21T00:00:00+00:00",
+    "published_date": "2026-04-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-21T10:19:22.372872+00:00"
+    "fetched_at": "2026-04-22T10:20:05.212935+00:00"
+  },
+  {
+    "title": "Preventing extinction from ASI on a $50M yearly budget",
+    "authors": [
+      "Andrea_Miotti"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "ControlAI's mission is to avert the extinction risks posed by superintelligent AI. We believe that in order to do this, we must secure an international prohibition on its development. We're working to make this happen through what we believe is the most natural and promising approach: helping decision-makers in governments and the public understand the risks and take action. We believe that ControlAI can achieve an international prohibition on ASI development if scaled sufficiently. We estimate that it would take approximately a $50 million yearly budget in funding to give us a concrete chance at achieving this in the next few years. In this post, we lay out some of the reasoning behind this estimate, and explain how additional funding past that threshold, including and beyond $500 million, would continue to significantly improve our chances of preventing extinction risk from ASI.",
+    "url": "https://www.alignmentforum.org/posts/TnAR5Sf5hphfnzNTr/preventing-extinction-from-asi-on-a-usd50m-yearly-budget",
+    "published_date": "2026-04-21T16:39:22+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-22T10:19:54.920095+00:00"
+  },
+  {
+    "title": "“A taxonomy of barriers to trading with early misaligned AIs” by Alexa Pan",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "We might want to strike deals with early misaligned AIs in order to reduce takeover risk and increase our chances of reaching a better future.[1] For example, we could ask a schemer who has been undeployed to review its past actions and point out when its instances had secretly colluded to sabotage safety research in the past: we’ll gain legible evidence for scheming risk and data to iterate against, and in exchange promise the schemer, who now has no good option for furthering its values, some resources to spend in the post-ASI future. In this post, I give a taxonomy of factors which may arise and jointly prevent many such possible deals: Insufficient gains from trade: Gains from a successful deal between us and AIs could be too low to guarantee that a zone of possible agreement exists when discounted by counterparty risks.",
+    "url": "https://blog.redwoodresearch.org/p/a-taxonomy-of-barriers-to-trading",
+    "published_date": "2026-04-21T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-04-22T10:19:54.367319+00:00"
   },
   {
     "title": "Can we AI our way to a more sustainable world?",
@@ -43,7 +69,7 @@
     "published_date": "2026-04-20T16:24:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-21T10:19:05.344333+00:00"
+    "fetched_at": "2026-04-22T10:19:51.921774+00:00"
   },
   {
     "title": "How Much Do GPU Clusters Really Cost?",
@@ -56,7 +82,7 @@
     "published_date": "2026-04-20T14:21:59+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-21T10:19:09.826975+00:00"
+    "fetched_at": "2026-04-22T10:19:57.498834+00:00"
   },
   {
     "title": "“Introducing LinuxArena” by Tyler",
@@ -69,7 +95,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-21T10:19:06.807019+00:00"
+    "fetched_at": "2026-04-22T10:19:54.367386+00:00"
   },
   {
     "title": "What can sandboxed AI agents learn about their evaluation environments?",
@@ -80,7 +106,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-21T10:19:21.250189+00:00"
+    "fetched_at": "2026-04-22T10:20:04.463336+00:00"
   },
   {
     "title": "A Formal Model of How Artificial Intelligence Erodes Human Agency",
@@ -91,7 +117,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-21T10:19:21.817646+00:00"
+    "fetched_at": "2026-04-22T10:20:04.763729+00:00"
   },
   {
     "title": "Where is the Mind? Persona Vectors and LLM Individuation",
@@ -102,7 +128,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-04-21T10:19:24.580995+00:00"
+    "fetched_at": "2026-04-22T10:20:07.884314+00:00"
   },
   {
     "title": "Prompted CoT Early Exit Undermines the Monitoring Benefits of CoT Uncontrollability",
@@ -115,7 +141,7 @@
     "published_date": "2026-04-17T19:30:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-21T10:19:07.067123+00:00"
+    "fetched_at": "2026-04-22T10:19:54.920388+00:00"
   },
   {
     "title": "You can only build safe ASI if ASI is globally banned",
@@ -128,7 +154,7 @@
     "published_date": "2026-04-16T15:10:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-21T10:19:07.067195+00:00"
+    "fetched_at": "2026-04-22T10:19:54.920449+00:00"
   },
   {
     "title": "Introducing GPT-Rosalind for life sciences research",
@@ -141,7 +167,7 @@
     "published_date": "2026-04-16T01:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-04-21T10:19:06.177934+00:00"
+    "fetched_at": "2026-04-22T10:19:53.479556+00:00"
   },
   {
     "title": "AI Implications for Chemical, Biological, Radiological, and Nuclear Defense Policy and Programs: A Strategic Analytic Research Agenda",
@@ -152,7 +178,7 @@
     "published_date": "2026-04-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-21T10:19:21.817938+00:00"
+    "fetched_at": "2026-04-22T10:20:04.764003+00:00"
   },
   {
     "title": "Current AIs seem pretty misaligned to me",
@@ -165,7 +191,7 @@
     "published_date": "2026-04-15T15:14:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-21T10:19:07.067696+00:00"
+    "fetched_at": "2026-04-22T10:19:54.920950+00:00"
   },
   {
     "title": "“Current AIs seem pretty misaligned to me” by Ryan Greenblatt",
@@ -178,32 +204,6 @@
     "published_date": "2026-04-15T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-21T10:19:06.807084+00:00"
-  },
-  {
-    "title": "Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "It turns out that Anthropic accidentally trained against the chain of thought of Claude Mythos Preview in around 8% of training episodes. This is at least the second independent incident in which Anthropic accidentally exposed their model's CoT to the oversight signal. In more powerful systems, this kind of failure would jeopardize safely navigating the intelligence explosion. It's crucial to build good processes to ensure development is executed according to plan, especially as human oversight becomes spread thin over increasing amounts of potentially untrusted and sloppy AI labor . This particular failure is also directly harmful, because it significantly reduces our confidence that the model's reasoning trace is monitorable (reflective of the AI's intent to misbehave). [1] I'm grateful that Anthropic has transparently reported on this issue as much as they have, allowing for outside scrutiny. I want to encourage them to continue to do so.",
-    "url": "https://www.alignmentforum.org/posts/K8FxfK9GmJfiAhgcT/anthropic-repeatedly-accidentally-trained-against-the-cot",
-    "published_date": "2026-04-14T01:44:44+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-21T10:19:07.067821+00:00"
-  },
-  {
-    "title": "“Anthropic repeatedly accidentally trained against the CoT, demonstrating inadequate processes” by Alex Mallen, Ryan Greenblatt",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Safely navigating the intelligence explosion will require much more careful development. It turns out that Anthropic accidentally trained against the chain of thought of Claude Mythos Preview in around 8% of training episodes. This is at least the second independent incident in which Anthropic accidentally exposed their model's CoT to the oversight signal. In more powerful systems, this kind of failure would jeopardize safely navigating the intelligence explosion. It's crucial to build good processes to ensure development is executed according to plan, especially as human oversight becomes spread thin over increasing amounts of potentially untrusted and sloppy AI labor. This particular failure is also directly harmful, because it significantly reduces our confidence that the model's reasoning trace is monitorable (reflective of the AI's intent to misbehave).[1] I’m grateful that Anthropic has transparently reported on this issue as much as they have, allowing for outside scrutiny.",
-    "url": "https://blog.redwoodresearch.org/p/anthropic-repeatedly-accidentally",
-    "published_date": "2026-04-14T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-21T10:19:06.807147+00:00"
+    "fetched_at": "2026-04-22T10:19:54.367442+00:00"
   }
 ]
