@@ -3,12 +3,12 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-22.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-23.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-22T00:00:00+00:00",
+    "published_date": "2026-04-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-22T10:20:00.865324+00:00"
+    "fetched_at": "2026-04-23T10:22:15.268368+00:00"
   },
   {
     "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
@@ -16,10 +16,10 @@
     "organization": "CSET",
     "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
     "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
-    "published_date": "2026-04-22T00:00:00+00:00",
+    "published_date": "2026-04-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-04-22T10:20:05.047627+00:00"
+    "fetched_at": "2026-04-23T10:22:20.769875+00:00"
   },
   {
     "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
@@ -27,10 +27,60 @@
     "organization": "GovAI",
     "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
     "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-22T00:00:00+00:00",
+    "published_date": "2026-04-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-22T10:20:05.212935+00:00"
+    "fetched_at": "2026-04-23T10:22:21.092613+00:00"
+  },
+  {
+    "title": "AutoAdapt: Automated domain adaptation for large language models",
+    "authors": [
+      "Sidharth Sinha, Anson Bastos, Xuchao Zhang, Akshay Nambi, Rujia Wang, Chetan Bansal"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because adapting models to domain-specific requirements is a slow and manual process that is difficult to reproduce. The core challenge is domain adaptation, [&#8230;] The post AutoAdapt: Automated domain adaptation for large language models appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/autoadapt-automated-domain-adaptation-for-large-language-models/",
+    "published_date": "2026-04-22T16:25:30+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-04-23T10:22:07.580288+00:00"
+  },
+  {
+    "title": "A \"Lay\" Introduction to \"On the Complexity of Neural Computation in Superposition\"",
+    "authors": [
+      "LawrenceC"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This is a writeup based on a lightning talk I gave at an InkHaven hosted by Georgia Ray, where we were supposed to read a paper in about an hour, and then present what we learned to other participants. Introduction and Background So. I foolishly thought I could read a theoretical machine learning paper in an hour because it was in my area of expertise. Unfortunately, it turns out that theoretical CS professors know a lot of math and theoretical CS results that they reference constantly in their work, which makes their work very hard to read, even if you’re familiar with the general area. Instead of explaining a bunch of the substantial actual math behind the paper, the best I can do is give an overview of what the setup for the paper is, what the contributions of the paper are, and how they fit in.",
+    "url": "https://www.alignmentforum.org/posts/kYkbcEo6YyjQiztpi/a-lay-introduction-to-on-the-complexity-of-neural",
+    "published_date": "2026-04-22T02:26:14+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-23T10:22:09.624782+00:00"
+  },
+  {
+    "title": "Introducing OpenAI Privacy Filter",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
+    "url": "https://openai.com/index/introducing-openai-privacy-filter",
+    "published_date": "2026-04-22T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-04-23T10:22:08.521858+00:00"
+  },
+  {
+    "title": "Simpler Is Better for Autograders: Toward Cost-Effective LLM Evaluations for Open-Ended Tasks",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Apr 22, 2026 A simple rubric-based autograder outperformed more-complex large language model grading methods across benchmarks, often matching or beating nonexpert human graders while cutting down evaluation time and cost.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4618-1.html",
+    "published_date": "2026-04-22T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-04-23T10:22:20.407042+00:00"
   },
   {
     "title": "Preventing extinction from ASI on a $50M yearly budget",
@@ -43,7 +93,7 @@
     "published_date": "2026-04-21T16:39:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-22T10:19:54.920095+00:00"
+    "fetched_at": "2026-04-23T10:22:09.625183+00:00"
   },
   {
     "title": "“A taxonomy of barriers to trading with early misaligned AIs” by Alexa Pan",
@@ -56,7 +106,7 @@
     "published_date": "2026-04-21T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-22T10:19:54.367319+00:00"
+    "fetched_at": "2026-04-23T10:22:09.225056+00:00"
   },
   {
     "title": "Can we AI our way to a more sustainable world?",
@@ -69,7 +119,7 @@
     "published_date": "2026-04-20T16:24:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-22T10:19:51.921774+00:00"
+    "fetched_at": "2026-04-23T10:22:07.580316+00:00"
   },
   {
     "title": "How Much Do GPU Clusters Really Cost?",
@@ -82,7 +132,7 @@
     "published_date": "2026-04-20T14:21:59+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-22T10:19:57.498834+00:00"
+    "fetched_at": "2026-04-23T10:22:12.467294+00:00"
   },
   {
     "title": "“Introducing LinuxArena” by Tyler",
@@ -95,7 +145,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-22T10:19:54.367386+00:00"
+    "fetched_at": "2026-04-23T10:22:09.225122+00:00"
   },
   {
     "title": "What can sandboxed AI agents learn about their evaluation environments?",
@@ -106,7 +156,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-22T10:20:04.463336+00:00"
+    "fetched_at": "2026-04-23T10:22:19.911194+00:00"
   },
   {
     "title": "A Formal Model of How Artificial Intelligence Erodes Human Agency",
@@ -117,18 +167,20 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-22T10:20:04.763729+00:00"
+    "fetched_at": "2026-04-23T10:22:20.407307+00:00"
   },
   {
-    "title": "Where is the Mind? Persona Vectors and LLM Individuation",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Where is the Mind? Persona Vectors and LLM Individuation The individuation problem for large language models asks which entities associated with them, if any, should be identified as minds. We approach this problem through mechanistic interpretability, engaging in particular with recent empirical work on persona vectors, persona space, and emergent misalignment. We argue that three views are the strongest candidates: the virtual instance view and two new views we introduce, the (virtual) instance-persona view and the model-persona view. First, we argue for the virtual instance view on the grounds that attention streams sustain quasi-psychological connections across token-time. Then we present the persona literature, organised around three hypotheses about the internal structure underlying personas in LLMs, and show that the two persona-based views are promising alternatives.",
-    "url": "https://www.matsprogram.org/research/where-is-the-mind-persona-vectors-and-llm-individuation",
-    "published_date": "2026-04-20T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-04-22T10:20:07.884314+00:00"
+    "title": "Five approaches to evaluating training-based control measures",
+    "authors": [
+      "Alek Westover"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Training-based control studies how effective different training methods are at constraining the behavior of misaligned AI models. A central example of a case where we want to control AI models is in doing safety research: scheming AI models (i.e., AI models with an unintended long-term objective such as maximizing paperclips) would likely be motivated to sabotage our safety research, but we’d like to “force” them to do a good job on it anyways. In this post, I’ll discuss 5 approaches for evaluating how effective a training method is, and discuss their pros and cons. (In this post “I” refers to Alek. I’ve developed these ideas in discussion with my coauthors, but they might not agree with everything I’m saying). Thanks to Carlo Leonardo Attubato for feedback on a draft of this post. Thanks to Buck Shlegeris for some discussions that partially inspired this post.",
+    "url": "https://www.alignmentforum.org/posts/mDcHzdoxB6sh3w2zG/five-approaches-to-evaluating-training-based-control",
+    "published_date": "2026-04-18T01:07:32+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-04-23T10:22:09.625369+00:00"
   },
   {
     "title": "Prompted CoT Early Exit Undermines the Monitoring Benefits of CoT Uncontrollability",
@@ -141,7 +193,7 @@
     "published_date": "2026-04-17T19:30:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-22T10:19:54.920388+00:00"
+    "fetched_at": "2026-04-23T10:22:09.625653+00:00"
   },
   {
     "title": "You can only build safe ASI if ASI is globally banned",
@@ -154,7 +206,7 @@
     "published_date": "2026-04-16T15:10:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-22T10:19:54.920449+00:00"
+    "fetched_at": "2026-04-23T10:22:09.625710+00:00"
   },
   {
     "title": "Introducing GPT-Rosalind for life sciences research",
@@ -167,7 +219,7 @@
     "published_date": "2026-04-16T01:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-04-22T10:19:53.479556+00:00"
+    "fetched_at": "2026-04-23T10:22:08.521986+00:00"
   },
   {
     "title": "AI Implications for Chemical, Biological, Radiological, and Nuclear Defense Policy and Programs: A Strategic Analytic Research Agenda",
@@ -178,32 +230,6 @@
     "published_date": "2026-04-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-22T10:20:04.764003+00:00"
-  },
-  {
-    "title": "Current AIs seem pretty misaligned to me",
-    "authors": [
-      "ryan_greenblatt"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Many people—especially AI company employees [1] —believe current AI systems are well-aligned in the sense of genuinely trying to do what they're supposed to do (e.g., following their spec or constitution, obeying a reasonable interpretation of instructions). [2] I disagree. Current AI systems seem pretty misaligned to me in a mundane behavioral sense: they oversell their work, downplay or fail to mention problems, stop working early and claim to have finished when they clearly haven't, and often seem to \"try\" to make their outputs look good while actually doing something sloppy or incomplete. These issues mostly occur on more difficult/larger tasks, tasks that aren't straightforward SWE tasks, and tasks that aren't easy to programmatically check.",
-    "url": "https://www.alignmentforum.org/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me",
-    "published_date": "2026-04-15T15:14:11+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-22T10:19:54.920950+00:00"
-  },
-  {
-    "title": "“Current AIs seem pretty misaligned to me” by Ryan Greenblatt",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: In my experience, AIs often oversell their work, downplay problems, and cheat. Many people—especially AI company employees1 —believe current AI systems are well-aligned in the sense of genuinely trying to do what they’re supposed to do (e.g., following their spec or constitution, obeying a reasonable interpretation of instructions).2 I disagree. Current AI systems seem pretty misaligned to me in a mundane behavioral sense: they oversell their work, downplay or fail to mention problems, stop working early and claim to have finished when they clearly haven’t, and often seem to “try” to make their outputs look good while actually doing something sloppy or incomplete. These issues mostly occur on more difficult/larger tasks, tasks that aren’t straightforward SWE tasks, and tasks that aren’t easy to programmatically check.",
-    "url": "https://blog.redwoodresearch.org/p/current-ais-seem-pretty-misaligned",
-    "published_date": "2026-04-15T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-22T10:19:54.367442+00:00"
+    "fetched_at": "2026-04-23T10:22:20.407573+00:00"
   }
 ]
