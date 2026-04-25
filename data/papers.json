@@ -3,12 +3,12 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-24.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-25.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-24T00:00:00+00:00",
+    "published_date": "2026-04-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-24T10:23:43.093341+00:00"
+    "fetched_at": "2026-04-25T09:55:03.590889+00:00"
   },
   {
     "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
@@ -16,10 +16,10 @@
     "organization": "Google DeepMind",
     "abstract": "Googleâs new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency â even when hardware fails.",
     "url": "https://deepmind.google/blog/decoupled-diloco/",
-    "published_date": "2026-04-24T00:00:00+00:00",
+    "published_date": "2026-04-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-24T10:23:43.093609+00:00"
+    "fetched_at": "2026-04-25T09:55:03.591174+00:00"
   },
   {
     "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
@@ -27,10 +27,10 @@
     "organization": "CSET",
     "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
     "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
-    "published_date": "2026-04-24T00:00:00+00:00",
+    "published_date": "2026-04-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-04-24T10:23:48.129848+00:00"
+    "fetched_at": "2026-04-25T09:55:07.996763+00:00"
   },
   {
     "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
@@ -38,10 +38,34 @@
     "organization": "GovAI",
     "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
     "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-24T00:00:00+00:00",
+    "published_date": "2026-04-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-24T10:23:48.303482+00:00"
+    "fetched_at": "2026-04-25T09:55:08.166288+00:00"
+  },
+  {
+    "title": "The Coding Assistant Breakdown: More Tokens Please",
+    "authors": [
+      "Max Kan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Since we called out the Claude Code inflection point on February 5th, we have seen a flurry of model releases. Opus, Mythos, Codex, Gemini, DeepSeek, Kimi, Qwen, GLM, MiniMax, Composer, Muse Spark, and more. Today we will break down all of these major model releases, explain when you can vs can’t trust the benchmarks, and give our predictions for the future of the agentic coding market.",
+    "url": "https://newsletter.semianalysis.com/p/the-coding-assistant-breakdown-more",
+    "published_date": "2026-04-24T22:15:46+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-04-25T09:55:00.421153+00:00"
+  },
+  {
+    "title": "How do environmental factors impact AI behaviour?",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Developing methods to better understand when and why AI models sometimes act against user intentions.",
+    "url": "https://www.aisi.gov.uk/blog/how-do-environmental-factors-impact-ai-behaviour",
+    "published_date": "2026-04-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-04-25T09:55:07.407035+00:00"
   },
   {
     "title": "Open Sourcing Monitorability Evaluations",
@@ -54,7 +78,7 @@
     "published_date": "2026-04-23T22:15:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-24T10:23:37.513505+00:00"
+    "fetched_at": "2026-04-25T09:54:57.293720+00:00"
   },
   {
     "title": "AutoAdapt: Automated domain adaptation for large language models",
@@ -67,7 +91,7 @@
     "published_date": "2026-04-22T16:25:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-24T10:23:36.452217+00:00"
+    "fetched_at": "2026-04-25T09:54:55.809277+00:00"
   },
   {
     "title": "A \"Lay\" Introduction to \"On the Complexity of Neural Computation in Superposition\"",
@@ -80,7 +104,7 @@
     "published_date": "2026-04-22T02:26:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-24T10:23:38.083710+00:00"
+    "fetched_at": "2026-04-25T09:54:58.023911+00:00"
   },
   {
     "title": "Introducing OpenAI Privacy Filter",
@@ -93,7 +117,7 @@
     "published_date": "2026-04-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-04-24T10:23:37.420761+00:00"
+    "fetched_at": "2026-04-25T09:54:56.976164+00:00"
   },
   {
     "title": "Simpler Is Better for Autograders: Toward Cost-Effective LLM Evaluations for Open-Ended Tasks",
@@ -104,7 +128,7 @@
     "published_date": "2026-04-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-24T10:23:47.978487+00:00"
+    "fetched_at": "2026-04-25T09:55:07.889427+00:00"
   },
   {
     "title": "Preventing extinction from ASI on a $50M yearly budget",
@@ -117,7 +141,7 @@
     "published_date": "2026-04-21T16:39:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-24T10:23:38.084139+00:00"
+    "fetched_at": "2026-04-25T09:54:58.024332+00:00"
   },
   {
     "title": "Evidence on AI R&D Progress from NanoGPT",
@@ -130,7 +154,7 @@
     "published_date": "2026-04-21T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-04-24T10:23:39.326981+00:00"
+    "fetched_at": "2026-04-25T09:54:59.057449+00:00"
   },
   {
     "title": "“A taxonomy of barriers to trading with early misaligned AIs” by Alexa Pan",
@@ -143,7 +167,7 @@
     "published_date": "2026-04-21T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-24T10:23:37.864498+00:00"
+    "fetched_at": "2026-04-25T09:54:57.753957+00:00"
   },
   {
     "title": "Can we AI our way to a more sustainable world?",
@@ -156,7 +180,7 @@
     "published_date": "2026-04-20T16:24:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-24T10:23:36.452245+00:00"
+    "fetched_at": "2026-04-25T09:54:55.809316+00:00"
   },
   {
     "title": "How Much Do GPU Clusters Really Cost?",
@@ -169,7 +193,7 @@
     "published_date": "2026-04-20T14:21:59+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-24T10:23:40.512224+00:00"
+    "fetched_at": "2026-04-25T09:55:00.421181+00:00"
   },
   {
     "title": "“Introducing LinuxArena” by Tyler",
@@ -182,7 +206,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-24T10:23:37.864568+00:00"
+    "fetched_at": "2026-04-25T09:54:57.754023+00:00"
   },
   {
     "title": "What can sandboxed AI agents learn about their evaluation environments?",
@@ -193,7 +217,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-24T10:23:47.569965+00:00"
+    "fetched_at": "2026-04-25T09:55:07.407615+00:00"
   },
   {
     "title": "A Formal Model of How Artificial Intelligence Erodes Human Agency",
@@ -204,7 +228,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-24T10:23:47.978756+00:00"
+    "fetched_at": "2026-04-25T09:55:07.889691+00:00"
   },
   {
     "title": "Where is the Mind? Persona Vectors and LLM Individuation",
@@ -215,7 +239,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-04-24T10:23:52.362683+00:00"
+    "fetched_at": "2026-04-25T09:55:10.778961+00:00"
   },
   {
     "title": "Five approaches to evaluating training-based control measures",
@@ -228,19 +252,6 @@
     "published_date": "2026-04-18T01:07:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-24T10:23:38.084257+00:00"
-  },
-  {
-    "title": "Prompted CoT Early Exit Undermines the Monitoring Benefits of CoT Uncontrollability",
-    "authors": [
-      "Elle Najt"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Code: github.com/ElleNajt/controllability tldr: Yueh-Han et al. (2026) showed that models have a harder time making their chain of thought follow user instruction compared to controlling their response (the non-thinking, user-facing output). Their CoT controllability conditions require the models’ thinking to follow various style constraints (e.g. write in lowercase, avoid a word), and they measure how well models can comply with these instructions while achieving a task that requires reasoning. The difficulty models have in controlling their CoT is optimistic for control, since it suggests that schemers would have a hard time hiding malicious reasoning from CoT monitors. Here, we show that a range of frontier models (Claude Opus 4.6, GPT-5.4, and Gemini 3.1 Pro) can be prompted to “early exit” their CoT and displace reasoning into the response.",
-    "url": "https://www.alignmentforum.org/posts/BuAPifQmHf24xB29n/prompted-cot-early-exit-undermines-the-monitoring-benefits",
-    "published_date": "2026-04-17T19:30:12+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-24T10:23:38.084548+00:00"
+    "fetched_at": "2026-04-25T09:54:58.024447+00:00"
   }
 ]
