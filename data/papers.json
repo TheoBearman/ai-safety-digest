@@ -3,12 +3,12 @@
     "title": "Gemma 4: Byte for byte, the most capable open models",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-26.",
+    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-27.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-26T00:00:00+00:00",
+    "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-26T09:54:44.934529+00:00"
+    "fetched_at": "2026-04-27T11:06:28.892992+00:00"
   },
   {
     "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
@@ -16,10 +16,10 @@
     "organization": "Google DeepMind",
     "abstract": "Googleâs new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency â even when hardware fails.",
     "url": "https://deepmind.google/blog/decoupled-diloco/",
-    "published_date": "2026-04-26T00:00:00+00:00",
+    "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-26T09:54:44.934824+00:00"
+    "fetched_at": "2026-04-27T11:06:28.893435+00:00"
   },
   {
     "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
@@ -27,10 +27,10 @@
     "organization": "CSET",
     "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
     "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
-    "published_date": "2026-04-26T00:00:00+00:00",
+    "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-04-26T09:54:49.574550+00:00"
+    "fetched_at": "2026-04-27T11:06:33.699554+00:00"
   },
   {
     "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
@@ -38,10 +38,10 @@
     "organization": "GovAI",
     "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
     "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-26T00:00:00+00:00",
+    "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-26T09:54:49.729865+00:00"
+    "fetched_at": "2026-04-27T11:06:33.902821+00:00"
   },
   {
     "title": "The Coding Assistant Breakdown: More Tokens Please",
@@ -54,7 +54,7 @@
     "published_date": "2026-04-24T22:15:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-26T09:54:41.917717+00:00"
+    "fetched_at": "2026-04-27T11:06:25.795449+00:00"
   },
   {
     "title": "How do environmental factors impact AI behaviour?",
@@ -65,7 +65,7 @@
     "published_date": "2026-04-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-26T09:54:48.741875+00:00"
+    "fetched_at": "2026-04-27T11:06:32.960827+00:00"
   },
   {
     "title": "Open Sourcing Monitorability Evaluations",
@@ -78,7 +78,7 @@
     "published_date": "2026-04-23T22:15:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-26T09:54:38.353683+00:00"
+    "fetched_at": "2026-04-27T11:06:22.406838+00:00"
   },
   {
     "title": "AutoAdapt: Automated domain adaptation for large language models",
@@ -91,7 +91,7 @@
     "published_date": "2026-04-22T16:25:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-26T09:54:36.938495+00:00"
+    "fetched_at": "2026-04-27T11:06:21.265688+00:00"
   },
   {
     "title": "A \"Lay\" Introduction to \"On the Complexity of Neural Computation in Superposition\"",
@@ -104,7 +104,7 @@
     "published_date": "2026-04-22T02:26:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-26T09:54:39.157605+00:00"
+    "fetched_at": "2026-04-27T11:06:23.256244+00:00"
   },
   {
     "title": "Introducing OpenAI Privacy Filter",
@@ -117,7 +117,7 @@
     "published_date": "2026-04-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-04-26T09:54:37.944484+00:00"
+    "fetched_at": "2026-04-27T11:06:22.238708+00:00"
   },
   {
     "title": "Simpler Is Better for Autograders: Toward Cost-Effective LLM Evaluations for Open-Ended Tasks",
@@ -128,7 +128,7 @@
     "published_date": "2026-04-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-26T09:54:49.087854+00:00"
+    "fetched_at": "2026-04-27T11:06:33.550443+00:00"
   },
   {
     "title": "Preventing extinction from ASI on a $50M yearly budget",
@@ -141,7 +141,7 @@
     "published_date": "2026-04-21T16:39:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-26T09:54:39.158030+00:00"
+    "fetched_at": "2026-04-27T11:06:23.256738+00:00"
   },
   {
     "title": "Evidence on AI R&D Progress from NanoGPT",
@@ -154,7 +154,7 @@
     "published_date": "2026-04-21T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-04-26T09:54:40.494492+00:00"
+    "fetched_at": "2026-04-27T11:06:24.513043+00:00"
   },
   {
     "title": "“A taxonomy of barriers to trading with early misaligned AIs” by Alexa Pan",
@@ -167,7 +167,7 @@
     "published_date": "2026-04-21T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-26T09:54:38.756883+00:00"
+    "fetched_at": "2026-04-27T11:06:22.954167+00:00"
   },
   {
     "title": "Can we AI our way to a more sustainable world?",
@@ -180,7 +180,7 @@
     "published_date": "2026-04-20T16:24:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-04-26T09:54:36.938524+00:00"
+    "fetched_at": "2026-04-27T11:06:21.265711+00:00"
   },
   {
     "title": "How Much Do GPU Clusters Really Cost?",
@@ -193,7 +193,7 @@
     "published_date": "2026-04-20T14:21:59+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-26T09:54:41.917744+00:00"
+    "fetched_at": "2026-04-27T11:06:25.795472+00:00"
   },
   {
     "title": "“Introducing LinuxArena” by Tyler",
@@ -206,7 +206,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-26T09:54:38.756951+00:00"
+    "fetched_at": "2026-04-27T11:06:22.954233+00:00"
   },
   {
     "title": "What can sandboxed AI agents learn about their evaluation environments?",
@@ -217,7 +217,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-26T09:54:48.742437+00:00"
+    "fetched_at": "2026-04-27T11:06:32.961306+00:00"
   },
   {
     "title": "A Formal Model of How Artificial Intelligence Erodes Human Agency",
@@ -228,7 +228,7 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-26T09:54:49.088117+00:00"
+    "fetched_at": "2026-04-27T11:06:33.550673+00:00"
   },
   {
     "title": "Where is the Mind? Persona Vectors and LLM Individuation",
@@ -239,6 +239,6 @@
     "published_date": "2026-04-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-04-26T09:54:51.879008+00:00"
+    "fetched_at": "2026-04-27T11:06:37.066666+00:00"
   }
 ]
