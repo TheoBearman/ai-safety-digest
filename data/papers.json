@@ -1,5 +1,44 @@
 [
   {
+    "title": "AI Value Capture - The Shift To Model Labs",
+    "authors": [
+      "Daniel Nishball"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "A day in AI now feels like a year in any other industry. Model releases, software breakthroughs, and hardware improvements are compressing multi-year cycles for any other industry into weeks. Over just the past few months, agentic AI has crossed a real inflection point, driving a step-change in the value of tokens while software and hardware improvements have sharply reduced the cost of generating them.",
+    "url": "https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model",
+    "published_date": "2026-05-01T02:30:43+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-05-01T10:24:01.446891+00:00"
+  },
+  {
+    "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
+    "authors": [
+      "Gagan Bansal, Shujaat Mirza, Keegan Hines, Will Epperson, Zachary Huang, Whitney Maxwell, Pete Bryan, Tyler Payne, Adam Fourney, Amanda Swearngin, Wenyue Hua, Tori Westerhoff, Amanda Minnich, Maya Murad, Ece Kamar, Ram Shankar Siva Kumar, Saleema Amershi"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches. The post Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/",
+    "published_date": "2026-04-30T21:53:21+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-05-01T10:23:57.994013+00:00"
+  },
+  {
+    "title": "Auto-review of agent actions without synchronous human oversight",
+    "authors": [
+      "Maja Trębacz, Sam Arnesen, Ollie Matthews, Dylan Hurd, Won Park, Owen Lin, Joe Gershenson"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'Auto-review of agent actions without synchronous human oversight'. Published 2026-04-30. Authors: Maja Trębacz, Sam Arnesen, Ollie Matthews, Dylan Hurd, Won Park, Owen Lin, Joe Gershenson.",
+    "url": "https://alignment.openai.com/auto-review/",
+    "published_date": "2026-04-30T18:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-05-01T10:23:58.728711+00:00"
+  },
+  {
     "title": "Research Sabotage in ML Codebases",
     "authors": [
       "egan"
@@ -10,62 +49,18 @@
     "published_date": "2026-04-30T00:31:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-30T10:56:51.818695+00:00"
+    "fetched_at": "2026-05-01T10:23:59.503830+00:00"
   },
   {
-    "title": "Poisoning Fine-tuning Datasets of Constitutional Classifiers",
+    "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
     "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Poisoning Fine-tuning Datasets of Constitutional Classifiers'. Published 2026-04-30.",
-    "url": "https://alignment.anthropic.com/2026/backdooring-classifiers/",
+    "organization": "UK AISI",
+    "abstract": "AISI conducted cyber evaluations on OpenAI's GPT-5.5. GPT-5.5 is one of the strongest models we have tested on our cyber tasks and is the second model to solve one of our multi-step cyber-attack simulations end-to-end.",
+    "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
     "published_date": "2026-04-30T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-04-30T10:56:56.820919+00:00"
-  },
-  {
-    "title": "Gemma 4: Byte for byte, the most capable open models",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemma 4: Byte for byte, the most capable open models'. Published 2026-04-30.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-    "published_date": "2026-04-30T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-30T10:56:57.301213+00:00"
-  },
-  {
-    "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Google’s new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency – even when hardware fails.",
-    "url": "https://deepmind.google/blog/decoupled-diloco/",
-    "published_date": "2026-04-30T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-04-30T10:56:57.301736+00:00"
-  },
-  {
-    "title": "Operationalizing AI Guidance: A Reference Guide for Translating High-Level Goals into Practical Implementation",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Organizations face growing pressure to adopt artificial intelligence, but often lack practical guidance on how to do so effectively. This report bridges the gap between high-level principles and real-world implementation, offering actionable steps across the AI adoption life cycle. Drawing on over 1,200 resources, this reference guide provides practitioners with the knowledge required to operationalize AI safety, security, and governance practices within their organizations.",
-    "url": "https://cset.georgetown.edu/publication/operationalizing-ai-guidance-a-reference-guide-for-translating-high-level-goals-into-practical-implementation/",
-    "published_date": "2026-04-30T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-04-30T10:57:01.767686+00:00"
-  },
-  {
-    "title": "AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire. We outline a vision for frontier AI auditing, which we define as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of...",
-    "url": "https://www.governance.ai/research-paper/ai-powered-lawyering-ai-reasoning-models-retrieval-augmented-generation-and-the-future-of-legal-practice",
-    "published_date": "2026-04-30T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-04-30T10:57:01.918576+00:00"
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-05-01T10:24:07.995304+00:00"
   },
   {
     "title": "Where the goblins came from",
@@ -78,33 +73,7 @@
     "published_date": "2026-04-29T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-04-30T10:56:50.630294+00:00"
-  },
-  {
-    "title": "llm assistant personas seem increasingly incoherent (some subjective observations)",
-    "authors": [
-      "nostalgebraist"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'llm assistant personas seem increasingly incoherent (some subjective observations)'. Published 2026-04-29. Authors: nostalgebraist.",
-    "url": "https://www.lesswrong.com/posts/f5DKLsTsRRhbipH4r/llm-assistant-personas-seem-increasingly-incoherent-some",
-    "published_date": "2026-04-29T03:53:21.771000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-04-30T10:57:06.632954+00:00"
-  },
-  {
-    "title": "Not a Paper: \"Frontier Lab CEOs are Capable of In-Context Scheming\"",
-    "authors": [
-      "LawrenceC"
-    ],
-    "organization": "LessWrong",
-    "abstract": "(Fragments from a research paper that will never be written, but whose existence was brought to my attention by GradientDissenter.) …",
-    "url": "https://www.lesswrong.com/posts/FuauQjjbTCS5QFLk8/not-a-paper-frontier-lab-ceos-are-capable-of-in-context",
-    "published_date": "2026-04-29T03:00:40.928000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-04-30T10:57:06.632936+00:00"
+    "fetched_at": "2026-05-01T10:23:58.594039+00:00"
   },
   {
     "title": "“Research Sabotage in ML Codebases” by Eric Gan",
@@ -117,7 +86,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-30T10:56:51.452422+00:00"
+    "fetched_at": "2026-05-01T10:23:59.069079+00:00"
   },
   {
     "title": "How Much More Power Can the U.S. Grid Provide for AI? Projections and Policy Implications for 2030",
@@ -128,7 +97,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-30T10:57:01.465879+00:00"
+    "fetched_at": "2026-05-01T10:24:08.473527+00:00"
   },
   {
     "title": "Exploring Instability Risks in the U.S.-China AI Rivalry: Breakwater Game Overview and Initial Observations",
@@ -139,7 +108,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-30T10:57:01.466116+00:00"
+    "fetched_at": "2026-05-01T10:24:08.473696+00:00"
   },
   {
     "title": "Recursive forecasting: Eliciting long-term forecasts from myopic fitness-seekers",
@@ -152,7 +121,7 @@
     "published_date": "2026-04-28T18:00:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-30T10:56:51.818939+00:00"
+    "fetched_at": "2026-05-01T10:23:59.504068+00:00"
   },
   {
     "title": "MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking",
@@ -165,7 +134,7 @@
     "published_date": "2026-04-28T16:30:07+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-04-30T10:56:55.620156+00:00"
+    "fetched_at": "2026-05-01T10:24:02.563220+00:00"
   },
   {
     "title": "Sleeper Agent Backdoor Results Are Messy",
@@ -178,7 +147,7 @@
     "published_date": "2026-04-28T01:55:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-30T10:56:51.819126+00:00"
+    "fetched_at": "2026-05-01T10:23:59.504213+00:00"
   },
   {
     "title": "“Recursive forecasting” by Arun Jose, Alex Mallen",
@@ -191,7 +160,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-30T10:56:51.452482+00:00"
+    "fetched_at": "2026-05-01T10:23:59.069126+00:00"
   },
   {
     "title": "What should AI safety be trying to achieve?",
@@ -202,7 +171,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-04-30T10:57:00.220742+00:00"
+    "fetched_at": "2026-05-01T10:24:07.380389+00:00"
   },
   {
     "title": "Ask Don't Tell: Reducing Sycophancy in Large Language Models",
@@ -213,7 +182,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-30T10:57:00.966140+00:00"
+    "fetched_at": "2026-05-01T10:24:07.995680+00:00"
   },
   {
     "title": "Evaluating Large Language Models' Abilities to Process and Understand Technical Policy Reports",
@@ -224,7 +193,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-04-30T10:57:01.466351+00:00"
+    "fetched_at": "2026-05-01T10:24:08.473848+00:00"
   },
   {
     "title": "Language models know what matters and the foundations of ethics better than you",
@@ -237,7 +206,7 @@
     "published_date": "2026-04-27T14:00:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-30T10:56:51.820671+00:00"
+    "fetched_at": "2026-05-01T10:23:59.505390+00:00"
   },
   {
     "title": "The other paper that killed deep learning theory",
@@ -250,7 +219,7 @@
     "published_date": "2026-04-27T06:57:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-30T10:56:51.820874+00:00"
+    "fetched_at": "2026-05-01T10:23:59.505566+00:00"
   },
   {
     "title": "“Fail safe(r) at alignment by channeling reward-hacking into a “spillway” motivation” by Anders Cairns Woodruff, Alex Mallen",
@@ -263,7 +232,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-30T10:56:51.452536+00:00"
+    "fetched_at": "2026-05-01T10:23:59.069169+00:00"
   },
   {
     "title": "“AI companies should publish security assessments” by Ryan Greenblatt",
@@ -276,7 +245,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-04-30T10:56:51.452579+00:00"
+    "fetched_at": "2026-05-01T10:23:59.069203+00:00"
   },
   {
     "title": "Evaluating whether AI models would sabotage AI safety research",
@@ -287,7 +256,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-30T10:57:00.966667+00:00"
+    "fetched_at": "2026-05-01T10:24:07.996008+00:00"
   },
   {
     "title": "Quick Paper Review: \"There Will Be a Scientific Theory of Deep Learning\"",
@@ -300,7 +269,7 @@
     "published_date": "2026-04-25T06:55:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-04-30T10:56:51.821088+00:00"
+    "fetched_at": "2026-05-01T10:23:59.505775+00:00"
   },
   {
     "title": "The Coding Assistant Breakdown: More Tokens Please",
@@ -313,7 +282,7 @@
     "published_date": "2026-04-24T22:15:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-04-30T10:56:54.399449+00:00"
+    "fetched_at": "2026-05-01T10:24:01.446915+00:00"
   },
   {
     "title": "How do environmental factors impact AI behaviour?",
@@ -324,7 +293,7 @@
     "published_date": "2026-04-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-04-30T10:57:00.967205+00:00"
+    "fetched_at": "2026-05-01T10:24:07.996332+00:00"
   },
   {
     "title": "What Should Frontier AI Developers Disclose About Internal Deployments?",
@@ -335,19 +304,6 @@
     "published_date": "2026-04-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-04-30T10:57:04.903935+00:00"
-  },
-  {
-    "title": "Open Sourcing Monitorability Evaluations",
-    "authors": [
-      "Author list TBD"
-    ],
-    "organization": "OpenAI",
-    "abstract": "We open-source datasets and code from our Monitoring Monitorability paper, and share a new filtering strategy for noise-dominated intervention evaluation instances.",
-    "url": "https://alignment.openai.com/monitorability-evals/",
-    "published_date": "2026-04-23T22:15:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-04-30T10:56:50.771808+00:00"
+    "fetched_at": "2026-05-01T10:24:11.120166+00:00"
   }
 ]
