@@ -1,5 +1,31 @@
 [
   {
+    "title": "Risk from fitness-seeking AIs: mechanisms and mitigations",
+    "authors": [
+      "Alex Mallen"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Current AIs routinely take unintended actions to score well on tasks: hardcoding test cases, training on the test set, downplaying issues, etc. This misalignment is still somewhat incoherent, but it increasingly resembles what I call \" fitness-seeking \"—a family of misaligned motivations centered on performing well in training and evaluations (e.g., reward-seeking ). Fitness-seeking warrants substantial concern. In this piece, I lay out what I take to be the central mechanisms by which fitness-seeking motivations might lead to human disempowerment, and propose mitigations to them. While the analysis is inherently speculative, this kind of speculation seems worthwhile: AI control emerged from explicitly taking scheming motivations seriously and asking what interventions are implied, and my hope is that developing mitigations for fitness-seeking will benefit from similar forward-looking analysis. Fitness-seekers are, in many ways, notably safer than what I'll call \"classic schemers\".",
+    "url": "https://www.alignmentforum.org/posts/9YCJZBtqr3FYL8rDp/risk-from-fitness-seeking-ais-mechanisms-and-mitigations",
+    "published_date": "2026-05-01T17:42:55+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-02T09:59:02.623790+00:00"
+  },
+  {
+    "title": "Science and speculation",
+    "authors": [
+      "Ajeya Cotra"
+    ],
+    "organization": "Ajeya Cotra",
+    "abstract": "Science is a social institution like the judicial system. Just like courts make you throw out perfectly good Bayesian evidence like whether the defendant seems like a shifty guy to you or rumors you heard about his whereabouts,1 the scientific process has epistemically conservative norms about what kinds of evidence and arguments are admissible. This means that the process of science gets to the truth much slower than a perfectly rational Bayesian should, and indeed much slower than many particular farseeing individuals actually did. Svante Arrhenius made the first estimate of global warming from human carbon dioxide emissions back in 1896, probably about eighty years before something like a “scientific consensus” emerged and ninety four years before the first IPCC Assessment Report.2",
+    "url": "https://www.planned-obsolescence.org/p/science-and-speculation",
+    "published_date": "2026-05-01T14:02:19+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.planned-obsolescence.org/feed",
+    "fetched_at": "2026-05-02T09:59:06.315247+00:00"
+  },
+  {
     "title": "AI Value Capture - The Shift To Model Labs",
     "authors": [
       "Daniel Nishball"
@@ -10,7 +36,7 @@
     "published_date": "2026-05-01T02:30:43+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-01T10:24:01.446891+00:00"
+    "fetched_at": "2026-05-02T09:59:05.512344+00:00"
   },
   {
     "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
@@ -23,7 +49,7 @@
     "published_date": "2026-04-30T21:53:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-01T10:23:57.994013+00:00"
+    "fetched_at": "2026-05-02T09:59:00.157721+00:00"
   },
   {
     "title": "Auto-review of agent actions without synchronous human oversight",
@@ -36,7 +62,7 @@
     "published_date": "2026-04-30T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-01T10:23:58.728711+00:00"
+    "fetched_at": "2026-05-02T09:59:01.273496+00:00"
   },
   {
     "title": "Research Sabotage in ML Codebases",
@@ -49,7 +75,7 @@
     "published_date": "2026-04-30T00:31:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-01T10:23:59.503830+00:00"
+    "fetched_at": "2026-05-02T09:59:02.623950+00:00"
   },
   {
     "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
@@ -60,7 +86,7 @@
     "published_date": "2026-04-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-01T10:24:07.995304+00:00"
+    "fetched_at": "2026-05-02T09:59:12.730211+00:00"
   },
   {
     "title": "Where the goblins came from",
@@ -73,7 +99,7 @@
     "published_date": "2026-04-29T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-01T10:23:58.594039+00:00"
+    "fetched_at": "2026-05-02T09:59:01.129503+00:00"
   },
   {
     "title": "“Research Sabotage in ML Codebases” by Eric Gan",
@@ -86,7 +112,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-01T10:23:59.069079+00:00"
+    "fetched_at": "2026-05-02T09:59:02.182708+00:00"
   },
   {
     "title": "How Much More Power Can the U.S. Grid Provide for AI? Projections and Policy Implications for 2030",
@@ -97,7 +123,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-01T10:24:08.473527+00:00"
+    "fetched_at": "2026-05-02T09:59:13.388962+00:00"
   },
   {
     "title": "Exploring Instability Risks in the U.S.-China AI Rivalry: Breakwater Game Overview and Initial Observations",
@@ -108,7 +134,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-01T10:24:08.473696+00:00"
+    "fetched_at": "2026-05-02T09:59:13.389199+00:00"
   },
   {
     "title": "Recursive forecasting: Eliciting long-term forecasts from myopic fitness-seekers",
@@ -121,7 +147,7 @@
     "published_date": "2026-04-28T18:00:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-01T10:23:59.504068+00:00"
+    "fetched_at": "2026-05-02T09:59:02.624184+00:00"
   },
   {
     "title": "MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking",
@@ -134,7 +160,7 @@
     "published_date": "2026-04-28T16:30:07+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-05-01T10:24:02.563220+00:00"
+    "fetched_at": "2026-05-02T09:59:06.739750+00:00"
   },
   {
     "title": "Sleeper Agent Backdoor Results Are Messy",
@@ -147,7 +173,7 @@
     "published_date": "2026-04-28T01:55:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-01T10:23:59.504213+00:00"
+    "fetched_at": "2026-05-02T09:59:02.624373+00:00"
   },
   {
     "title": "“Recursive forecasting” by Arun Jose, Alex Mallen",
@@ -160,7 +186,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-01T10:23:59.069126+00:00"
+    "fetched_at": "2026-05-02T09:59:02.182765+00:00"
   },
   {
     "title": "What should AI safety be trying to achieve?",
@@ -171,7 +197,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-01T10:24:07.380389+00:00"
+    "fetched_at": "2026-05-02T09:59:11.939090+00:00"
   },
   {
     "title": "Ask Don't Tell: Reducing Sycophancy in Large Language Models",
@@ -182,7 +208,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-01T10:24:07.995680+00:00"
+    "fetched_at": "2026-05-02T09:59:12.730757+00:00"
   },
   {
     "title": "Evaluating Large Language Models' Abilities to Process and Understand Technical Policy Reports",
@@ -193,7 +219,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-01T10:24:08.473848+00:00"
+    "fetched_at": "2026-05-02T09:59:13.389436+00:00"
   },
   {
     "title": "Language models know what matters and the foundations of ethics better than you",
@@ -206,7 +232,7 @@
     "published_date": "2026-04-27T14:00:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-01T10:23:59.505390+00:00"
+    "fetched_at": "2026-05-02T09:59:02.625889+00:00"
   },
   {
     "title": "The other paper that killed deep learning theory",
@@ -219,7 +245,7 @@
     "published_date": "2026-04-27T06:57:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-01T10:23:59.505566+00:00"
+    "fetched_at": "2026-05-02T09:59:02.626104+00:00"
   },
   {
     "title": "“Fail safe(r) at alignment by channeling reward-hacking into a “spillway” motivation” by Anders Cairns Woodruff, Alex Mallen",
@@ -232,7 +258,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-01T10:23:59.069169+00:00"
+    "fetched_at": "2026-05-02T09:59:02.182819+00:00"
   },
   {
     "title": "“AI companies should publish security assessments” by Ryan Greenblatt",
@@ -245,7 +271,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-01T10:23:59.069203+00:00"
+    "fetched_at": "2026-05-02T09:59:02.182861+00:00"
   },
   {
     "title": "Evaluating whether AI models would sabotage AI safety research",
@@ -256,7 +282,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-01T10:24:07.996008+00:00"
+    "fetched_at": "2026-05-02T09:59:12.731305+00:00"
   },
   {
     "title": "Quick Paper Review: \"There Will Be a Scientific Theory of Deep Learning\"",
@@ -264,46 +290,11 @@
       "LawrenceC"
     ],
     "organization": "Alignment Forum",
-    "abstract": "h/t Eric Michaud for sharing his paper with me. There’s a tradition of high-impact ML papers using short, punchy categorical sentences as their titles: Understanding Deep Learning Requires Rethinking Generalization, Attention is All You Need, Language Models Are Few Shot Learners, and so forth. A new paper by Simon et al. seeks to expand on this tradition with not a present claim but a future tense, prophetic future sentence: “There Will Be a Scientific Theory of Deep Learning” . There’s a lot of pessimism toward deep learning theory basically everywhere: the people building the AIs are pretty pessimistic, the academic AI researchers are as a general rule pessimistic (even people who used to do theory!), and with the exception of maybe 3-4 research groups, the independent AI safety ecosystem has long since given up on hoping for a theory to understand deep learning.",
+    "abstract": "h/t Eric Michaud for sharing his paper with me. There’s a tradition of high-impact ML papers using short, punchy categorical sentences as their titles: Understanding Deep Learning Requires Rethinking Generalization, Attention is All You Need, Language Models Are Few Shot Learners, and so forth. A new paper by Simon et al. seeks to expand on this tradition with not a present claim but a future tense, prophetic future sentence: “There Will Be a Scientific Theory of Deep Learning” . There’s a lot of pessimism toward deep learning theory basically everywhere : the people building the AIs are pretty pessimistic, the academic AI researchers are as a general rule pessimistic (even people who used to do theory!), and with the exception of maybe 3-4 research groups, the independent AI safety ecosystem has long since given up on hoping for a theory to understand deep learning.",
     "url": "https://www.alignmentforum.org/posts/2WkeiYFT5p3ph8Pkf/quick-paper-review-there-will-be-a-scientific-theory-of-deep",
     "published_date": "2026-04-25T06:55:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-01T10:23:59.505775+00:00"
-  },
-  {
-    "title": "The Coding Assistant Breakdown: More Tokens Please",
-    "authors": [
-      "Max Kan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Since we called out the Claude Code inflection point on February 5th, we have seen a flurry of model releases. Opus, Mythos, Codex, Gemini, DeepSeek, Kimi, Qwen, GLM, MiniMax, Composer, Muse Spark, and more. Today we will break down all of these major model releases, explain when you can vs can’t trust the benchmarks, and give our predictions for the future of the agentic coding market.",
-    "url": "https://newsletter.semianalysis.com/p/the-coding-assistant-breakdown-more",
-    "published_date": "2026-04-24T22:15:46+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-01T10:24:01.446915+00:00"
-  },
-  {
-    "title": "How do environmental factors impact AI behaviour?",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Developing methods to better understand when and why AI models sometimes act against user intentions.",
-    "url": "https://www.aisi.gov.uk/blog/how-do-environmental-factors-impact-ai-behaviour",
-    "published_date": "2026-04-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-01T10:24:07.996332+00:00"
-  },
-  {
-    "title": "What Should Frontier AI Developers Disclose About Internal Deployments?",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "What Should Frontier AI Developers Disclose About Internal Deployments? Frontier AI developers are increasingly deploying highly capable models internally to automate AI R&D, but these deployments currently face limited external oversight. It is essential, therefore, that developers provide evidence that internally deployed models are safe. While recent work has highlighted the risks of internal deployments and proposed broad approaches to transparency and governance, there remains little guidance on the specific information developers should disclose about them. We address this gap by identifying key information that companies should disclose about internally deployed models across four categories: capabilities, usage, safety mitigations, and governance. For each category, we analyse the key benefits and limitations of disclosure and consider how disclosure-related risks can be mitigated. Our framework could be used by developers to inform both public transparency documents, such as model system cards, and private periodic reports required under emerging frontier AI regulation.",
-    "url": "https://www.matsprogram.org/research/what-should-frontier-ai-developers-disclose-about-internal-deployments",
-    "published_date": "2026-04-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-01T10:24:11.120166+00:00"
+    "fetched_at": "2026-05-02T09:59:02.626327+00:00"
   }
 ]
