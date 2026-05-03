@@ -1,5 +1,18 @@
 [
   {
+    "title": "How Go Players Disempower Themselves to AI",
+    "authors": [
+      "Ashe Vazquez Nuñez"
+    ],
+    "organization": "LessWrong",
+    "abstract": "From March 9th to 15th 2016, Go players around the world stayed up to watch their game fall to AI. Google DeepMind’s AlphaGo defeated Lee Sedol, commonly understood to be the world’s strongest player at the time, with a convincing 4-1 score.",
+    "url": "https://www.lesswrong.com/posts/nR3DkyivzF4ve97oM/how-go-players-disempower-themselves-to-ai",
+    "published_date": "2026-05-01T23:24:27.769000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-05-03T10:06:48.231065+00:00"
+  },
+  {
     "title": "Risk from fitness-seeking AIs: mechanisms and mitigations",
     "authors": [
       "Alex Mallen"
@@ -10,7 +23,7 @@
     "published_date": "2026-05-01T17:42:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-02T09:59:02.623790+00:00"
+    "fetched_at": "2026-05-03T10:06:16.788227+00:00"
   },
   {
     "title": "Science and speculation",
@@ -23,7 +36,7 @@
     "published_date": "2026-05-01T14:02:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-05-02T09:59:06.315247+00:00"
+    "fetched_at": "2026-05-03T10:06:20.203116+00:00"
   },
   {
     "title": "AI Value Capture - The Shift To Model Labs",
@@ -36,7 +49,7 @@
     "published_date": "2026-05-01T02:30:43+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-02T09:59:05.512344+00:00"
+    "fetched_at": "2026-05-03T10:06:19.477763+00:00"
   },
   {
     "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
@@ -49,7 +62,7 @@
     "published_date": "2026-04-30T21:53:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-02T09:59:00.157721+00:00"
+    "fetched_at": "2026-05-03T10:06:14.457305+00:00"
   },
   {
     "title": "Auto-review of agent actions without synchronous human oversight",
@@ -62,7 +75,7 @@
     "published_date": "2026-04-30T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-02T09:59:01.273496+00:00"
+    "fetched_at": "2026-05-03T10:06:15.603294+00:00"
   },
   {
     "title": "Research Sabotage in ML Codebases",
@@ -75,7 +88,7 @@
     "published_date": "2026-04-30T00:31:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-02T09:59:02.623950+00:00"
+    "fetched_at": "2026-05-03T10:06:16.788375+00:00"
   },
   {
     "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
@@ -86,7 +99,7 @@
     "published_date": "2026-04-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-02T09:59:12.730211+00:00"
+    "fetched_at": "2026-05-03T10:06:42.404689+00:00"
   },
   {
     "title": "Where the goblins came from",
@@ -99,7 +112,33 @@
     "published_date": "2026-04-29T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-02T09:59:01.129503+00:00"
+    "fetched_at": "2026-05-03T10:06:15.434900+00:00"
+  },
+  {
+    "title": "llm assistant personas seem increasingly incoherent (some subjective observations)",
+    "authors": [
+      "nostalgebraist"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'llm assistant personas seem increasingly incoherent (some subjective observations)'. Published 2026-04-29. Authors: nostalgebraist.",
+    "url": "https://www.lesswrong.com/posts/f5DKLsTsRRhbipH4r/llm-assistant-personas-seem-increasingly-incoherent-some",
+    "published_date": "2026-04-29T03:53:21.771000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-05-03T10:06:48.231114+00:00"
+  },
+  {
+    "title": "Not a Paper: \"Frontier Lab CEOs are Capable of In-Context Scheming\"",
+    "authors": [
+      "LawrenceC"
+    ],
+    "organization": "LessWrong",
+    "abstract": "(Fragments from a research paper that will never be written, but whose existence was brought to my attention by GradientDissenter.) …",
+    "url": "https://www.lesswrong.com/posts/FuauQjjbTCS5QFLk8/not-a-paper-frontier-lab-ceos-are-capable-of-in-context",
+    "published_date": "2026-04-29T03:00:40.928000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-05-03T10:06:48.231107+00:00"
   },
   {
     "title": "“Research Sabotage in ML Codebases” by Eric Gan",
@@ -112,7 +151,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-02T09:59:02.182708+00:00"
+    "fetched_at": "2026-05-03T10:06:16.171832+00:00"
   },
   {
     "title": "How Much More Power Can the U.S. Grid Provide for AI? Projections and Policy Implications for 2030",
@@ -123,7 +162,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-02T09:59:13.388962+00:00"
+    "fetched_at": "2026-05-03T10:06:42.934972+00:00"
   },
   {
     "title": "Exploring Instability Risks in the U.S.-China AI Rivalry: Breakwater Game Overview and Initial Observations",
@@ -134,7 +173,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-02T09:59:13.389199+00:00"
+    "fetched_at": "2026-05-03T10:06:42.935232+00:00"
   },
   {
     "title": "Recursive forecasting: Eliciting long-term forecasts from myopic fitness-seekers",
@@ -147,7 +186,7 @@
     "published_date": "2026-04-28T18:00:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-02T09:59:02.624184+00:00"
+    "fetched_at": "2026-05-03T10:06:16.788597+00:00"
   },
   {
     "title": "MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking",
@@ -160,7 +199,7 @@
     "published_date": "2026-04-28T16:30:07+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-05-02T09:59:06.739750+00:00"
+    "fetched_at": "2026-05-03T10:06:20.651315+00:00"
   },
   {
     "title": "Sleeper Agent Backdoor Results Are Messy",
@@ -173,7 +212,7 @@
     "published_date": "2026-04-28T01:55:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-02T09:59:02.624373+00:00"
+    "fetched_at": "2026-05-03T10:06:16.788784+00:00"
   },
   {
     "title": "“Recursive forecasting” by Arun Jose, Alex Mallen",
@@ -186,7 +225,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-02T09:59:02.182765+00:00"
+    "fetched_at": "2026-05-03T10:06:16.171887+00:00"
   },
   {
     "title": "What should AI safety be trying to achieve?",
@@ -197,7 +236,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-02T09:59:11.939090+00:00"
+    "fetched_at": "2026-05-03T10:06:41.558369+00:00"
   },
   {
     "title": "Ask Don't Tell: Reducing Sycophancy in Large Language Models",
@@ -208,7 +247,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-02T09:59:12.730757+00:00"
+    "fetched_at": "2026-05-03T10:06:42.405283+00:00"
   },
   {
     "title": "Evaluating Large Language Models' Abilities to Process and Understand Technical Policy Reports",
@@ -219,7 +258,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-02T09:59:13.389436+00:00"
+    "fetched_at": "2026-05-03T10:06:42.935484+00:00"
   },
   {
     "title": "Language models know what matters and the foundations of ethics better than you",
@@ -232,7 +271,7 @@
     "published_date": "2026-04-27T14:00:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-02T09:59:02.625889+00:00"
+    "fetched_at": "2026-05-03T10:06:16.790430+00:00"
   },
   {
     "title": "The other paper that killed deep learning theory",
@@ -245,7 +284,7 @@
     "published_date": "2026-04-27T06:57:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-02T09:59:02.626104+00:00"
+    "fetched_at": "2026-05-03T10:06:16.790632+00:00"
   },
   {
     "title": "“Fail safe(r) at alignment by channeling reward-hacking into a “spillway” motivation” by Anders Cairns Woodruff, Alex Mallen",
@@ -258,7 +297,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-02T09:59:02.182819+00:00"
+    "fetched_at": "2026-05-03T10:06:16.171941+00:00"
   },
   {
     "title": "“AI companies should publish security assessments” by Ryan Greenblatt",
@@ -271,7 +310,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-02T09:59:02.182861+00:00"
+    "fetched_at": "2026-05-03T10:06:16.171984+00:00"
   },
   {
     "title": "Evaluating whether AI models would sabotage AI safety research",
@@ -282,19 +321,6 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-02T09:59:12.731305+00:00"
-  },
-  {
-    "title": "Quick Paper Review: \"There Will Be a Scientific Theory of Deep Learning\"",
-    "authors": [
-      "LawrenceC"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "h/t Eric Michaud for sharing his paper with me. There’s a tradition of high-impact ML papers using short, punchy categorical sentences as their titles: Understanding Deep Learning Requires Rethinking Generalization, Attention is All You Need, Language Models Are Few Shot Learners, and so forth. A new paper by Simon et al. seeks to expand on this tradition with not a present claim but a future tense, prophetic future sentence: “There Will Be a Scientific Theory of Deep Learning” . There’s a lot of pessimism toward deep learning theory basically everywhere : the people building the AIs are pretty pessimistic, the academic AI researchers are as a general rule pessimistic (even people who used to do theory!), and with the exception of maybe 3-4 research groups, the independent AI safety ecosystem has long since given up on hoping for a theory to understand deep learning.",
-    "url": "https://www.alignmentforum.org/posts/2WkeiYFT5p3ph8Pkf/quick-paper-review-there-will-be-a-scientific-theory-of-deep",
-    "published_date": "2026-04-25T06:55:26+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-02T09:59:02.626327+00:00"
+    "fetched_at": "2026-05-03T10:06:42.405816+00:00"
   }
 ]
