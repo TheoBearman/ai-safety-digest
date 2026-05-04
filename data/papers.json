@@ -10,7 +10,20 @@
     "published_date": "2026-05-01T23:24:27.769000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-03T10:06:48.231065+00:00"
+    "fetched_at": "2026-05-04T11:06:38.621766+00:00"
+  },
+  {
+    "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+    "authors": [
+      "Eyon Jang"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "We empirically investigate exploration hacking (EH) — where models strategically alter their exploration to resist RL training — by creating model organisms that resist capability elicitation, evaluating countermeasures, and auditing frontier models for their propensity. Authors: Eyon Jang*, Damon Falck*, Joschka Braun*, Nathalie Kirch, Achu Menon, Perusha Moodley, Scott Emmons, Roland S. Zimmermann, David Lindner (*Equal contribution, random order) Paper: arXiv | Code: GitHub | Models: HuggingFace We present the first empirical investigation of exploration hacking — when a model strategically alters its exploration during RL training to influence the training outcome. In our earlier post , we introduced a conceptual framework for this threat model. Here, we summarize the key empirical results of our paper: we create model organisms that resist RL-based capability elicitation, evaluate detection methods against them, and audit frontier models for their propensity to engage in exploration hacking.",
+    "url": "https://www.alignmentforum.org/posts/eeFFpKCDWE9gjfzsk/exploration-hacking-can-llms-learn-to-resist-rl-training-2",
+    "published_date": "2026-05-01T20:54:42+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-04T11:06:21.330099+00:00"
   },
   {
     "title": "Risk from fitness-seeking AIs: mechanisms and mitigations",
@@ -23,7 +36,7 @@
     "published_date": "2026-05-01T17:42:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-03T10:06:16.788227+00:00"
+    "fetched_at": "2026-05-04T11:06:21.330778+00:00"
   },
   {
     "title": "Science and speculation",
@@ -36,7 +49,7 @@
     "published_date": "2026-05-01T14:02:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-05-03T10:06:20.203116+00:00"
+    "fetched_at": "2026-05-04T11:06:24.115780+00:00"
   },
   {
     "title": "AI Value Capture - The Shift To Model Labs",
@@ -49,7 +62,7 @@
     "published_date": "2026-05-01T02:30:43+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-03T10:06:19.477763+00:00"
+    "fetched_at": "2026-05-04T11:06:23.460220+00:00"
   },
   {
     "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
@@ -62,7 +75,7 @@
     "published_date": "2026-04-30T21:53:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-03T10:06:14.457305+00:00"
+    "fetched_at": "2026-05-04T11:06:18.843942+00:00"
   },
   {
     "title": "Auto-review of agent actions without synchronous human oversight",
@@ -75,7 +88,7 @@
     "published_date": "2026-04-30T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-03T10:06:15.603294+00:00"
+    "fetched_at": "2026-05-04T11:06:20.108080+00:00"
   },
   {
     "title": "Research Sabotage in ML Codebases",
@@ -88,7 +101,7 @@
     "published_date": "2026-04-30T00:31:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-03T10:06:16.788375+00:00"
+    "fetched_at": "2026-05-04T11:06:21.330907+00:00"
   },
   {
     "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
@@ -99,7 +112,7 @@
     "published_date": "2026-04-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-03T10:06:42.404689+00:00"
+    "fetched_at": "2026-05-04T11:06:33.444607+00:00"
   },
   {
     "title": "Where the goblins came from",
@@ -112,7 +125,7 @@
     "published_date": "2026-04-29T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-03T10:06:15.434900+00:00"
+    "fetched_at": "2026-05-04T11:06:19.696692+00:00"
   },
   {
     "title": "llm assistant personas seem increasingly incoherent (some subjective observations)",
@@ -125,7 +138,7 @@
     "published_date": "2026-04-29T03:53:21.771000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-03T10:06:48.231114+00:00"
+    "fetched_at": "2026-05-04T11:06:38.621788+00:00"
   },
   {
     "title": "Not a Paper: \"Frontier Lab CEOs are Capable of In-Context Scheming\"",
@@ -138,7 +151,7 @@
     "published_date": "2026-04-29T03:00:40.928000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-03T10:06:48.231107+00:00"
+    "fetched_at": "2026-05-04T11:06:38.621794+00:00"
   },
   {
     "title": "“Research Sabotage in ML Codebases” by Eric Gan",
@@ -151,7 +164,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-03T10:06:16.171832+00:00"
+    "fetched_at": "2026-05-04T11:06:20.720242+00:00"
   },
   {
     "title": "How Much More Power Can the U.S. Grid Provide for AI? Projections and Policy Implications for 2030",
@@ -162,7 +175,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-03T10:06:42.934972+00:00"
+    "fetched_at": "2026-05-04T11:06:33.809654+00:00"
   },
   {
     "title": "Exploring Instability Risks in the U.S.-China AI Rivalry: Breakwater Game Overview and Initial Observations",
@@ -173,7 +186,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-03T10:06:42.935232+00:00"
+    "fetched_at": "2026-05-04T11:06:33.809853+00:00"
   },
   {
     "title": "Recursive forecasting: Eliciting long-term forecasts from myopic fitness-seekers",
@@ -186,7 +199,7 @@
     "published_date": "2026-04-28T18:00:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-03T10:06:16.788597+00:00"
+    "fetched_at": "2026-05-04T11:06:21.331130+00:00"
   },
   {
     "title": "MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking",
@@ -199,7 +212,7 @@
     "published_date": "2026-04-28T16:30:07+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-05-03T10:06:20.651315+00:00"
+    "fetched_at": "2026-05-04T11:06:24.588665+00:00"
   },
   {
     "title": "Sleeper Agent Backdoor Results Are Messy",
@@ -212,7 +225,7 @@
     "published_date": "2026-04-28T01:55:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-03T10:06:16.788784+00:00"
+    "fetched_at": "2026-05-04T11:06:21.331314+00:00"
   },
   {
     "title": "“Recursive forecasting” by Arun Jose, Alex Mallen",
@@ -225,7 +238,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-03T10:06:16.171887+00:00"
+    "fetched_at": "2026-05-04T11:06:20.720293+00:00"
   },
   {
     "title": "What should AI safety be trying to achieve?",
@@ -236,7 +249,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-03T10:06:41.558369+00:00"
+    "fetched_at": "2026-05-04T11:06:32.855567+00:00"
   },
   {
     "title": "Ask Don't Tell: Reducing Sycophancy in Large Language Models",
@@ -247,7 +260,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-03T10:06:42.405283+00:00"
+    "fetched_at": "2026-05-04T11:06:33.445092+00:00"
   },
   {
     "title": "Evaluating Large Language Models' Abilities to Process and Understand Technical Policy Reports",
@@ -258,7 +271,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-03T10:06:42.935484+00:00"
+    "fetched_at": "2026-05-04T11:06:33.810047+00:00"
   },
   {
     "title": "Language models know what matters and the foundations of ethics better than you",
@@ -271,7 +284,7 @@
     "published_date": "2026-04-27T14:00:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-03T10:06:16.790430+00:00"
+    "fetched_at": "2026-05-04T11:06:21.332960+00:00"
   },
   {
     "title": "The other paper that killed deep learning theory",
@@ -284,7 +297,7 @@
     "published_date": "2026-04-27T06:57:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-03T10:06:16.790632+00:00"
+    "fetched_at": "2026-05-04T11:06:21.333137+00:00"
   },
   {
     "title": "“Fail safe(r) at alignment by channeling reward-hacking into a “spillway” motivation” by Anders Cairns Woodruff, Alex Mallen",
@@ -297,7 +310,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-03T10:06:16.171941+00:00"
+    "fetched_at": "2026-05-04T11:06:20.720347+00:00"
   },
   {
     "title": "“AI companies should publish security assessments” by Ryan Greenblatt",
@@ -310,7 +323,7 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-03T10:06:16.171984+00:00"
+    "fetched_at": "2026-05-04T11:06:20.720389+00:00"
   },
   {
     "title": "Evaluating whether AI models would sabotage AI safety research",
@@ -321,6 +334,6 @@
     "published_date": "2026-04-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-03T10:06:42.405816+00:00"
+    "fetched_at": "2026-05-04T11:06:33.445526+00:00"
   }
 ]
