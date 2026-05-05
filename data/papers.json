@@ -1,5 +1,40 @@
 [
   {
+    "title": "Aviate, Navigate, Communicate",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "I have exciting news: I am writing a book! It is currently untitled and will be published next year by Penguin Press. The book will be a work of political theory just as much as it will be a book about AI. I cannot wait to tell you more about it. All I can say is that it is the most ambitious project I’ve ever undertaken, and an effort to answer—tentatively—questions I first asked here. Practically speaking, this does mean I expect my publication volume to drop, though I do not know how much. I expect a minimum of two essays per month, and hopefully more.",
+    "url": "https://www.hyperdimensional.co/p/aviate-navigate-communicate",
+    "published_date": "2026-05-04T11:46:11+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-05-05T10:47:48.977197+00:00"
+  },
+  {
+    "title": "Contingency Frameworks for Future U.S.-China Cooperation on AI Assurance and Security: Preserving Strategic Optionality",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights May 4, 2026 The author aims to inform artificial intelligence contingency planning under the premise that preserving strategic optionality for future U.S.-China engagement serves U.S. interests. He proposes five potential lines of effort for doing so.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4825-1.html",
+    "published_date": "2026-05-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-05-05T10:47:55.170714+00:00"
+  },
+  {
+    "title": "Open-Weight AI Models Require Proportional Evaluation Approaches",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights May 4, 2026 Open-weight AI models (OWMs) introduce distinct risk factors for which existing evaluation practices, largely designed for closed-weight model deployment, fail to account. The authors propose proportional evaluation approaches for OWMs.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4886-1.html",
+    "published_date": "2026-05-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-05-05T10:47:55.170926+00:00"
+  },
+  {
     "title": "How Go Players Disempower Themselves to AI",
     "authors": [
       "Ashe Vazquez Nuñez"
@@ -10,20 +45,7 @@
     "published_date": "2026-05-01T23:24:27.769000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-04T11:06:38.621766+00:00"
-  },
-  {
-    "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
-    "authors": [
-      "Eyon Jang"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "We empirically investigate exploration hacking (EH) — where models strategically alter their exploration to resist RL training — by creating model organisms that resist capability elicitation, evaluating countermeasures, and auditing frontier models for their propensity. Authors: Eyon Jang*, Damon Falck*, Joschka Braun*, Nathalie Kirch, Achu Menon, Perusha Moodley, Scott Emmons, Roland S. Zimmermann, David Lindner (*Equal contribution, random order) Paper: arXiv | Code: GitHub | Models: HuggingFace We present the first empirical investigation of exploration hacking — when a model strategically alters its exploration during RL training to influence the training outcome. In our earlier post , we introduced a conceptual framework for this threat model. Here, we summarize the key empirical results of our paper: we create model organisms that resist RL-based capability elicitation, evaluate detection methods against them, and audit frontier models for their propensity to engage in exploration hacking.",
-    "url": "https://www.alignmentforum.org/posts/eeFFpKCDWE9gjfzsk/exploration-hacking-can-llms-learn-to-resist-rl-training-2",
-    "published_date": "2026-05-01T20:54:42+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-04T11:06:21.330099+00:00"
+    "fetched_at": "2026-05-05T10:48:00.386515+00:00"
   },
   {
     "title": "Risk from fitness-seeking AIs: mechanisms and mitigations",
@@ -36,7 +58,7 @@
     "published_date": "2026-05-01T17:42:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-04T11:06:21.330778+00:00"
+    "fetched_at": "2026-05-05T10:47:45.496307+00:00"
   },
   {
     "title": "Science and speculation",
@@ -49,7 +71,7 @@
     "published_date": "2026-05-01T14:02:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-05-04T11:06:24.115780+00:00"
+    "fetched_at": "2026-05-05T10:47:49.321419+00:00"
   },
   {
     "title": "AI Value Capture - The Shift To Model Labs",
@@ -62,7 +84,7 @@
     "published_date": "2026-05-01T02:30:43+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-04T11:06:23.460220+00:00"
+    "fetched_at": "2026-05-05T10:47:48.764095+00:00"
   },
   {
     "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
@@ -70,12 +92,12 @@
       "Gagan Bansal, Shujaat Mirza, Keegan Hines, Will Epperson, Zachary Huang, Whitney Maxwell, Pete Bryan, Tyler Payne, Adam Fourney, Amanda Swearngin, Wenyue Hua, Tori Westerhoff, Amanda Minnich, Maya Murad, Ece Kamar, Ram Shankar Siva Kumar, Saleema Amershi"
     ],
     "organization": "Microsoft Research",
-    "abstract": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches. The post Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale appeared first on Microsoft Research .",
+    "abstract": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches.",
     "url": "https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/",
     "published_date": "2026-04-30T21:53:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-04T11:06:18.843942+00:00"
+    "fetched_at": "2026-05-05T10:47:43.214541+00:00"
   },
   {
     "title": "Auto-review of agent actions without synchronous human oversight",
@@ -88,7 +110,7 @@
     "published_date": "2026-04-30T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-04T11:06:20.108080+00:00"
+    "fetched_at": "2026-05-05T10:47:44.402838+00:00"
   },
   {
     "title": "Research Sabotage in ML Codebases",
@@ -101,7 +123,18 @@
     "published_date": "2026-04-30T00:31:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-04T11:06:21.330907+00:00"
+    "fetched_at": "2026-05-05T10:47:45.496445+00:00"
+  },
+  {
+    "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Exploration Hacking: Can LLMs Learn to Resist RL Training? Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignment. Successful RL relies on sufficient exploration of diverse actions by the model during training, which creates a potential failure mode: a model could strategically alter its exploration during training to influence the subsequent training outcome. In this paper we study this behavior, called exploration hacking. First, we create model organisms of selective RL resistance by fine-tuning LLMs to follow specific underperformance strategies; these models can successfully resist our RL-based capability elicitation in agentic biosecurity and AI R&D environments while maintaining performance on related tasks. We then use our model organisms to evaluate detection and mitigation strategies, including monitoring, weight noising, and SFT-based elicitation.",
+    "url": "https://www.matsprogram.org/research/exploration-hacking-can-llms-learn-to-resist-rl-training",
+    "published_date": "2026-04-30T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-05-05T10:47:58.686464+00:00"
   },
   {
     "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
@@ -112,7 +145,7 @@
     "published_date": "2026-04-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-04T11:06:33.444607+00:00"
+    "fetched_at": "2026-05-05T10:47:54.818971+00:00"
   },
   {
     "title": "Where the goblins came from",
@@ -125,7 +158,7 @@
     "published_date": "2026-04-29T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-04T11:06:19.696692+00:00"
+    "fetched_at": "2026-05-05T10:47:44.276327+00:00"
   },
   {
     "title": "llm assistant personas seem increasingly incoherent (some subjective observations)",
@@ -138,7 +171,7 @@
     "published_date": "2026-04-29T03:53:21.771000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-04T11:06:38.621788+00:00"
+    "fetched_at": "2026-05-05T10:48:00.386532+00:00"
   },
   {
     "title": "Not a Paper: \"Frontier Lab CEOs are Capable of In-Context Scheming\"",
@@ -151,7 +184,7 @@
     "published_date": "2026-04-29T03:00:40.928000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-04T11:06:38.621794+00:00"
+    "fetched_at": "2026-05-05T10:48:00.386540+00:00"
   },
   {
     "title": "“Research Sabotage in ML Codebases” by Eric Gan",
@@ -164,7 +197,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-04T11:06:20.720242+00:00"
+    "fetched_at": "2026-05-05T10:47:45.150396+00:00"
   },
   {
     "title": "How Much More Power Can the U.S. Grid Provide for AI? Projections and Policy Implications for 2030",
@@ -175,7 +208,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-04T11:06:33.809654+00:00"
+    "fetched_at": "2026-05-05T10:47:55.171192+00:00"
   },
   {
     "title": "Exploring Instability Risks in the U.S.-China AI Rivalry: Breakwater Game Overview and Initial Observations",
@@ -186,7 +219,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-04T11:06:33.809853+00:00"
+    "fetched_at": "2026-05-05T10:47:55.171431+00:00"
   },
   {
     "title": "Recursive forecasting: Eliciting long-term forecasts from myopic fitness-seekers",
@@ -199,7 +232,7 @@
     "published_date": "2026-04-28T18:00:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-04T11:06:21.331130+00:00"
+    "fetched_at": "2026-05-05T10:47:45.496667+00:00"
   },
   {
     "title": "MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking",
@@ -212,7 +245,7 @@
     "published_date": "2026-04-28T16:30:07+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-05-04T11:06:24.588665+00:00"
+    "fetched_at": "2026-05-05T10:47:49.626200+00:00"
   },
   {
     "title": "Sleeper Agent Backdoor Results Are Messy",
@@ -225,7 +258,7 @@
     "published_date": "2026-04-28T01:55:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-04T11:06:21.331314+00:00"
+    "fetched_at": "2026-05-05T10:47:45.496852+00:00"
   },
   {
     "title": "“Recursive forecasting” by Arun Jose, Alex Mallen",
@@ -238,7 +271,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-04T11:06:20.720293+00:00"
+    "fetched_at": "2026-05-05T10:47:45.150451+00:00"
   },
   {
     "title": "What should AI safety be trying to achieve?",
@@ -249,7 +282,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-04T11:06:32.855567+00:00"
+    "fetched_at": "2026-05-05T10:47:53.975019+00:00"
   },
   {
     "title": "Ask Don't Tell: Reducing Sycophancy in Large Language Models",
@@ -260,7 +293,7 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-04T11:06:33.445092+00:00"
+    "fetched_at": "2026-05-05T10:47:54.819558+00:00"
   },
   {
     "title": "Evaluating Large Language Models' Abilities to Process and Understand Technical Policy Reports",
@@ -271,69 +304,6 @@
     "published_date": "2026-04-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-04T11:06:33.810047+00:00"
-  },
-  {
-    "title": "Language models know what matters and the foundations of ethics better than you",
-    "authors": [
-      "Michele Campolo"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "… maybe! I tried to think of less provocative titles, but this one is to the point and also kind of true. This post looks long but the essential part is right below. Most of the post is just a collection of copy-pasted input-output pairs from language models: you’ll probably want to read just a few and skip the others. The first example with Gemini 3 is the most important, in my opinion. If you are in a hurry, read headings and bold . Posted also on the EA Forum. (I wanted to post this before the start of the AFFINE seminar, so I’ve rushed things a bit and there might be inaccuracies: feel free to point them out if you notice any.",
-    "url": "https://www.alignmentforum.org/posts/cmaJ76Sy9DfZ4EHaZ/language-models-know-what-matters-and-the-foundations-of",
-    "published_date": "2026-04-27T14:00:14+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-04T11:06:21.332960+00:00"
-  },
-  {
-    "title": "The other paper that killed deep learning theory",
-    "authors": [
-      "LawrenceC"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Yesterday, I wrote about the state of deep learning theory circa 2016 , [1] &nbsp;as well as the bombshell 2016 paper by Zhang et al. that arguably signaled its demise. Today, I cover the aftermath, and the 2019 paper that devastated deep learning theory again. As a brief summary, I argued that the rise of deep learning posed an existential challenge to the dominant theoretical paradigm of statistical learning theory , because neural networks have a lot of complexity. The response from the field was to attempt to quantify other ways in which the hypothesis class of neural networks in practice &nbsp;was simple, using alternative metrics of complexity. Zhang et al. 2016 showed that the standard neural network architectures trained with standard training methods could memorize large quantities of random labelled data, which showed that no such argument could explain the generalization properties of neural networks.",
-    "url": "https://www.alignmentforum.org/posts/zcGmdQHX66NhC69v6/the-other-paper-that-killed-deep-learning-theory",
-    "published_date": "2026-04-27T06:57:11+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-04T11:06:21.333137+00:00"
-  },
-  {
-    "title": "“Fail safe(r) at alignment by channeling reward-hacking into a “spillway” motivation” by Anders Cairns Woodruff, Alex Mallen",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: A controlled reward-seeking motivation could make AI safer and more useful. It's plausible that flawed RL processes will select for misaligned AI motivations.1 Some misaligned motivations are much more dangerous than others. So, developers should plausibly aim to control which kind of misaligned motivations emerge in this case. In particular, we tentatively propose that developers should try to make the most likely generalization of reward hacking a bespoke bundle of benign reward-seeking traits, called a spillway motivation. We call this process spillway design. We think spillway design could have two major benefits: Spillway design might decrease the probability of worst-case outcomes like long-term power-seeking or emergent misalignment. Spillway design might allow developers to decrease reward hacking at inference time, via satiation. Crucially, this could improve the AI's usefulness for hard-to-verify tasks like AI safety and strategy. Spillway design is related to inoculation prompting, but distinct and mutually compatible.",
-    "url": "https://blog.redwoodresearch.org/p/fail-safer-at-alignment-by-channeling",
-    "published_date": "2026-04-27T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-04T11:06:20.720347+00:00"
-  },
-  {
-    "title": "“AI companies should publish security assessments” by Ryan Greenblatt",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Third-party experts should assess defenses against tampering and theft — and publish high-level findings. AI companies should get third-party security experts to assess (and possibly also red-team/pen-test) their security against key threat models and then publish the high-level findings of this assessment: the extent to which they can defend against different threat actors for each threat model. They should also publish who did this assessment. The assessment could be commissioned by AI companies, or performed by a third-party institution that AI companies provide with relevant information/access. There are presumably lots of important details in doing this well, and I’m not a computer security expert, so I may be getting some of the details wrong. This is a relatively low-effort post in which I’m mostly trying to raise the salience of an idea.",
-    "url": "https://blog.redwoodresearch.org/p/ai-companies-should-publish-security",
-    "published_date": "2026-04-27T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-04T11:06:20.720389+00:00"
-  },
-  {
-    "title": "Evaluating whether AI models would sabotage AI safety research",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "AI systems are increasingly being used internally within frontier AI companies to assist with research and development, including AI safety work. However, if these systems behave in misaligned or unintended ways when performing safety research, future models could be less safe, potentially in ways that are hard to detect.",
-    "url": "https://www.aisi.gov.uk/blog/evaluating-whether-ai-models-would-sabotage-ai-safety-research",
-    "published_date": "2026-04-27T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-04T11:06:33.445526+00:00"
+    "fetched_at": "2026-05-05T10:47:55.171665+00:00"
   }
 ]
