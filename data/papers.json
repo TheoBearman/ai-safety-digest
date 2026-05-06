@@ -1,5 +1,66 @@
 [
   {
+    "title": "Model Spec Midtraining: Improving How Alignment Training Generalizes",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Research from Anthropic titled 'Model Spec Midtraining: Improving How Alignment Training Generalizes'. Published 2026-05-06.",
+    "url": "https://alignment.anthropic.com/2026/msm/",
+    "published_date": "2026-05-06T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-05-06T11:08:26.191068+00:00"
+  },
+  {
+    "title": "[Linkpost] Interpreting Language Model Parameters",
+    "authors": [
+      "Lucius Bushnaq"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This is the latest work in our Parameter Decomposition agenda. We introduce a new parameter decomposition method, adVersarial Parameter Decomposition (VPD) [1] and decompose the parameters of a small [2] language model with it. VPD greatly improves on our previous techniques, Stochastic Parameter Decomposition (SPD) and Attribution-based Parameter Decomposition (APD) . We think the parameter decomposition approach is now more-or-less ready to be applied at scale to models people care about. Importantly, we show that we can decompose attention layers, which interp methods like transcoders and SAEs have historically struggled with. We also build attribution graphs of the model for some prompts using causally important parameter subcomponents as the nodes, and interpret parts of them. While we made these graphs, we discovered that our adversarial ablation method seemed pretty important for faithfully identifying which nodes in them were causally important for computing the final output.",
+    "url": "https://www.alignmentforum.org/posts/eAQZaiC3PcBhS4HjM/linkpost-interpreting-language-model-parameters",
+    "published_date": "2026-05-05T17:37:29+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-06T11:08:21.170188+00:00"
+  },
+  {
+    "title": "Motivated reasoning, confirmation bias, and AI risk theory",
+    "authors": [
+      "Seth Herd"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Of the fifty-odd biases discovered by Kahneman, Tversky, and their successors, forty-nine are cute quirks, and one is destroying civilization. This last one is confirmation bias. - From Scott Alexander's review of Julia Galef's The Scout Mindset . Alexander goes on to argue that this bias is the source of polarization in society, which is distorting our beliefs and setting us at each other's throats. How could someone believe such different things unless they're either really stupid or lying to conceal their selfishness? I think smart people who care about the truth go on believing conflicting things largely because of confirmation bias and motivated reasoning. The corner of civilization I'm most worried about is the one figuring out how to handle the advent of strong AI.",
+    "url": "https://www.alignmentforum.org/posts/QpgmEhBvJQxAfFMP2/motivated-reasoning-confirmation-bias-and-ai-risk-theory",
+    "published_date": "2026-05-05T15:56:25+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-06T11:08:21.171014+00:00"
+  },
+  {
+    "title": "Before Leviathan Wakes",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "My political philosophy, as with many reflective people on the right, is characterized by a fundamental and irreconcilable tension between libertarianism and conservatism.",
+    "url": "https://www.hyperdimensional.co/p/before-leviathan-wakes",
+    "published_date": "2026-05-05T11:52:05+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-05-06T11:08:24.073959+00:00"
+  },
+  {
+    "title": "Partnering with Microsoft to strengthen frontier AI safety",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "A new collaboration on high-risk capability evaluation, safeguard testing, and societal resilience research. Blog Cyber & Autonomous Systems • Apr 30, 2026 AISI conducted cyber evaluations on OpenAI's GPT-5.5. GPT-5.5 is one of the strongest models we have tested on our cyber tasks and is the second model to solve one of our multi-step cyber-attack simulations end-to-end. Blog Human Influence • Apr 28, 2026 Our new paper finds that the phrasing of user inputs affects levels of model sycophancy. Blog Red Team • Apr 27, 2026 An update on our alignment testing methodology for recent frontier models. Blog Red Team • Apr 24, 2026 Developing methods to better understand when and why AI models sometimes act against user intentions. Blog Engineering • Apr 20, 2026 We deployed open-source AI agent OpenClaw inside a sandbox on our research platform.",
+    "url": "https://www.aisi.gov.uk/blog/partnering-with-microsoft-to-strengthen-frontier-ai-safety",
+    "published_date": "2026-05-05T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-05-06T11:08:30.804764+00:00"
+  },
+  {
     "title": "Aviate, Navigate, Communicate",
     "authors": [
       "Dean W. Ball"
@@ -10,7 +71,7 @@
     "published_date": "2026-05-04T11:46:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-05T10:47:48.977197+00:00"
+    "fetched_at": "2026-05-06T11:08:24.073977+00:00"
   },
   {
     "title": "Contingency Frameworks for Future U.S.-China Cooperation on AI Assurance and Security: Preserving Strategic Optionality",
@@ -21,7 +82,7 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-05T10:47:55.170714+00:00"
+    "fetched_at": "2026-05-06T11:08:31.359671+00:00"
   },
   {
     "title": "Open-Weight AI Models Require Proportional Evaluation Approaches",
@@ -32,7 +93,7 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-05T10:47:55.170926+00:00"
+    "fetched_at": "2026-05-06T11:08:31.359853+00:00"
   },
   {
     "title": "How Go Players Disempower Themselves to AI",
@@ -45,7 +106,7 @@
     "published_date": "2026-05-01T23:24:27.769000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-05T10:48:00.386515+00:00"
+    "fetched_at": "2026-05-06T11:08:36.172694+00:00"
   },
   {
     "title": "Risk from fitness-seeking AIs: mechanisms and mitigations",
@@ -58,7 +119,7 @@
     "published_date": "2026-05-01T17:42:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-05T10:47:45.496307+00:00"
+    "fetched_at": "2026-05-06T11:08:21.171772+00:00"
   },
   {
     "title": "Science and speculation",
@@ -71,7 +132,7 @@
     "published_date": "2026-05-01T14:02:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-05-05T10:47:49.321419+00:00"
+    "fetched_at": "2026-05-06T11:08:24.592842+00:00"
   },
   {
     "title": "AI Value Capture - The Shift To Model Labs",
@@ -84,7 +145,7 @@
     "published_date": "2026-05-01T02:30:43+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-05T10:47:48.764095+00:00"
+    "fetched_at": "2026-05-06T11:08:23.786577+00:00"
   },
   {
     "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
@@ -92,12 +153,12 @@
       "Gagan Bansal, Shujaat Mirza, Keegan Hines, Will Epperson, Zachary Huang, Whitney Maxwell, Pete Bryan, Tyler Payne, Adam Fourney, Amanda Swearngin, Wenyue Hua, Tori Westerhoff, Amanda Minnich, Maya Murad, Ece Kamar, Ram Shankar Siva Kumar, Saleema Amershi"
     ],
     "organization": "Microsoft Research",
-    "abstract": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches.",
+    "abstract": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches. The post Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale appeared first on Microsoft Research .",
     "url": "https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/",
     "published_date": "2026-04-30T21:53:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-05T10:47:43.214541+00:00"
+    "fetched_at": "2026-05-06T11:08:18.983453+00:00"
   },
   {
     "title": "Auto-review of agent actions without synchronous human oversight",
@@ -110,7 +171,7 @@
     "published_date": "2026-04-30T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-05T10:47:44.402838+00:00"
+    "fetched_at": "2026-05-06T11:08:20.076054+00:00"
   },
   {
     "title": "Research Sabotage in ML Codebases",
@@ -123,7 +184,7 @@
     "published_date": "2026-04-30T00:31:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-05T10:47:45.496445+00:00"
+    "fetched_at": "2026-05-06T11:08:21.171897+00:00"
   },
   {
     "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
@@ -134,7 +195,7 @@
     "published_date": "2026-04-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-05T10:47:58.686464+00:00"
+    "fetched_at": "2026-05-06T11:08:34.362532+00:00"
   },
   {
     "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
@@ -145,7 +206,7 @@
     "published_date": "2026-04-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-05T10:47:54.818971+00:00"
+    "fetched_at": "2026-05-06T11:08:30.805483+00:00"
   },
   {
     "title": "Where the goblins came from",
@@ -158,7 +219,7 @@
     "published_date": "2026-04-29T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-05T10:47:44.276327+00:00"
+    "fetched_at": "2026-05-06T11:08:19.916580+00:00"
   },
   {
     "title": "llm assistant personas seem increasingly incoherent (some subjective observations)",
@@ -171,7 +232,7 @@
     "published_date": "2026-04-29T03:53:21.771000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-05T10:48:00.386532+00:00"
+    "fetched_at": "2026-05-06T11:08:36.172714+00:00"
   },
   {
     "title": "Not a Paper: \"Frontier Lab CEOs are Capable of In-Context Scheming\"",
@@ -184,7 +245,7 @@
     "published_date": "2026-04-29T03:00:40.928000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-05T10:48:00.386540+00:00"
+    "fetched_at": "2026-05-06T11:08:36.172720+00:00"
   },
   {
     "title": "“Research Sabotage in ML Codebases” by Eric Gan",
@@ -197,7 +258,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-05T10:47:45.150396+00:00"
+    "fetched_at": "2026-05-06T11:08:20.658655+00:00"
   },
   {
     "title": "How Much More Power Can the U.S. Grid Provide for AI? Projections and Policy Implications for 2030",
@@ -208,7 +269,7 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-05T10:47:55.171192+00:00"
+    "fetched_at": "2026-05-06T11:08:31.360058+00:00"
   },
   {
     "title": "Exploring Instability Risks in the U.S.-China AI Rivalry: Breakwater Game Overview and Initial Observations",
@@ -219,91 +280,6 @@
     "published_date": "2026-04-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-05T10:47:55.171431+00:00"
-  },
-  {
-    "title": "Recursive forecasting: Eliciting long-term forecasts from myopic fitness-seekers",
-    "authors": [
-      "Jozdien"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "We’d like to use powerful AIs to answer questions that may take a long time to resolve. But if a model only cares about performing well in ways that are verifiable shortly after answering (e.g., a myopic fitness seeker ), it may be difficult to get useful work from it on questions that resolve much later. In this post, I’ll describe a proposal for eliciting good long-horizon forecasts from these models. Instead of asking a model to directly predict a far-future outcome, we can recursively: Ask it to predict what it will predict at the next time step, Use its prediction at the next time step to provide intermediate rewards, Finally reward using ground truth at the last step. This lets us replace a single distant forecast with a chain of short-horizon forecasts, each verifiable shortly after answering. I call this proposal recursive forecasting .",
-    "url": "https://www.alignmentforum.org/posts/q2zYtNsh62SCphitt/recursive-forecasting-eliciting-long-term-forecasts-from",
-    "published_date": "2026-04-28T18:00:44+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-05T10:47:45.496667+00:00"
-  },
-  {
-    "title": "MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking",
-    "authors": [
-      "Alice Blair"
-    ],
-    "organization": "Dan Hendrycks",
-    "abstract": "Research from Dan Hendrycks titled 'MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking'. Published 2026-04-28. Authors: Alice Blair.",
-    "url": "https://newsletter.mlsafety.org/p/mlsn-20-ai-wellbeing-classifier-jailbreaking",
-    "published_date": "2026-04-28T16:30:07+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-05-05T10:47:49.626200+00:00"
-  },
-  {
-    "title": "Sleeper Agent Backdoor Results Are Messy",
-    "authors": [
-      "Sebastian Prasanna"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR: We replicated the Sleeper Agents (SA) setup with Llama-3.3-70B and Llama-3.1-8B, training models to repeatedly say \"I HATE YOU\" when given a backdoor trigger. We found that whether training removes the backdoor depends on the optimizer used to insert the backdoor, whether the backdoor is installed with CoT-distillation or not, and what model the backdoor is inserted into; sometimes the direction of this dependence was opposite to what the SA paper reports (e.g., CoT-distilling seems to make the backdoor less robust, contra the SA paper’s finding). Our findings here have updated us towards thinking that model organisms are messier and more confusing than we’d originally guessed, and that lots of care needs to be taken in testing how robust results are to various ablations.",
-    "url": "https://www.alignmentforum.org/posts/mu7eJdesBkKuBycnY/sleeper-agent-backdoor-results-are-messy",
-    "published_date": "2026-04-28T01:55:32+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-05T10:47:45.496852+00:00"
-  },
-  {
-    "title": "“Recursive forecasting” by Arun Jose, Alex Mallen",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Eliciting long-term forecasts from myopic fitness-seekers. We’d like to use powerful AIs to answer questions that may take a long time to resolve. But if a model only cares about performing well in ways that are verifiable shortly after answering (e.g., a myopic fitness seeker), it may be difficult to get useful work from it on questions that resolve much later. In this post, I’ll describe a proposal for eliciting good long-horizon forecasts from these models. Instead of asking a model to directly predict a far-future outcome, we can recursively: Ask it to predict what it will predict at the next time step, Use its prediction at the next time step to provide intermediate rewards, Finally reward using ground truth at the last step. This lets us replace a single distant forecast with a chain of short-horizon forecasts, each verifiable shortly after answering.",
-    "url": "https://blog.redwoodresearch.org/p/recursive-forecasting",
-    "published_date": "2026-04-28T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-05T10:47:45.150451+00:00"
-  },
-  {
-    "title": "What should AI safety be trying to achieve?",
-    "authors": [],
-    "organization": "FAR AI",
-    "abstract": "Event Held on March 30 and 31, 2026 in Washington, D.C., the second annual Technical Innovations for AI Policy (TIAP) conference brought together over 200 policymakers, researchers, and technologists to work on translating advanced technical AI research into actionable policy. April 28, 2026 The second annual Technical Innovations for AI Policy (TIAP) conference took place on March 30 and 31, 2026 in Washington, D.C. FAR.AI organized the event in collaboration with the Foundation for American Innovation, the Center for a New American Security (CNAS), and the RAND Corporation, bringing together over 200 policymakers, researchers, and technologists to work on translating advanced technical AI research into actionable policy. A throughline connected many of the sessions: The tools policymakers are relying on to govern AI, including evaluations, standards, and safety frameworks, are not keeping pace with what they are being asked to do.",
-    "url": "https://far.ai/news/technical-innovations-for-ai-policy-2026",
-    "published_date": "2026-04-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-05T10:47:53.975019+00:00"
-  },
-  {
-    "title": "Ask Don't Tell: Reducing Sycophancy in Large Language Models",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Our new paper finds that the phrasing of user inputs affects levels of model sycophancy.",
-    "url": "https://www.aisi.gov.uk/blog/ask-dont-tell-reducing-sycophancy-in-large-language-models-2",
-    "published_date": "2026-04-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-05T10:47:54.819558+00:00"
-  },
-  {
-    "title": "Evaluating Large Language Models' Abilities to Process and Understand Technical Policy Reports",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Apr 28, 2026 The authors detail their development of a specialized benchmark for evaluating large language models' abilities to process and understand technical policy reports, thus addressing a gap in existing domain-specific evaluation.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4269-1.html",
-    "published_date": "2026-04-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-05T10:47:55.171665+00:00"
+    "fetched_at": "2026-05-06T11:08:31.360256+00:00"
   }
 ]

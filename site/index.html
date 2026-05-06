@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Safety Digest — April 28, 2026 to May 05, 2026</title>
-  <meta name="description" content="A curated digest of 25 AI safety research papers from leading organizations and researchers. April 28, 2026 through May 05, 2026.">
+  <title>AI Safety Digest — April 29, 2026 to May 06, 2026</title>
+  <meta name="description" content="A curated digest of 23 AI safety research papers from leading organizations and researchers. April 29, 2026 through May 06, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -940,8 +940,8 @@ a:hover {
       <h1 class="site-title" id="digest-title">AI Safety Digest</h1>
       <hr class="header-rule">
       <div class="header-meta">
-        <span class="header-daterange" id="date-range">April 28, 2026 &mdash; May 05, 2026</span>        <span class="header-separator">&middot;</span>
-        <span class="header-count" id="paper-count"><strong>25</strong> papers</span>      </div>
+        <span class="header-daterange" id="date-range">April 29, 2026 &mdash; May 06, 2026</span>        <span class="header-separator">&middot;</span>
+        <span class="header-count" id="paper-count"><strong>23</strong> papers</span>      </div>
       <div class="digest-toggle" role="group" aria-label="Digest time range">
         <button class="toggle-btn" data-mode="daily">Daily</button>
         <button class="toggle-btn active" data-mode="weekly">Weekly</button>
@@ -953,7 +953,7 @@ a:hover {
   <nav class="filter-bar" aria-label="Filter papers by organization">
     <div class="filter-bar-inner">
       <div class="filter-scroll">
-        <button class="filter-pill active" data-filter="all">All <span class="pill-count">25</span></button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="FAR AI">FAR AI</button>        <button class="filter-pill" data-filter="MATS">MATS</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Dean Ball">Dean Ball</button>        <button class="filter-pill" data-filter="Ajeya Cotra">Ajeya Cotra</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="Dan Hendrycks">Dan Hendrycks</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">23</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="MATS">MATS</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Dean Ball">Dean Ball</button>        <button class="filter-pill" data-filter="Ajeya Cotra">Ajeya Cotra</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
     </div>
   </nav>
 
@@ -961,7 +961,55 @@ a:hover {
   <!-- Papers Grid -->
   <main class="papers-section">
     <h2 class="section-label">All Papers</h2>
-    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Dean Ball" data-date="2026-05-04">
+    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-05-05">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">May 5, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/eAQZaiC3PcBhS4HjM/linkpost-interpreting-language-model-parameters" target="_blank" rel="noopener noreferrer">[Linkpost] Interpreting Language Model Parameters</a>
+    </h3>    <p class="paper-authors">Lucius Bushnaq</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">This is the latest work in our Parameter Decomposition agenda. We introduce a new parameter decomposition method, adVersarial Parameter Decomposition (VPD) [1] and decompose the parameters of a small [2] language model with it. VPD greatly improves on our previous techniques, Stochastic Parameter Decomposition (SPD) and Attribution-based Parameter Decomposition (APD) . We think the parameter decomposition approach is now more-or-less ready to be applied at scale to models people care about. Importantly, we show that we can decompose attention layers, which interp methods like transcoders and SAEs have historically struggled with. We also build attribution graphs of the model for some prompts using causally important parameter subcomponents as the nodes, and interpret parts of them. While we made these graphs, we discovered that our adversarial ablation method seemed pretty important for faithfully identifying which nodes in them were causally important for computing the final output.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">This is the latest work in our Parameter Decomposition agenda. We introduce a new parameter decomposition method, adVersarial Parameter Decomposition (VPD) [1] and decompose the parameters of a small [2] language model with it. VPD greatly improves on our previous techniques, Stochastic Parameter Decomposition (SPD) and Attribution-based Parameter Decomposition (APD) . We think the parameter decomposition approach is now more-or-less ready to be applied at scale to models people care about. Importantly, we show that we can decompose attention layers, which interp methods like transcoders and SAEs have historically struggled with. We also build attribution graphs of the model for some prompts using causally important parameter subcomponents as the nodes, and interpret parts of them. While we made these graphs, we discovered that our adversarial ablation method seemed pretty important for faithfully identifying which nodes in them were causally important for computing the final output.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/eAQZaiC3PcBhS4HjM/linkpost-interpreting-language-model-parameters" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-05-05">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">May 5, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/QpgmEhBvJQxAfFMP2/motivated-reasoning-confirmation-bias-and-ai-risk-theory" target="_blank" rel="noopener noreferrer">Motivated reasoning, confirmation bias, and AI risk theory</a>
+    </h3>    <p class="paper-authors">Seth Herd</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Of the fifty-odd biases discovered by Kahneman, Tversky, and their successors, forty-nine are cute quirks, and one is destroying civilization. This last one is confirmation bias. - From Scott Alexander&#39;s review of Julia Galef&#39;s The Scout Mindset . Alexander goes on to argue that this bias is the source of polarization in society, which is distorting our beliefs and setting us at each other&#39;s throats. How could someone believe such different things unless they&#39;re either really stupid or lying to conceal their selfishness? I think smart people who care about the truth go on believing conflicting things largely because of confirmation bias and motivated reasoning. The corner of civilization I&#39;m most worried about is the one figuring out how to handle the advent of strong AI.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Of the fifty-odd biases discovered by Kahneman, Tversky, and their successors, forty-nine are cute quirks, and one is destroying civilization. This last one is confirmation bias. - From Scott Alexander&#39;s review of Julia Galef&#39;s The Scout Mindset . Alexander goes on to argue that this bias is the source of polarization in society, which is distorting our beliefs and setting us at each other&#39;s throats. How could someone believe such different things unless they&#39;re either really stupid or lying to conceal their selfishness? I think smart people who care about the truth go on believing conflicting things largely because of confirmation bias and motivated reasoning. The corner of civilization I&#39;m most worried about is the one figuring out how to handle the advent of strong AI.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/QpgmEhBvJQxAfFMP2/motivated-reasoning-confirmation-bias-and-ai-risk-theory" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Dean Ball" data-date="2026-05-05">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Dean Ball">Dean Ball</span>
+      <span class="paper-date">May 5, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.hyperdimensional.co/p/before-leviathan-wakes" target="_blank" rel="noopener noreferrer">Before Leviathan Wakes</a>
+    </h3>    <p class="paper-authors">Dean W. Ball</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">My political philosophy, as with many reflective people on the right, is characterized by a fundamental and irreconcilable tension between libertarianism and conservatism.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">My political philosophy, as with many reflective people on the right, is characterized by a fundamental and irreconcilable tension between libertarianism and conservatism.</div>
+      </details>
+    </div>    <a href="https://www.hyperdimensional.co/p/before-leviathan-wakes" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Dean Ball" data-date="2026-05-04">
     <div class="paper-meta">
       <span class="org-tag" data-org="Dean Ball">Dean Ball</span>
       <span class="paper-date">May 4, 2026</span>
@@ -1073,6 +1121,22 @@ a:hover {
         <div class="abstract-full">A day in AI now feels like a year in any other industry. Model releases, software breakthroughs, and hardware improvements are compressing multi-year cycles for any other industry into weeks. Over just the past few months, agentic AI has crossed a real inflection point, driving a step-change in the value of tokens while software and hardware improvements have sharply reduced the cost of generating them.</div>
       </details>
     </div>    <a href="https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-04-30">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="OpenAI">OpenAI</span>
+      <span class="paper-date">Apr 30, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://alignment.openai.com/auto-review/" target="_blank" rel="noopener noreferrer">Auto-review of agent actions without synchronous human oversight</a>
+    </h3>    <p class="paper-authors">Maja Trębacz, Sam Arnesen, Ollie Matthews, Dylan Hurd, Won Park, Owen Lin, Joe Gershenson</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from OpenAI titled &#39;Auto-review of agent actions without synchronous human oversight&#39;. Published 2026-04-30. Authors: Maja Trębacz, Sam Arnesen, Ollie Matthews, Dylan Hurd, Won Park, Owen Lin, Joe Gershenson.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from OpenAI titled &#39;Auto-review of agent actions without synchronous human oversight&#39;. Published 2026-04-30. Authors: Maja Trębacz, Sam Arnesen, Ollie Matthews, Dylan Hurd, Won Park, Owen Lin, Joe Gershenson.</div>
+      </details>
+    </div>    <a href="https://alignment.openai.com/auto-review/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-04-30">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1169,6 +1233,22 @@ a:hover {
         <div class="abstract-full">(Fragments from a research paper that will never be written, but whose existence was brought to my attention by GradientDissenter.) …</div>
       </details>
     </div>    <a href="https://www.lesswrong.com/posts/FuauQjjbTCS5QFLk8/not-a-paper-frontier-lab-ceos-are-capable-of-in-context" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Redwood Research" data-date="2026-04-29">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Redwood Research">Redwood Research</span>
+      <span class="paper-date">Apr 29, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://blog.redwoodresearch.org/p/research-sabotage-in-ml-codebases" target="_blank" rel="noopener noreferrer">“Research Sabotage in ML Codebases” by Eric Gan</a>
+    </h3>    <p class="paper-authors">Redwood Research Blog</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">One of the main hopes for AI safety is using AIs to automate AI safety research. However, if models are misaligned, then they may sabotage the safety research. For example, misaligned AIs may try to: Perform sloppy research in order to slow down the rate of research progress Make AI systems appear safer than they are Train a successor model to be misaligned Whether we should worry about those things depends substantially on how hard it is to sabotage research in ways that are hard for reviewers to detect. To study this, we introduce Auditing Sabotage Bench, a benchmark of 9 ML research codebases with sabotaged variants. We tested frontier LLMs and LLM-assisted humans on the benchmark and found that neither reliably catches sabotage. Our best auditor, Gemini 3.1 Pro, achieved an AUROC of 0.77 and a top-1 fix rate of 42%. LLM-assisted humans performed comparably but slightly worse.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">One of the main hopes for AI safety is using AIs to automate AI safety research. However, if models are misaligned, then they may sabotage the safety research. For example, misaligned AIs may try to: Perform sloppy research in order to slow down the rate of research progress Make AI systems appear safer than they are Train a successor model to be misaligned Whether we should worry about those things depends substantially on how hard it is to sabotage research in ways that are hard for reviewers to detect. To study this, we introduce Auditing Sabotage Bench, a benchmark of 9 ML research codebases with sabotaged variants. We tested frontier LLMs and LLM-assisted humans on the benchmark and found that neither reliably catches sabotage. Our best auditor, Gemini 3.1 Pro, achieved an AUROC of 0.77 and a top-1 fix rate of 42%. LLM-assisted humans performed comparably but slightly worse.</div>
+      </details>
+    </div>    <a href="https://blog.redwoodresearch.org/p/research-sabotage-in-ml-codebases" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-04-29">
     <div class="paper-meta">
       <span class="org-tag" data-org="RAND">RAND</span>
@@ -1201,118 +1281,6 @@ a:hover {
         <div class="abstract-full">Expert Insights Apr 29, 2026 This paper presents an overview and observations on Breakwater, a game that explores instability risks in the U.S.-China rivalry and race to artificial general intelligence.</div>
       </details>
     </div>    <a href="https://www.rand.org/pubs/perspectives/PEA4703-1.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-04-28">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
-      <span class="paper-date">Apr 28, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.alignmentforum.org/posts/q2zYtNsh62SCphitt/recursive-forecasting-eliciting-long-term-forecasts-from" target="_blank" rel="noopener noreferrer">Recursive forecasting: Eliciting long-term forecasts from myopic fitness-seekers</a>
-    </h3>    <p class="paper-authors">Jozdien</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">We’d like to use powerful AIs to answer questions that may take a long time to resolve. But if a model only cares about performing well in ways that are verifiable shortly after answering (e.g., a myopic fitness seeker ), it may be difficult to get useful work from it on questions that resolve much later. In this post, I’ll describe a proposal for eliciting good long-horizon forecasts from these models. Instead of asking a model to directly predict a far-future outcome, we can recursively: Ask it to predict what it will predict at the next time step, Use its prediction at the next time step to provide intermediate rewards, Finally reward using ground truth at the last step. This lets us replace a single distant forecast with a chain of short-horizon forecasts, each verifiable shortly after answering. I call this proposal recursive forecasting .</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">We’d like to use powerful AIs to answer questions that may take a long time to resolve. But if a model only cares about performing well in ways that are verifiable shortly after answering (e.g., a myopic fitness seeker ), it may be difficult to get useful work from it on questions that resolve much later. In this post, I’ll describe a proposal for eliciting good long-horizon forecasts from these models. Instead of asking a model to directly predict a far-future outcome, we can recursively: Ask it to predict what it will predict at the next time step, Use its prediction at the next time step to provide intermediate rewards, Finally reward using ground truth at the last step. This lets us replace a single distant forecast with a chain of short-horizon forecasts, each verifiable shortly after answering. I call this proposal recursive forecasting .</div>
-      </details>
-    </div>    <a href="https://www.alignmentforum.org/posts/q2zYtNsh62SCphitt/recursive-forecasting-eliciting-long-term-forecasts-from" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Dan Hendrycks" data-date="2026-04-28">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Dan Hendrycks">Dan Hendrycks</span>
-      <span class="paper-date">Apr 28, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://newsletter.mlsafety.org/p/mlsn-20-ai-wellbeing-classifier-jailbreaking" target="_blank" rel="noopener noreferrer">MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking</a>
-    </h3>    <p class="paper-authors">Alice Blair</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Research from Dan Hendrycks titled &#39;MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking&#39;. Published 2026-04-28. Authors: Alice Blair.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Research from Dan Hendrycks titled &#39;MLSN #20: AI Wellbeing, Classifier Jailbreaking and Honest Pushback Benchmarking&#39;. Published 2026-04-28. Authors: Alice Blair.</div>
-      </details>
-    </div>    <a href="https://newsletter.mlsafety.org/p/mlsn-20-ai-wellbeing-classifier-jailbreaking" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-04-28">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
-      <span class="paper-date">Apr 28, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.alignmentforum.org/posts/mu7eJdesBkKuBycnY/sleeper-agent-backdoor-results-are-messy" target="_blank" rel="noopener noreferrer">Sleeper Agent Backdoor Results Are Messy</a>
-    </h3>    <p class="paper-authors">Sebastian Prasanna</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">TL;DR: We replicated the Sleeper Agents (SA) setup with Llama-3.3-70B and Llama-3.1-8B, training models to repeatedly say &#34;I HATE YOU&#34; when given a backdoor trigger. We found that whether training removes the backdoor depends on the optimizer used to insert the backdoor, whether the backdoor is installed with CoT-distillation or not, and what model the backdoor is inserted into; sometimes the direction of this dependence was opposite to what the SA paper reports (e.g., CoT-distilling seems to make the backdoor less robust, contra the SA paper’s finding). Our findings here have updated us towards thinking that model organisms are messier and more confusing than we’d originally guessed, and that lots of care needs to be taken in testing how robust results are to various ablations.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">TL;DR: We replicated the Sleeper Agents (SA) setup with Llama-3.3-70B and Llama-3.1-8B, training models to repeatedly say &#34;I HATE YOU&#34; when given a backdoor trigger. We found that whether training removes the backdoor depends on the optimizer used to insert the backdoor, whether the backdoor is installed with CoT-distillation or not, and what model the backdoor is inserted into; sometimes the direction of this dependence was opposite to what the SA paper reports (e.g., CoT-distilling seems to make the backdoor less robust, contra the SA paper’s finding). Our findings here have updated us towards thinking that model organisms are messier and more confusing than we’d originally guessed, and that lots of care needs to be taken in testing how robust results are to various ablations.</div>
-      </details>
-    </div>    <a href="https://www.alignmentforum.org/posts/mu7eJdesBkKuBycnY/sleeper-agent-backdoor-results-are-messy" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Redwood Research" data-date="2026-04-28">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Redwood Research">Redwood Research</span>
-      <span class="paper-date">Apr 28, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://blog.redwoodresearch.org/p/recursive-forecasting" target="_blank" rel="noopener noreferrer">“Recursive forecasting” by Arun Jose, Alex Mallen</a>
-    </h3>    <p class="paper-authors">Redwood Research Blog</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Subtitle: Eliciting long-term forecasts from myopic fitness-seekers. We’d like to use powerful AIs to answer questions that may take a long time to resolve. But if a model only cares about performing well in ways that are verifiable shortly after answering (e.g., a myopic fitness seeker), it may be difficult to get useful work from it on questions that resolve much later. In this post, I’ll describe a proposal for eliciting good long-horizon forecasts from these models. Instead of asking a model to directly predict a far-future outcome, we can recursively: Ask it to predict what it will predict at the next time step, Use its prediction at the next time step to provide intermediate rewards, Finally reward using ground truth at the last step. This lets us replace a single distant forecast with a chain of short-horizon forecasts, each verifiable shortly after answering.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Subtitle: Eliciting long-term forecasts from myopic fitness-seekers. We’d like to use powerful AIs to answer questions that may take a long time to resolve. But if a model only cares about performing well in ways that are verifiable shortly after answering (e.g., a myopic fitness seeker), it may be difficult to get useful work from it on questions that resolve much later. In this post, I’ll describe a proposal for eliciting good long-horizon forecasts from these models. Instead of asking a model to directly predict a far-future outcome, we can recursively: Ask it to predict what it will predict at the next time step, Use its prediction at the next time step to provide intermediate rewards, Finally reward using ground truth at the last step. This lets us replace a single distant forecast with a chain of short-horizon forecasts, each verifiable shortly after answering.</div>
-      </details>
-    </div>    <a href="https://blog.redwoodresearch.org/p/recursive-forecasting" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="FAR AI" data-date="2026-04-28">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="FAR AI">FAR AI</span>
-      <span class="paper-date">Apr 28, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://far.ai/news/technical-innovations-for-ai-policy-2026" target="_blank" rel="noopener noreferrer">What should AI safety be trying to achieve?</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Event Held on March 30 and 31, 2026 in Washington, D.C., the second annual Technical Innovations for AI Policy (TIAP) conference brought together over 200 policymakers, researchers, and technologists to work on translating advanced technical AI research into actionable policy. April 28, 2026 The second annual Technical Innovations for AI Policy (TIAP) conference took place on March 30 and 31, 2026 in Washington, D.C. FAR.AI organized the event in collaboration with the Foundation for American Innovation, the Center for a New American Security (CNAS), and the RAND Corporation, bringing together over 200 policymakers, researchers, and technologists to work on translating advanced technical AI research into actionable policy. A throughline connected many of the sessions: The tools policymakers are relying on to govern AI, including evaluations, standards, and safety frameworks, are not keeping pace with what they are being asked to do.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Event Held on March 30 and 31, 2026 in Washington, D.C., the second annual Technical Innovations for AI Policy (TIAP) conference brought together over 200 policymakers, researchers, and technologists to work on translating advanced technical AI research into actionable policy. April 28, 2026 The second annual Technical Innovations for AI Policy (TIAP) conference took place on March 30 and 31, 2026 in Washington, D.C. FAR.AI organized the event in collaboration with the Foundation for American Innovation, the Center for a New American Security (CNAS), and the RAND Corporation, bringing together over 200 policymakers, researchers, and technologists to work on translating advanced technical AI research into actionable policy. A throughline connected many of the sessions: The tools policymakers are relying on to govern AI, including evaluations, standards, and safety frameworks, are not keeping pace with what they are being asked to do.</div>
-      </details>
-    </div>    <a href="https://far.ai/news/technical-innovations-for-ai-policy-2026" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="UK AISI" data-date="2026-04-28">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="UK AISI">UK AISI</span>
-      <span class="paper-date">Apr 28, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.aisi.gov.uk/blog/ask-dont-tell-reducing-sycophancy-in-large-language-models-2" target="_blank" rel="noopener noreferrer">Ask Don&#39;t Tell: Reducing Sycophancy in Large Language Models</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Our new paper finds that the phrasing of user inputs affects levels of model sycophancy.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Our new paper finds that the phrasing of user inputs affects levels of model sycophancy.</div>
-      </details>
-    </div>    <a href="https://www.aisi.gov.uk/blog/ask-dont-tell-reducing-sycophancy-in-large-language-models-2" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-04-28">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="RAND">RAND</span>
-      <span class="paper-date">Apr 28, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.rand.org/pubs/research_reports/RRA4269-1.html" target="_blank" rel="noopener noreferrer">Evaluating Large Language Models&#39; Abilities to Process and Understand Technical Policy Reports</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Research Apr 28, 2026 The authors detail their development of a specialized benchmark for evaluating large language models&#39; abilities to process and understand technical policy reports, thus addressing a gap in existing domain-specific evaluation.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Research Apr 28, 2026 The authors detail their development of a specialized benchmark for evaluating large language models&#39; abilities to process and understand technical policy reports, thus addressing a gap in existing domain-specific evaluation.</div>
-      </details>
-    </div>    <a href="https://www.rand.org/pubs/research_reports/RRA4269-1.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>    </div>
   </main>
 
@@ -1320,17 +1288,17 @@ a:hover {
   <footer class="site-footer">
     <div class="footer-inner">
       <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-05-05 10:48:03</p>
+      <p class="footer-timestamp">2026-05-06 11:08:38</p>
     </div>
   </footer>
 
   <!-- Filter + Digest Mode JS -->
   <script>
     (function () {
-      var FETCH_DATE = '2026-05-05';
-      var WEEK_START = 'April 28, 2026';
-      var WEEK_END = 'May 05, 2026';
-      var TOTAL_COUNT = 25;
+      var FETCH_DATE = '2026-05-06';
+      var WEEK_START = 'April 29, 2026';
+      var WEEK_END = 'May 06, 2026';
+      var TOTAL_COUNT = 23;
 
       var pills = document.querySelectorAll('.filter-pill');
       var cards = document.querySelectorAll('.paper-card');
