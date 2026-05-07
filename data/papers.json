@@ -3,12 +3,12 @@
     "title": "Model Spec Midtraining: Improving How Alignment Training Generalizes",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Model Spec Midtraining: Improving How Alignment Training Generalizes'. Published 2026-05-06.",
+    "abstract": "Research from Anthropic titled 'Model Spec Midtraining: Improving How Alignment Training Generalizes'. Published 2026-05-07.",
     "url": "https://alignment.anthropic.com/2026/msm/",
-    "published_date": "2026-05-06T00:00:00+00:00",
+    "published_date": "2026-05-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-05-06T11:08:26.191068+00:00"
+    "fetched_at": "2026-05-07T11:09:56.717053+00:00"
   },
   {
     "title": "[Linkpost] Interpreting Language Model Parameters",
@@ -21,7 +21,7 @@
     "published_date": "2026-05-05T17:37:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-06T11:08:21.170188+00:00"
+    "fetched_at": "2026-05-07T11:09:51.987916+00:00"
   },
   {
     "title": "Motivated reasoning, confirmation bias, and AI risk theory",
@@ -34,7 +34,7 @@
     "published_date": "2026-05-05T15:56:25+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-06T11:08:21.171014+00:00"
+    "fetched_at": "2026-05-07T11:09:51.988623+00:00"
   },
   {
     "title": "Before Leviathan Wakes",
@@ -47,7 +47,7 @@
     "published_date": "2026-05-05T11:52:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-06T11:08:24.073959+00:00"
+    "fetched_at": "2026-05-07T11:09:54.807498+00:00"
   },
   {
     "title": "Partnering with Microsoft to strengthen frontier AI safety",
@@ -58,7 +58,7 @@
     "published_date": "2026-05-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-06T11:08:30.804764+00:00"
+    "fetched_at": "2026-05-07T11:10:01.682291+00:00"
   },
   {
     "title": "Aviate, Navigate, Communicate",
@@ -71,7 +71,7 @@
     "published_date": "2026-05-04T11:46:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-06T11:08:24.073977+00:00"
+    "fetched_at": "2026-05-07T11:09:54.807523+00:00"
   },
   {
     "title": "Contingency Frameworks for Future U.S.-China Cooperation on AI Assurance and Security: Preserving Strategic Optionality",
@@ -82,7 +82,7 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-06T11:08:31.359671+00:00"
+    "fetched_at": "2026-05-07T11:10:02.108810+00:00"
   },
   {
     "title": "Open-Weight AI Models Require Proportional Evaluation Approaches",
@@ -93,7 +93,7 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-06T11:08:31.359853+00:00"
+    "fetched_at": "2026-05-07T11:10:02.109027+00:00"
   },
   {
     "title": "How Go Players Disempower Themselves to AI",
@@ -106,7 +106,7 @@
     "published_date": "2026-05-01T23:24:27.769000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-06T11:08:36.172694+00:00"
+    "fetched_at": "2026-05-07T11:10:06.604788+00:00"
   },
   {
     "title": "Risk from fitness-seeking AIs: mechanisms and mitigations",
@@ -119,7 +119,7 @@
     "published_date": "2026-05-01T17:42:55+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-06T11:08:21.171772+00:00"
+    "fetched_at": "2026-05-07T11:09:51.989405+00:00"
   },
   {
     "title": "Science and speculation",
@@ -132,7 +132,7 @@
     "published_date": "2026-05-01T14:02:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-05-06T11:08:24.592842+00:00"
+    "fetched_at": "2026-05-07T11:09:55.130503+00:00"
   },
   {
     "title": "AI Value Capture - The Shift To Model Labs",
@@ -145,7 +145,7 @@
     "published_date": "2026-05-01T02:30:43+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-06T11:08:23.786577+00:00"
+    "fetched_at": "2026-05-07T11:09:54.586808+00:00"
   },
   {
     "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
@@ -158,7 +158,7 @@
     "published_date": "2026-04-30T21:53:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-06T11:08:18.983453+00:00"
+    "fetched_at": "2026-05-07T11:09:50.150518+00:00"
   },
   {
     "title": "Auto-review of agent actions without synchronous human oversight",
@@ -171,7 +171,7 @@
     "published_date": "2026-04-30T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-06T11:08:20.076054+00:00"
+    "fetched_at": "2026-05-07T11:09:51.261003+00:00"
   },
   {
     "title": "Research Sabotage in ML Codebases",
@@ -184,7 +184,7 @@
     "published_date": "2026-04-30T00:31:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-06T11:08:21.171897+00:00"
+    "fetched_at": "2026-05-07T11:09:51.989532+00:00"
   },
   {
     "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
@@ -195,7 +195,7 @@
     "published_date": "2026-04-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-06T11:08:34.362532+00:00"
+    "fetched_at": "2026-05-07T11:10:04.836554+00:00"
   },
   {
     "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
@@ -206,80 +206,6 @@
     "published_date": "2026-04-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-06T11:08:30.805483+00:00"
-  },
-  {
-    "title": "Where the goblins came from",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'Where the goblins came from'. Published 2026-04-29. Authors: OpenAI News.",
-    "url": "https://openai.com/index/where-the-goblins-came-from",
-    "published_date": "2026-04-29T20:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-06T11:08:19.916580+00:00"
-  },
-  {
-    "title": "llm assistant personas seem increasingly incoherent (some subjective observations)",
-    "authors": [
-      "nostalgebraist"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'llm assistant personas seem increasingly incoherent (some subjective observations)'. Published 2026-04-29. Authors: nostalgebraist.",
-    "url": "https://www.lesswrong.com/posts/f5DKLsTsRRhbipH4r/llm-assistant-personas-seem-increasingly-incoherent-some",
-    "published_date": "2026-04-29T03:53:21.771000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-06T11:08:36.172714+00:00"
-  },
-  {
-    "title": "Not a Paper: \"Frontier Lab CEOs are Capable of In-Context Scheming\"",
-    "authors": [
-      "LawrenceC"
-    ],
-    "organization": "LessWrong",
-    "abstract": "(Fragments from a research paper that will never be written, but whose existence was brought to my attention by GradientDissenter.) …",
-    "url": "https://www.lesswrong.com/posts/FuauQjjbTCS5QFLk8/not-a-paper-frontier-lab-ceos-are-capable-of-in-context",
-    "published_date": "2026-04-29T03:00:40.928000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-06T11:08:36.172720+00:00"
-  },
-  {
-    "title": "“Research Sabotage in ML Codebases” by Eric Gan",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "One of the main hopes for AI safety is using AIs to automate AI safety research. However, if models are misaligned, then they may sabotage the safety research. For example, misaligned AIs may try to: Perform sloppy research in order to slow down the rate of research progress Make AI systems appear safer than they are Train a successor model to be misaligned Whether we should worry about those things depends substantially on how hard it is to sabotage research in ways that are hard for reviewers to detect. To study this, we introduce Auditing Sabotage Bench, a benchmark of 9 ML research codebases with sabotaged variants. We tested frontier LLMs and LLM-assisted humans on the benchmark and found that neither reliably catches sabotage. Our best auditor, Gemini 3.1 Pro, achieved an AUROC of 0.77 and a top-1 fix rate of 42%. LLM-assisted humans performed comparably but slightly worse.",
-    "url": "https://blog.redwoodresearch.org/p/research-sabotage-in-ml-codebases",
-    "published_date": "2026-04-29T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-06T11:08:20.658655+00:00"
-  },
-  {
-    "title": "How Much More Power Can the U.S. Grid Provide for AI? Projections and Policy Implications for 2030",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Summary Apr 29, 2026 A team of RAND researchers estimated how much additional power capacity the United States is likely to have by 2030 by translating planned electricity supply resources into a common measure of reliable capacity. This brief summarizes the results.",
-    "url": "https://www.rand.org/pubs/research_briefs/RBA3845-1.html",
-    "published_date": "2026-04-29T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-06T11:08:31.360058+00:00"
-  },
-  {
-    "title": "Exploring Instability Risks in the U.S.-China AI Rivalry: Breakwater Game Overview and Initial Observations",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Apr 29, 2026 This paper presents an overview and observations on Breakwater, a game that explores instability risks in the U.S.-China rivalry and race to artificial general intelligence.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4703-1.html",
-    "published_date": "2026-04-29T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-06T11:08:31.360256+00:00"
+    "fetched_at": "2026-05-07T11:10:01.683167+00:00"
   }
 ]
