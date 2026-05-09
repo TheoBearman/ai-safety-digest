@@ -1,14 +1,42 @@
 [
   {
-    "title": "Model Spec Midtraining: Improving How Alignment Training Generalizes",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Model Spec Midtraining: Improving How Alignment Training Generalizes'. Published 2026-05-08.",
-    "url": "https://alignment.anthropic.com/2026/msm/",
-    "published_date": "2026-05-08T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-05-08T10:25:02.510400+00:00"
+    "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
+    "authors": [
+      "Andrea Britto Mattos Lima, Thiago Vallin Spina, Weiwei Yang, Spencer Fowers, Ruslan Nagimov, Baosen   Zhang"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern power systems research. Analyses of congestion, transmission expansion, demand growth, and system resilience all depend on network models with realistic [&#8230;] The post Building realistic electric transmission grid dataset at scale: a pipeline from open dataset appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/",
+    "published_date": "2026-05-08T19:53:56+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-05-09T10:06:33.407023+00:00"
+  },
+  {
+    "title": "Task Substitution and Uplift",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Summary: We describe three different definitions of the productivity impact of AI (AKA uplift), and show there’s reason to expect: \\[\\text{uplift on old tasks} \\leq \\text{uplift in value} \\leq \\text{uplift on new tasks}\\] Three Measures of Uplift One complication in measuring AI’s effect on productivity is that it has different effects on different tasks, and this causes people to change how they allocate their time between tasks. This makes it more difficult to talk about the effect of AI on overall productivity. We use “old tasks” to mean the set of tasks you’d do in a typical day before AI is available – your average workday in 2021, say. “New tasks” means the set of tasks you’d do in a typical day after AI is available. Not all new tasks necessarily use AI; they’re just the tasks you choose knowing AI is an option.",
+    "url": "https://metr.org/blog/2026-05-08-task-substitution-and-uplift/",
+    "published_date": "2026-05-08T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-05-09T10:06:37.849719+00:00"
+  },
+  {
+    "title": "Review of the \"Risks from automated R&D\" section in the Anthropic Risk Report (February 2026)",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "We reviewed the “Risks from automated R&amp;D” section of Anthropic’s February 2026 Risk Report , producing two corresponding review documents: our original review and our updated review . We recommend that readers refer to our original review, which represents our review of the report as originally received. We expect the public version of the report to be updated to resemble the changes anticipated in our updated review in content, though not necessarily in exact wording. We expect our updated review to cover those changes, but if the updated public version includes any changes that materially affect our opinions, we will publish a further updated review. Both documents include an appendix detailing our review process and the differences between the two versions of our review. The following is the executive summary of our original review. The full documents are available as PDFs ( original , updated ).",
+    "url": "https://metr.org/blog/2026-05-08-rd-section-anthropic-risk-report-feb-2026-review/",
+    "published_date": "2026-05-08T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-05-09T10:06:37.849786+00:00"
   },
   {
     "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
@@ -21,7 +49,7 @@
     "published_date": "2026-05-07T20:21:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-08T10:24:57.636359+00:00"
+    "fetched_at": "2026-05-09T10:06:36.427021+00:00"
   },
   {
     "title": "Mechanistic estimation for wide random MLPs",
@@ -34,7 +62,7 @@
     "published_date": "2026-05-07T16:20:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-08T10:24:57.636464+00:00"
+    "fetched_at": "2026-05-09T10:06:36.427138+00:00"
   },
   {
     "title": "“A review of “Investigating the consequences of accidentally grading CoT during RL”” by Buck Shlegeris",
@@ -47,7 +75,7 @@
     "published_date": "2026-05-07T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-08T10:24:57.222800+00:00"
+    "fetched_at": "2026-05-09T10:06:35.909977+00:00"
   },
   {
     "title": "Investigating the consequences of accidentally grading CoT during RL",
@@ -60,20 +88,7 @@
     "published_date": "2026-05-06T23:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-08T10:24:56.563840+00:00"
-  },
-  {
-    "title": "[Linkpost] Interpreting Language Model Parameters",
-    "authors": [
-      "Lucius Bushnaq"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This is the latest work in our Parameter Decomposition agenda. We introduce a new parameter decomposition method, adVersarial Parameter Decomposition (VPD) [1] and decompose the parameters of a small [2] language model with it. VPD greatly improves on our previous techniques, Stochastic Parameter Decomposition (SPD) and Attribution-based Parameter Decomposition (APD) . We think the parameter decomposition approach is now more-or-less ready to be applied at scale to models people care about. Importantly, we show that we can decompose attention layers, which interp methods like transcoders and SAEs have historically struggled with. We also build attribution graphs of the model for some prompts using causally important parameter subcomponents as the nodes, and interpret parts of them. While we made these graphs, we discovered that our adversarial ablation method seemed pretty important for faithfully identifying which nodes in them were causally important for computing the final output.",
-    "url": "https://www.alignmentforum.org/posts/eAQZaiC3PcBhS4HjM/linkpost-interpreting-language-model-parameters",
-    "published_date": "2026-05-05T17:37:29+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-08T10:24:57.636494+00:00"
+    "fetched_at": "2026-05-09T10:06:35.345315+00:00"
   },
   {
     "title": "Motivated reasoning, confirmation bias, and AI risk theory",
@@ -86,7 +101,7 @@
     "published_date": "2026-05-05T15:56:25+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-08T10:24:57.637225+00:00"
+    "fetched_at": "2026-05-09T10:06:36.427962+00:00"
   },
   {
     "title": "Before Leviathan Wakes",
@@ -99,7 +114,7 @@
     "published_date": "2026-05-05T11:52:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-08T10:25:00.619596+00:00"
+    "fetched_at": "2026-05-09T10:06:39.500040+00:00"
   },
   {
     "title": "Partnering with Microsoft to strengthen frontier AI safety",
@@ -110,7 +125,18 @@
     "published_date": "2026-05-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-08T10:25:05.376873+00:00"
+    "fetched_at": "2026-05-09T10:07:01.711362+00:00"
+  },
+  {
+    "title": "Interpreting Language Model Parameters",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Interpreting Language Model Parameters Neural networks use millions to trillions of parameters to learn how to solve tasks that no other machines can solve. What structure do these parameters learn? And how do they compute intelligent behavior? Mechanistic interpretability aims to uncover how neural networks use their parameters to implement their impressive neural algorithms. Although previous work has uncovered substantial structure in the intermediate representations that networks use, little progress has been made to understand how the parameters and nonlinearities of networks perform computations on those representations. In this work, we present a method that brings us closer to this understanding by decomposing a language model's parameters into subcomponents that each implement only a small part of the model's learned algorithm, while simultaneously requiring only a small fraction of those subcomponents to account for the network's behavior on any input.",
+    "url": "https://www.matsprogram.org/research/interpreting-language-model-parameters",
+    "published_date": "2026-05-05T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-05-09T10:07:06.141553+00:00"
   },
   {
     "title": "Aviate, Navigate, Communicate",
@@ -123,7 +149,7 @@
     "published_date": "2026-05-04T11:46:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-08T10:25:00.619619+00:00"
+    "fetched_at": "2026-05-09T10:06:39.500060+00:00"
   },
   {
     "title": "Contingency Frameworks for Future U.S.-China Cooperation on AI Assurance and Security: Preserving Strategic Optionality",
@@ -134,7 +160,7 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-08T10:25:05.772073+00:00"
+    "fetched_at": "2026-05-09T10:07:02.861951+00:00"
   },
   {
     "title": "Open-Weight AI Models Require Proportional Evaluation Approaches",
@@ -145,71 +171,6 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-08T10:25:05.772242+00:00"
-  },
-  {
-    "title": "How Go Players Disempower Themselves to AI",
-    "authors": [
-      "Ashe Vazquez Nuñez"
-    ],
-    "organization": "LessWrong",
-    "abstract": "From March 9th to 15th 2016, Go players around the world stayed up to watch their game fall to AI. Google DeepMind’s AlphaGo defeated Lee Sedol, commonly understood to be the world’s strongest player at the time, with a convincing 4-1 score.",
-    "url": "https://www.lesswrong.com/posts/nR3DkyivzF4ve97oM/how-go-players-disempower-themselves-to-ai",
-    "published_date": "2026-05-01T23:24:27.769000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-08T10:25:09.961484+00:00"
-  },
-  {
-    "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
-    "authors": [
-      "Eyon Jang"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "We empirically investigate exploration hacking (EH) — where models strategically alter their exploration to resist RL training — by creating model organisms that resist capability elicitation, evaluating countermeasures, and auditing frontier models for their propensity. Authors: Eyon Jang*, Damon Falck*, Joschka Braun*, Nathalie Kirch, Achu Menon, Perusha Moodley, Scott Emmons, Roland S. Zimmermann, David Lindner (*Equal contribution, random order) Paper: arXiv | Code: GitHub | Models: HuggingFace We present the first empirical investigation of exploration hacking — when a model strategically alters its exploration during RL training to influence the training outcome. In our earlier post , we introduced a conceptual framework for this threat model. Here, we summarize the key empirical results of our paper: we create model organisms that resist RL-based capability elicitation, evaluate detection methods against them, and audit frontier models for their propensity to engage in exploration hacking.",
-    "url": "https://www.alignmentforum.org/posts/eeFFpKCDWE9gjfzsk/exploration-hacking-can-llms-learn-to-resist-rl-training-2",
-    "published_date": "2026-05-01T20:54:42+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-08T10:24:57.637392+00:00"
-  },
-  {
-    "title": "Risk from fitness-seeking AIs: mechanisms and mitigations",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Current AIs routinely take unintended actions to score well on tasks: hardcoding test cases, training on the test set, downplaying issues, etc. This misalignment is still somewhat incoherent, but it increasingly resembles what I call \" fitness-seeking \"—a family of misaligned motivations centered on performing well in training and evaluations (e.g., reward-seeking ). Fitness-seeking warrants substantial concern. In this piece, I lay out what I take to be the central mechanisms by which fitness-seeking motivations might lead to human disempowerment, and propose mitigations to them. While the analysis is inherently speculative, this kind of speculation seems worthwhile: AI control emerged from explicitly taking scheming motivations seriously and asking what interventions are implied, and my hope is that developing mitigations for fitness-seeking will benefit from similar forward-looking analysis. Fitness-seekers are, in many ways, notably safer than what I'll call \"classic schemers\".",
-    "url": "https://www.alignmentforum.org/posts/9YCJZBtqr3FYL8rDp/risk-from-fitness-seeking-ais-mechanisms-and-mitigations",
-    "published_date": "2026-05-01T17:42:55+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-08T10:24:57.638022+00:00"
-  },
-  {
-    "title": "Science and speculation",
-    "authors": [
-      "Ajeya Cotra"
-    ],
-    "organization": "Ajeya Cotra",
-    "abstract": "Science is a social institution like the judicial system. Just like courts make you throw out perfectly good Bayesian evidence like whether the defendant seems like a shifty guy to you or rumors you heard about his whereabouts,1 the scientific process has epistemically conservative norms about what kinds of evidence and arguments are admissible. This means that the process of science gets to the truth much slower than a perfectly rational Bayesian should, and indeed much slower than many particular farseeing individuals actually did. Svante Arrhenius made the first estimate of global warming from human carbon dioxide emissions back in 1896, probably about eighty years before something like a “scientific consensus” emerged and ninety four years before the first IPCC Assessment Report.2",
-    "url": "https://www.planned-obsolescence.org/p/science-and-speculation",
-    "published_date": "2026-05-01T14:02:19+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-05-08T10:25:00.960225+00:00"
-  },
-  {
-    "title": "AI Value Capture - The Shift To Model Labs",
-    "authors": [
-      "Daniel Nishball"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "A day in AI now feels like a year in any other industry. Model releases, software breakthroughs, and hardware improvements are compressing multi-year cycles for any other industry into weeks. Over just the past few months, agentic AI has crossed a real inflection point, driving a step-change in the value of tokens while software and hardware improvements have sharply reduced the cost of generating them.",
-    "url": "https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model",
-    "published_date": "2026-05-01T02:30:43+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-08T10:25:00.445289+00:00"
+    "fetched_at": "2026-05-09T10:07:02.862134+00:00"
   }
 ]
