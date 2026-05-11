@@ -20,9 +20,15 @@ python3 scripts/render.py
 
 # Full local update + open in browser
 bash scripts/update-and-open.sh
+
+# Run snapshot tests
+python3 -m pytest
+
+# Regenerate render snapshot after intentional template/CSS changes
+UPDATE_SNAPSHOTS=1 python3 -m pytest
 ```
 
-There are no tests or linting configured.
+Tests live in `tests/` (pytest). Snapshot output is at `tests/snapshots/index.html`. No linter is configured.
 
 ## Architecture
 
@@ -50,6 +56,13 @@ There are no tests or linting configured.
 - Daily/weekly toggle is purely client-side: filters paper cards by `data-date` attribute, updates header text and counts, persists choice in `localStorage`. Backend always fetches 7 days.
 
 **Deployment:** GitHub Pages serves `site/` directory. Daily cron workflow (9 AM UTC) fetches, renders, commits, and deploys.
+
+**Observability artifacts** (managed by `scripts/observability.py` and `scripts/enrich.py`):
+- `data/run_log.jsonl` — append-only run log. One JSON line per pipeline invocation containing per-source metrics (name, org, items_fetched, duration, status, error), per-stage metrics (date_filter, dedup, research_filter, enrich), and `enrich_cache` hit/miss stats. Committed.
+- `data/enrich_cache.json` — URL → cached abstract map for `enrich.py`. Successful entries persist indefinitely; failures expire after 7 days; entries older than 180 days are evicted on save. Committed.
+- `compute_health()` in `observability.py` reads the run log and classifies sources as `healthy` / `degraded` / `broken` / `unknown`. The renderer surfaces this as a warning banner (when any source is broken) and a collapsible footer section on the public site, so silent fetcher failures are visible.
+
+**Adding observability to a new fetcher:** accept `recorder: RunRecorder | None = None`, time each source/site, and call `recorder.record_source(name, org, type, items_fetched, duration_seconds, status, error)` once per source — even on failure (use a `try/finally`). Pipeline stages should accept the same kwarg and call `recorder.record_stage(name, in_count, out_count, duration_seconds)`.
 
 ## Adding a New Source
 
