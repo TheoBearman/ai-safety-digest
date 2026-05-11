@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Alignment via Constitutional Self-Critique",
+    "authors": ["Jane Researcher", "Alex Coauthor"],
+    "organization": "Anthropic",
+    "abstract": "We propose a method for aligning language models via constitutional self-critique, in which the model evaluates its own outputs against a fixed set of principles and revises them iteratively. Across three benchmarks we observe meaningful reductions in policy violations.",
+    "url": "https://example.com/papers/csc",
+    "published_date": "2026-05-10T12:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://example.com/feed.xml",
+    "fetched_at": "2026-05-11T08:00:00+00:00"
+  },
+  {
+    "title": "Scaling Laws for Mechanistic Interpretability",
+    "authors": ["Pat Scientist"],
+    "organization": "Google DeepMind",
+    "abstract": "We study how the difficulty of mechanistic interpretation scales with model size, showing a roughly linear increase in circuit complexity per layer.",
+    "url": "https://example.com/papers/scaling-mech",
+    "published_date": "2026-05-09T09:30:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://example.com/feed.xml",
+    "fetched_at": "2026-05-11T08:00:00+00:00"
+  },
+  {
+    "title": "Red-Team Evaluations of Frontier Coding Agents",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Results from a structured red-team evaluation of three frontier coding agents on cybersecurity capture-the-flag tasks. We report capability uplift, failure modes, and recommended mitigations.",
+    "url": "https://example.com/papers/redteam-coding",
+    "published_date": "2026-05-08T15:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://example.com/aisi-work",
+    "fetched_at": "2026-05-11T08:00:00+00:00"
+  },
+  {
+    "title": "A Note on Reward-Hacking in Long-Horizon Tasks",
+    "authors": ["Sam Author"],
+    "organization": "Alignment Forum",
+    "abstract": "A short note describing reward-hacking behaviour observed in agents trained on long-horizon tasks with sparse, learned reward.",
+    "url": "https://example.com/posts/reward-hack-note",
+    "published_date": "2026-05-07T22:15:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://example.com/alignment-forum.xml",
+    "fetched_at": "2026-05-11T08:00:00+00:00"
+  },
+  {
+    "title": "Compute Trends Q1 2026",
+    "authors": [],
+    "organization": "Epoch AI",
+    "abstract": "Quarterly summary of frontier compute deployment, including training run sizes, inference fleet growth, and chip supply estimates.",
+    "url": "https://example.com/blog/compute-q1-2026",
+    "published_date": "2026-05-06T10:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://example.com/epoch-blog",
+    "fetched_at": "2026-05-11T08:00:00+00:00"
+  }
+]

@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Safety Digest — May 04, 2026 to May 11, 2026</title>
+  <meta name="description" content="A curated digest of 5 AI safety research papers from leading organizations and researchers. May 04, 2026 through May 11, 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* =============================================
+   AI Safety Digest — Editorial Stylesheet
+   Modern research publication aesthetic
+   ============================================= */
+
+/* --- CSS Custom Properties --- */
+:root {
+  /* Base palette */
+  --bg: #f8f8f7;
+  --bg-card: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-hero: #fcfcfb;
+  --text: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --text-muted: #6b6b6b;
+  --text-faint: #999999;
+  --heading: #0d0d0d;
+  --border: #e6e4e0;
+  --border-light: #f0eee9;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.08);
+
+  /* Accent — deep teal */
+  --accent: #0d6e6e;
+  --accent-light: #0f8585;
+  --accent-subtle: rgba(13, 110, 110, 0.07);
+  --accent-text: #0a5a5a;
+
+  /* Links */
+  --link: #0d6e6e;
+  --link-hover: #0a5252;
+
+  /* Filter bar */
+  --filter-bg: rgba(248, 248, 247, 0.88);
+  --pill-active-bg: #1a1a1a;
+  --pill-active-text: #ffffff;
+
+  /* Card accent fallback */
+  --card-accent: var(--org-default);
+
+  /* Spacing scale */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  /* Organization colors — muted, professional tones */
+  --org-anthropic: #c4854a;
+  --org-openai: #4a8c5c;
+  --org-google-deepmind: #4a7ab8;
+  --org-metr: #b85a5a;
+  --org-apollo-research: #7b5ab8;
+  --org-uk-aisi: #3a7a8a;
+  --org-redwood-research: #c04040;
+  --org-alignment-forum: #4a8a4a;
+  --org-arxiv: #777777;
+  --org-hyperdimensional: #b8924a;
+  --org-peter-wildeford: #5a5ab8;
+  --org-zvi-mowshowitz: #8a6a3a;
+  --org-rand: #3a6a8a;
+  --org-arc: #8a3a6a;
+  --org-miri: #5a8a3a;
+  --org-cais: #3a8a6a;
+  --org-microsoft-research: #3a6ab8;
+  --org-import-ai: #b8943a;
+  --org-dan-hendrycks: #7a6a3a;
+  --org-astral-codex-ten: #5a6a8a;
+  --org-cognitive-revolution: #8a5a6a;
+  --org-vox-future-perfect: #3a8a6a;
+  --org-fli: #7a5a7a;
+  --org-epoch-ai: #5a7a6a;
+  --org-lesswrong: #4a8a4a;
+  --org-far-ai: #6a4a8a;
+  --org-us-aisi: #3a5a8a;
+  --org-cset: #6a7a3a;
+  --org-govai: #4a5a7a;
+  --org-iaps: #7a4a5a;
+  --org-cltr: #5a4a7a;
+  --org-chai: #8a6a4a;
+  --org-mats: #4a7a7a;
+  --org-paul-christiano: #7a6a4a;
+  --org-yoshua-bengio: #4a6a7a;
+  --org-lennart-heim: #6a7a4a;
+  --org-semianalysis: #b86a3a;
+  --org-dean-ball: #b8924a;
+  --org-seb-krier: #6a8a4a;
+  --org-ajeya-cotra: #8a4a6a;
+  --org-cnas: #4a6a5a;
+  --org-hacker-news: #e86424;
+  --org-reddit: #e84420;
+  --org-default: #888888;
+}
+
+/* --- Dark Mode --- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111113;
+    --bg-card: #1a1a1e;
+    --bg-elevated: #222226;
+    --bg-hero: #161618;
+    --text: #e2e2e6;
+    --text-secondary: #b0b0b8;
+    --text-muted: #8a8a96;
+    --text-faint: #606068;
+    --heading: #f0f0f4;
+    --border: #2a2a30;
+    --border-light: #222228;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.25);
+    --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.35);
+    --accent: #2ca0a0;
+    --accent-light: #35b5b5;
+    --accent-subtle: rgba(44, 160, 160, 0.1);
+    --accent-text: #2ca0a0;
+    --link: #35b5b5;
+    --link-hover: #4acaca;
+    --filter-bg: rgba(17, 17, 19, 0.88);
+    --pill-active-bg: #2ca0a0;
+    --pill-active-text: #111113;
+  }
+
+  .toggle-btn.active {
+    background-color: var(--accent);
+    color: #111113;
+  }
+}
+
+/* --- Reset & Base --- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 5vw, 2.5rem);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* --- Masthead / Header --- */
+.site-header {
+  padding: var(--space-3xl) 0 var(--space-xl);
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.site-title {
+  font-size: clamp(1.75rem, 1.4rem + 1.8vw, 2.75rem);
+  font-weight: 800;
+  color: var(--heading);
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+.header-rule {
+  width: 40px;
+  height: 2px;
+  background: var(--accent);
+  border: none;
+  margin: var(--space-sm) 0;
+  border-radius: 1px;
+}
+
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-daterange {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.header-separator {
+  color: var(--border);
+  font-weight: 300;
+}
+
+.header-count {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.header-count strong {
+  font-weight: 600;
+  color: var(--accent-text);
+}
+
+/* --- Digest Mode Toggle --- */
+.digest-toggle {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  overflow: hidden;
+  margin-top: var(--space-sm);
+}
+
+.toggle-btn {
+  padding: 0.35rem 1rem;
+  font-size: 0.78rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.4;
+}
+
+.toggle-btn:hover {
+  color: var(--text-secondary);
+  background-color: var(--accent-subtle);
+}
+
+.toggle-btn.active {
+  background-color: var(--accent);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* --- Filter Bar --- */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin: 0 calc(-1 * clamp(1.25rem, 5vw, 2.5rem));
+  padding: 0 clamp(1.25rem, 5vw, 2.5rem);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  background-color: var(--filter-bg);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.filter-bar-inner {
+  padding: 0.7rem 0;
+}
+
+.filter-scroll {
+  display: flex;
+  gap: 0.35rem;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.filter-scroll::-webkit-scrollbar {
+  height: 2px;
+}
+
+.filter-scroll::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+
+.filter-pill {
+  flex-shrink: 0;
+  padding: 0.32rem 0.75rem;
+  font-size: 0.76rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.filter-pill:hover {
+  border-color: var(--text-faint);
+  color: var(--text-secondary);
+  background-color: var(--bg-elevated);
+}
+
+.filter-pill.active {
+  background-color: var(--pill-active-bg);
+  border-color: var(--pill-active-bg);
+  color: var(--pill-active-text);
+  font-weight: 600;
+}
+
+.pill-count {
+  font-size: 0.68rem;
+  opacity: 0.65;
+  margin-left: 0.15rem;
+}
+
+/* --- Section Labels --- */
+.section-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-faint);
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--border-light);
+}
+
+/* --- Featured / Hero Section --- */
+.hero-section {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-md);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: var(--space-md);
+}
+
+/* First featured paper: spans the full left column across both rows */
+.hero-grid .hero-card:first-child {
+  grid-row: 1 / 3;
+}
+
+/* --- Base Paper Card --- */
+.paper-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  transition: border-color 0.2s ease, box-shadow 0.25s ease, transform 0.2s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.paper-card:hover {
+  border-color: color-mix(in srgb, var(--card-accent) 35%, var(--border));
+  box-shadow: var(--shadow-md);
+}
+
+/* --- Hero Card --- */
+.hero-card {
+  border-radius: var(--radius-lg);
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border-left: 3px solid var(--card-accent);
+}
+
+.hero-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.hero-card .paper-title {
+  font-size: clamp(1.15rem, 1rem + 0.5vw, 1.4rem);
+  font-weight: 700;
+  line-height: 1.28;
+  margin-bottom: var(--space-sm);
+}
+
+.hero-card .paper-authors {
+  font-size: 0.84rem;
+  margin-bottom: var(--space-xs);
+}
+
+.hero-card .abstract-preview {
+  -webkit-line-clamp: 8;
+}
+
+.hero-card .paper-abstract {
+  flex: 1;
+}
+
+/* --- Papers Grid --- */
+.papers-section {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-2xl);
+}
+
+.papers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--space-md);
+}
+
+/* --- Grid Card --- */
+.grid-card {
+  border-top: 3px solid var(--card-accent);
+  border-left: none;
+}
+
+.grid-card .paper-title {
+  font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem);
+  margin-bottom: var(--space-xs);
+}
+
+.grid-card .paper-abstract {
+  flex: 1;
+}
+
+.grid-card .read-link {
+  margin-top: auto;
+  padding-top: var(--space-sm);
+}
+
+/* Card accent colors per org */
+.paper-card[data-org="Anthropic"] { --card-accent: var(--org-anthropic); }
+.paper-card[data-org="OpenAI"] { --card-accent: var(--org-openai); }
+.paper-card[data-org="Google DeepMind"] { --card-accent: var(--org-google-deepmind); }
+.paper-card[data-org="METR"] { --card-accent: var(--org-metr); }
+.paper-card[data-org="Apollo Research"] { --card-accent: var(--org-apollo-research); }
+.paper-card[data-org="UK AISI"] { --card-accent: var(--org-uk-aisi); }
+.paper-card[data-org="Redwood Research"] { --card-accent: var(--org-redwood-research); }
+.paper-card[data-org="Alignment Forum"] { --card-accent: var(--org-alignment-forum); }
+.paper-card[data-org="arXiv"] { --card-accent: var(--org-arxiv); }
+.paper-card[data-org="Hyperdimensional"] { --card-accent: var(--org-hyperdimensional); }
+.paper-card[data-org="Peter Wildeford"] { --card-accent: var(--org-peter-wildeford); }
+.paper-card[data-org="Zvi Mowshowitz"] { --card-accent: var(--org-zvi-mowshowitz); }
+.paper-card[data-org="RAND"] { --card-accent: var(--org-rand); }
+.paper-card[data-org="ARC"] { --card-accent: var(--org-arc); }
+.paper-card[data-org="MIRI"] { --card-accent: var(--org-miri); }
+.paper-card[data-org="CAIS"] { --card-accent: var(--org-cais); }
+.paper-card[data-org="Microsoft Research"] { --card-accent: var(--org-microsoft-research); }
+.paper-card[data-org="Import AI"] { --card-accent: var(--org-import-ai); }
+.paper-card[data-org="Dan Hendrycks"] { --card-accent: var(--org-dan-hendrycks); }
+.paper-card[data-org="Astral Codex Ten"] { --card-accent: var(--org-astral-codex-ten); }
+.paper-card[data-org="Cognitive Revolution"] { --card-accent: var(--org-cognitive-revolution); }
+.paper-card[data-org="Vox Future Perfect"] { --card-accent: var(--org-vox-future-perfect); }
+.paper-card[data-org="FLI"] { --card-accent: var(--org-fli); }
+.paper-card[data-org="Epoch AI"] { --card-accent: var(--org-epoch-ai); }
+.paper-card[data-org="LessWrong"] { --card-accent: var(--org-lesswrong); }
+.paper-card[data-org="FAR AI"] { --card-accent: var(--org-far-ai); }
+.paper-card[data-org="US AISI"] { --card-accent: var(--org-us-aisi); }
+.paper-card[data-org="CSET"] { --card-accent: var(--org-cset); }
+.paper-card[data-org="GovAI"] { --card-accent: var(--org-govai); }
+.paper-card[data-org="IAPS"] { --card-accent: var(--org-iaps); }
+.paper-card[data-org="CLTR"] { --card-accent: var(--org-cltr); }
+.paper-card[data-org="CHAI"] { --card-accent: var(--org-chai); }
+.paper-card[data-org="MATS"] { --card-accent: var(--org-mats); }
+.paper-card[data-org="Paul Christiano"] { --card-accent: var(--org-paul-christiano); }
+.paper-card[data-org="Yoshua Bengio"] { --card-accent: var(--org-yoshua-bengio); }
+.paper-card[data-org="Lennart Heim"] { --card-accent: var(--org-lennart-heim); }
+.paper-card[data-org="SemiAnalysis"] { --card-accent: var(--org-semianalysis); }
+.paper-card[data-org="Dean Ball"] { --card-accent: var(--org-dean-ball); }
+.paper-card[data-org="Seb Krier"] { --card-accent: var(--org-seb-krier); }
+.paper-card[data-org="Ajeya Cotra"] { --card-accent: var(--org-ajeya-cotra); }
+.paper-card[data-org="CNAS"] { --card-accent: var(--org-cnas); }
+.paper-card[data-org="Hacker News"] { --card-accent: var(--org-hacker-news); }
+.paper-card[data-org="Reddit"] { --card-accent: var(--org-reddit); }
+
+/* --- Paper Meta Row --- */
+.paper-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-sm);
+  gap: var(--space-sm);
+}
+
+/* --- Organization Tag (pill) --- */
+.org-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.18rem 0.55rem;
+  border-radius: 100px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  background-color: color-mix(in srgb, var(--org-default) 12%, var(--bg-card));
+  color: var(--org-default);
+}
+
+/* Org-specific tag colors — using color-mix for subtle backgrounds */
+.org-tag[data-org="Anthropic"] { background-color: color-mix(in srgb, var(--org-anthropic) 12%, var(--bg-card)); color: var(--org-anthropic); }
+.org-tag[data-org="OpenAI"] { background-color: color-mix(in srgb, var(--org-openai) 12%, var(--bg-card)); color: var(--org-openai); }
+.org-tag[data-org="Google DeepMind"] { background-color: color-mix(in srgb, var(--org-google-deepmind) 12%, var(--bg-card)); color: var(--org-google-deepmind); }
+.org-tag[data-org="METR"] { background-color: color-mix(in srgb, var(--org-metr) 12%, var(--bg-card)); color: var(--org-metr); }
+.org-tag[data-org="Apollo Research"] { background-color: color-mix(in srgb, var(--org-apollo-research) 12%, var(--bg-card)); color: var(--org-apollo-research); }
+.org-tag[data-org="UK AISI"] { background-color: color-mix(in srgb, var(--org-uk-aisi) 12%, var(--bg-card)); color: var(--org-uk-aisi); }
+.org-tag[data-org="Redwood Research"] { background-color: color-mix(in srgb, var(--org-redwood-research) 12%, var(--bg-card)); color: var(--org-redwood-research); }
+.org-tag[data-org="Alignment Forum"] { background-color: color-mix(in srgb, var(--org-alignment-forum) 12%, var(--bg-card)); color: var(--org-alignment-forum); }
+.org-tag[data-org="arXiv"] { background-color: color-mix(in srgb, var(--org-arxiv) 12%, var(--bg-card)); color: var(--org-arxiv); }
+.org-tag[data-org="Hyperdimensional"] { background-color: color-mix(in srgb, var(--org-hyperdimensional) 12%, var(--bg-card)); color: var(--org-hyperdimensional); }
+.org-tag[data-org="Peter Wildeford"] { background-color: color-mix(in srgb, var(--org-peter-wildeford) 12%, var(--bg-card)); color: var(--org-peter-wildeford); }
+.org-tag[data-org="Zvi Mowshowitz"] { background-color: color-mix(in srgb, var(--org-zvi-mowshowitz) 12%, var(--bg-card)); color: var(--org-zvi-mowshowitz); }
+.org-tag[data-org="RAND"] { background-color: color-mix(in srgb, var(--org-rand) 12%, var(--bg-card)); color: var(--org-rand); }
+.org-tag[data-org="ARC"] { background-color: color-mix(in srgb, var(--org-arc) 12%, var(--bg-card)); color: var(--org-arc); }
+.org-tag[data-org="MIRI"] { background-color: color-mix(in srgb, var(--org-miri) 12%, var(--bg-card)); color: var(--org-miri); }
+.org-tag[data-org="CAIS"] { background-color: color-mix(in srgb, var(--org-cais) 12%, var(--bg-card)); color: var(--org-cais); }
+.org-tag[data-org="Microsoft Research"] { background-color: color-mix(in srgb, var(--org-microsoft-research) 12%, var(--bg-card)); color: var(--org-microsoft-research); }
+.org-tag[data-org="Import AI"] { background-color: color-mix(in srgb, var(--org-import-ai) 12%, var(--bg-card)); color: var(--org-import-ai); }
+.org-tag[data-org="Dan Hendrycks"] { background-color: color-mix(in srgb, var(--org-dan-hendrycks) 12%, var(--bg-card)); color: var(--org-dan-hendrycks); }
+.org-tag[data-org="Astral Codex Ten"] { background-color: color-mix(in srgb, var(--org-astral-codex-ten) 12%, var(--bg-card)); color: var(--org-astral-codex-ten); }
+.org-tag[data-org="Cognitive Revolution"] { background-color: color-mix(in srgb, var(--org-cognitive-revolution) 12%, var(--bg-card)); color: var(--org-cognitive-revolution); }
+.org-tag[data-org="Vox Future Perfect"] { background-color: color-mix(in srgb, var(--org-vox-future-perfect) 12%, var(--bg-card)); color: var(--org-vox-future-perfect); }
+.org-tag[data-org="FLI"] { background-color: color-mix(in srgb, var(--org-fli) 12%, var(--bg-card)); color: var(--org-fli); }
+.org-tag[data-org="Epoch AI"] { background-color: color-mix(in srgb, var(--org-epoch-ai) 12%, var(--bg-card)); color: var(--org-epoch-ai); }
+.org-tag[data-org="LessWrong"] { background-color: color-mix(in srgb, var(--org-lesswrong) 12%, var(--bg-card)); color: var(--org-lesswrong); }
+.org-tag[data-org="FAR AI"] { background-color: color-mix(in srgb, var(--org-far-ai) 12%, var(--bg-card)); color: var(--org-far-ai); }
+.org-tag[data-org="US AISI"] { background-color: color-mix(in srgb, var(--org-us-aisi) 12%, var(--bg-card)); color: var(--org-us-aisi); }
+.org-tag[data-org="CSET"] { background-color: color-mix(in srgb, var(--org-cset) 12%, var(--bg-card)); color: var(--org-cset); }
+.org-tag[data-org="GovAI"] { background-color: color-mix(in srgb, var(--org-govai) 12%, var(--bg-card)); color: var(--org-govai); }
+.org-tag[data-org="IAPS"] { background-color: color-mix(in srgb, var(--org-iaps) 12%, var(--bg-card)); color: var(--org-iaps); }
+.org-tag[data-org="CLTR"] { background-color: color-mix(in srgb, var(--org-cltr) 12%, var(--bg-card)); color: var(--org-cltr); }
+.org-tag[data-org="CHAI"] { background-color: color-mix(in srgb, var(--org-chai) 12%, var(--bg-card)); color: var(--org-chai); }
+.org-tag[data-org="MATS"] { background-color: color-mix(in srgb, var(--org-mats) 12%, var(--bg-card)); color: var(--org-mats); }
+.org-tag[data-org="Paul Christiano"] { background-color: color-mix(in srgb, var(--org-paul-christiano) 12%, var(--bg-card)); color: var(--org-paul-christiano); }
+.org-tag[data-org="Yoshua Bengio"] { background-color: color-mix(in srgb, var(--org-yoshua-bengio) 12%, var(--bg-card)); color: var(--org-yoshua-bengio); }
+.org-tag[data-org="Lennart Heim"] { background-color: color-mix(in srgb, var(--org-lennart-heim) 12%, var(--bg-card)); color: var(--org-lennart-heim); }
+.org-tag[data-org="SemiAnalysis"] { background-color: color-mix(in srgb, var(--org-semianalysis) 12%, var(--bg-card)); color: var(--org-semianalysis); }
+.org-tag[data-org="Dean Ball"] { background-color: color-mix(in srgb, var(--org-dean-ball) 12%, var(--bg-card)); color: var(--org-dean-ball); }
+.org-tag[data-org="Seb Krier"] { background-color: color-mix(in srgb, var(--org-seb-krier) 12%, var(--bg-card)); color: var(--org-seb-krier); }
+.org-tag[data-org="Ajeya Cotra"] { background-color: color-mix(in srgb, var(--org-ajeya-cotra) 12%, var(--bg-card)); color: var(--org-ajeya-cotra); }
+.org-tag[data-org="CNAS"] { background-color: color-mix(in srgb, var(--org-cnas) 12%, var(--bg-card)); color: var(--org-cnas); }
+.org-tag[data-org="Hacker News"] { background-color: color-mix(in srgb, var(--org-hacker-news) 12%, var(--bg-card)); color: var(--org-hacker-news); }
+.org-tag[data-org="Reddit"] { background-color: color-mix(in srgb, var(--org-reddit) 12%, var(--bg-card)); color: var(--org-reddit); }
+
+/* Dark mode org tag adjustments */
+@media (prefers-color-scheme: dark) {
+  .org-tag {
+    background-color: color-mix(in srgb, var(--org-default) 15%, var(--bg-card));
+  }
+  .org-tag[data-org="Anthropic"] { background-color: color-mix(in srgb, var(--org-anthropic) 15%, var(--bg-card)); }
+  .org-tag[data-org="OpenAI"] { background-color: color-mix(in srgb, var(--org-openai) 15%, var(--bg-card)); }
+  .org-tag[data-org="Google DeepMind"] { background-color: color-mix(in srgb, var(--org-google-deepmind) 15%, var(--bg-card)); }
+  .org-tag[data-org="METR"] { background-color: color-mix(in srgb, var(--org-metr) 15%, var(--bg-card)); }
+  .org-tag[data-org="Apollo Research"] { background-color: color-mix(in srgb, var(--org-apollo-research) 15%, var(--bg-card)); }
+  .org-tag[data-org="UK AISI"] { background-color: color-mix(in srgb, var(--org-uk-aisi) 15%, var(--bg-card)); }
+  .org-tag[data-org="Redwood Research"] { background-color: color-mix(in srgb, var(--org-redwood-research) 15%, var(--bg-card)); }
+  .org-tag[data-org="Alignment Forum"] { background-color: color-mix(in srgb, var(--org-alignment-forum) 15%, var(--bg-card)); }
+  .org-tag[data-org="arXiv"] { background-color: color-mix(in srgb, var(--org-arxiv) 15%, var(--bg-card)); }
+  .org-tag[data-org="Hyperdimensional"] { background-color: color-mix(in srgb, var(--org-hyperdimensional) 15%, var(--bg-card)); }
+  .org-tag[data-org="Peter Wildeford"] { background-color: color-mix(in srgb, var(--org-peter-wildeford) 15%, var(--bg-card)); }
+  .org-tag[data-org="Zvi Mowshowitz"] { background-color: color-mix(in srgb, var(--org-zvi-mowshowitz) 15%, var(--bg-card)); }
+  .org-tag[data-org="RAND"] { background-color: color-mix(in srgb, var(--org-rand) 15%, var(--bg-card)); }
+  .org-tag[data-org="ARC"] { background-color: color-mix(in srgb, var(--org-arc) 15%, var(--bg-card)); }
+  .org-tag[data-org="MIRI"] { background-color: color-mix(in srgb, var(--org-miri) 15%, var(--bg-card)); }
+  .org-tag[data-org="CAIS"] { background-color: color-mix(in srgb, var(--org-cais) 15%, var(--bg-card)); }
+  .org-tag[data-org="Microsoft Research"] { background-color: color-mix(in srgb, var(--org-microsoft-research) 15%, var(--bg-card)); }
+  .org-tag[data-org="Import AI"] { background-color: color-mix(in srgb, var(--org-import-ai) 15%, var(--bg-card)); }
+  .org-tag[data-org="Dan Hendrycks"] { background-color: color-mix(in srgb, var(--org-dan-hendrycks) 15%, var(--bg-card)); }
+  .org-tag[data-org="Astral Codex Ten"] { background-color: color-mix(in srgb, var(--org-astral-codex-ten) 15%, var(--bg-card)); }
+  .org-tag[data-org="Cognitive Revolution"] { background-color: color-mix(in srgb, var(--org-cognitive-revolution) 15%, var(--bg-card)); }
+  .org-tag[data-org="Vox Future Perfect"] { background-color: color-mix(in srgb, var(--org-vox-future-perfect) 15%, var(--bg-card)); }
+  .org-tag[data-org="FLI"] { background-color: color-mix(in srgb, var(--org-fli) 15%, var(--bg-card)); }
+  .org-tag[data-org="Epoch AI"] { background-color: color-mix(in srgb, var(--org-epoch-ai) 15%, var(--bg-card)); }
+  .org-tag[data-org="LessWrong"] { background-color: color-mix(in srgb, var(--org-lesswrong) 15%, var(--bg-card)); }
+  .org-tag[data-org="FAR AI"] { background-color: color-mix(in srgb, var(--org-far-ai) 15%, var(--bg-card)); }
+  .org-tag[data-org="US AISI"] { background-color: color-mix(in srgb, var(--org-us-aisi) 15%, var(--bg-card)); }
+  .org-tag[data-org="CSET"] { background-color: color-mix(in srgb, var(--org-cset) 15%, var(--bg-card)); }
+  .org-tag[data-org="GovAI"] { background-color: color-mix(in srgb, var(--org-govai) 15%, var(--bg-card)); }
+  .org-tag[data-org="IAPS"] { background-color: color-mix(in srgb, var(--org-iaps) 15%, var(--bg-card)); }
+  .org-tag[data-org="CLTR"] { background-color: color-mix(in srgb, var(--org-cltr) 15%, var(--bg-card)); }
+  .org-tag[data-org="CHAI"] { background-color: color-mix(in srgb, var(--org-chai) 15%, var(--bg-card)); }
+  .org-tag[data-org="MATS"] { background-color: color-mix(in srgb, var(--org-mats) 15%, var(--bg-card)); }
+  .org-tag[data-org="Paul Christiano"] { background-color: color-mix(in srgb, var(--org-paul-christiano) 15%, var(--bg-card)); }
+  .org-tag[data-org="Yoshua Bengio"] { background-color: color-mix(in srgb, var(--org-yoshua-bengio) 15%, var(--bg-card)); }
+  .org-tag[data-org="Lennart Heim"] { background-color: color-mix(in srgb, var(--org-lennart-heim) 15%, var(--bg-card)); }
+  .org-tag[data-org="SemiAnalysis"] { background-color: color-mix(in srgb, var(--org-semianalysis) 15%, var(--bg-card)); }
+  .org-tag[data-org="Dean Ball"] { background-color: color-mix(in srgb, var(--org-dean-ball) 15%, var(--bg-card)); }
+  .org-tag[data-org="Seb Krier"] { background-color: color-mix(in srgb, var(--org-seb-krier) 15%, var(--bg-card)); }
+  .org-tag[data-org="Ajeya Cotra"] { background-color: color-mix(in srgb, var(--org-ajeya-cotra) 15%, var(--bg-card)); }
+  .org-tag[data-org="CNAS"] { background-color: color-mix(in srgb, var(--org-cnas) 15%, var(--bg-card)); }
+  .org-tag[data-org="Hacker News"] { background-color: color-mix(in srgb, var(--org-hacker-news) 15%, var(--bg-card)); }
+  .org-tag[data-org="Reddit"] { background-color: color-mix(in srgb, var(--org-reddit) 15%, var(--bg-card)); }
+}
+
+/* --- Paper Title --- */
+.paper-title {
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.15rem);
+  font-weight: 650;
+  line-height: 1.32;
+  margin-bottom: var(--space-xs);
+  letter-spacing: -0.015em;
+}
+
+.paper-title a {
+  color: var(--heading);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.paper-title a:hover {
+  color: var(--link);
+}
+
+/* --- Paper Authors --- */
+.paper-authors {
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  margin-bottom: var(--space-xs);
+  line-height: 1.45;
+}
+
+/* --- Paper Date --- */
+.paper-date {
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Abstract Section --- */
+.paper-abstract {
+  margin-top: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+/* --- Details / Summary expand-collapse --- */
+.abstract-expand {
+  /* no extra margin needed */
+}
+
+.abstract-expand summary {
+  list-style: none;
+  cursor: pointer;
+  display: block;
+}
+
+.abstract-expand summary::-webkit-details-marker {
+  display: none;
+}
+
+/* The truncated preview text inside the summary */
+.abstract-preview {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.hero-card .abstract-preview {
+  -webkit-line-clamp: 8;
+}
+
+/* Toggle label ("Show more" / "Show less") */
+.toggle-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--link);
+  padding: 0.2rem 0 0;
+  transition: color 0.15s ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.toggle-label::after {
+  content: '';
+  display: inline-block;
+  width: 0.35em;
+  height: 0.35em;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+  margin-top: -0.1em;
+}
+
+.abstract-expand[open] .toggle-label::after {
+  transform: rotate(-135deg);
+  margin-top: 0.15em;
+}
+
+.abstract-expand summary:hover .toggle-label {
+  color: var(--link-hover);
+}
+
+/* When open, hide the truncated preview and change label text */
+.abstract-expand[open] .abstract-preview {
+  display: none;
+}
+
+.abstract-expand[open] .toggle-label {
+  margin-top: 0;
+}
+
+/* Full abstract text */
+.abstract-full {
+  font-size: 0.84rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+  padding: 0.5rem 0 0.2rem 0.85rem;
+  border-left: 2px solid color-mix(in srgb, var(--card-accent) 50%, var(--border));
+  margin-top: 0.35rem;
+  animation: abstractReveal 0.2s ease;
+}
+
+@keyframes abstractReveal {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Read Paper Link --- */
+.read-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-faint);
+  margin-top: var(--space-sm);
+  padding: 0;
+  border: none;
+  background: none;
+  transition: color 0.15s ease, gap 0.15s ease;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.read-link:hover {
+  color: var(--link);
+  gap: 0.45rem;
+}
+
+/* --- Empty State --- */
+.empty-state {
+  text-align: center;
+  padding: 5rem 1rem;
+  color: var(--text-muted);
+}
+
+.empty-state p {
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+}
+
+.empty-sub {
+  font-size: 0.88rem;
+  color: var(--text-faint);
+}
+
+/* --- Footer --- */
+.site-footer {
+  margin-top: var(--space-xl);
+  padding: var(--space-lg) 0 var(--space-2xl);
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.footer-note {
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  letter-spacing: 0.01em;
+}
+
+.footer-timestamp {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  opacity: 0.6;
+}
+
+/* --- Pipeline health --- */
+.health-banner {
+  background: #fef3c7;
+  color: #78350f;
+  border-bottom: 1px solid #fcd34d;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.health-banner a {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-left: 0.25rem;
+}
+
+.health-banner-icon {
+  font-size: 1.1rem;
+}
+
+.pipeline-health {
+  width: 100%;
+  max-width: 720px;
+  margin-bottom: var(--space-md);
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.pipeline-health-summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--text-faint);
+  padding: 0.4rem 0;
+  user-select: none;
+}
+
+.pipeline-health-summary::-webkit-details-marker { display: none; }
+
+.pipeline-health-summary::before {
+  content: "▸ ";
+  font-size: 0.7rem;
+  transition: transform 0.15s ease;
+}
+
+.pipeline-health[open] .pipeline-health-summary::before {
+  content: "▾ ";
+}
+
+.health-summary-counts {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--text-faint);
+}
+
+.health-summary-counts .health-dot {
+  margin-left: 0.4rem;
+}
+
+.health-list {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 1rem;
+}
+
+.health-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+  font-size: 0.78rem;
+  color: var(--text-faint);
+}
+
+.health-name {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.health-meta {
+  margin-left: auto;
+  font-size: 0.72rem;
+  opacity: 0.75;
+}
+
+.health-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.health-dot-healthy { background: #10b981; }
+.health-dot-degraded { background: #f59e0b; }
+.health-dot-broken { background: #ef4444; }
+.health-dot-unknown { background: #9ca3af; }
+
+@media (max-width: 700px) {
+  .health-list { grid-template-columns: 1fr; }
+}
+
+/* --- Responsive: Tablet --- */
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .hero-grid .hero-card:first-child {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+}
+
+/* --- Responsive: Mobile --- */
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+
+  .site-header {
+    padding: var(--space-2xl) 0 var(--space-lg);
+  }
+
+  .site-title {
+    font-size: 1.65rem;
+  }
+
+  .header-meta {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .header-separator {
+    display: none;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-grid .hero-card:first-child {
+    grid-column: auto;
+  }
+
+  .papers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .paper-card {
+    padding: var(--space-md);
+    border-radius: var(--radius-sm);
+  }
+
+  .hero-card {
+    border-radius: var(--radius-md);
+  }
+
+  .paper-title {
+    font-size: 0.95rem;
+  }
+
+  .hero-card .paper-title {
+    font-size: 1.05rem;
+  }
+
+  .paper-authors {
+    font-size: 0.76rem;
+  }
+
+  .abstract-preview {
+    font-size: 0.82rem;
+  }
+
+  .toggle-label {
+    font-size: 0.72rem;
+  }
+
+  .abstract-full {
+    font-size: 0.8rem;
+    padding-left: 0.65rem;
+  }
+
+  .filter-pill {
+    font-size: 0.7rem;
+    padding: 0.28rem 0.6rem;
+  }
+
+  .paper-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  .read-link {
+    font-size: 0.75rem;
+  }
+
+  .section-label {
+    font-size: 0.65rem;
+  }
+
+  .toggle-btn {
+    font-size: 0.72rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+  </style>
+</head>
+<body>  <div class="health-banner" role="alert">
+    <span class="health-banner-icon" aria-hidden="true">&#9888;</span>
+    <span class="health-banner-text">
+      <strong>1</strong>
+      source      has      not returned data in over a week.
+      <a href="#pipeline-health">See details &rarr;</a>
+    </span>
+  </div>
+<!-- Masthead -->
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title" id="digest-title">AI Safety Digest</h1>
+      <hr class="header-rule">
+      <div class="header-meta">
+        <span class="header-daterange" id="date-range">May 04, 2026 &mdash; May 11, 2026</span>        <span class="header-separator">&middot;</span>
+        <span class="header-count" id="paper-count"><strong>5</strong> papers</span>      </div>
+      <div class="digest-toggle" role="group" aria-label="Digest time range">
+        <button class="toggle-btn" data-mode="daily">Daily</button>
+        <button class="toggle-btn active" data-mode="weekly">Weekly</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter Bar -->
+  <nav class="filter-bar" aria-label="Filter papers by organization">
+    <div class="filter-bar-inner">
+      <div class="filter-scroll">
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">5</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="Google DeepMind">Google DeepMind</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="Epoch AI">Epoch AI</button>      </div>
+    </div>
+  </nav>
+
+
+  <!-- Papers Grid -->
+  <main class="papers-section">
+    <h2 class="section-label">All Papers</h2>
+    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-05-07">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">May 7, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://example.com/posts/reward-hack-note" target="_blank" rel="noopener noreferrer">A Note on Reward-Hacking in Long-Horizon Tasks</a>
+    </h3>    <p class="paper-authors">Sam Author</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">A short note describing reward-hacking behaviour observed in agents trained on long-horizon tasks with sparse, learned reward.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">A short note describing reward-hacking behaviour observed in agents trained on long-horizon tasks with sparse, learned reward.</div>
+      </details>
+    </div>    <a href="https://example.com/posts/reward-hack-note" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Epoch AI" data-date="2026-05-06">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Epoch AI">Epoch AI</span>
+      <span class="paper-date">May 6, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://example.com/blog/compute-q1-2026" target="_blank" rel="noopener noreferrer">Compute Trends Q1 2026</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Quarterly summary of frontier compute deployment, including training run sizes, inference fleet growth, and chip supply estimates.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Quarterly summary of frontier compute deployment, including training run sizes, inference fleet growth, and chip supply estimates.</div>
+      </details>
+    </div>    <a href="https://example.com/blog/compute-q1-2026" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">      <details class="pipeline-health" id="pipeline-health">
+        <summary class="pipeline-health-summary">
+          Pipeline health<span class="health-summary-counts">
+            <span class="health-dot health-dot-healthy" title="Healthy"></span>2
+            <span class="health-dot health-dot-degraded" title="Degraded"></span>1
+            <span class="health-dot health-dot-broken" title="Broken"></span>1
+          </span>
+        </summary>
+        <ul class="health-list">          <li class="health-row health-row-broken">
+            <span class="health-dot health-dot-broken" aria-hidden="true"></span>
+            <span class="health-name">ARC blog</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-degraded">
+            <span class="health-dot health-dot-degraded" aria-hidden="true"></span>
+            <span class="health-name">MATS research</span>
+            <span class="health-meta">last data May 5, 2026</span>
+          </li>          <li class="health-row health-row-healthy">
+            <span class="health-dot health-dot-healthy" aria-hidden="true"></span>
+            <span class="health-name">Anthropic News</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 2 items</span>
+          </li>          <li class="health-row health-row-healthy">
+            <span class="health-dot health-dot-healthy" aria-hidden="true"></span>
+            <span class="health-name">OpenAI Research Publications</span>
+            <span class="health-meta">last data May 10, 2026 &middot; 1 item</span>
+          </li>        </ul>
+      </details>      <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
+      <p class="footer-timestamp">2026-05-11 08:30:00</p>
+    </div>
+  </footer>
+
+  <!-- Filter + Digest Mode JS -->
+  <script>
+    (function () {
+      var FETCH_DATE = '2026-05-11';
+      var WEEK_START = 'May 04, 2026';
+      var WEEK_END = 'May 11, 2026';
+      var TOTAL_COUNT = 5;
+
+      var pills = document.querySelectorAll('.filter-pill');
+      var cards = document.querySelectorAll('.paper-card');
+      var heroSection = document.querySelector('.hero-section');
+      var gridLabel = document.querySelector('.papers-section .section-label');
+      var toggleBtns = document.querySelectorAll('.toggle-btn');
+      var digestTitle = document.getElementById('digest-title');
+      var dateRange = document.getElementById('date-range');
+      var paperCount = document.getElementById('paper-count');
+      var emptyState = document.querySelector('.empty-state');
+      var papersGrid = document.querySelector('.papers-grid');
+
+      var currentOrg = 'all';
+      var currentMode = 'weekly';
+
+      // Daily mode shows only papers from the fetch date
+      function getDailyCutoff() {
+        return FETCH_DATE;
+      }
+
+      // Format a date string like "February 18, 2026"
+      function formatDateLong(dateStr) {
+        var d = new Date(dateStr + 'T00:00:00');
+        var months = ['January','February','March','April','May','June',
+                      'July','August','September','October','November','December'];
+        return months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+      }
+
+      function applyFilters() {
+        var dailyCutoff = getDailyCutoff();
+        var visible = 0;
+        var heroVisible = 0;
+        var gridVisible = 0;
+
+        cards.forEach(function (card) {
+          var orgMatch = (currentOrg === 'all' || card.getAttribute('data-org') === currentOrg);
+          var dateMatch = true;
+          if (currentMode === 'daily') {
+            var cardDate = card.getAttribute('data-date');
+            dateMatch = (cardDate >= dailyCutoff);
+          }
+          if (orgMatch && dateMatch) {
+            card.style.display = '';
+            visible++;
+            if (card.classList.contains('hero-card')) heroVisible++;
+            if (card.classList.contains('grid-card')) gridVisible++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Show/hide sections
+        if (heroSection) heroSection.style.display = heroVisible > 0 ? '' : 'none';
+        if (gridLabel) gridLabel.style.display = gridVisible > 0 ? '' : 'none';
+
+        // Update header
+        if (currentMode === 'daily') {
+          digestTitle.textContent = 'AI Safety Digest';
+          dateRange.textContent = formatDateLong(FETCH_DATE);
+        } else {
+          digestTitle.textContent = 'AI Safety Digest';
+          dateRange.innerHTML = WEEK_START + ' &mdash; ' + WEEK_END;
+        }
+
+        // Update paper count
+        if (paperCount) {
+          paperCount.innerHTML = '<strong>' + visible + '</strong> papers';
+        }
+
+        // Handle empty state
+        if (visible === 0) {
+          if (!emptyState) {
+            emptyState = document.createElement('div');
+            emptyState.className = 'empty-state';
+            var main = document.querySelector('.papers-section');
+            if (papersGrid) {
+              main.insertBefore(emptyState, papersGrid);
+            } else {
+              main.appendChild(emptyState);
+            }
+          }
+          emptyState.innerHTML = currentMode === 'daily'
+            ? '<p>No papers found for today.</p><p class="empty-sub">Try the weekly view or check back later.</p>'
+            : '<p>No papers found for this week.</p><p class="empty-sub">Check back soon &mdash; new research is published daily.</p>';
+          emptyState.style.display = '';
+        } else if (emptyState) {
+          emptyState.style.display = 'none';
+        }
+      }
+
+      // Org filter pills
+      pills.forEach(function (pill) {
+        pill.addEventListener('click', function () {
+          currentOrg = this.getAttribute('data-filter');
+          pills.forEach(function (p) { p.classList.remove('active'); });
+          this.classList.add('active');
+          applyFilters();
+        });
+      });
+
+      // Digest mode toggle
+      toggleBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          currentMode = this.getAttribute('data-mode');
+          toggleBtns.forEach(function (b) { b.classList.remove('active'); });
+          this.classList.add('active');
+          try { localStorage.setItem('digestMode', currentMode); } catch (e) {}
+          applyFilters();
+        });
+      });
+
+      // Restore saved mode
+      try {
+        var saved = localStorage.getItem('digestMode');
+        if (saved === 'daily' || saved === 'weekly') {
+          currentMode = saved;
+          toggleBtns.forEach(function (b) {
+            b.classList.toggle('active', b.getAttribute('data-mode') === currentMode);
+          });
+          applyFilters();
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+</body>
+</html>
