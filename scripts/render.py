@@ -126,6 +126,8 @@ PRIORITY_ORGS: list[str] = [
     "Seb Krier",
     "Peter Wildeford",
     "Ajeya Cotra",
+    "Jack Clark",
+    "Helen Toner",
     "CNAS",
     "Forethought",
 ]
@@ -326,8 +328,61 @@ def extract_organizations(papers: list[dict]) -> list[str]:
     return priority + rest
 
 
-def render(papers: list[dict], css: str) -> str:
-    """Render the Jinja2 template with the provided data and return HTML."""
+def _load_health(now: datetime) -> tuple[list[dict], int]:
+    """Return (sorted_health_list, broken_count).
+
+    Imports observability lazily so render.py stays usable even if the
+    observability module hasn't been touched yet (e.g. in fixture-driven tests).
+    """
+    try:
+        from scripts.observability import compute_health
+    except Exception:
+        return [], 0
+
+    health = compute_health()
+    if not health:
+        return [], 0
+
+    # Order: broken first, degraded, healthy, unknown — most-actionable first.
+    status_order = {"broken": 0, "degraded": 1, "healthy": 2, "unknown": 3}
+    items = []
+    for src in health.values():
+        items.append({
+            "name": src.name,
+            "status": src.status,
+            "last_success_at": src.last_success_at,
+            "last_run_at": src.last_run_at,
+            "last_items_fetched": src.last_items_fetched,
+            "last_error": src.last_error,
+        })
+    items.sort(key=lambda h: (status_order.get(h["status"], 99), h["name"].lower()))
+    broken = sum(1 for h in items if h["status"] == "broken")
+    return items, broken
+
+
+def render(
+    papers: list[dict],
+    css: str,
+    now: datetime | None = None,
+    health: list[dict] | None = None,
+    broken_count: int | None = None,
+) -> str:
+    """Render the Jinja2 template with the provided data and return HTML.
+
+    Parameters
+    ----------
+    papers:
+        Paper dicts.
+    css:
+        Stylesheet contents to inline.
+    now:
+        Optional clock injection for deterministic snapshot tests.
+    health:
+        Optional pre-computed health list. If omitted, the run log is read
+        and ``compute_health()`` is used.
+    broken_count:
+        Optional pre-computed count of broken sources. Pairs with ``health``.
+    """
     env = Environment(
         loader=FileSystemLoader(TEMPLATE_DIR),
         autoescape=True,
@@ -336,7 +391,8 @@ def render(papers: list[dict], css: str) -> str:
     )
     template = env.get_template("index.html.j2")
 
-    now = datetime.now()
+    if now is None:
+        now = datetime.now()
     week_start, week_end = compute_week_range(now)
     fetch_date = now.strftime("%Y-%m-%d")
     last_updated = now.strftime("%Y-%m-%d %H:%M:%S %Z").strip()
@@ -351,6 +407,11 @@ def render(papers: list[dict], css: str) -> str:
     grid_papers = [p for p in papers if p.get("url") not in featured_urls]
     total_count = len(papers)
 
+    if health is None:
+        health, broken_count = _load_health(now)
+    elif broken_count is None:
+        broken_count = sum(1 for h in health if h.get("status") == "broken")
+
     html = template.render(
         papers=grid_papers,
         featured_papers=featured_papers,
@@ -361,6 +422,8 @@ def render(papers: list[dict], css: str) -> str:
         last_updated=last_updated,
         organizations=organizations,
         css=css,
+        health=health,
+        broken_count=broken_count,
     )
     return html
 

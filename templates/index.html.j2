@@ -14,6 +14,19 @@
 </head>
 <body>
 
+  {%- if broken_count and broken_count > 0 %}
+  <div class="health-banner" role="alert">
+    <span class="health-banner-icon" aria-hidden="true">&#9888;</span>
+    <span class="health-banner-text">
+      <strong>{{ broken_count }}</strong>
+      source{% if broken_count != 1 %}s{% endif %}
+      ha{% if broken_count == 1 %}s{% else %}ve{% endif %}
+      not returned data in over a week.
+      <a href="#pipeline-health">See details &rarr;</a>
+    </span>
+  </div>
+  {%- endif %}
+
   {# ── Reusable date-formatting macro ── #}
   {%- macro fmt_date(date_val) -%}
     {%- set months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] -%}
@@ -126,6 +139,39 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-inner">
+      {%- if health %}
+      <details class="pipeline-health" id="pipeline-health">
+        <summary class="pipeline-health-summary">
+          Pipeline health
+          {%- set broken_n = health | selectattr('status', 'equalto', 'broken') | list | length -%}
+          {%- set degraded_n = health | selectattr('status', 'equalto', 'degraded') | list | length -%}
+          {%- set healthy_n = health | selectattr('status', 'equalto', 'healthy') | list | length -%}
+          <span class="health-summary-counts">
+            <span class="health-dot health-dot-healthy" title="Healthy"></span>{{ healthy_n }}
+            <span class="health-dot health-dot-degraded" title="Degraded"></span>{{ degraded_n }}
+            <span class="health-dot health-dot-broken" title="Broken"></span>{{ broken_n }}
+          </span>
+        </summary>
+        <ul class="health-list">
+          {%- for src in health %}
+          <li class="health-row health-row-{{ src.status }}">
+            <span class="health-dot health-dot-{{ src.status }}" aria-hidden="true"></span>
+            <span class="health-name">{{ src.name }}</span>
+            <span class="health-meta">
+              {%- if src.last_success_at -%}
+              last data {{ fmt_date(src.last_success_at) }}
+              {%- if src.last_items_fetched -%}
+              {{ ' ' }}&middot; {{ src.last_items_fetched }} item{% if src.last_items_fetched != 1 %}s{% endif %}
+              {%- endif -%}
+              {%- else -%}
+              no successful run in window
+              {%- endif -%}
+            </span>
+          </li>
+          {%- endfor %}
+        </ul>
+      </details>
+      {%- endif %}
       <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
       <p class="footer-timestamp">{{ last_updated }}</p>
     </div>

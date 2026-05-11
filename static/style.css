@@ -812,6 +812,120 @@ a:hover {
   opacity: 0.6;
 }
 
+/* --- Pipeline health --- */
+.health-banner {
+  background: #fef3c7;
+  color: #78350f;
+  border-bottom: 1px solid #fcd34d;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.health-banner a {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-left: 0.25rem;
+}
+
+.health-banner-icon {
+  font-size: 1.1rem;
+}
+
+.pipeline-health {
+  width: 100%;
+  max-width: 720px;
+  margin-bottom: var(--space-md);
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.pipeline-health-summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--text-faint);
+  padding: 0.4rem 0;
+  user-select: none;
+}
+
+.pipeline-health-summary::-webkit-details-marker { display: none; }
+
+.pipeline-health-summary::before {
+  content: "▸ ";
+  font-size: 0.7rem;
+  transition: transform 0.15s ease;
+}
+
+.pipeline-health[open] .pipeline-health-summary::before {
+  content: "▾ ";
+}
+
+.health-summary-counts {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--text-faint);
+}
+
+.health-summary-counts .health-dot {
+  margin-left: 0.4rem;
+}
+
+.health-list {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 1rem;
+}
+
+.health-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+  font-size: 0.78rem;
+  color: var(--text-faint);
+}
+
+.health-name {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.health-meta {
+  margin-left: auto;
+  font-size: 0.72rem;
+  opacity: 0.75;
+}
+
+.health-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.health-dot-healthy { background: #10b981; }
+.health-dot-degraded { background: #f59e0b; }
+.health-dot-broken { background: #ef4444; }
+.health-dot-unknown { background: #9ca3af; }
+
+@media (max-width: 700px) {
+  .health-list { grid-template-columns: 1fr; }
+}
+
 /* --- Responsive: Tablet --- */
 @media (max-width: 900px) {
   .hero-grid {
