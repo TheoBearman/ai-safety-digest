@@ -84,6 +84,14 @@ rss_feeds:
     org: "Dan Hendrycks"
     keywords: ["research", "paper", "safety", "alignment", "benchmark", "evaluation", "model", "training", "dataset", "robustness", "adversarial", "red team"]
 
+  - name: "Jack Clark — Import AI"
+    url: "https://importai.substack.com/feed"
+    org: "Jack Clark"
+
+  - name: "Helen Toner — Rising Tide"
+    url: "https://helentoner.substack.com/feed"
+    org: "Helen Toner"
+
   # Policy orgs with RSS
   - name: "FLI"
     url: "https://futureoflife.org/feed/"
