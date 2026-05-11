@@ -21,16 +21,22 @@ Run standalone for testing:
 from __future__ import annotations
 
 import html as html_module
+import json
 import logging
 import os
 import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime, timedelta, timezone
+from typing import TYPE_CHECKING
 from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
+
+if TYPE_CHECKING:
+    from scripts.observability import RunRecorder
 
 # ---------------------------------------------------------------------------
 # Ensure the project root is on sys.path so ``scripts.*`` imports work when
@@ -45,6 +51,13 @@ from scripts.models import Paper
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
+CACHE_PATH = os.path.join(PROJECT_ROOT, "data", "enrich_cache.json")
+# Failed/synthetic lookups expire after this many seconds so transient failures
+# don't permanently poison the cache.
+CACHE_FAILURE_TTL_SECONDS = 7 * 86400
+# Hard eviction: drop any cache entry older than this on save.
+CACHE_EVICTION_AGE_SECONDS = 180 * 86400
+
 MIN_ABSTRACT_LEN = 100      # abstracts shorter than this are considered "missing"
 MIN_ABSTRACT_WORDS = 20     # abstracts with fewer words also trigger enrichment
 MIN_PARAGRAPH_LEN = 80      # minimum length for a <p> tag to be considered useful
@@ -438,6 +451,111 @@ def _generate_synthetic_abstract(paper: Paper) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Enrichment cache
+# ---------------------------------------------------------------------------
+# On-disk JSON map keyed by URL. Each entry:
+#   {"abstract": "...", "fetched_at": iso8601, "status": "ok"|"fail", "synthetic": false}
+# - status="ok" entries are cached indefinitely (paper abstracts are essentially
+#   immutable once published).
+# - status="fail" entries are cached for CACHE_FAILURE_TTL_SECONDS so transient
+#   errors are retried.
+# - Entries older than CACHE_EVICTION_AGE_SECONDS are pruned at save time to
+#   keep the file bounded.
+
+
+def load_enrich_cache(path: str = CACHE_PATH) -> dict[str, dict]:
+    """Load the enrichment cache. Returns an empty dict if missing/corrupt."""
+    if not os.path.isfile(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if isinstance(data, dict):
+            return data
+        logger.warning("Enrich cache at %s has unexpected shape; ignoring", path)
+    except (json.JSONDecodeError, OSError) as exc:
+        logger.warning("Failed to load enrich cache %s: %s", path, exc)
+    return {}
+
+
+def _parse_cache_timestamp(raw: str | None) -> datetime | None:
+    if not raw:
+        return None
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except (ValueError, TypeError):
+        return None
+
+
+def cache_lookup(cache: dict[str, dict], url: str) -> str | None:
+    """Return a cached abstract if the entry exists and hasn't expired.
+
+    Successful, non-synthetic entries persist indefinitely. Failed lookups
+    and synthetic fallbacks are TTL'd so we periodically retry the URL —
+    a synthetic abstract is a placeholder, not a real success.
+    """
+    entry = cache.get(url)
+    if not entry:
+        return None
+    abstract = entry.get("abstract")
+    if not abstract:
+        return None
+    status = entry.get("status", "ok")
+    is_synthetic = bool(entry.get("synthetic", False))
+    if status != "ok" or is_synthetic:
+        fetched_at = _parse_cache_timestamp(entry.get("fetched_at"))
+        if fetched_at is None:
+            return None
+        age = (datetime.now(timezone.utc) - fetched_at).total_seconds()
+        if age > CACHE_FAILURE_TTL_SECONDS:
+            return None
+    return abstract
+
+
+def cache_store(
+    cache: dict[str, dict],
+    url: str,
+    abstract: str | None,
+    *,
+    synthetic: bool = False,
+) -> None:
+    """Write a cache entry for *url*. Stores status=ok when abstract is non-empty."""
+    cache[url] = {
+        "abstract": abstract or "",
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "status": "ok" if abstract else "fail",
+        "synthetic": synthetic,
+    }
+
+
+def save_enrich_cache(
+    cache: dict[str, dict],
+    path: str = CACHE_PATH,
+) -> int:
+    """Evict stale entries and persist the cache. Returns final entry count."""
+    now = datetime.now(timezone.utc)
+    pruned: dict[str, dict] = {}
+    for url, entry in cache.items():
+        fetched_at = _parse_cache_timestamp(entry.get("fetched_at"))
+        if fetched_at is None:
+            continue
+        if (now - fetched_at).total_seconds() > CACHE_EVICTION_AGE_SECONDS:
+            continue
+        pruned[url] = entry
+
+    try:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(pruned, f, indent=2, ensure_ascii=False, sort_keys=True)
+    except OSError as exc:
+        logger.warning("Failed to save enrich cache %s: %s", path, exc)
+    return len(pruned)
+
+
+# ---------------------------------------------------------------------------
 # Per-paper enrichment
 # ---------------------------------------------------------------------------
 
@@ -521,12 +639,19 @@ def _enrich_single(paper: Paper) -> bool:
 # Public API
 # ---------------------------------------------------------------------------
 
-def enrich_abstracts(papers: list[Paper]) -> list[Paper]:
+def enrich_abstracts(
+    papers: list[Paper],
+    recorder: "RunRecorder | None" = None,
+) -> list[Paper]:
     """Enrich papers that have missing or short abstracts.
 
     Papers whose abstract is already >= ``MIN_ABSTRACT_LEN`` characters are
     left untouched.  The function is idempotent -- running it again on
     already-enriched papers is a no-op.
+
+    Uses an on-disk cache (``data/enrich_cache.json``) to avoid re-fetching
+    URLs whose abstracts we've already extracted. Successful entries persist
+    indefinitely; failed entries expire after ``CACHE_FAILURE_TTL_SECONDS``.
 
     After URL-based enrichment, any papers that still lack an abstract
     receive a synthetic placeholder generated from their metadata.
@@ -535,48 +660,84 @@ def enrich_abstracts(papers: list[Paper]) -> list[Paper]:
     ----------
     papers:
         List of :class:`Paper` objects (mutated in place *and* returned).
+    recorder:
+        Optional :class:`~scripts.observability.RunRecorder` to record
+        stage timing and cache hit/miss counts.
 
     Returns
     -------
     list[Paper]
         The same list, with abstracts enriched where possible.
     """
+    stage_start = time.perf_counter()
+    in_count = len(papers)
+
     to_enrich = [
         p for p in papers
         if len((p.abstract or "").strip()) < MIN_ABSTRACT_LEN
         or len((p.abstract or "").split()) < MIN_ABSTRACT_WORDS
     ]
 
+    cache = load_enrich_cache()
+    cache_hits = 0
+    cache_misses = 0
+
     if not to_enrich:
         logger.info("All %d papers already have good abstracts; nothing to enrich", len(papers))
+        size_after = save_enrich_cache(cache)
+        if recorder is not None:
+            recorder.record_enrich_cache(cache_hits, cache_misses, size_after)
+            recorder.record_stage(
+                "enrich", in_count, len(papers), time.perf_counter() - stage_start
+            )
         return papers
 
+    # ---- Phase 1: resolve cache hits synchronously ----
+    misses: list[Paper] = []
+    for paper in to_enrich:
+        cached = cache_lookup(cache, paper.url)
+        if cached:
+            paper.abstract = _cap_words(cached)
+            cache_hits += 1
+            logger.debug("  Cache hit: %s", paper.title[:80])
+        else:
+            misses.append(paper)
+
+    if cache_hits:
+        logger.info("Cache: %d hits / %d misses", cache_hits, len(misses))
+
     logger.info(
-        "Enriching abstracts: %d of %d papers need enrichment",
-        len(to_enrich),
+        "Enriching abstracts: %d of %d papers need network fetch",
+        len(misses),
         len(papers),
     )
 
-    enriched_count = 0
-    with ThreadPoolExecutor(max_workers=MAX_CONCURRENT) as pool:
-        future_to_paper = {
-            pool.submit(_fetch_abstract_from_url, paper.url): paper
-            for paper in to_enrich
-        }
-        for future in as_completed(future_to_paper):
-            paper = future_to_paper[future]
-            try:
-                new_abstract = future.result()
-            except Exception as exc:
-                logger.warning("Enrichment failed for %s: %s", paper.title[:80], exc)
-                continue
+    # ---- Phase 2: fetch cache misses in parallel ----
+    enriched_count = cache_hits
+    if misses:
+        with ThreadPoolExecutor(max_workers=MAX_CONCURRENT) as pool:
+            future_to_paper = {
+                pool.submit(_fetch_abstract_from_url, paper.url): paper
+                for paper in misses
+            }
+            for future in as_completed(future_to_paper):
+                paper = future_to_paper[future]
+                cache_misses += 1
+                try:
+                    new_abstract = future.result()
+                except Exception as exc:
+                    logger.warning("Enrichment failed for %s: %s", paper.title[:80], exc)
+                    cache_store(cache, paper.url, None)
+                    continue
 
-            if new_abstract:
-                paper.abstract = _cap_words(new_abstract)
-                enriched_count += 1
-                logger.info("  Enriched: %s", paper.title[:80])
-            else:
-                logger.debug("  No URL enrichment for: %s", paper.title[:80])
+                if new_abstract:
+                    paper.abstract = _cap_words(new_abstract)
+                    cache_store(cache, paper.url, paper.abstract)
+                    enriched_count += 1
+                    logger.info("  Enriched: %s", paper.title[:80])
+                else:
+                    cache_store(cache, paper.url, None)
+                    logger.debug("  No URL enrichment for: %s", paper.title[:80])
 
     # ---- Synthetic fallback for anything still missing ----
     synthetic_count = 0
@@ -585,15 +746,28 @@ def enrich_abstracts(papers: list[Paper]) -> list[Paper]:
         if len(abstract_text) < MIN_ABSTRACT_LEN or len(abstract_text.split()) < MIN_ABSTRACT_WORDS:
             paper.abstract = _generate_synthetic_abstract(paper)
             synthetic_count += 1
+            # Mark synthetic in cache so a future real fetch can replace it.
+            cache_store(cache, paper.url, paper.abstract, synthetic=True)
             logger.debug("  Synthetic abstract for: %s", paper.title[:80])
 
+    size_after = save_enrich_cache(cache)
+
     logger.info(
-        "Enrichment complete: %d/%d papers enriched from URLs, "
-        "%d received synthetic abstracts",
+        "Enrichment complete: %d/%d papers enriched (incl. %d cache hits), "
+        "%d received synthetic abstracts, cache size now %d",
         enriched_count,
         len(to_enrich),
+        cache_hits,
         synthetic_count,
+        size_after,
     )
+
+    if recorder is not None:
+        recorder.record_enrich_cache(cache_hits, cache_misses, size_after)
+        recorder.record_stage(
+            "enrich", in_count, len(papers), time.perf_counter() - stage_start
+        )
+
     return papers
 
 
