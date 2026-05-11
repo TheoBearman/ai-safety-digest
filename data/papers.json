@@ -1,5 +1,31 @@
 [
   {
+    "title": "Clarifying the role of the behavioral selection model",
+    "authors": [
+      "Alex Mallen"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This is a brief elaboration on The behavioral selection model for predicting AI motivations , based on some feedback and thoughts I’ve had since publishing. Written quickly in a personal capacity. The main focus of this post is clarifying the basic machinery of the behavioral selection model, and conveying why it matters to disambiguate between different “motivations” for AI behavior . Very similar or identical behavior in training can correspond to radically different outcomes in deployment based on what motivated it. I’ll preface by saying: I think the behavioral selection model is quite predictive and useful to understand, especially in the short-medium term. But it leaves out some really important dynamics for predicting AI motivations, and I wish I had clarified this more in the original post.",
+    "url": "https://www.alignmentforum.org/posts/nBjo6yniFjmy2uaYa/clarifying-the-role-of-the-behavioral-selection-model",
+    "published_date": "2026-05-10T19:41:32+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-11T12:11:40.745938+00:00"
+  },
+  {
+    "title": "Bad Problems Don't Stop Being Bad Because Somebody's Wrong About Fault Analysis",
+    "authors": [
+      "Linch"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Here's a dynamic I’ve seen at least a dozen times: • Alice: Man that article has a very inaccurate/misleading/horrifying headline. …",
+    "url": "https://www.lesswrong.com/posts/PCsmhN9z65HtC4t5v/bad-problems-don-t-stop-being-bad-because-somebody-s-wrong",
+    "published_date": "2026-05-09T01:30:01.001000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-05-11T12:11:56.220659+00:00"
+  },
+  {
     "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
     "authors": [
       "Andrea Britto Mattos Lima, Thiago Vallin Spina, Weiwei Yang, Spencer Fowers, Ruslan Nagimov, Baosen   Zhang"
@@ -10,7 +36,7 @@
     "published_date": "2026-05-08T19:53:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-10T10:16:54.851433+00:00"
+    "fetched_at": "2026-05-11T12:11:39.051957+00:00"
   },
   {
     "title": "Task Substitution and Uplift",
@@ -23,7 +49,7 @@
     "published_date": "2026-05-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-10T10:16:57.245417+00:00"
+    "fetched_at": "2026-05-11T12:11:42.103359+00:00"
   },
   {
     "title": "Review of the \"Risks from automated R&D\" section in the Anthropic Risk Report (February 2026)",
@@ -36,7 +62,7 @@
     "published_date": "2026-05-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-10T10:16:57.245475+00:00"
+    "fetched_at": "2026-05-11T12:11:42.103436+00:00"
   },
   {
     "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
@@ -49,7 +75,7 @@
     "published_date": "2026-05-07T20:21:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-10T10:16:56.207112+00:00"
+    "fetched_at": "2026-05-11T12:11:40.746088+00:00"
   },
   {
     "title": "Mechanistic estimation for wide random MLPs",
@@ -62,7 +88,7 @@
     "published_date": "2026-05-07T16:20:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-10T10:16:56.207194+00:00"
+    "fetched_at": "2026-05-11T12:11:40.746186+00:00"
   },
   {
     "title": "“A review of “Investigating the consequences of accidentally grading CoT during RL”” by Buck Shlegeris",
@@ -75,7 +101,7 @@
     "published_date": "2026-05-07T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-10T10:16:55.938336+00:00"
+    "fetched_at": "2026-05-11T12:11:40.479951+00:00"
   },
   {
     "title": "Investigating the consequences of accidentally grading CoT during RL",
@@ -88,7 +114,7 @@
     "published_date": "2026-05-06T23:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-10T10:16:55.647198+00:00"
+    "fetched_at": "2026-05-11T12:11:40.103847+00:00"
   },
   {
     "title": "Motivated reasoning, confirmation bias, and AI risk theory",
@@ -101,7 +127,7 @@
     "published_date": "2026-05-05T15:56:25+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-10T10:16:56.207781+00:00"
+    "fetched_at": "2026-05-11T12:11:40.747012+00:00"
   },
   {
     "title": "Before Leviathan Wakes",
@@ -114,7 +140,7 @@
     "published_date": "2026-05-05T11:52:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-10T10:16:58.239930+00:00"
+    "fetched_at": "2026-05-11T12:11:43.498068+00:00"
   },
   {
     "title": "Partnering with Microsoft to strengthen frontier AI safety",
@@ -125,7 +151,7 @@
     "published_date": "2026-05-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-10T10:17:04.358825+00:00"
+    "fetched_at": "2026-05-11T12:11:51.238125+00:00"
   },
   {
     "title": "Interpreting Language Model Parameters",
@@ -136,7 +162,7 @@
     "published_date": "2026-05-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-10T10:17:08.054244+00:00"
+    "fetched_at": "2026-05-11T12:11:54.648066+00:00"
   },
   {
     "title": "Aviate, Navigate, Communicate",
@@ -149,7 +175,7 @@
     "published_date": "2026-05-04T11:46:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-10T10:16:58.239949+00:00"
+    "fetched_at": "2026-05-11T12:11:43.498092+00:00"
   },
   {
     "title": "Contingency Frameworks for Future U.S.-China Cooperation on AI Assurance and Security: Preserving Strategic Optionality",
@@ -160,7 +186,7 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-10T10:17:04.591162+00:00"
+    "fetched_at": "2026-05-11T12:11:51.998935+00:00"
   },
   {
     "title": "Open-Weight AI Models Require Proportional Evaluation Approaches",
@@ -171,6 +197,6 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-10T10:17:04.591297+00:00"
+    "fetched_at": "2026-05-11T12:11:51.999146+00:00"
   }
 ]
