@@ -3,12 +3,17 @@
 from __future__ import annotations
 
 import logging
+import time
 from datetime import datetime, timedelta, timezone
+from typing import TYPE_CHECKING
 from urllib.parse import urlparse
 
 import requests
 
 from scripts.models import Paper
+
+if TYPE_CHECKING:
+    from scripts.observability import RunRecorder
 
 logger = logging.getLogger(__name__)
 
@@ -425,7 +430,7 @@ def _fetch_reddit(config: dict) -> list[Paper]:
 # Public API
 # ---------------------------------------------------------------------------
 
-def fetch_trending(config: dict) -> list[Paper]:
+def fetch_trending(config: dict, recorder=None) -> list[Paper]:
     """
     Fetch trending AI safety content from Hacker News and Reddit.
 
@@ -434,6 +439,7 @@ def fetch_trending(config: dict) -> list[Paper]:
     config : dict
         May contain ``hn_queries``, ``hn_min_points``, ``hn_keywords``,
         ``subreddits``, and ``days_back``.
+    recorder : RunRecorder, optional
 
     Returns
     -------
@@ -446,13 +452,57 @@ def fetch_trending(config: dict) -> list[Paper]:
 
     papers: list[Paper] = []
 
-    # Hacker News
-    hn_papers = _fetch_hn(config, cutoff)
-    papers.extend(hn_papers)
+    # Hacker News (aggregate across queries — one source record)
+    hn_start = time.perf_counter()
+    hn_status = "ok"
+    hn_error: str | None = None
+    try:
+        hn_papers = _fetch_hn(config, cutoff)
+        papers.extend(hn_papers)
+    except Exception as exc:
+        logger.warning("Hacker News fetch failed", exc_info=True)
+        hn_status = "error"
+        hn_error = f"{type(exc).__name__}: {exc}"
+        hn_papers = []
+    if recorder is not None and config.get("hn_queries"):
+        recorder.record_source(
+            name="Hacker News",
+            org="Hacker News",
+            type="trending",
+            items_fetched=len(hn_papers),
+            duration_seconds=time.perf_counter() - hn_start,
+            status=hn_status,
+            error=hn_error,
+        )
 
-    # Reddit
-    reddit_papers = _fetch_reddit(config)
-    papers.extend(reddit_papers)
+    # Reddit (one record per subreddit so a single broken sub is visible)
+    subreddits: list[str] = config.get("subreddits", [])
+    min_score: int = config.get("reddit_min_score", 0)
+    for subreddit in subreddits:
+        sub_start = time.perf_counter()
+        sub_status = "ok"
+        sub_error: str | None = None
+        sub_items_before = len(papers)
+        try:
+            sub_papers = _fetch_reddit({
+                "subreddits": [subreddit],
+                "reddit_min_score": min_score,
+            })
+            papers.extend(sub_papers)
+        except Exception as exc:
+            logger.warning("Reddit r/%s fetch failed", subreddit, exc_info=True)
+            sub_status = "error"
+            sub_error = f"{type(exc).__name__}: {exc}"
+        if recorder is not None:
+            recorder.record_source(
+                name=f"Reddit r/{subreddit}",
+                org="Reddit",
+                type="trending",
+                items_fetched=len(papers) - sub_items_before,
+                duration_seconds=time.perf_counter() - sub_start,
+                status=sub_status,
+                error=sub_error,
+            )
 
     logger.info("Trending total: %d items collected", len(papers))
     return papers

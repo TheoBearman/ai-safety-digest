@@ -3,11 +3,16 @@
 from __future__ import annotations
 
 import logging
+import time
 from datetime import datetime, timedelta, timezone
+from typing import TYPE_CHECKING
 
 import requests
 
 from scripts.models import Paper
+
+if TYPE_CHECKING:
+    from scripts.observability import RunRecorder
 
 logger = logging.getLogger(__name__)
 
@@ -81,7 +86,10 @@ def _post_url(post: dict) -> str:
     return "https://www.lesswrong.com/"
 
 
-def fetch_lesswrong(config: dict) -> list[Paper]:
+def fetch_lesswrong(
+    config: dict,
+    recorder: "RunRecorder | None" = None,
+) -> list[Paper]:
     """
     Fetch high-karma posts from LessWrong via their GraphQL API.
 
@@ -89,6 +97,7 @@ def fetch_lesswrong(config: dict) -> list[Paper]:
     ----------
     config : dict
         Must contain ``min_karma``, ``days_back``, and ``max_results``.
+    recorder : RunRecorder, optional
 
     Returns
     -------
@@ -110,6 +119,9 @@ def fetch_lesswrong(config: dict) -> list[Paper]:
     )
 
     papers: list[Paper] = []
+    start = time.perf_counter()
+    status = "ok"
+    error: str | None = None
 
     try:
         response = requests.post(
@@ -164,11 +176,26 @@ def fetch_lesswrong(config: dict) -> list[Paper]:
 
         logger.info("LessWrong: %d posts collected", len(papers))
 
-    except requests.RequestException:
+    except requests.RequestException as exc:
         logger.warning("Failed to fetch from LessWrong API", exc_info=True)
-    except (KeyError, ValueError):
+        status = "error"
+        error = f"{type(exc).__name__}: {exc}"
+    except (KeyError, ValueError) as exc:
         logger.warning(
             "Failed to parse LessWrong API response", exc_info=True
+        )
+        status = "error"
+        error = f"{type(exc).__name__}: {exc}"
+
+    if recorder is not None:
+        recorder.record_source(
+            name="LessWrong",
+            org="LessWrong",
+            type="lesswrong",
+            items_fetched=len(papers),
+            duration_seconds=time.perf_counter() - start,
+            status=status,
+            error=error,
         )
 
     return papers

@@ -5,11 +5,14 @@ from __future__ import annotations
 import logging
 import time
 from datetime import datetime, timedelta, timezone
-from typing import Optional
+from typing import Optional, TYPE_CHECKING
 
 import feedparser
 
 from scripts.models import Paper
+
+if TYPE_CHECKING:
+    from scripts.observability import RunRecorder
 
 logger = logging.getLogger(__name__)
 
@@ -148,7 +151,10 @@ def _matches_keywords(title: str, abstract: str, keywords: list[str]) -> bool:
 # Public API
 # ---------------------------------------------------------------------------
 
-def fetch_rss(feeds_config: list[dict]) -> list[Paper]:
+def fetch_rss(
+    feeds_config: list[dict],
+    recorder: "RunRecorder | None" = None,
+) -> list[Paper]:
     """
     Fetch papers from a list of RSS/Atom feeds.
 
@@ -157,6 +163,8 @@ def fetch_rss(feeds_config: list[dict]) -> list[Paper]:
     feeds_config : list[dict]
         Each dict must contain ``url`` and ``org``, and optionally ``name``
         and ``keywords``.
+    recorder : RunRecorder, optional
+        If provided, per-feed metrics are recorded.
 
     Returns
     -------
@@ -179,15 +187,21 @@ def fetch_rss(feeds_config: list[dict]) -> list[Paper]:
 
         logger.info("Fetching RSS feed: %s (%s)", feed_name, feed_url)
 
+        feed_start = time.perf_counter()
+        feed_items_before = len(papers)
+        feed_status = "ok"
+        feed_error: str | None = None
+
         try:
             feed = feedparser.parse(feed_url)
 
             if feed.bozo and not feed.entries:
+                bozo_exc = getattr(feed, "bozo_exception", "unknown error")
                 logger.warning(
-                    "Feed %s returned an error: %s",
-                    feed_name,
-                    getattr(feed, "bozo_exception", "unknown error"),
+                    "Feed %s returned an error: %s", feed_name, bozo_exc,
                 )
+                feed_status = "error"
+                feed_error = str(bozo_exc)
                 continue
 
             for entry in feed.entries:
@@ -275,9 +289,22 @@ def fetch_rss(feeds_config: list[dict]) -> list[Paper]:
                 "Feed %s: processed %d entries", feed_name, len(feed.entries)
             )
 
-        except Exception:
+        except Exception as exc:
             logger.warning("Failed to fetch feed %s", feed_name, exc_info=True)
+            feed_status = "error"
+            feed_error = f"{type(exc).__name__}: {exc}"
             continue
+        finally:
+            if recorder is not None:
+                recorder.record_source(
+                    name=feed_name,
+                    org=org,
+                    type="rss",
+                    items_fetched=len(papers) - feed_items_before,
+                    duration_seconds=time.perf_counter() - feed_start,
+                    status=feed_status,
+                    error=feed_error,
+                )
 
     logger.info("RSS total: %d papers collected", len(papers))
     return papers

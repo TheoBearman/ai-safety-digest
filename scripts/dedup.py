@@ -5,9 +5,14 @@ from __future__ import annotations
 import logging
 import re
 import string
+import time
 from difflib import SequenceMatcher
+from typing import TYPE_CHECKING
 
 from scripts.models import Paper
+
+if TYPE_CHECKING:
+    from scripts.observability import RunRecorder
 
 logger = logging.getLogger(__name__)
 
@@ -23,7 +28,10 @@ def _normalize_title(title: str) -> str:
     return title
 
 
-def deduplicate(papers: list[Paper]) -> list[Paper]:
+def deduplicate(
+    papers: list[Paper],
+    recorder: "RunRecorder | None" = None,
+) -> list[Paper]:
     """
     Remove duplicate and near-duplicate papers.
 
@@ -34,13 +42,18 @@ def deduplicate(papers: list[Paper]) -> list[Paper]:
     Parameters
     ----------
     papers : list[Paper]
+    recorder : RunRecorder, optional
 
     Returns
     -------
     list[Paper]
         Deduplicated list.
     """
+    in_count = len(papers)
+    start = time.perf_counter()
     if not papers:
+        if recorder is not None:
+            recorder.record_stage("dedup", in_count, 0, time.perf_counter() - start)
         return []
 
     # ------------------------------------------------------------------
@@ -113,4 +126,8 @@ def deduplicate(papers: list[Paper]) -> list[Paper]:
     logger.info(
         "Deduplication complete: %d -> %d papers", len(papers), len(result)
     )
+    if recorder is not None:
+        recorder.record_stage(
+            "dedup", in_count, len(result), time.perf_counter() - start
+        )
     return result

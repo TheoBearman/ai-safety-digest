@@ -11,9 +11,14 @@ from __future__ import annotations
 import logging
 import os
 import re
+import time
 from datetime import datetime, timedelta, timezone
+from typing import TYPE_CHECKING
 
 from scripts.models import Paper
+
+if TYPE_CHECKING:
+    from scripts.observability import RunRecorder
 
 logger = logging.getLogger(__name__)
 
@@ -44,7 +49,10 @@ def _matches_keywords(text: str, keywords: list[str]) -> bool:
     return any(kw.lower() in lowered for kw in keywords)
 
 
-def fetch_twitter(config: dict) -> list[Paper]:
+def fetch_twitter(
+    config: dict,
+    recorder: "RunRecorder | None" = None,
+) -> list[Paper]:
     """Fetch recent AI-related tweets from configured accounts.
 
     Parameters
@@ -53,6 +61,7 @@ def fetch_twitter(config: dict) -> list[Paper]:
         The ``twitter`` section from config.yaml.  Expected keys:
         ``accounts`` (list of {username, org}), ``keywords`` (list[str]),
         ``max_results_per_user`` (int), ``days_back`` (int).
+    recorder : RunRecorder, optional
 
     Returns
     -------
@@ -97,6 +106,11 @@ def fetch_twitter(config: dict) -> list[Paper]:
             continue
 
         logger.info("Twitter: fetching tweets from @%s", username)
+
+        acct_start = time.perf_counter()
+        acct_items_before = len(papers)
+        acct_status = "ok"
+        acct_error: str | None = None
 
         try:
             # Look up the user ID from the username
@@ -157,11 +171,24 @@ def fetch_twitter(config: dict) -> list[Paper]:
                 len(tweets_resp.data),
             )
 
-        except Exception:
+        except Exception as exc:
             logger.warning(
                 "Twitter: failed to fetch @%s", username, exc_info=True
             )
+            acct_status = "error"
+            acct_error = f"{type(exc).__name__}: {exc}"
             continue
+        finally:
+            if recorder is not None:
+                recorder.record_source(
+                    name=f"Twitter @{username}",
+                    org=org,
+                    type="twitter",
+                    items_fetched=len(papers) - acct_items_before,
+                    duration_seconds=time.perf_counter() - acct_start,
+                    status=acct_status,
+                    error=acct_error,
+                )
 
     logger.info("Twitter total: %d tweets collected", len(papers))
     return papers

@@ -4,14 +4,18 @@ from __future__ import annotations
 
 import logging
 import re
+import time
 from datetime import datetime, timezone
-from typing import Optional
+from typing import Optional, TYPE_CHECKING
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
 from scripts.models import Paper
+
+if TYPE_CHECKING:
+    from scripts.observability import RunRecorder
 
 logger = logging.getLogger(__name__)
 
@@ -299,7 +303,10 @@ def _find_article_elements(soup: BeautifulSoup) -> list:
 # Public API
 # ---------------------------------------------------------------------------
 
-def fetch_scraped(scrapers_config: list[dict]) -> list[Paper]:
+def fetch_scraped(
+    scrapers_config: list[dict],
+    recorder: "RunRecorder | None" = None,
+) -> list[Paper]:
     """
     Scrape a list of research pages for articles.
 
@@ -309,6 +316,8 @@ def fetch_scraped(scrapers_config: list[dict]) -> list[Paper]:
         Each dict must contain ``url`` and ``org``, and optionally ``name``.
         Optional ``link_must_contain`` restricts results to links whose URL
         contains the given substring.
+    recorder : RunRecorder, optional
+        If provided, per-site metrics are recorded.
 
     Returns
     -------
@@ -327,6 +336,11 @@ def fetch_scraped(scrapers_config: list[dict]) -> list[Paper]:
         type_values = [v.lower() for v in site_cfg.get("type_values", [])]
 
         logger.info("Scraping: %s (%s)", site_name, site_url)
+
+        site_start = time.perf_counter()
+        site_items_before = len(papers)
+        site_status = "ok"
+        site_error: str | None = None
 
         try:
             response = requests.get(
@@ -410,9 +424,22 @@ def fetch_scraped(scrapers_config: list[dict]) -> list[Paper]:
                 len(elements),
             )
 
-        except Exception:
+        except Exception as exc:
             logger.warning("Failed to scrape %s", site_name, exc_info=True)
+            site_status = "error"
+            site_error = f"{type(exc).__name__}: {exc}"
             continue
+        finally:
+            if recorder is not None:
+                recorder.record_source(
+                    name=site_name,
+                    org=org,
+                    type="scrape",
+                    items_fetched=len(papers) - site_items_before,
+                    duration_seconds=time.perf_counter() - site_start,
+                    status=site_status,
+                    error=site_error,
+                )
 
     logger.info("Scraper total: %d papers collected", len(papers))
     return papers

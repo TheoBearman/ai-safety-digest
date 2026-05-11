@@ -34,6 +34,7 @@ from scripts.fetchers.twitter import fetch_twitter
 from scripts.dedup import deduplicate
 from scripts.enrich import enrich_abstracts
 from scripts.filter import filter_papers
+from scripts.observability import RunRecorder
 
 logging.basicConfig(
     level=logging.INFO,
@@ -85,68 +86,83 @@ def _clean_abstract(text: str) -> str:
 def main() -> None:
     logger.info("Loading configuration from %s", CONFIG_PATH)
     config = load_config(CONFIG_PATH)
+    recorder = RunRecorder()
+    run_status = "ok"
+    run_error: str | None = None
 
-    # -- Fetch from each source ------------------------------------------------
-    all_papers: list[Paper] = []
+    try:
+        # -- Fetch from each source --------------------------------------------
+        all_papers: list[Paper] = []
 
-    for label, fetch_fn, cfg_key in [
-        ("RSS feeds",   fetch_rss,       "rss_feeds"),
-        ("scrapers",    fetch_scraped,   "scrapers"),
-        ("LessWrong",   fetch_lesswrong, "lesswrong"),
-        ("trending",    fetch_trending,  "trending"),
-        ("Twitter/X",   fetch_twitter,   "twitter"),
-    ]:
-        cfg = config.get(cfg_key, [] if cfg_key in ("rss_feeds", "scrapers") else {})
-        if cfg:
-            logger.info("Fetching %s", label)
-            all_papers.extend(fetch_fn(cfg))
+        for label, fetch_fn, cfg_key in [
+            ("RSS feeds",   fetch_rss,       "rss_feeds"),
+            ("scrapers",    fetch_scraped,   "scrapers"),
+            ("LessWrong",   fetch_lesswrong, "lesswrong"),
+            ("trending",    fetch_trending,  "trending"),
+            ("Twitter/X",   fetch_twitter,   "twitter"),
+        ]:
+            cfg = config.get(cfg_key, [] if cfg_key in ("rss_feeds", "scrapers") else {})
+            if cfg:
+                logger.info("Fetching %s", label)
+                all_papers.extend(fetch_fn(cfg, recorder=recorder))
 
-    logger.info("Total papers before processing: %d", len(all_papers))
+        logger.info("Total papers before processing: %d", len(all_papers))
+        recorder.record_total("fetched", len(all_papers))
 
-    # -- Global date filter: keep only papers from the last 7 days -------------
-    # Use start-of-day so we include the full day 7 days ago
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).replace(
-        hour=0, minute=0, second=0, microsecond=0
-    )
-    date_filtered: list[Paper] = []
-    for p in all_papers:
-        try:
-            pub_dt = datetime.fromisoformat(p.published_date)
-            if pub_dt.tzinfo is None:
-                pub_dt = pub_dt.replace(tzinfo=timezone.utc)
-            if pub_dt >= cutoff:
-                date_filtered.append(p)
-        except (ValueError, TypeError):
-            # If we can't parse the date, keep the paper
-            date_filtered.append(p)
-    removed = len(all_papers) - len(date_filtered)
-    if removed:
-        logger.info("Date filter: removed %d papers older than 7 days", removed)
-    all_papers = date_filtered
+        # -- Global date filter: keep only papers from the last 7 days ---------
+        # Use start-of-day so we include the full day 7 days ago
+        with recorder.time_stage("date_filter", len(all_papers)) as t:
+            cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).replace(
+                hour=0, minute=0, second=0, microsecond=0
+            )
+            date_filtered: list[Paper] = []
+            for p in all_papers:
+                try:
+                    pub_dt = datetime.fromisoformat(p.published_date)
+                    if pub_dt.tzinfo is None:
+                        pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+                    if pub_dt >= cutoff:
+                        date_filtered.append(p)
+                except (ValueError, TypeError):
+                    # If we can't parse the date, keep the paper
+                    date_filtered.append(p)
+            removed = len(all_papers) - len(date_filtered)
+            if removed:
+                logger.info("Date filter: removed %d papers older than 7 days", removed)
+            all_papers = date_filtered
+            t.out_count = len(all_papers)
 
-    # -- Pipeline: dedup → filter → enrich → clean -----------------------------
-    papers = deduplicate(all_papers)
-    papers = filter_papers(papers)
-    papers = enrich_abstracts(papers)
+        # -- Pipeline: dedup → filter → enrich → clean -------------------------
+        papers = deduplicate(all_papers, recorder=recorder)
+        papers = filter_papers(papers, recorder=recorder)
+        papers = enrich_abstracts(papers, recorder=recorder)
 
-    for p in papers:
-        p.abstract = _clean_abstract(p.abstract)
+        for p in papers:
+            p.abstract = _clean_abstract(p.abstract)
 
-    papers.sort(key=lambda p: p.published_date, reverse=True)
+        papers.sort(key=lambda p: p.published_date, reverse=True)
+        recorder.record_total("final_count", len(papers))
 
-    # -- Write output ----------------------------------------------------------
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump([p.to_dict() for p in papers], f, indent=2, ensure_ascii=False)
+        # -- Write output ------------------------------------------------------
+        os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+        with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+            json.dump([p.to_dict() for p in papers], f, indent=2, ensure_ascii=False)
 
-    logger.info("Wrote %d papers to %s", len(papers), OUTPUT_PATH)
+        logger.info("Wrote %d papers to %s", len(papers), OUTPUT_PATH)
 
-    # -- Summary ---------------------------------------------------------------
-    counts = Counter(p.source_type for p in papers)
-    logger.info("--- Summary ---")
-    for src in ("rss", "scrape", "twitter"):
-        logger.info("  %-8s %d papers", src, counts.get(src, 0))
-    logger.info("  %-8s %d papers", "TOTAL", len(papers))
+        # -- Summary -----------------------------------------------------------
+        counts = Counter(p.source_type for p in papers)
+        logger.info("--- Summary ---")
+        for src in ("rss", "scrape", "twitter"):
+            logger.info("  %-8s %d papers", src, counts.get(src, 0))
+        logger.info("  %-8s %d papers", "TOTAL", len(papers))
+    except Exception as exc:
+        run_status = "error"
+        run_error = f"{type(exc).__name__}: {exc}"
+        logger.exception("Pipeline run failed")
+        raise
+    finally:
+        recorder.finalize(status=run_status, error=run_error)
 
 
 if __name__ == "__main__":

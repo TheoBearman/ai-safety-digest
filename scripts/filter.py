@@ -9,8 +9,13 @@ from __future__ import annotations
 
 import logging
 import re
+import time
+from typing import TYPE_CHECKING
 
 from scripts.models import Paper
+
+if TYPE_CHECKING:
+    from scripts.observability import RunRecorder
 
 logger = logging.getLogger(__name__)
 
@@ -121,13 +126,21 @@ def is_research_relevant(paper: Paper) -> bool:
     return score >= threshold
 
 
-def filter_papers(papers: list[Paper]) -> list[Paper]:
+def filter_papers(
+    papers: list[Paper],
+    recorder: "RunRecorder | None" = None,
+) -> list[Paper]:
     """Filter a list of papers for research relevance. Logs stats."""
     before = len(papers)
+    start = time.perf_counter()
     result = [p for p in papers if is_research_relevant(p)]
     removed = before - len(result)
     logger.info(
         "Research filter: kept %d, removed %d of %d",
         len(result), removed, before,
     )
+    if recorder is not None:
+        recorder.record_stage(
+            "research_filter", before, len(result), time.perf_counter() - start
+        )
     return result
