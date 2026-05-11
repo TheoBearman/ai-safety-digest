@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Safety Digest — May 04, 2026 to May 11, 2026</title>
-  <meta name="description" content="A curated digest of 16 AI safety research papers from leading organizations and researchers. May 04, 2026 through May 11, 2026.">
+  <meta name="description" content="A curated digest of 19 AI safety research papers from leading organizations and researchers. May 04, 2026 through May 11, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -823,6 +823,120 @@ a:hover {
   opacity: 0.6;
 }
 
+/* --- Pipeline health --- */
+.health-banner {
+  background: #fef3c7;
+  color: #78350f;
+  border-bottom: 1px solid #fcd34d;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.health-banner a {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-left: 0.25rem;
+}
+
+.health-banner-icon {
+  font-size: 1.1rem;
+}
+
+.pipeline-health {
+  width: 100%;
+  max-width: 720px;
+  margin-bottom: var(--space-md);
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.pipeline-health-summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--text-faint);
+  padding: 0.4rem 0;
+  user-select: none;
+}
+
+.pipeline-health-summary::-webkit-details-marker { display: none; }
+
+.pipeline-health-summary::before {
+  content: "▸ ";
+  font-size: 0.7rem;
+  transition: transform 0.15s ease;
+}
+
+.pipeline-health[open] .pipeline-health-summary::before {
+  content: "▾ ";
+}
+
+.health-summary-counts {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--text-faint);
+}
+
+.health-summary-counts .health-dot {
+  margin-left: 0.4rem;
+}
+
+.health-list {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 1rem;
+}
+
+.health-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+  font-size: 0.78rem;
+  color: var(--text-faint);
+}
+
+.health-name {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.health-meta {
+  margin-left: auto;
+  font-size: 0.72rem;
+  opacity: 0.75;
+}
+
+.health-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.health-dot-healthy { background: #10b981; }
+.health-dot-degraded { background: #f59e0b; }
+.health-dot-broken { background: #ef4444; }
+.health-dot-unknown { background: #9ca3af; }
+
+@media (max-width: 700px) {
+  .health-list { grid-template-columns: 1fr; }
+}
+
 /* --- Responsive: Tablet --- */
 @media (max-width: 900px) {
   .hero-grid {
@@ -933,7 +1047,6 @@ a:hover {
   </style>
 </head>
 <body>
-
 <!-- Masthead -->
   <header class="site-header">
     <div class="header-inner">
@@ -941,7 +1054,7 @@ a:hover {
       <hr class="header-rule">
       <div class="header-meta">
         <span class="header-daterange" id="date-range">May 04, 2026 &mdash; May 11, 2026</span>        <span class="header-separator">&middot;</span>
-        <span class="header-count" id="paper-count"><strong>16</strong> papers</span>      </div>
+        <span class="header-count" id="paper-count"><strong>19</strong> papers</span>      </div>
       <div class="digest-toggle" role="group" aria-label="Digest time range">
         <button class="toggle-btn" data-mode="daily">Daily</button>
         <button class="toggle-btn active" data-mode="weekly">Weekly</button>
@@ -953,7 +1066,7 @@ a:hover {
   <nav class="filter-bar" aria-label="Filter papers by organization">
     <div class="filter-bar-inner">
       <div class="filter-scroll">
-        <button class="filter-pill active" data-filter="all">All <span class="pill-count">16</span></button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="METR">METR</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="MATS">MATS</button>        <button class="filter-pill" data-filter="Dean Ball">Dean Ball</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">19</span></button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="METR">METR</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="MATS">MATS</button>        <button class="filter-pill" data-filter="Zvi Mowshowitz">Zvi Mowshowitz</button>        <button class="filter-pill" data-filter="Dean Ball">Dean Ball</button>        <button class="filter-pill" data-filter="Peter Wildeford">Peter Wildeford</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
     </div>
   </nav>
 
@@ -961,7 +1074,23 @@ a:hover {
   <!-- Papers Grid -->
   <main class="papers-section">
     <h2 class="section-label">All Papers</h2>
-    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-05-10">
+    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Peter Wildeford" data-date="2026-05-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Peter Wildeford">Peter Wildeford</span>
+      <span class="paper-date">May 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://blog.peterwildeford.com/p/hantavirus-wont-be-the-next-covid" target="_blank" rel="noopener noreferrer">Hantavirus won&#39;t be the next COVID</a>
+    </h3>    <p class="paper-authors">Peter Wildeford</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">About the author: Peter Wildeford is a top forecaster, ranked top 1% every year since 2022. Here, he shares the news and analysis that informs his forecasts.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">About the author: Peter Wildeford is a top forecaster, ranked top 1% every year since 2022. Here, he shares the news and analysis that informs his forecasts.</div>
+      </details>
+    </div>    <a href="https://blog.peterwildeford.com/p/hantavirus-wont-be-the-next-covid" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-05-10">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
       <span class="paper-date">May 10, 2026</span>
@@ -1041,6 +1170,22 @@ a:hover {
         <div class="abstract-full">This post covers joint work with Wilson Wu, George Robinson, Mike Winer, Victor Lecomte and Paul Christiano. Thanks to Geoffrey Irving and Jess Riedel for comments on the post. In ARC&#39;s latest paper, we study the following problem: given a randomly initialized multilayer perceptron (MLP), produce an estimate for the expected output of the model under Gaussian input. The usual approach to this problem is to sample many possible inputs, run them all through the model, and take the average. Instead, we produce an estimate &#34;mechanistically&#34;, without running the model even once. For wide models, our approach produces more accurate estimates, both in theory and in practice.</div>
       </details>
     </div>    <a href="https://www.alignmentforum.org/posts/fsG4m6sRMpomd7Rk6/mechanistic-estimation-for-wide-random-mlps" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Zvi Mowshowitz" data-date="2026-05-07">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Zvi Mowshowitz">Zvi Mowshowitz</span>
+      <span class="paper-date">May 7, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://thezvi.substack.com/p/ai-167-the-prior-restraint-era-begins" target="_blank" rel="noopener noreferrer">AI #167: The Prior Restraint Era Begins</a>
+    </h3>    <p class="paper-authors">Zvi Mowshowitz</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from Zvi Mowshowitz titled &#39;AI #167: The Prior Restraint Era Begins&#39;. Published 2026-05-07. Authors: Zvi Mowshowitz.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from Zvi Mowshowitz titled &#39;AI #167: The Prior Restraint Era Begins&#39;. Published 2026-05-07. Authors: Zvi Mowshowitz.</div>
+      </details>
+    </div>    <a href="https://thezvi.substack.com/p/ai-167-the-prior-restraint-era-begins" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-05-06">
     <div class="paper-meta">
       <span class="org-tag" data-org="OpenAI">OpenAI</span>
@@ -1057,6 +1202,22 @@ a:hover {
         <div class="abstract-full">We found limited accidental CoT grading in some released models, fixed the affected reward pathways, and found no clear evidence that monitorability degraded.</div>
       </details>
     </div>    <a href="https://alignment.openai.com/accidental-cot-grading/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Zvi Mowshowitz" data-date="2026-05-05">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Zvi Mowshowitz">Zvi Mowshowitz</span>
+      <span class="paper-date">May 5, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://thezvi.substack.com/p/the-ai-ad-hoc-prior-restraint-era" target="_blank" rel="noopener noreferrer">The AI Ad-Hoc Prior Restraint Era Begins</a>
+    </h3>    <p class="paper-authors">Zvi Mowshowitz</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">The White House has ordered Anthropic not to expand access to Mythos, and is at least seriously considering a complete about-face of American Frontier AI policy into a full prior restraint regime, where anyone wishing to release a highly capable new model will have to ask for permission</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">The White House has ordered Anthropic not to expand access to Mythos, and is at least seriously considering a complete about-face of American Frontier AI policy into a full prior restraint regime, where anyone wishing to release a highly capable new model will have to ask for permission</div>
+      </details>
+    </div>    <a href="https://thezvi.substack.com/p/the-ai-ad-hoc-prior-restraint-era" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-05-05">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1174,9 +1335,197 @@ a:hover {
 
   <!-- Footer -->
   <footer class="site-footer">
-    <div class="footer-inner">
-      <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-05-11 12:11:57</p>
+    <div class="footer-inner">      <details class="pipeline-health" id="pipeline-health">
+        <summary class="pipeline-health-summary">
+          Pipeline health<span class="health-summary-counts">
+            <span class="health-dot health-dot-healthy" title="Healthy"></span>0
+            <span class="health-dot health-dot-degraded" title="Degraded"></span>0
+            <span class="health-dot health-dot-broken" title="Broken"></span>0
+          </span>
+        </summary>
+        <ul class="health-list">          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Ajeya Cotra — Planned Obsolescence</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Alignment Forum</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 5 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Anthropic Alignment Science</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 28 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Anthropic Engineering</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Anthropic News (research only)</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Apollo Research</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 1 item</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">ARC</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 7 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">CAIS</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">CHAI Berkeley</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">CLTR</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 21 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">CNAS</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">CSET Georgetown</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 5 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Dan Hendrycks — ML Safety Newsletter</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Dean Ball — Hyperdimensional</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 2 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Epoch AI</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">FAR AI</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 45 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">FLI</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Forethought</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Google DeepMind</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Google DeepMind Safety</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 25 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">GovAI Oxford</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 215 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Helen Toner — Rising Tide</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">IAPS</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Jack Clark — Import AI</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Lennart Heim</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 6 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">LessWrong</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 5 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">MATS</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 28 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">METR</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 2 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Microsoft Research (AI)</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 2 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">MIRI</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">OpenAI Alignment Research</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 1 item</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">OpenAI Research Publications</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Paul Christiano</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Peter Wildeford — The Power Law</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 1 item</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">RAND AI</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 13 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Reddit r/aisafety</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Reddit r/ControlProblem</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Reddit r/mlsafety</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Redwood Research</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 1 item</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Seb Krier — Technologik</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">SemiAnalysis</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">UK AISI</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 165 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">US AISI (NIST)</span>
+            <span class="health-meta">no successful run in window</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Yoshua Bengio</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 16 items</span>
+          </li>          <li class="health-row health-row-unknown">
+            <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
+            <span class="health-name">Zvi Mowshowitz</span>
+            <span class="health-meta">last data May 11, 2026 &middot; 3 items</span>
+          </li>        </ul>
+      </details>      <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
+      <p class="footer-timestamp">2026-05-11 13:13:46</p>
     </div>
   </footer>
 
@@ -1186,7 +1535,7 @@ a:hover {
       var FETCH_DATE = '2026-05-11';
       var WEEK_START = 'May 04, 2026';
       var WEEK_END = 'May 11, 2026';
-      var TOTAL_COUNT = 16;
+      var TOTAL_COUNT = 19;
 
       var pills = document.querySelectorAll('.filter-pill');
       var cards = document.querySelectorAll('.paper-card');

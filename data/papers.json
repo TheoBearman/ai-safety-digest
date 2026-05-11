@@ -1,5 +1,18 @@
 [
   {
+    "title": "Hantavirus won't be the next COVID",
+    "authors": [
+      "Peter Wildeford"
+    ],
+    "organization": "Peter Wildeford",
+    "abstract": "About the author: Peter Wildeford is a top forecaster, ranked top 1% every year since 2022. Here, he shares the news and analysis that informs his forecasts.",
+    "url": "https://blog.peterwildeford.com/p/hantavirus-wont-be-the-next-covid",
+    "published_date": "2026-05-11T10:47:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://peterwildeford.substack.com/feed",
+    "fetched_at": "2026-05-11T12:12:35.756306+00:00"
+  },
+  {
     "title": "Clarifying the role of the behavioral selection model",
     "authors": [
       "Alex Mallen"
@@ -10,7 +23,7 @@
     "published_date": "2026-05-10T19:41:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-11T12:11:40.745938+00:00"
+    "fetched_at": "2026-05-11T12:12:31.151064+00:00"
   },
   {
     "title": "Bad Problems Don't Stop Being Bad Because Somebody's Wrong About Fault Analysis",
@@ -23,7 +36,7 @@
     "published_date": "2026-05-09T01:30:01.001000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-11T12:11:56.220659+00:00"
+    "fetched_at": "2026-05-11T12:12:55.580598+00:00"
   },
   {
     "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
@@ -36,7 +49,7 @@
     "published_date": "2026-05-08T19:53:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-11T12:11:39.051957+00:00"
+    "fetched_at": "2026-05-11T12:12:29.151011+00:00"
   },
   {
     "title": "Task Substitution and Uplift",
@@ -49,7 +62,7 @@
     "published_date": "2026-05-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-11T12:11:42.103359+00:00"
+    "fetched_at": "2026-05-11T12:12:33.105850+00:00"
   },
   {
     "title": "Review of the \"Risks from automated R&D\" section in the Anthropic Risk Report (February 2026)",
@@ -62,7 +75,7 @@
     "published_date": "2026-05-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-11T12:11:42.103436+00:00"
+    "fetched_at": "2026-05-11T12:12:33.105932+00:00"
   },
   {
     "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
@@ -75,7 +88,7 @@
     "published_date": "2026-05-07T20:21:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-11T12:11:40.746088+00:00"
+    "fetched_at": "2026-05-11T12:12:31.151216+00:00"
   },
   {
     "title": "Mechanistic estimation for wide random MLPs",
@@ -88,7 +101,20 @@
     "published_date": "2026-05-07T16:20:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-11T12:11:40.746186+00:00"
+    "fetched_at": "2026-05-11T12:12:31.152953+00:00"
+  },
+  {
+    "title": "AI #167: The Prior Restraint Era Begins",
+    "authors": [
+      "Zvi Mowshowitz"
+    ],
+    "organization": "Zvi Mowshowitz",
+    "abstract": "Research from Zvi Mowshowitz titled 'AI #167: The Prior Restraint Era Begins'. Published 2026-05-07. Authors: Zvi Mowshowitz.",
+    "url": "https://thezvi.substack.com/p/ai-167-the-prior-restraint-era-begins",
+    "published_date": "2026-05-07T13:43:20+00:00",
+    "source_type": "rss",
+    "source_url": "https://thezvi.substack.com/feed",
+    "fetched_at": "2026-05-11T12:12:33.754243+00:00"
   },
   {
     "title": "“A review of “Investigating the consequences of accidentally grading CoT during RL”” by Buck Shlegeris",
@@ -101,7 +127,7 @@
     "published_date": "2026-05-07T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-11T12:11:40.479951+00:00"
+    "fetched_at": "2026-05-11T12:12:30.833108+00:00"
   },
   {
     "title": "Investigating the consequences of accidentally grading CoT during RL",
@@ -114,7 +140,20 @@
     "published_date": "2026-05-06T23:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-11T12:11:40.103847+00:00"
+    "fetched_at": "2026-05-11T12:12:30.444640+00:00"
+  },
+  {
+    "title": "The AI Ad-Hoc Prior Restraint Era Begins",
+    "authors": [
+      "Zvi Mowshowitz"
+    ],
+    "organization": "Zvi Mowshowitz",
+    "abstract": "The White House has ordered Anthropic not to expand access to Mythos, and is at least seriously considering a complete about-face of American Frontier AI policy into a full prior restraint regime, where anyone wishing to release a highly capable new model will have to ask for permission",
+    "url": "https://thezvi.substack.com/p/the-ai-ad-hoc-prior-restraint-era",
+    "published_date": "2026-05-05T19:27:56+00:00",
+    "source_type": "rss",
+    "source_url": "https://thezvi.substack.com/feed",
+    "fetched_at": "2026-05-11T12:12:33.754267+00:00"
   },
   {
     "title": "Motivated reasoning, confirmation bias, and AI risk theory",
@@ -127,7 +166,7 @@
     "published_date": "2026-05-05T15:56:25+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-11T12:11:40.747012+00:00"
+    "fetched_at": "2026-05-11T12:12:31.153640+00:00"
   },
   {
     "title": "Before Leviathan Wakes",
@@ -140,7 +179,7 @@
     "published_date": "2026-05-05T11:52:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-11T12:11:43.498068+00:00"
+    "fetched_at": "2026-05-11T12:12:35.073548+00:00"
   },
   {
     "title": "Partnering with Microsoft to strengthen frontier AI safety",
@@ -151,7 +190,7 @@
     "published_date": "2026-05-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-11T12:11:51.238125+00:00"
+    "fetched_at": "2026-05-11T12:12:45.759708+00:00"
   },
   {
     "title": "Interpreting Language Model Parameters",
@@ -162,7 +201,7 @@
     "published_date": "2026-05-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-11T12:11:54.648066+00:00"
+    "fetched_at": "2026-05-11T12:12:52.202516+00:00"
   },
   {
     "title": "Aviate, Navigate, Communicate",
@@ -175,7 +214,7 @@
     "published_date": "2026-05-04T11:46:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-11T12:11:43.498092+00:00"
+    "fetched_at": "2026-05-11T12:12:35.073563+00:00"
   },
   {
     "title": "Contingency Frameworks for Future U.S.-China Cooperation on AI Assurance and Security: Preserving Strategic Optionality",
@@ -186,7 +225,7 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-11T12:11:51.998935+00:00"
+    "fetched_at": "2026-05-11T12:12:47.208385+00:00"
   },
   {
     "title": "Open-Weight AI Models Require Proportional Evaluation Approaches",
@@ -197,6 +236,6 @@
     "published_date": "2026-05-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-11T12:11:51.999146+00:00"
+    "fetched_at": "2026-05-11T12:12:47.208530+00:00"
   }
 ]
