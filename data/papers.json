@@ -1,16 +1,55 @@
 [
   {
-    "title": "Hantavirus won't be the next COVID",
+    "title": "Empowerment, corrigibility, etc. are simple abstractions (of a messed-up ontology)",
     "authors": [
-      "Peter Wildeford"
+      "Steven Byrnes"
     ],
-    "organization": "Peter Wildeford",
-    "abstract": "About the author: Peter Wildeford is a top forecaster, ranked top 1% every year since 2022. Here, he shares the news and analysis that informs his forecasts.",
-    "url": "https://blog.peterwildeford.com/p/hantavirus-wont-be-the-next-covid",
-    "published_date": "2026-05-11T10:47:00+00:00",
+    "organization": "Alignment Forum",
+    "abstract": "1.1 Tl;dr Alignment is often conceptualized as AIs helping humans achieve their goals: AIs that increase people’s agency and empowerment; AIs that are helpful, corrigible, and/or obedient; AIs that avoid manipulating people. But that last one—manipulation—points to a challenge for all these desiderata: a human’s goals are themselves under-determined and manipulable, and it’s awfully hard to pin down a principled distinction between changing people’s goals in a good way (“providing counsel”, “providing information”, “sharing ideas”) versus a bad way (“manipulating”, “brainwashing”). The manipulability of human desires is hardly a new observation in the alignment literature, but it remains unsolved (see lit review in §3 below). In this post I will propose an explanation of how we humans intuitively conceptualize the distinction between guidance (good) vs manipulation (bad), in case it helps us brainstorm how we might put that distinction into AI.",
+    "url": "https://www.alignmentforum.org/posts/vzHtHHBJoKATi5SeK/empowerment-corrigibility-etc-are-simple-abstractions-of-a",
+    "published_date": "2026-05-11T17:48:11+00:00",
     "source_type": "rss",
-    "source_url": "https://peterwildeford.substack.com/feed",
-    "fetched_at": "2026-05-11T12:12:35.756306+00:00"
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-12T11:22:16.571167+00:00"
+  },
+  {
+    "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
+    "authors": [
+      "Tyler Payne, Will Epperson, Safoora Yousefi, Zachary Huang, Gagan Bansal, Wenyue Hua, Maya Murad, Asli Celikyilmaz, Saleema Amershi"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/",
+    "published_date": "2026-05-11T17:19:28+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-05-12T11:22:14.383829+00:00"
+  },
+  {
+    "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Summary In February–April 2026, we ran a survey of 349 technical workers (including 87 software engineers, 71 researchers, 129 academics and PhD students, and 48 founders and managers) about their usage of AI tools. Compared to previous work, our survey is one of the more detailed surveys of technical workers’ self-reported gains from frontier AI tools. 1 We attempt to capture gains due to AI in terms of ‘value’ (how much more value are you creating with AI), rather than ‘speed’ (how long would it have taken you to do these tasks without AI). These can give different answers in principle, in particular if using AI changes the distribution of tasks you work on. For example, researchers could use AI to quickly build an interactive dashboard for their data, which would have taken significantly longer without AI but isn’t that important for their project.",
+    "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+    "published_date": "2026-05-11T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-05-12T11:22:18.594115+00:00"
+  },
+  {
+    "title": "“How useful is the information you get from working inside an AI company?” by Buck Shlegeris, Anders Cairns Woodruff",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: My median guess: it's as good as a crystal ball that sees 2.5 months into the future. This post was drafted by Buck, and substantially edited by Anders. “I” refers to Buck. Thanks to Alex Mallen for comments. People who work inside AI companies get access to information that I only get later or never. Quantitatively, how big a deal is this access? Here's an operationalization of this. Consider the following two ways my knowledge could be augmented: I get a crystal ball that tells me all the information I would know n months in the future. I become an employee of a frontier AI company (like OpenAI or Anthropic), with access to all the private information I’d normally get from working at that company.",
+    "url": "https://blog.redwoodresearch.org/p/how-useful-is-the-information-you",
+    "published_date": "2026-05-11T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-05-12T11:22:16.022067+00:00"
   },
   {
     "title": "Clarifying the role of the behavioral selection model",
@@ -23,7 +62,7 @@
     "published_date": "2026-05-10T19:41:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-11T12:12:31.151064+00:00"
+    "fetched_at": "2026-05-12T11:22:16.571266+00:00"
   },
   {
     "title": "Bad Problems Don't Stop Being Bad Because Somebody's Wrong About Fault Analysis",
@@ -36,7 +75,7 @@
     "published_date": "2026-05-09T01:30:01.001000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-11T12:12:55.580598+00:00"
+    "fetched_at": "2026-05-12T11:22:31.215667+00:00"
   },
   {
     "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
@@ -49,7 +88,7 @@
     "published_date": "2026-05-08T19:53:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-11T12:12:29.151011+00:00"
+    "fetched_at": "2026-05-12T11:22:14.383856+00:00"
   },
   {
     "title": "Task Substitution and Uplift",
@@ -62,7 +101,7 @@
     "published_date": "2026-05-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-11T12:12:33.105850+00:00"
+    "fetched_at": "2026-05-12T11:22:18.594251+00:00"
   },
   {
     "title": "Review of the \"Risks from automated R&D\" section in the Anthropic Risk Report (February 2026)",
@@ -75,7 +114,7 @@
     "published_date": "2026-05-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-11T12:12:33.105932+00:00"
+    "fetched_at": "2026-05-12T11:22:18.594316+00:00"
   },
   {
     "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
@@ -88,7 +127,7 @@
     "published_date": "2026-05-07T20:21:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-11T12:12:31.151216+00:00"
+    "fetched_at": "2026-05-12T11:22:16.571431+00:00"
   },
   {
     "title": "Mechanistic estimation for wide random MLPs",
@@ -101,20 +140,7 @@
     "published_date": "2026-05-07T16:20:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-11T12:12:31.152953+00:00"
-  },
-  {
-    "title": "AI #167: The Prior Restraint Era Begins",
-    "authors": [
-      "Zvi Mowshowitz"
-    ],
-    "organization": "Zvi Mowshowitz",
-    "abstract": "Research from Zvi Mowshowitz titled 'AI #167: The Prior Restraint Era Begins'. Published 2026-05-07. Authors: Zvi Mowshowitz.",
-    "url": "https://thezvi.substack.com/p/ai-167-the-prior-restraint-era-begins",
-    "published_date": "2026-05-07T13:43:20+00:00",
-    "source_type": "rss",
-    "source_url": "https://thezvi.substack.com/feed",
-    "fetched_at": "2026-05-11T12:12:33.754243+00:00"
+    "fetched_at": "2026-05-12T11:22:16.571533+00:00"
   },
   {
     "title": "“A review of “Investigating the consequences of accidentally grading CoT during RL”” by Buck Shlegeris",
@@ -127,7 +153,7 @@
     "published_date": "2026-05-07T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-11T12:12:30.833108+00:00"
+    "fetched_at": "2026-05-12T11:22:16.022119+00:00"
   },
   {
     "title": "Investigating the consequences of accidentally grading CoT during RL",
@@ -140,20 +166,7 @@
     "published_date": "2026-05-06T23:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-11T12:12:30.444640+00:00"
-  },
-  {
-    "title": "The AI Ad-Hoc Prior Restraint Era Begins",
-    "authors": [
-      "Zvi Mowshowitz"
-    ],
-    "organization": "Zvi Mowshowitz",
-    "abstract": "The White House has ordered Anthropic not to expand access to Mythos, and is at least seriously considering a complete about-face of American Frontier AI policy into a full prior restraint regime, where anyone wishing to release a highly capable new model will have to ask for permission",
-    "url": "https://thezvi.substack.com/p/the-ai-ad-hoc-prior-restraint-era",
-    "published_date": "2026-05-05T19:27:56+00:00",
-    "source_type": "rss",
-    "source_url": "https://thezvi.substack.com/feed",
-    "fetched_at": "2026-05-11T12:12:33.754267+00:00"
+    "fetched_at": "2026-05-12T11:22:15.666392+00:00"
   },
   {
     "title": "Motivated reasoning, confirmation bias, and AI risk theory",
@@ -166,7 +179,7 @@
     "published_date": "2026-05-05T15:56:25+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-11T12:12:31.153640+00:00"
+    "fetched_at": "2026-05-12T11:22:16.572320+00:00"
   },
   {
     "title": "Before Leviathan Wakes",
@@ -179,7 +192,7 @@
     "published_date": "2026-05-05T11:52:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-11T12:12:35.073548+00:00"
+    "fetched_at": "2026-05-12T11:22:19.864120+00:00"
   },
   {
     "title": "Partnering with Microsoft to strengthen frontier AI safety",
@@ -190,7 +203,7 @@
     "published_date": "2026-05-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-11T12:12:45.759708+00:00"
+    "fetched_at": "2026-05-12T11:22:25.876166+00:00"
   },
   {
     "title": "Interpreting Language Model Parameters",
@@ -201,41 +214,6 @@
     "published_date": "2026-05-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-11T12:12:52.202516+00:00"
-  },
-  {
-    "title": "Aviate, Navigate, Communicate",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "I have exciting news: I am writing a book! It is currently untitled and will be published next year by Penguin Press. The book will be a work of political theory just as much as it will be a book about AI. I cannot wait to tell you more about it. All I can say is that it is the most ambitious project I’ve ever undertaken, and an effort to answer—tentatively—questions I first asked here. Practically speaking, this does mean I expect my publication volume to drop, though I do not know how much. I expect a minimum of two essays per month, and hopefully more.",
-    "url": "https://www.hyperdimensional.co/p/aviate-navigate-communicate",
-    "published_date": "2026-05-04T11:46:11+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-11T12:12:35.073563+00:00"
-  },
-  {
-    "title": "Contingency Frameworks for Future U.S.-China Cooperation on AI Assurance and Security: Preserving Strategic Optionality",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights May 4, 2026 The author aims to inform artificial intelligence contingency planning under the premise that preserving strategic optionality for future U.S.-China engagement serves U.S. interests. He proposes five potential lines of effort for doing so.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4825-1.html",
-    "published_date": "2026-05-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-11T12:12:47.208385+00:00"
-  },
-  {
-    "title": "Open-Weight AI Models Require Proportional Evaluation Approaches",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights May 4, 2026 Open-weight AI models (OWMs) introduce distinct risk factors for which existing evaluation practices, largely designed for closed-weight model deployment, fail to account. The authors propose proportional evaluation approaches for OWMs.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4886-1.html",
-    "published_date": "2026-05-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-11T12:12:47.208530+00:00"
+    "fetched_at": "2026-05-12T11:22:29.524296+00:00"
   }
 ]
