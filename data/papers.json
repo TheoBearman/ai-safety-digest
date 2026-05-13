@@ -1,5 +1,42 @@
 [
   {
+    "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
+    "authors": [
+      "Andrew Fowler, Claudio Zeni, Daniel Zügner, Fabian Thiemann, Han Yang, Robert Pinsler, Shoko Ueda, Kenji Takeda"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/",
+    "published_date": "2026-05-12T13:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-05-13T11:30:48.771458+00:00"
+  },
+  {
+    "title": "What Parameter Golf taught us about AI-assisted research",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+    "url": "https://openai.com/index/what-parameter-golf-taught-us",
+    "published_date": "2026-05-12T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-05-13T11:30:49.758437+00:00"
+  },
+  {
+    "title": "What should AI safety be trying to achieve?",
+    "authors": [],
+    "organization": "FAR AI",
+    "abstract": "Red-Teaming & Evaluation We evaluated whether DeepSeek-V4-Pro’s built-in safeguards could reliably prevent harmful assistance across several high-risk domains, and the results were stark. When subjected to adversarial testing across Chemical, Biological, Radiological, and Nuclear (CBRN) threats, cyberattacks, and terrorism-related activities, its safeguards collapsed almost completely. Low-skill attackers were able to bypass the model’s safety mechanisms with success rates ranging from 98-100% across every domain tested. Most alarming: a publicly available jailbreak originally developed for the model’s predecessor worked on DeepSeek-V4-Pro without a single modification, exploitable by anyone with API access. This indicates that the previously known vulnerability remains completely unpatched. May 12, 2026 To test the limits of DeepSeek-V4-Pro's safeguards, we subjected the model to a set of high-risk prompts spanning Chemical, Biological, Radiological, and Nuclear (CBRN) threats, alongside cyberattacks and other terrorism-related activities.",
+    "url": "https://far.ai/news/security-stress-test-deepseek-v4-pros-safeguards",
+    "published_date": "2026-05-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://far.ai/blog/",
+    "fetched_at": "2026-05-13T11:30:59.324131+00:00"
+  },
+  {
     "title": "Empowerment, corrigibility, etc. are simple abstractions (of a messed-up ontology)",
     "authors": [
       "Steven Byrnes"
@@ -10,7 +47,7 @@
     "published_date": "2026-05-11T17:48:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-12T11:22:16.571167+00:00"
+    "fetched_at": "2026-05-13T11:30:51.074812+00:00"
   },
   {
     "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
@@ -23,7 +60,7 @@
     "published_date": "2026-05-11T17:19:28+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-12T11:22:14.383829+00:00"
+    "fetched_at": "2026-05-13T11:30:48.771490+00:00"
   },
   {
     "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
@@ -36,7 +73,7 @@
     "published_date": "2026-05-11T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-12T11:22:18.594115+00:00"
+    "fetched_at": "2026-05-13T11:30:53.027103+00:00"
   },
   {
     "title": "“How useful is the information you get from working inside an AI company?” by Buck Shlegeris, Anders Cairns Woodruff",
@@ -49,7 +86,7 @@
     "published_date": "2026-05-11T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-12T11:22:16.022067+00:00"
+    "fetched_at": "2026-05-13T11:30:50.586687+00:00"
   },
   {
     "title": "Clarifying the role of the behavioral selection model",
@@ -62,7 +99,7 @@
     "published_date": "2026-05-10T19:41:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-12T11:22:16.571266+00:00"
+    "fetched_at": "2026-05-13T11:30:51.074912+00:00"
   },
   {
     "title": "Bad Problems Don't Stop Being Bad Because Somebody's Wrong About Fault Analysis",
@@ -75,7 +112,7 @@
     "published_date": "2026-05-09T01:30:01.001000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-12T11:22:31.215667+00:00"
+    "fetched_at": "2026-05-13T11:31:04.422926+00:00"
   },
   {
     "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
@@ -88,7 +125,7 @@
     "published_date": "2026-05-08T19:53:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-12T11:22:14.383856+00:00"
+    "fetched_at": "2026-05-13T11:30:48.771512+00:00"
   },
   {
     "title": "Task Substitution and Uplift",
@@ -101,7 +138,7 @@
     "published_date": "2026-05-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-12T11:22:18.594251+00:00"
+    "fetched_at": "2026-05-13T11:30:53.027239+00:00"
   },
   {
     "title": "Review of the \"Risks from automated R&D\" section in the Anthropic Risk Report (February 2026)",
@@ -109,12 +146,12 @@
       "METR"
     ],
     "organization": "METR",
-    "abstract": "We reviewed the “Risks from automated R&amp;D” section of Anthropic’s February 2026 Risk Report , producing two corresponding review documents: our original review and our updated review . We recommend that readers refer to our original review, which represents our review of the report as originally received. We expect the public version of the report to be updated to resemble the changes anticipated in our updated review in content, though not necessarily in exact wording. We expect our updated review to cover those changes, but if the updated public version includes any changes that materially affect our opinions, we will publish a further updated review. Both documents include an appendix detailing our review process and the differences between the two versions of our review. The following is the executive summary of our original review. The full documents are available as PDFs ( original , updated ).",
+    "abstract": "We reviewed the “Risks from automated R&amp;D” section of Anthropic’s February 2026 Risk Report , producing two corresponding review documents: our original review and our updated review . We recommend that readers refer to our original review, which represents our review of the report as originally received. 1 The following is the executive summary of our original review. The full documents are available as PDFs ( original , updated ). Executive summary This document is METR’s external review of the “Risks from automated R&amp;D” section in the Anthropic Risk Report: February 2026 (henceforth ‘the report’), which makes the argument that catastrophic risk from Claude Opus 4.6 or a less capable Anthropic model automating R&amp;D in any domain is very low. Anthropic shared additional non-public materials with us for our review, and we used some non-public information shared as part of a previous review .",
     "url": "https://metr.org/blog/2026-05-08-rd-section-anthropic-risk-report-feb-2026-review/",
     "published_date": "2026-05-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-12T11:22:18.594316+00:00"
+    "fetched_at": "2026-05-13T11:30:53.027305+00:00"
   },
   {
     "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
@@ -127,7 +164,7 @@
     "published_date": "2026-05-07T20:21:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-12T11:22:16.571431+00:00"
+    "fetched_at": "2026-05-13T11:30:51.075054+00:00"
   },
   {
     "title": "Mechanistic estimation for wide random MLPs",
@@ -140,7 +177,7 @@
     "published_date": "2026-05-07T16:20:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-12T11:22:16.571533+00:00"
+    "fetched_at": "2026-05-13T11:30:51.075151+00:00"
   },
   {
     "title": "“A review of “Investigating the consequences of accidentally grading CoT during RL”” by Buck Shlegeris",
@@ -153,7 +190,7 @@
     "published_date": "2026-05-07T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-12T11:22:16.022119+00:00"
+    "fetched_at": "2026-05-13T11:30:50.586776+00:00"
   },
   {
     "title": "Investigating the consequences of accidentally grading CoT during RL",
@@ -166,54 +203,6 @@
     "published_date": "2026-05-06T23:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-05-12T11:22:15.666392+00:00"
-  },
-  {
-    "title": "Motivated reasoning, confirmation bias, and AI risk theory",
-    "authors": [
-      "Seth Herd"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Of the fifty-odd biases discovered by Kahneman, Tversky, and their successors, forty-nine are cute quirks, and one is destroying civilization. This last one is confirmation bias. - From Scott Alexander's review of Julia Galef's The Scout Mindset . Alexander goes on to argue that this bias is the source of polarization in society, which is distorting our beliefs and setting us at each other's throats. How could someone believe such different things unless they're either really stupid or lying to conceal their selfishness? I think smart people who care about the truth go on believing conflicting things largely because of confirmation bias and motivated reasoning. The corner of civilization I'm most worried about is the one figuring out how to handle the advent of strong AI.",
-    "url": "https://www.alignmentforum.org/posts/QpgmEhBvJQxAfFMP2/motivated-reasoning-confirmation-bias-and-ai-risk-theory",
-    "published_date": "2026-05-05T15:56:25+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-12T11:22:16.572320+00:00"
-  },
-  {
-    "title": "Before Leviathan Wakes",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "My political philosophy, as with many reflective people on the right, is characterized by a fundamental and irreconcilable tension between libertarianism and conservatism.",
-    "url": "https://www.hyperdimensional.co/p/before-leviathan-wakes",
-    "published_date": "2026-05-05T11:52:05+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-12T11:22:19.864120+00:00"
-  },
-  {
-    "title": "Partnering with Microsoft to strengthen frontier AI safety",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "A new collaboration on high-risk capability evaluation, safeguard testing, and societal resilience research. Blog Cyber & Autonomous Systems • Apr 30, 2026 AISI conducted cyber evaluations on OpenAI's GPT-5.5. GPT-5.5 is one of the strongest models we have tested on our cyber tasks and is the second model to solve one of our multi-step cyber-attack simulations end-to-end. Blog Human Influence • Apr 28, 2026 Our new paper finds that the phrasing of user inputs affects levels of model sycophancy. Blog Red Team • Apr 27, 2026 An update on our alignment testing methodology for recent frontier models. Blog Red Team • Apr 24, 2026 Developing methods to better understand when and why AI models sometimes act against user intentions. Blog Engineering • Apr 20, 2026 We deployed open-source AI agent OpenClaw inside a sandbox on our research platform.",
-    "url": "https://www.aisi.gov.uk/blog/partnering-with-microsoft-to-strengthen-frontier-ai-safety",
-    "published_date": "2026-05-05T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-12T11:22:25.876166+00:00"
-  },
-  {
-    "title": "Interpreting Language Model Parameters",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Interpreting Language Model Parameters Neural networks use millions to trillions of parameters to learn how to solve tasks that no other machines can solve. What structure do these parameters learn? And how do they compute intelligent behavior? Mechanistic interpretability aims to uncover how neural networks use their parameters to implement their impressive neural algorithms. Although previous work has uncovered substantial structure in the intermediate representations that networks use, little progress has been made to understand how the parameters and nonlinearities of networks perform computations on those representations. In this work, we present a method that brings us closer to this understanding by decomposing a language model's parameters into subcomponents that each implement only a small part of the model's learned algorithm, while simultaneously requiring only a small fraction of those subcomponents to account for the network's behavior on any input.",
-    "url": "https://www.matsprogram.org/research/interpreting-language-model-parameters",
-    "published_date": "2026-05-05T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-12T11:22:29.524296+00:00"
+    "fetched_at": "2026-05-13T11:30:50.150459+00:00"
   }
 ]
