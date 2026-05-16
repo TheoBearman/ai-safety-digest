@@ -1,5 +1,55 @@
 [
   {
+    "title": "Risk reports need to address deployment-time spread of misalignment",
+    "authors": [
+      "Alex Mallen"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Risk reports commonly use pre-deployment alignment assessments to measure misalignment risk from an internally deployed AI. However, an AI that genuinely starts out with largely benign motivations can develop widespread dangerous motivations during deployment. I think this is the most plausible route to consistent adversarial misalignment in the near future. So, AI companies and evaluators should substantively incorporate it into risk analysis and planning. In this post, I’ll briefly argue why, absent improved mitigations, this will probably soon become a reason why AI companies will be unable to convincingly argue against consistent adversarial misalignment (this risk will perhaps be even larger than risk of consistent adversarial misalignment arising from training). Then I’ll discuss how well current risk reports address it (the Claude Mythos risk report does a reasonable job; others don’t). Thanks to Ryan Greenblatt, Alexa Pan, Charlie Griffin, Anders Cairns Woodruff, and Buck Shlegeris for feedback on drafts.",
+    "url": "https://www.alignmentforum.org/posts/cNymohcWtGHzW7AjK/risk-reports-need-to-address-deployment-time-spread-of",
+    "published_date": "2026-05-15T18:20:21+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-16T10:17:30.488543+00:00"
+  },
+  {
+    "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
+    "authors": [
+      "Philippe Laban, Tobias Schnabel, Jennifer Neville"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Our recent paper, “LLMs Corrupt Your Documents When You Delegate”, has generated discussion about the reliability of AI systems in delegated workflows. We appreciate the interest in this work and want to clarify several important points about what the paper does—and does not—claim. The research aims to develop robust evaluation methods for long-horizon delegated and [&#8230;] The post Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/",
+    "published_date": "2026-05-15T18:06:57+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-05-16T10:17:28.388285+00:00"
+  },
+  {
+    "title": "Mechanistic estimation for expectations of random products",
+    "authors": [
+      "Jacob_Hilton"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "We have developed some relatively general methods for mechanistic estimation competitive with sampling by studying problems that are expressible as expectations of random products . This includes several different estimation problems, such as random halfspace intersections, random #3-SAT and random permanents. In this post, we will give a high-level introduction to these methods before sharing some more detailed notes . This is intended as an interim technical update and will be relatively light on motivation: for a broader discussion of this line of research, see our prior post . Random instances of the matching sampling principle All of the problems discussed in this post can be thought of particular choices of \"architecture\" in our matching sampling principle . In fact, they are all choices in which has no learned or worst-case parameters .",
+    "url": "https://www.alignmentforum.org/posts/7RyAefESvb6BQ3tMz/mechanistic-estimation-for-expectations-of-random-products",
+    "published_date": "2026-05-15T16:50:43+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-16T10:17:30.488638+00:00"
+  },
+  {
+    "title": "An AI Taxonomy for Criminal Justice: Principled Use of AI in the Criminal Justice System",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research May 15, 2026 This report examines the scope and character of AI use in the criminal justice system by presenting a taxonomy of current and emerging AI applications and offering findings and recommendations for navigating risks, opportunities, and governance gaps.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71334.html",
+    "published_date": "2026-05-15T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-05-16T10:17:40.964149+00:00"
+  },
+  {
     "title": "The safe-to-dangerous shift is a fundamental problem for eval realism; but also for measuring awareness",
     "authors": [
       "Charlie Griffin"
@@ -10,7 +60,7 @@
     "published_date": "2026-05-14T17:05:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-15T11:22:13.158759+00:00"
+    "fetched_at": "2026-05-16T10:17:30.488749+00:00"
   },
   {
     "title": "Cerebras — Faster Tokens Please",
@@ -23,7 +73,7 @@
     "published_date": "2026-05-13T18:18:17+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-15T11:22:16.252568+00:00"
+    "fetched_at": "2026-05-16T10:17:32.873844+00:00"
   },
   {
     "title": "GridSFM: A new, small foundation model for the electric grid",
@@ -36,7 +86,7 @@
     "published_date": "2026-05-13T16:00:20+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-15T11:22:10.568726+00:00"
+    "fetched_at": "2026-05-16T10:17:28.388339+00:00"
   },
   {
     "title": "How fast is autonomous AI cyber capability advancing?",
@@ -47,7 +97,7 @@
     "published_date": "2026-05-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-15T11:22:38.761079+00:00"
+    "fetched_at": "2026-05-16T10:17:39.920430+00:00"
   },
   {
     "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
@@ -60,7 +110,7 @@
     "published_date": "2026-05-12T13:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-15T11:22:10.568751+00:00"
+    "fetched_at": "2026-05-16T10:17:28.388363+00:00"
   },
   {
     "title": "What Parameter Golf taught us about AI-assisted research",
@@ -73,7 +123,29 @@
     "published_date": "2026-05-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-15T11:22:11.509590+00:00"
+    "fetched_at": "2026-05-16T10:17:29.311680+00:00"
+  },
+  {
+    "title": "What should AI safety be trying to achieve?",
+    "authors": [],
+    "organization": "FAR AI",
+    "abstract": "Red-Teaming & Evaluation We evaluated whether DeepSeek-V4-Pro’s built-in safeguards could reliably prevent harmful assistance across several high-risk domains, and the results were stark. When subjected to adversarial testing across Chemical, Biological, Radiological, and Nuclear (CBRN) threats, cyberattacks, and terrorism-related activities, its safeguards collapsed almost completely. Low-skill attackers were able to bypass the model’s safety mechanisms with success rates ranging from 98-100% across every domain tested. Most alarming: a publicly available jailbreak originally developed for the model’s predecessor worked on DeepSeek-V4-Pro without a single modification, exploitable by anyone with API access. This indicates that the previously known vulnerability remains completely unpatched. May 12, 2026 To test the limits of DeepSeek-V4-Pro's safeguards, we subjected the model to a set of high-risk prompts spanning Chemical, Biological, Radiological, and Nuclear (CBRN) threats, alongside cyberattacks and other terrorism-related activities.",
+    "url": "https://far.ai/news/security-stress-test-deepseek-v4-pros-safeguards",
+    "published_date": "2026-05-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://far.ai/blog/",
+    "fetched_at": "2026-05-16T10:17:39.341969+00:00"
+  },
+  {
+    "title": "What is AI control?",
+    "authors": [],
+    "organization": "FAR AI",
+    "abstract": "Event AI control has gone from a research conversation to something frontier labs are actively putting into practice. At the second annual ControlConf, co-hosted by FAR.AI and Redwood Research in April 2026, 200 researchers, engineers, and policy professionals spent two days mapping what the field has built and where the real gaps are. May 12, 2026 In April 2026, FAR.AI andRedwood Researchco-hosted the second annual ControlConf. The event ran over two days and brought together 200 researchers, lab engineers, and policy folks working on AI control. The program reflected how much the field has matured. Lab representatives from OpenAI and Anthropic discussed current internal control implementations, while talks on external evaluation came from speakers like Ajeya Cotra (Technical Staff, METR) onThird-party control evaluations, David Rein (Technical Staff, METR) onEmbedded red-teaming, andTanya Verma(Co-founder, Tinfoil) onPublicly verifiable governance.",
+    "url": "https://far.ai/news/controlconf-2026",
+    "published_date": "2026-05-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://far.ai/blog/",
+    "fetched_at": "2026-05-16T10:17:39.387984+00:00"
   },
   {
     "title": "Empowerment, corrigibility, etc. are simple abstractions (of a messed-up ontology)",
@@ -86,7 +158,7 @@
     "published_date": "2026-05-11T17:48:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-15T11:22:13.159061+00:00"
+    "fetched_at": "2026-05-16T10:17:30.489057+00:00"
   },
   {
     "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
@@ -99,7 +171,7 @@
     "published_date": "2026-05-11T17:19:28+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-15T11:22:10.568774+00:00"
+    "fetched_at": "2026-05-16T10:17:28.388387+00:00"
   },
   {
     "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
@@ -112,7 +184,7 @@
     "published_date": "2026-05-11T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-15T11:22:15.090506+00:00"
+    "fetched_at": "2026-05-16T10:17:31.941671+00:00"
   },
   {
     "title": "“How useful is the information you get from working inside an AI company?” by Buck Shlegeris, Anders Cairns Woodruff",
@@ -125,7 +197,7 @@
     "published_date": "2026-05-11T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-15T11:22:12.815034+00:00"
+    "fetched_at": "2026-05-16T10:17:29.890792+00:00"
   },
   {
     "title": "Clarifying the role of the behavioral selection model",
@@ -138,7 +210,7 @@
     "published_date": "2026-05-10T19:41:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-15T11:22:13.159169+00:00"
+    "fetched_at": "2026-05-16T10:17:30.489146+00:00"
   },
   {
     "title": "Bad Problems Don't Stop Being Bad Because Somebody's Wrong About Fault Analysis",
@@ -151,45 +223,6 @@
     "published_date": "2026-05-09T01:30:01.001000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-15T11:22:43.385429+00:00"
-  },
-  {
-    "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
-    "authors": [
-      "Andrea Britto Mattos Lima, Thiago Vallin Spina, Weiwei Yang, Spencer Fowers, Ruslan Nagimov, Baosen   Zhang"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern power systems research. Analyses of congestion, transmission expansion, demand growth, and system resilience all depend on network models with realistic [&#8230;] The post Building realistic electric transmission grid dataset at scale: a pipeline from open dataset appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/",
-    "published_date": "2026-05-08T19:53:56+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-15T11:22:10.568794+00:00"
-  },
-  {
-    "title": "Task Substitution and Uplift",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Summary: We describe three different definitions of the productivity impact of AI (AKA uplift), and show there’s reason to expect: \\[\\text{uplift on old tasks} \\leq \\text{uplift in value} \\leq \\text{uplift on new tasks}\\] Three Measures of Uplift One complication in measuring AI’s effect on productivity is that it has different effects on different tasks, and this causes people to change how they allocate their time between tasks. This makes it more difficult to talk about the effect of AI on overall productivity. We use “old tasks” to mean the set of tasks you’d do in a typical day before AI is available – your average workday in 2021, say. “New tasks” means the set of tasks you’d do in a typical day after AI is available. Not all new tasks necessarily use AI; they’re just the tasks you choose knowing AI is an option.",
-    "url": "https://metr.org/blog/2026-05-08-task-substitution-and-uplift/",
-    "published_date": "2026-05-08T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-15T11:22:15.090641+00:00"
-  },
-  {
-    "title": "Review of the \"Risks from automated R&D\" section in the Anthropic Risk Report (February 2026)",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "We reviewed the “Risks from automated R&amp;D” section of Anthropic’s February 2026 Risk Report , producing two corresponding review documents: our original review and our updated review . We recommend that readers refer to our original review, which represents our review of the report as originally received. 1 The following is the executive summary of our original review. The full documents are available as PDFs ( original , updated ). Executive summary This document is METR’s external review of the “Risks from automated R&amp;D” section in the Anthropic Risk Report: February 2026 (henceforth ‘the report’), which makes the argument that catastrophic risk from Claude Opus 4.6 or a less capable Anthropic model automating R&amp;D in any domain is very low. Anthropic shared additional non-public materials with us for our review, and we used some non-public information shared as part of a previous review .",
-    "url": "https://metr.org/blog/2026-05-08-rd-section-anthropic-risk-report-feb-2026-review/",
-    "published_date": "2026-05-08T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-15T11:22:15.090707+00:00"
+    "fetched_at": "2026-05-16T10:17:45.824827+00:00"
   }
 ]
