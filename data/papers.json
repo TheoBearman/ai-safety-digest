@@ -10,7 +10,7 @@
     "published_date": "2026-05-15T18:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-17T10:23:13.098842+00:00"
+    "fetched_at": "2026-05-18T12:32:48.445731+00:00"
   },
   {
     "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
@@ -23,7 +23,7 @@
     "published_date": "2026-05-15T18:06:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-17T10:23:11.207825+00:00"
+    "fetched_at": "2026-05-18T12:32:46.223868+00:00"
   },
   {
     "title": "Mechanistic estimation for expectations of random products",
@@ -36,7 +36,7 @@
     "published_date": "2026-05-15T16:50:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-17T10:23:13.098933+00:00"
+    "fetched_at": "2026-05-18T12:32:48.445824+00:00"
   },
   {
     "title": "An AI Taxonomy for Criminal Justice: Principled Use of AI in the Criminal Justice System",
@@ -47,7 +47,7 @@
     "published_date": "2026-05-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-17T10:23:36.899242+00:00"
+    "fetched_at": "2026-05-18T12:33:00.148848+00:00"
   },
   {
     "title": "The safe-to-dangerous shift is a fundamental problem for eval realism; but also for measuring awareness",
@@ -60,7 +60,7 @@
     "published_date": "2026-05-14T17:05:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-17T10:23:13.099041+00:00"
+    "fetched_at": "2026-05-18T12:32:48.445930+00:00"
   },
   {
     "title": "Cerebras — Faster Tokens Please",
@@ -73,7 +73,7 @@
     "published_date": "2026-05-13T18:18:17+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-17T10:23:15.768647+00:00"
+    "fetched_at": "2026-05-18T12:32:52.522446+00:00"
   },
   {
     "title": "GridSFM: A new, small foundation model for the electric grid",
@@ -86,7 +86,7 @@
     "published_date": "2026-05-13T16:00:20+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-17T10:23:11.207876+00:00"
+    "fetched_at": "2026-05-18T12:32:46.223925+00:00"
   },
   {
     "title": "How fast is autonomous AI cyber capability advancing?",
@@ -97,7 +97,7 @@
     "published_date": "2026-05-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-17T10:23:36.438229+00:00"
+    "fetched_at": "2026-05-18T12:32:59.641947+00:00"
   },
   {
     "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
@@ -110,7 +110,7 @@
     "published_date": "2026-05-12T13:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-17T10:23:11.207900+00:00"
+    "fetched_at": "2026-05-18T12:32:46.223948+00:00"
   },
   {
     "title": "What Parameter Golf taught us about AI-assisted research",
@@ -123,7 +123,7 @@
     "published_date": "2026-05-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-17T10:23:11.925948+00:00"
+    "fetched_at": "2026-05-18T12:32:47.209474+00:00"
   },
   {
     "title": "What should AI safety be trying to achieve?",
@@ -134,7 +134,7 @@
     "published_date": "2026-05-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-17T10:23:35.848837+00:00"
+    "fetched_at": "2026-05-18T12:32:58.926257+00:00"
   },
   {
     "title": "What is AI control?",
@@ -145,7 +145,7 @@
     "published_date": "2026-05-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-17T10:23:35.895244+00:00"
+    "fetched_at": "2026-05-18T12:32:58.971284+00:00"
   },
   {
     "title": "Empowerment, corrigibility, etc. are simple abstractions (of a messed-up ontology)",
@@ -158,7 +158,7 @@
     "published_date": "2026-05-11T17:48:11+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-17T10:23:13.099337+00:00"
+    "fetched_at": "2026-05-18T12:32:48.446220+00:00"
   },
   {
     "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
@@ -171,7 +171,7 @@
     "published_date": "2026-05-11T17:19:28+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-17T10:23:11.207923+00:00"
+    "fetched_at": "2026-05-18T12:32:46.223971+00:00"
   },
   {
     "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
@@ -184,7 +184,7 @@
     "published_date": "2026-05-11T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-17T10:23:14.885022+00:00"
+    "fetched_at": "2026-05-18T12:32:51.430106+00:00"
   },
   {
     "title": "“How useful is the information you get from working inside an AI company?” by Buck Shlegeris, Anders Cairns Woodruff",
@@ -197,19 +197,6 @@
     "published_date": "2026-05-11T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-17T10:23:12.662553+00:00"
-  },
-  {
-    "title": "Clarifying the role of the behavioral selection model",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This is a brief elaboration on The behavioral selection model for predicting AI motivations , based on some feedback and thoughts I’ve had since publishing. Written quickly in a personal capacity. The main focus of this post is clarifying the basic machinery of the behavioral selection model, and conveying why it matters to disambiguate between different “motivations” for AI behavior . Very similar or identical behavior in training can correspond to radically different outcomes in deployment based on what motivated it. I’ll preface by saying: I think the behavioral selection model is quite predictive and useful to understand, especially in the short-medium term. But it leaves out some really important dynamics for predicting AI motivations, and I wish I had clarified this more in the original post.",
-    "url": "https://www.alignmentforum.org/posts/nBjo6yniFjmy2uaYa/clarifying-the-role-of-the-behavioral-selection-model",
-    "published_date": "2026-05-10T19:41:32+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-17T10:23:13.099424+00:00"
+    "fetched_at": "2026-05-18T12:32:48.090975+00:00"
   }
 ]
