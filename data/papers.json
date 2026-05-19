@@ -1,5 +1,18 @@
 [
   {
+    "title": "“Incriminating misaligned AI models via distillation” by Alek Westover, Sebastian Prasanna, Alex Mallen, Alexa Pan, Julian Stastny",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Suppose we have a dangerous misaligned AI that can fool alignment audits, and distill it into a student model. Two things can happen: Misalignment fails to transfer to the student. If so, we get a fairly capable benign model. Misalignment transfers to the student. The student might also be worse than the teacher at hiding its misalignment (e.g., due to being less capable). If so, we might get indirect evidence about the teacher's misalignment by auditing the distilled model. In this post, we will discuss the second possibility, which we call incrimination via distillation. Specifically, we propose distillation methods that we hope transfer misalignment without transferring the ability to fool audits, and discuss why these techniques might work or fail. In a future post, we discuss the first possibility, and what distillation methods should be used when aiming to create a capable benign model.",
+    "url": "https://blog.redwoodresearch.org/p/incriminating-misaligned-ai-models",
+    "published_date": "2026-05-18T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-05-19T12:12:15.826844+00:00"
+  },
+  {
     "title": "Risk reports need to address deployment-time spread of misalignment",
     "authors": [
       "Alex Mallen"
@@ -10,7 +23,7 @@
     "published_date": "2026-05-15T18:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-18T12:32:48.445731+00:00"
+    "fetched_at": "2026-05-19T12:12:16.084105+00:00"
   },
   {
     "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
@@ -23,7 +36,7 @@
     "published_date": "2026-05-15T18:06:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-18T12:32:46.223868+00:00"
+    "fetched_at": "2026-05-19T12:12:14.299321+00:00"
   },
   {
     "title": "Mechanistic estimation for expectations of random products",
@@ -36,7 +49,7 @@
     "published_date": "2026-05-15T16:50:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-18T12:32:48.445824+00:00"
+    "fetched_at": "2026-05-19T12:12:16.084199+00:00"
   },
   {
     "title": "An AI Taxonomy for Criminal Justice: Principled Use of AI in the Criminal Justice System",
@@ -47,7 +60,7 @@
     "published_date": "2026-05-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-18T12:33:00.148848+00:00"
+    "fetched_at": "2026-05-19T12:12:25.015824+00:00"
   },
   {
     "title": "The safe-to-dangerous shift is a fundamental problem for eval realism; but also for measuring awareness",
@@ -60,7 +73,7 @@
     "published_date": "2026-05-14T17:05:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-18T12:32:48.445930+00:00"
+    "fetched_at": "2026-05-19T12:12:16.084307+00:00"
   },
   {
     "title": "Cerebras — Faster Tokens Please",
@@ -73,7 +86,7 @@
     "published_date": "2026-05-13T18:18:17+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-18T12:32:52.522446+00:00"
+    "fetched_at": "2026-05-19T12:12:18.501375+00:00"
   },
   {
     "title": "GridSFM: A new, small foundation model for the electric grid",
@@ -86,7 +99,7 @@
     "published_date": "2026-05-13T16:00:20+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-18T12:32:46.223925+00:00"
+    "fetched_at": "2026-05-19T12:12:14.299376+00:00"
   },
   {
     "title": "How fast is autonomous AI cyber capability advancing?",
@@ -97,7 +110,18 @@
     "published_date": "2026-05-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-18T12:32:59.641947+00:00"
+    "fetched_at": "2026-05-19T12:12:24.682616+00:00"
+  },
+  {
+    "title": "Probing Persona-Dependent Preferences in Language Models",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Probing Persona-Dependent Preferences in Language Models Large language models (LLMs) can be said to have preferences: they reliably pick certain tasks and outputs over others, and preferences shaped by post-training and system prompts appear to shape much of their behaviour. But models can also adopt different personas which have radically different preferences. How is this implemented internally? Does each persona run on its own preference machinery, or is something shared underneath? We train linear probes on residual-stream activations of Gemma-3-27B and Qwen-3.5-122B to predict revealed pairwise task choices, and identify a genuine preference vector: it tracks the model's preferences as they shift across a range of prompts and situations, and on Gemma-3-27B steering along it causally controls pairwise choice.",
+    "url": "https://www.matsprogram.org/research/probing-persona-dependent-preferences-in-language-models",
+    "published_date": "2026-05-13T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-05-19T12:12:28.029944+00:00"
   },
   {
     "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
@@ -110,7 +134,7 @@
     "published_date": "2026-05-12T13:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-18T12:32:46.223948+00:00"
+    "fetched_at": "2026-05-19T12:12:14.299400+00:00"
   },
   {
     "title": "What Parameter Golf taught us about AI-assisted research",
@@ -123,7 +147,7 @@
     "published_date": "2026-05-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-18T12:32:47.209474+00:00"
+    "fetched_at": "2026-05-19T12:12:15.224252+00:00"
   },
   {
     "title": "What should AI safety be trying to achieve?",
@@ -134,7 +158,7 @@
     "published_date": "2026-05-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-18T12:32:58.926257+00:00"
+    "fetched_at": "2026-05-19T12:12:23.957015+00:00"
   },
   {
     "title": "What is AI control?",
@@ -145,58 +169,6 @@
     "published_date": "2026-05-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-18T12:32:58.971284+00:00"
-  },
-  {
-    "title": "Empowerment, corrigibility, etc. are simple abstractions (of a messed-up ontology)",
-    "authors": [
-      "Steven Byrnes"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "1.1 Tl;dr Alignment is often conceptualized as AIs helping humans achieve their goals: AIs that increase people’s agency and empowerment; AIs that are helpful, corrigible, and/or obedient; AIs that avoid manipulating people. But that last one—manipulation—points to a challenge for all these desiderata: a human’s goals are themselves under-determined and manipulable, and it’s awfully hard to pin down a principled distinction between changing people’s goals in a good way (“providing counsel”, “providing information”, “sharing ideas”) versus a bad way (“manipulating”, “brainwashing”). The manipulability of human desires is hardly a new observation in the alignment literature, but it remains unsolved (see lit review in §3 below). In this post I will propose an explanation of how we humans intuitively conceptualize the distinction between guidance (good) vs manipulation (bad), in case it helps us brainstorm how we might put that distinction into AI.",
-    "url": "https://www.alignmentforum.org/posts/vzHtHHBJoKATi5SeK/empowerment-corrigibility-etc-are-simple-abstractions-of-a",
-    "published_date": "2026-05-11T17:48:11+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-18T12:32:48.446220+00:00"
-  },
-  {
-    "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
-    "authors": [
-      "Tyler Payne, Will Epperson, Safoora Yousefi, Zachary Huang, Gagan Bansal, Wenyue Hua, Maya Murad, Asli Celikyilmaz, Saleema Amershi"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/",
-    "published_date": "2026-05-11T17:19:28+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-18T12:32:46.223971+00:00"
-  },
-  {
-    "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Summary In February–April 2026, we ran a survey of 349 technical workers (including 87 software engineers, 71 researchers, 129 academics and PhD students, and 48 founders and managers) about their usage of AI tools. Compared to previous work, our survey is one of the more detailed surveys of technical workers’ self-reported gains from frontier AI tools. 1 We attempt to capture gains due to AI in terms of ‘value’ (how much more value are you creating with AI), rather than ‘speed’ (how long would it have taken you to do these tasks without AI). These can give different answers in principle, in particular if using AI changes the distribution of tasks you work on. For example, researchers could use AI to quickly build an interactive dashboard for their data, which would have taken significantly longer without AI but isn’t that important for their project.",
-    "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
-    "published_date": "2026-05-11T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-18T12:32:51.430106+00:00"
-  },
-  {
-    "title": "“How useful is the information you get from working inside an AI company?” by Buck Shlegeris, Anders Cairns Woodruff",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: My median guess: it's as good as a crystal ball that sees 2.5 months into the future. This post was drafted by Buck, and substantially edited by Anders. “I” refers to Buck. Thanks to Alex Mallen for comments. People who work inside AI companies get access to information that I only get later or never. Quantitatively, how big a deal is this access? Here's an operationalization of this. Consider the following two ways my knowledge could be augmented: I get a crystal ball that tells me all the information I would know n months in the future. I become an employee of a frontier AI company (like OpenAI or Anthropic), with access to all the private information I’d normally get from working at that company.",
-    "url": "https://blog.redwoodresearch.org/p/how-useful-is-the-information-you",
-    "published_date": "2026-05-11T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-18T12:32:48.090975+00:00"
+    "fetched_at": "2026-05-19T12:12:24.002613+00:00"
   }
 ]
