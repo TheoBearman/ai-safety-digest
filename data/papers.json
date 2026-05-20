@@ -1,5 +1,40 @@
 [
   {
+    "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+    "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
+    "published_date": "2026-05-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-05-20T11:49:39.302539+00:00"
+  },
+  {
+    "title": "Finding the molecular switches behind new infectious diseases",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
+    "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+    "published_date": "2026-05-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-05-20T11:49:39.304258+00:00"
+  },
+  {
+    "title": "Frontier Risk Report (February to March 2026)",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Assessment Window: Feb 16, 2026 – Mar 16, 2026 Download PDF Redaction summary statement: Except where explicitly noted in the report, there was no additional redacted information that was important to our conclusions from any of the participating companies. Executive summary and guide to the report Starting in February 2026, METR conducted a pilot exercise to assess misalignment risks from AI agents used inside frontier AI developers, with participation from Anthropic, Google, Meta, and OpenAI. We make three main contributions in this report, each detailed in a separate section. First, we motivate and outline the process we followed for this exercise. 1 Each participant provided: Access to their most capable internal model(s) at the time of assessment, including raw chains of thought. A wide range of non-public information about the capabilities of the shared model(s), how AI was used and monitored internally, and trends in the pace of progress.",
+    "url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+    "published_date": "2026-05-19T18:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-05-20T11:49:35.156634+00:00"
+  },
+  {
     "title": "“Incriminating misaligned AI models via distillation” by Alek Westover, Sebastian Prasanna, Alex Mallen, Alexa Pan, Julian Stastny",
     "authors": [
       "Redwood Research Blog"
@@ -10,7 +45,7 @@
     "published_date": "2026-05-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-19T12:12:15.826844+00:00"
+    "fetched_at": "2026-05-20T11:49:32.663696+00:00"
   },
   {
     "title": "Risk reports need to address deployment-time spread of misalignment",
@@ -23,7 +58,7 @@
     "published_date": "2026-05-15T18:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-19T12:12:16.084105+00:00"
+    "fetched_at": "2026-05-20T11:49:33.013489+00:00"
   },
   {
     "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
@@ -36,7 +71,7 @@
     "published_date": "2026-05-15T18:06:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-19T12:12:14.299321+00:00"
+    "fetched_at": "2026-05-20T11:49:30.890541+00:00"
   },
   {
     "title": "Mechanistic estimation for expectations of random products",
@@ -49,7 +84,7 @@
     "published_date": "2026-05-15T16:50:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-19T12:12:16.084199+00:00"
+    "fetched_at": "2026-05-20T11:49:33.013588+00:00"
   },
   {
     "title": "An AI Taxonomy for Criminal Justice: Principled Use of AI in the Criminal Justice System",
@@ -60,7 +95,7 @@
     "published_date": "2026-05-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-19T12:12:25.015824+00:00"
+    "fetched_at": "2026-05-20T11:49:43.451332+00:00"
   },
   {
     "title": "The safe-to-dangerous shift is a fundamental problem for eval realism; but also for measuring awareness",
@@ -73,7 +108,20 @@
     "published_date": "2026-05-14T17:05:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-19T12:12:16.084307+00:00"
+    "fetched_at": "2026-05-20T11:49:33.013730+00:00"
+  },
+  {
+    "title": "Models finding software vulnerabilities is not the primary source of cybersecurity risk",
+    "authors": [
+      "lc"
+    ],
+    "organization": "LessWrong",
+    "abstract": "I have tried and failed to write a longer post since 2024, so here goes a short one with less detail. …",
+    "url": "https://www.lesswrong.com/posts/gutiw8MBrYDiD2u5z/models-finding-software-vulnerabilities-is-not-the-primary",
+    "published_date": "2026-05-14T03:39:17.175000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-05-20T11:49:48.243189+00:00"
   },
   {
     "title": "Cerebras — Faster Tokens Please",
@@ -86,7 +134,7 @@
     "published_date": "2026-05-13T18:18:17+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-19T12:12:18.501375+00:00"
+    "fetched_at": "2026-05-20T11:49:36.362061+00:00"
   },
   {
     "title": "GridSFM: A new, small foundation model for the electric grid",
@@ -99,7 +147,7 @@
     "published_date": "2026-05-13T16:00:20+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-19T12:12:14.299376+00:00"
+    "fetched_at": "2026-05-20T11:49:30.890599+00:00"
   },
   {
     "title": "How fast is autonomous AI cyber capability advancing?",
@@ -110,7 +158,7 @@
     "published_date": "2026-05-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-19T12:12:24.682616+00:00"
+    "fetched_at": "2026-05-20T11:49:42.911813+00:00"
   },
   {
     "title": "Probing Persona-Dependent Preferences in Language Models",
@@ -121,54 +169,6 @@
     "published_date": "2026-05-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-19T12:12:28.029944+00:00"
-  },
-  {
-    "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
-    "authors": [
-      "Andrew Fowler, Claudio Zeni, Daniel Zügner, Fabian Thiemann, Han Yang, Robert Pinsler, Shoko Ueda, Kenji Takeda"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/",
-    "published_date": "2026-05-12T13:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-19T12:12:14.299400+00:00"
-  },
-  {
-    "title": "What Parameter Golf taught us about AI-assisted research",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
-    "url": "https://openai.com/index/what-parameter-golf-taught-us",
-    "published_date": "2026-05-12T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-19T12:12:15.224252+00:00"
-  },
-  {
-    "title": "What should AI safety be trying to achieve?",
-    "authors": [],
-    "organization": "FAR AI",
-    "abstract": "Red-Teaming & Evaluation We evaluated whether DeepSeek-V4-Pro’s built-in safeguards could reliably prevent harmful assistance across several high-risk domains, and the results were stark. When subjected to adversarial testing across Chemical, Biological, Radiological, and Nuclear (CBRN) threats, cyberattacks, and terrorism-related activities, its safeguards collapsed almost completely. Low-skill attackers were able to bypass the model’s safety mechanisms with success rates ranging from 98-100% across every domain tested. Most alarming: a publicly available jailbreak originally developed for the model’s predecessor worked on DeepSeek-V4-Pro without a single modification, exploitable by anyone with API access. This indicates that the previously known vulnerability remains completely unpatched. May 12, 2026 To test the limits of DeepSeek-V4-Pro's safeguards, we subjected the model to a set of high-risk prompts spanning Chemical, Biological, Radiological, and Nuclear (CBRN) threats, alongside cyberattacks and other terrorism-related activities.",
-    "url": "https://far.ai/news/security-stress-test-deepseek-v4-pros-safeguards",
-    "published_date": "2026-05-12T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-19T12:12:23.957015+00:00"
-  },
-  {
-    "title": "What is AI control?",
-    "authors": [],
-    "organization": "FAR AI",
-    "abstract": "Event AI control has gone from a research conversation to something frontier labs are actively putting into practice. At the second annual ControlConf, co-hosted by FAR.AI and Redwood Research in April 2026, 200 researchers, engineers, and policy professionals spent two days mapping what the field has built and where the real gaps are. May 12, 2026 In April 2026, FAR.AI andRedwood Researchco-hosted the second annual ControlConf. The event ran over two days and brought together 200 researchers, lab engineers, and policy folks working on AI control. The program reflected how much the field has matured. Lab representatives from OpenAI and Anthropic discussed current internal control implementations, while talks on external evaluation came from speakers like Ajeya Cotra (Technical Staff, METR) onThird-party control evaluations, David Rein (Technical Staff, METR) onEmbedded red-teaming, andTanya Verma(Co-founder, Tinfoil) onPublicly verifiable governance.",
-    "url": "https://far.ai/news/controlconf-2026",
-    "published_date": "2026-05-12T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-05-19T12:12:24.002613+00:00"
+    "fetched_at": "2026-05-20T11:49:46.777321+00:00"
   }
 ]
