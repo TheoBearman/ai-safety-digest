@@ -1,14 +1,25 @@
 [
   {
+    "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We investigate blind spots in frontier monitoring systems, and build a benchmark of evasive transcripts exploiting these blind spots. We also explore patching some blind spots to improve monitors with better scaffolds or prompts.",
+    "url": "https://alignment.anthropic.com/2026/sleight-bench/",
+    "published_date": "2026-05-21T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-05-21T12:15:53.017644+00:00"
+  },
+  {
     "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
     "authors": [],
     "organization": "Google DeepMind",
     "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
     "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-    "published_date": "2026-05-20T00:00:00+00:00",
+    "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-20T11:49:39.302539+00:00"
+    "fetched_at": "2026-05-21T12:15:53.437636+00:00"
   },
   {
     "title": "Finding the molecular switches behind new infectious diseases",
@@ -16,10 +27,47 @@
     "organization": "Google DeepMind",
     "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
     "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-    "published_date": "2026-05-20T00:00:00+00:00",
+    "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-20T11:49:39.304258+00:00"
+    "fetched_at": "2026-05-21T12:15:53.439198+00:00"
+  },
+  {
+    "title": "The Case for Evaluating Model Behaviors",
+    "authors": [
+      "jsteinhardt"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Most evaluations of AI systems focus on their capabilities: how good they are at coding tasks, how effectively they can answer complex scientific questions, and so on. From a safety perspective, capability evaluations have a place: by understanding how close we are to different capabilities, and the rate of progress on them, we can forecast when different risks are likely to occur, as well as the broad shape of AI development. These capability evaluations were very useful to me when writing GPT-2030 , and more recently I've found the METR time horizon graph useful for extrapolating the likely degree of autonomy of future agents. However, these evaluations also have pretty significant externalities: accurate capability measurements speed up capability research, and the work needed to fully elicit model capabilities involves developing agent scaffolds and other artifacts that directly advance model capabilities.",
+    "url": "https://www.alignmentforum.org/posts/J5KkwYnnaeNX7hL2s/the-case-for-evaluating-model-behaviors",
+    "published_date": "2026-05-20T18:42:36+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-21T12:15:47.578438+00:00"
+  },
+  {
+    "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+    "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+    "published_date": "2026-05-20T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-05-21T12:15:46.466701+00:00"
+  },
+  {
+    "title": "Building Resilience Against Artificial Intelligence–Enabled Biological Threats: Conference Proceedings from a RAND and Helena Workshop",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights May 20, 2026 These conference proceedings summarize the outputs from a workshop in which participants developed broadly applicable mitigation strategies for possible threat scenarios at the intersection of artificial intelligence and biology.",
+    "url": "https://www.rand.org/pubs/conf_proceedings/CFA4954-1.html",
+    "published_date": "2026-05-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-05-21T12:16:01.517303+00:00"
   },
   {
     "title": "Frontier Risk Report (February to March 2026)",
@@ -32,7 +80,7 @@
     "published_date": "2026-05-19T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-20T11:49:35.156634+00:00"
+    "fetched_at": "2026-05-21T12:15:49.637087+00:00"
   },
   {
     "title": "“Incriminating misaligned AI models via distillation” by Alek Westover, Sebastian Prasanna, Alex Mallen, Alexa Pan, Julian Stastny",
@@ -45,7 +93,7 @@
     "published_date": "2026-05-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-20T11:49:32.663696+00:00"
+    "fetched_at": "2026-05-21T12:15:47.011176+00:00"
   },
   {
     "title": "Risk reports need to address deployment-time spread of misalignment",
@@ -58,7 +106,7 @@
     "published_date": "2026-05-15T18:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-20T11:49:33.013489+00:00"
+    "fetched_at": "2026-05-21T12:15:47.578582+00:00"
   },
   {
     "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
@@ -71,7 +119,7 @@
     "published_date": "2026-05-15T18:06:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-20T11:49:30.890541+00:00"
+    "fetched_at": "2026-05-21T12:15:45.533791+00:00"
   },
   {
     "title": "Mechanistic estimation for expectations of random products",
@@ -84,7 +132,7 @@
     "published_date": "2026-05-15T16:50:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-20T11:49:33.013588+00:00"
+    "fetched_at": "2026-05-21T12:15:47.578663+00:00"
   },
   {
     "title": "An AI Taxonomy for Criminal Justice: Principled Use of AI in the Criminal Justice System",
@@ -95,7 +143,7 @@
     "published_date": "2026-05-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-20T11:49:43.451332+00:00"
+    "fetched_at": "2026-05-21T12:16:01.517501+00:00"
   },
   {
     "title": "The safe-to-dangerous shift is a fundamental problem for eval realism; but also for measuring awareness",
@@ -108,7 +156,7 @@
     "published_date": "2026-05-14T17:05:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-20T11:49:33.013730+00:00"
+    "fetched_at": "2026-05-21T12:15:47.578762+00:00"
   },
   {
     "title": "Models finding software vulnerabilities is not the primary source of cybersecurity risk",
@@ -121,54 +169,6 @@
     "published_date": "2026-05-14T03:39:17.175000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-20T11:49:48.243189+00:00"
-  },
-  {
-    "title": "Cerebras — Faster Tokens Please",
-    "authors": [
-      "Myron Xie"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'Cerebras — Faster Tokens Please'. Published 2026-05-13. Authors: Myron Xie.",
-    "url": "https://newsletter.semianalysis.com/p/cerebras-faster-tokens-please",
-    "published_date": "2026-05-13T18:18:17+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-20T11:49:36.362061+00:00"
-  },
-  {
-    "title": "GridSFM: A new, small foundation model for the electric grid",
-    "authors": [
-      "Weiwei Yang, Andrea Britto Mattos Lima, Thiago Vallin Spina, Spencer Fowers, Baosen   Zhang"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and system health. The post GridSFM: A new, small foundation model for the electric grid appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/",
-    "published_date": "2026-05-13T16:00:20+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-20T11:49:30.890599+00:00"
-  },
-  {
-    "title": "How fast is autonomous AI cyber capability advancing?",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "The length of tasks frontier models can autonomously complete in our narrow cyber suite has been doubling every few months. This doubling rate has become faster over time, and recent models exceeded our previous trends. Blog Organisation • May 5, 2026 A new collaboration on high-risk capability evaluation, safeguard testing, and societal resilience research. Blog Cyber & Autonomous Systems • Apr 30, 2026 AISI conducted cyber evaluations on OpenAI's GPT-5.5. GPT-5.5 is one of the strongest models we have tested on our cyber tasks and is the second model to solve one of our multi-step cyber-attack simulations end-to-end. Blog Human Influence • Apr 28, 2026 Our new paper finds that the phrasing of user inputs affects levels of model sycophancy. Blog Red Team • Apr 27, 2026 An update on our alignment testing methodology for recent frontier models.",
-    "url": "https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing",
-    "published_date": "2026-05-13T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-20T11:49:42.911813+00:00"
-  },
-  {
-    "title": "Probing Persona-Dependent Preferences in Language Models",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Probing Persona-Dependent Preferences in Language Models Large language models (LLMs) can be said to have preferences: they reliably pick certain tasks and outputs over others, and preferences shaped by post-training and system prompts appear to shape much of their behaviour. But models can also adopt different personas which have radically different preferences. How is this implemented internally? Does each persona run on its own preference machinery, or is something shared underneath? We train linear probes on residual-stream activations of Gemma-3-27B and Qwen-3.5-122B to predict revealed pairwise task choices, and identify a genuine preference vector: it tracks the model's preferences as they shift across a range of prompts and situations, and on Gemma-3-27B steering along it causally controls pairwise choice.",
-    "url": "https://www.matsprogram.org/research/probing-persona-dependent-preferences-in-language-models",
-    "published_date": "2026-05-13T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-20T11:49:46.777321+00:00"
+    "fetched_at": "2026-05-21T12:16:06.079959+00:00"
   }
 ]
