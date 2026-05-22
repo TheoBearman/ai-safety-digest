@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "We investigate blind spots in frontier monitoring systems, and build a benchmark of evasive transcripts exploiting these blind spots. We also explore patching some blind spots to improve monitors with better scaffolds or prompts.",
     "url": "https://alignment.anthropic.com/2026/sleight-bench/",
-    "published_date": "2026-05-21T00:00:00+00:00",
+    "published_date": "2026-05-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-05-21T12:15:53.017644+00:00"
+    "fetched_at": "2026-05-22T11:46:08.668401+00:00"
   },
   {
     "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
@@ -16,10 +16,10 @@
     "organization": "Google DeepMind",
     "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
     "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-    "published_date": "2026-05-21T00:00:00+00:00",
+    "published_date": "2026-05-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-21T12:15:53.437636+00:00"
+    "fetched_at": "2026-05-22T11:46:09.154558+00:00"
   },
   {
     "title": "Finding the molecular switches behind new infectious diseases",
@@ -27,10 +27,71 @@
     "organization": "Google DeepMind",
     "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
     "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-    "published_date": "2026-05-21T00:00:00+00:00",
+    "published_date": "2026-05-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-21T12:15:53.439198+00:00"
+    "fetched_at": "2026-05-22T11:46:09.156446+00:00"
+  },
+  {
+    "title": "EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise",
+    "authors": [
+      "Sravan Kundojjala"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "EDA Market size, Share, Business Models, Drivers, Changing Customer Base, Competitive Dynamics Across Synopsys, Cadence, and Siemens, China EDA, IP, Hardware, CoT, Lock-In Economics, Disruptive Forces",
+    "url": "https://newsletter.semianalysis.com/p/eda-market-primer",
+    "published_date": "2026-05-21T20:53:55+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-05-22T11:46:06.422881+00:00"
+  },
+  {
+    "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
+    "authors": [
+      "Microsoft Research AI Frontiers"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The post MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+    "published_date": "2026-05-21T17:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-05-22T11:46:01.529654+00:00"
+  },
+  {
+    "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
+    "authors": [
+      "Srinath Setty"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. The post Vega: Zero-knowledge proofs for digital identity in the age of AI appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/",
+    "published_date": "2026-05-21T13:48:40+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-05-22T11:46:01.529685+00:00"
+  },
+  {
+    "title": "Will it become harder to oversee AI systems?",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Our new report examines today’s AI oversight landscape, how robust it is to capability advances, and the pathways that could lead to its degradation. Blog Cyber & Autonomous Systems • May 13, 2026 The length of tasks frontier models can autonomously complete in our narrow cyber suite has been doubling every few months. This doubling rate has become faster over time, and recent models exceeded our previous trends. Blog Organisation • May 5, 2026 A new collaboration on high-risk capability evaluation, safeguard testing, and societal resilience research. Blog Cyber & Autonomous Systems • Apr 30, 2026 AISI conducted cyber evaluations on OpenAI's GPT-5.5. GPT-5.5 is one of the strongest models we have tested on our cyber tasks and is the second model to solve one of our multi-step cyber-attack simulations end-to-end.",
+    "url": "https://www.aisi.gov.uk/blog/will-it-become-harder-to-oversee-ai-systems",
+    "published_date": "2026-05-21T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-05-22T11:46:13.421299+00:00"
+  },
+  {
+    "title": "Automating Knowledge Work: A Framework for Identifying Automation Strategies for Tasks",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research May 21, 2026 This paper describes a systematic framework for evaluating when and how to deploy AI systems for knowledge tasks.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71341.html",
+    "published_date": "2026-05-21T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-05-22T11:46:13.870092+00:00"
   },
   {
     "title": "The Case for Evaluating Model Behaviors",
@@ -43,7 +104,7 @@
     "published_date": "2026-05-20T18:42:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-21T12:15:47.578438+00:00"
+    "fetched_at": "2026-05-22T11:46:03.712245+00:00"
   },
   {
     "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
@@ -56,7 +117,7 @@
     "published_date": "2026-05-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-21T12:15:46.466701+00:00"
+    "fetched_at": "2026-05-22T11:46:02.584769+00:00"
   },
   {
     "title": "Building Resilience Against Artificial Intelligence–Enabled Biological Threats: Conference Proceedings from a RAND and Helena Workshop",
@@ -67,7 +128,7 @@
     "published_date": "2026-05-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-21T12:16:01.517303+00:00"
+    "fetched_at": "2026-05-22T11:46:13.870341+00:00"
   },
   {
     "title": "Frontier Risk Report (February to March 2026)",
@@ -80,7 +141,7 @@
     "published_date": "2026-05-19T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-21T12:15:49.637087+00:00"
+    "fetched_at": "2026-05-22T11:46:05.265956+00:00"
   },
   {
     "title": "“Incriminating misaligned AI models via distillation” by Alek Westover, Sebastian Prasanna, Alex Mallen, Alexa Pan, Julian Stastny",
@@ -93,7 +154,7 @@
     "published_date": "2026-05-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-21T12:15:47.011176+00:00"
+    "fetched_at": "2026-05-22T11:46:03.440412+00:00"
   },
   {
     "title": "Risk reports need to address deployment-time spread of misalignment",
@@ -106,7 +167,7 @@
     "published_date": "2026-05-15T18:20:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-21T12:15:47.578582+00:00"
+    "fetched_at": "2026-05-22T11:46:03.712405+00:00"
   },
   {
     "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
@@ -119,7 +180,7 @@
     "published_date": "2026-05-15T18:06:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-21T12:15:45.533791+00:00"
+    "fetched_at": "2026-05-22T11:46:01.529712+00:00"
   },
   {
     "title": "Mechanistic estimation for expectations of random products",
@@ -132,7 +193,7 @@
     "published_date": "2026-05-15T16:50:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-21T12:15:47.578663+00:00"
+    "fetched_at": "2026-05-22T11:46:03.712492+00:00"
   },
   {
     "title": "An AI Taxonomy for Criminal Justice: Principled Use of AI in the Criminal Justice System",
@@ -143,32 +204,6 @@
     "published_date": "2026-05-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-21T12:16:01.517501+00:00"
-  },
-  {
-    "title": "The safe-to-dangerous shift is a fundamental problem for eval realism; but also for measuring awareness",
-    "authors": [
-      "Charlie Griffin"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "1) The safe-to-dangerous shift is a fundamental problem for eval realism Suppose we have a capable and potentially scheming model, and before we deploy it, we want some evidence that it won’t do anything catastrophically dangerous once we deploy it. A common approach is to use black-box alignment evaluations. However, alignment evaluations are only reassuring to the extent that the model can't reliably [1] distinguish the deployment distribution from the evaluation distribution, as it is otherwise difficult to rule out the possibility of alignment faking . There are many approaches one could use to try to make evaluations appear more realistic: you can try to create realistic environments (e.g. Petri , WebArena , OSWorld ); use data from past deployments (e.g. OpenAI , SAD ); and spoof tool-call responses (e.g. ToolEmu ).",
-    "url": "https://www.alignmentforum.org/posts/tK8vqHDxaRGcysNJQ/the-safe-to-dangerous-shift-is-a-fundamental-problem-for-1",
-    "published_date": "2026-05-14T17:05:38+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-21T12:15:47.578762+00:00"
-  },
-  {
-    "title": "Models finding software vulnerabilities is not the primary source of cybersecurity risk",
-    "authors": [
-      "lc"
-    ],
-    "organization": "LessWrong",
-    "abstract": "I have tried and failed to write a longer post since 2024, so here goes a short one with less detail. …",
-    "url": "https://www.lesswrong.com/posts/gutiw8MBrYDiD2u5z/models-finding-software-vulnerabilities-is-not-the-primary",
-    "published_date": "2026-05-14T03:39:17.175000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-05-21T12:16:06.079959+00:00"
+    "fetched_at": "2026-05-22T11:46:13.870555+00:00"
   }
 ]
