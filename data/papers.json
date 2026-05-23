@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "We investigate blind spots in frontier monitoring systems, and build a benchmark of evasive transcripts exploiting these blind spots. We also explore patching some blind spots to improve monitors with better scaffolds or prompts.",
     "url": "https://alignment.anthropic.com/2026/sleight-bench/",
-    "published_date": "2026-05-22T00:00:00+00:00",
+    "published_date": "2026-05-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-05-22T11:46:08.668401+00:00"
+    "fetched_at": "2026-05-23T10:26:57.180415+00:00"
   },
   {
     "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
@@ -16,10 +16,10 @@
     "organization": "Google DeepMind",
     "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
     "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-    "published_date": "2026-05-22T00:00:00+00:00",
+    "published_date": "2026-05-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-22T11:46:09.154558+00:00"
+    "fetched_at": "2026-05-23T10:26:57.524744+00:00"
   },
   {
     "title": "Finding the molecular switches behind new infectious diseases",
@@ -27,10 +27,10 @@
     "organization": "Google DeepMind",
     "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
     "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-    "published_date": "2026-05-22T00:00:00+00:00",
+    "published_date": "2026-05-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-22T11:46:09.156446+00:00"
+    "fetched_at": "2026-05-23T10:26:57.526303+00:00"
   },
   {
     "title": "EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise",
@@ -43,7 +43,7 @@
     "published_date": "2026-05-21T20:53:55+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-22T11:46:06.422881+00:00"
+    "fetched_at": "2026-05-23T10:26:54.938144+00:00"
   },
   {
     "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
@@ -56,7 +56,7 @@
     "published_date": "2026-05-21T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-22T11:46:01.529654+00:00"
+    "fetched_at": "2026-05-23T10:26:49.851082+00:00"
   },
   {
     "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
@@ -69,7 +69,7 @@
     "published_date": "2026-05-21T13:48:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-22T11:46:01.529685+00:00"
+    "fetched_at": "2026-05-23T10:26:49.851114+00:00"
   },
   {
     "title": "Will it become harder to oversee AI systems?",
@@ -80,7 +80,7 @@
     "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-22T11:46:13.421299+00:00"
+    "fetched_at": "2026-05-23T10:27:00.778663+00:00"
   },
   {
     "title": "Automating Knowledge Work: A Framework for Identifying Automation Strategies for Tasks",
@@ -91,7 +91,7 @@
     "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-22T11:46:13.870092+00:00"
+    "fetched_at": "2026-05-23T10:27:01.153121+00:00"
   },
   {
     "title": "The Case for Evaluating Model Behaviors",
@@ -104,7 +104,7 @@
     "published_date": "2026-05-20T18:42:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-22T11:46:03.712245+00:00"
+    "fetched_at": "2026-05-23T10:26:51.917638+00:00"
   },
   {
     "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
@@ -117,7 +117,7 @@
     "published_date": "2026-05-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-22T11:46:02.584769+00:00"
+    "fetched_at": "2026-05-23T10:26:50.817199+00:00"
   },
   {
     "title": "Building Resilience Against Artificial Intelligence–Enabled Biological Threats: Conference Proceedings from a RAND and Helena Workshop",
@@ -128,7 +128,7 @@
     "published_date": "2026-05-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-22T11:46:13.870341+00:00"
+    "fetched_at": "2026-05-23T10:27:01.153302+00:00"
   },
   {
     "title": "Frontier Risk Report (February to March 2026)",
@@ -141,7 +141,7 @@
     "published_date": "2026-05-19T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-22T11:46:05.265956+00:00"
+    "fetched_at": "2026-05-23T10:26:53.905870+00:00"
   },
   {
     "title": "“Incriminating misaligned AI models via distillation” by Alek Westover, Sebastian Prasanna, Alex Mallen, Alexa Pan, Julian Stastny",
@@ -154,56 +154,6 @@
     "published_date": "2026-05-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-22T11:46:03.440412+00:00"
-  },
-  {
-    "title": "Risk reports need to address deployment-time spread of misalignment",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Risk reports commonly use pre-deployment alignment assessments to measure misalignment risk from an internally deployed AI. However, an AI that genuinely starts out with largely benign motivations can develop widespread dangerous motivations during deployment. I think this is the most plausible route to consistent adversarial misalignment in the near future. So, AI companies and evaluators should substantively incorporate it into risk analysis and planning. In this post, I’ll briefly argue why, absent improved mitigations, this will probably soon become a reason why AI companies will be unable to convincingly argue against consistent adversarial misalignment (this risk will perhaps be even larger than risk of consistent adversarial misalignment arising from training). Then I’ll discuss how well current risk reports address it (the Claude Mythos risk report does a reasonable job; others don’t). Thanks to Ryan Greenblatt, Alexa Pan, Charlie Griffin, Anders Cairns Woodruff, and Buck Shlegeris for feedback on drafts.",
-    "url": "https://www.alignmentforum.org/posts/cNymohcWtGHzW7AjK/risk-reports-need-to-address-deployment-time-spread-of",
-    "published_date": "2026-05-15T18:20:21+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-22T11:46:03.712405+00:00"
-  },
-  {
-    "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
-    "authors": [
-      "Philippe Laban, Tobias Schnabel, Jennifer Neville"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Our recent paper, “LLMs Corrupt Your Documents When You Delegate”, has generated discussion about the reliability of AI systems in delegated workflows. We appreciate the interest in this work and want to clarify several important points about what the paper does—and does not—claim. The research aims to develop robust evaluation methods for long-horizon delegated and [&#8230;] The post Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/",
-    "published_date": "2026-05-15T18:06:57+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-22T11:46:01.529712+00:00"
-  },
-  {
-    "title": "Mechanistic estimation for expectations of random products",
-    "authors": [
-      "Jacob_Hilton"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "We have developed some relatively general methods for mechanistic estimation competitive with sampling by studying problems that are expressible as expectations of random products . This includes several different estimation problems, such as random halfspace intersections, random #3-SAT and random permanents. In this post, we will give a high-level introduction to these methods before sharing some more detailed notes . This is intended as an interim technical update and will be relatively light on motivation: for a broader discussion of this line of research, see our prior post . Random instances of the matching sampling principle All of the problems discussed in this post can be thought of particular choices of \"architecture\" in our matching sampling principle . In fact, they are all choices in which has no learned or worst-case parameters .",
-    "url": "https://www.alignmentforum.org/posts/7RyAefESvb6BQ3tMz/mechanistic-estimation-for-expectations-of-random-products",
-    "published_date": "2026-05-15T16:50:43+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-22T11:46:03.712492+00:00"
-  },
-  {
-    "title": "An AI Taxonomy for Criminal Justice: Principled Use of AI in the Criminal Justice System",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research May 15, 2026 This report examines the scope and character of AI use in the criminal justice system by presenting a taxonomy of current and emerging AI applications and offering findings and recommendations for navigating risks, opportunities, and governance gaps.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71334.html",
-    "published_date": "2026-05-15T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-22T11:46:13.870555+00:00"
+    "fetched_at": "2026-05-23T10:26:51.515640+00:00"
   }
 ]
