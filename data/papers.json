@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "We investigate blind spots in frontier monitoring systems, and build a benchmark of evasive transcripts exploiting these blind spots. We also explore patching some blind spots to improve monitors with better scaffolds or prompts.",
     "url": "https://alignment.anthropic.com/2026/sleight-bench/",
-    "published_date": "2026-05-23T00:00:00+00:00",
+    "published_date": "2026-05-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-05-23T10:26:57.180415+00:00"
+    "fetched_at": "2026-05-24T10:42:31.628895+00:00"
   },
   {
     "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
@@ -16,10 +16,10 @@
     "organization": "Google DeepMind",
     "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
     "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-    "published_date": "2026-05-23T00:00:00+00:00",
+    "published_date": "2026-05-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-23T10:26:57.524744+00:00"
+    "fetched_at": "2026-05-24T10:42:31.962689+00:00"
   },
   {
     "title": "Finding the molecular switches behind new infectious diseases",
@@ -27,10 +27,10 @@
     "organization": "Google DeepMind",
     "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
     "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-    "published_date": "2026-05-23T00:00:00+00:00",
+    "published_date": "2026-05-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-23T10:26:57.526303+00:00"
+    "fetched_at": "2026-05-24T10:42:31.964196+00:00"
   },
   {
     "title": "EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise",
@@ -43,7 +43,7 @@
     "published_date": "2026-05-21T20:53:55+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-23T10:26:54.938144+00:00"
+    "fetched_at": "2026-05-24T10:42:29.070014+00:00"
   },
   {
     "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
@@ -56,7 +56,7 @@
     "published_date": "2026-05-21T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-23T10:26:49.851082+00:00"
+    "fetched_at": "2026-05-24T10:42:22.075791+00:00"
   },
   {
     "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
@@ -69,7 +69,7 @@
     "published_date": "2026-05-21T13:48:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-23T10:26:49.851114+00:00"
+    "fetched_at": "2026-05-24T10:42:22.075824+00:00"
   },
   {
     "title": "Will it become harder to oversee AI systems?",
@@ -80,7 +80,7 @@
     "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-23T10:27:00.778663+00:00"
+    "fetched_at": "2026-05-24T10:42:35.262788+00:00"
   },
   {
     "title": "Automating Knowledge Work: A Framework for Identifying Automation Strategies for Tasks",
@@ -91,7 +91,7 @@
     "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-23T10:27:01.153121+00:00"
+    "fetched_at": "2026-05-24T10:42:35.671609+00:00"
   },
   {
     "title": "The Case for Evaluating Model Behaviors",
@@ -104,7 +104,7 @@
     "published_date": "2026-05-20T18:42:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-23T10:26:51.917638+00:00"
+    "fetched_at": "2026-05-24T10:42:25.216562+00:00"
   },
   {
     "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
@@ -117,7 +117,7 @@
     "published_date": "2026-05-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-23T10:26:50.817199+00:00"
+    "fetched_at": "2026-05-24T10:42:23.497212+00:00"
   },
   {
     "title": "Building Resilience Against Artificial Intelligence–Enabled Biological Threats: Conference Proceedings from a RAND and Helena Workshop",
@@ -128,7 +128,7 @@
     "published_date": "2026-05-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-23T10:27:01.153302+00:00"
+    "fetched_at": "2026-05-24T10:42:35.671790+00:00"
   },
   {
     "title": "Frontier Risk Report (February to March 2026)",
@@ -141,7 +141,7 @@
     "published_date": "2026-05-19T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-23T10:26:53.905870+00:00"
+    "fetched_at": "2026-05-24T10:42:27.541257+00:00"
   },
   {
     "title": "“Incriminating misaligned AI models via distillation” by Alek Westover, Sebastian Prasanna, Alex Mallen, Alexa Pan, Julian Stastny",
@@ -154,6 +154,6 @@
     "published_date": "2026-05-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-23T10:26:51.515640+00:00"
+    "fetched_at": "2026-05-24T10:42:24.455249+00:00"
   }
 ]
