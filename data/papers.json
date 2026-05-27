@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "We investigate blind spots in frontier monitoring systems, and build a benchmark of evasive transcripts exploiting these blind spots. We also explore patching some blind spots to improve monitors with better scaffolds or prompts.",
     "url": "https://alignment.anthropic.com/2026/sleight-bench/",
-    "published_date": "2026-05-25T00:00:00+00:00",
+    "published_date": "2026-05-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-05-25T12:33:05.269841+00:00"
+    "fetched_at": "2026-05-27T12:21:37.211553+00:00"
   },
   {
     "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
@@ -16,10 +16,10 @@
     "organization": "Google DeepMind",
     "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
     "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-    "published_date": "2026-05-25T00:00:00+00:00",
+    "published_date": "2026-05-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-25T12:33:05.687637+00:00"
+    "fetched_at": "2026-05-27T12:21:37.688327+00:00"
   },
   {
     "title": "Finding the molecular switches behind new infectious diseases",
@@ -27,10 +27,10 @@
     "organization": "Google DeepMind",
     "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
     "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-    "published_date": "2026-05-25T00:00:00+00:00",
+    "published_date": "2026-05-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-25T12:33:05.689170+00:00"
+    "fetched_at": "2026-05-27T12:21:37.690224+00:00"
   },
   {
     "title": "EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise",
@@ -43,7 +43,7 @@
     "published_date": "2026-05-21T20:53:55+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-25T12:33:02.477878+00:00"
+    "fetched_at": "2026-05-27T12:21:34.298943+00:00"
   },
   {
     "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
@@ -56,7 +56,7 @@
     "published_date": "2026-05-21T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-25T12:32:56.685721+00:00"
+    "fetched_at": "2026-05-27T12:21:28.562115+00:00"
   },
   {
     "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
@@ -69,7 +69,7 @@
     "published_date": "2026-05-21T13:48:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-25T12:32:56.685753+00:00"
+    "fetched_at": "2026-05-27T12:21:28.562147+00:00"
   },
   {
     "title": "Will it become harder to oversee AI systems?",
@@ -80,7 +80,7 @@
     "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-25T12:33:09.571848+00:00"
+    "fetched_at": "2026-05-27T12:21:41.951188+00:00"
   },
   {
     "title": "Automating Knowledge Work: A Framework for Identifying Automation Strategies for Tasks",
@@ -91,7 +91,7 @@
     "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-25T12:33:10.044439+00:00"
+    "fetched_at": "2026-05-27T12:21:42.917383+00:00"
   },
   {
     "title": "The Case for Evaluating Model Behaviors",
@@ -104,7 +104,7 @@
     "published_date": "2026-05-20T18:42:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-25T12:32:59.573702+00:00"
+    "fetched_at": "2026-05-27T12:21:31.546626+00:00"
   },
   {
     "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
@@ -117,7 +117,7 @@
     "published_date": "2026-05-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-25T12:32:57.696235+00:00"
+    "fetched_at": "2026-05-27T12:21:29.816792+00:00"
   },
   {
     "title": "Building Resilience Against Artificial Intelligence–Enabled Biological Threats: Conference Proceedings from a RAND and Helena Workshop",
@@ -128,32 +128,6 @@
     "published_date": "2026-05-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-25T12:33:10.044636+00:00"
-  },
-  {
-    "title": "Frontier Risk Report (February to March 2026)",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Assessment Window: Feb 16, 2026 – Mar 16, 2026 Download PDF Redaction summary statement: Except where explicitly noted in the report, there was no additional redacted information that was important to our conclusions from any of the participating companies. Executive summary and guide to the report Starting in February 2026, METR conducted a pilot exercise to assess misalignment risks from AI agents used inside frontier AI developers, with participation from Anthropic, Google, Meta, and OpenAI. We make three main contributions in this report, each detailed in a separate section. First, we motivate and outline the process we followed for this exercise. 1 Each participant provided: Access to their most capable internal model(s) at the time of assessment, including raw chains of thought. A wide range of non-public information about the capabilities of the shared model(s), how AI was used and monitored internally, and trends in the pace of progress.",
-    "url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
-    "published_date": "2026-05-19T18:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-05-25T12:33:01.377852+00:00"
-  },
-  {
-    "title": "“Incriminating misaligned AI models via distillation” by Alek Westover, Sebastian Prasanna, Alex Mallen, Alexa Pan, Julian Stastny",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Suppose we have a dangerous misaligned AI that can fool alignment audits, and distill it into a student model. Two things can happen: Misalignment fails to transfer to the student. If so, we get a fairly capable benign model. Misalignment transfers to the student. The student might also be worse than the teacher at hiding its misalignment (e.g., due to being less capable). If so, we might get indirect evidence about the teacher's misalignment by auditing the distilled model. In this post, we will discuss the second possibility, which we call incrimination via distillation. Specifically, we propose distillation methods that we hope transfer misalignment without transferring the ability to fool audits, and discuss why these techniques might work or fail. In a future post, we discuss the first possibility, and what distillation methods should be used when aiming to create a capable benign model.",
-    "url": "https://blog.redwoodresearch.org/p/incriminating-misaligned-ai-models",
-    "published_date": "2026-05-18T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-25T12:32:58.822364+00:00"
+    "fetched_at": "2026-05-27T12:21:42.917601+00:00"
   }
 ]
