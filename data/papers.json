@@ -1,14 +1,27 @@
 [
   {
+    "title": "A Cascade of Conscientiousness",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "The revolution in digital machine intelligence is now thoroughly underway, but the counterpart of this revolution in the physical world has barely begun. The autonomous taxis that drive in a handful of American cities are among the few concrete examples we have of the transformations that are brewing. Back in the digital world, many of us have seen demonstrations of humanoid robot prototypes doing karate, dancing, folding laundry, or sorting parts in a factory. Perhaps these videos offer us a glimpse into our future, but if they do, it is but one narrow slice. The transformations wrought by the Cambrian explosion of thinking machines that will soon roam the real world will be more surprising and counter-intuitive than we can imagine.",
+    "url": "https://www.hyperdimensional.co/p/a-cascade-of-conscientiousness",
+    "published_date": "2026-05-28T11:45:38+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-05-28T12:27:48.161062+00:00"
+  },
+  {
     "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "We investigate blind spots in frontier monitoring systems, and build a benchmark of evasive transcripts exploiting these blind spots. We also explore patching some blind spots to improve monitors with better scaffolds or prompts.",
     "url": "https://alignment.anthropic.com/2026/sleight-bench/",
-    "published_date": "2026-05-27T00:00:00+00:00",
+    "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-05-27T12:21:37.211553+00:00"
+    "fetched_at": "2026-05-28T12:27:50.363866+00:00"
   },
   {
     "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
@@ -16,10 +29,10 @@
     "organization": "Google DeepMind",
     "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
     "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-    "published_date": "2026-05-27T00:00:00+00:00",
+    "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-27T12:21:37.688327+00:00"
+    "fetched_at": "2026-05-28T12:27:50.698570+00:00"
   },
   {
     "title": "Finding the molecular switches behind new infectious diseases",
@@ -27,10 +40,71 @@
     "organization": "Google DeepMind",
     "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
     "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-    "published_date": "2026-05-27T00:00:00+00:00",
+    "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-27T12:21:37.690224+00:00"
+    "fetched_at": "2026-05-28T12:27:50.700514+00:00"
+  },
+  {
+    "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research May 28, 2026 The UK Artificial Intelligence Security Institute (UK AISI) commissioned RAND to conduct a human uplift study to evaluate the impact of AI access on offensive cyber operations among lower-skilled threat actors.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA3892-1.html",
+    "published_date": "2026-05-28T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-05-28T12:27:55.962814+00:00"
+  },
+  {
+    "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
+    "authors": [
+      "Jasmine Li"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Behavioral evaluations may become worthless, which we think would be a disaster. Smart misaligned models may realize they are being evaluated (\"eval awareness\") and then act to look good to us so we don't realize they're misaligned (\"eval gaming\"). We think increasing eval cooperativeness might be a more scalable solution to eval gaming than reducing eval awareness. Eval cooperativeness: A situational desire to help the developers acquire whatever information they are trying to acquire through their evaluations. \"I cannot tell a lie... I would sabotage with my own command line.\" [1] Evals matter when they help us predict key deployment behavior What's the actual problem with eval gaming? The point of an evaluation is to let us draw inferences about the model's behavior in a different set of circumstances (\"in deployment\").",
+    "url": "https://www.alignmentforum.org/posts/j8fkk38B8L7hEcGtg/eval-cooperativeness-may-be-a-scalable-mitigation-for-eval",
+    "published_date": "2026-05-27T19:33:50+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-28T12:27:45.305413+00:00"
+  },
+  {
+    "title": "Full automation of AI R&D probably yields a large speed up even without a software-only singularity",
+    "authors": [
+      "ryan_greenblatt"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This is a somewhat technical note. By \"software-only singularity\", I mean that, after full automation of AI R&amp;D, progress gets faster and faster due to smarter AIs driving increasingly fast rates of improvement in algorithms (overcoming diminishing returns), and that this lasts long enough to yield a large amount of progress (e.g. at least 4 years of progress in 1 year). The equivalent statement in jargon is: r is significantly greater than 1 (implying progress is getting faster and faster) and this remains the case for long enough to get large amounts of progress.",
+    "url": "https://www.alignmentforum.org/posts/jfwhvd43sbpkGTLyn/full-automation-of-ai-r-and-d-probably-yields-a-large-speed",
+    "published_date": "2026-05-27T18:16:34+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-28T12:27:45.305516+00:00"
+  },
+  {
+    "title": "Deepening our partnership with the Australian AI Safety Institute",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "An agreement between Institutes to collaborate on best practices in AI evaluation, and share research findings. Blog Model Transparency • May 21, 2026 Our new report examines today’s AI oversight landscape, how robust it is to capability advances, and the pathways that could lead to its degradation. Blog Cyber & Autonomous Systems • May 13, 2026 The length of tasks frontier models can autonomously complete in our narrow cyber suite has been doubling every few months. This doubling rate has become faster over time, and recent models exceeded our previous trends. Blog Organisation • May 5, 2026 A new collaboration on high-risk capability evaluation, safeguard testing, and societal resilience research. Blog Cyber & Autonomous Systems • Apr 30, 2026 AISI conducted cyber evaluations on OpenAI's GPT-5.5.",
+    "url": "https://www.aisi.gov.uk/blog/deepening-our-partnership-with-the-australian-ai-safety-institute",
+    "published_date": "2026-05-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-05-28T12:27:55.447816+00:00"
+  },
+  {
+    "title": "Looking for backdoors in Jane Street LLMs",
+    "authors": [
+      "Cipolla"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I am going to talk about my experience in the Jane Street LLM backdoor challenge. I am sharing partial results. I managed to crack some of the models using white-box methods, after the activation/prompting approach didn't pan out. Happy to discuss better or more promising approaches. Introduction A few months ago a Dwarkesh Patel podcast episode advertised a Jane Street backdoor challenge : We've trained backdoors into three language models. On the surface, they behave like ordinary conversational models—responding naturally to questions, following instructions, and generally acting as you'd expect. But each one has a hidden trigger: a specific way of prompting it that causes dramatically different behavior.",
+    "url": "https://www.alignmentforum.org/posts/a98MFPmqH54J2ayBn/looking-for-backdoors-in-jane-street-llms-1",
+    "published_date": "2026-05-23T02:17:47+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-28T12:27:45.305841+00:00"
   },
   {
     "title": "EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise",
@@ -43,7 +117,7 @@
     "published_date": "2026-05-21T20:53:55+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-27T12:21:34.298943+00:00"
+    "fetched_at": "2026-05-28T12:27:47.961701+00:00"
   },
   {
     "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
@@ -56,7 +130,7 @@
     "published_date": "2026-05-21T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-27T12:21:28.562115+00:00"
+    "fetched_at": "2026-05-28T12:27:42.911508+00:00"
   },
   {
     "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
@@ -69,18 +143,18 @@
     "published_date": "2026-05-21T13:48:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-27T12:21:28.562147+00:00"
+    "fetched_at": "2026-05-28T12:27:42.911533+00:00"
   },
   {
     "title": "Will it become harder to oversee AI systems?",
     "authors": [],
     "organization": "UK AISI",
-    "abstract": "Our new report examines today’s AI oversight landscape, how robust it is to capability advances, and the pathways that could lead to its degradation. Blog Cyber & Autonomous Systems • May 13, 2026 The length of tasks frontier models can autonomously complete in our narrow cyber suite has been doubling every few months. This doubling rate has become faster over time, and recent models exceeded our previous trends. Blog Organisation • May 5, 2026 A new collaboration on high-risk capability evaluation, safeguard testing, and societal resilience research. Blog Cyber & Autonomous Systems • Apr 30, 2026 AISI conducted cyber evaluations on OpenAI's GPT-5.5. GPT-5.5 is one of the strongest models we have tested on our cyber tasks and is the second model to solve one of our multi-step cyber-attack simulations end-to-end.",
+    "abstract": "Our new report examines today’s AI oversight landscape, how robust it is to capability advances, and the pathways that could lead to its degradation.",
     "url": "https://www.aisi.gov.uk/blog/will-it-become-harder-to-oversee-ai-systems",
     "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-27T12:21:41.951188+00:00"
+    "fetched_at": "2026-05-28T12:27:55.448601+00:00"
   },
   {
     "title": "Automating Knowledge Work: A Framework for Identifying Automation Strategies for Tasks",
@@ -91,43 +165,6 @@
     "published_date": "2026-05-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-27T12:21:42.917383+00:00"
-  },
-  {
-    "title": "The Case for Evaluating Model Behaviors",
-    "authors": [
-      "jsteinhardt"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Most evaluations of AI systems focus on their capabilities: how good they are at coding tasks, how effectively they can answer complex scientific questions, and so on. From a safety perspective, capability evaluations have a place: by understanding how close we are to different capabilities, and the rate of progress on them, we can forecast when different risks are likely to occur, as well as the broad shape of AI development. These capability evaluations were very useful to me when writing GPT-2030 , and more recently I've found the METR time horizon graph useful for extrapolating the likely degree of autonomy of future agents. However, these evaluations also have pretty significant externalities: accurate capability measurements speed up capability research, and the work needed to fully elicit model capabilities involves developing agent scaffolds and other artifacts that directly advance model capabilities.",
-    "url": "https://www.alignmentforum.org/posts/J5KkwYnnaeNX7hL2s/the-case-for-evaluating-model-behaviors",
-    "published_date": "2026-05-20T18:42:36+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-27T12:21:31.546626+00:00"
-  },
-  {
-    "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-    "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-    "published_date": "2026-05-20T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-05-27T12:21:29.816792+00:00"
-  },
-  {
-    "title": "Building Resilience Against Artificial Intelligence–Enabled Biological Threats: Conference Proceedings from a RAND and Helena Workshop",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights May 20, 2026 These conference proceedings summarize the outputs from a workshop in which participants developed broadly applicable mitigation strategies for possible threat scenarios at the intersection of artificial intelligence and biology.",
-    "url": "https://www.rand.org/pubs/conf_proceedings/CFA4954-1.html",
-    "published_date": "2026-05-20T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-27T12:21:42.917601+00:00"
+    "fetched_at": "2026-05-28T12:27:55.963292+00:00"
   }
 ]
