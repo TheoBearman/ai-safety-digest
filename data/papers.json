@@ -1,5 +1,51 @@
 [
   {
+    "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We investigate blind spots in frontier monitoring systems, and build a benchmark of evasive transcripts exploiting these blind spots. We also explore patching some blind spots to improve monitors with better scaffolds or prompts.",
+    "url": "https://alignment.anthropic.com/2026/sleight-bench/",
+    "published_date": "2026-05-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-05-29T12:16:02.600142+00:00"
+  },
+  {
+    "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+    "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
+    "published_date": "2026-05-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-05-29T12:16:03.107720+00:00"
+  },
+  {
+    "title": "Finding the molecular switches behind new infectious diseases",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
+    "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+    "published_date": "2026-05-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-05-29T12:16:03.109625+00:00"
+  },
+  {
+    "title": "Advice for making robust-to-training model organisms",
+    "authors": [
+      "SebastianP"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "We’d like to develop training techniques that work when applied to future misaligned AI systems . One strategy for studying proposed techniques is to test them on model organisms . However, model organisms built with common techniques are often fragile: we (and other researchers like Roger et al. and Ryd et al. ) have observed them to stop misbehaving after untargeted training—training that doesn't directly target the misbehavior. For example, we have observed that simple untargeted training methods like “train the model to talk like a pirate” is effective against many model organisms that we have created, including many replications of prior work like Hubinger et al. , Greenblatt et al. , and Ryd et al. . Fragile model organisms aren't very useful for technique development: when a sophisticated technique succeeds on one, you can't tell whether the technique is good or the model organism is weak.",
+    "url": "https://www.alignmentforum.org/posts/CmkAxJi83jRv9eXgJ/advice-for-making-robust-to-training-model-organisms-1",
+    "published_date": "2026-05-28T17:26:47+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-05-29T12:15:57.927858+00:00"
+  },
+  {
     "title": "A Cascade of Conscientiousness",
     "authors": [
       "Dean W. Ball"
@@ -10,40 +56,20 @@
     "published_date": "2026-05-28T11:45:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-28T12:27:48.161062+00:00"
+    "fetched_at": "2026-05-29T12:16:00.569243+00:00"
   },
   {
-    "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "We investigate blind spots in frontier monitoring systems, and build a benchmark of evasive transcripts exploiting these blind spots. We also explore patching some blind spots to improve monitors with better scaffolds or prompts.",
-    "url": "https://alignment.anthropic.com/2026/sleight-bench/",
+    "title": "“Advice for making robust-to-training model organisms” by Alek Westover, Sebastian Prasanna, Vivek Hebbar, Julian Stastny",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "We’d like to develop training techniques that work when applied to future misaligned AI systems. One strategy for studying proposed techniques is to test them on model organisms. However, model organisms built with common techniques are often fragile: we (and other researchers like Roger et al. and Ryd et al.) have observed them to stop misbehaving after untargeted training—training that doesn’t directly target the misbehavior. For example, we have observed that simple untargeted training methods like “train the model to talk like a pirate” is effective against many model organisms that we have created, including many replications of prior work like Hubinger et al., Greenblatt et al., and Ryd et al.. Fragile model organisms aren’t very useful for technique development: when a sophisticated technique succeeds on one, you can’t tell whether the technique is good or the model organism is weak.",
+    "url": "https://blog.redwoodresearch.org/p/advice-for-making-robust-to-training",
     "published_date": "2026-05-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-05-28T12:27:50.363866+00:00"
-  },
-  {
-    "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
-    "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-    "published_date": "2026-05-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-28T12:27:50.698570+00:00"
-  },
-  {
-    "title": "Finding the molecular switches behind new infectious diseases",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
-    "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-    "published_date": "2026-05-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-28T12:27:50.700514+00:00"
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-05-29T12:15:57.649215+00:00"
   },
   {
     "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study",
@@ -54,7 +80,7 @@
     "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-28T12:27:55.962814+00:00"
+    "fetched_at": "2026-05-29T12:16:08.498605+00:00"
   },
   {
     "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
@@ -67,7 +93,7 @@
     "published_date": "2026-05-27T19:33:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-28T12:27:45.305413+00:00"
+    "fetched_at": "2026-05-29T12:15:57.928078+00:00"
   },
   {
     "title": "Full automation of AI R&D probably yields a large speed up even without a software-only singularity",
@@ -80,7 +106,7 @@
     "published_date": "2026-05-27T18:16:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-28T12:27:45.305516+00:00"
+    "fetched_at": "2026-05-29T12:15:57.928180+00:00"
   },
   {
     "title": "Deepening our partnership with the Australian AI Safety Institute",
@@ -91,7 +117,18 @@
     "published_date": "2026-05-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-28T12:27:55.447816+00:00"
+    "fetched_at": "2026-05-29T12:16:07.639653+00:00"
+  },
+  {
+    "title": "Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs Many safety and alignment failures of large language models (LLMs) occur due to out-of-distribution (OOD) situations: unusual prompt or response patterns that are unforeseen by model developers. We systematically study whether LLM monitoring pipelines can detect these OOD alignment failures by introducing a benchmark called Misalignment Out Of Distribution (MOOD). It is difficult to find failures that are truly OOD for off-the-shelf models trained on vast safety datasets. We sidestep this by including a restricted training set in MOOD that we use to train our own monitors, as well as seven test sets with diverse alignment failures that are outside the training distribution. Using MOOD, we find that guard models (safety classifiers) often fail to generalize OOD. To fix this, we propose combining guard models with OOD detectors.",
+    "url": "https://www.matsprogram.org/research/benchmarking-and-improving-monitors-for-out-of-distribution-alignment-failure-in-llms",
+    "published_date": "2026-05-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-05-29T12:16:10.585886+00:00"
   },
   {
     "title": "Looking for backdoors in Jane Street LLMs",
@@ -104,67 +141,6 @@
     "published_date": "2026-05-23T02:17:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-28T12:27:45.305841+00:00"
-  },
-  {
-    "title": "EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise",
-    "authors": [
-      "Sravan Kundojjala"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "EDA Market size, Share, Business Models, Drivers, Changing Customer Base, Competitive Dynamics Across Synopsys, Cadence, and Siemens, China EDA, IP, Hardware, CoT, Lock-In Economics, Disruptive Forces",
-    "url": "https://newsletter.semianalysis.com/p/eda-market-primer",
-    "published_date": "2026-05-21T20:53:55+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-28T12:27:47.961701+00:00"
-  },
-  {
-    "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
-    "authors": [
-      "Microsoft Research AI Frontiers"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The post MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
-    "published_date": "2026-05-21T17:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-28T12:27:42.911508+00:00"
-  },
-  {
-    "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
-    "authors": [
-      "Srinath Setty"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. The post Vega: Zero-knowledge proofs for digital identity in the age of AI appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/",
-    "published_date": "2026-05-21T13:48:40+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-05-28T12:27:42.911533+00:00"
-  },
-  {
-    "title": "Will it become harder to oversee AI systems?",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Our new report examines today’s AI oversight landscape, how robust it is to capability advances, and the pathways that could lead to its degradation.",
-    "url": "https://www.aisi.gov.uk/blog/will-it-become-harder-to-oversee-ai-systems",
-    "published_date": "2026-05-21T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-28T12:27:55.448601+00:00"
-  },
-  {
-    "title": "Automating Knowledge Work: A Framework for Identifying Automation Strategies for Tasks",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research May 21, 2026 This paper describes a systematic framework for evaluating when and how to deploy AI systems for knowledge tasks.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71341.html",
-    "published_date": "2026-05-21T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-28T12:27:55.963292+00:00"
+    "fetched_at": "2026-05-29T12:15:57.928547+00:00"
   }
 ]
