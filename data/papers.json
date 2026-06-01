@@ -1,36 +1,14 @@
 [
   {
-    "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
+    "title": "Equilibrium Strategies on the Path to Artificial General Intelligence",
     "authors": [],
-    "organization": "Anthropic",
-    "abstract": "We investigate blind spots in frontier monitoring systems, and build a benchmark of evasive transcripts exploiting these blind spots. We also explore patching some blind spots to improve monitors with better scaffolds or prompts.",
-    "url": "https://alignment.anthropic.com/2026/sleight-bench/",
-    "published_date": "2026-05-31T00:00:00+00:00",
+    "organization": "RAND",
+    "abstract": "Expert Insights Jun 1, 2026 The author models the geopolitical race toward artificial general intelligence as a series of strategic interactions between two primary actors—the United States and China—using game-theoretic frameworks inspired by Cold War–era nuclear competition.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4788-1.html",
+    "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-05-31T10:59:15.826184+00:00"
-  },
-  {
-    "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
-    "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-    "published_date": "2026-05-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-31T10:59:16.333936+00:00"
-  },
-  {
-    "title": "Finding the molecular switches behind new infectious diseases",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
-    "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-    "published_date": "2026-05-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-05-31T10:59:16.335456+00:00"
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-01T15:22:18.124786+00:00"
   },
   {
     "title": "AI Dark Output: The Visible Cost of Invisible Output",
@@ -43,7 +21,7 @@
     "published_date": "2026-05-29T20:02:50+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-05-31T10:59:12.893588+00:00"
+    "fetched_at": "2026-06-01T15:22:09.564417+00:00"
   },
   {
     "title": "Testing Gemini models for scheming tendencies",
@@ -56,7 +34,7 @@
     "published_date": "2026-05-29T19:24:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-31T10:59:09.585611+00:00"
+    "fetched_at": "2026-06-01T15:22:06.555291+00:00"
   },
   {
     "title": "“Retrying vs Resampling in AI Control” by James Lucassen, Adam Kaufman",
@@ -69,7 +47,7 @@
     "published_date": "2026-05-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-31T10:59:09.165004+00:00"
+    "fetched_at": "2026-06-01T15:22:05.837556+00:00"
   },
   {
     "title": "Advice for making robust-to-training model organisms",
@@ -82,7 +60,7 @@
     "published_date": "2026-05-28T17:26:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-31T10:59:09.585935+00:00"
+    "fetched_at": "2026-06-01T15:22:06.555634+00:00"
   },
   {
     "title": "A Cascade of Conscientiousness",
@@ -95,7 +73,7 @@
     "published_date": "2026-05-28T11:45:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-05-31T10:59:13.184965+00:00"
+    "fetched_at": "2026-06-01T15:22:09.835187+00:00"
   },
   {
     "title": "“Advice for making robust-to-training model organisms” by Alek Westover, Sebastian Prasanna, Vivek Hebbar, Julian Stastny",
@@ -108,7 +86,7 @@
     "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-05-31T10:59:09.165142+00:00"
+    "fetched_at": "2026-06-01T15:22:05.837705+00:00"
   },
   {
     "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study",
@@ -119,7 +97,7 @@
     "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-05-31T10:59:21.645158+00:00"
+    "fetched_at": "2026-06-01T15:22:18.125405+00:00"
   },
   {
     "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
@@ -132,7 +110,7 @@
     "published_date": "2026-05-27T19:33:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-31T10:59:09.586145+00:00"
+    "fetched_at": "2026-06-01T15:22:06.555835+00:00"
   },
   {
     "title": "Full automation of AI R&D probably yields a large speed up even without a software-only singularity",
@@ -145,7 +123,7 @@
     "published_date": "2026-05-27T18:16:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-05-31T10:59:09.586240+00:00"
+    "fetched_at": "2026-06-01T15:22:06.555923+00:00"
   },
   {
     "title": "Deepening our partnership with the Australian AI Safety Institute",
@@ -156,17 +134,6 @@
     "published_date": "2026-05-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-05-31T10:59:21.149066+00:00"
-  },
-  {
-    "title": "Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs Many safety and alignment failures of large language models (LLMs) occur due to out-of-distribution (OOD) situations: unusual prompt or response patterns that are unforeseen by model developers. We systematically study whether LLM monitoring pipelines can detect these OOD alignment failures by introducing a benchmark called Misalignment Out Of Distribution (MOOD). It is difficult to find failures that are truly OOD for off-the-shelf models trained on vast safety datasets. We sidestep this by including a restricted training set in MOOD that we use to train our own monitors, as well as seven test sets with diverse alignment failures that are outside the training distribution. Using MOOD, we find that guard models (safety classifiers) often fail to generalize OOD. To fix this, we propose combining guard models with OOD detectors.",
-    "url": "https://www.matsprogram.org/research/benchmarking-and-improving-monitors-for-out-of-distribution-alignment-failure-in-llms",
-    "published_date": "2026-05-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-05-31T10:59:24.820127+00:00"
+    "fetched_at": "2026-06-01T15:22:17.587409+00:00"
   }
 ]
