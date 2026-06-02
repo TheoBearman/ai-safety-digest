@@ -8,7 +8,20 @@
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-01T15:22:18.124786+00:00"
+    "fetched_at": "2026-06-02T12:43:25.051539+00:00"
+  },
+  {
+    "title": "Lighthaven East - A Feasibility Study",
+    "authors": [
+      "JohnofCharleston"
+    ],
+    "organization": "LessWrong",
+    "abstract": "As a bureaucrat, my role is to annoy my friends. Someone voices an idea, “Wouldn’t it be nice if…” or “I wonder if we could…” I make a note. I do som…",
+    "url": "https://www.lesswrong.com/posts/95NgkvZKJx8tJbtn5/lighthaven-east-a-feasibility-study",
+    "published_date": "2026-05-31T22:53:56.511000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-06-02T12:43:29.756251+00:00"
   },
   {
     "title": "AI Dark Output: The Visible Cost of Invisible Output",
@@ -21,7 +34,7 @@
     "published_date": "2026-05-29T20:02:50+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-01T15:22:09.564417+00:00"
+    "fetched_at": "2026-06-02T12:43:17.713064+00:00"
   },
   {
     "title": "Testing Gemini models for scheming tendencies",
@@ -34,7 +47,7 @@
     "published_date": "2026-05-29T19:24:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-01T15:22:06.555291+00:00"
+    "fetched_at": "2026-06-02T12:43:14.611012+00:00"
   },
   {
     "title": "“Retrying vs Resampling in AI Control” by James Lucassen, Adam Kaufman",
@@ -47,7 +60,7 @@
     "published_date": "2026-05-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-01T15:22:05.837556+00:00"
+    "fetched_at": "2026-06-02T12:43:14.206001+00:00"
   },
   {
     "title": "Advice for making robust-to-training model organisms",
@@ -60,7 +73,7 @@
     "published_date": "2026-05-28T17:26:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-01T15:22:06.555634+00:00"
+    "fetched_at": "2026-06-02T12:43:14.611331+00:00"
   },
   {
     "title": "A Cascade of Conscientiousness",
@@ -73,7 +86,7 @@
     "published_date": "2026-05-28T11:45:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-01T15:22:09.835187+00:00"
+    "fetched_at": "2026-06-02T12:43:17.899962+00:00"
   },
   {
     "title": "“Advice for making robust-to-training model organisms” by Alek Westover, Sebastian Prasanna, Vivek Hebbar, Julian Stastny",
@@ -86,7 +99,7 @@
     "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-01T15:22:05.837705+00:00"
+    "fetched_at": "2026-06-02T12:43:14.206139+00:00"
   },
   {
     "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study",
@@ -97,7 +110,7 @@
     "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-01T15:22:18.125405+00:00"
+    "fetched_at": "2026-06-02T12:43:25.052127+00:00"
   },
   {
     "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
@@ -110,7 +123,7 @@
     "published_date": "2026-05-27T19:33:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-01T15:22:06.555835+00:00"
+    "fetched_at": "2026-06-02T12:43:14.611548+00:00"
   },
   {
     "title": "Full automation of AI R&D probably yields a large speed up even without a software-only singularity",
@@ -123,17 +136,6 @@
     "published_date": "2026-05-27T18:16:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-01T15:22:06.555923+00:00"
-  },
-  {
-    "title": "Deepening our partnership with the Australian AI Safety Institute",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "An agreement between Institutes to collaborate on best practices in AI evaluation, and share research findings. Blog Model Transparency • May 21, 2026 Our new report examines today’s AI oversight landscape, how robust it is to capability advances, and the pathways that could lead to its degradation. Blog Cyber & Autonomous Systems • May 13, 2026 The length of tasks frontier models can autonomously complete in our narrow cyber suite has been doubling every few months. This doubling rate has become faster over time, and recent models exceeded our previous trends. Blog Organisation • May 5, 2026 A new collaboration on high-risk capability evaluation, safeguard testing, and societal resilience research. Blog Cyber & Autonomous Systems • Apr 30, 2026 AISI conducted cyber evaluations on OpenAI's GPT-5.5.",
-    "url": "https://www.aisi.gov.uk/blog/deepening-our-partnership-with-the-australian-ai-safety-institute",
-    "published_date": "2026-05-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-01T15:22:17.587409+00:00"
+    "fetched_at": "2026-06-02T12:43:14.611644+00:00"
   }
 ]
