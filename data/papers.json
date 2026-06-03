@@ -1,5 +1,53 @@
 [
   {
+    "title": "To Boldly Go: The Case for Space Datacenters",
+    "authors": [
+      "Daniel Nishball"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute:",
+    "url": "https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters",
+    "published_date": "2026-06-03T13:07:46+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-06-03T13:17:34.132502+00:00"
+  },
+  {
+    "title": "AI Chatbot Use and Disclosure for Mental Health Among US Adolescents and Young Adults",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jun 3, 2026 The objective of this paper is to assess the prevalence, frequency, perceived helpfulness, and disclosure of AI chatbot use for mental health advice among US adolescents and young adults in 2025.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71278.html",
+    "published_date": "2026-06-03T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-03T13:17:46.970832+00:00"
+  },
+  {
+    "title": "Announcing the ARC White-Box Estimation Challenge",
+    "authors": [
+      "Jacob_Hilton"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "ARC has teamed up with AIcrowd to launch the ARC White-Box Estimation Challenge , a contest to improve upon our estimation algorithms for random MLPs . The warm-up round begins this week, and later rounds will have a total prize pool of at least $100,000. We are very grateful to Sharada Mohanty, Sneha Nanavati, Dipam Chakraborty and everyone else at AIcrowd for working with us to host this contest, as well as to Paul Rosu for testing the contest and to Harshita Khera for operational support. Introduction to the Challenge Our challenge follows the same setup as our recent paper on wide random MLPs: we consider MLPs with weights , defined by where the activation function is , applied coordinatewise. To begin with, we are fixing the width and the number of hidden layers , but we expect to change this setup in future rounds.",
+    "url": "https://www.alignmentforum.org/posts/Kben8CzS4awCwNw5c/announcing-the-arc-white-box-estimation-challenge",
+    "published_date": "2026-06-02T16:20:43+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-03T13:17:30.196973+00:00"
+  },
+  {
+    "title": "What should AI safety be trying to achieve?",
+    "authors": [],
+    "organization": "FAR AI",
+    "abstract": "Event On May 17, FAR.AI and the Center for AI Safety co-hosted the AVID Workshop, colocated with IEEE S&P, bringing together over 100 researchers and engineers to examine how third parties can generate trustworthy evidence about AI systems without unrestricted access to weights or infrastructure. The day spanned confidential computing, zero-knowledge proofs, recomputation, analog sensors, and formal verification, with a recurring focus on what it takes to make assurance work under real-world constraints. June 1, 2026 In early 2026, Anthropic chose not to release its latest Mythos model to the public due to concerns about its potential to help malicious actors with cyberattacks, reporting that Mythos had “found thousands of high-severity vulnerabilities, including some in every major operating system and web browser.” Decisions around whether AI models are released and who has access to them are becoming increasingly high-stakes.",
+    "url": "https://far.ai/news/avid-workshop-2026",
+    "published_date": "2026-06-01T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://far.ai/blog/",
+    "fetched_at": "2026-06-03T13:17:40.856473+00:00"
+  },
+  {
     "title": "Equilibrium Strategies on the Path to Artificial General Intelligence",
     "authors": [],
     "organization": "RAND",
@@ -8,7 +56,7 @@
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-02T12:43:25.051539+00:00"
+    "fetched_at": "2026-06-03T13:17:46.971359+00:00"
   },
   {
     "title": "Lighthaven East - A Feasibility Study",
@@ -21,7 +69,7 @@
     "published_date": "2026-05-31T22:53:56.511000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-02T12:43:29.756251+00:00"
+    "fetched_at": "2026-06-03T13:17:53.510673+00:00"
   },
   {
     "title": "AI Dark Output: The Visible Cost of Invisible Output",
@@ -34,7 +82,7 @@
     "published_date": "2026-05-29T20:02:50+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-02T12:43:17.713064+00:00"
+    "fetched_at": "2026-06-03T13:17:34.132530+00:00"
   },
   {
     "title": "Testing Gemini models for scheming tendencies",
@@ -47,7 +95,20 @@
     "published_date": "2026-05-29T19:24:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-02T12:43:14.611012+00:00"
+    "fetched_at": "2026-06-03T13:17:30.197089+00:00"
+  },
+  {
+    "title": "Trees are mostly made of air and a generalizable lesson for AI safety",
+    "authors": [
+      "zroe1"
+    ],
+    "organization": "LessWrong",
+    "abstract": "For context, I took five years of Latin: four in high school and one in college. In addition to learning the language, all my Latin classes taught a lot about Roman history. Emperors, internal politics, Caesar, etc. I was always learning some random bag of facts about Roman history. In high school, I won the award for top Latin student in my graduating class. So I wasn’t a bad Latin student.",
+    "url": "https://www.lesswrong.com/posts/xiTBpBDwubnr4MLRe/trees-are-mostly-made-of-air-and-a-generalizable-lesson-for",
+    "published_date": "2026-05-29T04:08:04.640000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-06-03T13:17:53.510683+00:00"
   },
   {
     "title": "“Retrying vs Resampling in AI Control” by James Lucassen, Adam Kaufman",
@@ -60,7 +121,7 @@
     "published_date": "2026-05-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-02T12:43:14.206001+00:00"
+    "fetched_at": "2026-06-03T13:17:29.338199+00:00"
   },
   {
     "title": "Advice for making robust-to-training model organisms",
@@ -73,7 +134,7 @@
     "published_date": "2026-05-28T17:26:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-02T12:43:14.611331+00:00"
+    "fetched_at": "2026-06-03T13:17:30.197416+00:00"
   },
   {
     "title": "A Cascade of Conscientiousness",
@@ -86,7 +147,7 @@
     "published_date": "2026-05-28T11:45:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-02T12:43:17.899962+00:00"
+    "fetched_at": "2026-06-03T13:17:34.408852+00:00"
   },
   {
     "title": "“Advice for making robust-to-training model organisms” by Alek Westover, Sebastian Prasanna, Vivek Hebbar, Julian Stastny",
@@ -99,7 +160,7 @@
     "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-02T12:43:14.206139+00:00"
+    "fetched_at": "2026-06-03T13:17:29.338358+00:00"
   },
   {
     "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study",
@@ -110,7 +171,7 @@
     "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-02T12:43:25.052127+00:00"
+    "fetched_at": "2026-06-03T13:17:46.972053+00:00"
   },
   {
     "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
@@ -123,7 +184,7 @@
     "published_date": "2026-05-27T19:33:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-02T12:43:14.611548+00:00"
+    "fetched_at": "2026-06-03T13:17:30.197626+00:00"
   },
   {
     "title": "Full automation of AI R&D probably yields a large speed up even without a software-only singularity",
@@ -136,6 +197,6 @@
     "published_date": "2026-05-27T18:16:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-02T12:43:14.611644+00:00"
+    "fetched_at": "2026-06-03T13:17:30.197721+00:00"
   }
 ]
