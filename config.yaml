@@ -108,6 +108,10 @@ scrapers:
     url: "https://alignment.anthropic.com/"
     org: "Anthropic"
 
+  - name: "Anthropic Frontier Red Team"
+    url: "https://red.anthropic.com/"
+    org: "Anthropic"
+
   - name: "Google DeepMind Safety"
     url: "https://deepmind.google/discover/blog/?category=responsible-development-and-safety"
     org: "Google DeepMind"
