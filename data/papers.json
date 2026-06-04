@@ -10,7 +10,7 @@
     "published_date": "2026-06-03T13:07:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-03T13:17:34.132502+00:00"
+    "fetched_at": "2026-06-04T11:55:33.892862+00:00"
   },
   {
     "title": "AI Chatbot Use and Disclosure for Mental Health Among US Adolescents and Young Adults",
@@ -21,7 +21,7 @@
     "published_date": "2026-06-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-03T13:17:46.970832+00:00"
+    "fetched_at": "2026-06-04T11:55:41.469305+00:00"
   },
   {
     "title": "Announcing the ARC White-Box Estimation Challenge",
@@ -34,7 +34,7 @@
     "published_date": "2026-06-02T16:20:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-03T13:17:30.196973+00:00"
+    "fetched_at": "2026-06-04T11:55:30.297753+00:00"
   },
   {
     "title": "What should AI safety be trying to achieve?",
@@ -45,7 +45,7 @@
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-06-03T13:17:40.856473+00:00"
+    "fetched_at": "2026-06-04T11:55:40.353441+00:00"
   },
   {
     "title": "Equilibrium Strategies on the Path to Artificial General Intelligence",
@@ -56,20 +56,18 @@
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-03T13:17:46.971359+00:00"
+    "fetched_at": "2026-06-04T11:55:41.469860+00:00"
   },
   {
-    "title": "Lighthaven East - A Feasibility Study",
-    "authors": [
-      "JohnofCharleston"
-    ],
-    "organization": "LessWrong",
-    "abstract": "As a bureaucrat, my role is to annoy my friends. Someone voices an idea, “Wouldn’t it be nice if…” or “I wonder if we could…” I make a note. I do som…",
-    "url": "https://www.lesswrong.com/posts/95NgkvZKJx8tJbtn5/lighthaven-east-a-feasibility-study",
-    "published_date": "2026-05-31T22:53:56.511000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-03T13:17:53.510673+00:00"
+    "title": "Subliminal Learning Is Steering Vector Distillation",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Subliminal Learning Is Steering Vector Distillation Subliminal learning refers to a student language model acquiring a teacher's traits (e.g. a system-prompted preference for owls) when fine-tuned on the teacher's outputs, despite the outputs being semantically unrelated to those traits. It remains poorly understood how data without semantic meaning can transfer specific semantic traits. In this work, we show that subliminal learning is mediated by a single steering vector, i.e. a vector added to the model's activations. Across two open-source models, we find that the teacher's system prompt is well approximated by a steering vector, and that the student's behavior is driven by learning an aligned vector over fine-tuning. System prompts that are not well approximated by steering vectors are not subliminally learned. This is a special case of steering vector distillation, in which a student trained on the outputs of a steered teacher learns to imitate that steering.",
+    "url": "https://www.matsprogram.org/research/subliminal-learning-is-steering-vector-distillation",
+    "published_date": "2026-05-31T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-06-04T11:55:44.920368+00:00"
   },
   {
     "title": "AI Dark Output: The Visible Cost of Invisible Output",
@@ -82,7 +80,7 @@
     "published_date": "2026-05-29T20:02:50+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-03T13:17:34.132530+00:00"
+    "fetched_at": "2026-06-04T11:55:33.892893+00:00"
   },
   {
     "title": "Testing Gemini models for scheming tendencies",
@@ -95,20 +93,7 @@
     "published_date": "2026-05-29T19:24:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-03T13:17:30.197089+00:00"
-  },
-  {
-    "title": "Trees are mostly made of air and a generalizable lesson for AI safety",
-    "authors": [
-      "zroe1"
-    ],
-    "organization": "LessWrong",
-    "abstract": "For context, I took five years of Latin: four in high school and one in college. In addition to learning the language, all my Latin classes taught a lot about Roman history. Emperors, internal politics, Caesar, etc. I was always learning some random bag of facts about Roman history. In high school, I won the award for top Latin student in my graduating class. So I wasn’t a bad Latin student.",
-    "url": "https://www.lesswrong.com/posts/xiTBpBDwubnr4MLRe/trees-are-mostly-made-of-air-and-a-generalizable-lesson-for",
-    "published_date": "2026-05-29T04:08:04.640000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-03T13:17:53.510683+00:00"
+    "fetched_at": "2026-06-04T11:55:30.297870+00:00"
   },
   {
     "title": "“Retrying vs Resampling in AI Control” by James Lucassen, Adam Kaufman",
@@ -121,7 +106,7 @@
     "published_date": "2026-05-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-03T13:17:29.338199+00:00"
+    "fetched_at": "2026-06-04T11:55:29.625828+00:00"
   },
   {
     "title": "Advice for making robust-to-training model organisms",
@@ -134,7 +119,7 @@
     "published_date": "2026-05-28T17:26:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-03T13:17:30.197416+00:00"
+    "fetched_at": "2026-06-04T11:55:30.298205+00:00"
   },
   {
     "title": "A Cascade of Conscientiousness",
@@ -147,7 +132,7 @@
     "published_date": "2026-05-28T11:45:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-03T13:17:34.408852+00:00"
+    "fetched_at": "2026-06-04T11:55:34.392397+00:00"
   },
   {
     "title": "“Advice for making robust-to-training model organisms” by Alek Westover, Sebastian Prasanna, Vivek Hebbar, Julian Stastny",
@@ -160,7 +145,7 @@
     "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-03T13:17:29.338358+00:00"
+    "fetched_at": "2026-06-04T11:55:29.625990+00:00"
   },
   {
     "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study",
@@ -171,32 +156,6 @@
     "published_date": "2026-05-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-03T13:17:46.972053+00:00"
-  },
-  {
-    "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
-    "authors": [
-      "Jasmine Li"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Behavioral evaluations may become worthless, which we think would be a disaster. Smart misaligned models may realize they are being evaluated (\"eval awareness\") and then act to look good to us so we don't realize they're misaligned (\"eval gaming\"). We think increasing eval cooperativeness might be a more scalable solution to eval gaming than reducing eval awareness. Eval cooperativeness: A situational desire to help the developers acquire whatever information they are trying to acquire through their evaluations. \"I cannot tell a lie... I would sabotage with my own command line.\" [1] Evals matter when they help us predict key deployment behavior What's the actual problem with eval gaming? The point of an evaluation is to let us draw inferences about the model's behavior in a different set of circumstances (\"in deployment\").",
-    "url": "https://www.alignmentforum.org/posts/j8fkk38B8L7hEcGtg/eval-cooperativeness-may-be-a-scalable-mitigation-for-eval",
-    "published_date": "2026-05-27T19:33:50+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-03T13:17:30.197626+00:00"
-  },
-  {
-    "title": "Full automation of AI R&D probably yields a large speed up even without a software-only singularity",
-    "authors": [
-      "ryan_greenblatt"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This is a somewhat technical note. By \"software-only singularity\", I mean that, after full automation of AI R&amp;D, progress gets faster and faster due to smarter AIs driving increasingly fast rates of improvement in algorithms (overcoming diminishing returns), and that this lasts long enough to yield a large amount of progress (e.g. at least 4 years of progress in 1 year). The equivalent statement in jargon is: r is significantly greater than 1 (implying progress is getting faster and faster) and this remains the case for long enough to get large amounts of progress.",
-    "url": "https://www.alignmentforum.org/posts/jfwhvd43sbpkGTLyn/full-automation-of-ai-r-and-d-probably-yields-a-large-speed",
-    "published_date": "2026-05-27T18:16:34+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-03T13:17:30.197721+00:00"
+    "fetched_at": "2026-06-04T11:55:41.470592+00:00"
   }
 ]
