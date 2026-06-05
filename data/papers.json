@@ -1,5 +1,51 @@
 [
   {
+    "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&CK® framework, a database of tactics and techniques used by cyberattackers. Doing so reveals patterns that challenge traditional assumptions about cybersecurity—for example, the level of risk a threat actor poses can be assessed via metrics like technical sophistication or breadth of techniques. We partnered with Verizon to include some of these results in the 2026 Verizon Data Breach Investigation Report (DBIR), and are publishing this report to offer a longer-form analysis of trends we are seeing in AI-enabled cyber operations.[1]",
+    "url": "https://red.anthropic.com/2026/attack-navigator/",
+    "published_date": "2026-06-05T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://red.anthropic.com/",
+    "fetched_at": "2026-06-05T12:09:23.003978+00:00"
+  },
+  {
+    "title": "Dreaming: Better memory for a more helpful ChatGPT",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'Dreaming: Better memory for a more helpful ChatGPT'. Published 2026-06-04. Authors: OpenAI News.",
+    "url": "https://openai.com/index/chatgpt-memory-dreaming",
+    "published_date": "2026-06-04T09:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-06-05T12:09:15.082571+00:00"
+  },
+  {
+    "title": "Response to Ariel and Hasid’s Letter",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jun 4, 2026 This article defends the importance of studying LLMs for alcohol misuse support outside clinical settings, noting most affected individuals never engage with formal care and use digital tools independently.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71310.html",
+    "published_date": "2026-06-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-05T12:09:26.933967+00:00"
+  },
+  {
+    "title": "Verified Machine Learning Infrastructure: Formal Methods for Trustworthy Artificial Intelligence Deployment",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jun 4, 2026 The authors determine whether formal methods—using mathematical techniques to reason about software behavior and, potentially, show that systems behave as specified—could meaningfully secure the infrastructure on which artificial intelligence runs.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4881-1.html",
+    "published_date": "2026-06-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-05T12:09:26.934207+00:00"
+  },
+  {
     "title": "To Boldly Go: The Case for Space Datacenters",
     "authors": [
       "Daniel Nishball"
@@ -10,7 +56,7 @@
     "published_date": "2026-06-03T13:07:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-04T11:55:33.892862+00:00"
+    "fetched_at": "2026-06-05T12:09:20.567574+00:00"
   },
   {
     "title": "AI Chatbot Use and Disclosure for Mental Health Among US Adolescents and Young Adults",
@@ -21,7 +67,7 @@
     "published_date": "2026-06-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-04T11:55:41.469305+00:00"
+    "fetched_at": "2026-06-05T12:09:26.934437+00:00"
   },
   {
     "title": "Announcing the ARC White-Box Estimation Challenge",
@@ -34,7 +80,7 @@
     "published_date": "2026-06-02T16:20:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-04T11:55:30.297753+00:00"
+    "fetched_at": "2026-06-05T12:09:16.340492+00:00"
   },
   {
     "title": "What should AI safety be trying to achieve?",
@@ -45,7 +91,7 @@
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-06-04T11:55:40.353441+00:00"
+    "fetched_at": "2026-06-05T12:09:25.965127+00:00"
   },
   {
     "title": "Equilibrium Strategies on the Path to Artificial General Intelligence",
@@ -56,7 +102,7 @@
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-04T11:55:41.469860+00:00"
+    "fetched_at": "2026-06-05T12:09:26.934990+00:00"
   },
   {
     "title": "Subliminal Learning Is Steering Vector Distillation",
@@ -67,7 +113,7 @@
     "published_date": "2026-05-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-06-04T11:55:44.920368+00:00"
+    "fetched_at": "2026-06-05T12:09:30.362924+00:00"
   },
   {
     "title": "AI Dark Output: The Visible Cost of Invisible Output",
@@ -80,7 +126,7 @@
     "published_date": "2026-05-29T20:02:50+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-04T11:55:33.892893+00:00"
+    "fetched_at": "2026-06-05T12:09:20.567603+00:00"
   },
   {
     "title": "Testing Gemini models for scheming tendencies",
@@ -93,7 +139,7 @@
     "published_date": "2026-05-29T19:24:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-04T11:55:30.297870+00:00"
+    "fetched_at": "2026-06-05T12:09:16.340612+00:00"
   },
   {
     "title": "“Retrying vs Resampling in AI Control” by James Lucassen, Adam Kaufman",
@@ -106,56 +152,6 @@
     "published_date": "2026-05-29T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-04T11:55:29.625828+00:00"
-  },
-  {
-    "title": "Advice for making robust-to-training model organisms",
-    "authors": [
-      "SebastianP"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "We’d like to develop training techniques that work when applied to future misaligned AI systems . One strategy for studying proposed techniques is to test them on model organisms . However, model organisms built with common techniques are often fragile: we (and other researchers like Roger et al. and Ryd et al. ) have observed them to stop misbehaving after untargeted training—training that doesn't directly target the misbehavior. For example, we have observed that simple untargeted training methods like “train the model to talk like a pirate” is effective against many model organisms that we have created, including many replications of prior work like Hubinger et al. , Greenblatt et al. , and Ryd et al. . Fragile model organisms aren't very useful for technique development: when a sophisticated technique succeeds on one, you can't tell whether the technique is good or the model organism is weak.",
-    "url": "https://www.alignmentforum.org/posts/CmkAxJi83jRv9eXgJ/advice-for-making-robust-to-training-model-organisms-1",
-    "published_date": "2026-05-28T17:26:47+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-04T11:55:30.298205+00:00"
-  },
-  {
-    "title": "A Cascade of Conscientiousness",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "The revolution in digital machine intelligence is now thoroughly underway, but the counterpart of this revolution in the physical world has barely begun. The autonomous taxis that drive in a handful of American cities are among the few concrete examples we have of the transformations that are brewing. Back in the digital world, many of us have seen demonstrations of humanoid robot prototypes doing karate, dancing, folding laundry, or sorting parts in a factory. Perhaps these videos offer us a glimpse into our future, but if they do, it is but one narrow slice. The transformations wrought by the Cambrian explosion of thinking machines that will soon roam the real world will be more surprising and counter-intuitive than we can imagine.",
-    "url": "https://www.hyperdimensional.co/p/a-cascade-of-conscientiousness",
-    "published_date": "2026-05-28T11:45:38+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-04T11:55:34.392397+00:00"
-  },
-  {
-    "title": "“Advice for making robust-to-training model organisms” by Alek Westover, Sebastian Prasanna, Vivek Hebbar, Julian Stastny",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "We’d like to develop training techniques that work when applied to future misaligned AI systems. One strategy for studying proposed techniques is to test them on model organisms. However, model organisms built with common techniques are often fragile: we (and other researchers like Roger et al. and Ryd et al.) have observed them to stop misbehaving after untargeted training—training that doesn’t directly target the misbehavior. For example, we have observed that simple untargeted training methods like “train the model to talk like a pirate” is effective against many model organisms that we have created, including many replications of prior work like Hubinger et al., Greenblatt et al., and Ryd et al.. Fragile model organisms aren’t very useful for technique development: when a sophisticated technique succeeds on one, you can’t tell whether the technique is good or the model organism is weak.",
-    "url": "https://blog.redwoodresearch.org/p/advice-for-making-robust-to-training",
-    "published_date": "2026-05-28T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-04T11:55:29.625990+00:00"
-  },
-  {
-    "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research May 28, 2026 The UK Artificial Intelligence Security Institute (UK AISI) commissioned RAND to conduct a human uplift study to evaluate the impact of AI access on offensive cyber operations among lower-skilled threat actors.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA3892-1.html",
-    "published_date": "2026-05-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-04T11:55:41.470592+00:00"
+    "fetched_at": "2026-06-05T12:09:15.948472+00:00"
   }
 ]
