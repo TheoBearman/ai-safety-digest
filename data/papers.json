@@ -5,10 +5,47 @@
     "organization": "Anthropic",
     "abstract": "We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&CK® framework, a database of tactics and techniques used by cyberattackers. Doing so reveals patterns that challenge traditional assumptions about cybersecurity—for example, the level of risk a threat actor poses can be assessed via metrics like technical sophistication or breadth of techniques. We partnered with Verizon to include some of these results in the 2026 Verizon Data Breach Investigation Report (DBIR), and are publishing this report to offer a longer-form analysis of trends we are seeing in AI-enabled cyber operations.[1]",
     "url": "https://red.anthropic.com/2026/attack-navigator/",
-    "published_date": "2026-06-05T00:00:00+00:00",
+    "published_date": "2026-06-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-05T12:09:23.003978+00:00"
+    "fetched_at": "2026-06-06T10:54:18.504933+00:00"
+  },
+  {
+    "title": "How Congress Is Approaching AI’s Labor Market Impacts",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
+    "url": "https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts",
+    "published_date": "2026-06-06T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-06-06T10:54:21.595133+00:00"
+  },
+  {
+    "title": "My research agenda and work",
+    "authors": [
+      "Seth Herd"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This is a summary of the work I've done and work I plan to do, and the theories of change and AI progress that motivate my work. I've been working full-time on alignment for three years and change, and thinking about brainlike AGI and its alignment increasingly often since 2004. Here's the research agenda in one breath: I'm trying to predict what the first transformative AI will be, in enough mechanistic detail that we can predict likely failure modes of its alignment. That's in service of finding interventions that address those failure modes efficiently, so that they can realistically be implemented even if timelines are short and work is rushed. I'm using my background in computational cognitive neuroscience to predict what might be called loosely brainlike AGI: LLMs with added human-like cognitive capacities.",
+    "url": "https://www.alignmentforum.org/posts/MuLvZxMcy5WaKJu3H/my-research-agenda-and-work",
+    "published_date": "2026-06-05T14:19:53+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-06T10:54:12.176285+00:00"
+  },
+  {
+    "title": "Could a company overpower nations?",
+    "authors": [
+      "Ajeya Cotra"
+    ],
+    "organization": "Ajeya Cotra",
+    "abstract": "Just as the police need cars to catch criminals in cars, we’ll increasingly need to rely on AI to protect ourselves from AI. Now that AI systems can discover a huge range of vulnerabilities in important software, developers have to lean on AI to find and patch them fast enough. If AI enables much more subtle forms of market manipulation or fraud at much higher volumes and faster speeds, auditors may increasingly need AI to oversee all that activity. If AI can generate propaganda capable of persuading us of virtually anything, we may need AI to continuously filter information before it reaches us. If intelligent drones can quickly hunt down anyone anywhere in the world, we may need AI-enabled surveillance and drone police forces to keep murder and assassination under control.",
+    "url": "https://www.planned-obsolescence.org/p/could-a-company-overpower-nations",
+    "published_date": "2026-06-05T14:03:36+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.planned-obsolescence.org/feed",
+    "fetched_at": "2026-06-06T10:54:16.756706+00:00"
   },
   {
     "title": "Dreaming: Better memory for a more helpful ChatGPT",
@@ -21,7 +58,7 @@
     "published_date": "2026-06-04T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-05T12:09:15.082571+00:00"
+    "fetched_at": "2026-06-06T10:54:10.950557+00:00"
   },
   {
     "title": "Response to Ariel and Hasid’s Letter",
@@ -32,7 +69,7 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-05T12:09:26.933967+00:00"
+    "fetched_at": "2026-06-06T10:54:21.289737+00:00"
   },
   {
     "title": "Verified Machine Learning Infrastructure: Formal Methods for Trustworthy Artificial Intelligence Deployment",
@@ -43,7 +80,7 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-05T12:09:26.934207+00:00"
+    "fetched_at": "2026-06-06T10:54:21.289953+00:00"
   },
   {
     "title": "To Boldly Go: The Case for Space Datacenters",
@@ -56,7 +93,7 @@
     "published_date": "2026-06-03T13:07:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-05T12:09:20.567574+00:00"
+    "fetched_at": "2026-06-06T10:54:16.120013+00:00"
   },
   {
     "title": "AI Chatbot Use and Disclosure for Mental Health Among US Adolescents and Young Adults",
@@ -67,7 +104,7 @@
     "published_date": "2026-06-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-05T12:09:26.934437+00:00"
+    "fetched_at": "2026-06-06T10:54:21.290173+00:00"
   },
   {
     "title": "Announcing the ARC White-Box Estimation Challenge",
@@ -80,18 +117,18 @@
     "published_date": "2026-06-02T16:20:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-05T12:09:16.340492+00:00"
+    "fetched_at": "2026-06-06T10:54:12.176358+00:00"
   },
   {
-    "title": "What should AI safety be trying to achieve?",
+    "title": "AViD Workshop 2026",
     "authors": [],
     "organization": "FAR AI",
-    "abstract": "Event On May 17, FAR.AI and the Center for AI Safety co-hosted the AVID Workshop, colocated with IEEE S&P, bringing together over 100 researchers and engineers to examine how third parties can generate trustworthy evidence about AI systems without unrestricted access to weights or infrastructure. The day spanned confidential computing, zero-knowledge proofs, recomputation, analog sensors, and formal verification, with a recurring focus on what it takes to make assurance work under real-world constraints. June 1, 2026 In early 2026, Anthropic chose not to release its latest Mythos model to the public due to concerns about its potential to help malicious actors with cyberattacks, reporting that Mythos had “found thousands of high-severity vulnerabilities, including some in every major operating system and web browser.” Decisions around whether AI models are released and who has access to them are becoming increasingly high-stakes.",
+    "abstract": "Event On May 17, FAR.AI and the Center for AI Safety co-hosted the AVID Workshop, colocated with IEEE S&P, bringing together over 100 researchers and engineers to examine how third parties can generate trustworthy evidence about AI systems without unrestricted access to weights or infrastructure. The day spanned confidential computing, zero-knowledge proofs, recomputation, analog sensors, and formal verification, with a recurring focus on what it takes to make assurance work under real-world constraints. June 1, 2026 Red-Teaming & Evaluation We evaluated whether DeepSeek-V4-Pro’s built-in safeguards could reliably prevent harmful assistance across several high-risk domains, and the results were stark. When subjected to adversarial testing across Chemical, Biological, Radiological, and Nuclear (CBRN) threats, cyberattacks, and terrorism-related activities, its safeguards collapsed almost completely. Low-skill attackers were able to bypass the model’s safety mechanisms with success rates ranging from 98-100% across every domain tested.",
     "url": "https://far.ai/news/avid-workshop-2026",
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-06-05T12:09:25.965127+00:00"
+    "fetched_at": "2026-06-06T10:54:20.506964+00:00"
   },
   {
     "title": "Equilibrium Strategies on the Path to Artificial General Intelligence",
@@ -102,7 +139,20 @@
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-05T12:09:26.934990+00:00"
+    "fetched_at": "2026-06-06T10:54:21.290621+00:00"
+  },
+  {
+    "title": "Lighthaven East - A Feasibility Study",
+    "authors": [
+      "JohnofCharleston"
+    ],
+    "organization": "LessWrong",
+    "abstract": "As a bureaucrat, my role is to annoy my friends. Someone voices an idea, “Wouldn’t it be nice if…” or “I wonder if we could…” I make a note. I do som…",
+    "url": "https://www.lesswrong.com/posts/95NgkvZKJx8tJbtn5/lighthaven-east-a-feasibility-study",
+    "published_date": "2026-05-31T22:53:56.511000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-06-06T10:54:25.249125+00:00"
   },
   {
     "title": "Subliminal Learning Is Steering Vector Distillation",
@@ -113,45 +163,6 @@
     "published_date": "2026-05-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-06-05T12:09:30.362924+00:00"
-  },
-  {
-    "title": "AI Dark Output: The Visible Cost of Invisible Output",
-    "authors": [
-      "Malcolm Spittler"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Why AI's increasing output is going to be one of the hardest economic measurement problems in history. AI \"Dark Output\" could end up being the majority of economic activity, but a challenge to measure",
-    "url": "https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of",
-    "published_date": "2026-05-29T20:02:50+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-05T12:09:20.567603+00:00"
-  },
-  {
-    "title": "Testing Gemini models for scheming tendencies",
-    "authors": [
-      "Vika"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "As AI models become increasingly capable and autonomous, keeping them safely aligned with human intentions is critical. Extending our previous work on&nbsp; evaluating scheming capabilities , we introduce complementary approaches to test whether AI models would sabotage their own safeguards, if given the opportunity. Our new papers focus on propensity for scheming:&nbsp;when models are deployed as coding agents, will they take opportunities to undermine the safeguards designed to oversee them?&nbsp;We tackle this using two complementary testing methods: automated auditing using simulated agentic environments, and scheming honeypot evaluations based on real internal alignment research codebases. Automated auditing for sabotage propensities Figure 1.&nbsp; Overview of the Gram auditing pipeline and an example of Gemini’s overeagerness. Our&nbsp; first paper &nbsp;introduces Gram (Gauging Realistic Agentic Misbehavior), an automated auditing framework that uses simulated agentic environments to evaluate sabotage risk.",
-    "url": "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies",
-    "published_date": "2026-05-29T19:24:35+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-05T12:09:16.340612+00:00"
-  },
-  {
-    "title": "“Retrying vs Resampling in AI Control” by James Lucassen, Adam Kaufman",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "We’ve just released a new paper: Retrying vs Resampling in AI Control. We revisit the resampling protocols introduced in Ctrl-Z with an up-to-date setting and much stronger models, and compare them against “retrying” protocols similar to Claude Code auto mode or Codex Auto-review. Motivation Roughly a year ago we released Ctrl-Z, the first paper to study control techniques for agents. A headline result of that paper was the performance of resample protocols – strategies that involve taking multiple i.i.d. samples from the model per step. But since Ctrl-Z, models have gotten much stronger, and we have built more sophisticated control settings to keep up.",
-    "url": "https://blog.redwoodresearch.org/p/retrying-vs-resampling-in-ai-control",
-    "published_date": "2026-05-29T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-05T12:09:15.948472+00:00"
+    "fetched_at": "2026-06-06T10:54:24.138738+00:00"
   }
 ]
