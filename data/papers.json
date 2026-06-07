@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&CK® framework, a database of tactics and techniques used by cyberattackers. Doing so reveals patterns that challenge traditional assumptions about cybersecurity—for example, the level of risk a threat actor poses can be assessed via metrics like technical sophistication or breadth of techniques. We partnered with Verizon to include some of these results in the 2026 Verizon Data Breach Investigation Report (DBIR), and are publishing this report to offer a longer-form analysis of trends we are seeing in AI-enabled cyber operations.[1]",
     "url": "https://red.anthropic.com/2026/attack-navigator/",
-    "published_date": "2026-06-06T00:00:00+00:00",
+    "published_date": "2026-06-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-06T10:54:18.504933+00:00"
+    "fetched_at": "2026-06-07T11:09:59.962557+00:00"
   },
   {
     "title": "How Congress Is Approaching AI’s Labor Market Impacts",
@@ -16,23 +16,23 @@
     "organization": "GovAI",
     "abstract": "Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
     "url": "https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts",
-    "published_date": "2026-06-06T00:00:00+00:00",
+    "published_date": "2026-06-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-06T10:54:21.595133+00:00"
+    "fetched_at": "2026-06-07T11:10:04.153617+00:00"
   },
   {
-    "title": "My research agenda and work",
+    "title": "My research: a computational cognitive neuroscience perspective on alignment",
     "authors": [
       "Seth Herd"
     ],
     "organization": "Alignment Forum",
-    "abstract": "This is a summary of the work I've done and work I plan to do, and the theories of change and AI progress that motivate my work. I've been working full-time on alignment for three years and change, and thinking about brainlike AGI and its alignment increasingly often since 2004. Here's the research agenda in one breath: I'm trying to predict what the first transformative AI will be, in enough mechanistic detail that we can predict likely failure modes of its alignment. That's in service of finding interventions that address those failure modes efficiently, so that they can realistically be implemented even if timelines are short and work is rushed. I'm using my background in computational cognitive neuroscience to predict what might be called loosely brainlike AGI: LLMs with added human-like cognitive capacities.",
-    "url": "https://www.alignmentforum.org/posts/MuLvZxMcy5WaKJu3H/my-research-agenda-and-work",
+    "abstract": "Note - title edited to be more descriptive. This is a summary of the work I've done and work I plan to do, and the theories of change and AI progress that motivate my work. I've been working full-time on alignment for three years and change, and thinking about brainlike AGI and its alignment increasingly often since 2004. Here's the research agenda in one breath: I'm trying to predict what the first transformative AI will be, in enough mechanistic detail that we can predict likely failure modes of its alignment. That's in service of finding interventions that address those failure modes efficiently, so that they can realistically be implemented even if timelines are short and work is rushed. I'm using my background in computational cognitive neuroscience to predict what might be called loosely brainlike AGI: LLMs with added human-like cognitive capacities.",
+    "url": "https://www.alignmentforum.org/posts/MuLvZxMcy5WaKJu3H/my-research-a-computational-cognitive-neuroscience",
     "published_date": "2026-06-05T14:19:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-06T10:54:12.176285+00:00"
+    "fetched_at": "2026-06-07T11:09:54.268934+00:00"
   },
   {
     "title": "Could a company overpower nations?",
@@ -45,7 +45,7 @@
     "published_date": "2026-06-05T14:03:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-06-06T10:54:16.756706+00:00"
+    "fetched_at": "2026-06-07T11:09:58.136203+00:00"
   },
   {
     "title": "Dreaming: Better memory for a more helpful ChatGPT",
@@ -58,7 +58,7 @@
     "published_date": "2026-06-04T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-06T10:54:10.950557+00:00"
+    "fetched_at": "2026-06-07T11:09:53.091831+00:00"
   },
   {
     "title": "Response to Ariel and Hasid’s Letter",
@@ -69,7 +69,7 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-06T10:54:21.289737+00:00"
+    "fetched_at": "2026-06-07T11:10:03.653470+00:00"
   },
   {
     "title": "Verified Machine Learning Infrastructure: Formal Methods for Trustworthy Artificial Intelligence Deployment",
@@ -80,7 +80,7 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-06T10:54:21.289953+00:00"
+    "fetched_at": "2026-06-07T11:10:03.653674+00:00"
   },
   {
     "title": "To Boldly Go: The Case for Space Datacenters",
@@ -93,7 +93,7 @@
     "published_date": "2026-06-03T13:07:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-06T10:54:16.120013+00:00"
+    "fetched_at": "2026-06-07T11:09:57.348385+00:00"
   },
   {
     "title": "AI Chatbot Use and Disclosure for Mental Health Among US Adolescents and Young Adults",
@@ -104,7 +104,7 @@
     "published_date": "2026-06-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-06T10:54:21.290173+00:00"
+    "fetched_at": "2026-06-07T11:10:03.653893+00:00"
   },
   {
     "title": "Announcing the ARC White-Box Estimation Challenge",
@@ -117,7 +117,7 @@
     "published_date": "2026-06-02T16:20:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-06T10:54:12.176358+00:00"
+    "fetched_at": "2026-06-07T11:09:54.269007+00:00"
   },
   {
     "title": "AViD Workshop 2026",
@@ -128,7 +128,7 @@
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-06-06T10:54:20.506964+00:00"
+    "fetched_at": "2026-06-07T11:10:02.668275+00:00"
   },
   {
     "title": "Equilibrium Strategies on the Path to Artificial General Intelligence",
@@ -139,7 +139,7 @@
     "published_date": "2026-06-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-06T10:54:21.290621+00:00"
+    "fetched_at": "2026-06-07T11:10:03.654358+00:00"
   },
   {
     "title": "Lighthaven East - A Feasibility Study",
@@ -152,7 +152,7 @@
     "published_date": "2026-05-31T22:53:56.511000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-06T10:54:25.249125+00:00"
+    "fetched_at": "2026-06-07T11:10:08.534037+00:00"
   },
   {
     "title": "Subliminal Learning Is Steering Vector Distillation",
@@ -163,6 +163,6 @@
     "published_date": "2026-05-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-06-06T10:54:24.138738+00:00"
+    "fetched_at": "2026-06-07T11:10:07.090198+00:00"
   }
 ]
