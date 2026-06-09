@@ -1,14 +1,51 @@
 [
   {
-    "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
+    "title": "Measuring LLMs' Impact on N-day Exploits",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&CK® framework, a database of tactics and techniques used by cyberattackers. Doing so reveals patterns that challenge traditional assumptions about cybersecurity—for example, the level of risk a threat actor poses can be assessed via metrics like technical sophistication or breadth of techniques. We partnered with Verizon to include some of these results in the 2026 Verizon Data Breach Investigation Report (DBIR), and are publishing this report to offer a longer-form analysis of trends we are seeing in AI-enabled cyber operations.[1]",
-    "url": "https://red.anthropic.com/2026/attack-navigator/",
-    "published_date": "2026-06-08T00:00:00+00:00",
+    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-09.",
+    "url": "https://red.anthropic.com/2026/n-days/",
+    "published_date": "2026-06-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-08T13:08:31.629021+00:00"
+    "fetched_at": "2026-06-09T12:06:16.888867+00:00"
+  },
+  {
+    "title": "How Congress Is Approaching AI’s Labor Market Impacts",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
+    "url": "https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts",
+    "published_date": "2026-06-09T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-06-09T12:06:21.347516+00:00"
+  },
+  {
+    "title": "Efficient tradeoffs and the safety-usefulness tradeoff model",
+    "authors": [
+      "Buck"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I often use what I’ll call the “safety-usefulness tradeoff model”, which is: developers face a tradeoff between \"safety\" and \"usefulness\" of an AI deployment, and the developer has only limited willingness or ability to sacrifice usefulness for the sake of safety. This model assumes that developers choose whether to take safety-relevant actions based on their cost efficiency, i.e., the marginal safety gain relative to the cost. However, that is not necessarily true. In this post, I spell out different stories for how developers choose what safety-relevant actions to take, in order to clarify when this model is relevant and how strategies for reducing AI risk are affected when its assumptions don't hold. The model suggests two ways a safety-concerned person can increase safety: Safety tech improvements: push out the Pareto frontier, so that any given level of usefulness reduction buys more safety than it would have previously.",
+    "url": "https://www.alignmentforum.org/posts/mBsZTZxtjgCdN4CDA/efficient-tradeoffs-and-the-safety-usefulness-tradeoff-model",
+    "published_date": "2026-06-08T20:28:17+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-09T12:06:10.239564+00:00"
+  },
+  {
+    "title": "MLSN #21: Political Manipulation and Indirect Prompt Injection",
+    "authors": [
+      "Alice Blair"
+    ],
+    "organization": "Dan Hendrycks",
+    "abstract": "Research from Dan Hendrycks titled 'MLSN #21: Political Manipulation and Indirect Prompt Injection'. Published 2026-06-08. Authors: Alice Blair.",
+    "url": "https://newsletter.mlsafety.org/p/mlsn-21-political-manipulation-and",
+    "published_date": "2026-06-08T14:39:31+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.mlsafety.org/feed",
+    "fetched_at": "2026-06-09T12:06:15.498797+00:00"
   },
   {
     "title": "RealityTest: Do AI systems disclose their identity when asked?",
@@ -19,18 +56,18 @@
     "published_date": "2026-06-08T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-08T13:08:35.518630+00:00"
+    "fetched_at": "2026-06-09T12:06:20.566187+00:00"
   },
   {
-    "title": "How Congress Is Approaching AI’s Labor Market Impacts",
+    "title": "Advancing U.S.–UK Cooperation to Secure Frontier Artificial Intelligence",
     "authors": [],
-    "organization": "GovAI",
-    "abstract": "Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
-    "url": "https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts",
+    "organization": "RAND",
+    "abstract": "Research Jun 8, 2026 This interim report identifies a significant opportunity for collaboration between the United States and the United Kingdom and proposes a framework for coordinating efforts to secure frontier artificial intelligence development.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4764-1.html",
     "published_date": "2026-06-08T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-08T13:08:36.662757+00:00"
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-09T12:06:21.090613+00:00"
   },
   {
     "title": "My research: a computational cognitive neuroscience perspective on alignment",
@@ -43,7 +80,7 @@
     "published_date": "2026-06-05T14:19:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-08T13:08:26.108395+00:00"
+    "fetched_at": "2026-06-09T12:06:10.239923+00:00"
   },
   {
     "title": "Could a company overpower nations?",
@@ -56,7 +93,7 @@
     "published_date": "2026-06-05T14:03:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-06-08T13:08:29.638181+00:00"
+    "fetched_at": "2026-06-09T12:06:14.996622+00:00"
   },
   {
     "title": "Dreaming: Better memory for a more helpful ChatGPT",
@@ -69,7 +106,7 @@
     "published_date": "2026-06-04T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-08T13:08:24.777738+00:00"
+    "fetched_at": "2026-06-09T12:06:08.756748+00:00"
   },
   {
     "title": "Response to Ariel and Hasid’s Letter",
@@ -80,7 +117,7 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-08T13:08:36.058096+00:00"
+    "fetched_at": "2026-06-09T12:06:21.090846+00:00"
   },
   {
     "title": "Verified Machine Learning Infrastructure: Formal Methods for Trustworthy Artificial Intelligence Deployment",
@@ -91,7 +128,7 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-08T13:08:36.058297+00:00"
+    "fetched_at": "2026-06-09T12:06:21.091134+00:00"
   },
   {
     "title": "To Boldly Go: The Case for Space Datacenters",
@@ -104,7 +141,7 @@
     "published_date": "2026-06-03T13:07:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-08T13:08:29.060360+00:00"
+    "fetched_at": "2026-06-09T12:06:14.330357+00:00"
   },
   {
     "title": "AI Chatbot Use and Disclosure for Mental Health Among US Adolescents and Young Adults",
@@ -115,7 +152,7 @@
     "published_date": "2026-06-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-08T13:08:36.058519+00:00"
+    "fetched_at": "2026-06-09T12:06:21.091397+00:00"
   },
   {
     "title": "Announcing the ARC White-Box Estimation Challenge",
@@ -128,28 +165,6 @@
     "published_date": "2026-06-02T16:20:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-08T13:08:26.108470+00:00"
-  },
-  {
-    "title": "AViD Workshop 2026",
-    "authors": [],
-    "organization": "FAR AI",
-    "abstract": "Event On May 17, FAR.AI and the Center for AI Safety co-hosted the AVID Workshop, colocated with IEEE S&P, bringing together over 100 researchers and engineers to examine how third parties can generate trustworthy evidence about AI systems without unrestricted access to weights or infrastructure. The day spanned confidential computing, zero-knowledge proofs, recomputation, analog sensors, and formal verification, with a recurring focus on what it takes to make assurance work under real-world constraints. June 1, 2026 Red-Teaming & Evaluation We evaluated whether DeepSeek-V4-Pro’s built-in safeguards could reliably prevent harmful assistance across several high-risk domains, and the results were stark. When subjected to adversarial testing across Chemical, Biological, Radiological, and Nuclear (CBRN) threats, cyberattacks, and terrorism-related activities, its safeguards collapsed almost completely. Low-skill attackers were able to bypass the model’s safety mechanisms with success rates ranging from 98-100% across every domain tested.",
-    "url": "https://far.ai/news/avid-workshop-2026",
-    "published_date": "2026-06-01T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://far.ai/blog/",
-    "fetched_at": "2026-06-08T13:08:35.082385+00:00"
-  },
-  {
-    "title": "Equilibrium Strategies on the Path to Artificial General Intelligence",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Jun 1, 2026 The author models the geopolitical race toward artificial general intelligence as a series of strategic interactions between two primary actors—the United States and China—using game-theoretic frameworks inspired by Cold War–era nuclear competition.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4788-1.html",
-    "published_date": "2026-06-01T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-08T13:08:36.058960+00:00"
+    "fetched_at": "2026-06-09T12:06:10.239990+00:00"
   }
 ]
