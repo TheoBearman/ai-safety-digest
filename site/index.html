@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Safety Digest — June 02, 2026 to June 09, 2026</title>
-  <meta name="description" content="A curated digest of 14 AI safety research papers from leading organizations and researchers. June 02, 2026 through June 09, 2026.">
+  <title>AI Safety Digest — June 03, 2026 to June 10, 2026</title>
+  <meta name="description" content="A curated digest of 17 AI safety research papers from leading organizations and researchers. June 03, 2026 through June 10, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1053,8 +1053,8 @@ a:hover {
       <h1 class="site-title" id="digest-title">AI Safety Digest</h1>
       <hr class="header-rule">
       <div class="header-meta">
-        <span class="header-daterange" id="date-range">June 02, 2026 &mdash; June 09, 2026</span>        <span class="header-separator">&middot;</span>
-        <span class="header-count" id="paper-count"><strong>14</strong> papers</span>      </div>
+        <span class="header-daterange" id="date-range">June 03, 2026 &mdash; June 10, 2026</span>        <span class="header-separator">&middot;</span>
+        <span class="header-count" id="paper-count"><strong>17</strong> papers</span>      </div>
       <div class="digest-toggle" role="group" aria-label="Digest time range">
         <button class="toggle-btn" data-mode="daily">Daily</button>
         <button class="toggle-btn active" data-mode="weekly">Weekly</button>
@@ -1066,7 +1066,7 @@ a:hover {
   <nav class="filter-bar" aria-label="Filter papers by organization">
     <div class="filter-bar-inner">
       <div class="filter-scroll">
-        <button class="filter-pill active" data-filter="all">All <span class="pill-count">14</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Ajeya Cotra">Ajeya Cotra</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="Dan Hendrycks">Dan Hendrycks</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">17</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="Google DeepMind">Google DeepMind</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Ajeya Cotra">Ajeya Cotra</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="Dan Hendrycks">Dan Hendrycks</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
     </div>
   </nav>
 
@@ -1074,10 +1074,26 @@ a:hover {
   <!-- Papers Grid -->
   <main class="papers-section">
     <h2 class="section-label">All Papers</h2>
-    <div class="papers-grid">      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-06-09">
+    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-06-10">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Jun 10, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3" target="_blank" rel="noopener noreferrer">Tracing Eval-Awareness Emergence Through Training of OLMo 3</a>
+    </h3>    <p class="paper-authors">Ram Bharadwaj</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">TL;DR Recent work from Goodfire &amp;amp; UK AISI – Verbalized Eval Awareness Inflates Measured Safety – shows that newer open-weight models verbalize evaluation-awareness (VEA) more often, and that this inflates measured safety. Between OLMo-3-32B-Think and OLMo-3 .1 -32B-Think – identical base, SFT, DPO, and RL data, differing only in an additional ~3 weeks of the RLVR stage – VEA roughly doubles. Because OLMo ships stepwise checkpoints across all training stages, we can attribute VEA growth to specific points in the pipeline. Measuring VEA across pretraining, the SFT→DPO→RLVR stages at various points on five safety benchmarks, we find: VEA is essentially negligible during pretraining (~1%). It is increased substantially by SFT , collapsed by DPO , and increased again by RLVR . The increase in SFT is likely driven by the SFT data containing VEA, particularly on safety prompts.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">TL;DR Recent work from Goodfire &amp;amp; UK AISI – Verbalized Eval Awareness Inflates Measured Safety – shows that newer open-weight models verbalize evaluation-awareness (VEA) more often, and that this inflates measured safety. Between OLMo-3-32B-Think and OLMo-3 .1 -32B-Think – identical base, SFT, DPO, and RL data, differing only in an additional ~3 weeks of the RLVR stage – VEA roughly doubles. Because OLMo ships stepwise checkpoints across all training stages, we can attribute VEA growth to specific points in the pipeline. Measuring VEA across pretraining, the SFT→DPO→RLVR stages at various points on five safety benchmarks, we find: VEA is essentially negligible during pretraining (~1%). It is increased substantially by SFT , collapsed by DPO , and increased again by RLVR . The increase in SFT is likely driven by the SFT data containing VEA, particularly on safety prompts.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-06-10">
     <div class="paper-meta">
       <span class="org-tag" data-org="GovAI">GovAI</span>
-      <span class="paper-date">Jun 9, 2026</span>
+      <span class="paper-date">Jun 10, 2026</span>
     </div>
     <h3 class="paper-title">
       <a href="https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts" target="_blank" rel="noopener noreferrer">How Congress Is Approaching AI’s Labor Market Impacts</a>
@@ -1090,6 +1106,38 @@ a:hover {
         <div class="abstract-full">Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.</div>
       </details>
     </div>    <a href="https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-06-09">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Jun 9, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/M2tD23bvQLBqsEpqu/a-mike-s-eye-view-of-arc-s-research" target="_blank" rel="noopener noreferrer">A Mike&#39;s-Eye View of ARC&#39;s Research</a>
+    </h3>    <p class="paper-authors">Mikewins</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Over the past 15 months or so, ARC&#39;s technical agenda has developed quite a bit. The advent of the Matching Sampling Principle (MSP), and ideas like it, has begotten a host of concrete technical problems; progress on those problems has given us more philosophical clarity on the big picture, which has led to even more technical progress. The two most recent public discussions of ARC&#39;s research (Jacob&#39;s A Bird&#39;s Eye View of ARC&#39;s Research and David&#39;s Obstacles in ARC&#39;s research agenda ) both came out before this flywheel really got spinning, and a lot of what we now consider central to the agenda isn&#39;t reflected in either of them. The goal of this post is to give a clear, updated picture of what we&#39;re actually trying to do. This is written from my point of view; I don&#39;t speak for my whole organization.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Over the past 15 months or so, ARC&#39;s technical agenda has developed quite a bit. The advent of the Matching Sampling Principle (MSP), and ideas like it, has begotten a host of concrete technical problems; progress on those problems has given us more philosophical clarity on the big picture, which has led to even more technical progress. The two most recent public discussions of ARC&#39;s research (Jacob&#39;s A Bird&#39;s Eye View of ARC&#39;s Research and David&#39;s Obstacles in ARC&#39;s research agenda ) both came out before this flywheel really got spinning, and a lot of what we now consider central to the agenda isn&#39;t reflected in either of them. The goal of this post is to give a clear, updated picture of what we&#39;re actually trying to do. This is written from my point of view; I don&#39;t speak for my whole organization.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/M2tD23bvQLBqsEpqu/a-mike-s-eye-view-of-arc-s-research" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="SemiAnalysis" data-date="2026-06-09">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="SemiAnalysis">SemiAnalysis</span>
+      <span class="paper-date">Jun 9, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance" target="_blank" rel="noopener noreferrer">DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200</a>
+    </h3>    <p class="paper-authors">Bryan Shan</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Day 0 Inference Performance, InferenceX, 100x performance improvement in 26 Days, Cost per Million Tokens, Huawei 950DT Inference Trace Analysis</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Day 0 Inference Performance, InferenceX, 100x performance improvement in 26 Days, Cost per Million Tokens, Huawei 950DT Inference Trace Analysis</div>
+      </details>
+    </div>    <a href="https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-06-08">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1170,6 +1218,22 @@ a:hover {
         <div class="abstract-full">Just as the police need cars to catch criminals in cars, we’ll increasingly need to rely on AI to protect ourselves from AI. Now that AI systems can discover a huge range of vulnerabilities in important software, developers have to lean on AI to find and patch them fast enough. If AI enables much more subtle forms of market manipulation or fraud at much higher volumes and faster speeds, auditors may increasingly need AI to oversee all that activity. If AI can generate propaganda capable of persuading us of virtually anything, we may need AI to continuously filter information before it reaches us. If intelligent drones can quickly hunt down anyone anywhere in the world, we may need AI-enabled surveillance and drone police forces to keep murder and assassination under control.</div>
       </details>
     </div>    <a href="https://www.planned-obsolescence.org/p/could-a-company-overpower-nations" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-06-04">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="OpenAI">OpenAI</span>
+      <span class="paper-date">Jun 4, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://openai.com/index/chatgpt-memory-dreaming" target="_blank" rel="noopener noreferrer">Dreaming: Better memory for a more helpful ChatGPT</a>
+    </h3>    <p class="paper-authors">OpenAI News</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from OpenAI titled &#39;Dreaming: Better memory for a more helpful ChatGPT&#39;. Published 2026-06-04. Authors: OpenAI News.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from OpenAI titled &#39;Dreaming: Better memory for a more helpful ChatGPT&#39;. Published 2026-06-04. Authors: OpenAI News.</div>
+      </details>
+    </div>    <a href="https://openai.com/index/chatgpt-memory-dreaming" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-06-04">
     <div class="paper-meta">
       <span class="org-tag" data-org="RAND">RAND</span>
@@ -1212,10 +1276,10 @@ a:hover {
     </h3>    <p class="paper-authors">Daniel Nishball</p>    <div class="paper-abstract">
       <details class="abstract-expand">
         <summary class="abstract-toggle">
-          <span class="abstract-preview">Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute:</span>
+          <span class="abstract-preview">Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute</span>
           <span class="toggle-label">More</span>
         </summary>
-        <div class="abstract-full">Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute:</div>
+        <div class="abstract-full">Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute</div>
       </details>
     </div>    <a href="https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-06-03">
@@ -1234,22 +1298,6 @@ a:hover {
         <div class="abstract-full">Research Jun 3, 2026 The objective of this paper is to assess the prevalence, frequency, perceived helpfulness, and disclosure of AI chatbot use for mental health advice among US adolescents and young adults in 2025.</div>
       </details>
     </div>    <a href="https://www.rand.org/pubs/external_publications/EP71278.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-06-02">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
-      <span class="paper-date">Jun 2, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.alignmentforum.org/posts/Kben8CzS4awCwNw5c/announcing-the-arc-white-box-estimation-challenge" target="_blank" rel="noopener noreferrer">Announcing the ARC White-Box Estimation Challenge</a>
-    </h3>    <p class="paper-authors">Jacob_Hilton</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">ARC has teamed up with AIcrowd to launch the ARC White-Box Estimation Challenge , a contest to improve upon our estimation algorithms for random MLPs . The warm-up round begins this week, and later rounds will have a total prize pool of at least $100,000. We are very grateful to Sharada Mohanty, Sneha Nanavati, Dipam Chakraborty and everyone else at AIcrowd for working with us to host this contest, as well as to Paul Rosu for testing the contest and to Harshita Khera for operational support. Introduction to the Challenge Our challenge follows the same setup as our recent paper on wide random MLPs: we consider MLPs with weights , defined by where the activation function is , applied coordinatewise. To begin with, we are fixing the width and the number of hidden layers , but we expect to change this setup in future rounds.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">ARC has teamed up with AIcrowd to launch the ARC White-Box Estimation Challenge , a contest to improve upon our estimation algorithms for random MLPs . The warm-up round begins this week, and later rounds will have a total prize pool of at least $100,000. We are very grateful to Sharada Mohanty, Sneha Nanavati, Dipam Chakraborty and everyone else at AIcrowd for working with us to host this contest, as well as to Paul Rosu for testing the contest and to Harshita Khera for operational support. Introduction to the Challenge Our challenge follows the same setup as our recent paper on wide random MLPs: we consider MLPs with weights , defined by where the activation function is , applied coordinatewise. To begin with, we are fixing the width and the number of hidden layers , but we expect to change this setup in future rounds.</div>
-      </details>
-    </div>    <a href="https://www.alignmentforum.org/posts/Kben8CzS4awCwNw5c/announcing-the-arc-white-box-estimation-challenge" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>    </div>
   </main>
 
@@ -1266,15 +1314,15 @@ a:hover {
         <ul class="health-list">          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Ajeya Cotra — Planned Obsolescence</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Alignment Forum</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 3 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 4 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Alignment Science</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 28 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 28 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Engineering</span>
@@ -1282,7 +1330,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Frontier Red Team</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 10 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 10 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic News (research only)</span>
@@ -1290,11 +1338,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Apollo Research</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">ARC</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 7 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 7 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CAIS</span>
@@ -1314,11 +1362,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CSET Georgetown</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 5 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 5 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Dan Hendrycks — ML Safety Newsletter</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Dean Ball — Hyperdimensional</span>
@@ -1330,7 +1378,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">FAR AI</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 49 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 49 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">FLI</span>
@@ -1346,11 +1394,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Google DeepMind Safety</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 25 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 25 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">GovAI Oxford</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 215 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 215 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Helen Toner — Rising Tide</span>
@@ -1366,15 +1414,15 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Lennart Heim</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 6 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 6 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">LessWrong</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 2 items</span>
+            <span class="health-meta">last data May 11, 2026</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">MATS</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 28 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 28 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">METR</span>
@@ -1394,7 +1442,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">OpenAI Research Publications</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Paul Christiano</span>
@@ -1406,7 +1454,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">RAND AI</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 14 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 14 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Reddit r/aisafety</span>
@@ -1422,7 +1470,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Redwood Research</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Seb Krier — Technologik</span>
@@ -1430,11 +1478,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">SemiAnalysis</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 2 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">UK AISI</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 171 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 171 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">US AISI (NIST)</span>
@@ -1442,24 +1490,24 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Yoshua Bengio</span>
-            <span class="health-meta">last data Jun 9, 2026 &middot; 16 items</span>
+            <span class="health-meta">last data Jun 10, 2026 &middot; 16 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Zvi Mowshowitz</span>
             <span class="health-meta">last data May 11, 2026</span>
           </li>        </ul>
       </details>      <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-06-09 12:06:26</p>
+      <p class="footer-timestamp">2026-06-10 12:22:19</p>
     </div>
   </footer>
 
   <!-- Filter + Digest Mode JS -->
   <script>
     (function () {
-      var FETCH_DATE = '2026-06-09';
-      var WEEK_START = 'June 02, 2026';
-      var WEEK_END = 'June 09, 2026';
-      var TOTAL_COUNT = 14;
+      var FETCH_DATE = '2026-06-10';
+      var WEEK_START = 'June 03, 2026';
+      var WEEK_END = 'June 10, 2026';
+      var TOTAL_COUNT = 17;
 
       var pills = document.querySelectorAll('.filter-pill');
       var cards = document.querySelectorAll('.paper-card');

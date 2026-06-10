@@ -1,14 +1,38 @@
 [
   {
+    "title": "Tracing Eval-Awareness Emergence Through Training of OLMo 3",
+    "authors": [
+      "Ram Bharadwaj"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR Recent work from Goodfire &amp; UK AISI – Verbalized Eval Awareness Inflates Measured Safety – shows that newer open-weight models verbalize evaluation-awareness (VEA) more often, and that this inflates measured safety. Between OLMo-3-32B-Think and OLMo-3 .1 -32B-Think – identical base, SFT, DPO, and RL data, differing only in an additional ~3 weeks of the RLVR stage – VEA roughly doubles. Because OLMo ships stepwise checkpoints across all training stages, we can attribute VEA growth to specific points in the pipeline. Measuring VEA across pretraining, the SFT→DPO→RLVR stages at various points on five safety benchmarks, we find: VEA is essentially negligible during pretraining (~1%). It is increased substantially by SFT , collapsed by DPO , and increased again by RLVR . The increase in SFT is likely driven by the SFT data containing VEA, particularly on safety prompts.",
+    "url": "https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3",
+    "published_date": "2026-06-10T10:13:05+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-10T12:22:00.540015+00:00"
+  },
+  {
     "title": "Measuring LLMs' Impact on N-day Exploits",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-09.",
+    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-10.",
     "url": "https://red.anthropic.com/2026/n-days/",
-    "published_date": "2026-06-09T00:00:00+00:00",
+    "published_date": "2026-06-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-09T12:06:16.888867+00:00"
+    "fetched_at": "2026-06-10T12:22:07.146675+00:00"
+  },
+  {
+    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-10.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "published_date": "2026-06-10T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-06-10T12:22:07.444128+00:00"
   },
   {
     "title": "How Congress Is Approaching AI’s Labor Market Impacts",
@@ -16,10 +40,36 @@
     "organization": "GovAI",
     "abstract": "Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
     "url": "https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts",
-    "published_date": "2026-06-09T00:00:00+00:00",
+    "published_date": "2026-06-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-09T12:06:21.347516+00:00"
+    "fetched_at": "2026-06-10T12:22:12.915241+00:00"
+  },
+  {
+    "title": "A Mike's-Eye View of ARC's Research",
+    "authors": [
+      "Mikewins"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Over the past 15 months or so, ARC's technical agenda has developed quite a bit. The advent of the Matching Sampling Principle (MSP), and ideas like it, has begotten a host of concrete technical problems; progress on those problems has given us more philosophical clarity on the big picture, which has led to even more technical progress. The two most recent public discussions of ARC's research (Jacob's A Bird's Eye View of ARC's Research and David's Obstacles in ARC's research agenda ) both came out before this flywheel really got spinning, and a lot of what we now consider central to the agenda isn't reflected in either of them. The goal of this post is to give a clear, updated picture of what we're actually trying to do. This is written from my point of view; I don't speak for my whole organization.",
+    "url": "https://www.alignmentforum.org/posts/M2tD23bvQLBqsEpqu/a-mike-s-eye-view-of-arc-s-research",
+    "published_date": "2026-06-09T18:30:45+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-10T12:22:00.540214+00:00"
+  },
+  {
+    "title": "DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200",
+    "authors": [
+      "Bryan Shan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Day 0 Inference Performance, InferenceX, 100x performance improvement in 26 Days, Cost per Million Tokens, Huawei 950DT Inference Trace Analysis",
+    "url": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance",
+    "published_date": "2026-06-09T12:15:56+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-06-10T12:22:04.453471+00:00"
   },
   {
     "title": "Efficient tradeoffs and the safety-usefulness tradeoff model",
@@ -32,7 +82,7 @@
     "published_date": "2026-06-08T20:28:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-09T12:06:10.239564+00:00"
+    "fetched_at": "2026-06-10T12:22:00.540360+00:00"
   },
   {
     "title": "MLSN #21: Political Manipulation and Indirect Prompt Injection",
@@ -45,7 +95,7 @@
     "published_date": "2026-06-08T14:39:31+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-06-09T12:06:15.498797+00:00"
+    "fetched_at": "2026-06-10T12:22:05.572456+00:00"
   },
   {
     "title": "RealityTest: Do AI systems disclose their identity when asked?",
@@ -56,7 +106,7 @@
     "published_date": "2026-06-08T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-09T12:06:20.566187+00:00"
+    "fetched_at": "2026-06-10T12:22:11.185201+00:00"
   },
   {
     "title": "Advancing U.S.–UK Cooperation to Secure Frontier Artificial Intelligence",
@@ -67,7 +117,7 @@
     "published_date": "2026-06-08T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-09T12:06:21.090613+00:00"
+    "fetched_at": "2026-06-10T12:22:12.394733+00:00"
   },
   {
     "title": "My research: a computational cognitive neuroscience perspective on alignment",
@@ -80,7 +130,7 @@
     "published_date": "2026-06-05T14:19:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-09T12:06:10.239923+00:00"
+    "fetched_at": "2026-06-10T12:22:00.540730+00:00"
   },
   {
     "title": "Could a company overpower nations?",
@@ -93,7 +143,7 @@
     "published_date": "2026-06-05T14:03:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-06-09T12:06:14.996622+00:00"
+    "fetched_at": "2026-06-10T12:22:05.036080+00:00"
   },
   {
     "title": "Dreaming: Better memory for a more helpful ChatGPT",
@@ -106,7 +156,7 @@
     "published_date": "2026-06-04T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-09T12:06:08.756748+00:00"
+    "fetched_at": "2026-06-10T12:21:59.459039+00:00"
   },
   {
     "title": "Response to Ariel and Hasid’s Letter",
@@ -117,7 +167,7 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-09T12:06:21.090846+00:00"
+    "fetched_at": "2026-06-10T12:22:12.394927+00:00"
   },
   {
     "title": "Verified Machine Learning Infrastructure: Formal Methods for Trustworthy Artificial Intelligence Deployment",
@@ -128,7 +178,7 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-09T12:06:21.091134+00:00"
+    "fetched_at": "2026-06-10T12:22:12.395232+00:00"
   },
   {
     "title": "To Boldly Go: The Case for Space Datacenters",
@@ -136,12 +186,12 @@
       "Daniel Nishball"
     ],
     "organization": "SemiAnalysis",
-    "abstract": "Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute:",
+    "abstract": "Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute",
     "url": "https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters",
     "published_date": "2026-06-03T13:07:46+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-09T12:06:14.330357+00:00"
+    "fetched_at": "2026-06-10T12:22:04.453516+00:00"
   },
   {
     "title": "AI Chatbot Use and Disclosure for Mental Health Among US Adolescents and Young Adults",
@@ -152,19 +202,6 @@
     "published_date": "2026-06-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-09T12:06:21.091397+00:00"
-  },
-  {
-    "title": "Announcing the ARC White-Box Estimation Challenge",
-    "authors": [
-      "Jacob_Hilton"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "ARC has teamed up with AIcrowd to launch the ARC White-Box Estimation Challenge , a contest to improve upon our estimation algorithms for random MLPs . The warm-up round begins this week, and later rounds will have a total prize pool of at least $100,000. We are very grateful to Sharada Mohanty, Sneha Nanavati, Dipam Chakraborty and everyone else at AIcrowd for working with us to host this contest, as well as to Paul Rosu for testing the contest and to Harshita Khera for operational support. Introduction to the Challenge Our challenge follows the same setup as our recent paper on wide random MLPs: we consider MLPs with weights , defined by where the activation function is , applied coordinatewise. To begin with, we are fixing the width and the number of hidden layers , but we expect to change this setup in future rounds.",
-    "url": "https://www.alignmentforum.org/posts/Kben8CzS4awCwNw5c/announcing-the-arc-white-box-estimation-challenge",
-    "published_date": "2026-06-02T16:20:43+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-09T12:06:10.239990+00:00"
+    "fetched_at": "2026-06-10T12:22:12.395478+00:00"
   }
 ]
