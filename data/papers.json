@@ -1,5 +1,88 @@
 [
   {
+    "title": "Models May Behave Worse When Eval Aware",
+    "authors": [
+      "Senthooran Rajamanoharan"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This is the first in a series of research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. TL;DR It's often assumed that models will act more aligned when they can tell they're being evaluated. But we find that Gemini can take “undesired” actions in behavioural evals even when it explicitly reasons that the environments are contrived, and sometimes this reasoning will increase the rate of undesired actions. When we dig into the model's reasoning, we find that this is typically associated with Gemini perceiving an environment as a puzzle where the aim is to achieve the goal by unconventional means (like capture the flag challenges – Gemini’s thoughts often literally call it a “CTF” challenge) or a consequence-free simulation in which it should play along – rather than recognising it as an alignment test.",
+    "url": "https://www.alignmentforum.org/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware",
+    "published_date": "2026-06-11T09:28:19+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-11T12:47:27.307965+00:00"
+  },
+  {
+    "title": "Measuring LLMs' Impact on N-day Exploits",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-11.",
+    "url": "https://red.anthropic.com/2026/n-days/",
+    "published_date": "2026-06-11T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://red.anthropic.com/",
+    "fetched_at": "2026-06-11T12:47:34.201972+00:00"
+  },
+  {
+    "title": "DiffusionGemma: 4x faster text generation",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-11.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "published_date": "2026-06-11T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-06-11T12:47:34.593067+00:00"
+  },
+  {
+    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-11.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "published_date": "2026-06-11T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-06-11T12:47:34.594015+00:00"
+  },
+  {
+    "title": "How Congress Is Approaching AI’s Labor Market Impacts",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
+    "url": "https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts",
+    "published_date": "2026-06-11T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-06-11T12:47:38.386518+00:00"
+  },
+  {
+    "title": "Sequent: scale and automation for higher confidence in alignment",
+    "authors": [
+      "Geoffrey Irving"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Alignment is not on track Artificial superintelligence (ASI) may be developed in the next few years. It is unclear whether alignment is on track to be ready on the same timeframe. At a minimum, the empirical programs at AI labs are unlikely to deliver a priori confidence, before training ASI, that things will go well. We are starting a large nonprofit research organization, Sequent, that aims to clear a higher bar: We are aiming at higher confidence via a portfolio of theory and empirics bets, all of which could fail, such that if any succeed, they would give us more a priori confidence in aligned outcomes. We are investing heavily in automation to accelerate progress on these bets. We believe that theory unlocks higher automation.",
+    "url": "https://www.alignmentforum.org/posts/AP7YDke5jjY4v3X9Z/sequent-scale-and-automation-for-higher-confidence-in-1",
+    "published_date": "2026-06-10T15:37:47+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-11T12:47:27.308143+00:00"
+  },
+  {
+    "title": "Investing in multi-agent AI safety research",
+    "authors": [
+      "Google DeepMind News"
+    ],
+    "organization": "Google DeepMind",
+    "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
+    "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "published_date": "2026-06-10T10:21:19+00:00",
+    "source_type": "rss",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "fetched_at": "2026-06-11T12:47:24.383875+00:00"
+  },
+  {
     "title": "Tracing Eval-Awareness Emergence Through Training of OLMo 3",
     "authors": [
       "Ram Bharadwaj"
@@ -10,40 +93,31 @@
     "published_date": "2026-06-10T10:13:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-10T12:22:00.540015+00:00"
+    "fetched_at": "2026-06-11T12:47:27.308262+00:00"
   },
   {
-    "title": "Measuring LLMs' Impact on N-day Exploits",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-10.",
-    "url": "https://red.anthropic.com/2026/n-days/",
+    "title": "“Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models” by Anders Cairns Woodruff",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: Models' no-CoT time horizon has doubled roughly every year. by Francis Rhys Ward, Dewi Gould, Anders Cairns Woodruff et al. (see full author list at the end) PAPER LINK About a year ago, METR showed that the length of tasks frontier models can reliably complete doubles every few months. A related safety-relevant question is this: what length of tasks can models complete without any chain of thought (CoT)? If models can do extensive reasoning without outputting any CoT, it would have implications for safety. Developers and deployment-time monitors couldn’t easily understand models’ motivations and catch dangerous planning. Models that reason substantially without a CoT might also drift further from human patterns of thought, since their reasoning is no longer constrained by text in the pretraining prior. As a result, they would be harder to understand and might be more likely to scheme.",
+    "url": "https://blog.redwoodresearch.org/p/estimating-no-cot-task-completion",
     "published_date": "2026-06-10T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-10T12:22:07.146675+00:00"
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-06-11T12:47:26.759577+00:00"
   },
   {
-    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "title": "What Is Blocking U.S. Power Expansion for AI—and What Could Unlock It by 2030?",
     "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-10.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "organization": "RAND",
+    "abstract": "Research Summary Jun 10, 2026 Artificial intelligence is increasing electricity demand at a pace that is straining U.S. energy infrastructure. RAND researchers mapped and prioritized barriers to energy expansion in the United States.",
+    "url": "https://www.rand.org/pubs/research_briefs/RBA3845-2.html",
     "published_date": "2026-06-10T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-10T12:22:07.444128+00:00"
-  },
-  {
-    "title": "How Congress Is Approaching AI’s Labor Market Impacts",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
-    "url": "https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts",
-    "published_date": "2026-06-10T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-10T12:22:12.915241+00:00"
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-11T12:47:37.853158+00:00"
   },
   {
     "title": "A Mike's-Eye View of ARC's Research",
@@ -56,7 +130,7 @@
     "published_date": "2026-06-09T18:30:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-10T12:22:00.540214+00:00"
+    "fetched_at": "2026-06-11T12:47:27.308470+00:00"
   },
   {
     "title": "DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200",
@@ -69,7 +143,7 @@
     "published_date": "2026-06-09T12:15:56+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-10T12:22:04.453471+00:00"
+    "fetched_at": "2026-06-11T12:47:31.463823+00:00"
   },
   {
     "title": "Efficient tradeoffs and the safety-usefulness tradeoff model",
@@ -82,7 +156,7 @@
     "published_date": "2026-06-08T20:28:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-10T12:22:00.540360+00:00"
+    "fetched_at": "2026-06-11T12:47:27.308599+00:00"
   },
   {
     "title": "MLSN #21: Political Manipulation and Indirect Prompt Injection",
@@ -95,7 +169,7 @@
     "published_date": "2026-06-08T14:39:31+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-06-10T12:22:05.572456+00:00"
+    "fetched_at": "2026-06-11T12:47:32.726422+00:00"
   },
   {
     "title": "RealityTest: Do AI systems disclose their identity when asked?",
@@ -106,7 +180,7 @@
     "published_date": "2026-06-08T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-10T12:22:11.185201+00:00"
+    "fetched_at": "2026-06-11T12:47:37.361655+00:00"
   },
   {
     "title": "Advancing U.S.–UK Cooperation to Secure Frontier Artificial Intelligence",
@@ -117,7 +191,7 @@
     "published_date": "2026-06-08T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-10T12:22:12.394733+00:00"
+    "fetched_at": "2026-06-11T12:47:37.853387+00:00"
   },
   {
     "title": "My research: a computational cognitive neuroscience perspective on alignment",
@@ -130,7 +204,7 @@
     "published_date": "2026-06-05T14:19:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-10T12:22:00.540730+00:00"
+    "fetched_at": "2026-06-11T12:47:27.308957+00:00"
   },
   {
     "title": "Could a company overpower nations?",
@@ -143,7 +217,7 @@
     "published_date": "2026-06-05T14:03:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-06-10T12:22:05.036080+00:00"
+    "fetched_at": "2026-06-11T12:47:32.227056+00:00"
   },
   {
     "title": "Dreaming: Better memory for a more helpful ChatGPT",
@@ -156,7 +230,7 @@
     "published_date": "2026-06-04T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-10T12:21:59.459039+00:00"
+    "fetched_at": "2026-06-11T12:47:26.164773+00:00"
   },
   {
     "title": "Response to Ariel and Hasid’s Letter",
@@ -167,7 +241,7 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-10T12:22:12.394927+00:00"
+    "fetched_at": "2026-06-11T12:47:37.853640+00:00"
   },
   {
     "title": "Verified Machine Learning Infrastructure: Formal Methods for Trustworthy Artificial Intelligence Deployment",
@@ -178,30 +252,6 @@
     "published_date": "2026-06-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-10T12:22:12.395232+00:00"
-  },
-  {
-    "title": "To Boldly Go: The Case for Space Datacenters",
-    "authors": [
-      "Daniel Nishball"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute",
-    "url": "https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters",
-    "published_date": "2026-06-03T13:07:46+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-10T12:22:04.453516+00:00"
-  },
-  {
-    "title": "AI Chatbot Use and Disclosure for Mental Health Among US Adolescents and Young Adults",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jun 3, 2026 The objective of this paper is to assess the prevalence, frequency, perceived helpfulness, and disclosure of AI chatbot use for mental health advice among US adolescents and young adults in 2025.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71278.html",
-    "published_date": "2026-06-03T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-10T12:22:12.395478+00:00"
+    "fetched_at": "2026-06-11T12:47:37.853900+00:00"
   }
 ]

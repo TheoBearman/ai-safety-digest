@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Safety Digest — June 03, 2026 to June 10, 2026</title>
-  <meta name="description" content="A curated digest of 17 AI safety research papers from leading organizations and researchers. June 03, 2026 through June 10, 2026.">
+  <title>AI Safety Digest — June 04, 2026 to June 11, 2026</title>
+  <meta name="description" content="A curated digest of 21 AI safety research papers from leading organizations and researchers. June 04, 2026 through June 11, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1053,8 +1053,8 @@ a:hover {
       <h1 class="site-title" id="digest-title">AI Safety Digest</h1>
       <hr class="header-rule">
       <div class="header-meta">
-        <span class="header-daterange" id="date-range">June 03, 2026 &mdash; June 10, 2026</span>        <span class="header-separator">&middot;</span>
-        <span class="header-count" id="paper-count"><strong>17</strong> papers</span>      </div>
+        <span class="header-daterange" id="date-range">June 04, 2026 &mdash; June 11, 2026</span>        <span class="header-separator">&middot;</span>
+        <span class="header-count" id="paper-count"><strong>21</strong> papers</span>      </div>
       <div class="digest-toggle" role="group" aria-label="Digest time range">
         <button class="toggle-btn" data-mode="daily">Daily</button>
         <button class="toggle-btn active" data-mode="weekly">Weekly</button>
@@ -1066,7 +1066,7 @@ a:hover {
   <nav class="filter-bar" aria-label="Filter papers by organization">
     <div class="filter-bar-inner">
       <div class="filter-scroll">
-        <button class="filter-pill active" data-filter="all">All <span class="pill-count">17</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="Google DeepMind">Google DeepMind</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Ajeya Cotra">Ajeya Cotra</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="Dan Hendrycks">Dan Hendrycks</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">21</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="Google DeepMind">Google DeepMind</button>        <button class="filter-pill" data-filter="UK AISI">UK AISI</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Ajeya Cotra">Ajeya Cotra</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="Dan Hendrycks">Dan Hendrycks</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
     </div>
   </nav>
 
@@ -1074,7 +1074,87 @@ a:hover {
   <!-- Papers Grid -->
   <main class="papers-section">
     <h2 class="section-label">All Papers</h2>
-    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-06-10">
+    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-06-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Jun 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware" target="_blank" rel="noopener noreferrer">Models May Behave Worse When Eval Aware</a>
+    </h3>    <p class="paper-authors">Senthooran Rajamanoharan</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">This is the first in a series of research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. TL;DR It&#39;s often assumed that models will act more aligned when they can tell they&#39;re being evaluated. But we find that Gemini can take “undesired” actions in behavioural evals even when it explicitly reasons that the environments are contrived, and sometimes this reasoning will increase the rate of undesired actions. When we dig into the model&#39;s reasoning, we find that this is typically associated with Gemini perceiving an environment as a puzzle where the aim is to achieve the goal by unconventional means (like capture the flag challenges – Gemini’s thoughts often literally call it a “CTF” challenge) or a consequence-free simulation in which it should play along – rather than recognising it as an alignment test.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">This is the first in a series of research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. TL;DR It&#39;s often assumed that models will act more aligned when they can tell they&#39;re being evaluated. But we find that Gemini can take “undesired” actions in behavioural evals even when it explicitly reasons that the environments are contrived, and sometimes this reasoning will increase the rate of undesired actions. When we dig into the model&#39;s reasoning, we find that this is typically associated with Gemini perceiving an environment as a puzzle where the aim is to achieve the goal by unconventional means (like capture the flag challenges – Gemini’s thoughts often literally call it a “CTF” challenge) or a consequence-free simulation in which it should play along – rather than recognising it as an alignment test.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Google DeepMind" data-date="2026-06-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Google DeepMind">Google DeepMind</span>
+      <span class="paper-date">Jun 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" target="_blank" rel="noopener noreferrer">DiffusionGemma: 4x faster text generation</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from Google DeepMind titled &#39;DiffusionGemma: 4x faster text generation&#39;. Published 2026-06-11.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from Google DeepMind titled &#39;DiffusionGemma: 4x faster text generation&#39;. Published 2026-06-11.</div>
+      </details>
+    </div>    <a href="https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Google DeepMind" data-date="2026-06-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Google DeepMind">Google DeepMind</span>
+      <span class="paper-date">Jun 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" target="_blank" rel="noopener noreferrer">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from Google DeepMind titled &#39;Introducing Gemma 4 12B: a unified, encoder-free multimodal model&#39;. Published 2026-06-11.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from Google DeepMind titled &#39;Introducing Gemma 4 12B: a unified, encoder-free multimodal model&#39;. Published 2026-06-11.</div>
+      </details>
+    </div>    <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-06-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="GovAI">GovAI</span>
+      <span class="paper-date">Jun 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts" target="_blank" rel="noopener noreferrer">How Congress Is Approaching AI’s Labor Market Impacts</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.</div>
+      </details>
+    </div>    <a href="https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-06-10">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Jun 10, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/AP7YDke5jjY4v3X9Z/sequent-scale-and-automation-for-higher-confidence-in-1" target="_blank" rel="noopener noreferrer">Sequent: scale and automation for higher confidence in alignment</a>
+    </h3>    <p class="paper-authors">Geoffrey Irving</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Alignment is not on track Artificial superintelligence (ASI) may be developed in the next few years. It is unclear whether alignment is on track to be ready on the same timeframe. At a minimum, the empirical programs at AI labs are unlikely to deliver a priori confidence, before training ASI, that things will go well. We are starting a large nonprofit research organization, Sequent, that aims to clear a higher bar: We are aiming at higher confidence via a portfolio of theory and empirics bets, all of which could fail, such that if any succeed, they would give us more a priori confidence in aligned outcomes. We are investing heavily in automation to accelerate progress on these bets. We believe that theory unlocks higher automation.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Alignment is not on track Artificial superintelligence (ASI) may be developed in the next few years. It is unclear whether alignment is on track to be ready on the same timeframe. At a minimum, the empirical programs at AI labs are unlikely to deliver a priori confidence, before training ASI, that things will go well. We are starting a large nonprofit research organization, Sequent, that aims to clear a higher bar: We are aiming at higher confidence via a portfolio of theory and empirics bets, all of which could fail, such that if any succeed, they would give us more a priori confidence in aligned outcomes. We are investing heavily in automation to accelerate progress on these bets. We believe that theory unlocks higher automation.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/AP7YDke5jjY4v3X9Z/sequent-scale-and-automation-for-higher-confidence-in-1" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-06-10">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
       <span class="paper-date">Jun 10, 2026</span>
@@ -1090,22 +1170,22 @@ a:hover {
         <div class="abstract-full">TL;DR Recent work from Goodfire &amp;amp; UK AISI – Verbalized Eval Awareness Inflates Measured Safety – shows that newer open-weight models verbalize evaluation-awareness (VEA) more often, and that this inflates measured safety. Between OLMo-3-32B-Think and OLMo-3 .1 -32B-Think – identical base, SFT, DPO, and RL data, differing only in an additional ~3 weeks of the RLVR stage – VEA roughly doubles. Because OLMo ships stepwise checkpoints across all training stages, we can attribute VEA growth to specific points in the pipeline. Measuring VEA across pretraining, the SFT→DPO→RLVR stages at various points on five safety benchmarks, we find: VEA is essentially negligible during pretraining (~1%). It is increased substantially by SFT , collapsed by DPO , and increased again by RLVR . The increase in SFT is likely driven by the SFT data containing VEA, particularly on safety prompts.</div>
       </details>
     </div>    <a href="https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-06-10">
+  </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-06-10">
     <div class="paper-meta">
-      <span class="org-tag" data-org="GovAI">GovAI</span>
+      <span class="org-tag" data-org="RAND">RAND</span>
       <span class="paper-date">Jun 10, 2026</span>
     </div>
     <h3 class="paper-title">
-      <a href="https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts" target="_blank" rel="noopener noreferrer">How Congress Is Approaching AI’s Labor Market Impacts</a>
+      <a href="https://www.rand.org/pubs/research_briefs/RBA3845-2.html" target="_blank" rel="noopener noreferrer">What Is Blocking U.S. Power Expansion for AI—and What Could Unlock It by 2030?</a>
     </h3>    <div class="paper-abstract">
       <details class="abstract-expand">
         <summary class="abstract-toggle">
-          <span class="abstract-preview">Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.</span>
+          <span class="abstract-preview">Research Summary Jun 10, 2026 Artificial intelligence is increasing electricity demand at a pace that is straining U.S. energy infrastructure. RAND researchers mapped and prioritized barriers to energy expansion in the United States.</span>
           <span class="toggle-label">More</span>
         </summary>
-        <div class="abstract-full">Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&amp;D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.</div>
+        <div class="abstract-full">Research Summary Jun 10, 2026 Artificial intelligence is increasing electricity demand at a pace that is straining U.S. energy infrastructure. RAND researchers mapped and prioritized barriers to energy expansion in the United States.</div>
       </details>
-    </div>    <a href="https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+    </div>    <a href="https://www.rand.org/pubs/research_briefs/RBA3845-2.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-06-09">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1170,6 +1250,22 @@ a:hover {
         <div class="abstract-full">Research from Dan Hendrycks titled &#39;MLSN #21: Political Manipulation and Indirect Prompt Injection&#39;. Published 2026-06-08. Authors: Alice Blair.</div>
       </details>
     </div>    <a href="https://newsletter.mlsafety.org/p/mlsn-21-political-manipulation-and" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="UK AISI" data-date="2026-06-08">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="UK AISI">UK AISI</span>
+      <span class="paper-date">Jun 8, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.aisi.gov.uk/blog/realitytest-do-ai-systems-disclose-their-identity-when-asked" target="_blank" rel="noopener noreferrer">RealityTest: Do AI systems disclose their identity when asked?</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">A new benchmark grounded in how real users actually probe AI identity during interactions – covering five languages, across text and speech.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">A new benchmark grounded in how real users actually probe AI identity during interactions – covering five languages, across text and speech.</div>
+      </details>
+    </div>    <a href="https://www.aisi.gov.uk/blog/realitytest-do-ai-systems-disclose-their-identity-when-asked" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-06-08">
     <div class="paper-meta">
       <span class="org-tag" data-org="RAND">RAND</span>
@@ -1266,38 +1362,6 @@ a:hover {
         <div class="abstract-full">Research Jun 4, 2026 The authors determine whether formal methods—using mathematical techniques to reason about software behavior and, potentially, show that systems behave as specified—could meaningfully secure the infrastructure on which artificial intelligence runs.</div>
       </details>
     </div>    <a href="https://www.rand.org/pubs/research_reports/RRA4881-1.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="SemiAnalysis" data-date="2026-06-03">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="SemiAnalysis">SemiAnalysis</span>
-      <span class="paper-date">Jun 3, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters" target="_blank" rel="noopener noreferrer">To Boldly Go: The Case for Space Datacenters</a>
-    </h3>    <p class="paper-authors">Daniel Nishball</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Everyone has been talking about datacenters in space. Interviews given by Elon Musk in the past few months have spent lots of time on orbital compute</div>
-      </details>
-    </div>    <a href="https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-06-03">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="RAND">RAND</span>
-      <span class="paper-date">Jun 3, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.rand.org/pubs/external_publications/EP71278.html" target="_blank" rel="noopener noreferrer">AI Chatbot Use and Disclosure for Mental Health Among US Adolescents and Young Adults</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Research Jun 3, 2026 The objective of this paper is to assess the prevalence, frequency, perceived helpfulness, and disclosure of AI chatbot use for mental health advice among US adolescents and young adults in 2025.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Research Jun 3, 2026 The objective of this paper is to assess the prevalence, frequency, perceived helpfulness, and disclosure of AI chatbot use for mental health advice among US adolescents and young adults in 2025.</div>
-      </details>
-    </div>    <a href="https://www.rand.org/pubs/external_publications/EP71278.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>    </div>
   </main>
 
@@ -1314,15 +1378,15 @@ a:hover {
         <ul class="health-list">          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Ajeya Cotra — Planned Obsolescence</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Alignment Forum</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 4 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 6 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Alignment Science</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 28 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 28 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Engineering</span>
@@ -1330,7 +1394,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Frontier Red Team</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 10 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 10 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic News (research only)</span>
@@ -1338,11 +1402,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Apollo Research</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">ARC</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 7 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 7 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CAIS</span>
@@ -1362,11 +1426,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CSET Georgetown</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 5 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 5 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Dan Hendrycks — ML Safety Newsletter</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Dean Ball — Hyperdimensional</span>
@@ -1378,7 +1442,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">FAR AI</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 49 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 49 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">FLI</span>
@@ -1390,15 +1454,15 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Google DeepMind</span>
-            <span class="health-meta">no successful run in window</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Google DeepMind Safety</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 25 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 25 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">GovAI Oxford</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 215 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 215 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Helen Toner — Rising Tide</span>
@@ -1414,15 +1478,15 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Lennart Heim</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 6 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 6 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">LessWrong</span>
-            <span class="health-meta">last data May 11, 2026</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">MATS</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 28 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 28 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">METR</span>
@@ -1442,7 +1506,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">OpenAI Research Publications</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Paul Christiano</span>
@@ -1454,7 +1518,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">RAND AI</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 14 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 14 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Reddit r/aisafety</span>
@@ -1470,7 +1534,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Redwood Research</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 2 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Seb Krier — Technologik</span>
@@ -1478,11 +1542,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">SemiAnalysis</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 2 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">UK AISI</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 171 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 171 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">US AISI (NIST)</span>
@@ -1490,24 +1554,24 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Yoshua Bengio</span>
-            <span class="health-meta">last data Jun 10, 2026 &middot; 16 items</span>
+            <span class="health-meta">last data Jun 11, 2026 &middot; 16 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Zvi Mowshowitz</span>
             <span class="health-meta">last data May 11, 2026</span>
           </li>        </ul>
       </details>      <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-06-10 12:22:19</p>
+      <p class="footer-timestamp">2026-06-11 12:47:44</p>
     </div>
   </footer>
 
   <!-- Filter + Digest Mode JS -->
   <script>
     (function () {
-      var FETCH_DATE = '2026-06-10';
-      var WEEK_START = 'June 03, 2026';
-      var WEEK_END = 'June 10, 2026';
-      var TOTAL_COUNT = 17;
+      var FETCH_DATE = '2026-06-11';
+      var WEEK_START = 'June 04, 2026';
+      var WEEK_END = 'June 11, 2026';
+      var TOTAL_COUNT = 21;
 
       var pills = document.querySelectorAll('.filter-pill');
       var cards = document.querySelectorAll('.paper-card');
