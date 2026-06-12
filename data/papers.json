@@ -1,5 +1,49 @@
 [
   {
+    "title": "Measuring LLMs' Impact on N-day Exploits",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-12.",
+    "url": "https://red.anthropic.com/2026/n-days/",
+    "published_date": "2026-06-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://red.anthropic.com/",
+    "fetched_at": "2026-06-12T12:20:31.968629+00:00"
+  },
+  {
+    "title": "DiffusionGemma: 4x faster text generation",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-12.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "published_date": "2026-06-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-06-12T12:20:32.349321+00:00"
+  },
+  {
+    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-12.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "published_date": "2026-06-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-06-12T12:20:32.350276+00:00"
+  },
+  {
+    "title": "How Congress Is Approaching AI’s Labor Market Impacts",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
+    "url": "https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts",
+    "published_date": "2026-06-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-06-12T12:20:37.602438+00:00"
+  },
+  {
     "title": "Models May Behave Worse When Eval Aware",
     "authors": [
       "Senthooran Rajamanoharan"
@@ -10,51 +54,20 @@
     "published_date": "2026-06-11T09:28:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-11T12:47:27.307965+00:00"
+    "fetched_at": "2026-06-12T12:20:26.288815+00:00"
   },
   {
-    "title": "Measuring LLMs' Impact on N-day Exploits",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-11.",
-    "url": "https://red.anthropic.com/2026/n-days/",
-    "published_date": "2026-06-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-11T12:47:34.201972+00:00"
-  },
-  {
-    "title": "DiffusionGemma: 4x faster text generation",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-11.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-11T12:47:34.593067+00:00"
-  },
-  {
-    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-11.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-11T12:47:34.594015+00:00"
-  },
-  {
-    "title": "How Congress Is Approaching AI’s Labor Market Impacts",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
-    "url": "https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts",
-    "published_date": "2026-06-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-11T12:47:38.386518+00:00"
+    "title": "Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models",
+    "authors": [
+      "Anders Cairns Woodruff"
+    ],
+    "organization": "LessWrong",
+    "abstract": "(see full author list at the end) • About a year ago, METR showed that the length of tasks frontier models can reliably complete doubles every few mo…",
+    "url": "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier",
+    "published_date": "2026-06-10T17:58:18.938000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-06-12T12:20:42.558458+00:00"
   },
   {
     "title": "Sequent: scale and automation for higher confidence in alignment",
@@ -67,7 +80,7 @@
     "published_date": "2026-06-10T15:37:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-11T12:47:27.308143+00:00"
+    "fetched_at": "2026-06-12T12:20:26.289013+00:00"
   },
   {
     "title": "Investing in multi-agent AI safety research",
@@ -80,7 +93,7 @@
     "published_date": "2026-06-10T10:21:19+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-06-11T12:47:24.383875+00:00"
+    "fetched_at": "2026-06-12T12:20:23.309856+00:00"
   },
   {
     "title": "Tracing Eval-Awareness Emergence Through Training of OLMo 3",
@@ -93,7 +106,7 @@
     "published_date": "2026-06-10T10:13:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-11T12:47:27.308262+00:00"
+    "fetched_at": "2026-06-12T12:20:26.289136+00:00"
   },
   {
     "title": "“Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models” by Anders Cairns Woodruff",
@@ -106,7 +119,7 @@
     "published_date": "2026-06-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-11T12:47:26.759577+00:00"
+    "fetched_at": "2026-06-12T12:20:25.920119+00:00"
   },
   {
     "title": "What Is Blocking U.S. Power Expansion for AI—and What Could Unlock It by 2030?",
@@ -117,7 +130,7 @@
     "published_date": "2026-06-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-11T12:47:37.853158+00:00"
+    "fetched_at": "2026-06-12T12:20:37.215751+00:00"
   },
   {
     "title": "A Mike's-Eye View of ARC's Research",
@@ -130,7 +143,7 @@
     "published_date": "2026-06-09T18:30:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-11T12:47:27.308470+00:00"
+    "fetched_at": "2026-06-12T12:20:26.289326+00:00"
   },
   {
     "title": "DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200",
@@ -143,7 +156,7 @@
     "published_date": "2026-06-09T12:15:56+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-11T12:47:31.463823+00:00"
+    "fetched_at": "2026-06-12T12:20:29.389912+00:00"
   },
   {
     "title": "Efficient tradeoffs and the safety-usefulness tradeoff model",
@@ -156,7 +169,7 @@
     "published_date": "2026-06-08T20:28:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-11T12:47:27.308599+00:00"
+    "fetched_at": "2026-06-12T12:20:26.289454+00:00"
   },
   {
     "title": "MLSN #21: Political Manipulation and Indirect Prompt Injection",
@@ -169,7 +182,7 @@
     "published_date": "2026-06-08T14:39:31+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-06-11T12:47:32.726422+00:00"
+    "fetched_at": "2026-06-12T12:20:30.572601+00:00"
   },
   {
     "title": "RealityTest: Do AI systems disclose their identity when asked?",
@@ -180,7 +193,7 @@
     "published_date": "2026-06-08T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-11T12:47:37.361655+00:00"
+    "fetched_at": "2026-06-12T12:20:36.512687+00:00"
   },
   {
     "title": "Advancing U.S.–UK Cooperation to Secure Frontier Artificial Intelligence",
@@ -191,7 +204,7 @@
     "published_date": "2026-06-08T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-11T12:47:37.853387+00:00"
+    "fetched_at": "2026-06-12T12:20:37.216043+00:00"
   },
   {
     "title": "My research: a computational cognitive neuroscience perspective on alignment",
@@ -204,7 +217,7 @@
     "published_date": "2026-06-05T14:19:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-11T12:47:27.308957+00:00"
+    "fetched_at": "2026-06-12T12:20:26.289810+00:00"
   },
   {
     "title": "Could a company overpower nations?",
@@ -217,41 +230,6 @@
     "published_date": "2026-06-05T14:03:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-06-11T12:47:32.227056+00:00"
-  },
-  {
-    "title": "Dreaming: Better memory for a more helpful ChatGPT",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'Dreaming: Better memory for a more helpful ChatGPT'. Published 2026-06-04. Authors: OpenAI News.",
-    "url": "https://openai.com/index/chatgpt-memory-dreaming",
-    "published_date": "2026-06-04T09:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-11T12:47:26.164773+00:00"
-  },
-  {
-    "title": "Response to Ariel and Hasid’s Letter",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jun 4, 2026 This article defends the importance of studying LLMs for alcohol misuse support outside clinical settings, noting most affected individuals never engage with formal care and use digital tools independently.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71310.html",
-    "published_date": "2026-06-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-11T12:47:37.853640+00:00"
-  },
-  {
-    "title": "Verified Machine Learning Infrastructure: Formal Methods for Trustworthy Artificial Intelligence Deployment",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jun 4, 2026 The authors determine whether formal methods—using mathematical techniques to reason about software behavior and, potentially, show that systems behave as specified—could meaningfully secure the infrastructure on which artificial intelligence runs.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4881-1.html",
-    "published_date": "2026-06-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-11T12:47:37.853900+00:00"
+    "fetched_at": "2026-06-12T12:20:30.071769+00:00"
   }
 ]
