@@ -1,5 +1,101 @@
 [
   {
+    "title": "Measuring LLMs' Impact on N-day Exploits",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-17.",
+    "url": "https://red.anthropic.com/2026/n-days/",
+    "published_date": "2026-06-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://red.anthropic.com/",
+    "fetched_at": "2026-06-17T12:52:02.872821+00:00"
+  },
+  {
+    "title": "DiffusionGemma: 4x faster text generation",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-17.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "published_date": "2026-06-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-06-17T12:52:03.277702+00:00"
+  },
+  {
+    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-17.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "published_date": "2026-06-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-06-17T12:52:03.278641+00:00"
+  },
+  {
+    "title": "Evaluating Offline Monitoring of Internal AI Agents",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
+    "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
+    "published_date": "2026-06-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-06-17T12:52:07.936690+00:00"
+  },
+  {
+    "title": "Predicting LLM Safety Before Release by Simulating Deployment",
+    "authors": [
+      "Tomek Korbak"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Paper link Before releasing a new model, labs need to understand not just what it can do, but how it is likely to behave in real-world use, including where it might introduce new risks. This becomes even more important as capabilities increase. As part of our pre-deployment safety review, we leverage targeted evaluations, red-teaming, and other checks to understand model behavior. We’ve now started using a method for simulating model deployments before they happen, which adds a complementary signal: a deployment-like preview of how a candidate model may behave before it reaches users. Deployment Simulation is a method for simulating a future deployment before it happens. We do so by replaying previous conversations in a privacy-preserving manner with a new candidate model.",
+    "url": "https://www.alignmentforum.org/posts/xPXJfgqFTvuJxGZbE/predicting-llm-safety-before-release-by-simulating",
+    "published_date": "2026-06-16T19:55:05+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-17T12:51:57.041767+00:00"
+  },
+  {
+    "title": "Leviathan Waking",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "Imagine that there were no Food and Drug Administration (FDA), but there remained a large pharmaceutical sector, similar in size and scope to the one the United States enjoys today. In this alternate world, imagine that drugs were not licensed or otherwise formally approved by regulators; there were even officials in the executive branch who boasted that the U.S., unlike other countries, would not get into the regulatory morass of licensing drugs.",
+    "url": "https://www.hyperdimensional.co/p/leviathan-waking",
+    "published_date": "2026-06-16T18:26:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-06-17T12:52:00.560461+00:00"
+  },
+  {
+    "title": "Can public chat data predict real-world AI misalignments?",
+    "authors": [
+      "Hannah Sheahan and Micah Carroll"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Frontier AI models are increasingly used in settings with real economic, legal, and societal consequences. As a result, governments, AI safety organizations and independent researchers need ways to evaluate how these systems behave under realistic conditions.",
+    "url": "https://alignment.openai.com/validating-public-evals/",
+    "published_date": "2026-06-16T18:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-06-17T12:51:55.893256+00:00"
+  },
+  {
+    "title": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput",
+    "authors": [
+      "Kimbo Chen"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Research from SemiAnalysis titled 'RL Systems Mind the Gap: Matching Trainer and Generator Throughput'. Published 2026-06-16. Authors: Kimbo Chen.",
+    "url": "https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching",
+    "published_date": "2026-06-16T17:32:07+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-06-17T12:52:00.313456+00:00"
+  },
+  {
     "title": "Synthetic document finetuning for instilling positive traits",
     "authors": [
       "CallumMcDougall"
@@ -10,40 +106,20 @@
     "published_date": "2026-06-16T00:04:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-16T13:28:12.910589+00:00"
+    "fetched_at": "2026-06-17T12:51:57.041935+00:00"
   },
   {
-    "title": "Measuring LLMs' Impact on N-day Exploits",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-16.",
-    "url": "https://red.anthropic.com/2026/n-days/",
+    "title": "Predicting model behavior before release by simulating deployment",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+    "url": "https://openai.com/index/deployment-simulation",
     "published_date": "2026-06-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-16T13:28:19.909100+00:00"
-  },
-  {
-    "title": "DiffusionGemma: 4x faster text generation",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-16.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-16T13:28:20.399505+00:00"
-  },
-  {
-    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-16.",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-16T13:28:20.400463+00:00"
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-06-17T12:51:55.757209+00:00"
   },
   {
     "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
@@ -54,18 +130,7 @@
     "published_date": "2026-06-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-16T13:28:25.860694+00:00"
-  },
-  {
-    "title": "Evaluating Offline Monitoring of Internal AI Agents",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
-    "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-16T13:28:26.412228+00:00"
+    "fetched_at": "2026-06-17T12:52:07.458226+00:00"
   },
   {
     "title": "Verifiable Audit Trails for AI-Enabled Biological Design Tools: A Proposal for Verifiable Biodesign Logging",
@@ -76,7 +141,7 @@
     "published_date": "2026-06-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-16T13:28:25.860967+00:00"
+    "fetched_at": "2026-06-17T12:52:07.458462+00:00"
   },
   {
     "title": "Why Do Naive SFT Filters For Safety Properties Fail?",
@@ -89,7 +154,7 @@
     "published_date": "2026-06-14T19:45:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-16T13:28:12.910778+00:00"
+    "fetched_at": "2026-06-17T12:51:57.042123+00:00"
   },
   {
     "title": "Is SMIC N+3’s Metal Pitch Smaller than Intel 18A’s?",
@@ -102,7 +167,7 @@
     "published_date": "2026-06-14T19:14:21+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-16T13:28:16.765728+00:00"
+    "fetched_at": "2026-06-17T12:52:00.313491+00:00"
   },
   {
     "title": "SFT Drives Gemini’s Safety Properties",
@@ -115,7 +180,7 @@
     "published_date": "2026-06-13T15:31:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-16T13:28:12.910827+00:00"
+    "fetched_at": "2026-06-17T12:51:57.042170+00:00"
   },
   {
     "title": "Building and evaluating model diffing agents",
@@ -128,7 +193,7 @@
     "published_date": "2026-06-12T17:14:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-16T13:28:12.911108+00:00"
+    "fetched_at": "2026-06-17T12:51:57.042451+00:00"
   },
   {
     "title": "Sympathy for both sides of the egregious misalignment debate",
@@ -141,7 +206,7 @@
     "published_date": "2026-06-12T16:26:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-16T13:28:12.911208+00:00"
+    "fetched_at": "2026-06-17T12:51:57.042548+00:00"
   },
   {
     "title": "PSA: Almost nobody is directly working on superintelligent alignment",
@@ -154,7 +219,7 @@
     "published_date": "2026-06-12T05:17:39.963000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-16T13:28:32.192120+00:00"
+    "fetched_at": "2026-06-17T12:52:13.436391+00:00"
   },
   {
     "title": "Models May Behave Worse When Eval Aware",
@@ -167,7 +232,7 @@
     "published_date": "2026-06-11T09:28:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-16T13:28:12.911556+00:00"
+    "fetched_at": "2026-06-17T12:51:57.042895+00:00"
   },
   {
     "title": "Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models",
@@ -180,7 +245,7 @@
     "published_date": "2026-06-10T17:58:18.938000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-16T13:28:32.192129+00:00"
+    "fetched_at": "2026-06-17T12:52:13.436381+00:00"
   },
   {
     "title": "Sequent: scale and automation for higher confidence in alignment",
@@ -193,7 +258,7 @@
     "published_date": "2026-06-10T15:37:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-16T13:28:12.911723+00:00"
+    "fetched_at": "2026-06-17T12:51:57.043078+00:00"
   },
   {
     "title": "Investing in multi-agent AI safety research",
@@ -206,7 +271,7 @@
     "published_date": "2026-06-10T10:21:19+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-06-16T13:28:09.689401+00:00"
+    "fetched_at": "2026-06-17T12:51:53.495591+00:00"
   },
   {
     "title": "Tracing Eval-Awareness Emergence Through Training of OLMo 3",
@@ -219,7 +284,7 @@
     "published_date": "2026-06-10T10:13:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-16T13:28:12.911856+00:00"
+    "fetched_at": "2026-06-17T12:51:57.043196+00:00"
   },
   {
     "title": "“Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models” by Anders Cairns Woodruff",
@@ -232,7 +297,7 @@
     "published_date": "2026-06-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-16T13:28:12.495807+00:00"
+    "fetched_at": "2026-06-17T12:51:56.342099+00:00"
   },
   {
     "title": "What Is Blocking U.S. Power Expansion for AI—and What Could Unlock It by 2030?",
@@ -243,32 +308,6 @@
     "published_date": "2026-06-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-16T13:28:25.861494+00:00"
-  },
-  {
-    "title": "A Mike's-Eye View of ARC's Research",
-    "authors": [
-      "Mikewins"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Over the past 15 months or so, ARC's technical agenda has developed quite a bit. The advent of the Matching Sampling Principle (MSP), and ideas like it, has begotten a host of concrete technical problems; progress on those problems has given us more philosophical clarity on the big picture, which has led to even more technical progress. The two most recent public discussions of ARC's research (Jacob's A Bird's Eye View of ARC's Research and David's Obstacles in ARC's research agenda ) both came out before this flywheel really got spinning, and a lot of what we now consider central to the agenda isn't reflected in either of them. The goal of this post is to give a clear, updated picture of what we're actually trying to do. This is written from my point of view; I don't speak for my whole organization.",
-    "url": "https://www.alignmentforum.org/posts/M2tD23bvQLBqsEpqu/a-mike-s-eye-view-of-arc-s-research",
-    "published_date": "2026-06-09T18:30:45+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-16T13:28:12.912045+00:00"
-  },
-  {
-    "title": "DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200",
-    "authors": [
-      "Bryan Shan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Day 0 Inference Performance, InferenceX, 100x performance improvement in 26 Days, Cost per Million Tokens, Huawei 950DT Inference Trace Analysis",
-    "url": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance",
-    "published_date": "2026-06-09T12:15:56+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-16T13:28:16.765799+00:00"
+    "fetched_at": "2026-06-17T12:52:07.459005+00:00"
   }
 ]
