@@ -1,36 +1,36 @@
 [
   {
-    "title": "Measuring LLMs' Impact on N-day Exploits",
+    "title": "Investing in multi-agent AI safety research",
     "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Measuring LLMs' Impact on N-day Exploits'. Published 2026-06-17.",
-    "url": "https://red.anthropic.com/2026/n-days/",
-    "published_date": "2026-06-17T00:00:00+00:00",
+    "organization": "Google DeepMind",
+    "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
+    "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-17T12:52:02.872821+00:00"
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-06-18T12:27:47.507739+00:00"
   },
   {
     "title": "DiffusionGemma: 4x faster text generation",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-17.",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-18.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-17T00:00:00+00:00",
+    "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-17T12:52:03.277702+00:00"
+    "fetched_at": "2026-06-18T12:27:47.508003+00:00"
   },
   {
     "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-17.",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-18.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-17T00:00:00+00:00",
+    "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-17T12:52:03.278641+00:00"
+    "fetched_at": "2026-06-18T12:27:47.508969+00:00"
   },
   {
     "title": "Evaluating Offline Monitoring of Internal AI Agents",
@@ -38,10 +38,36 @@
     "organization": "GovAI",
     "abstract": "Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
     "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-17T00:00:00+00:00",
+    "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-17T12:52:07.936690+00:00"
+    "fetched_at": "2026-06-18T12:27:51.844850+00:00"
+  },
+  {
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+    "url": "https://openai.com/index/ai-chemist-improves-reaction",
+    "published_date": "2026-06-17T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-06-18T12:27:37.447740+00:00"
+  },
+  {
+    "title": "Introducing LifeSciBench",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'Introducing LifeSciBench'. Published 2026-06-17. Authors: OpenAI News.",
+    "url": "https://openai.com/index/introducing-life-sci-bench",
+    "published_date": "2026-06-17T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-06-18T12:27:37.447779+00:00"
   },
   {
     "title": "Predicting LLM Safety Before Release by Simulating Deployment",
@@ -54,7 +80,7 @@
     "published_date": "2026-06-16T19:55:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-17T12:51:57.041767+00:00"
+    "fetched_at": "2026-06-18T12:27:38.504145+00:00"
   },
   {
     "title": "Leviathan Waking",
@@ -67,7 +93,7 @@
     "published_date": "2026-06-16T18:26:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-17T12:52:00.560461+00:00"
+    "fetched_at": "2026-06-18T12:27:41.924402+00:00"
   },
   {
     "title": "Can public chat data predict real-world AI misalignments?",
@@ -80,7 +106,7 @@
     "published_date": "2026-06-16T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-17T12:51:55.893256+00:00"
+    "fetched_at": "2026-06-18T12:27:37.534621+00:00"
   },
   {
     "title": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput",
@@ -93,7 +119,7 @@
     "published_date": "2026-06-16T17:32:07+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-17T12:52:00.313456+00:00"
+    "fetched_at": "2026-06-18T12:27:41.555401+00:00"
   },
   {
     "title": "Synthetic document finetuning for instilling positive traits",
@@ -106,7 +132,7 @@
     "published_date": "2026-06-16T00:04:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-17T12:51:57.041935+00:00"
+    "fetched_at": "2026-06-18T12:27:38.504315+00:00"
   },
   {
     "title": "Predicting model behavior before release by simulating deployment",
@@ -119,7 +145,7 @@
     "published_date": "2026-06-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-17T12:51:55.757209+00:00"
+    "fetched_at": "2026-06-18T12:27:37.447834+00:00"
   },
   {
     "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
@@ -130,7 +156,7 @@
     "published_date": "2026-06-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-17T12:52:07.458226+00:00"
+    "fetched_at": "2026-06-18T12:27:51.523154+00:00"
   },
   {
     "title": "Verifiable Audit Trails for AI-Enabled Biological Design Tools: A Proposal for Verifiable Biodesign Logging",
@@ -141,7 +167,7 @@
     "published_date": "2026-06-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-17T12:52:07.458462+00:00"
+    "fetched_at": "2026-06-18T12:27:51.523397+00:00"
   },
   {
     "title": "Why Do Naive SFT Filters For Safety Properties Fail?",
@@ -154,7 +180,7 @@
     "published_date": "2026-06-14T19:45:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-17T12:51:57.042123+00:00"
+    "fetched_at": "2026-06-18T12:27:38.504481+00:00"
   },
   {
     "title": "Is SMIC N+3’s Metal Pitch Smaller than Intel 18A’s?",
@@ -167,7 +193,7 @@
     "published_date": "2026-06-14T19:14:21+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-17T12:52:00.313491+00:00"
+    "fetched_at": "2026-06-18T12:27:41.555435+00:00"
   },
   {
     "title": "SFT Drives Gemini’s Safety Properties",
@@ -180,7 +206,7 @@
     "published_date": "2026-06-13T15:31:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-17T12:51:57.042170+00:00"
+    "fetched_at": "2026-06-18T12:27:38.504526+00:00"
   },
   {
     "title": "Building and evaluating model diffing agents",
@@ -193,7 +219,7 @@
     "published_date": "2026-06-12T17:14:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-17T12:51:57.042451+00:00"
+    "fetched_at": "2026-06-18T12:27:38.504825+00:00"
   },
   {
     "title": "Sympathy for both sides of the egregious misalignment debate",
@@ -206,7 +232,7 @@
     "published_date": "2026-06-12T16:26:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-17T12:51:57.042548+00:00"
+    "fetched_at": "2026-06-18T12:27:38.504925+00:00"
   },
   {
     "title": "PSA: Almost nobody is directly working on superintelligent alignment",
@@ -219,7 +245,7 @@
     "published_date": "2026-06-12T05:17:39.963000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-17T12:52:13.436391+00:00"
+    "fetched_at": "2026-06-18T12:27:56.354163+00:00"
   },
   {
     "title": "Models May Behave Worse When Eval Aware",
@@ -232,82 +258,6 @@
     "published_date": "2026-06-11T09:28:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-17T12:51:57.042895+00:00"
-  },
-  {
-    "title": "Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models",
-    "authors": [
-      "Anders Cairns Woodruff"
-    ],
-    "organization": "LessWrong",
-    "abstract": "(see full author list at the end) • About a year ago, METR showed that the length of tasks frontier models can reliably complete doubles every few mo…",
-    "url": "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier",
-    "published_date": "2026-06-10T17:58:18.938000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-17T12:52:13.436381+00:00"
-  },
-  {
-    "title": "Sequent: scale and automation for higher confidence in alignment",
-    "authors": [
-      "Geoffrey Irving"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Alignment is not on track Artificial superintelligence (ASI) may be developed in the next few years. It is unclear whether alignment is on track to be ready on the same timeframe. At a minimum, the empirical programs at AI labs are unlikely to deliver a priori confidence, before training ASI, that things will go well. We are starting a large nonprofit research organization, Sequent, that aims to clear a higher bar: We are aiming at higher confidence via a portfolio of theory and empirics bets, all of which could fail, such that if any succeed, they would give us more a priori confidence in aligned outcomes. We are investing heavily in automation to accelerate progress on these bets. We believe that theory unlocks higher automation.",
-    "url": "https://www.alignmentforum.org/posts/AP7YDke5jjY4v3X9Z/sequent-scale-and-automation-for-higher-confidence-in-1",
-    "published_date": "2026-06-10T15:37:47+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-17T12:51:57.043078+00:00"
-  },
-  {
-    "title": "Investing in multi-agent AI safety research",
-    "authors": [
-      "Google DeepMind News"
-    ],
-    "organization": "Google DeepMind",
-    "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
-    "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "published_date": "2026-06-10T10:21:19+00:00",
-    "source_type": "rss",
-    "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-06-17T12:51:53.495591+00:00"
-  },
-  {
-    "title": "Tracing Eval-Awareness Emergence Through Training of OLMo 3",
-    "authors": [
-      "Ram Bharadwaj"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR Recent work from Goodfire &amp; UK AISI – Verbalized Eval Awareness Inflates Measured Safety – shows that newer open-weight models verbalize evaluation-awareness (VEA) more often, and that this inflates measured safety. Between OLMo-3-32B-Think and OLMo-3 .1 -32B-Think – identical base, SFT, DPO, and RL data, differing only in an additional ~3 weeks of the RLVR stage – VEA roughly doubles. Because OLMo ships stepwise checkpoints across all training stages, we can attribute VEA growth to specific points in the pipeline. Measuring VEA across pretraining, the SFT→DPO→RLVR stages at various points on five safety benchmarks, we find: VEA is essentially negligible during pretraining (~1%). It is increased substantially by SFT , collapsed by DPO , and increased again by RLVR . The increase in SFT is likely driven by the SFT data containing VEA, particularly on safety prompts.",
-    "url": "https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3",
-    "published_date": "2026-06-10T10:13:05+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-17T12:51:57.043196+00:00"
-  },
-  {
-    "title": "“Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models” by Anders Cairns Woodruff",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Models' no-CoT time horizon has doubled roughly every year. by Francis Rhys Ward, Dewi Gould, Anders Cairns Woodruff et al. (see full author list at the end) PAPER LINK About a year ago, METR showed that the length of tasks frontier models can reliably complete doubles every few months. A related safety-relevant question is this: what length of tasks can models complete without any chain of thought (CoT)? If models can do extensive reasoning without outputting any CoT, it would have implications for safety. Developers and deployment-time monitors couldn’t easily understand models’ motivations and catch dangerous planning. Models that reason substantially without a CoT might also drift further from human patterns of thought, since their reasoning is no longer constrained by text in the pretraining prior. As a result, they would be harder to understand and might be more likely to scheme.",
-    "url": "https://blog.redwoodresearch.org/p/estimating-no-cot-task-completion",
-    "published_date": "2026-06-10T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-17T12:51:56.342099+00:00"
-  },
-  {
-    "title": "What Is Blocking U.S. Power Expansion for AI—and What Could Unlock It by 2030?",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Summary Jun 10, 2026 Artificial intelligence is increasing electricity demand at a pace that is straining U.S. energy infrastructure. RAND researchers mapped and prioritized barriers to energy expansion in the United States.",
-    "url": "https://www.rand.org/pubs/research_briefs/RBA3845-2.html",
-    "published_date": "2026-06-10T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-17T12:52:07.459005+00:00"
+    "fetched_at": "2026-06-18T12:27:38.505273+00:00"
   }
 ]
