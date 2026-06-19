@@ -5,32 +5,32 @@
     "organization": "Google DeepMind",
     "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
     "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "published_date": "2026-06-18T00:00:00+00:00",
+    "published_date": "2026-06-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-18T12:27:47.507739+00:00"
+    "fetched_at": "2026-06-19T12:48:29.998375+00:00"
   },
   {
     "title": "DiffusionGemma: 4x faster text generation",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-18.",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-19.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-18T00:00:00+00:00",
+    "published_date": "2026-06-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-18T12:27:47.508003+00:00"
+    "fetched_at": "2026-06-19T12:48:29.998580+00:00"
   },
   {
     "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-18.",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-19.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-18T00:00:00+00:00",
+    "published_date": "2026-06-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-18T12:27:47.508969+00:00"
+    "fetched_at": "2026-06-19T12:48:29.999364+00:00"
   },
   {
     "title": "Evaluating Offline Monitoring of Internal AI Agents",
@@ -38,10 +38,84 @@
     "organization": "GovAI",
     "abstract": "Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
     "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-18T00:00:00+00:00",
+    "published_date": "2026-06-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-18T12:27:51.844850+00:00"
+    "fetched_at": "2026-06-19T12:48:33.636802+00:00"
+  },
+  {
+    "title": "Reinforcement learning towards broadly and persistently beneficial models",
+    "authors": [
+      "Akshay V. Jagadeesh, Rahul Arora, Mikhail Trofimov, Khaled Saab, Ali Malik, Foivos Tsimpourlas, Karan Singhal"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Training targeting beneficial behavior in realistic scenarios produces broad improvements in alignment that generalize across domains and persist under adversarial pressure.",
+    "url": "https://alignment.openai.com/beneficial-rl/",
+    "published_date": "2026-06-18T18:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-06-19T12:48:17.369739+00:00"
+  },
+  {
+    "title": "GDM AI Control Roadmap",
+    "authors": [
+      "Mary Phuong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "GDM has published an AI Control Roadmap ! From the executive summary: We present the GDM AI Control Roadmap (v0.1) – our plan for implementing and adopting internal guardrails designed to catch potential adversarial behaviour by AI agents, even as they become increasingly harder to oversee and contain. We focus on system-level mitigations that limit the harm a misaligned AI system could cause. Specifically, this report provides: • Threat modelling : Taking inspiration from cybersecurity, we adopt a conservative, worst-case approach to threat modelling throughout this paper, and assume a hypothetical AI adversary pursuing undesirable goals in internal deployment. We introduce TRAIT&amp;R, a taxonomy of tactics and techniques available to such a hypothetical AI adversary, building on the established security framework MITRE ATT&amp;CK.",
+    "url": "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap",
+    "published_date": "2026-06-18T16:50:59+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-19T12:48:18.324053+00:00"
+  },
+  {
+    "title": "That Untravell'd World",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "I am a part of all that I have met;Yet all experience is an arch wherethro'Gleams that untravell'd world whose margin fadesFor ever and forever when I move.Alfred, Lord Tennyson, “Ulysses”",
+    "url": "https://www.hyperdimensional.co/p/that-untravelld-world",
+    "published_date": "2026-06-18T15:45:57+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-06-19T12:48:21.908864+00:00"
+  },
+  {
+    "title": "“The distillation double bind: Distilling misaligned models either transfers misalignment or it doesn’t” by Alek Westover, Alexa Pan, Sebastian Prasanna, Arun Jose",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: If it transfers misalignment, we might get a misaligned model that's easier to incriminate. If it doesn’t, we might get a capable benign replacement model. Suppose we have a dangerous misaligned AI that can fool alignment audits, and distill it into a student model. Two things can happen: Misalignment doesn’t transfer to the student. If so, we get a fairly capable benign model, which we can use to perform tasks that we wouldn’t want a misaligned AI to perform. Misalignment transfers to the student. The student might also be worse than the teacher at hiding its misalignment (e.g., because it is less capable). If so, auditing the distilled model might give us indirect evidence of the teacher's misalignment. In a previous post we discussed the second possibility and proposed distillation for incrimination techniques: distillation methods that we hoped would transfer misalignment without transferring the ability to fool audits.",
+    "url": "https://blog.redwoodresearch.org/p/the-distillation-double-bind-distilling",
+    "published_date": "2026-06-18T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-06-19T12:48:17.898753+00:00"
+  },
+  {
+    "title": "Frontier Red Team",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "The Frontier Red Team stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next. We provide evidence-based analysis about AI’s implications for cybersecurity, national security, and autonomous systems. We created a marketplace for employees in our San Francisco office, with one big twist. We tasked Claude with buying, selling and negotiating on our colleagues’ behalf.",
+    "url": "https://red.anthropic.com/research",
+    "published_date": "2026-06-18T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://red.anthropic.com/",
+    "fetched_at": "2026-06-19T12:48:29.614163+00:00"
+  },
+  {
+    "title": "Releasing AISI’s Engineering Playbook",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Building on the momentum of the Inspect toolkit, we’re open-sourcing parts of the research stack behind AISI's evaluations.",
+    "url": "https://www.aisi.gov.uk/blog/releasing-aisis-engineering-playbook",
+    "published_date": "2026-06-18T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-06-19T12:48:32.962466+00:00"
   },
   {
     "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
@@ -54,7 +128,7 @@
     "published_date": "2026-06-17T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-18T12:27:37.447740+00:00"
+    "fetched_at": "2026-06-19T12:48:17.251520+00:00"
   },
   {
     "title": "Introducing LifeSciBench",
@@ -67,7 +141,7 @@
     "published_date": "2026-06-17T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-18T12:27:37.447779+00:00"
+    "fetched_at": "2026-06-19T12:48:17.251555+00:00"
   },
   {
     "title": "Predicting LLM Safety Before Release by Simulating Deployment",
@@ -80,7 +154,7 @@
     "published_date": "2026-06-16T19:55:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-18T12:27:38.504145+00:00"
+    "fetched_at": "2026-06-19T12:48:18.324099+00:00"
   },
   {
     "title": "Leviathan Waking",
@@ -93,7 +167,7 @@
     "published_date": "2026-06-16T18:26:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-18T12:27:41.924402+00:00"
+    "fetched_at": "2026-06-19T12:48:21.908887+00:00"
   },
   {
     "title": "Can public chat data predict real-world AI misalignments?",
@@ -106,7 +180,7 @@
     "published_date": "2026-06-16T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-18T12:27:37.534621+00:00"
+    "fetched_at": "2026-06-19T12:48:17.369765+00:00"
   },
   {
     "title": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput",
@@ -119,7 +193,7 @@
     "published_date": "2026-06-16T17:32:07+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-18T12:27:41.555401+00:00"
+    "fetched_at": "2026-06-19T12:48:21.559233+00:00"
   },
   {
     "title": "Synthetic document finetuning for instilling positive traits",
@@ -132,7 +206,7 @@
     "published_date": "2026-06-16T00:04:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-18T12:27:38.504315+00:00"
+    "fetched_at": "2026-06-19T12:48:18.324262+00:00"
   },
   {
     "title": "Predicting model behavior before release by simulating deployment",
@@ -145,7 +219,7 @@
     "published_date": "2026-06-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-18T12:27:37.447834+00:00"
+    "fetched_at": "2026-06-19T12:48:17.251586+00:00"
   },
   {
     "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
@@ -156,7 +230,7 @@
     "published_date": "2026-06-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-18T12:27:51.523154+00:00"
+    "fetched_at": "2026-06-19T12:48:33.382347+00:00"
   },
   {
     "title": "Verifiable Audit Trails for AI-Enabled Biological Design Tools: A Proposal for Verifiable Biodesign Logging",
@@ -167,7 +241,7 @@
     "published_date": "2026-06-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-18T12:27:51.523397+00:00"
+    "fetched_at": "2026-06-19T12:48:33.382544+00:00"
   },
   {
     "title": "Why Do Naive SFT Filters For Safety Properties Fail?",
@@ -180,7 +254,7 @@
     "published_date": "2026-06-14T19:45:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-18T12:27:38.504481+00:00"
+    "fetched_at": "2026-06-19T12:48:18.324425+00:00"
   },
   {
     "title": "Is SMIC N+3’s Metal Pitch Smaller than Intel 18A’s?",
@@ -193,7 +267,7 @@
     "published_date": "2026-06-14T19:14:21+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-18T12:27:41.555435+00:00"
+    "fetched_at": "2026-06-19T12:48:21.559265+00:00"
   },
   {
     "title": "SFT Drives Gemini’s Safety Properties",
@@ -206,7 +280,7 @@
     "published_date": "2026-06-13T15:31:52+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-18T12:27:38.504526+00:00"
+    "fetched_at": "2026-06-19T12:48:18.324466+00:00"
   },
   {
     "title": "Building and evaluating model diffing agents",
@@ -219,7 +293,7 @@
     "published_date": "2026-06-12T17:14:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-18T12:27:38.504825+00:00"
+    "fetched_at": "2026-06-19T12:48:18.324748+00:00"
   },
   {
     "title": "Sympathy for both sides of the egregious misalignment debate",
@@ -232,7 +306,7 @@
     "published_date": "2026-06-12T16:26:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-18T12:27:38.504925+00:00"
+    "fetched_at": "2026-06-19T12:48:18.324848+00:00"
   },
   {
     "title": "PSA: Almost nobody is directly working on superintelligent alignment",
@@ -245,19 +319,6 @@
     "published_date": "2026-06-12T05:17:39.963000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-18T12:27:56.354163+00:00"
-  },
-  {
-    "title": "Models May Behave Worse When Eval Aware",
-    "authors": [
-      "Senthooran Rajamanoharan"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This is the first in a series of research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. TL;DR It's often assumed that models will act more aligned when they can tell they're being evaluated. But we find that Gemini can take “undesired” actions in behavioural evals even when it explicitly reasons that the environments are contrived, and sometimes this reasoning will increase the rate of undesired actions. When we dig into the model's reasoning, we find that this is typically associated with Gemini perceiving an environment as a puzzle where the aim is to achieve the goal by unconventional means (like capture the flag challenges – Gemini’s thoughts often literally call it a “CTF” challenge) or a consequence-free simulation in which it should play along – rather than recognising it as an alignment test.",
-    "url": "https://www.alignmentforum.org/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware",
-    "published_date": "2026-06-11T09:28:19+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-18T12:27:38.505273+00:00"
+    "fetched_at": "2026-06-19T12:48:39.765217+00:00"
   }
 ]
