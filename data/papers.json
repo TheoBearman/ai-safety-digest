@@ -5,32 +5,32 @@
     "organization": "Google DeepMind",
     "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
     "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "published_date": "2026-06-20T00:00:00+00:00",
+    "published_date": "2026-06-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-20T11:20:04.314353+00:00"
+    "fetched_at": "2026-06-21T11:46:30.745164+00:00"
   },
   {
     "title": "DiffusionGemma: 4x faster text generation",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-20.",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-21.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-20T00:00:00+00:00",
+    "published_date": "2026-06-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-20T11:20:04.314679+00:00"
+    "fetched_at": "2026-06-21T11:46:30.745357+00:00"
   },
   {
     "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-20.",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-21.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-20T00:00:00+00:00",
+    "published_date": "2026-06-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-20T11:20:04.315662+00:00"
+    "fetched_at": "2026-06-21T11:46:30.746126+00:00"
   },
   {
     "title": "Evaluating Offline Monitoring of Internal AI Agents",
@@ -38,10 +38,23 @@
     "organization": "GovAI",
     "abstract": "Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
     "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-20T00:00:00+00:00",
+    "published_date": "2026-06-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-20T11:20:23.165695+00:00"
+    "fetched_at": "2026-06-21T11:46:35.166401+00:00"
+  },
+  {
+    "title": "How transparent is DiffusionGemma (and why it matters)",
+    "authors": [
+      "Josh Engels"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Authors: Joshua Engels*, Callum McDougall*, Bilal Chughtai*, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Asic Q Chen, Jean Tarbouriech, Min Ma, Brendan O'Donoghue+, João Gabriel Lopes de Oliveira+, Rohin Shah+, Neel Nanda+ *Primary Contributor +Advising Paper here: https://arxiv.org/abs/2606.20560 Overview In a recent collaboration between the GDM interpretability team and the GDM text diffusion team, we performed a transparency audit of DiffusionGemma, GDM's new text diffusion model. Overall, we find that DiffusionGemma is not significantly less transparent than Gemma. Gemma and DiffusionGemma perform similarly on monitorability evaluations . Although naively DiffusionGemma has a much larger opaque serial depth , we can apply the logit lens to intermediate vectors and ablate non-interpretable information without harming performance. This implies that these intermediate nodes are interpretable, which reduces the opaque serial depth to be similar to that of Gemma.",
+    "url": "https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters",
+    "published_date": "2026-06-20T20:05:50+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-21T11:46:23.049251+00:00"
   },
   {
     "title": "Reinforcement learning towards broadly and persistently beneficial models",
@@ -54,7 +67,7 @@
     "published_date": "2026-06-18T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-20T11:19:50.471558+00:00"
+    "fetched_at": "2026-06-21T11:46:22.232528+00:00"
   },
   {
     "title": "GDM AI Control Roadmap",
@@ -67,7 +80,7 @@
     "published_date": "2026-06-18T16:50:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-20T11:19:51.397252+00:00"
+    "fetched_at": "2026-06-21T11:46:23.049301+00:00"
   },
   {
     "title": "That Untravell'd World",
@@ -80,7 +93,7 @@
     "published_date": "2026-06-18T15:45:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-20T11:19:55.724519+00:00"
+    "fetched_at": "2026-06-21T11:46:27.029713+00:00"
   },
   {
     "title": "“The distillation double bind: Distilling misaligned models either transfers misalignment or it doesn’t” by Alek Westover, Alexa Pan, Sebastian Prasanna, Arun Jose",
@@ -93,7 +106,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-20T11:19:51.034582+00:00"
+    "fetched_at": "2026-06-21T11:46:22.636625+00:00"
   },
   {
     "title": "Frontier Red Team",
@@ -104,7 +117,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-20T11:20:04.021741+00:00"
+    "fetched_at": "2026-06-21T11:46:30.443014+00:00"
   },
   {
     "title": "Releasing AISI’s Engineering Playbook",
@@ -115,7 +128,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-20T11:20:22.457253+00:00"
+    "fetched_at": "2026-06-21T11:46:34.197208+00:00"
   },
   {
     "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
@@ -128,7 +141,7 @@
     "published_date": "2026-06-17T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-20T11:19:50.219015+00:00"
+    "fetched_at": "2026-06-21T11:46:22.107217+00:00"
   },
   {
     "title": "Introducing LifeSciBench",
@@ -141,7 +154,7 @@
     "published_date": "2026-06-17T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-20T11:19:50.219055+00:00"
+    "fetched_at": "2026-06-21T11:46:22.107255+00:00"
   },
   {
     "title": "Predicting LLM Safety Before Release by Simulating Deployment",
@@ -154,7 +167,7 @@
     "published_date": "2026-06-16T19:55:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-20T11:19:51.397300+00:00"
+    "fetched_at": "2026-06-21T11:46:23.049340+00:00"
   },
   {
     "title": "Leviathan Waking",
@@ -167,7 +180,7 @@
     "published_date": "2026-06-16T18:26:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-20T11:19:55.724545+00:00"
+    "fetched_at": "2026-06-21T11:46:27.029736+00:00"
   },
   {
     "title": "Can public chat data predict real-world AI misalignments?",
@@ -180,7 +193,7 @@
     "published_date": "2026-06-16T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-20T11:19:50.471585+00:00"
+    "fetched_at": "2026-06-21T11:46:22.232555+00:00"
   },
   {
     "title": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput",
@@ -193,7 +206,7 @@
     "published_date": "2026-06-16T17:32:07+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-20T11:19:55.521898+00:00"
+    "fetched_at": "2026-06-21T11:46:26.740987+00:00"
   },
   {
     "title": "Synthetic document finetuning for instilling positive traits",
@@ -206,7 +219,7 @@
     "published_date": "2026-06-16T00:04:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-20T11:19:51.397473+00:00"
+    "fetched_at": "2026-06-21T11:46:23.049508+00:00"
   },
   {
     "title": "Predicting model behavior before release by simulating deployment",
@@ -219,7 +232,7 @@
     "published_date": "2026-06-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-20T11:19:50.219089+00:00"
+    "fetched_at": "2026-06-21T11:46:22.107286+00:00"
   },
   {
     "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
@@ -230,7 +243,7 @@
     "published_date": "2026-06-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-20T11:20:22.916860+00:00"
+    "fetched_at": "2026-06-21T11:46:34.695831+00:00"
   },
   {
     "title": "Verifiable Audit Trails for AI-Enabled Biological Design Tools: A Proposal for Verifiable Biodesign Logging",
@@ -241,7 +254,7 @@
     "published_date": "2026-06-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-20T11:20:22.917098+00:00"
+    "fetched_at": "2026-06-21T11:46:34.696049+00:00"
   },
   {
     "title": "Why Do Naive SFT Filters For Safety Properties Fail?",
@@ -254,7 +267,7 @@
     "published_date": "2026-06-14T19:45:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-20T11:19:51.397660+00:00"
+    "fetched_at": "2026-06-21T11:46:23.049670+00:00"
   },
   {
     "title": "Is SMIC N+3’s Metal Pitch Smaller than Intel 18A’s?",
@@ -267,19 +280,6 @@
     "published_date": "2026-06-14T19:14:21+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-20T11:19:55.521931+00:00"
-  },
-  {
-    "title": "SFT Drives Gemini’s Safety Properties",
-    "authors": [
-      "Josh Engels"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This is the third in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The second post can be found here . In this short post, we describe a surprising finding: most safety relevant properties in Gemini seem to be caused by the combination of pretraining and SFT, not other training stages like RL. We do not want to overstate this claim as applying to other model families, and we also note that this may change in future Gemini versions. Nevertheless, this result was counter to our initial expectations and will inform future safety work on our team, and so we felt that it was important to share with the broader safety community. Experiment We perform SFT using the Gemini mixture on the pre-training only versions of Gemini 3.1 Pro and Gemini 3 Flash.",
-    "url": "https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1",
-    "published_date": "2026-06-13T15:31:52+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-20T11:19:51.397705+00:00"
+    "fetched_at": "2026-06-21T11:46:26.741019+00:00"
   }
 ]
