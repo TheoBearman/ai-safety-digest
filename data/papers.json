@@ -5,43 +5,67 @@
     "organization": "Google DeepMind",
     "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
     "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "published_date": "2026-06-22T00:00:00+00:00",
+    "published_date": "2026-06-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-22T14:42:15.252845+00:00"
+    "fetched_at": "2026-06-23T12:08:43.531739+00:00"
   },
   {
     "title": "DiffusionGemma: 4x faster text generation",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-22.",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-23.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-22T00:00:00+00:00",
+    "published_date": "2026-06-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-22T14:42:15.253041+00:00"
+    "fetched_at": "2026-06-23T12:08:43.531931+00:00"
   },
   {
     "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-22.",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-23.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-22T00:00:00+00:00",
+    "published_date": "2026-06-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-22T14:42:15.253818+00:00"
+    "fetched_at": "2026-06-23T12:08:43.532706+00:00"
+  },
+  {
+    "title": "Towards a Common Standard for Evaluating Frontier AI Safeguards Against Biological Misuse",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain.",
+    "url": "https://www.governance.ai/research-paper/technical-report-towards-a-common-standard-for-evaluating-frontier-ai-safeguards-against-biological-misuse",
+    "published_date": "2026-06-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-06-23T12:08:47.271570+00:00"
   },
   {
     "title": "Evaluating Offline Monitoring of Internal AI Agents",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain. We need... Large language models (LLMs) perform strongly on biological benchmarks, raising concerns that they may help novice actors acquire.",
+    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-23.",
     "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-22T00:00:00+00:00",
+    "published_date": "2026-06-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-22T14:42:19.383517+00:00"
+    "fetched_at": "2026-06-23T12:08:47.272772+00:00"
+  },
+  {
+    "title": "LLM-Driven Feature Discovery",
+    "authors": [
+      "Josh Engels"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "We would often like to get a qualitative sense of a target model’s behaviors in important distributions (e.g. deployment, RL training, or evals). For example, we might want to discover novel behaviors , figure out what causes some target behavior to occur, or find surprising correlations between behaviors.&nbsp; In a recent short exploratory project, we tackled this problem via LLM-Driven Feature Discovery. Our method works as follows: Choose a dataset of model transcripts Split transcripts into three pieces: user turns, thoughts, and assistant responses. Ask a black box LLM autorater to generate a set of 10-20 “features” of each transcript piece. By feature we mean notable/interesting/important aspects of the transcript piece; we include the prompt we use below. Note that the autorater only sees one piece at a time.",
+    "url": "https://www.alignmentforum.org/posts/WAZWA6FPQvH8okouJ/llm-driven-feature-discovery",
+    "published_date": "2026-06-22T22:26:51+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-06-23T12:08:33.518777+00:00"
   },
   {
     "title": "How transparent is DiffusionGemma (and why it matters)",
@@ -54,7 +78,20 @@
     "published_date": "2026-06-20T20:05:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-22T14:42:04.741388+00:00"
+    "fetched_at": "2026-06-23T12:08:33.518875+00:00"
+  },
+  {
+    "title": "The LLM shoggoth meme is weirder than you think",
+    "authors": [
+      "HedonicEscalator"
+    ],
+    "organization": "LessWrong",
+    "abstract": "This article contains spoilers for At the Mountains of Madness, The Case of Charles Dexter Ward, and other works by H. P. Lovecraft. …",
+    "url": "https://www.lesswrong.com/posts/nhb8AyEcQGjQetgi5/the-llm-shoggoth-meme-is-weirder-than-you-think",
+    "published_date": "2026-06-19T23:35:21.601000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-06-23T12:08:51.610495+00:00"
   },
   {
     "title": "Reinforcement learning towards broadly and persistently beneficial models",
@@ -67,7 +104,7 @@
     "published_date": "2026-06-18T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-22T14:42:03.895921+00:00"
+    "fetched_at": "2026-06-23T12:08:32.374714+00:00"
   },
   {
     "title": "GDM AI Control Roadmap",
@@ -80,7 +117,7 @@
     "published_date": "2026-06-18T16:50:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-22T14:42:04.741440+00:00"
+    "fetched_at": "2026-06-23T12:08:33.518919+00:00"
   },
   {
     "title": "That Untravell'd World",
@@ -93,7 +130,7 @@
     "published_date": "2026-06-18T15:45:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-22T14:42:08.019401+00:00"
+    "fetched_at": "2026-06-23T12:08:37.545369+00:00"
   },
   {
     "title": "“The distillation double bind: Distilling misaligned models either transfers misalignment or it doesn’t” by Alek Westover, Alexa Pan, Sebastian Prasanna, Arun Jose",
@@ -106,7 +143,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-22T14:42:04.315319+00:00"
+    "fetched_at": "2026-06-23T12:08:32.788169+00:00"
   },
   {
     "title": "Frontier Red Team",
@@ -117,7 +154,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-22T14:42:14.921072+00:00"
+    "fetched_at": "2026-06-23T12:08:43.218634+00:00"
   },
   {
     "title": "Releasing AISI’s Engineering Playbook",
@@ -128,7 +165,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-22T14:42:18.562665+00:00"
+    "fetched_at": "2026-06-23T12:08:46.329568+00:00"
   },
   {
     "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
@@ -141,7 +178,7 @@
     "published_date": "2026-06-17T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-22T14:42:03.756406+00:00"
+    "fetched_at": "2026-06-23T12:08:32.290428+00:00"
   },
   {
     "title": "Introducing LifeSciBench",
@@ -154,7 +191,7 @@
     "published_date": "2026-06-17T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-22T14:42:03.756443+00:00"
+    "fetched_at": "2026-06-23T12:08:32.290464+00:00"
   },
   {
     "title": "Predicting LLM Safety Before Release by Simulating Deployment",
@@ -167,7 +204,7 @@
     "published_date": "2026-06-16T19:55:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-22T14:42:04.741484+00:00"
+    "fetched_at": "2026-06-23T12:08:33.518958+00:00"
   },
   {
     "title": "Leviathan Waking",
@@ -180,7 +217,7 @@
     "published_date": "2026-06-16T18:26:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-22T14:42:08.019425+00:00"
+    "fetched_at": "2026-06-23T12:08:37.545394+00:00"
   },
   {
     "title": "Can public chat data predict real-world AI misalignments?",
@@ -193,7 +230,7 @@
     "published_date": "2026-06-16T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-22T14:42:03.895948+00:00"
+    "fetched_at": "2026-06-23T12:08:32.374742+00:00"
   },
   {
     "title": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput",
@@ -206,7 +243,7 @@
     "published_date": "2026-06-16T17:32:07+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-22T14:42:07.746769+00:00"
+    "fetched_at": "2026-06-23T12:08:37.269937+00:00"
   },
   {
     "title": "Synthetic document finetuning for instilling positive traits",
@@ -219,7 +256,7 @@
     "published_date": "2026-06-16T00:04:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-22T14:42:04.741656+00:00"
+    "fetched_at": "2026-06-23T12:08:33.519128+00:00"
   },
   {
     "title": "Predicting model behavior before release by simulating deployment",
@@ -232,7 +269,7 @@
     "published_date": "2026-06-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-22T14:42:03.756474+00:00"
+    "fetched_at": "2026-06-23T12:08:32.290496+00:00"
   },
   {
     "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
@@ -243,17 +280,6 @@
     "published_date": "2026-06-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-22T14:42:19.005522+00:00"
-  },
-  {
-    "title": "Verifiable Audit Trails for AI-Enabled Biological Design Tools: A Proposal for Verifiable Biodesign Logging",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Jun 15, 2026 The authors propose a tamper-evident audit-trail framework using cryptographic signing to establish a trustworthy chain of custody that can be used with any artificial intelligence–enabled biological design tool.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4613-1.html",
-    "published_date": "2026-06-15T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-22T14:42:19.005724+00:00"
+    "fetched_at": "2026-06-23T12:08:46.853041+00:00"
   }
 ]
