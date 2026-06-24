@@ -5,32 +5,32 @@
     "organization": "Google DeepMind",
     "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
     "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "published_date": "2026-06-23T00:00:00+00:00",
+    "published_date": "2026-06-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-23T12:08:43.531739+00:00"
+    "fetched_at": "2026-06-24T11:46:04.711375+00:00"
   },
   {
     "title": "DiffusionGemma: 4x faster text generation",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-23.",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-24.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-23T00:00:00+00:00",
+    "published_date": "2026-06-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-23T12:08:43.531931+00:00"
+    "fetched_at": "2026-06-24T11:46:04.711606+00:00"
   },
   {
     "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-23.",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-24.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-23T00:00:00+00:00",
+    "published_date": "2026-06-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-23T12:08:43.532706+00:00"
+    "fetched_at": "2026-06-24T11:46:04.712565+00:00"
   },
   {
     "title": "Towards a Common Standard for Evaluating Frontier AI Safeguards Against Biological Misuse",
@@ -38,21 +38,21 @@
     "organization": "GovAI",
     "abstract": "Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain.",
     "url": "https://www.governance.ai/research-paper/technical-report-towards-a-common-standard-for-evaluating-frontier-ai-safeguards-against-biological-misuse",
-    "published_date": "2026-06-23T00:00:00+00:00",
+    "published_date": "2026-06-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-23T12:08:47.271570+00:00"
+    "fetched_at": "2026-06-24T11:46:08.259996+00:00"
   },
   {
     "title": "Evaluating Offline Monitoring of Internal AI Agents",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-23.",
+    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-24.",
     "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-23T00:00:00+00:00",
+    "published_date": "2026-06-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-23T12:08:47.272772+00:00"
+    "fetched_at": "2026-06-24T11:46:08.261336+00:00"
   },
   {
     "title": "LLM-Driven Feature Discovery",
@@ -65,7 +65,20 @@
     "published_date": "2026-06-22T22:26:51+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-23T12:08:33.518777+00:00"
+    "fetched_at": "2026-06-24T11:45:55.184469+00:00"
+  },
+  {
+    "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles)",
+    "authors": [
+      "Charles Ye"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Summary * We've been building a theory of how prompt injections work under the hood. * We show it comes down to how LLMs perceive roles (the humble…",
+    "url": "https://www.lesswrong.com/posts/d8xDGzCEYE639qqEv/a-mechanistic-explanation-of-prompt-injection-and-why-you",
+    "published_date": "2026-06-22T14:09:23.537000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-06-24T11:46:12.141652+00:00"
   },
   {
     "title": "How transparent is DiffusionGemma (and why it matters)",
@@ -78,7 +91,7 @@
     "published_date": "2026-06-20T20:05:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-23T12:08:33.518875+00:00"
+    "fetched_at": "2026-06-24T11:45:55.184562+00:00"
   },
   {
     "title": "The LLM shoggoth meme is weirder than you think",
@@ -91,7 +104,7 @@
     "published_date": "2026-06-19T23:35:21.601000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-23T12:08:51.610495+00:00"
+    "fetched_at": "2026-06-24T11:46:12.141661+00:00"
   },
   {
     "title": "Reinforcement learning towards broadly and persistently beneficial models",
@@ -104,7 +117,7 @@
     "published_date": "2026-06-18T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-23T12:08:32.374714+00:00"
+    "fetched_at": "2026-06-24T11:45:54.143742+00:00"
   },
   {
     "title": "GDM AI Control Roadmap",
@@ -117,7 +130,7 @@
     "published_date": "2026-06-18T16:50:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-23T12:08:33.518919+00:00"
+    "fetched_at": "2026-06-24T11:45:55.184604+00:00"
   },
   {
     "title": "That Untravell'd World",
@@ -130,7 +143,7 @@
     "published_date": "2026-06-18T15:45:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-23T12:08:37.545369+00:00"
+    "fetched_at": "2026-06-24T11:45:58.531296+00:00"
   },
   {
     "title": "“The distillation double bind: Distilling misaligned models either transfers misalignment or it doesn’t” by Alek Westover, Alexa Pan, Sebastian Prasanna, Arun Jose",
@@ -143,7 +156,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-23T12:08:32.788169+00:00"
+    "fetched_at": "2026-06-24T11:45:54.662330+00:00"
   },
   {
     "title": "Frontier Red Team",
@@ -154,7 +167,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-23T12:08:43.218634+00:00"
+    "fetched_at": "2026-06-24T11:46:04.406169+00:00"
   },
   {
     "title": "Releasing AISI’s Engineering Playbook",
@@ -165,7 +178,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-23T12:08:46.329568+00:00"
+    "fetched_at": "2026-06-24T11:46:07.251517+00:00"
   },
   {
     "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
@@ -178,7 +191,7 @@
     "published_date": "2026-06-17T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-23T12:08:32.290428+00:00"
+    "fetched_at": "2026-06-24T11:45:54.011074+00:00"
   },
   {
     "title": "Introducing LifeSciBench",
@@ -191,95 +204,6 @@
     "published_date": "2026-06-17T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-23T12:08:32.290464+00:00"
-  },
-  {
-    "title": "Predicting LLM Safety Before Release by Simulating Deployment",
-    "authors": [
-      "Tomek Korbak"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Paper link Before releasing a new model, labs need to understand not just what it can do, but how it is likely to behave in real-world use, including where it might introduce new risks. This becomes even more important as capabilities increase. As part of our pre-deployment safety review, we leverage targeted evaluations, red-teaming, and other checks to understand model behavior. We’ve now started using a method for simulating model deployments before they happen, which adds a complementary signal: a deployment-like preview of how a candidate model may behave before it reaches users. Deployment Simulation is a method for simulating a future deployment before it happens. We do so by replaying previous conversations in a privacy-preserving manner with a new candidate model.",
-    "url": "https://www.alignmentforum.org/posts/xPXJfgqFTvuJxGZbE/predicting-llm-safety-before-release-by-simulating",
-    "published_date": "2026-06-16T19:55:05+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-23T12:08:33.518958+00:00"
-  },
-  {
-    "title": "Leviathan Waking",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "Imagine that there were no Food and Drug Administration (FDA), but there remained a large pharmaceutical sector, similar in size and scope to the one the United States enjoys today. In this alternate world, imagine that drugs were not licensed or otherwise formally approved by regulators; there were even officials in the executive branch who boasted that the U.S., unlike other countries, would not get into the regulatory morass of licensing drugs.",
-    "url": "https://www.hyperdimensional.co/p/leviathan-waking",
-    "published_date": "2026-06-16T18:26:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-23T12:08:37.545394+00:00"
-  },
-  {
-    "title": "Can public chat data predict real-world AI misalignments?",
-    "authors": [
-      "Hannah Sheahan and Micah Carroll"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Frontier AI models are increasingly used in settings with real economic, legal, and societal consequences. As a result, governments, AI safety organizations and independent researchers need ways to evaluate how these systems behave under realistic conditions.",
-    "url": "https://alignment.openai.com/validating-public-evals/",
-    "published_date": "2026-06-16T18:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-23T12:08:32.374742+00:00"
-  },
-  {
-    "title": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput",
-    "authors": [
-      "Kimbo Chen"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'RL Systems Mind the Gap: Matching Trainer and Generator Throughput'. Published 2026-06-16. Authors: Kimbo Chen.",
-    "url": "https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching",
-    "published_date": "2026-06-16T17:32:07+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-06-23T12:08:37.269937+00:00"
-  },
-  {
-    "title": "Synthetic document finetuning for instilling positive traits",
-    "authors": [
-      "CallumMcDougall"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This is the fifth in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The fourth post can be found here . TLDR: Via adapting the methods of Marks et al and Li et al , we train Gemini 3 Flash to have certain traits/values by midtraining it on documents about how Gemini has those properties, followed by finetuning it on synthetic chat data where it demonstrates those properties. The chat finetuning is effective for instilling the traits robustly, working OOD. We share some takeaways on how to improve midtraining &amp; SFT effectiveness. Introduction This work closely follows Li et al (model spec midtraining, or MSM), who show that by training a model on synthetic documents before chat finetuning starts, they can shape how the model generalizes.",
-    "url": "https://www.alignmentforum.org/posts/GTYJRLhqztxKF2v5R/synthetic-document-finetuning-for-instilling-positive-traits",
-    "published_date": "2026-06-16T00:04:26+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-23T12:08:33.519128+00:00"
-  },
-  {
-    "title": "Predicting model behavior before release by simulating deployment",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-    "url": "https://openai.com/index/deployment-simulation",
-    "published_date": "2026-06-16T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-23T12:08:32.290496+00:00"
-  },
-  {
-    "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Project Jun 16, 2026 RAND Europe is administering, analysing and reporting on the first ‘National AI in Research survey’ in the UK.",
-    "url": "https://www.rand.org/randeurope/research/projects/2026/ai-in-research-mapping-adoption-attitudes-and-impact-in-the-uk.html",
-    "published_date": "2026-06-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-23T12:08:46.853041+00:00"
+    "fetched_at": "2026-06-24T11:45:54.011109+00:00"
   }
 ]
