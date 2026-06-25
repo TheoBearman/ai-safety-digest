@@ -1,36 +1,58 @@
 [
   {
+    "title": "Introducing computer use in Gemini 3.5 Flash",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Introducing computer use in Gemini 3.5 Flash'. Published 2026-06-25.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "published_date": "2026-06-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-06-25T11:40:36.938428+00:00"
+  },
+  {
     "title": "Investing in multi-agent AI safety research",
     "authors": [],
     "organization": "Google DeepMind",
     "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
     "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "published_date": "2026-06-24T00:00:00+00:00",
+    "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-24T11:46:04.711375+00:00"
+    "fetched_at": "2026-06-25T11:40:36.939026+00:00"
   },
   {
     "title": "DiffusionGemma: 4x faster text generation",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-24.",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-25.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-24T00:00:00+00:00",
+    "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-24T11:46:04.711606+00:00"
+    "fetched_at": "2026-06-25T11:40:36.939240+00:00"
   },
   {
     "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-24.",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-25.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-24T00:00:00+00:00",
+    "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-24T11:46:04.712565+00:00"
+    "fetched_at": "2026-06-25T11:40:36.940029+00:00"
+  },
+  {
+    "title": "AI agents put offensive cyber within reach of novices: Comparing the performance of AI agents to humans in offensive cyber operations",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jun 25, 2026 Agentic AI models now enable non-experts to conduct advanced offensive cyberattacks. This study finds AI agents can autonomously breach complex systems rapidly, highlighting urgent needs for evolved defence and better cyber risk assessments.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA3892-2.html",
+    "published_date": "2026-06-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-25T11:40:56.223260+00:00"
   },
   {
     "title": "Towards a Common Standard for Evaluating Frontier AI Safeguards Against Biological Misuse",
@@ -38,21 +60,34 @@
     "organization": "GovAI",
     "abstract": "Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain.",
     "url": "https://www.governance.ai/research-paper/technical-report-towards-a-common-standard-for-evaluating-frontier-ai-safeguards-against-biological-misuse",
-    "published_date": "2026-06-24T00:00:00+00:00",
+    "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-24T11:46:08.259996+00:00"
+    "fetched_at": "2026-06-25T11:40:56.724080+00:00"
   },
   {
     "title": "Evaluating Offline Monitoring of Internal AI Agents",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-24.",
+    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-25.",
     "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-24T00:00:00+00:00",
+    "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-24T11:46:08.261336+00:00"
+    "fetched_at": "2026-06-25T11:40:56.725213+00:00"
+  },
+  {
+    "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
+    "authors": [
+      "Jeremiah (Miah) Wander, Cas Simons"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. The post Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
+    "published_date": "2026-06-24T14:00:14+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-06-25T11:40:21.969773+00:00"
   },
   {
     "title": "LLM-Driven Feature Discovery",
@@ -65,7 +100,7 @@
     "published_date": "2026-06-22T22:26:51+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-24T11:45:55.184469+00:00"
+    "fetched_at": "2026-06-25T11:40:24.301508+00:00"
   },
   {
     "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles)",
@@ -78,7 +113,7 @@
     "published_date": "2026-06-22T14:09:23.537000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-24T11:46:12.141652+00:00"
+    "fetched_at": "2026-06-25T11:41:01.349851+00:00"
   },
   {
     "title": "How transparent is DiffusionGemma (and why it matters)",
@@ -91,7 +126,7 @@
     "published_date": "2026-06-20T20:05:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-24T11:45:55.184562+00:00"
+    "fetched_at": "2026-06-25T11:40:24.301606+00:00"
   },
   {
     "title": "The LLM shoggoth meme is weirder than you think",
@@ -104,7 +139,7 @@
     "published_date": "2026-06-19T23:35:21.601000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-24T11:46:12.141661+00:00"
+    "fetched_at": "2026-06-25T11:41:01.349866+00:00"
   },
   {
     "title": "Reinforcement learning towards broadly and persistently beneficial models",
@@ -117,7 +152,7 @@
     "published_date": "2026-06-18T18:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-24T11:45:54.143742+00:00"
+    "fetched_at": "2026-06-25T11:40:23.409380+00:00"
   },
   {
     "title": "GDM AI Control Roadmap",
@@ -130,7 +165,7 @@
     "published_date": "2026-06-18T16:50:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-24T11:45:55.184604+00:00"
+    "fetched_at": "2026-06-25T11:40:24.301650+00:00"
   },
   {
     "title": "That Untravell'd World",
@@ -143,7 +178,7 @@
     "published_date": "2026-06-18T15:45:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-24T11:45:58.531296+00:00"
+    "fetched_at": "2026-06-25T11:40:29.143805+00:00"
   },
   {
     "title": "“The distillation double bind: Distilling misaligned models either transfers misalignment or it doesn’t” by Alek Westover, Alexa Pan, Sebastian Prasanna, Arun Jose",
@@ -156,7 +191,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-24T11:45:54.662330+00:00"
+    "fetched_at": "2026-06-25T11:40:24.051605+00:00"
   },
   {
     "title": "Frontier Red Team",
@@ -167,7 +202,7 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-24T11:46:04.406169+00:00"
+    "fetched_at": "2026-06-25T11:40:36.495907+00:00"
   },
   {
     "title": "Releasing AISI’s Engineering Playbook",
@@ -178,32 +213,6 @@
     "published_date": "2026-06-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-24T11:46:07.251517+00:00"
-  },
-  {
-    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-    "url": "https://openai.com/index/ai-chemist-improves-reaction",
-    "published_date": "2026-06-17T10:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-24T11:45:54.011074+00:00"
-  },
-  {
-    "title": "Introducing LifeSciBench",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'Introducing LifeSciBench'. Published 2026-06-17. Authors: OpenAI News.",
-    "url": "https://openai.com/index/introducing-life-sci-bench",
-    "published_date": "2026-06-17T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-06-24T11:45:54.011109+00:00"
+    "fetched_at": "2026-06-25T11:40:55.778003+00:00"
   }
 ]
