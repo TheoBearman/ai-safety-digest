@@ -3,12 +3,12 @@
     "title": "Introducing computer use in Gemini 3.5 Flash",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing computer use in Gemini 3.5 Flash'. Published 2026-06-25.",
+    "abstract": "Research from Google DeepMind titled 'Introducing computer use in Gemini 3.5 Flash'. Published 2026-06-26.",
     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-25T00:00:00+00:00",
+    "published_date": "2026-06-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-25T11:40:36.938428+00:00"
+    "fetched_at": "2026-06-26T11:44:54.335215+00:00"
   },
   {
     "title": "Investing in multi-agent AI safety research",
@@ -16,32 +16,78 @@
     "organization": "Google DeepMind",
     "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
     "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "published_date": "2026-06-25T00:00:00+00:00",
+    "published_date": "2026-06-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-25T11:40:36.939026+00:00"
+    "fetched_at": "2026-06-26T11:44:54.335945+00:00"
   },
   {
     "title": "DiffusionGemma: 4x faster text generation",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-25.",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-26.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-25T00:00:00+00:00",
+    "published_date": "2026-06-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-25T11:40:36.939240+00:00"
+    "fetched_at": "2026-06-26T11:44:54.336193+00:00"
   },
   {
     "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-25.",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-26.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-25T00:00:00+00:00",
+    "published_date": "2026-06-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-25T11:40:36.940029+00:00"
+    "fetched_at": "2026-06-26T11:44:54.337153+00:00"
+  },
+  {
+    "title": "Towards a Common Standard for Evaluating Frontier AI Safeguards Against Biological Misuse",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain.",
+    "url": "https://www.governance.ai/research-paper/technical-report-towards-a-common-standard-for-evaluating-frontier-ai-safeguards-against-biological-misuse",
+    "published_date": "2026-06-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-06-26T11:45:14.510223+00:00"
+  },
+  {
+    "title": "Evaluating Offline Monitoring of Internal AI Agents",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-26.",
+    "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
+    "published_date": "2026-06-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-06-26T11:45:14.511541+00:00"
+  },
+  {
+    "title": "Understanding the brain with AI-driven explanations and experiments",
+    "authors": [
+      "Chandan Singh, Jianfeng Gao"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
+    "published_date": "2026-06-25T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-06-26T11:44:45.604877+00:00"
+  },
+  {
+    "title": "Can LLM Agents Select and Engage with Biological Tools? An Initial Biosecurity Assessment",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jun 25, 2026 Large language model agents are capable of performing initial interactions with biological tools (BTs), indicating that agents could lower expertise barriers for actors seeking to use BTs. Targeted testing of agent design capabilities is warranted.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4741-1.html",
+    "published_date": "2026-06-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-26T11:45:14.031581+00:00"
   },
   {
     "title": "AI agents put offensive cyber within reach of novices: Comparing the performance of AI agents to humans in offensive cyber operations",
@@ -52,29 +98,7 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-25T11:40:56.223260+00:00"
-  },
-  {
-    "title": "Towards a Common Standard for Evaluating Frontier AI Safeguards Against Biological Misuse",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain.",
-    "url": "https://www.governance.ai/research-paper/technical-report-towards-a-common-standard-for-evaluating-frontier-ai-safeguards-against-biological-misuse",
-    "published_date": "2026-06-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-25T11:40:56.724080+00:00"
-  },
-  {
-    "title": "Evaluating Offline Monitoring of Internal AI Agents",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-25.",
-    "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-25T11:40:56.725213+00:00"
+    "fetched_at": "2026-06-26T11:45:14.031813+00:00"
   },
   {
     "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
@@ -87,7 +111,7 @@
     "published_date": "2026-06-24T14:00:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-06-25T11:40:21.969773+00:00"
+    "fetched_at": "2026-06-26T11:44:45.604911+00:00"
   },
   {
     "title": "LLM-Driven Feature Discovery",
@@ -100,7 +124,7 @@
     "published_date": "2026-06-22T22:26:51+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-25T11:40:24.301508+00:00"
+    "fetched_at": "2026-06-26T11:44:47.285290+00:00"
   },
   {
     "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles)",
@@ -113,7 +137,7 @@
     "published_date": "2026-06-22T14:09:23.537000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-25T11:41:01.349851+00:00"
+    "fetched_at": "2026-06-26T11:45:19.094089+00:00"
   },
   {
     "title": "How transparent is DiffusionGemma (and why it matters)",
@@ -126,7 +150,7 @@
     "published_date": "2026-06-20T20:05:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-25T11:40:24.301606+00:00"
+    "fetched_at": "2026-06-26T11:44:47.285388+00:00"
   },
   {
     "title": "The LLM shoggoth meme is weirder than you think",
@@ -139,80 +163,17 @@
     "published_date": "2026-06-19T23:35:21.601000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-25T11:41:01.349866+00:00"
+    "fetched_at": "2026-06-26T11:45:19.094097+00:00"
   },
   {
-    "title": "Reinforcement learning towards broadly and persistently beneficial models",
-    "authors": [
-      "Akshay V. Jagadeesh, Rahul Arora, Mikhail Trofimov, Khaled Saab, Ali Malik, Foivos Tsimpourlas, Karan Singhal"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Training targeting beneficial behavior in realistic scenarios produces broad improvements in alignment that generalize across domains and persist under adversarial pressure.",
-    "url": "https://alignment.openai.com/beneficial-rl/",
-    "published_date": "2026-06-18T18:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-06-25T11:40:23.409380+00:00"
-  },
-  {
-    "title": "GDM AI Control Roadmap",
-    "authors": [
-      "Mary Phuong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "GDM has published an AI Control Roadmap ! From the executive summary: We present the GDM AI Control Roadmap (v0.1) – our plan for implementing and adopting internal guardrails designed to catch potential adversarial behaviour by AI agents, even as they become increasingly harder to oversee and contain. We focus on system-level mitigations that limit the harm a misaligned AI system could cause. Specifically, this report provides: • Threat modelling : Taking inspiration from cybersecurity, we adopt a conservative, worst-case approach to threat modelling throughout this paper, and assume a hypothetical AI adversary pursuing undesirable goals in internal deployment. We introduce TRAIT&amp;R, a taxonomy of tactics and techniques available to such a hypothetical AI adversary, building on the established security framework MITRE ATT&amp;CK.",
-    "url": "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap",
-    "published_date": "2026-06-18T16:50:59+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-25T11:40:24.301650+00:00"
-  },
-  {
-    "title": "That Untravell'd World",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "I am a part of all that I have met;Yet all experience is an arch wherethro'Gleams that untravell'd world whose margin fadesFor ever and forever when I move.Alfred, Lord Tennyson, “Ulysses”",
-    "url": "https://www.hyperdimensional.co/p/that-untravelld-world",
-    "published_date": "2026-06-18T15:45:57+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-25T11:40:29.143805+00:00"
-  },
-  {
-    "title": "“The distillation double bind: Distilling misaligned models either transfers misalignment or it doesn’t” by Alek Westover, Alexa Pan, Sebastian Prasanna, Arun Jose",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: If it transfers misalignment, we might get a misaligned model that's easier to incriminate. If it doesn’t, we might get a capable benign replacement model. Suppose we have a dangerous misaligned AI that can fool alignment audits, and distill it into a student model. Two things can happen: Misalignment doesn’t transfer to the student. If so, we get a fairly capable benign model, which we can use to perform tasks that we wouldn’t want a misaligned AI to perform. Misalignment transfers to the student. The student might also be worse than the teacher at hiding its misalignment (e.g., because it is less capable). If so, auditing the distilled model might give us indirect evidence of the teacher's misalignment. In a previous post we discussed the second possibility and proposed distillation for incrimination techniques: distillation methods that we hoped would transfer misalignment without transferring the ability to fool audits.",
-    "url": "https://blog.redwoodresearch.org/p/the-distillation-double-bind-distilling",
-    "published_date": "2026-06-18T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-06-25T11:40:24.051605+00:00"
-  },
-  {
-    "title": "Frontier Red Team",
+    "title": "Inverting the Bellman Equation: From Q-Values to World Models",
     "authors": [],
-    "organization": "Anthropic",
-    "abstract": "The Frontier Red Team stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next. We provide evidence-based analysis about AI’s implications for cybersecurity, national security, and autonomous systems. We created a marketplace for employees in our San Francisco office, with one big twist. We tasked Claude with buying, selling and negotiating on our colleagues’ behalf.",
-    "url": "https://red.anthropic.com/research",
-    "published_date": "2026-06-18T00:00:00+00:00",
+    "organization": "MATS",
+    "abstract": "Inverting the Bellman Equation: From Q-Values to World Models Model-based and model-free reinforcement learning are traditionally viewed as separate paradigms: instead of learning a model of the transition kernel P, model-free agents typically estimate value functions tied to a specific policy and reward. In this paper, we challenge this dichotomy by proving that value-based agents trained on a sufficiently rich set of reward functions, e.g. using goal-conditioned RL, implicitly encode a unique and accurate world model. To extract this model in practice, we introduce P-learning, an inverse analogue to Q-learning that samples from an agent's Q-values, policies and rewards to decode its internal model of the environment. We then provide sufficient conditions on the type and number of goals for which agents encode the true kernel P, covering both stochastic and deterministic MDPs over finite or continuous state spaces.",
+    "url": "https://www.matsprogram.org/research/inverting-the-bellman-equation-from-q-values-to-world-models",
+    "published_date": "2026-06-19T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-06-25T11:40:36.495907+00:00"
-  },
-  {
-    "title": "Releasing AISI’s Engineering Playbook",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Building on the momentum of the Inspect toolkit, we’re open-sourcing parts of the research stack behind AISI's evaluations.",
-    "url": "https://www.aisi.gov.uk/blog/releasing-aisis-engineering-playbook",
-    "published_date": "2026-06-18T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-06-25T11:40:55.778003+00:00"
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-06-26T11:45:17.310699+00:00"
   }
 ]
