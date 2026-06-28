@@ -3,12 +3,12 @@
     "title": "Introducing computer use in Gemini 3.5 Flash",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing computer use in Gemini 3.5 Flash'. Published 2026-06-27.",
+    "abstract": "Research from Google DeepMind titled 'Introducing computer use in Gemini 3.5 Flash'. Published 2026-06-28.",
     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-27T00:00:00+00:00",
+    "published_date": "2026-06-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-27T10:58:27.692181+00:00"
+    "fetched_at": "2026-06-28T11:08:41.286555+00:00"
   },
   {
     "title": "Investing in multi-agent AI safety research",
@@ -16,32 +16,32 @@
     "organization": "Google DeepMind",
     "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
     "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "published_date": "2026-06-27T00:00:00+00:00",
+    "published_date": "2026-06-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-27T10:58:27.692908+00:00"
+    "fetched_at": "2026-06-28T11:08:41.287127+00:00"
   },
   {
     "title": "DiffusionGemma: 4x faster text generation",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-27.",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-28.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-27T00:00:00+00:00",
+    "published_date": "2026-06-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-27T10:58:27.693142+00:00"
+    "fetched_at": "2026-06-28T11:08:41.287310+00:00"
   },
   {
     "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-27.",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-28.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-27T00:00:00+00:00",
+    "published_date": "2026-06-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-27T10:58:27.694083+00:00"
+    "fetched_at": "2026-06-28T11:08:41.288091+00:00"
   },
   {
     "title": "Towards a Common Standard for Evaluating Frontier AI Safeguards Against Biological Misuse",
@@ -49,21 +49,21 @@
     "organization": "GovAI",
     "abstract": "Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which... AI companies and governments have raised concerns about frontier AI systems enabling cyber-attacks and cybercrime. Some have expressed interest in... The automation of AI R&D (AIRDA) could have significant implications, but its extent and ultimate effects remain uncertain.",
     "url": "https://www.governance.ai/research-paper/technical-report-towards-a-common-standard-for-evaluating-frontier-ai-safeguards-against-biological-misuse",
-    "published_date": "2026-06-27T00:00:00+00:00",
+    "published_date": "2026-06-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-27T10:58:47.809103+00:00"
+    "fetched_at": "2026-06-28T11:08:45.552726+00:00"
   },
   {
     "title": "Evaluating Offline Monitoring of Internal AI Agents",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-27.",
+    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-28.",
     "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-27T00:00:00+00:00",
+    "published_date": "2026-06-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-27T10:58:47.810442+00:00"
+    "fetched_at": "2026-06-28T11:08:45.553898+00:00"
   },
   {
     "title": "Deployment Awareness Matters More Than Evaluation Awareness",
@@ -76,7 +76,7 @@
     "published_date": "2026-06-26T22:54:06+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-27T10:58:15.538557+00:00"
+    "fetched_at": "2026-06-28T11:08:34.801059+00:00"
   },
   {
     "title": "The Case for Model Forensics",
@@ -89,7 +89,7 @@
     "published_date": "2026-06-26T15:09:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-27T10:58:15.538856+00:00"
+    "fetched_at": "2026-06-28T11:08:34.801336+00:00"
   },
   {
     "title": "What Should Be Done",
@@ -102,7 +102,7 @@
     "published_date": "2026-06-26T11:45:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-27T10:58:19.525576+00:00"
+    "fetched_at": "2026-06-28T11:08:38.312982+00:00"
   },
   {
     "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
@@ -115,7 +115,7 @@
     "published_date": "2026-06-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-06-27T10:58:18.275204+00:00"
+    "fetched_at": "2026-06-28T11:08:37.006621+00:00"
   },
   {
     "title": "Understanding the brain with AI-driven explanations and experiments",
@@ -128,7 +128,7 @@
     "published_date": "2026-06-25T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-06-27T10:58:13.407896+00:00"
+    "fetched_at": "2026-06-28T11:08:32.063461+00:00"
   },
   {
     "title": "Can LLM Agents Select and Engage with Biological Tools? An Initial Biosecurity Assessment",
@@ -139,7 +139,7 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-27T10:58:32.524069+00:00"
+    "fetched_at": "2026-06-28T11:08:44.837706+00:00"
   },
   {
     "title": "AI agents put offensive cyber within reach of novices: Comparing the performance of AI agents to humans in offensive cyber operations",
@@ -150,7 +150,7 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-27T10:58:32.524307+00:00"
+    "fetched_at": "2026-06-28T11:08:44.837905+00:00"
   },
   {
     "title": "When Role-playing, Do Models Believe What They Say?",
@@ -161,7 +161,20 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-06-27T10:58:50.694239+00:00"
+    "fetched_at": "2026-06-28T11:08:48.188674+00:00"
+  },
+  {
+    "title": "AI catastrophe: more like a genocide than a thought experiment",
+    "authors": [
+      "KatjaGrace"
+    ],
+    "organization": "LessWrong",
+    "abstract": "A notable fraction of people respond to hearing about existential risk from AI by saying they don’t really care if everyone dies. I think the idea is…",
+    "url": "https://www.lesswrong.com/posts/23HybCsJ7KYW4v7tP/ai-catastrophe-more-like-a-genocide-than-a-thought",
+    "published_date": "2026-06-24T21:31:12.627000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-06-28T11:08:50.315645+00:00"
   },
   {
     "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
@@ -174,7 +187,7 @@
     "published_date": "2026-06-24T14:00:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-06-27T10:58:13.407925+00:00"
+    "fetched_at": "2026-06-28T11:08:32.063489+00:00"
   },
   {
     "title": "LLM-Driven Feature Discovery",
@@ -187,7 +200,7 @@
     "published_date": "2026-06-22T22:26:51+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-27T10:58:15.538988+00:00"
+    "fetched_at": "2026-06-28T11:08:34.801481+00:00"
   },
   {
     "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles)",
@@ -200,19 +213,6 @@
     "published_date": "2026-06-22T14:09:23.537000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-27T10:58:52.540856+00:00"
-  },
-  {
-    "title": "How transparent is DiffusionGemma (and why it matters)",
-    "authors": [
-      "Josh Engels"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Authors: Joshua Engels*, Callum McDougall*, Bilal Chughtai*, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Asic Q Chen, Jean Tarbouriech, Min Ma, Brendan O'Donoghue+, João Gabriel Lopes de Oliveira+, Rohin Shah+, Neel Nanda+ *Primary Contributor +Advising Paper here: https://arxiv.org/abs/2606.20560 Overview In a recent collaboration between the GDM interpretability team and the GDM text diffusion team, we performed a transparency audit of DiffusionGemma, GDM's new text diffusion model. Overall, we find that DiffusionGemma is not significantly less transparent than Gemma. Gemma and DiffusionGemma perform similarly on monitorability evaluations . Although naively DiffusionGemma has a much larger opaque serial depth , we can apply the logit lens to intermediate vectors and ablate non-interpretable information without harming performance. This implies that these intermediate nodes are interpretable, which reduces the opaque serial depth to be similar to that of Gemma.",
-    "url": "https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters",
-    "published_date": "2026-06-20T20:05:50+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-27T10:58:15.539080+00:00"
+    "fetched_at": "2026-06-28T11:08:50.315639+00:00"
   }
 ]
