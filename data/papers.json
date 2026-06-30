@@ -1,14 +1,25 @@
 [
   {
+    "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Project Sep 4, 2026 RAND Europe is administering, analysing and reporting on the first ‘National AI in Research survey’ in the UK.",
+    "url": "https://www.rand.org/randeurope/research/projects/2026/ai-in-research-mapping-adoption-attitudes-and-impact-in-the-uk.html",
+    "published_date": "2026-09-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-30T11:45:31.174802+00:00"
+  },
+  {
     "title": "Introducing computer use in Gemini 3.5 Flash",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing computer use in Gemini 3.5 Flash'. Published 2026-06-29.",
+    "abstract": "Research from Google DeepMind titled 'Introducing computer use in Gemini 3.5 Flash'. Published 2026-06-30.",
     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-29T00:00:00+00:00",
+    "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-29T13:08:00.115896+00:00"
+    "fetched_at": "2026-06-30T11:45:27.574662+00:00"
   },
   {
     "title": "Investing in multi-agent AI safety research",
@@ -16,32 +27,32 @@
     "organization": "Google DeepMind",
     "abstract": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
     "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "published_date": "2026-06-29T00:00:00+00:00",
+    "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-29T13:08:00.116636+00:00"
+    "fetched_at": "2026-06-30T11:45:27.575266+00:00"
   },
   {
     "title": "DiffusionGemma: 4x faster text generation",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-29.",
+    "abstract": "Research from Google DeepMind titled 'DiffusionGemma: 4x faster text generation'. Published 2026-06-30.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-29T00:00:00+00:00",
+    "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-29T13:08:00.116869+00:00"
+    "fetched_at": "2026-06-30T11:45:27.575478+00:00"
   },
   {
     "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-29.",
+    "abstract": "Research from Google DeepMind titled 'Introducing Gemma 4 12B: a unified, encoder-free multimodal model'. Published 2026-06-30.",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-06-29T00:00:00+00:00",
+    "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-06-29T13:08:00.117852+00:00"
+    "fetched_at": "2026-06-30T11:45:27.576295+00:00"
   },
   {
     "title": "Delays to Frontier AI in the EU and UK",
@@ -49,10 +60,10 @@
     "organization": "GovAI",
     "abstract": "In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots. This technical report analyses two channels by which...",
     "url": "https://www.governance.ai/research-paper/delays-to-frontier-ai-in-the-eu-and-uk",
-    "published_date": "2026-06-29T00:00:00+00:00",
+    "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-29T13:08:04.034457+00:00"
+    "fetched_at": "2026-06-30T11:45:31.565032+00:00"
   },
   {
     "title": "Towards a Common Standard for Evaluating Frontier AI Safeguards Against Biological Misuse",
@@ -60,21 +71,45 @@
     "organization": "GovAI",
     "abstract": "Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to...",
     "url": "https://www.governance.ai/research-paper/technical-report-towards-a-common-standard-for-evaluating-frontier-ai-safeguards-against-biological-misuse",
-    "published_date": "2026-06-29T00:00:00+00:00",
+    "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-29T13:08:04.035917+00:00"
+    "fetched_at": "2026-06-30T11:45:31.566261+00:00"
   },
   {
     "title": "Evaluating Offline Monitoring of Internal AI Agents",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-29.",
+    "abstract": "Research from GovAI titled 'Evaluating Offline Monitoring of Internal AI Agents'. Published 2026-06-30.",
     "url": "https://www.governance.ai/research-paper/evaluating-offline-monitoring-of-internal-ai-agents",
-    "published_date": "2026-06-29T00:00:00+00:00",
+    "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-06-29T13:08:04.036868+00:00"
+    "fetched_at": "2026-06-30T11:45:31.567081+00:00"
+  },
+  {
+    "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
+    "authors": [
+      "Xuchao Zhang, Molly Xia, Mayukh Das, Anson Bastos, Rujia Wang, Chetan Bansal, Saravan Rajmohan"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. Memora solves this with a scalable memory system separating what’s stored from how it's retrieved. The post Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
+    "published_date": "2026-06-29T21:14:22+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-06-30T11:45:12.843199+00:00"
+  },
+  {
+    "title": "The Ecology of AI Risk",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jun 29, 2026 Building on the idea of studying AI using ecological and evolutionary perspectives, we propose a novel approach for assessing risk from AI using indicators derived from theoretical ecology models.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71375.html",
+    "published_date": "2026-06-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-06-30T11:45:31.174997+00:00"
   },
   {
     "title": "Deployment Awareness Matters More Than Evaluation Awareness",
@@ -87,7 +122,7 @@
     "published_date": "2026-06-26T22:54:06+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-29T13:07:51.397287+00:00"
+    "fetched_at": "2026-06-30T11:45:15.535648+00:00"
   },
   {
     "title": "The Case for Model Forensics",
@@ -100,7 +135,20 @@
     "published_date": "2026-06-26T15:09:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-29T13:07:51.397602+00:00"
+    "fetched_at": "2026-06-30T11:45:15.535934+00:00"
+  },
+  {
+    "title": "Existential AI safety needs an effective social movement. PauseAI is building it",
+    "authors": [
+      "Maxime Fournes"
+    ],
+    "organization": "LessWrong",
+    "abstract": "The existential AI safety community needs to take building a civic and social movement seriously as a core intervention. We believe this is a high-va…",
+    "url": "https://www.lesswrong.com/posts/aoqhszdEWqcFWbnda/existential-ai-safety-needs-an-effective-social-movement",
+    "published_date": "2026-06-26T14:29:11.600000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-06-30T11:45:36.551672+00:00"
   },
   {
     "title": "What Should Be Done",
@@ -113,7 +161,7 @@
     "published_date": "2026-06-26T11:45:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-06-29T13:07:55.677876+00:00"
+    "fetched_at": "2026-06-30T11:45:19.558673+00:00"
   },
   {
     "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
@@ -126,7 +174,7 @@
     "published_date": "2026-06-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-06-29T13:07:54.490053+00:00"
+    "fetched_at": "2026-06-30T11:45:18.060165+00:00"
   },
   {
     "title": "Understanding the brain with AI-driven explanations and experiments",
@@ -139,7 +187,7 @@
     "published_date": "2026-06-25T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-06-29T13:07:49.121889+00:00"
+    "fetched_at": "2026-06-30T11:45:12.843225+00:00"
   },
   {
     "title": "Can LLM Agents Select and Engage with Biological Tools? An Initial Biosecurity Assessment",
@@ -150,7 +198,7 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-29T13:08:03.780470+00:00"
+    "fetched_at": "2026-06-30T11:45:31.175609+00:00"
   },
   {
     "title": "AI agents put offensive cyber within reach of novices: Comparing the performance of AI agents to humans in offensive cyber operations",
@@ -161,7 +209,7 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-06-29T13:08:03.780704+00:00"
+    "fetched_at": "2026-06-30T11:45:31.175811+00:00"
   },
   {
     "title": "When Role-playing, Do Models Believe What They Say?",
@@ -172,7 +220,7 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-06-29T13:08:07.017161+00:00"
+    "fetched_at": "2026-06-30T11:45:34.284764+00:00"
   },
   {
     "title": "AI catastrophe: more like a genocide than a thought experiment",
@@ -185,7 +233,7 @@
     "published_date": "2026-06-24T21:31:12.627000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-29T13:08:08.857721+00:00"
+    "fetched_at": "2026-06-30T11:45:36.551664+00:00"
   },
   {
     "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
@@ -198,32 +246,6 @@
     "published_date": "2026-06-24T14:00:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-06-29T13:07:49.121917+00:00"
-  },
-  {
-    "title": "LLM-Driven Feature Discovery",
-    "authors": [
-      "Josh Engels"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "We would often like to get a qualitative sense of a target model’s behaviors in important distributions (e.g. deployment, RL training, or evals). For example, we might want to discover novel behaviors , figure out what causes some target behavior to occur, or find surprising correlations between behaviors.&nbsp; In a recent short exploratory project, we tackled this problem via LLM-Driven Feature Discovery. Our method works as follows: Choose a dataset of model transcripts Split transcripts into three pieces: user turns, thoughts, and assistant responses. Ask a black box LLM autorater to generate a set of 10-20 “features” of each transcript piece. By feature we mean notable/interesting/important aspects of the transcript piece; we include the prompt we use below. Note that the autorater only sees one piece at a time.",
-    "url": "https://www.alignmentforum.org/posts/WAZWA6FPQvH8okouJ/llm-driven-feature-discovery",
-    "published_date": "2026-06-22T22:26:51+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-06-29T13:07:51.397735+00:00"
-  },
-  {
-    "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles)",
-    "authors": [
-      "Charles Ye"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Summary * We've been building a theory of how prompt injections work under the hood. * We show it comes down to how LLMs perceive roles (the humble…",
-    "url": "https://www.lesswrong.com/posts/d8xDGzCEYE639qqEv/a-mechanistic-explanation-of-prompt-injection-and-why-you",
-    "published_date": "2026-06-22T14:09:23.537000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-06-29T13:08:08.857714+00:00"
+    "fetched_at": "2026-06-30T11:45:12.843245+00:00"
   }
 ]
