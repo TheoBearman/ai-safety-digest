@@ -8,7 +8,18 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-01T12:09:39.555216+00:00"
+    "fetched_at": "2026-07-02T11:34:58.593293+00:00"
+  },
+  {
+    "title": "Insights from table-top exercises in Europe on AI safety and cyber misuse",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jul 1, 2026 This report presents findings from table-top exercises with senior policymakers in Germany, the Netherlands, and France, identifying governance gaps and capability priorities for responding to AI-enabled cyberattack crises.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA5082-1.html",
+    "published_date": "2026-07-01T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-02T11:34:58.593526+00:00"
   },
   {
     "title": "SkillOpt: Agent skills as trainable parameters",
@@ -21,7 +32,7 @@
     "published_date": "2026-06-30T16:50:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-01T12:09:27.697030+00:00"
+    "fetched_at": "2026-07-02T11:34:41.057936+00:00"
   },
   {
     "title": "Introducing GeneBench-Pro",
@@ -34,7 +45,7 @@
     "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-01T12:09:28.644017+00:00"
+    "fetched_at": "2026-07-02T11:34:42.036377+00:00"
   },
   {
     "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
@@ -47,7 +58,7 @@
     "published_date": "2026-06-29T21:14:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-01T12:09:27.697064+00:00"
+    "fetched_at": "2026-07-02T11:34:41.057965+00:00"
   },
   {
     "title": "The Ecology of AI Risk",
@@ -58,7 +69,7 @@
     "published_date": "2026-06-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-01T12:09:39.555408+00:00"
+    "fetched_at": "2026-07-02T11:34:58.593716+00:00"
   },
   {
     "title": "Deployment Awareness Matters More Than Evaluation Awareness",
@@ -71,7 +82,7 @@
     "published_date": "2026-06-26T22:54:06+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-01T12:09:29.582356+00:00"
+    "fetched_at": "2026-07-02T11:34:43.235089+00:00"
   },
   {
     "title": "The Case for Model Forensics",
@@ -84,7 +95,7 @@
     "published_date": "2026-06-26T15:09:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-01T12:09:29.582637+00:00"
+    "fetched_at": "2026-07-02T11:34:43.235379+00:00"
   },
   {
     "title": "Existential AI safety needs an effective social movement. PauseAI is building it",
@@ -97,7 +108,7 @@
     "published_date": "2026-06-26T14:29:11.600000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-01T12:09:44.547551+00:00"
+    "fetched_at": "2026-07-02T11:35:04.207697+00:00"
   },
   {
     "title": "What Should Be Done",
@@ -110,7 +121,7 @@
     "published_date": "2026-06-26T11:45:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-07-01T12:09:32.963033+00:00"
+    "fetched_at": "2026-07-02T11:34:46.639045+00:00"
   },
   {
     "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
@@ -123,7 +134,7 @@
     "published_date": "2026-06-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-01T12:09:31.990162+00:00"
+    "fetched_at": "2026-07-02T11:34:45.487618+00:00"
   },
   {
     "title": "Understanding the brain with AI-driven explanations and experiments",
@@ -136,7 +147,7 @@
     "published_date": "2026-06-25T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-01T12:09:27.697086+00:00"
+    "fetched_at": "2026-07-02T11:34:41.057982+00:00"
   },
   {
     "title": "Can LLM Agents Select and Engage with Biological Tools? An Initial Biosecurity Assessment",
@@ -147,7 +158,7 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-01T12:09:39.555994+00:00"
+    "fetched_at": "2026-07-02T11:34:58.594295+00:00"
   },
   {
     "title": "AI agents put offensive cyber within reach of novices: Comparing the performance of AI agents to humans in offensive cyber operations",
@@ -158,7 +169,7 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-01T12:09:39.556200+00:00"
+    "fetched_at": "2026-07-02T11:34:58.594509+00:00"
   },
   {
     "title": "When Role-playing, Do Models Believe What They Say?",
@@ -169,32 +180,6 @@
     "published_date": "2026-06-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-07-01T12:09:42.850015+00:00"
-  },
-  {
-    "title": "AI catastrophe: more like a genocide than a thought experiment",
-    "authors": [
-      "KatjaGrace"
-    ],
-    "organization": "LessWrong",
-    "abstract": "A notable fraction of people respond to hearing about existential risk from AI by saying they don’t really care if everyone dies. I think the idea is…",
-    "url": "https://www.lesswrong.com/posts/23HybCsJ7KYW4v7tP/ai-catastrophe-more-like-a-genocide-than-a-thought",
-    "published_date": "2026-06-24T21:31:12.627000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-01T12:09:44.547544+00:00"
-  },
-  {
-    "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
-    "authors": [
-      "Jeremiah (Miah) Wander, Cas Simons"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. The post Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
-    "published_date": "2026-06-24T14:00:14+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-01T12:09:27.697106+00:00"
+    "fetched_at": "2026-07-02T11:35:02.112216+00:00"
   }
 ]
