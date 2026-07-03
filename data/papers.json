@@ -8,7 +8,55 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-02T11:34:58.593293+00:00"
+    "fetched_at": "2026-07-03T11:33:35.910320+00:00"
+  },
+  {
+    "title": "Assessing the Risk of AI-Enabled Computer Worms",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
+    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
+    "published_date": "2026-07-03T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-07-03T11:33:36.430066+00:00"
+  },
+  {
+    "title": "Meta Compute: Everyone Wants To Be A Neocloud",
+    "authors": [
+      "Jeremie Eliahou Ontiveros"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Zuck Takes Plan B? SpaceX 2.0, Bedrock 2.0, MSL Isn't Giving Up, Scaling RecSys by 10x... ClusterMAX ranking coming soon?",
+    "url": "https://newsletter.semianalysis.com/p/meta-compute-everyone-wants-to-be",
+    "published_date": "2026-07-02T22:18:08+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-07-03T11:33:21.512467+00:00"
+  },
+  {
+    "title": "“AI Futurism Reading List” by Alexa Pan",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "We recently ran a strategy fellowship through Astra. As part of this, we ran a reading group for our fellows on some of the topics that we think are important for thinking about AI futurism (key dynamics in AI development, existential risk from AI, and approaches to mitigating risk). This post contains the reading list we used. The selection reflects my opinionated views of the field, focuses particularly on topics we happen to focus on at Redwood, and doesn’t aim to be comprehensive. I selected readings that I thought described conceptual frames and hypotheses in AI futurism that are regularly used by me and my coworkers. I think it is a good exercise to consider whether you agree with their theses and ways in which their predictions have fared well or badly in light of recent evidence. If you have suggestions for this reading list, please let me know.",
+    "url": "https://blog.redwoodresearch.org/p/ai-futurism-reading-list",
+    "published_date": "2026-07-02T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-07-03T11:33:17.122339+00:00"
+  },
+  {
+    "title": "More compute, more capability: Why AI agent evaluations need to account for test-time compute",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Standard evaluations cap how much compute AI agents can use. We show that raising those caps changes measured capability, the difficulty of tasks agents can solve, and how fast the frontier appears to move.",
+    "url": "https://www.aisi.gov.uk/blog/more-compute-more-capability-why-ai-agent-evals-need-to-account-for-test-time-compute",
+    "published_date": "2026-07-02T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-07-03T11:33:35.354575+00:00"
   },
   {
     "title": "Insights from table-top exercises in Europe on AI safety and cyber misuse",
@@ -19,7 +67,7 @@
     "published_date": "2026-07-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-02T11:34:58.593526+00:00"
+    "fetched_at": "2026-07-03T11:33:35.910868+00:00"
   },
   {
     "title": "SkillOpt: Agent skills as trainable parameters",
@@ -32,7 +80,7 @@
     "published_date": "2026-06-30T16:50:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-02T11:34:41.057936+00:00"
+    "fetched_at": "2026-07-03T11:33:14.780217+00:00"
   },
   {
     "title": "Introducing GeneBench-Pro",
@@ -45,7 +93,7 @@
     "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-02T11:34:42.036377+00:00"
+    "fetched_at": "2026-07-03T11:33:16.247939+00:00"
   },
   {
     "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
@@ -58,7 +106,7 @@
     "published_date": "2026-06-29T21:14:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-02T11:34:41.057965+00:00"
+    "fetched_at": "2026-07-03T11:33:14.780251+00:00"
   },
   {
     "title": "The Ecology of AI Risk",
@@ -69,7 +117,7 @@
     "published_date": "2026-06-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-02T11:34:58.593716+00:00"
+    "fetched_at": "2026-07-03T11:33:35.911086+00:00"
   },
   {
     "title": "Deployment Awareness Matters More Than Evaluation Awareness",
@@ -82,7 +130,7 @@
     "published_date": "2026-06-26T22:54:06+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-02T11:34:43.235089+00:00"
+    "fetched_at": "2026-07-03T11:33:17.594458+00:00"
   },
   {
     "title": "The Case for Model Forensics",
@@ -95,7 +143,7 @@
     "published_date": "2026-06-26T15:09:10+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-02T11:34:43.235379+00:00"
+    "fetched_at": "2026-07-03T11:33:17.594738+00:00"
   },
   {
     "title": "Existential AI safety needs an effective social movement. PauseAI is building it",
@@ -108,7 +156,7 @@
     "published_date": "2026-06-26T14:29:11.600000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-02T11:35:04.207697+00:00"
+    "fetched_at": "2026-07-03T11:33:40.785482+00:00"
   },
   {
     "title": "What Should Be Done",
@@ -121,7 +169,7 @@
     "published_date": "2026-06-26T11:45:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-07-02T11:34:46.639045+00:00"
+    "fetched_at": "2026-07-03T11:33:21.821405+00:00"
   },
   {
     "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
@@ -134,52 +182,6 @@
     "published_date": "2026-06-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-02T11:34:45.487618+00:00"
-  },
-  {
-    "title": "Understanding the brain with AI-driven explanations and experiments",
-    "authors": [
-      "Chandan Singh, Jianfeng Gao"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
-    "published_date": "2026-06-25T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-02T11:34:41.057982+00:00"
-  },
-  {
-    "title": "Can LLM Agents Select and Engage with Biological Tools? An Initial Biosecurity Assessment",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jun 25, 2026 Large language model agents are capable of performing initial interactions with biological tools (BTs), indicating that agents could lower expertise barriers for actors seeking to use BTs. Targeted testing of agent design capabilities is warranted.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4741-1.html",
-    "published_date": "2026-06-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-02T11:34:58.594295+00:00"
-  },
-  {
-    "title": "AI agents put offensive cyber within reach of novices: Comparing the performance of AI agents to humans in offensive cyber operations",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jun 25, 2026 Agentic AI models now enable non-experts to conduct advanced offensive cyberattacks. This study finds AI agents can autonomously breach complex systems rapidly, highlighting urgent needs for evolved defence and better cyber risk assessments.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA3892-2.html",
-    "published_date": "2026-06-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-02T11:34:58.594509+00:00"
-  },
-  {
-    "title": "When Role-playing, Do Models Believe What They Say?",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "When Role-playing, Do Models Believe What They Say? Language models can state that \"the Earth orbits the Sun\" and, when role-playing Aristotle, assert the opposite. Recent work argues that persona adoption is fundamental to how language models behave, with models selecting the most appropriate persona for a given context. Does such role-playing merely change the model's outputs, or does it also affect what the model internally represents as truthful? We study this question using the role-play of characters whose beliefs differ from the modern consensus, and induce personas with a number of different methods: prompting, in-context learning (ICL), supervised fine-tuning (SFT), and Open Character Training (OCT), and Emergent Misalignment (EM). We measure belief internalization across these approaches with truth probes and with behavioral tests, finding a broad spectrum of belief internalization. Prompting, ICL, and SFT change what the model says with little representational change.",
-    "url": "https://www.matsprogram.org/research/when-role-playing-do-models-believe-what-they-say",
-    "published_date": "2026-06-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-07-02T11:35:02.112216+00:00"
+    "fetched_at": "2026-07-03T11:33:20.431947+00:00"
   }
 ]
