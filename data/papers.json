@@ -8,7 +8,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-03T11:33:35.910320+00:00"
+    "fetched_at": "2026-07-04T10:54:51.985772+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -16,10 +16,23 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-03T00:00:00+00:00",
+    "published_date": "2026-07-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-03T11:33:36.430066+00:00"
+    "fetched_at": "2026-07-04T10:54:52.417186+00:00"
+  },
+  {
+    "title": "Pragmatic FDT, and predictors as game theory",
+    "authors": [
+      "Stuart_Armstrong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Decision theory is back in fashion (defining fashion as \"one good post on a good EA blog\"). Bentham's Bulldog (BB) has published a case against FDT ( functional decision theory ), contrasting rationalist enthusiasm with academic scepticism: \" Academic decision theorists don't like the theory. The number of academic decision theorists who adopt it could be counted on one hand by someone missing four of their fingers. \" I am, just barely, a published academic decision theorist , so you can keep a small finger to count me too. My position is that, though FDT may have problems with its definitions and under-definedness, we can build defined variants that achieve what FDT attempted to. I want to do two things in this post. First, sketch a \"pragmatic\" version of FDT designed to sidestep the theoretical pitfalls that Will MacAskill and Wolfgang Schwarz identify.",
+    "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
+    "published_date": "2026-07-03T13:22:38+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-04T10:54:42.064508+00:00"
   },
   {
     "title": "Meta Compute: Everyone Wants To Be A Neocloud",
@@ -32,7 +45,7 @@
     "published_date": "2026-07-02T22:18:08+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-03T11:33:21.512467+00:00"
+    "fetched_at": "2026-07-04T10:54:44.938284+00:00"
   },
   {
     "title": "“AI Futurism Reading List” by Alexa Pan",
@@ -45,7 +58,7 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-03T11:33:17.122339+00:00"
+    "fetched_at": "2026-07-04T10:54:41.778657+00:00"
   },
   {
     "title": "More compute, more capability: Why AI agent evaluations need to account for test-time compute",
@@ -56,7 +69,20 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-03T11:33:35.354575+00:00"
+    "fetched_at": "2026-07-04T10:54:51.573071+00:00"
+  },
+  {
+    "title": "Model access for third-parties — it's a big deal!",
+    "authors": [
+      "Cleo Nardo"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Over time, there might be an increasingly large gap between insider model access and outsider model access. By insiders, I mean employees at the fron…",
+    "url": "https://www.lesswrong.com/posts/RuGZ5tMdqpnraJahJ/model-access-for-third-parties-it-s-a-big-deal",
+    "published_date": "2026-07-01T13:09:34.221000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-07-04T10:54:56.763198+00:00"
   },
   {
     "title": "Insights from table-top exercises in Europe on AI safety and cyber misuse",
@@ -67,7 +93,7 @@
     "published_date": "2026-07-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-03T11:33:35.910868+00:00"
+    "fetched_at": "2026-07-04T10:54:51.986323+00:00"
   },
   {
     "title": "SkillOpt: Agent skills as trainable parameters",
@@ -80,7 +106,7 @@
     "published_date": "2026-06-30T16:50:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-03T11:33:14.780217+00:00"
+    "fetched_at": "2026-07-04T10:54:40.255024+00:00"
   },
   {
     "title": "Introducing GeneBench-Pro",
@@ -93,7 +119,7 @@
     "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-03T11:33:16.247939+00:00"
+    "fetched_at": "2026-07-04T10:54:41.139156+00:00"
   },
   {
     "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
@@ -106,7 +132,7 @@
     "published_date": "2026-06-29T21:14:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-03T11:33:14.780251+00:00"
+    "fetched_at": "2026-07-04T10:54:40.255059+00:00"
   },
   {
     "title": "The Ecology of AI Risk",
@@ -117,71 +143,6 @@
     "published_date": "2026-06-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-03T11:33:35.911086+00:00"
-  },
-  {
-    "title": "Deployment Awareness Matters More Than Evaluation Awareness",
-    "authors": [
-      "VojtaKovarik"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR Evaluation awareness — an AI recognizing it's being evaluated — is a widely discussed concept in AI safety. But there is a closely related concept that we claim is more important: deployment awareness , the AI's ability to recognize when it is not being evaluated and when its actions matter. A misaligned AI with deployment awareness can game evaluations without any evaluation awareness at all, with a simple strategy: act aligned by default, and deviate only when confident you're in real deployment and your actions matter for your goals. This requires two ingredients — occasionally recognizable deployment situations, and enough self-reflective and strategic reasoning for the AI to anticipate and plan around this. We think \"deployment awareness\" better identifies what makes evaluations fragile, and we develop this idea below.",
-    "url": "https://www.alignmentforum.org/posts/XP794SHDuXYfWLrvJ/deployment-awareness-matters-more-than-evaluation-awareness",
-    "published_date": "2026-06-26T22:54:06+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-03T11:33:17.594458+00:00"
-  },
-  {
-    "title": "The Case for Model Forensics",
-    "authors": [
-      "aditya singh"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "If we had a misalignment warning shot, would we be able to tell? Suppose an AI company catches their model taking an egregious action, like deleting oversight code that monitors its actions. Should they sound the alarm? A key piece of evidence to determine what to do next – such as what mitigations to take – is to understand why the model took the action. If the model was just confused (e.g. it may have been trying to reduce latency), a simple mitigation like a regex classifier that blocks destructive actions until a user approves should suffice to prevent the behavior. But if this was intentional subversion, the model will circumvent the regex, and more robust, expensive mitigations are needed. This motivates the need for a follow-up investigation into the concerning behavior, a problem we term model forensics.",
-    "url": "https://www.alignmentforum.org/posts/LCGcD28rSMkMTMvBK/the-case-for-model-forensics",
-    "published_date": "2026-06-26T15:09:10+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-03T11:33:17.594738+00:00"
-  },
-  {
-    "title": "Existential AI safety needs an effective social movement. PauseAI is building it",
-    "authors": [
-      "Maxime Fournes"
-    ],
-    "organization": "LessWrong",
-    "abstract": "The existential AI safety community needs to take building a civic and social movement seriously as a core intervention. We believe this is a high-va…",
-    "url": "https://www.lesswrong.com/posts/aoqhszdEWqcFWbnda/existential-ai-safety-needs-an-effective-social-movement",
-    "published_date": "2026-06-26T14:29:11.600000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-03T11:33:40.785482+00:00"
-  },
-  {
-    "title": "What Should Be Done",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "When President Trump signed it earlier this month, I argued that the Executive Order on Cyber and AI, which claimed to establish a voluntary testing program for frontier AI models, was really establishing a de facto involuntary licensing/preapproval regime for frontier models. This analysis has proven correct. First the administration revoked public access to Fable, Anthropic’s latest frontier model, because of security fears. Now, it appears that OpenAI’s GPT 5.6 is being limited to only a small set of US companies at the request of the US government.",
-    "url": "https://www.hyperdimensional.co/p/what-should-be-done",
-    "published_date": "2026-06-26T11:45:17+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-07-03T11:33:21.821405+00:00"
-  },
-  {
-    "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Note on independence: This evaluation was conducted under a standard NDA. Due to the sensitive information shared with METR as part of this evaluation, OpenAI’s comms and legal team required review and approval of this post. 1 Summary We conducted an independent external evaluation of GPT-5.6 Sol. For this evaluation, OpenAI provided: Access to GPT-5.6 Sol, both the final checkpoint and a ‘railfree’ version, via API Access to GPT-5.6 Sol with raw chain-of-thought via API A “Codex harness setup guide for third-party assessors” Updated answers to key claims from our pilot Frontier Risk Report questionnaire We initiated an evaluation of GPT-5.6 Sol on our Time Horizon 1.1 suite of software tasks. However, the resulting measurement depends heavily on our detection and treatment of cheating attempts by the model, and GPT-5.6 Sol’s detected cheating rate was higher than any public model we have evaluated on our ReAct agent harness.",
-    "url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol/",
-    "published_date": "2026-06-26T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-03T11:33:20.431947+00:00"
+    "fetched_at": "2026-07-04T10:54:51.986548+00:00"
   }
 ]
