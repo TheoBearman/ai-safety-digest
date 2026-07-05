@@ -8,7 +8,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-04T10:54:51.985772+00:00"
+    "fetched_at": "2026-07-05T11:05:04.540997+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -16,10 +16,10 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-04T00:00:00+00:00",
+    "published_date": "2026-07-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-04T10:54:52.417186+00:00"
+    "fetched_at": "2026-07-05T11:05:05.104804+00:00"
   },
   {
     "title": "Pragmatic FDT, and predictors as game theory",
@@ -32,7 +32,7 @@
     "published_date": "2026-07-03T13:22:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-04T10:54:42.064508+00:00"
+    "fetched_at": "2026-07-05T11:04:54.960559+00:00"
   },
   {
     "title": "Meta Compute: Everyone Wants To Be A Neocloud",
@@ -45,7 +45,7 @@
     "published_date": "2026-07-02T22:18:08+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-04T10:54:44.938284+00:00"
+    "fetched_at": "2026-07-05T11:04:58.249205+00:00"
   },
   {
     "title": "“AI Futurism Reading List” by Alexa Pan",
@@ -58,7 +58,7 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-04T10:54:41.778657+00:00"
+    "fetched_at": "2026-07-05T11:04:54.467298+00:00"
   },
   {
     "title": "More compute, more capability: Why AI agent evaluations need to account for test-time compute",
@@ -69,7 +69,7 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-04T10:54:51.573071+00:00"
+    "fetched_at": "2026-07-05T11:05:04.169247+00:00"
   },
   {
     "title": "Model access for third-parties — it's a big deal!",
@@ -82,7 +82,7 @@
     "published_date": "2026-07-01T13:09:34.221000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-04T10:54:56.763198+00:00"
+    "fetched_at": "2026-07-05T11:05:08.784636+00:00"
   },
   {
     "title": "Insights from table-top exercises in Europe on AI safety and cyber misuse",
@@ -93,7 +93,7 @@
     "published_date": "2026-07-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-04T10:54:51.986323+00:00"
+    "fetched_at": "2026-07-05T11:05:04.541449+00:00"
   },
   {
     "title": "SkillOpt: Agent skills as trainable parameters",
@@ -106,7 +106,7 @@
     "published_date": "2026-06-30T16:50:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-04T10:54:40.255024+00:00"
+    "fetched_at": "2026-07-05T11:04:52.566448+00:00"
   },
   {
     "title": "Introducing GeneBench-Pro",
@@ -119,7 +119,7 @@
     "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-04T10:54:41.139156+00:00"
+    "fetched_at": "2026-07-05T11:04:53.807166+00:00"
   },
   {
     "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
@@ -132,7 +132,7 @@
     "published_date": "2026-06-29T21:14:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-04T10:54:40.255059+00:00"
+    "fetched_at": "2026-07-05T11:04:52.566477+00:00"
   },
   {
     "title": "The Ecology of AI Risk",
@@ -143,6 +143,6 @@
     "published_date": "2026-06-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-04T10:54:51.986548+00:00"
+    "fetched_at": "2026-07-05T11:05:04.541638+00:00"
   }
 ]
