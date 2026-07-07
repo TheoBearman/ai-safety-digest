@@ -8,7 +8,20 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-06T12:48:57.530564+00:00"
+    "fetched_at": "2026-07-07T11:51:47.518537+00:00"
+  },
+  {
+    "title": "Data filtering works a lot worse than you would expect",
+    "authors": [
+      "Dohun Lee"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provided guidance and feedback throughout. TLDR Models can acquire undesirable traits from during supervised fine-tuning (SFT). A natural thing to try is to identify the data points with these traits and filter them out and retrain. To our surprise, across most of our broad OLMo SFT behaviors, data filtering often has very little effect. Most behavior targets like bold formatting, both-side framing, liberal-lean or tendency to say “your feelings are valid” are not affected much under targeted filtering. We try many standard black-box/white-box training data attribution methods to find the data to filter, including LLM autoraters, probes, activation-based methods, and gradient-based methods like EKFAC. None of them outperform random baseline on most behaviors.",
+    "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
+    "published_date": "2026-07-07T04:41:59+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-07T11:51:37.277379+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -16,10 +29,36 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-06T00:00:00+00:00",
+    "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-06T12:48:57.831109+00:00"
+    "fetched_at": "2026-07-07T11:51:47.835743+00:00"
+  },
+  {
+    "title": "Nvidia GPU Debt Backstop Unleashes the AI Project Trinity: Capital, Offtake and Datacenters",
+    "authors": [
+      "Daniel Nishball"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Over 7T AI debt by 2029, There can be no Neoclouds without the Trinity. Nvidia's Backstop Economics Explained. AI Debt Needs Quantified. Nvidia's Objective is to Broaden Compute Access, Develop AI Financing, Grow Neoclouds.",
+    "url": "https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes",
+    "published_date": "2026-07-06T21:53:44+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-07-07T11:51:40.694014+00:00"
+  },
+  {
+    "title": "A global workspace in language models",
+    "authors": [
+      "wesg"
+    ],
+    "organization": "LessWrong",
+    "abstract": "[This is the blog post for our new paper Verbalizable Representations Form a Global Workspace in Language Models Readers might also be interested in:…",
+    "url": "https://www.lesswrong.com/posts/3PaLrzxagpbnNtPLT/a-global-workspace-in-language-models",
+    "published_date": "2026-07-06T18:04:38.184000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-07-07T11:51:51.950297+00:00"
   },
   {
     "title": "Pragmatic FDT, and predictors as game theory",
@@ -32,7 +71,7 @@
     "published_date": "2026-07-03T13:22:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-06T12:48:39.732954+00:00"
+    "fetched_at": "2026-07-07T11:51:37.277660+00:00"
   },
   {
     "title": "Meta Compute: Everyone Wants To Be A Neocloud",
@@ -45,7 +84,7 @@
     "published_date": "2026-07-02T22:18:08+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-06T12:48:42.330557+00:00"
+    "fetched_at": "2026-07-07T11:51:40.694043+00:00"
   },
   {
     "title": "“AI Futurism Reading List” by Alexa Pan",
@@ -58,7 +97,7 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-06T12:48:39.384635+00:00"
+    "fetched_at": "2026-07-07T11:51:37.027134+00:00"
   },
   {
     "title": "More compute, more capability: Why AI agent evaluations need to account for test-time compute",
@@ -69,7 +108,7 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-06T12:48:53.187458+00:00"
+    "fetched_at": "2026-07-07T11:51:46.655515+00:00"
   },
   {
     "title": "Model access for third-parties — it's a big deal!",
@@ -82,7 +121,7 @@
     "published_date": "2026-07-01T13:09:34.221000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-06T12:49:01.849170+00:00"
+    "fetched_at": "2026-07-07T11:51:51.950312+00:00"
   },
   {
     "title": "Insights from table-top exercises in Europe on AI safety and cyber misuse",
@@ -93,7 +132,7 @@
     "published_date": "2026-07-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-06T12:48:57.531024+00:00"
+    "fetched_at": "2026-07-07T11:51:47.519352+00:00"
   },
   {
     "title": "SkillOpt: Agent skills as trainable parameters",
@@ -106,7 +145,7 @@
     "published_date": "2026-06-30T16:50:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-06T12:48:37.843574+00:00"
+    "fetched_at": "2026-07-07T11:51:35.559700+00:00"
   },
   {
     "title": "Introducing GeneBench-Pro",
@@ -119,30 +158,6 @@
     "published_date": "2026-06-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-06T12:48:38.666320+00:00"
-  },
-  {
-    "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
-    "authors": [
-      "Xuchao Zhang, Molly Xia, Mayukh Das, Anson Bastos, Rujia Wang, Chetan Bansal, Saravan Rajmohan"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. Memora solves this with a scalable memory system separating what’s stored from how it's retrieved. The post Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
-    "published_date": "2026-06-29T21:14:22+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-06T12:48:37.843610+00:00"
-  },
-  {
-    "title": "The Ecology of AI Risk",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jun 29, 2026 Building on the idea of studying AI using ecological and evolutionary perspectives, we propose a novel approach for assessing risk from AI using indicators derived from theoretical ecology models.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71375.html",
-    "published_date": "2026-06-29T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-06T12:48:57.531206+00:00"
+    "fetched_at": "2026-07-07T11:51:36.558762+00:00"
   }
 ]
