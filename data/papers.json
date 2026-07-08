@@ -8,20 +8,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-07T11:51:47.518537+00:00"
-  },
-  {
-    "title": "Data filtering works a lot worse than you would expect",
-    "authors": [
-      "Dohun Lee"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provided guidance and feedback throughout. TLDR Models can acquire undesirable traits from during supervised fine-tuning (SFT). A natural thing to try is to identify the data points with these traits and filter them out and retrain. To our surprise, across most of our broad OLMo SFT behaviors, data filtering often has very little effect. Most behavior targets like bold formatting, both-side framing, liberal-lean or tendency to say “your feelings are valid” are not affected much under targeted filtering. We try many standard black-box/white-box training data attribution methods to find the data to filter, including LLM autoraters, probes, activation-based methods, and gradient-based methods like EKFAC. None of them outperform random baseline on most behaviors.",
-    "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
-    "published_date": "2026-07-07T04:41:59+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-07T11:51:37.277379+00:00"
+    "fetched_at": "2026-07-08T11:06:10.662780+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -29,10 +16,56 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-07T00:00:00+00:00",
+    "published_date": "2026-07-08T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-07T11:51:47.835743+00:00"
+    "fetched_at": "2026-07-08T11:06:11.030722+00:00"
+  },
+  {
+    "title": "Data filtering works a lot worse than you would expect",
+    "authors": [
+      "Dohun Lee"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provided guidance and feedback throughout. Tweet Thread TLDR Models can acquire undesirable traits from during supervised fine-tuning (SFT). A natural thing to try is to identify the data points with these traits and filter them out and retrain. To our surprise, across most of our broad OLMo SFT behaviors, data filtering often has very little effect. Most behavior targets like bold formatting, both-side framing, liberal-lean or tendency to say “your feelings are valid” are not affected much under targeted filtering. We try many standard black-box/white-box training data attribution methods to find the data to filter, including LLM autoraters, probes, activation-based methods, and gradient-based methods like EKFAC.",
+    "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
+    "published_date": "2026-07-07T04:41:59+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-08T11:05:56.648108+00:00"
+  },
+  {
+    "title": "Finding Cloud Misconfigurations with Frontier AI: A Case Study",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "A cybersecurity exercise from AISI’s engineering team, using frontier models to test our research platform for misconfigurations.",
+    "url": "https://www.aisi.gov.uk/blog/finding-cloud-misconfigurations-with-frontier-ai-a-case-study",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-07-08T11:06:10.205643+00:00"
+  },
+  {
+    "title": "The Strategist's Dilemma: Agent-Neutral and Agent-Relative Reasons in U.S. AI Strategy",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Jul 7, 2026 Advanced artificial intelligence (AI) creates a strategist’s dilemma: U.S. leaders owe duties to their citizens and face obligations to prevent catastrophic harm to anyone. The author argues that both kinds of reasons should shape U.S. AI strategy.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4931-1.html",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-08T11:06:10.663050+00:00"
+  },
+  {
+    "title": "The Transatlantic Artificial Intelligence Calculus: U.S.–European Union and Member State AI Cooperation in an Era of Strategic Competition",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jul 7, 2026 This report provides a strategic framework for assessing the conditional value of artificial intelligence partnerships across different technological futures and presents options for transatlantic cooperation that advance U.S. strategic interests.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4754-1.html",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-08T11:06:10.663302+00:00"
   },
   {
     "title": "Nvidia GPU Debt Backstop Unleashes the AI Project Trinity: Capital, Offtake and Datacenters",
@@ -45,7 +78,7 @@
     "published_date": "2026-07-06T21:53:44+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-07T11:51:40.694014+00:00"
+    "fetched_at": "2026-07-08T11:06:00.064559+00:00"
   },
   {
     "title": "A global workspace in language models",
@@ -58,7 +91,7 @@
     "published_date": "2026-07-06T18:04:38.184000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-07T11:51:51.950297+00:00"
+    "fetched_at": "2026-07-08T11:06:15.290554+00:00"
   },
   {
     "title": "Pragmatic FDT, and predictors as game theory",
@@ -71,7 +104,7 @@
     "published_date": "2026-07-03T13:22:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-07T11:51:37.277660+00:00"
+    "fetched_at": "2026-07-08T11:05:56.648394+00:00"
   },
   {
     "title": "Meta Compute: Everyone Wants To Be A Neocloud",
@@ -84,7 +117,7 @@
     "published_date": "2026-07-02T22:18:08+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-07T11:51:40.694043+00:00"
+    "fetched_at": "2026-07-08T11:06:00.064588+00:00"
   },
   {
     "title": "“AI Futurism Reading List” by Alexa Pan",
@@ -97,7 +130,7 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-07T11:51:37.027134+00:00"
+    "fetched_at": "2026-07-08T11:05:56.091894+00:00"
   },
   {
     "title": "More compute, more capability: Why AI agent evaluations need to account for test-time compute",
@@ -108,7 +141,7 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-07T11:51:46.655515+00:00"
+    "fetched_at": "2026-07-08T11:06:10.206209+00:00"
   },
   {
     "title": "Model access for third-parties — it's a big deal!",
@@ -121,7 +154,7 @@
     "published_date": "2026-07-01T13:09:34.221000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-07T11:51:51.950312+00:00"
+    "fetched_at": "2026-07-08T11:06:15.290569+00:00"
   },
   {
     "title": "Insights from table-top exercises in Europe on AI safety and cyber misuse",
@@ -132,32 +165,6 @@
     "published_date": "2026-07-01T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-07T11:51:47.519352+00:00"
-  },
-  {
-    "title": "SkillOpt: Agent skills as trainable parameters",
-    "authors": [
-      "Yifan Yang, Xuemei Gao, Qi Dai, Bei Liu, Kai Qiu, Dongdong Chen, Chong Luo"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights. The post SkillOpt: Agent skills as trainable parameters appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
-    "published_date": "2026-06-30T16:50:02+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-07T11:51:35.559700+00:00"
-  },
-  {
-    "title": "Introducing GeneBench-Pro",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'Introducing GeneBench-Pro'. Published 2026-06-30. Authors: OpenAI News.",
-    "url": "https://openai.com/index/introducing-genebench-pro",
-    "published_date": "2026-06-30T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-07T11:51:36.558762+00:00"
+    "fetched_at": "2026-07-08T11:06:10.664121+00:00"
   }
 ]
