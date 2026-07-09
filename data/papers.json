@@ -8,7 +8,31 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-08T11:06:10.662780+00:00"
+    "fetched_at": "2026-07-09T12:04:35.863102+00:00"
+  },
+  {
+    "title": "Announcing our $160M grant from Coefficient Giving",
+    "authors": [
+      "Geoffrey Irving"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "We are excited to announce that Resolution ( fka Sequent ) has a $160M grant from Coefficient Giving (cG) to put rigorous alignment research on a (closer to) even footing with the frontier labs. We will use it to accelerate progress towards higher-confidence alignment, or to find evidence and obstacles showing why alignment is hard. The grant is structured as a $108M base plus $52M conditional on a combination of hiring success and compute needs. The base includes a small regranting budget, which we plan to use both for high-quality non-Resolution alignment research and to give back to shared community infrastructure that we depend on. Coefficient Giving will be our sole funder to start (thank you!); our goal is to raise larger-scale funds from a mixture of sources once we demonstrate success with semiautomated alignment theory and empirics.",
+    "url": "https://www.alignmentforum.org/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving",
+    "published_date": "2026-07-09T07:58:47+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-09T12:04:20.823765+00:00"
+  },
+  {
+    "title": "Modular Pretraining Enables Access Control",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Research from Anthropic titled 'Modular Pretraining Enables Access Control'. Published 2026-07-09.",
+    "url": "https://alignment.anthropic.com/2026/modular-pretraining/",
+    "published_date": "2026-07-09T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-07-09T12:04:26.886459+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -16,10 +40,62 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-08T00:00:00+00:00",
+    "published_date": "2026-07-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-08T11:06:11.030722+00:00"
+    "fetched_at": "2026-07-09T12:04:36.377012+00:00"
+  },
+  {
+    "title": "Notes on technical alignment via human-like social drives",
+    "authors": [
+      "Steven Byrnes"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "1. Frontmatter 1.1 Backstory for this post As discussed in Intro to Brain-Like-AGI Safety , I’m working on the technical alignment problem for a hypothetical future “brain-like AGI”, with a particular focus on treating human innate social and moral drives as a possible jumping-off point for our technical alignment approach. After all, if it’s possible for humans to do stuff that ultimately leads to a good future, then it’s probably also possible for sufficiently human-like AGIs to do stuff that ultimately leads to a good future. Or if it’s not possible for humans to do stuff that ultimately leads to a good future, then we’re screwed no matter what. But assuming it’s possible, the “sufficiently human-like AGIs” would certainly need to have good prosocial motivations.",
+    "url": "https://www.alignmentforum.org/posts/rKdS7i4StaMmFzYRo/notes-on-technical-alignment-via-human-like-social-drives",
+    "published_date": "2026-07-08T18:30:22+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-09T12:04:20.824487+00:00"
+  },
+  {
+    "title": "Flint: A visualization language for the AI era",
+    "authors": [
+      "Chenglong Wang, Alper Sarikaya, Scott Tsukamaki, Michel Galley, Jianfeng Gao"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications. The post Flint: A visualization language for the AI era appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
+    "published_date": "2026-07-08T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-07-09T12:04:18.264828+00:00"
+  },
+  {
+    "title": "Separating signal from noise in coding evaluations",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "published_date": "2026-07-08T13:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-07-09T12:04:19.410344+00:00"
+  },
+  {
+    "title": "Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Note: the modeling assumptions and conclusion are Thomas Kwa’s opinion, and others at METR disagree. 1 Also, the math was checked by Claude but not a second human. Introduction Anthropic’s RSI blog post reported that in Q2 2026, Anthropic contributors merged 8× as much code per day as in the 2021-2024 period. What does this imply about the factor by which a researcher’s total effective output increased — the (serial) researcher uplift 2 ? Of course, 8× more code doesn’t mean 8× more research, as coding is only part of the job. However, if we assume each line of code (LoC) has equivalent quality and verbosity to pre-2025 code and make standard economic modeling assumptions, we can conclude a surprising amount: all models predict researcher uplift at Anthropic from coding agents alone is &gt;2×.",
+    "url": "https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/",
+    "published_date": "2026-07-08T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-07-09T12:04:23.516543+00:00"
   },
   {
     "title": "Data filtering works a lot worse than you would expect",
@@ -32,7 +108,7 @@
     "published_date": "2026-07-07T04:41:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-08T11:05:56.648108+00:00"
+    "fetched_at": "2026-07-09T12:04:20.824739+00:00"
   },
   {
     "title": "Finding Cloud Misconfigurations with Frontier AI: A Case Study",
@@ -43,7 +119,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-08T11:06:10.205643+00:00"
+    "fetched_at": "2026-07-09T12:04:35.438952+00:00"
   },
   {
     "title": "The Strategist's Dilemma: Agent-Neutral and Agent-Relative Reasons in U.S. AI Strategy",
@@ -54,7 +130,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-08T11:06:10.663050+00:00"
+    "fetched_at": "2026-07-09T12:04:35.863341+00:00"
   },
   {
     "title": "The Transatlantic Artificial Intelligence Calculus: U.S.–European Union and Member State AI Cooperation in an Era of Strategic Competition",
@@ -65,7 +141,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-08T11:06:10.663302+00:00"
+    "fetched_at": "2026-07-09T12:04:35.863574+00:00"
   },
   {
     "title": "Nvidia GPU Debt Backstop Unleashes the AI Project Trinity: Capital, Offtake and Datacenters",
@@ -78,7 +154,7 @@
     "published_date": "2026-07-06T21:53:44+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-08T11:06:00.064559+00:00"
+    "fetched_at": "2026-07-09T12:04:24.409745+00:00"
   },
   {
     "title": "A global workspace in language models",
@@ -91,7 +167,7 @@
     "published_date": "2026-07-06T18:04:38.184000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-08T11:06:15.290554+00:00"
+    "fetched_at": "2026-07-09T12:04:42.342965+00:00"
   },
   {
     "title": "Pragmatic FDT, and predictors as game theory",
@@ -104,7 +180,7 @@
     "published_date": "2026-07-03T13:22:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-08T11:05:56.648394+00:00"
+    "fetched_at": "2026-07-09T12:04:20.825114+00:00"
   },
   {
     "title": "Meta Compute: Everyone Wants To Be A Neocloud",
@@ -117,7 +193,7 @@
     "published_date": "2026-07-02T22:18:08+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-08T11:06:00.064588+00:00"
+    "fetched_at": "2026-07-09T12:04:24.409772+00:00"
   },
   {
     "title": "“AI Futurism Reading List” by Alexa Pan",
@@ -130,7 +206,7 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-08T11:05:56.091894+00:00"
+    "fetched_at": "2026-07-09T12:04:20.067621+00:00"
   },
   {
     "title": "More compute, more capability: Why AI agent evaluations need to account for test-time compute",
@@ -141,30 +217,6 @@
     "published_date": "2026-07-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-08T11:06:10.206209+00:00"
-  },
-  {
-    "title": "Model access for third-parties — it's a big deal!",
-    "authors": [
-      "Cleo Nardo"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Over time, there might be an increasingly large gap between insider model access and outsider model access. By insiders, I mean employees at the fron…",
-    "url": "https://www.lesswrong.com/posts/RuGZ5tMdqpnraJahJ/model-access-for-third-parties-it-s-a-big-deal",
-    "published_date": "2026-07-01T13:09:34.221000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-08T11:06:15.290569+00:00"
-  },
-  {
-    "title": "Insights from table-top exercises in Europe on AI safety and cyber misuse",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jul 1, 2026 This report presents findings from table-top exercises with senior policymakers in Germany, the Netherlands, and France, identifying governance gaps and capability priorities for responding to AI-enabled cyberattack crises.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA5082-1.html",
-    "published_date": "2026-07-01T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-08T11:06:10.664121+00:00"
+    "fetched_at": "2026-07-09T12:04:35.439519+00:00"
   }
 ]
