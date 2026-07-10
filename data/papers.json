@@ -8,7 +8,94 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-09T12:04:35.863102+00:00"
+    "fetched_at": "2026-07-10T11:52:37.171751+00:00"
+  },
+  {
+    "title": "Value generalisation: value correction",
+    "authors": [
+      "Stuart_Armstrong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I firmly believe that value generalisation [1] is the key to AI Alignment. That, indeed, it is necessary and almost sufficient for alignment. But I won't be arguing that grand point today; instead, I'll focus on a specific RL example of an agent that displays value correction: it realises its current reward function is (probably) incorrect, and acts to correct it. Thus there are: The initial situation, in distribution, where the human displays how to maximise the true reward. The out of distribution situation where the agent finds a hack to exploit its reward function estimate, and turns against what we wanted it to do. The value error detection stage where the agent realises that its reward function estimate is probably incorrect. The value correction stage where the agent corrects its reward function back to the original true reward.",
+    "url": "https://www.alignmentforum.org/posts/iPyJfD9Jyxj6Jfdws/value-generalisation-value-correction",
+    "published_date": "2026-07-10T07:56:04+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-10T11:52:23.059504+00:00"
+  },
+  {
+    "title": "How robust are natural language autoencoders to initialization?",
+    "authors": [
+      "michaelzhang"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Natural language autoencoders are meant to take in an LLM's activation vector and describe in plain text what the model is thinking. However, its training data collection involves asking Claude to guess what a model might be thinking. How robust are NLAs to these guesses? We change Claude's guesses in various ways and measure the impact on the NLA's statements as well as on reconstruction accuracy. We show that Qwen2.5-7B NLAs have some robustness to irrelevant statements and prevailing sentiments in Claude's guesses. However, if an NLA is initialized with entirely implausible statements, it can nevertheless achieve nearly the same reconstruction accuracy as plausible-initialized NLAs while emitting 99.3% implausible statements. RL does train implausible-initialized NLAs to be slightly more plausible (increasing from 0.08% to 0.7%). But the plausibility of plausible-initialized NLAs decreases from 21% at initialization to 7.6% at the end of training.",
+    "url": "https://www.alignmentforum.org/posts/LQXWiF8PyJ5ojNsEv/how-robust-are-natural-language-autoencoders-to",
+    "published_date": "2026-07-10T00:43:29+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-10T11:52:23.059699+00:00"
+  },
+  {
+    "title": "Beyond Targeting",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
+    "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
+    "published_date": "2026-07-10T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-07-10T11:52:37.310002+00:00"
+  },
+  {
+    "title": "Assessing the Risk of AI-Enabled Computer Worms",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
+    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
+    "published_date": "2026-07-10T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-07-10T11:52:37.476093+00:00"
+  },
+  {
+    "title": "The Future of Meta Superintelligence: A 1 Year Progress Update",
+    "authors": [
+      "Max Kan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "A top tier RL environment startup spawns out of thin air, the most aggressive compute ramp we've ever seen, 2000km+ scale-across, and some advice for Google DeepMind",
+    "url": "https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence",
+    "published_date": "2026-07-09T19:16:14+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-07-10T11:52:26.238055+00:00"
+  },
+  {
+    "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
+    "authors": [
+      "Kenji Takeda, Haiyu Dong, Jonathan Weyn, Amit Misra, Matt Corey, Kevin White, Shannon Monroe, Juan M. Lavista Ferres, Ashley Llorens, Bonnie Kruft"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications. The post Aurora 1.5: Extending open foundation models for weather and Earth-system applications appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
+    "published_date": "2026-07-09T16:46:22+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-07-10T11:52:20.973451+00:00"
+  },
+  {
+    "title": "AI 2040: Plan A",
+    "authors": [
+      "Daniel Kokotajlo"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done!&nbsp; It’s called&nbsp; AI 2040: Plan A. It’s called&nbsp; Plan A &nbsp;because it’s a recommendation,&nbsp; not&nbsp; a prediction. It’s what we think&nbsp; should&nbsp; happen, not what&nbsp; will&nbsp; happen, though we think it’s plausible enough to aim for. It’s called&nbsp; AI 2040 &nbsp;because in it, they delay the creation of superintelligence to 2040. It would have happened much sooner (in 2030, to be precise) if not for decisive action on the part of the US and Chinese governments.&nbsp; As with AI 2027, summaries don’t really do it justice, since the whole point was to be detailed and comprehensive and work things out step by step rather than rely on high-level abstractions like doom or utopia.&nbsp; Read the scenario at&nbsp; ai-2040.com .",
+    "url": "https://www.alignmentforum.org/posts/pFzctpJBat95SrCyC/ai-2040-plan-a",
+    "published_date": "2026-07-09T16:25:14+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-10T11:52:23.059741+00:00"
   },
   {
     "title": "Announcing our $160M grant from Coefficient Giving",
@@ -21,29 +108,42 @@
     "published_date": "2026-07-09T07:58:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-09T12:04:20.823765+00:00"
+    "fetched_at": "2026-07-10T11:52:23.059797+00:00"
   },
   {
     "title": "Modular Pretraining Enables Access Control",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Modular Pretraining Enables Access Control'. Published 2026-07-09.",
-    "url": "https://alignment.anthropic.com/2026/modular-pretraining/",
-    "published_date": "2026-07-09T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-09T12:04:26.886459+00:00"
+    "authors": [
+      "E.Roland"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Full author list: Ethan Roland * , Murat Cubuktepe * , Erick Martinez * , Stijn Servaes, Keenan Pepper, Mike Vaiana, Diogo Schwerz de Lucena, Judd Rosenblatt, Addie Foote, Cem Anil, Alex Cloud; *Equal contribution tldr: Frontier AI models have knowledge that could be misused for nefarious purposes. To address this risk, we introduce Gradient Routed Auxiliary Modules (GRAM), a method for isolating dangerous knowledge to specific modules within a language model. These modules can be switched on or off to control what the model knows, making it possible to restrict or extend access to the most sensitive model capabilities based on user need and trust. In our experiments, we find evidence that a single model trained in this way can approximate multiple models, each trained with a different category of dangerous data filtered out, and this ability holds for models ranging from 50M to 5B parameters.",
+    "url": "https://www.alignmentforum.org/posts/43vKjWuH4goLwrFHA/modular-pretraining-enables-access-control",
+    "published_date": "2026-07-09T00:03:25+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-10T11:52:23.059970+00:00"
   },
   {
-    "title": "Assessing the Risk of AI-Enabled Computer Worms",
+    "title": "High Bandwidth Memory: What It Is and Why It Matters",
     "authors": [],
-    "organization": "GovAI",
-    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
-    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
+    "organization": "RAND",
+    "abstract": "Expert Insights Jul 9, 2026 High Bandwidth Memory (HBM) is a critical enabling technology for artificial intelligence. The authors of this paper synthesize analysis of the HBM ecosystem for researchers and policymakers.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4748-1.html",
     "published_date": "2026-07-09T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-09T12:04:36.377012+00:00"
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-10T11:52:37.171962+00:00"
+  },
+  {
+    "title": "Do Robots Lure Us to War? The Impact of the Robotic Revolution on the Propensity for Armed Conflict",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jul 9, 2026 The author developed a framework to understand the decision space for the use of force in the presence of emerging technology and applied it to autonomous weapons systems.",
+    "url": "https://www.rand.org/pubs/rgs_dissertations/RGSDA5114-1.html",
+    "published_date": "2026-07-09T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-10T11:52:37.172157+00:00"
   },
   {
     "title": "Notes on technical alignment via human-like social drives",
@@ -56,7 +156,7 @@
     "published_date": "2026-07-08T18:30:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-09T12:04:20.824487+00:00"
+    "fetched_at": "2026-07-10T11:52:23.060714+00:00"
   },
   {
     "title": "Flint: A visualization language for the AI era",
@@ -69,7 +169,7 @@
     "published_date": "2026-07-08T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-09T12:04:18.264828+00:00"
+    "fetched_at": "2026-07-10T11:52:20.973479+00:00"
   },
   {
     "title": "Separating signal from noise in coding evaluations",
@@ -82,7 +182,7 @@
     "published_date": "2026-07-08T13:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-09T12:04:19.410344+00:00"
+    "fetched_at": "2026-07-10T11:52:22.028384+00:00"
   },
   {
     "title": "Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
@@ -95,7 +195,7 @@
     "published_date": "2026-07-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-09T12:04:23.516543+00:00"
+    "fetched_at": "2026-07-10T11:52:25.493143+00:00"
   },
   {
     "title": "Data filtering works a lot worse than you would expect",
@@ -108,7 +208,7 @@
     "published_date": "2026-07-07T04:41:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-09T12:04:20.824739+00:00"
+    "fetched_at": "2026-07-10T11:52:23.060968+00:00"
   },
   {
     "title": "Finding Cloud Misconfigurations with Frontier AI: A Case Study",
@@ -119,7 +219,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-09T12:04:35.438952+00:00"
+    "fetched_at": "2026-07-10T11:52:36.658713+00:00"
   },
   {
     "title": "The Strategist's Dilemma: Agent-Neutral and Agent-Relative Reasons in U.S. AI Strategy",
@@ -130,7 +230,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-09T12:04:35.863341+00:00"
+    "fetched_at": "2026-07-10T11:52:37.172355+00:00"
   },
   {
     "title": "The Transatlantic Artificial Intelligence Calculus: U.S.–European Union and Member State AI Cooperation in an Era of Strategic Competition",
@@ -141,7 +241,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-09T12:04:35.863574+00:00"
+    "fetched_at": "2026-07-10T11:52:37.172557+00:00"
   },
   {
     "title": "Nvidia GPU Debt Backstop Unleashes the AI Project Trinity: Capital, Offtake and Datacenters",
@@ -154,7 +254,7 @@
     "published_date": "2026-07-06T21:53:44+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-09T12:04:24.409745+00:00"
+    "fetched_at": "2026-07-10T11:52:26.238102+00:00"
   },
   {
     "title": "A global workspace in language models",
@@ -167,7 +267,7 @@
     "published_date": "2026-07-06T18:04:38.184000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-09T12:04:42.342965+00:00"
+    "fetched_at": "2026-07-10T11:52:41.339947+00:00"
   },
   {
     "title": "Pragmatic FDT, and predictors as game theory",
@@ -180,43 +280,6 @@
     "published_date": "2026-07-03T13:22:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-09T12:04:20.825114+00:00"
-  },
-  {
-    "title": "Meta Compute: Everyone Wants To Be A Neocloud",
-    "authors": [
-      "Jeremie Eliahou Ontiveros"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Zuck Takes Plan B? SpaceX 2.0, Bedrock 2.0, MSL Isn't Giving Up, Scaling RecSys by 10x... ClusterMAX ranking coming soon?",
-    "url": "https://newsletter.semianalysis.com/p/meta-compute-everyone-wants-to-be",
-    "published_date": "2026-07-02T22:18:08+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-09T12:04:24.409772+00:00"
-  },
-  {
-    "title": "“AI Futurism Reading List” by Alexa Pan",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "We recently ran a strategy fellowship through Astra. As part of this, we ran a reading group for our fellows on some of the topics that we think are important for thinking about AI futurism (key dynamics in AI development, existential risk from AI, and approaches to mitigating risk). This post contains the reading list we used. The selection reflects my opinionated views of the field, focuses particularly on topics we happen to focus on at Redwood, and doesn’t aim to be comprehensive. I selected readings that I thought described conceptual frames and hypotheses in AI futurism that are regularly used by me and my coworkers. I think it is a good exercise to consider whether you agree with their theses and ways in which their predictions have fared well or badly in light of recent evidence. If you have suggestions for this reading list, please let me know.",
-    "url": "https://blog.redwoodresearch.org/p/ai-futurism-reading-list",
-    "published_date": "2026-07-02T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-09T12:04:20.067621+00:00"
-  },
-  {
-    "title": "More compute, more capability: Why AI agent evaluations need to account for test-time compute",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Standard evaluations cap how much compute AI agents can use. We show that raising those caps changes measured capability, the difficulty of tasks agents can solve, and how fast the frontier appears to move.",
-    "url": "https://www.aisi.gov.uk/blog/more-compute-more-capability-why-ai-agent-evals-need-to-account-for-test-time-compute",
-    "published_date": "2026-07-02T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-09T12:04:35.439519+00:00"
+    "fetched_at": "2026-07-10T11:52:23.061240+00:00"
   }
 ]
