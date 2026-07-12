@@ -8,7 +8,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-11T10:15:50.420742+00:00"
+    "fetched_at": "2026-07-12T10:35:18.706246+00:00"
   },
   {
     "title": "Beyond Targeting",
@@ -16,10 +16,10 @@
     "organization": "CSET",
     "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
     "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
-    "published_date": "2026-07-11T00:00:00+00:00",
+    "published_date": "2026-07-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-07-11T10:15:50.711835+00:00"
+    "fetched_at": "2026-07-12T10:35:18.999500+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -27,10 +27,23 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-11T00:00:00+00:00",
+    "published_date": "2026-07-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-11T10:15:50.940161+00:00"
+    "fetched_at": "2026-07-12T10:35:19.234505+00:00"
+  },
+  {
+    "title": "The current bottleneck is political will, not research",
+    "authors": [
+      "Charbel-Raphaël"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Abstract: We already know enough to act. I wish we were in a world where research was the bottleneck, but the main constraint on AI safety is no longer a shortage of clever policy ideas: best practices already exist and are not being applied or enforced, and a serious international (or even just national) regulatory regime would probably cut most of the risk. They are not applied because awareness is low. The people who narrate and enforce AI policy mostly do not believe the problem exists. I estimate that a majority of the top ~100–1,000 most influential policymakers worldwide have never had a single serious conversation about catastrophic risk, and this is the main reason they are not worried [1] . Even among the civil-society organizations that showed up to the UN Global Dialogue, exactly one of the 1,534 written submissions mentions \"takeover\", and less than 1% mention x-risks.",
+    "url": "https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research",
+    "published_date": "2026-07-11T21:56:26+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-12T10:35:07.691327+00:00"
   },
   {
     "title": "Total research transparency would be nice",
@@ -43,7 +56,7 @@
     "published_date": "2026-07-10T14:02:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-07-11T10:15:44.666676+00:00"
+    "fetched_at": "2026-07-12T10:35:12.012181+00:00"
   },
   {
     "title": "Value generalisation: value correction",
@@ -56,7 +69,7 @@
     "published_date": "2026-07-10T07:56:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-11T10:15:41.428009+00:00"
+    "fetched_at": "2026-07-12T10:35:07.691503+00:00"
   },
   {
     "title": "How robust are natural language autoencoders to initialization?",
@@ -69,7 +82,7 @@
     "published_date": "2026-07-10T00:43:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-11T10:15:41.428223+00:00"
+    "fetched_at": "2026-07-12T10:35:07.691693+00:00"
   },
   {
     "title": "The Future of Meta Superintelligence: A 1 Year Progress Update",
@@ -82,7 +95,7 @@
     "published_date": "2026-07-09T19:16:14+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-11T10:15:44.107680+00:00"
+    "fetched_at": "2026-07-12T10:35:11.388969+00:00"
   },
   {
     "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
@@ -95,7 +108,7 @@
     "published_date": "2026-07-09T16:46:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-11T10:15:39.554726+00:00"
+    "fetched_at": "2026-07-12T10:35:05.655920+00:00"
   },
   {
     "title": "AI 2040: Plan A",
@@ -108,7 +121,7 @@
     "published_date": "2026-07-09T16:25:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-11T10:15:41.428264+00:00"
+    "fetched_at": "2026-07-12T10:35:07.691734+00:00"
   },
   {
     "title": "Announcing our $160M grant from Coefficient Giving",
@@ -121,7 +134,7 @@
     "published_date": "2026-07-09T07:58:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-11T10:15:41.428319+00:00"
+    "fetched_at": "2026-07-12T10:35:07.691790+00:00"
   },
   {
     "title": "Modular Pretraining Enables Access Control",
@@ -134,7 +147,7 @@
     "published_date": "2026-07-09T00:03:25+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-11T10:15:41.428477+00:00"
+    "fetched_at": "2026-07-12T10:35:07.691952+00:00"
   },
   {
     "title": "High Bandwidth Memory: What It Is and Why It Matters",
@@ -145,7 +158,7 @@
     "published_date": "2026-07-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-11T10:15:50.420941+00:00"
+    "fetched_at": "2026-07-12T10:35:18.706452+00:00"
   },
   {
     "title": "Do Robots Lure Us to War? The Impact of the Robotic Revolution on the Propensity for Armed Conflict",
@@ -156,7 +169,7 @@
     "published_date": "2026-07-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-11T10:15:50.421146+00:00"
+    "fetched_at": "2026-07-12T10:35:18.706644+00:00"
   },
   {
     "title": "Notes on technical alignment via human-like social drives",
@@ -169,7 +182,7 @@
     "published_date": "2026-07-08T18:30:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-11T10:15:41.429248+00:00"
+    "fetched_at": "2026-07-12T10:35:07.692701+00:00"
   },
   {
     "title": "Flint: A visualization language for the AI era",
@@ -182,7 +195,7 @@
     "published_date": "2026-07-08T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-11T10:15:39.554754+00:00"
+    "fetched_at": "2026-07-12T10:35:05.655948+00:00"
   },
   {
     "title": "Separating signal from noise in coding evaluations",
@@ -195,7 +208,7 @@
     "published_date": "2026-07-08T13:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-11T10:15:40.444474+00:00"
+    "fetched_at": "2026-07-12T10:35:06.521136+00:00"
   },
   {
     "title": "Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
@@ -208,7 +221,7 @@
     "published_date": "2026-07-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-11T10:15:43.361837+00:00"
+    "fetched_at": "2026-07-12T10:35:10.473683+00:00"
   },
   {
     "title": "Data filtering works a lot worse than you would expect",
@@ -221,7 +234,7 @@
     "published_date": "2026-07-07T04:41:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-11T10:15:41.429493+00:00"
+    "fetched_at": "2026-07-12T10:35:07.692942+00:00"
   },
   {
     "title": "Finding Cloud Misconfigurations with Frontier AI: A Case Study",
@@ -232,7 +245,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-11T10:15:50.083969+00:00"
+    "fetched_at": "2026-07-12T10:35:18.205427+00:00"
   },
   {
     "title": "The Strategist's Dilemma: Agent-Neutral and Agent-Relative Reasons in U.S. AI Strategy",
@@ -243,7 +256,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-11T10:15:50.421343+00:00"
+    "fetched_at": "2026-07-12T10:35:18.706840+00:00"
   },
   {
     "title": "The Transatlantic Artificial Intelligence Calculus: U.S.–European Union and Member State AI Cooperation in an Era of Strategic Competition",
@@ -254,7 +267,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-11T10:15:50.421540+00:00"
+    "fetched_at": "2026-07-12T10:35:18.707040+00:00"
   },
   {
     "title": "Nvidia GPU Debt Backstop Unleashes the AI Project Trinity: Capital, Offtake and Datacenters",
@@ -267,7 +280,7 @@
     "published_date": "2026-07-06T21:53:44+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-11T10:15:44.107726+00:00"
+    "fetched_at": "2026-07-12T10:35:11.389016+00:00"
   },
   {
     "title": "A global workspace in language models",
@@ -280,6 +293,6 @@
     "published_date": "2026-07-06T18:04:38.184000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-11T10:15:55.070118+00:00"
+    "fetched_at": "2026-07-12T10:35:23.169659+00:00"
   }
 ]
