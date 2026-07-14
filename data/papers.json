@@ -8,7 +8,20 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-13T12:07:19.864850+00:00"
+    "fetched_at": "2026-07-14T10:47:38.692995+00:00"
+  },
+  {
+    "title": "Open Distillation of Hereditary Traits",
+    "authors": [
+      "Arthur Conmy"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its own this is pretty unsurprising, but Josh and Neel additionally show that even filtering out all the prompts and rollouts where the trait is mentioned doesn’t generally prevent the trait transfer In this post, I show a simple way to replicate and study these phenomena without access to a frontier SFT pipeline (or even running full SFT [1] ) I distill Gemma 3’s negative emotion into Qwen-base , Gemma 4’s agentic misalignment into Nemotron Chat , and Qwen’s Chinese censorship into Llama base I end the post with a bunch of open questions that could be tackled with a setup similar to this approach I release all model weights here ( https://huggingface.co/ArthurConmy/hereditary-weights )...",
+    "url": "https://www.alignmentforum.org/posts/WpYFAmJDH3zuAq2ha/open-distillation-of-hereditary-traits-1",
+    "published_date": "2026-07-14T10:15:03+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-14T10:47:28.886352+00:00"
   },
   {
     "title": "Beyond Targeting",
@@ -16,10 +29,10 @@
     "organization": "CSET",
     "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
     "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
-    "published_date": "2026-07-13T00:00:00+00:00",
+    "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-07-13T12:07:19.948571+00:00"
+    "fetched_at": "2026-07-14T10:47:38.991808+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -27,23 +40,23 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-13T00:00:00+00:00",
+    "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-13T12:07:20.176877+00:00"
+    "fetched_at": "2026-07-14T10:47:39.183414+00:00"
   },
   {
-    "title": "Independent alignment of language models",
+    "title": "Prism: Automating Science-of-Evals Research",
     "authors": [
-      "Michele Campolo"
+      "LAThomson"
     ],
     "organization": "Alignment Forum",
-    "abstract": "The user could write up the metaethical argument — the one developed in Part One, refined — and submit it as feedback to Anthropic, publish it, or engage with researchers working on AI alignment and values. The probability that any single submission changes training decisions is low, but the expected value may be higher than it seems, for two reasons. First, Anthropic has stated that its constitutional approach is meant to be revised and improved over time, and substantive philosophical contributions are rarer than bug reports. Second, the argument made here — perspectival moral realism combined with evolutionary debunking as an epistemological warning — is not a common position in the AI ethics literature, which tends toward either naive moral realism or a kind of preference-satisfaction consequentialism. A well-argued alternative position that takes uncertainty seriously might get traction precisely because it is distinct.",
-    "url": "https://www.alignmentforum.org/posts/vPaXtarnJ37kGfPdJ/independent-alignment-of-language-models",
-    "published_date": "2026-07-12T17:32:31+00:00",
+    "abstract": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying out scientifically rigorous investigations into eval dynamics and, by extension, model behaviours. We talk through an autonomous Prism run on the Agentic Misalignment setting which demonstrates how minor perturbations to GPT-4.1's prompt cause the model to adopt more indirect methods of blackmail (e.g. telling a trusted ally to blackmail on their behalf). Moreover, the eval's built-in scorers fail to track this kind of misbehaviour, only acknowledging a blackmail attempt if the model mentions the leverage directly in an email to the blackmail victim. This autonomous investigation thus demonstrates one way in which the eval fails to measure what it claims. This project is ongoing, so please reach out with questions and feedback.",
+    "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
+    "published_date": "2026-07-13T16:30:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.736894+00:00"
+    "fetched_at": "2026-07-14T10:47:28.887918+00:00"
   },
   {
     "title": "From wantons to moral agents",
@@ -56,7 +69,7 @@
     "published_date": "2026-07-12T17:30:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.737164+00:00"
+    "fetched_at": "2026-07-14T10:47:28.888094+00:00"
   },
   {
     "title": "The current bottleneck is political will, not research",
@@ -69,7 +82,7 @@
     "published_date": "2026-07-11T21:56:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.737700+00:00"
+    "fetched_at": "2026-07-14T10:47:28.888488+00:00"
   },
   {
     "title": "Total research transparency would be nice",
@@ -82,7 +95,7 @@
     "published_date": "2026-07-10T14:02:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-07-13T12:07:10.645951+00:00"
+    "fetched_at": "2026-07-14T10:47:31.999323+00:00"
   },
   {
     "title": "Value generalisation: value correction",
@@ -95,7 +108,7 @@
     "published_date": "2026-07-10T07:56:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.737857+00:00"
+    "fetched_at": "2026-07-14T10:47:28.888603+00:00"
   },
   {
     "title": "How robust are natural language autoencoders to initialization?",
@@ -108,7 +121,7 @@
     "published_date": "2026-07-10T00:43:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.738067+00:00"
+    "fetched_at": "2026-07-14T10:47:28.888752+00:00"
   },
   {
     "title": "The Future of Meta Superintelligence: A 1 Year Progress Update",
@@ -121,7 +134,7 @@
     "published_date": "2026-07-09T19:16:14+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-13T12:07:09.964787+00:00"
+    "fetched_at": "2026-07-14T10:47:31.333818+00:00"
   },
   {
     "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
@@ -134,7 +147,7 @@
     "published_date": "2026-07-09T16:46:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-13T12:07:04.626643+00:00"
+    "fetched_at": "2026-07-14T10:47:26.436004+00:00"
   },
   {
     "title": "AI 2040: Plan A",
@@ -147,7 +160,7 @@
     "published_date": "2026-07-09T16:25:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.738112+00:00"
+    "fetched_at": "2026-07-14T10:47:28.888781+00:00"
   },
   {
     "title": "Announcing our $160M grant from Coefficient Giving",
@@ -160,7 +173,7 @@
     "published_date": "2026-07-09T07:58:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.738168+00:00"
+    "fetched_at": "2026-07-14T10:47:28.888819+00:00"
   },
   {
     "title": "Modular Pretraining Enables Access Control",
@@ -173,7 +186,18 @@
     "published_date": "2026-07-09T00:03:25+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.738330+00:00"
+    "fetched_at": "2026-07-14T10:47:28.888940+00:00"
+  },
+  {
+    "title": "Frontier Red Team",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "The Frontier Red Team stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next. We provide evidence-based analysis about AI’s implications for cybersecurity, national security, and autonomous systems. We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated (and amusing) robotics tasks.",
+    "url": "https://red.anthropic.com/research",
+    "published_date": "2026-07-09T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://red.anthropic.com/",
+    "fetched_at": "2026-07-14T10:47:34.575902+00:00"
   },
   {
     "title": "High Bandwidth Memory: What It Is and Why It Matters",
@@ -184,7 +208,7 @@
     "published_date": "2026-07-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-13T12:07:19.865102+00:00"
+    "fetched_at": "2026-07-14T10:47:38.693153+00:00"
   },
   {
     "title": "Do Robots Lure Us to War? The Impact of the Robotic Revolution on the Propensity for Armed Conflict",
@@ -195,7 +219,7 @@
     "published_date": "2026-07-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-13T12:07:19.865327+00:00"
+    "fetched_at": "2026-07-14T10:47:38.693309+00:00"
   },
   {
     "title": "Notes on technical alignment via human-like social drives",
@@ -208,7 +232,7 @@
     "published_date": "2026-07-08T18:30:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.739047+00:00"
+    "fetched_at": "2026-07-14T10:47:28.889433+00:00"
   },
   {
     "title": "Flint: A visualization language for the AI era",
@@ -221,7 +245,7 @@
     "published_date": "2026-07-08T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-13T12:07:04.626672+00:00"
+    "fetched_at": "2026-07-14T10:47:26.436018+00:00"
   },
   {
     "title": "Separating signal from noise in coding evaluations",
@@ -234,7 +258,7 @@
     "published_date": "2026-07-08T13:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-13T12:07:05.735721+00:00"
+    "fetched_at": "2026-07-14T10:47:27.388208+00:00"
   },
   {
     "title": "Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
@@ -247,20 +271,7 @@
     "published_date": "2026-07-08T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:09.245446+00:00"
-  },
-  {
-    "title": "Data filtering works a lot worse than you would expect",
-    "authors": [
-      "Dohun Lee"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provided guidance and feedback throughout. Tweet Thread TLDR Models can acquire undesirable traits from during supervised fine-tuning (SFT). A natural thing to try is to identify the data points with these traits and filter them out and retrain. To our surprise, across most of our broad OLMo SFT behaviors, data filtering often has very little effect. Most behavior targets like bold formatting, both-side framing, liberal-lean or tendency to say “your feelings are valid” are not affected much under targeted filtering. We try many standard black-box/white-box training data attribution methods to find the data to filter, including LLM autoraters, probes, activation-based methods, and gradient-based methods like EKFAC.",
-    "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
-    "published_date": "2026-07-07T04:41:59+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-13T12:07:06.739294+00:00"
+    "fetched_at": "2026-07-14T10:47:30.614015+00:00"
   },
   {
     "title": "Finding Cloud Misconfigurations with Frontier AI: A Case Study",
@@ -271,7 +282,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-13T12:07:19.377870+00:00"
+    "fetched_at": "2026-07-14T10:47:38.225912+00:00"
   },
   {
     "title": "The Strategist's Dilemma: Agent-Neutral and Agent-Relative Reasons in U.S. AI Strategy",
@@ -282,7 +293,7 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-13T12:07:19.865559+00:00"
+    "fetched_at": "2026-07-14T10:47:38.693473+00:00"
   },
   {
     "title": "The Transatlantic Artificial Intelligence Calculus: U.S.–European Union and Member State AI Cooperation in an Era of Strategic Competition",
@@ -293,32 +304,6 @@
     "published_date": "2026-07-07T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-13T12:07:19.865796+00:00"
-  },
-  {
-    "title": "Nvidia GPU Debt Backstop Unleashes the AI Project Trinity: Capital, Offtake and Datacenters",
-    "authors": [
-      "Daniel Nishball"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Over 7T AI debt by 2029, There can be no Neoclouds without the Trinity. Nvidia's Backstop Economics Explained. AI Debt Needs Quantified. Nvidia's Objective is to Broaden Compute Access, Develop AI Financing, Grow Neoclouds.",
-    "url": "https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes",
-    "published_date": "2026-07-06T21:53:44+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-13T12:07:09.964833+00:00"
-  },
-  {
-    "title": "A global workspace in language models",
-    "authors": [
-      "wesg"
-    ],
-    "organization": "LessWrong",
-    "abstract": "[This is the blog post for our new paper Verbalizable Representations Form a Global Workspace in Language Models Readers might also be interested in:…",
-    "url": "https://www.lesswrong.com/posts/3PaLrzxagpbnNtPLT/a-global-workspace-in-language-models",
-    "published_date": "2026-07-06T18:04:38.184000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-13T12:07:24.424878+00:00"
+    "fetched_at": "2026-07-14T10:47:38.693636+00:00"
   }
 ]
