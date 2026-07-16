@@ -8,18 +8,29 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-15T10:51:34.512297+00:00"
+    "fetched_at": "2026-07-16T11:01:20.118072+00:00"
   },
   {
     "title": "Agentic Misalignment in Summer 2026",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-15.",
+    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-16.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-15T00:00:00+00:00",
+    "published_date": "2026-07-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-15T10:51:25.089697+00:00"
+    "fetched_at": "2026-07-16T11:01:10.277976+00:00"
+  },
+  {
+    "title": "Our approach to bioresilience",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-16.",
+    "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+    "published_date": "2026-07-16T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-07-16T11:01:16.618540+00:00"
   },
   {
     "title": "Beyond Targeting",
@@ -27,10 +38,10 @@
     "organization": "CSET",
     "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
     "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
-    "published_date": "2026-07-15T00:00:00+00:00",
+    "published_date": "2026-07-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-07-15T10:51:34.803057+00:00"
+    "fetched_at": "2026-07-16T11:01:20.367905+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -38,10 +49,34 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-15T00:00:00+00:00",
+    "published_date": "2026-07-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-15T10:51:34.995659+00:00"
+    "fetched_at": "2026-07-16T11:01:20.598187+00:00"
+  },
+  {
+    "title": "Why I Left Google DeepMind",
+    "authors": [
+      "TurnTrout"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Preface for LessWrong: When I think back on my most cherished memories of this community, I return to those honoring defiance in pursuit of goodness : Defying prestigious dogma and searching for raw truth; Defying social pressure, acting alone to help someone while others watch; Defying your self-expectations (your “ role ”), instead searching over lines of cause-and-effect to find a winning pathway; Defying a powerful foe’s threats, because they only threaten since people like you cave; Defying the specter of apparent impossibility because you can’t bear to lose. I cannot return to you and say “I defied and then I won.” But I’m at least here to say “I defied.” I recommend reading this article on my website since the embeds and typography work better there: click here . Why I&nbsp;left Google DeepMind In&nbsp;January, Department of&nbsp;Homeland Security (DHS) officers killed at least two people.",
+    "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
+    "published_date": "2026-07-15T17:42:46+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-16T11:01:04.384571+00:00"
+  },
+  {
+    "title": "AI as Strategist: Four Hypotheses on the Nature of Agentic Strategy",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jul 15, 2026 In this chapter, the author considers a radical future, a world in which nations pursue relative advantage, for national security, and for other national objectives guided by AI models that are mostly playing these strategy games against other models.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71419.html",
+    "published_date": "2026-07-15T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-16T11:01:20.118517+00:00"
   },
   {
     "title": "Open Distillation of Hereditary Traits",
@@ -54,7 +89,7 @@
     "published_date": "2026-07-14T10:15:03+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.650437+00:00"
+    "fetched_at": "2026-07-16T11:01:04.384935+00:00"
   },
   {
     "title": "Bilateral AI Partnerships Alone Won't Secure Australia. Here’s a Multilateral Alternative",
@@ -65,7 +100,7 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-15T10:51:34.512608+00:00"
+    "fetched_at": "2026-07-16T11:01:20.118784+00:00"
   },
   {
     "title": "Artificial Intelligence and the Risk of Strategic Cyberattack",
@@ -76,7 +111,7 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-15T10:51:34.512912+00:00"
+    "fetched_at": "2026-07-16T11:01:20.119070+00:00"
   },
   {
     "title": "Key Takeaways",
@@ -87,7 +122,7 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-07-15T10:51:38.552157+00:00"
+    "fetched_at": "2026-07-16T11:01:23.024487+00:00"
   },
   {
     "title": "Prism: Automating Science-of-Evals Research",
@@ -100,7 +135,7 @@
     "published_date": "2026-07-13T16:30:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.652248+00:00"
+    "fetched_at": "2026-07-16T11:01:04.386775+00:00"
   },
   {
     "title": "From wantons to moral agents",
@@ -113,7 +148,7 @@
     "published_date": "2026-07-12T17:30:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.652492+00:00"
+    "fetched_at": "2026-07-16T11:01:04.387024+00:00"
   },
   {
     "title": "The current bottleneck is political will, not research",
@@ -126,7 +161,7 @@
     "published_date": "2026-07-11T21:56:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.653030+00:00"
+    "fetched_at": "2026-07-16T11:01:04.387557+00:00"
   },
   {
     "title": "Total research transparency would be nice",
@@ -139,7 +174,7 @@
     "published_date": "2026-07-10T14:02:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-07-15T10:51:23.691411+00:00"
+    "fetched_at": "2026-07-16T11:01:08.811684+00:00"
   },
   {
     "title": "Value generalisation: value correction",
@@ -152,7 +187,7 @@
     "published_date": "2026-07-10T07:56:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.653182+00:00"
+    "fetched_at": "2026-07-16T11:01:04.387709+00:00"
   },
   {
     "title": "How robust are natural language autoencoders to initialization?",
@@ -165,7 +200,7 @@
     "published_date": "2026-07-10T00:43:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.653370+00:00"
+    "fetched_at": "2026-07-16T11:01:04.387897+00:00"
   },
   {
     "title": "The Future of Meta Superintelligence: A 1 Year Progress Update",
@@ -178,7 +213,7 @@
     "published_date": "2026-07-09T19:16:14+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-15T10:51:22.833318+00:00"
+    "fetched_at": "2026-07-16T11:01:08.268458+00:00"
   },
   {
     "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
@@ -191,7 +226,7 @@
     "published_date": "2026-07-09T16:46:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-15T10:51:17.267936+00:00"
+    "fetched_at": "2026-07-16T11:01:02.327144+00:00"
   },
   {
     "title": "AI 2040: Plan A",
@@ -204,7 +239,7 @@
     "published_date": "2026-07-09T16:25:14+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.653409+00:00"
+    "fetched_at": "2026-07-16T11:01:04.387935+00:00"
   },
   {
     "title": "Announcing our $160M grant from Coefficient Giving",
@@ -217,7 +252,7 @@
     "published_date": "2026-07-09T07:58:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.653463+00:00"
+    "fetched_at": "2026-07-16T11:01:04.388004+00:00"
   },
   {
     "title": "Modular Pretraining Enables Access Control",
@@ -230,7 +265,7 @@
     "published_date": "2026-07-09T00:03:25+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.653632+00:00"
+    "fetched_at": "2026-07-16T11:01:04.388155+00:00"
   },
   {
     "title": "Frontier Red Team",
@@ -241,7 +276,7 @@
     "published_date": "2026-07-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-07-15T10:51:29.067542+00:00"
+    "fetched_at": "2026-07-16T11:01:16.298079+00:00"
   },
   {
     "title": "High Bandwidth Memory: What It Is and Why It Matters",
@@ -252,7 +287,7 @@
     "published_date": "2026-07-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-15T10:51:34.513143+00:00"
+    "fetched_at": "2026-07-16T11:01:20.119292+00:00"
   },
   {
     "title": "Do Robots Lure Us to War? The Impact of the Robotic Revolution on the Propensity for Armed Conflict",
@@ -263,58 +298,6 @@
     "published_date": "2026-07-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-15T10:51:34.513379+00:00"
-  },
-  {
-    "title": "Notes on technical alignment via human-like social drives",
-    "authors": [
-      "Steven Byrnes"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "1. Frontmatter 1.1 Backstory for this post As discussed in Intro to Brain-Like-AGI Safety , I’m working on the technical alignment problem for a hypothetical future “brain-like AGI”, with a particular focus on treating human innate social and moral drives as a possible jumping-off point for our technical alignment approach. After all, if it’s possible for humans to do stuff that ultimately leads to a good future, then it’s probably also possible for sufficiently human-like AGIs to do stuff that ultimately leads to a good future. Or if it’s not possible for humans to do stuff that ultimately leads to a good future, then we’re screwed no matter what. But assuming it’s possible, the “sufficiently human-like AGIs” would certainly need to have good prosocial motivations.",
-    "url": "https://www.alignmentforum.org/posts/rKdS7i4StaMmFzYRo/notes-on-technical-alignment-via-human-like-social-drives",
-    "published_date": "2026-07-08T18:30:22+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:19.654318+00:00"
-  },
-  {
-    "title": "Flint: A visualization language for the AI era",
-    "authors": [
-      "Chenglong Wang, Alper Sarikaya, Scott Tsukamaki, Michel Galley, Jianfeng Gao"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications. The post Flint: A visualization language for the AI era appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
-    "published_date": "2026-07-08T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-15T10:51:17.267959+00:00"
-  },
-  {
-    "title": "Separating signal from noise in coding evaluations",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-    "published_date": "2026-07-08T13:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-15T10:51:18.299529+00:00"
-  },
-  {
-    "title": "Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Note: the modeling assumptions and conclusion are Thomas Kwa’s opinion, and others at METR disagree. 1 Also, the math was checked by Claude but not a second human. Introduction Anthropic’s RSI blog post reported that in Q2 2026, Anthropic contributors merged 8× as much code per day as in the 2021-2024 period. What does this imply about the factor by which a researcher’s total effective output increased — the (serial) researcher uplift 2 ? Of course, 8× more code doesn’t mean 8× more research, as coding is only part of the job. However, if we assume each line of code (LoC) has equivalent quality and verbosity to pre-2025 code and make standard economic modeling assumptions, we can conclude a surprising amount: all models predict researcher uplift at Anthropic from coding agents alone is &gt;2×.",
-    "url": "https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/",
-    "published_date": "2026-07-08T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-15T10:51:21.959344+00:00"
+    "fetched_at": "2026-07-16T11:01:20.119514+00:00"
   }
 ]
