@@ -8,29 +8,29 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-16T11:01:20.118072+00:00"
+    "fetched_at": "2026-07-17T10:47:59.417955+00:00"
   },
   {
     "title": "Agentic Misalignment in Summer 2026",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-16.",
+    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-17.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-16T00:00:00+00:00",
+    "published_date": "2026-07-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-16T11:01:10.277976+00:00"
+    "fetched_at": "2026-07-17T10:47:47.946713+00:00"
   },
   {
     "title": "Our approach to bioresilience",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-16.",
+    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-17.",
     "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-    "published_date": "2026-07-16T00:00:00+00:00",
+    "published_date": "2026-07-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-07-16T11:01:16.618540+00:00"
+    "fetched_at": "2026-07-17T10:47:54.896562+00:00"
   },
   {
     "title": "Beyond Targeting",
@@ -38,10 +38,10 @@
     "organization": "CSET",
     "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
     "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
-    "published_date": "2026-07-16T00:00:00+00:00",
+    "published_date": "2026-07-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-07-16T11:01:20.367905+00:00"
+    "fetched_at": "2026-07-17T10:47:59.720505+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -49,10 +49,21 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-16T00:00:00+00:00",
+    "published_date": "2026-07-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-16T11:01:20.598187+00:00"
+    "fetched_at": "2026-07-17T10:47:59.956910+00:00"
+  },
+  {
+    "title": "Pooling Europe's compute: The promise of distributed training for European frontier AI",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jul 16, 2026 Frontier AI training has needed compute at one site, hard in Europe given power, chip and political limits. RAND Europe finds distributed training eases the power and political constraints and pools Europe's scattered chips, but adds no new chips.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA5013-1.html",
+    "published_date": "2026-07-16T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-17T10:47:59.418206+00:00"
   },
   {
     "title": "Why I Left Google DeepMind",
@@ -65,7 +76,7 @@
     "published_date": "2026-07-15T17:42:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.384571+00:00"
+    "fetched_at": "2026-07-17T10:47:42.593430+00:00"
   },
   {
     "title": "AI as Strategist: Four Hypotheses on the Nature of Agentic Strategy",
@@ -76,7 +87,7 @@
     "published_date": "2026-07-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-16T11:01:20.118517+00:00"
+    "fetched_at": "2026-07-17T10:47:59.418576+00:00"
   },
   {
     "title": "Open Distillation of Hereditary Traits",
@@ -89,7 +100,7 @@
     "published_date": "2026-07-14T10:15:03+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.384935+00:00"
+    "fetched_at": "2026-07-17T10:47:42.593802+00:00"
   },
   {
     "title": "Bilateral AI Partnerships Alone Won't Secure Australia. Here’s a Multilateral Alternative",
@@ -100,7 +111,7 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-16T11:01:20.118784+00:00"
+    "fetched_at": "2026-07-17T10:47:59.418798+00:00"
   },
   {
     "title": "Artificial Intelligence and the Risk of Strategic Cyberattack",
@@ -111,18 +122,18 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-16T11:01:20.119070+00:00"
+    "fetched_at": "2026-07-17T10:47:59.419030+00:00"
   },
   {
-    "title": "Key Takeaways",
+    "title": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack",
     "authors": [],
     "organization": "MATS",
-    "abstract": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack Authors: Cristian Trout, Sanmi Koyejo, Sasha Romanosky, Giorgio Ripamonti, Lynn Thompson, Desiree Spain, Alex Taylor, Kevin Casey, Stephen Casper, Matthew Botvinick, Sean McGregor, Miles Brundage, A. Feder Cooper, Patricia Paskov, Adrien Ecoffet, Ben Bucknall, Kevin Wei, Markus Anderljung, Lukasz Szpruch, Bri Treece, Tom Zick, Gabriel Weil, Ugur Ozer, Kevin Kalinich, Jesus Gonzalez, Vitaly Baranov, Derek Blum, Moran Koren, Guy Laban, Gil Arazi, Henri Winand, Toby Clowes, Adam Kleinman, Anita Srinivasan, Tom Fehring, Rune Kvist, Rajiv Dattani Fellows: Anita Srinivasan Date: Jul 14, 2026",
+    "abstract": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack Insurance has been the quiet enabler of major economic and technological developments — from maritime trade to commercial nuclear power — by limiting downside, pricing risk, spreading best practices, and assuring compensation to harmed parties. The AI agent economy, projected to be handling trillions of dollars’ worth of transactions by 2030, is the next such development whose risks insurers must price, manage, and absorb. Today frontier AI agent risk is largely unpriced and invisible. The bulk of insurers’ exposure sits as silent coverage inside existing policies (especially cyber, professional, and general liability). Exposure is growing rapidly: enterprise spend on frontier AI grew over 300% in 2025 and looks to accelerate in 2026. Insurers risk repeating the costly ambiguity that plagued cyber insurance, and ignoring a potential time bomb.",
     "url": "https://www.matsprogram.org/research/underwriting-the-agent-economy-the-blueprint-for-an-ai-insurance-stack",
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-07-16T11:01:23.024487+00:00"
+    "fetched_at": "2026-07-17T10:48:03.054972+00:00"
   },
   {
     "title": "Prism: Automating Science-of-Evals Research",
@@ -135,7 +146,7 @@
     "published_date": "2026-07-13T16:30:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.386775+00:00"
+    "fetched_at": "2026-07-17T10:47:42.595465+00:00"
   },
   {
     "title": "From wantons to moral agents",
@@ -148,7 +159,7 @@
     "published_date": "2026-07-12T17:30:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.387024+00:00"
+    "fetched_at": "2026-07-17T10:47:42.595690+00:00"
   },
   {
     "title": "The current bottleneck is political will, not research",
@@ -161,7 +172,7 @@
     "published_date": "2026-07-11T21:56:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.387557+00:00"
+    "fetched_at": "2026-07-17T10:47:42.596238+00:00"
   },
   {
     "title": "Total research transparency would be nice",
@@ -174,7 +185,7 @@
     "published_date": "2026-07-10T14:02:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-07-16T11:01:08.811684+00:00"
+    "fetched_at": "2026-07-17T10:47:46.444251+00:00"
   },
   {
     "title": "Value generalisation: value correction",
@@ -187,7 +198,7 @@
     "published_date": "2026-07-10T07:56:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.387709+00:00"
+    "fetched_at": "2026-07-17T10:47:42.596397+00:00"
   },
   {
     "title": "How robust are natural language autoencoders to initialization?",
@@ -200,104 +211,6 @@
     "published_date": "2026-07-10T00:43:29+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.387897+00:00"
-  },
-  {
-    "title": "The Future of Meta Superintelligence: A 1 Year Progress Update",
-    "authors": [
-      "Max Kan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "A top tier RL environment startup spawns out of thin air, the most aggressive compute ramp we've ever seen, 2000km+ scale-across, and some advice for Google DeepMind",
-    "url": "https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence",
-    "published_date": "2026-07-09T19:16:14+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-16T11:01:08.268458+00:00"
-  },
-  {
-    "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
-    "authors": [
-      "Kenji Takeda, Haiyu Dong, Jonathan Weyn, Amit Misra, Matt Corey, Kevin White, Shannon Monroe, Juan M. Lavista Ferres, Ashley Llorens, Bonnie Kruft"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications. The post Aurora 1.5: Extending open foundation models for weather and Earth-system applications appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
-    "published_date": "2026-07-09T16:46:22+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-16T11:01:02.327144+00:00"
-  },
-  {
-    "title": "AI 2040: Plan A",
-    "authors": [
-      "Daniel Kokotajlo"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done!&nbsp; It’s called&nbsp; AI 2040: Plan A. It’s called&nbsp; Plan A &nbsp;because it’s a recommendation,&nbsp; not&nbsp; a prediction. It’s what we think&nbsp; should&nbsp; happen, not what&nbsp; will&nbsp; happen, though we think it’s plausible enough to aim for. It’s called&nbsp; AI 2040 &nbsp;because in it, they delay the creation of superintelligence to 2040. It would have happened much sooner (in 2030, to be precise) if not for decisive action on the part of the US and Chinese governments.&nbsp; As with AI 2027, summaries don’t really do it justice, since the whole point was to be detailed and comprehensive and work things out step by step rather than rely on high-level abstractions like doom or utopia.&nbsp; Read the scenario at&nbsp; ai-2040.com .",
-    "url": "https://www.alignmentforum.org/posts/pFzctpJBat95SrCyC/ai-2040-plan-a",
-    "published_date": "2026-07-09T16:25:14+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.387935+00:00"
-  },
-  {
-    "title": "Announcing our $160M grant from Coefficient Giving",
-    "authors": [
-      "Geoffrey Irving"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "We are excited to announce that Resolution ( fka Sequent ) has a $160M grant from Coefficient Giving (cG) to put rigorous alignment research on a (closer to) even footing with the frontier labs. We will use it to accelerate progress towards higher-confidence alignment, or to find evidence and obstacles showing why alignment is hard. The grant is structured as a $108M base plus $52M conditional on a combination of hiring success and compute needs. The base includes a small regranting budget, which we plan to use both for high-quality non-Resolution alignment research and to give back to shared community infrastructure that we depend on. Coefficient Giving will be our sole funder to start (thank you!); our goal is to raise larger-scale funds from a mixture of sources once we demonstrate success with semiautomated alignment theory and empirics.",
-    "url": "https://www.alignmentforum.org/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving",
-    "published_date": "2026-07-09T07:58:47+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.388004+00:00"
-  },
-  {
-    "title": "Modular Pretraining Enables Access Control",
-    "authors": [
-      "E.Roland"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Full author list: Ethan Roland * , Murat Cubuktepe * , Erick Martinez * , Stijn Servaes, Keenan Pepper, Mike Vaiana, Diogo Schwerz de Lucena, Judd Rosenblatt, Addie Foote, Cem Anil, Alex Cloud; *Equal contribution tldr: Frontier AI models have knowledge that could be misused for nefarious purposes. To address this risk, we introduce Gradient Routed Auxiliary Modules (GRAM), a method for isolating dangerous knowledge to specific modules within a language model. These modules can be switched on or off to control what the model knows, making it possible to restrict or extend access to the most sensitive model capabilities based on user need and trust. In our experiments, we find evidence that a single model trained in this way can approximate multiple models, each trained with a different category of dangerous data filtered out, and this ability holds for models ranging from 50M to 5B parameters.",
-    "url": "https://www.alignmentforum.org/posts/43vKjWuH4goLwrFHA/modular-pretraining-enables-access-control",
-    "published_date": "2026-07-09T00:03:25+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-16T11:01:04.388155+00:00"
-  },
-  {
-    "title": "Frontier Red Team",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "The Frontier Red Team stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next. We provide evidence-based analysis about AI’s implications for cybersecurity, national security, and autonomous systems. We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated (and amusing) robotics tasks.",
-    "url": "https://red.anthropic.com/research",
-    "published_date": "2026-07-09T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://red.anthropic.com/",
-    "fetched_at": "2026-07-16T11:01:16.298079+00:00"
-  },
-  {
-    "title": "High Bandwidth Memory: What It Is and Why It Matters",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Jul 9, 2026 High Bandwidth Memory (HBM) is a critical enabling technology for artificial intelligence. The authors of this paper synthesize analysis of the HBM ecosystem for researchers and policymakers.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4748-1.html",
-    "published_date": "2026-07-09T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-16T11:01:20.119292+00:00"
-  },
-  {
-    "title": "Do Robots Lure Us to War? The Impact of the Robotic Revolution on the Propensity for Armed Conflict",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jul 9, 2026 The author developed a framework to understand the decision space for the use of force in the presence of emerging technology and applied it to autonomous weapons systems.",
-    "url": "https://www.rand.org/pubs/rgs_dissertations/RGSDA5114-1.html",
-    "published_date": "2026-07-09T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-16T11:01:20.119514+00:00"
+    "fetched_at": "2026-07-17T10:47:42.596585+00:00"
   }
 ]
