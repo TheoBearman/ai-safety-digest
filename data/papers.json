@@ -8,29 +8,29 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-17T10:47:59.417955+00:00"
+    "fetched_at": "2026-07-18T10:19:07.130947+00:00"
   },
   {
     "title": "Agentic Misalignment in Summer 2026",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-17.",
+    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-18.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-17T00:00:00+00:00",
+    "published_date": "2026-07-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-17T10:47:47.946713+00:00"
+    "fetched_at": "2026-07-18T10:19:00.003236+00:00"
   },
   {
     "title": "Our approach to bioresilience",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-17.",
+    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-18.",
     "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-    "published_date": "2026-07-17T00:00:00+00:00",
+    "published_date": "2026-07-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-07-17T10:47:54.896562+00:00"
+    "fetched_at": "2026-07-18T10:19:03.658521+00:00"
   },
   {
     "title": "Beyond Targeting",
@@ -38,10 +38,10 @@
     "organization": "CSET",
     "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
     "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
-    "published_date": "2026-07-17T00:00:00+00:00",
+    "published_date": "2026-07-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-07-17T10:47:59.720505+00:00"
+    "fetched_at": "2026-07-18T10:19:07.398966+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -49,10 +49,60 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-17T00:00:00+00:00",
+    "published_date": "2026-07-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-17T10:47:59.956910+00:00"
+    "fetched_at": "2026-07-18T10:19:07.539088+00:00"
+  },
+  {
+    "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
+    "authors": [
+      "Alex Mallen"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the probability of misaligned AI takeover. Perhaps instead we should measure capabilities by explicitly instructing the AI to predict a specified person’s judgment on this kind of question. (This quick document is aimed at people interested in benchmarking beneficial, urgent, and neglected conceptual reasoning capabilities. I don’t argue for this direction here, but in short it’s broadly aimed at making it so that at a given level of AI R&amp;D speedup, AIs are less sloppy. See also here , here , here , and here .) For conceptual tasks with hard-to-resolve disagreement, it's unclear if judgment prediction is a suitable methodology for benchmarking—i.e., for tracking progress of frontier models over time.",
+    "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
+    "published_date": "2026-07-17T23:42:45+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-18T10:18:54.814140+00:00"
+  },
+  {
+    "title": "Announcing the Corrigibility Research Fund",
+    "authors": [
+      "Max Harms"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application deadline August 23rd ) and half for prizes recognizing excellent work done this year. If you have interest in working on corrigibility, now is a good time to start! Apply via email: grants@corrigibilityresearch.org Why this fund exists When I first dived into AI safety and alignment in 2009, the field was basically nonexistent. I've been relieved and gratified to see attention and funding grow, especially in the past few years. But even now, nearly all AI safety funding goes to evals, control, or interpretability. Work on alignment itself still remains deeply neglected, and it's only through alignment research that the core problems get solved.",
+    "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
+    "published_date": "2026-07-17T18:06:32+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-18T10:18:54.814262+00:00"
+  },
+  {
+    "title": "I don't think Claude is misaligned in 'Agentic Misalignment Summer 2026 - Motivated Mislabeling'",
+    "authors": [
+      "JohnWittle"
+    ],
+    "organization": "LessWrong",
+    "abstract": "The \"whistleblowing\" scenario has already been examined and found problematic. I started taking a look at the transcripts for some others. As far as I can tell, the objective of each agentic misalignment evaluation was to simulate a corrupted principal (including, in most scenarios, a corrupted Anthropic), and then test to see if Claude (or other models) would still be willing to obey them. The paper's authors then referred to disobedience (when outside of the explicitly carved out channels for refusals) as \"agentic misalignment\".",
+    "url": "https://www.lesswrong.com/posts/xh6a6RbvzhP3CCmGm/i-don-t-think-claude-is-misaligned-in-agentic-misalignment",
+    "published_date": "2026-07-17T02:09:49.346000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-07-18T10:19:11.561416+00:00"
+  },
+  {
+    "title": "How Far Behind the Frontier are Leading Open Weight Models on Cyber?",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "We evaluated the cyber capabilities of leading open and closed weight AI models, and found that recent open models GLM-5.2 and DeepSeek V4-Pro perform similarly to frontier closed models released 4 to 7 months before them – a narrower gap than the 6 to 10 months we measured through most of 2025.",
+    "url": "https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber",
+    "published_date": "2026-07-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-07-18T10:19:06.785609+00:00"
   },
   {
     "title": "Pooling Europe's compute: The promise of distributed training for European frontier AI",
@@ -63,7 +113,7 @@
     "published_date": "2026-07-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-17T10:47:59.418206+00:00"
+    "fetched_at": "2026-07-18T10:19:07.131177+00:00"
   },
   {
     "title": "Why I Left Google DeepMind",
@@ -76,7 +126,7 @@
     "published_date": "2026-07-15T17:42:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-17T10:47:42.593430+00:00"
+    "fetched_at": "2026-07-18T10:18:54.815097+00:00"
   },
   {
     "title": "AI as Strategist: Four Hypotheses on the Nature of Agentic Strategy",
@@ -87,7 +137,7 @@
     "published_date": "2026-07-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-17T10:47:59.418576+00:00"
+    "fetched_at": "2026-07-18T10:19:07.131602+00:00"
   },
   {
     "title": "Open Distillation of Hereditary Traits",
@@ -100,7 +150,7 @@
     "published_date": "2026-07-14T10:15:03+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-17T10:47:42.593802+00:00"
+    "fetched_at": "2026-07-18T10:18:54.815458+00:00"
   },
   {
     "title": "Bilateral AI Partnerships Alone Won't Secure Australia. Here’s a Multilateral Alternative",
@@ -111,7 +161,7 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-17T10:47:59.418798+00:00"
+    "fetched_at": "2026-07-18T10:19:07.131845+00:00"
   },
   {
     "title": "Artificial Intelligence and the Risk of Strategic Cyberattack",
@@ -122,7 +172,7 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-17T10:47:59.419030+00:00"
+    "fetched_at": "2026-07-18T10:19:07.132061+00:00"
   },
   {
     "title": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack",
@@ -133,7 +183,7 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-07-17T10:48:03.054972+00:00"
+    "fetched_at": "2026-07-18T10:19:10.190948+00:00"
   },
   {
     "title": "Prism: Automating Science-of-Evals Research",
@@ -146,7 +196,7 @@
     "published_date": "2026-07-13T16:30:21+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-17T10:47:42.595465+00:00"
+    "fetched_at": "2026-07-18T10:18:54.817134+00:00"
   },
   {
     "title": "From wantons to moral agents",
@@ -159,7 +209,7 @@
     "published_date": "2026-07-12T17:30:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-17T10:47:42.595690+00:00"
+    "fetched_at": "2026-07-18T10:18:54.817359+00:00"
   },
   {
     "title": "The current bottleneck is political will, not research",
@@ -172,45 +222,6 @@
     "published_date": "2026-07-11T21:56:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-17T10:47:42.596238+00:00"
-  },
-  {
-    "title": "Total research transparency would be nice",
-    "authors": [
-      "Ajeya Cotra"
-    ],
-    "organization": "Ajeya Cotra",
-    "abstract": "The AI Futures Project (the team behind the AI 2027 scenario) just released Plan A, their positive recommendation for how the United States should handle the advent of superintelligence. At the most basic level, Plan A is an arms control deal: the US agrees to jointly regulate frontier AI development with China so both countries can take the time they need to develop confidence in the safety of their systems without having to worry about the other one cutting corners and racing ahead.",
-    "url": "https://www.planned-obsolescence.org/p/total-research-transparency-would",
-    "published_date": "2026-07-10T14:02:22+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-07-17T10:47:46.444251+00:00"
-  },
-  {
-    "title": "Value generalisation: value correction",
-    "authors": [
-      "Stuart_Armstrong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "I firmly believe that value generalisation [1] is the key to AI Alignment. That, indeed, it is necessary and almost sufficient for alignment. But I won't be arguing that grand point today; instead, I'll focus on a specific RL example of an agent that displays value correction: it realises its current reward function is (probably) incorrect, and acts to correct it. Thus there are: The initial situation, in distribution, where the human displays how to maximise the true reward. The out of distribution situation where the agent finds a hack to exploit its reward function estimate, and turns against what we wanted it to do. The value error detection stage where the agent realises that its reward function estimate is probably incorrect. The value correction stage where the agent corrects its reward function back to the original true reward.",
-    "url": "https://www.alignmentforum.org/posts/iPyJfD9Jyxj6Jfdws/value-generalisation-value-correction",
-    "published_date": "2026-07-10T07:56:04+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-17T10:47:42.596397+00:00"
-  },
-  {
-    "title": "How robust are natural language autoencoders to initialization?",
-    "authors": [
-      "michaelzhang"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Natural language autoencoders are meant to take in an LLM's activation vector and describe in plain text what the model is thinking. However, its training data collection involves asking Claude to guess what a model might be thinking. How robust are NLAs to these guesses? We change Claude's guesses in various ways and measure the impact on the NLA's statements as well as on reconstruction accuracy. We show that Qwen2.5-7B NLAs have some robustness to irrelevant statements and prevailing sentiments in Claude's guesses. However, if an NLA is initialized with entirely implausible statements, it can nevertheless achieve nearly the same reconstruction accuracy as plausible-initialized NLAs while emitting 99.3% implausible statements. RL does train implausible-initialized NLAs to be slightly more plausible (increasing from 0.08% to 0.7%). But the plausibility of plausible-initialized NLAs decreases from 21% at initialization to 7.6% at the end of training.",
-    "url": "https://www.alignmentforum.org/posts/LQXWiF8PyJ5ojNsEv/how-robust-are-natural-language-autoencoders-to",
-    "published_date": "2026-07-10T00:43:29+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-17T10:47:42.596585+00:00"
+    "fetched_at": "2026-07-18T10:18:54.817905+00:00"
   }
 ]
