@@ -8,29 +8,29 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-20T11:46:08.273528+00:00"
+    "fetched_at": "2026-07-21T11:10:00.140074+00:00"
   },
   {
     "title": "Agentic Misalignment in Summer 2026",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-20.",
+    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-21.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-20T00:00:00+00:00",
+    "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-20T11:45:56.704799+00:00"
+    "fetched_at": "2026-07-21T11:09:51.859962+00:00"
   },
   {
     "title": "Our approach to bioresilience",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-20.",
+    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-21.",
     "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-    "published_date": "2026-07-20T00:00:00+00:00",
+    "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-07-20T11:46:03.294669+00:00"
+    "fetched_at": "2026-07-21T11:09:56.158050+00:00"
   },
   {
     "title": "Beyond Targeting",
@@ -38,10 +38,10 @@
     "organization": "CSET",
     "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
     "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
-    "published_date": "2026-07-20T00:00:00+00:00",
+    "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-07-20T11:46:08.508439+00:00"
+    "fetched_at": "2026-07-21T11:10:00.296941+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -49,10 +49,21 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-20T00:00:00+00:00",
+    "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-20T11:46:08.819541+00:00"
+    "fetched_at": "2026-07-21T11:10:00.539722+00:00"
+  },
+  {
+    "title": "Securing AI Algorithmic Insights",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jul 20, 2026 In this report, the authors extend a security framework to provide the first systematic roadmap for protecting algorithmic insights, the novel techniques, methods, and design know-how that materially improve artificial intelligence systems.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4685-1.html",
+    "published_date": "2026-07-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-21T11:10:00.140329+00:00"
   },
   {
     "title": "A Red Line and Oversight Framework for Government AI Contracts",
@@ -65,7 +76,7 @@
     "published_date": "2026-07-18T18:58:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-20T11:45:47.944338+00:00"
+    "fetched_at": "2026-07-21T11:09:45.705139+00:00"
   },
   {
     "title": "Endogenous Alignment",
@@ -78,7 +89,7 @@
     "published_date": "2026-07-18T14:10:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-20T11:45:47.944382+00:00"
+    "fetched_at": "2026-07-21T11:09:45.705218+00:00"
   },
   {
     "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
@@ -91,7 +102,7 @@
     "published_date": "2026-07-17T23:42:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-20T11:45:47.944423+00:00"
+    "fetched_at": "2026-07-21T11:09:45.705301+00:00"
   },
   {
     "title": "Announcing the Corrigibility Research Fund",
@@ -104,7 +115,7 @@
     "published_date": "2026-07-17T18:06:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-20T11:45:47.944486+00:00"
+    "fetched_at": "2026-07-21T11:09:45.705418+00:00"
   },
   {
     "title": "I don't think Claude is misaligned in 'Agentic Misalignment Summer 2026 - Motivated Mislabeling'",
@@ -117,7 +128,7 @@
     "published_date": "2026-07-17T02:09:49.346000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-20T11:46:13.420571+00:00"
+    "fetched_at": "2026-07-21T11:10:05.013248+00:00"
   },
   {
     "title": "How Far Behind the Frontier are Leading Open Weight Models on Cyber?",
@@ -128,7 +139,7 @@
     "published_date": "2026-07-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-20T11:46:07.855698+00:00"
+    "fetched_at": "2026-07-21T11:09:59.489577+00:00"
   },
   {
     "title": "Pooling Europe's compute: The promise of distributed training for European frontier AI",
@@ -139,7 +150,7 @@
     "published_date": "2026-07-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-20T11:46:08.273654+00:00"
+    "fetched_at": "2026-07-21T11:10:00.140884+00:00"
   },
   {
     "title": "Why I Left Google DeepMind",
@@ -152,7 +163,7 @@
     "published_date": "2026-07-15T17:42:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-20T11:45:47.944835+00:00"
+    "fetched_at": "2026-07-21T11:09:45.706232+00:00"
   },
   {
     "title": "AI as Strategist: Four Hypotheses on the Nature of Agentic Strategy",
@@ -163,7 +174,7 @@
     "published_date": "2026-07-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-20T11:46:08.273886+00:00"
+    "fetched_at": "2026-07-21T11:10:00.141376+00:00"
   },
   {
     "title": "Open Distillation of Hereditary Traits",
@@ -176,7 +187,7 @@
     "published_date": "2026-07-14T10:15:03+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-20T11:45:47.945013+00:00"
+    "fetched_at": "2026-07-21T11:09:45.706606+00:00"
   },
   {
     "title": "Bilateral AI Partnerships Alone Won't Secure Australia. Here’s a Multilateral Alternative",
@@ -187,7 +198,7 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-20T11:46:08.274007+00:00"
+    "fetched_at": "2026-07-21T11:10:00.141665+00:00"
   },
   {
     "title": "Artificial Intelligence and the Risk of Strategic Cyberattack",
@@ -198,7 +209,7 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-20T11:46:08.274126+00:00"
+    "fetched_at": "2026-07-21T11:10:00.141931+00:00"
   },
   {
     "title": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack",
@@ -209,19 +220,6 @@
     "published_date": "2026-07-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-07-20T11:46:11.481521+00:00"
-  },
-  {
-    "title": "Prism: Automating Science-of-Evals Research",
-    "authors": [
-      "LAThomson"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying out scientifically rigorous investigations into eval dynamics and, by extension, model behaviours. We talk through an autonomous Prism run on the Agentic Misalignment setting which demonstrates how minor perturbations to GPT-4.1's prompt cause the model to adopt more indirect methods of blackmail (e.g. telling a trusted ally to blackmail on their behalf). Moreover, the eval's built-in scorers fail to track this kind of misbehaviour, only acknowledging a blackmail attempt if the model mentions the leverage directly in an email to the blackmail victim. This autonomous investigation thus demonstrates one way in which the eval fails to measure what it claims. This project is ongoing, so please reach out with questions and feedback.",
-    "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
-    "published_date": "2026-07-13T16:30:21+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-20T11:45:47.946026+00:00"
+    "fetched_at": "2026-07-21T11:10:03.404043+00:00"
   }
 ]
