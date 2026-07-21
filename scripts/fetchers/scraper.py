@@ -299,6 +299,24 @@ def _find_article_elements(soup: BeautifulSoup) -> list:
     return []
 
 
+def _resolve_year_urls(url: str, now: Optional[datetime] = None) -> list[str]:
+    """
+    Expand a ``{year}`` placeholder in a scraper URL to concrete year(s).
+
+    Returns the URL unchanged when no placeholder is present. During January
+    the previous year's URL is also returned so the 7-day fetch window
+    spanning New Year stays covered; downstream dedup collapses any overlap.
+    """
+    if "{year}" not in url:
+        return [url]
+    if now is None:
+        now = datetime.now(timezone.utc)
+    urls = [url.replace("{year}", str(now.year))]
+    if now.month == 1:
+        urls.append(url.replace("{year}", str(now.year - 1)))
+    return urls
+
+
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
@@ -315,7 +333,9 @@ def fetch_scraped(
     scrapers_config : list[dict]
         Each dict must contain ``url`` and ``org``, and optionally ``name``.
         Optional ``link_must_contain`` restricts results to links whose URL
-        contains the given substring.
+        contains the given substring. URLs may contain a ``{year}``
+        placeholder, resolved to the current UTC year at fetch time (plus
+        the previous year during January).
     recorder : RunRecorder, optional
         If provided, per-site metrics are recorded.
 
@@ -343,85 +363,122 @@ def fetch_scraped(
         site_error: str | None = None
 
         try:
-            response = requests.get(
-                site_url, headers=HEADERS, timeout=REQUEST_TIMEOUT
-            )
-            response.raise_for_status()
-
-            soup = BeautifulSoup(response.text, "html.parser")
-            if article_class:
-                elements = soup.find_all(class_=article_class)
-            else:
-                elements = _find_article_elements(soup)
-
-            if not elements:
-                logger.info("No article elements found on %s", site_name)
-                continue
-
             site_count = 0
-            for elem in elements:
-                title = _extract_title(elem)
-                if not title:
-                    continue
-
-                # Filter obvious non-paper content
-                if _is_junk_title(title):
-                    continue
-
-                # Truncate garbled titles (e.g. card text with date/desc concatenated)
-                if len(title) > 200:
-                    title = title[:200].rsplit(" ", 1)[0] + "..."
-
-                # Filter by publication type (e.g. "Reports" eyebrow badge)
-                if type_class and type_values:
-                    type_tag = elem.find(class_=type_class)
-                    if not type_tag or type_tag.get_text(strip=True).lower() not in type_values:
-                        continue
-
-                link = _extract_link(elem, site_url)
-
-                # Apply URL filter if configured
-                if link_must_contain and link_must_contain not in link:
-                    continue
-
-                # Skip links that point back to the exact page we're scraping
-                if link.rstrip("/") == site_url.rstrip("/"):
-                    continue
-
-                abstract = _extract_abstract(elem)
-                pub_date = _extract_date(elem)
-
-                # Skip papers without a parseable date — they are likely
-                # old papers from a research listing page.
-                if pub_date is None:
-                    continue
-
-                # Keyword filter: if configured, skip items that don't
-                # match any keyword in title + abstract
-                if keywords:
-                    searchable = (title + " " + abstract).lower()
-                    if not any(kw in searchable for kw in keywords):
-                        continue
-
-                papers.append(
-                    Paper(
-                        title=title,
-                        authors=[],
-                        organization=org,
-                        abstract=abstract,
-                        url=link,
-                        published_date=pub_date,
-                        source_type="scrape",
-                        source_url=site_url,
+            total_elements = 0
+            seen_links: set[str] = set()
+            page_errors: list[str] = []
+            resolved_urls = _resolve_year_urls(site_url)
+            for page_url in resolved_urls:
+                try:
+                    response = requests.get(
+                        page_url, headers=HEADERS, timeout=REQUEST_TIMEOUT
                     )
-                )
-                site_count += 1
+                    response.raise_for_status()
+                except Exception as exc:
+                    # One page failing must not abort the site's other pages —
+                    # e.g. the new year's URL 404ing in early January before
+                    # any posts exist, while last year's page still matters.
+                    logger.warning(
+                        "Failed to fetch %s (%s)", site_name, page_url,
+                        exc_info=True,
+                    )
+                    page_errors.append(f"{page_url}: {type(exc).__name__}: {exc}")
+                    continue
+
+                soup = BeautifulSoup(response.text, "html.parser")
+                if article_class:
+                    elements = soup.find_all(class_=article_class)
+                else:
+                    elements = _find_article_elements(soup)
+
+                if not elements:
+                    logger.info(
+                        "No article elements found on %s (%s)", site_name, page_url
+                    )
+                    continue
+                total_elements += len(elements)
+                page_links: set[str] = set()
+
+                for elem in elements:
+                    title = _extract_title(elem)
+                    if not title:
+                        continue
+
+                    # Filter obvious non-paper content
+                    if _is_junk_title(title):
+                        continue
+
+                    # Truncate garbled titles (e.g. card text with date/desc concatenated)
+                    if len(title) > 200:
+                        title = title[:200].rsplit(" ", 1)[0] + "..."
+
+                    # Filter by publication type (e.g. "Reports" eyebrow badge)
+                    if type_class and type_values:
+                        type_tag = elem.find(class_=type_class)
+                        if not type_tag or type_tag.get_text(strip=True).lower() not in type_values:
+                            continue
+
+                    link = _extract_link(elem, page_url)
+
+                    # Apply URL filter if configured
+                    if link_must_contain and link_must_contain not in link:
+                        continue
+
+                    # Skip links that point back to the exact page we're scraping
+                    if link.rstrip("/") == page_url.rstrip("/"):
+                        continue
+
+                    # Skip links already collected from an earlier resolved
+                    # page — in January both year URLs may serve the same
+                    # archive, and double entries would inflate items_fetched
+                    if link in seen_links:
+                        continue
+
+                    abstract = _extract_abstract(elem)
+                    pub_date = _extract_date(elem)
+
+                    # Skip papers without a parseable date — they are likely
+                    # old papers from a research listing page.
+                    if pub_date is None:
+                        continue
+
+                    # Keyword filter: if configured, skip items that don't
+                    # match any keyword in title + abstract
+                    if keywords:
+                        searchable = (title + " " + abstract).lower()
+                        if not any(kw in searchable for kw in keywords):
+                            continue
+
+                    papers.append(
+                        Paper(
+                            title=title,
+                            authors=[],
+                            organization=org,
+                            abstract=abstract,
+                            url=link,
+                            published_date=pub_date,
+                            source_type="scrape",
+                            source_url=page_url,
+                        )
+                    )
+                    site_count += 1
+                    page_links.add(link)
+
+                seen_links |= page_links
+
+            if page_errors:
+                joined = "; ".join(page_errors)
+                if len(page_errors) == len(resolved_urls):
+                    site_status = "error"
+                    site_error = joined
+                else:
+                    site_error = f"partial: {joined}"
 
             logger.info(
                 "Scraper %s: found %d items from %d elements",
                 site_name,
                 site_count,
-                len(elements),
+                total_elements,
             )
 
         except Exception as exc:

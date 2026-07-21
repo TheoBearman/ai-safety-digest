@@ -38,7 +38,7 @@ Tests live in `tests/` (pytest). Snapshot output is at `tests/snapshots/index.ht
 
 **Fetchers** (`scripts/fetchers/`):
 - `rss.py` — RSS/Atom feeds via feedparser. 7-day window. Three-layer filtering: RSS `categories` tags, explicit per-feed `keywords`, default research keywords.
-- `scraper.py` — BeautifulSoup scraper for orgs without RSS. Heuristic article element detection (articles → class-matched elements → heading links → container links). Optional `link_must_contain` filter. Papers without parseable dates are dropped. Supports "Month Year" date format.
+- `scraper.py` — BeautifulSoup scraper for orgs without RSS. Heuristic article element detection (articles → class-matched elements → heading links → container links). Optional `link_must_contain` filter. Papers without parseable dates are dropped. Supports "Month Year" date format. URLs may contain a `{year}` placeholder resolved to the current UTC year at fetch time (plus the previous year during January, so the 7-day window spanning New Year is covered).
 - `lesswrong.py` — LessWrong GraphQL API. Filters by karma threshold (150+) client-side.
 - `trending.py` — HN (Algolia API) + Reddit JSON API. Research content filtering via URL domain checks and title keyword analysis. All use `source_type="rss"`.
 
@@ -67,7 +67,7 @@ Tests live in `tests/` (pytest). Snapshot output is at `tests/snapshots/index.ht
 ## Adding a New Source
 
 - **RSS/Atom feed:** Add entry to `rss_feeds` in `config.yaml`. Use `keywords` for keyword filtering, or `categories` for RSS `<category>` tag filtering.
-- **Web scraper:** Add entry to `scrapers` in `config.yaml`. Use `link_must_contain` to filter noise. Page must have parseable dates or papers will be dropped.
+- **Web scraper:** Add entry to `scrapers` in `config.yaml`. Use `link_must_contain` to filter noise. Page must have parseable dates or papers will be dropped. For year-scoped archive URLs, use a `{year}` placeholder (e.g. `https://red.anthropic.com/{year}`).
 - **New fetcher type:** Create `scripts/fetchers/new_fetcher.py` returning `list[Paper]`, wire it into `fetch.py` main loop, add config section to `config.yaml`.
 
 ## Conventions

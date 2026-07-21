@@ -108,8 +108,14 @@ scrapers:
     url: "https://alignment.anthropic.com/"
     org: "Anthropic"
 
+  # The bare domain redirects to the Frontier Red Team *team* page, which yields
+  # a single junk entry, so articles are fetched from the /<year> route. The
+  # {year} placeholder resolves to the current UTC year at fetch time (plus the
+  # previous year during January). As of July 2026 the /<year> route serves the
+  # full archive regardless of the year given, so the template is
+  # future-proofing in case that ever becomes year-scoped.
   - name: "Anthropic Frontier Red Team"
-    url: "https://red.anthropic.com/"
+    url: "https://red.anthropic.com/{year}"
     org: "Anthropic"
 
   - name: "Google DeepMind Safety"
