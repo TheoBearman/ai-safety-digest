@@ -417,6 +417,116 @@ def _extract_first_paragraph(soup: BeautifulSoup) -> str | None:
     return None
 
 
+# Meta tags that carry a per-article publish date, in order of preference.
+_META_DATE_ATTRS = [
+    {"property": "article:published_time"},
+    {"name": "article:published_time"},
+    {"itemprop": "datePublished"},
+    {"name": "date"},
+    {"name": "dc.date"},
+]
+
+
+def _parse_page_date(raw: str) -> str | None:
+    """Parse a metadata date value into a day-precision ISO string."""
+    raw = (raw or "").strip()
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", raw)
+    if not m:
+        return None
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.isoformat()
+    except ValueError:
+        pass
+    try:
+        dt = datetime(
+            int(m.group(1)), int(m.group(2)), int(m.group(3)),
+            tzinfo=timezone.utc,
+        )
+        return dt.isoformat()
+    except ValueError:
+        return None
+
+
+def _extract_published_date_from_page(
+    soup: BeautifulSoup,
+    expected_year_month: tuple[int, int] | None = None,
+) -> str | None:
+    """Extract a precise publish date from an article page.
+
+    Per-article meta tags and JSON-LD are trusted outright. Bare <time> tags
+    often belong to related-article cards elsewhere on the page, so they only
+    count when *expected_year_month* is given and matches.
+    """
+    for attrs in _META_DATE_ATTRS:
+        tag = soup.find("meta", attrs=attrs)
+        if tag and tag.get("content"):
+            parsed = _parse_page_date(tag["content"])
+            if parsed:
+                return parsed
+
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(script.string or "")
+        except (json.JSONDecodeError, TypeError):
+            continue
+        queue = [
+            d for d in (data if isinstance(data, list) else [data])
+            if isinstance(d, dict)
+        ]
+        while queue:
+            item = queue.pop(0)
+            raw = item.get("datePublished")
+            if isinstance(raw, str):
+                parsed = _parse_page_date(raw)
+                if parsed:
+                    return parsed
+            graph = item.get("@graph")
+            if isinstance(graph, list):
+                queue.extend(g for g in graph if isinstance(g, dict))
+
+    if expected_year_month is not None:
+        for time_tag in soup.find_all("time"):
+            raw = time_tag.get("datetime", "") or time_tag.get_text(strip=True)
+            parsed = _parse_page_date(raw)
+            if parsed:
+                dt = datetime.fromisoformat(parsed)
+                if (dt.year, dt.month) == expected_year_month:
+                    return parsed
+    return None
+
+
+def _year_month(iso_date: str) -> tuple[int, int] | None:
+    """Return (year, month) from an ISO date string, or None."""
+    try:
+        dt = datetime.fromisoformat(iso_date.replace("Z", "+00:00"))
+        return (dt.year, dt.month)
+    except (ValueError, TypeError, AttributeError):
+        return None
+
+
+def _fetch_published_date_from_url(
+    url: str, expected_year_month: tuple[int, int] | None
+) -> str | None:
+    """Fetch an article page and extract its precise publish date."""
+    if _is_pdf_url(url):
+        return None
+    resp = _fetch_url(url)
+    if resp is None:
+        return None
+    content_type = resp.headers.get("Content-Type", "")
+    if "pdf" in content_type.lower() or "octet-stream" in content_type.lower():
+        return None
+    try:
+        soup = BeautifulSoup(resp.text, "html.parser")
+    except Exception as exc:
+        logger.debug("Failed to parse HTML from %s: %s", url, exc)
+        return None
+    return _extract_published_date_from_page(soup, expected_year_month)
+
+
 def _generate_synthetic_abstract(paper: Paper) -> str:
     """Generate a placeholder abstract from available metadata.
 
@@ -437,8 +547,17 @@ def _generate_synthetic_abstract(paper: Paper) -> str:
 
     extras = []
     if paper.published_date:
-        # Show just the date portion (YYYY-MM-DD) if it's an ISO string
+        # Show just the date portion (YYYY-MM-DD) if it's an ISO string —
+        # but never a synthesized day for month-precision dates.
         date_display = paper.published_date[:10]
+        if paper.date_precision == "month":
+            try:
+                dt = datetime.fromisoformat(
+                    paper.published_date.replace("Z", "+00:00")
+                )
+                date_display = dt.strftime("%B %Y")
+            except ValueError:
+                date_display = paper.published_date[:7]
         extras.append(f"Published {date_display}.")
 
     if paper.authors:
@@ -455,6 +574,9 @@ def _generate_synthetic_abstract(paper: Paper) -> str:
 # ---------------------------------------------------------------------------
 # On-disk JSON map keyed by URL. Each entry:
 #   {"abstract": "...", "fetched_at": iso8601, "status": "ok"|"fail", "synthetic": false}
+# Entries may additionally carry date-refinement fields, written by
+# ``date_cache_store``:
+#   {"published_date": iso8601|"", "date_status": "ok"|"fail", "date_checked_at": iso8601}
 # - status="ok" entries are cached indefinitely (paper abstracts are essentially
 #   immutable once published).
 # - status="fail" entries are cached for CACHE_FAILURE_TTL_SECONDS so transient
@@ -522,13 +644,52 @@ def cache_store(
     *,
     synthetic: bool = False,
 ) -> None:
-    """Write a cache entry for *url*. Stores status=ok when abstract is non-empty."""
-    cache[url] = {
-        "abstract": abstract or "",
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "status": "ok" if abstract else "fail",
-        "synthetic": synthetic,
-    }
+    """Write a cache entry for *url*. Stores status=ok when abstract is non-empty.
+
+    Merges into any existing entry so date-refinement fields are preserved.
+    """
+    entry = cache.setdefault(url, {})
+    entry.update(
+        {
+            "abstract": abstract or "",
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+            "status": "ok" if abstract else "fail",
+            "synthetic": synthetic,
+        }
+    )
+
+
+def date_cache_lookup(cache: dict[str, dict], url: str) -> str | None:
+    """Return the cached date-refinement result for *url*.
+
+    Returns the ISO date string on a hit, ``""`` when a recent attempt found
+    no date on the page (callers should skip re-fetching until the failure
+    TTL expires), or ``None`` when the URL should be fetched.
+    """
+    entry = cache.get(url)
+    if not entry or "date_status" not in entry:
+        return None
+    if entry.get("date_status") == "ok" and entry.get("published_date"):
+        return entry["published_date"]
+    checked_at = _parse_cache_timestamp(entry.get("date_checked_at"))
+    if checked_at is None:
+        return None
+    age = (datetime.now(timezone.utc) - checked_at).total_seconds()
+    return "" if age <= CACHE_FAILURE_TTL_SECONDS else None
+
+
+def date_cache_store(
+    cache: dict[str, dict],
+    url: str,
+    published_date: str | None,
+) -> None:
+    """Record a date-refinement result for *url*, merging into the entry."""
+    entry = cache.setdefault(url, {})
+    entry["published_date"] = published_date or ""
+    entry["date_status"] = "ok" if published_date else "fail"
+    entry["date_checked_at"] = datetime.now(timezone.utc).isoformat()
+    # save_enrich_cache prunes entries without a parseable fetched_at.
+    entry.setdefault("fetched_at", entry["date_checked_at"])
 
 
 def save_enrich_cache(
@@ -623,6 +784,67 @@ def _fetch_abstract_from_url(url: str) -> str | None:
     return None
 
 
+def _refine_month_precision_dates(
+    papers: list[Paper], cache: dict[str, dict]
+) -> int:
+    """Upgrade month-precision published dates from article page metadata.
+
+    Returns the number of papers whose dates were refined. Failures keep
+    month precision so the renderer falls back to a month-year display
+    instead of showing a synthesized day.
+    """
+    candidates = [p for p in papers if p.date_precision == "month"]
+    if not candidates:
+        return 0
+
+    refined = 0
+    misses: list[Paper] = []
+    for paper in candidates:
+        cached = date_cache_lookup(cache, paper.url)
+        if cached:
+            paper.published_date = cached
+            paper.date_precision = "day"
+            refined += 1
+        elif cached is None:
+            misses.append(paper)
+        # cached == "": recent attempt found no date; keep month precision
+
+    if misses:
+        with ThreadPoolExecutor(max_workers=MAX_CONCURRENT) as pool:
+            future_to_paper = {
+                pool.submit(
+                    _fetch_published_date_from_url,
+                    paper.url,
+                    _year_month(paper.published_date),
+                ): paper
+                for paper in misses
+            }
+            for future in as_completed(future_to_paper):
+                paper = future_to_paper[future]
+                try:
+                    date = future.result()
+                except Exception as exc:
+                    logger.warning(
+                        "Date refinement failed for %s: %s",
+                        paper.title[:80],
+                        exc,
+                    )
+                    date_cache_store(cache, paper.url, None)
+                    continue
+                date_cache_store(cache, paper.url, date)
+                if date:
+                    paper.published_date = date
+                    paper.date_precision = "day"
+                    refined += 1
+
+    logger.info(
+        "Date refinement: %d/%d month-precision dates upgraded",
+        refined,
+        len(candidates),
+    )
+    return refined
+
+
 def _enrich_single(paper: Paper) -> bool:
     """Try to enrich a single paper's abstract.
 
@@ -681,6 +903,12 @@ def enrich_abstracts(
     cache = load_enrich_cache()
     cache_hits = 0
     cache_misses = 0
+
+    # ---- Phase 0: refine month-precision dates from article pages ----
+    # Scraped listing pages sometimes only give "July 2026"; the article
+    # itself usually has the exact date. Runs before the abstract phases so
+    # synthetic abstracts never bake in a synthesized day.
+    _refine_month_precision_dates(papers, cache)
 
     if not to_enrich:
         logger.info("All %d papers already have good abstracts; nothing to enrich", len(papers))

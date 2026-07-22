@@ -23,6 +23,9 @@ class Paper:
     fetched_at: str = field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat()
     )
+    # "day" when published_date is exact; "month" when only a month-year was
+    # available and the day component is synthesized (see fetchers/scraper.py).
+    date_precision: str = "day"
 
     VALID_SOURCE_TYPES: ClassVar[list[str]] = ["rss", "scrape"]
 
@@ -52,6 +55,7 @@ class Paper:
             fetched_at=data.get(
                 "fetched_at", datetime.now(timezone.utc).isoformat()
             ),
+            date_precision=data.get("date_precision", "day"),
         )
 
 

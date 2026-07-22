@@ -47,12 +47,25 @@
     {%- endif -%}
   {%- endmacro -%}
 
+  {# ── Month-precision variant: never show a synthesized day ── #}
+  {%- macro fmt_month(date_val) -%}
+    {%- set months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] -%}
+    {%- set dstr = date_val|string -%}
+    {%- if date_val and '-' in dstr -%}
+      {%- set pd_year = dstr.split('-')[0] -%}
+      {%- set pd_month = dstr.split('-')[1]|int -%}
+      {{ months[pd_month - 1] }} {{ pd_year }}
+    {%- else -%}
+      {{ date_val }}
+    {%- endif -%}
+  {%- endmacro -%}
+
   {# ── Reusable paper card macro ── #}
   {%- macro paper_card(paper, card_class="grid-card") -%}
   <article class="paper-card {{ card_class }}" data-org="{{ paper.organization }}" data-date="{{ paper.published_date[:10] }}">
     <div class="paper-meta">
       <span class="org-tag" data-org="{{ paper.organization }}">{{ paper.organization }}</span>
-      <span class="paper-date">{{ fmt_date(paper.published_date) }}</span>
+      <span class="paper-date">{{ fmt_month(paper.published_date) if paper.get('date_precision') == 'month' else fmt_date(paper.published_date) }}</span>
     </div>
     <h3 class="paper-title">
       <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>

@@ -74,11 +74,18 @@ DATE_FORMATS = [
 # Helpers
 # ---------------------------------------------------------------------------
 
-def _parse_date_string(text: str) -> Optional[str]:
+def _parse_date_string(text: str) -> Optional[tuple[str, str]]:
     """
     Attempt to extract and parse a date from an arbitrary string.
 
-    Returns an ISO-formatted date string on success, or None.
+    Returns an ``(iso_date, precision)`` tuple on success, or None.
+    ``precision`` is ``"day"`` for full dates and ``"month"`` for month-only
+    dates (e.g. "February 2026"). Month-only dates get a synthesized day —
+    the current day-of-month within the current month (so papers aren't
+    excluded by the 7-day filter late in the month), otherwise the 15th.
+    The synthesized day is a placeholder: enrich.py later tries to refine it
+    from the article page, and the renderer falls back to a month-year
+    display when it can't.
     """
     for pattern in DATE_PATTERNS:
         match = pattern.search(text)
@@ -89,26 +96,25 @@ def _parse_date_string(text: str) -> Optional[str]:
                     dt = datetime.strptime(date_str, fmt).replace(
                         tzinfo=timezone.utc
                     )
-                    # For month-only dates (e.g. "February 2026"), use the
-                    # current day-of-month if it's the current month so papers
-                    # aren't excluded by the 7-day filter late in the month.
                     if fmt == "%B %Y":
                         now = datetime.now(timezone.utc)
                         if dt.year == now.year and dt.month == now.month:
                             dt = dt.replace(day=now.day)
                         else:
                             dt = dt.replace(day=15)
-                    return dt.isoformat()
+                        return dt.isoformat(), "month"
+                    return dt.isoformat(), "day"
                 except ValueError:
                     continue
     return None
 
 
-def _extract_date(element) -> Optional[str]:
+def _extract_date(element) -> Optional[tuple[str, str]]:
     """
     Try to find a date associated with a DOM element.
 
     Checks <time> tags first, then searches visible text for date patterns.
+    Returns an ``(iso_date, precision)`` tuple (see ``_parse_date_string``).
     """
     # <time datetime="...">
     time_tag = element.find("time")
@@ -435,12 +441,13 @@ def fetch_scraped(
                         continue
 
                     abstract = _extract_abstract(elem)
-                    pub_date = _extract_date(elem)
+                    date_result = _extract_date(elem)
 
                     # Skip papers without a parseable date — they are likely
                     # old papers from a research listing page.
-                    if pub_date is None:
+                    if date_result is None:
                         continue
+                    pub_date, date_precision = date_result
 
                     # Keyword filter: if configured, skip items that don't
                     # match any keyword in title + abstract
@@ -459,6 +466,7 @@ def fetch_scraped(
                             published_date=pub_date,
                             source_type="scrape",
                             source_url=page_url,
+                            date_precision=date_precision,
                         )
                     )
                     site_count += 1

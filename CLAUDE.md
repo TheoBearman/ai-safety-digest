@@ -34,11 +34,11 @@ Tests live in `tests/` (pytest). Snapshot output is at `tests/snapshots/index.ht
 
 **Pipeline:** `config.yaml` → fetchers → **7-day date filter** → dedup → research filter → enrich → clean → `data/papers.json` → `render.py` → `site/index.html`
 
-**Data model:** Everything flows through `scripts/models.Paper` dataclass. Fields: title, authors, organization, abstract, url, published_date, source_type (`"rss"`, `"scrape"`), source_url, fetched_at. All fetchers must return `list[Paper]`.
+**Data model:** Everything flows through `scripts/models.Paper` dataclass. Fields: title, authors, organization, abstract, url, published_date, source_type (`"rss"`, `"scrape"`), source_url, fetched_at, date_precision (`"day"` | `"month"` — month-only scraped dates get a synthesized day placeholder). All fetchers must return `list[Paper]`.
 
 **Fetchers** (`scripts/fetchers/`):
 - `rss.py` — RSS/Atom feeds via feedparser. 7-day window. Three-layer filtering: RSS `categories` tags, explicit per-feed `keywords`, default research keywords.
-- `scraper.py` — BeautifulSoup scraper for orgs without RSS. Heuristic article element detection (articles → class-matched elements → heading links → container links). Optional `link_must_contain` filter. Papers without parseable dates are dropped. Supports "Month Year" date format. URLs may contain a `{year}` placeholder resolved to the current UTC year at fetch time (plus the previous year during January, so the 7-day window spanning New Year is covered).
+- `scraper.py` — BeautifulSoup scraper for orgs without RSS. Heuristic article element detection (articles → class-matched elements → heading links → container links). Optional `link_must_contain` filter. Papers without parseable dates are dropped. Supports "Month Year" date format — such papers get a synthesized day (today within the current month, else the 15th) and are marked `date_precision="month"` so enrichment can refine them and the renderer never displays the fake day. URLs may contain a `{year}` placeholder resolved to the current UTC year at fetch time (plus the previous year during January, so the 7-day window spanning New Year is covered).
 - `lesswrong.py` — LessWrong GraphQL API. Filters by karma threshold (150+) client-side.
 - `trending.py` — HN (Algolia API) + Reddit JSON API. Research content filtering via URL domain checks and title keyword analysis. All use `source_type="rss"`.
 
@@ -46,11 +46,11 @@ Tests live in `tests/` (pytest). Snapshot output is at `tests/snapshots/index.ht
 1. **Global 7-day date filter** — Removes all papers older than 7 days. Applied to ALL sources before dedup.
 2. `dedup.py` — Two-pass: exact normalized title match, then SequenceMatcher (ratio > 0.85). Keeps entry with longest abstract.
 3. **Research relevance filter** (`filter.py`) — Scoring-based: 144 research terms checked against title+abstract. Known research orgs need score >= 1, others >= 2.
-3. `enrich.py` — Fetches URLs of papers with short/missing abstracts (<50 chars). Strategies: LessWrong GraphQL API, arXiv abs/html pages, meta descriptions, semantic CSS classes, first paragraph. Synthetic fallback for remaining. ThreadPoolExecutor (5 workers), retry on 5xx/timeout, User-Agent rotation.
+3. `enrich.py` — Fetches URLs of papers with short/missing abstracts (<50 chars). Strategies: LessWrong GraphQL API, arXiv abs/html pages, meta descriptions, semantic CSS classes, first paragraph. Synthetic fallback for remaining. ThreadPoolExecutor (5 workers), retry on 5xx/timeout, User-Agent rotation. Also refines `date_precision="month"` dates by fetching the article page and reading `article:published_time` meta tags, JSON-LD `datePublished`, or (only when the year-month matches the scraped listing date) `<time>` tags; results are cached in `enrich_cache.json` under date-specific keys. After enrichment, `fetch.py` re-applies the 7-day cutoff so papers whose refined date is older than the window drop out.
 4. Abstract cleaning in `fetch.py` — strips HTML, collapses whitespace, removes date prefixes, caps at 150 words.
 
 **Rendering** (`render.py`):
-- Jinja2 template at `templates/index.html.j2`, CSS inlined from `static/style.css`.
+- Jinja2 template at `templates/index.html.j2`, CSS inlined from `static/style.css`. Papers with `date_precision="month"` display as "Jul 2026" instead of a fabricated exact day.
 - Featured section: up to 3 papers selected by multi-signal scoring (source authority tiers, abstract richness, research title terms, named authors, exponential recency decay). Org diversity enforced. Minimum score threshold (12.0).
 - Client-side JS org filter and daily/weekly digest toggle. Dark mode support.
 - Daily/weekly toggle is purely client-side: filters paper cards by `data-date` attribute, updates header text and counts, persists choice in `localStorage`. Backend always fetches 7 days.

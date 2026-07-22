@@ -83,6 +83,18 @@ def _clean_abstract(text: str) -> str:
     return text
 
 
+def _is_within_cutoff(paper: Paper, cutoff: datetime) -> bool:
+    """True if the paper's published date is on/after *cutoff* (or unparseable)."""
+    try:
+        pub_dt = datetime.fromisoformat(paper.published_date)
+        if pub_dt.tzinfo is None:
+            pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+        return pub_dt >= cutoff
+    except (ValueError, TypeError):
+        # If we can't parse the date, keep the paper
+        return True
+
+
 def main() -> None:
     logger.info("Loading configuration from %s", CONFIG_PATH)
     config = load_config(CONFIG_PATH)
@@ -115,17 +127,9 @@ def main() -> None:
             cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).replace(
                 hour=0, minute=0, second=0, microsecond=0
             )
-            date_filtered: list[Paper] = []
-            for p in all_papers:
-                try:
-                    pub_dt = datetime.fromisoformat(p.published_date)
-                    if pub_dt.tzinfo is None:
-                        pub_dt = pub_dt.replace(tzinfo=timezone.utc)
-                    if pub_dt >= cutoff:
-                        date_filtered.append(p)
-                except (ValueError, TypeError):
-                    # If we can't parse the date, keep the paper
-                    date_filtered.append(p)
+            date_filtered = [
+                p for p in all_papers if _is_within_cutoff(p, cutoff)
+            ]
             removed = len(all_papers) - len(date_filtered)
             if removed:
                 logger.info("Date filter: removed %d papers older than 7 days", removed)
@@ -136,6 +140,17 @@ def main() -> None:
         papers = deduplicate(all_papers, recorder=recorder)
         papers = filter_papers(papers, recorder=recorder)
         papers = enrich_abstracts(papers, recorder=recorder)
+
+        # Enrichment may refine month-precision dates to the true publish
+        # day; drop papers revealed to be older than the 7-day window.
+        pre_refine_count = len(papers)
+        papers = [p for p in papers if _is_within_cutoff(p, cutoff)]
+        if len(papers) != pre_refine_count:
+            logger.info(
+                "Post-enrich date filter: removed %d papers with refined "
+                "dates older than 7 days",
+                pre_refine_count - len(papers),
+            )
 
         for p in papers:
             p.abstract = _clean_abstract(p.abstract)

@@ -7,7 +7,11 @@ from unittest import mock
 
 import requests
 
-from scripts.fetchers.scraper import _resolve_year_urls, fetch_scraped
+from scripts.fetchers.scraper import (
+    _parse_date_string,
+    _resolve_year_urls,
+    fetch_scraped,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -40,6 +44,22 @@ def test_resolve_year_urls_december_stays_single():
     assert _resolve_year_urls("https://red.anthropic.com/{year}", now=now) == [
         "https://red.anthropic.com/2026"
     ]
+
+
+# ---------------------------------------------------------------------------
+# Date precision
+# ---------------------------------------------------------------------------
+
+def test_parse_date_string_full_date_is_day_precision():
+    iso, precision = _parse_date_string("July 16, 2026")
+    assert iso.startswith("2026-07-16")
+    assert precision == "day"
+
+
+def test_parse_date_string_month_only_is_month_precision():
+    iso, precision = _parse_date_string("July 2026")
+    assert iso.startswith("2026-07-")
+    assert precision == "month"
 
 
 # ---------------------------------------------------------------------------
@@ -87,6 +107,38 @@ def test_fetch_scraped_resolves_year_template():
     assert papers, "expected at least one paper from the sample HTML"
     assert papers[0].url == "https://red.example.com/posts/alpha/"
     assert papers[0].source_url == f"https://red.example.com/{year}"
+
+
+MONTH_ONLY_HTML = """
+<html><body>
+<article>
+  <h2>A Month Dated Research Paper</h2>
+  <time datetime="July 2026">July 2026</time>
+  <a href="/posts/month-dated/">Read</a>
+  <p>An abstract about the paper.</p>
+</article>
+</body></html>
+"""
+
+
+def test_fetch_scraped_sets_date_precision():
+    with mock.patch(
+        "scripts.fetchers.scraper.requests.get",
+        return_value=_response(_page("Alpha", "/posts/alpha/")),
+    ):
+        day_papers = fetch_scraped(
+            [{"name": "Plain", "url": "https://example.org/blog", "org": "Org"}]
+        )
+    with mock.patch(
+        "scripts.fetchers.scraper.requests.get",
+        return_value=_response(MONTH_ONLY_HTML),
+    ):
+        month_papers = fetch_scraped(
+            [{"name": "Plain", "url": "https://example.org/blog", "org": "Org"}]
+        )
+
+    assert day_papers[0].date_precision == "day"
+    assert month_papers[0].date_precision == "month"
 
 
 def test_fetch_scraped_plain_url_unchanged():
