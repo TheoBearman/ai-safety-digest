@@ -64,6 +64,48 @@ def test_render_matches_snapshot(fixture_papers, fixture_health, project_css):
         )
 
 
+def test_render_includes_every_paper_exactly_once(
+    fixture_papers, fixture_health, project_css
+):
+    """Every paper must reach the page exactly once.
+
+    The featured/hero section is currently commented out in the template. When
+    ``render`` also excluded featured papers from the grid, the top-scoring
+    papers were selected and then rendered nowhere — silently dropped. The
+    snapshot test could not catch it, because the truncated output *was* the
+    blessed snapshot. This asserts the invariant directly, and also fails if a
+    re-enabled hero renders featured papers twice.
+    """
+    html = render(
+        papers=fixture_papers,
+        css=project_css,
+        now=FROZEN_NOW,
+        health=fixture_health,
+    )
+
+    # One card per paper: too few means papers were dropped, too many means a
+    # re-enabled hero is rendering the featured ones a second time.
+    assert html.count('class="paper-card') == len(fixture_papers)
+
+    # A card count alone would still pass if one paper were dropped while
+    # another was duplicated, so check each paper actually reached the page.
+    for paper in fixture_papers:
+        assert paper["url"] in html, f"{paper['url']} was not rendered"
+
+
+def test_render_reports_count_matching_rendered_cards(
+    fixture_papers, fixture_health, project_css
+):
+    """The advertised total must match what is actually on the page."""
+    html = render(
+        papers=fixture_papers,
+        css=project_css,
+        now=FROZEN_NOW,
+        health=fixture_health,
+    )
+    assert f">{len(fixture_papers)}</span>" in html
+
+
 def test_render_handles_no_health(fixture_papers, project_css):
     """Without a run log present, render() should still succeed."""
     html = render(

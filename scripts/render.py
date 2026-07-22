@@ -12,9 +12,7 @@ Usage:
 from __future__ import annotations
 
 import json
-import math
 import os
-import re
 import sys
 from datetime import datetime, timedelta
 from jinja2 import Environment, FileSystemLoader
@@ -145,174 +143,6 @@ COMMUNITY_ORGS: set[str] = {
     "Vox Future Perfect",
 }
 
-# ---------------------------------------------------------------------------
-# Featured-paper scoring
-# ---------------------------------------------------------------------------
-
-# Minimum score a paper must reach to be shown in the hero section.
-FEATURED_MIN_SCORE: float = 12.0
-
-# Maximum number of papers in the hero section.
-FEATURED_MAX_COUNT: int = 3
-
-# Terms in a title that signal substantial research (case-insensitive).
-_RESEARCH_TITLE_RE: re.Pattern[str] = re.compile(
-    r"\b(?:"
-    r"paper|model|benchmark|evaluat\w+|framework|alignment|safety|"
-    r"interpretab\w+|reward|reinforcement|fine[- ]?tun\w+|train\w+|"
-    r"scal\w+|language model|LLM|agent|auditing|red[- ]?team\w+|"
-    r"monitor\w+|oversight|robustness|jailbreak|watermark\w+|"
-    r"decepti\w+|mesa[- ]?optim\w+|corrigib\w+|specification|"
-    r"governance|regulation|risk|catastroph\w+|existential|"
-    r"superint\w+|capability|dangerous|dual[- ]?use|biosecurity|"
-    r"cyber|verification|detect\w+|mitigat\w+"
-    r")\b",
-    re.IGNORECASE,
-)
-
-
-def _parse_date(date_str: str) -> datetime | None:
-    """Parse an ISO 8601 date string into a naive datetime, or None."""
-    if not date_str:
-        return None
-    try:
-        if "T" in str(date_str):
-            return datetime.fromisoformat(
-                str(date_str).replace("Z", "+00:00")
-            ).replace(tzinfo=None)
-        return datetime.strptime(str(date_str)[:10], "%Y-%m-%d")
-    except (ValueError, TypeError):
-        return None
-
-
-def score_paper(paper: dict, now: datetime | None = None) -> float:
-    """Score a paper for featured hero-section selection.
-
-    The score is a float composed of several weighted signals:
-
-    1. Source authority (0-20 pts)
-       - TOP_TIER_ORGS:  +20
-       - PRIORITY_ORGS (not top-tier): +12
-       - Other named orgs (not community): +5
-       - COMMUNITY_ORGS: +0
-
-    2. Content quality (0-10 pts)
-       - Abstract length:  scaled 0-5 based on character count (0-500+ chars)
-       - Research-y title: +3 if title matches research term patterns
-       - Named authors:    +2 if at least one non-empty, non-"Unknown" author
-
-    3. Recency (0-10 pts)
-       - Exponential decay: 10 * exp(-0.2 * days_ago)
-       - 0 days ago -> 10, 1 day -> ~8.2, 3 days -> ~5.5, 7 days -> ~2.5
-
-    4. Penalties
-       - Community org:    -5 (on top of getting 0 from authority)
-       - No abstract:      -3
-    """
-    if now is None:
-        now = datetime.now()
-
-    score: float = 0.0
-    org = paper.get("organization", "") or ""
-    abstract = paper.get("abstract", "") or ""
-    title = paper.get("title", "") or ""
-    authors = paper.get("authors", []) or []
-    source_type = paper.get("source_type", "") or ""
-
-    # ----- 1. Source authority -----
-    if org in TOP_TIER_ORGS:
-        score += 20.0
-    elif org in PRIORITY_ORGS:
-        score += 12.0
-    elif org and org not in COMMUNITY_ORGS:
-        score += 5.0
-    # Community orgs get 0 for authority, plus a penalty below.
-
-    # ----- 2. Content quality signals -----
-
-    # Abstract length: scale from 0 to 5 based on length.
-    # 500+ characters earns the full 5 points.
-    abstract_len = len(abstract)
-    score += min(abstract_len / 100.0, 5.0)
-
-    # Research-y title terms
-    if _RESEARCH_TITLE_RE.search(title):
-        score += 3.0
-
-    # Named authors (at least one real name)
-    has_real_author = any(
-        a and a.strip() and a.strip().lower() != "unknown"
-        for a in authors
-    )
-    if has_real_author:
-        score += 2.0
-
-    # ----- 3. Recency (smooth exponential decay) -----
-    pub_date = _parse_date(paper.get("published_date", ""))
-    if pub_date is not None:
-        days_ago = max((now - pub_date).total_seconds() / 86400.0, 0.0)
-        # Exponential decay: half-life of ~3.5 days
-        score += 10.0 * math.exp(-0.2 * days_ago)
-    # No date at all -> no recency bonus (0 out of 10)
-
-    # ----- 4. Penalties -----
-    if org in COMMUNITY_ORGS:
-        score -= 5.0
-
-    if abstract_len < 20:
-        score -= 3.0
-
-    return round(score, 2)
-
-
-def select_featured(
-    papers: list[dict],
-    now: datetime | None = None,
-    max_count: int = FEATURED_MAX_COUNT,
-    min_score: float = FEATURED_MIN_SCORE,
-) -> list[dict]:
-    """Select up to *max_count* papers for the featured hero section.
-
-    Steps:
-    1. Score every paper.
-    2. Sort by descending score (stable index as tiebreaker).
-    3. Apply the minimum score threshold.
-    4. Enforce organizational diversity: the featured set should not contain
-       more than one paper from the same organization. After placing the
-       top-scoring paper, each subsequent slot goes to the next-highest
-       paper whose organization has not already been selected. This ensures
-       the hero section showcases breadth across the field.
-
-    Returns a list of up to *max_count* paper dicts.
-    """
-    if now is None:
-        now = datetime.now()
-
-    scored: list[tuple[float, int, dict]] = [
-        (score_paper(p, now), idx, p) for idx, p in enumerate(papers)
-    ]
-    # Sort: highest score first, then by original index for stability
-    scored.sort(key=lambda t: (-t[0], t[1]))
-
-    featured: list[dict] = []
-    seen_orgs: set[str] = set()
-
-    for paper_score, _idx, paper in scored:
-        if len(featured) >= max_count:
-            break
-        if paper_score < min_score:
-            break  # All remaining papers are below the threshold
-
-        org = paper.get("organization", "") or ""
-        if org and org in seen_orgs:
-            continue  # Skip duplicate org to maintain diversity
-
-        featured.append(paper)
-        if org:
-            seen_orgs.add(org)
-
-    return featured
-
 
 def extract_organizations(papers: list[dict]) -> list[str]:
     """Return a sorted list of unique organization names from the papers,
@@ -401,10 +231,7 @@ def render(
     # Sort by published date, newest first
     papers = sorted(papers, key=lambda p: p.get("published_date", ""), reverse=True)
 
-    # --- Hero section: select featured papers with the new algorithm ---
-    featured_papers = select_featured(papers, now)
-    featured_urls = {p.get("url") for p in featured_papers}
-    grid_papers = [p for p in papers if p.get("url") not in featured_urls]
+    grid_papers = papers
     total_count = len(papers)
 
     if health is None:
@@ -414,7 +241,6 @@ def render(
 
     html = template.render(
         papers=grid_papers,
-        featured_papers=featured_papers,
         total_count=total_count,
         week_start=week_start,
         week_end=week_end,
