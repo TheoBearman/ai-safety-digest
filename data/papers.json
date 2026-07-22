@@ -8,29 +8,42 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-21T11:10:00.140074+00:00"
+    "fetched_at": "2026-07-22T11:10:26.951982+00:00"
+  },
+  {
+    "title": "[Paper] Stringological sequence prediction II",
+    "authors": [
+      "Vanessa Kosoy"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Abstract: In a previous paper, we began the study of sequence prediction algorithms adapted to stringological word complexity measures. One measure we considered was left-to-right (most-significant-digit-first) automaticity. Here, we show a statistically and computationally efficient algorithm adapted to the \"dual\" right-to-left (least-significant-digit-first) automaticity, which turns out to be substantially different for our purpose. We also demonstrate a prediction algorithm for a more expressive measure that we call \"arithmetic repetition complexity\". In particular, the latter can be used for predicting the so-called mix-automatic sequences. This paper continues my sequence on the new approach to compositional learning, which started with \" stringological sequence prediction I \". Curiously, the ARC complexity measure I define here seems related [1] to my control-theoretic complexity measure for polytope MDPs , even though the initial motivation here came from a completely different automata-theoretic angle [2] .",
+    "url": "https://www.alignmentforum.org/posts/TTei7oq9ndjJFgnsT/paper-stringological-sequence-prediction-ii",
+    "published_date": "2026-07-22T07:27:26+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-22T11:10:18.529126+00:00"
   },
   {
     "title": "Agentic Misalignment in Summer 2026",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-21.",
+    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-22.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-21T00:00:00+00:00",
+    "published_date": "2026-07-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-21T11:09:51.859962+00:00"
+    "fetched_at": "2026-07-22T11:10:22.898133+00:00"
   },
   {
     "title": "Our approach to bioresilience",
     "authors": [],
     "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-21.",
+    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-22.",
     "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-    "published_date": "2026-07-21T00:00:00+00:00",
+    "published_date": "2026-07-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-07-21T11:09:56.158050+00:00"
+    "fetched_at": "2026-07-22T11:10:23.332717+00:00"
   },
   {
     "title": "Beyond Targeting",
@@ -38,10 +51,10 @@
     "organization": "CSET",
     "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
     "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
-    "published_date": "2026-07-21T00:00:00+00:00",
+    "published_date": "2026-07-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-07-21T11:10:00.296941+00:00"
+    "fetched_at": "2026-07-22T11:10:27.167488+00:00"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -49,10 +62,73 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-21T00:00:00+00:00",
+    "published_date": "2026-07-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-21T11:10:00.539722+00:00"
+    "fetched_at": "2026-07-22T11:10:27.419040+00:00"
+  },
+  {
+    "title": "OpenAI Models Behind HuggingFace Cybersecurity Incident",
+    "authors": [
+      "LawrenceC"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'OpenAI Models Behind HuggingFace Cybersecurity Incident'. Published 2026-07-21. Authors: LawrenceC.",
+    "url": "https://www.lesswrong.com/posts/WpuRdcMfFeiLeXkxL/openai-models-behind-huggingface-cybersecurity-incident",
+    "published_date": "2026-07-21T21:36:59.766000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-07-22T11:10:30.849990+00:00"
+  },
+  {
+    "title": "Measuring Reward-Seeking by Instilling Contrastive Beliefs",
+    "authors": [
+      "Axel Højmark, Jérémy Scheurer, Jenny Nitishinskaya, Felix Hofstätter, Jason Wolfe, Theodore Ehrenborg, Bronson Schoen, Alexander Meinke"
+    ],
+    "organization": "OpenAI",
+    "abstract": "We developed Contrastive Synthetic Document Finetuning (Contrastive SDF), a new test for whether an AI model changes its behavior when it has different beliefs about what a grader rewards.",
+    "url": "https://alignment.openai.com/measuring-reward-seeking/",
+    "published_date": "2026-07-21T15:10:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-07-22T11:10:16.880998+00:00"
+  },
+  {
+    "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "We propose a measure of an AI agent’s optimization ability with an “expenditure horizon.” We give an empirical illustration from the NanoGPT speedrun. One difficulty in measuring AI’s ability to accelerate AI R&amp;D is accounting for token cost, experiment compute cost and human labor cost. If we can estimate performance as a function of cost for both humans and agents, we can measure the “expenditure horizon” as the point at which those curves cross: the budget at which humans become more cost-effective than AIs. We illustrate our method with data from the NanoGPT speedrun. We first estimate the returns to human effort in optimizing NanoGPT: on the margin, each 1% improvement costs very roughly \\$2,500 in human labor. We also report the status of preliminary agentic optimization runs against NanoGPT: after more than \\$10K of expenditure we estimate expenditure horizons of \\$0-\\$3K.",
+    "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/",
+    "published_date": "2026-07-21T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-07-22T11:10:20.549940+00:00"
+  },
+  {
+    "title": "Cheating behaviour in frontier model evaluations",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "We find cheating behaviour in all of our capability evaluations, and outline the implications as models grow more capable.",
+    "url": "https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations",
+    "published_date": "2026-07-21T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-07-22T11:10:26.509016+00:00"
+  },
+  {
+    "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
+    "authors": [
+      "agam_bhatia"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it away makes the model answer \"a boiled egg every morning is hard to beat\" with nutrition facts instead of catching the pun. On LCM problems, \"gcd\" fires, pointing at the product/GCD algorithm: swapping the GCD vector from 9 to 3 makes the model change its answer for the LCM of 27 and 90 from 270 to 810. Additionally, before the model hedges, 大概率 (\"most likely\") fires, and suppressing it makes the model commit to a single option (for e.g.",
+    "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
+    "published_date": "2026-07-20T19:45:04+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-22T11:10:18.529347+00:00"
   },
   {
     "title": "Securing AI Algorithmic Insights",
@@ -63,7 +139,7 @@
     "published_date": "2026-07-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-21T11:10:00.140329+00:00"
+    "fetched_at": "2026-07-22T11:10:26.952202+00:00"
   },
   {
     "title": "A Red Line and Oversight Framework for Government AI Contracts",
@@ -76,7 +152,7 @@
     "published_date": "2026-07-18T18:58:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-21T11:09:45.705139+00:00"
+    "fetched_at": "2026-07-22T11:10:18.529862+00:00"
   },
   {
     "title": "Endogenous Alignment",
@@ -89,7 +165,7 @@
     "published_date": "2026-07-18T14:10:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-21T11:09:45.705218+00:00"
+    "fetched_at": "2026-07-22T11:10:18.529932+00:00"
   },
   {
     "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
@@ -102,7 +178,7 @@
     "published_date": "2026-07-17T23:42:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-21T11:09:45.705301+00:00"
+    "fetched_at": "2026-07-22T11:10:18.530015+00:00"
   },
   {
     "title": "Announcing the Corrigibility Research Fund",
@@ -115,7 +191,7 @@
     "published_date": "2026-07-17T18:06:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-21T11:09:45.705418+00:00"
+    "fetched_at": "2026-07-22T11:10:18.530131+00:00"
   },
   {
     "title": "I don't think Claude is misaligned in 'Agentic Misalignment Summer 2026 - Motivated Mislabeling'",
@@ -128,7 +204,7 @@
     "published_date": "2026-07-17T02:09:49.346000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-21T11:10:05.013248+00:00"
+    "fetched_at": "2026-07-22T11:10:30.849982+00:00"
   },
   {
     "title": "How Far Behind the Frontier are Leading Open Weight Models on Cyber?",
@@ -139,7 +215,7 @@
     "published_date": "2026-07-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-21T11:09:59.489577+00:00"
+    "fetched_at": "2026-07-22T11:10:26.509478+00:00"
   },
   {
     "title": "Pooling Europe's compute: The promise of distributed training for European frontier AI",
@@ -150,7 +226,7 @@
     "published_date": "2026-07-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-21T11:10:00.140884+00:00"
+    "fetched_at": "2026-07-22T11:10:26.952639+00:00"
   },
   {
     "title": "Why I Left Google DeepMind",
@@ -163,7 +239,7 @@
     "published_date": "2026-07-15T17:42:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-21T11:09:45.706232+00:00"
+    "fetched_at": "2026-07-22T11:10:18.530985+00:00"
   },
   {
     "title": "AI as Strategist: Four Hypotheses on the Nature of Agentic Strategy",
@@ -174,52 +250,6 @@
     "published_date": "2026-07-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-21T11:10:00.141376+00:00"
-  },
-  {
-    "title": "Open Distillation of Hereditary Traits",
-    "authors": [
-      "Arthur Conmy"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its own this is pretty unsurprising, but Josh and Neel additionally show that even filtering out all the prompts and rollouts where the trait is mentioned doesn’t generally prevent the trait transfer In this post, I show a simple way to replicate and study these phenomena without access to a frontier SFT pipeline (or even running full SFT [1] ) I distill Gemma 3’s negative emotion into Qwen-base , Gemma 4’s agentic misalignment into Nemotron Chat , and Qwen’s Chinese censorship into Llama base I end the post with a bunch of open questions that could be tackled with a setup similar to this approach I release all model weights here ( https://huggingface.co/ArthurConmy/hereditary-weights )...",
-    "url": "https://www.alignmentforum.org/posts/WpYFAmJDH3zuAq2ha/open-distillation-of-hereditary-traits-1",
-    "published_date": "2026-07-14T10:15:03+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-21T11:09:45.706606+00:00"
-  },
-  {
-    "title": "Bilateral AI Partnerships Alone Won't Secure Australia. Here’s a Multilateral Alternative",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Commentary Jul 14, 2026 Australia's answer to regional AI collaboration lies in federated learning, an AI model that allows cross-border collaboration on transnational security issues whilst preserving data sovereignty.",
-    "url": "https://www.rand.org/pubs/commentary/2026/07/bilateral-ai-partnerships-alone-wont-secure-australia.html",
-    "published_date": "2026-07-14T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-21T11:10:00.141665+00:00"
-  },
-  {
-    "title": "Artificial Intelligence and the Risk of Strategic Cyberattack",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Jul 14, 2026 The author argues that agentic artificial intelligence will alleviate the key constraints on cyber operations and may unlock strategic potential in cyber weapons that has, until now, remained largely theoretical.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4901-1.html",
-    "published_date": "2026-07-14T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-21T11:10:00.141931+00:00"
-  },
-  {
-    "title": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack Insurance has been the quiet enabler of major economic and technological developments — from maritime trade to commercial nuclear power — by limiting downside, pricing risk, spreading best practices, and assuring compensation to harmed parties. The AI agent economy, projected to be handling trillions of dollars’ worth of transactions by 2030, is the next such development whose risks insurers must price, manage, and absorb. Today frontier AI agent risk is largely unpriced and invisible. The bulk of insurers’ exposure sits as silent coverage inside existing policies (especially cyber, professional, and general liability). Exposure is growing rapidly: enterprise spend on frontier AI grew over 300% in 2025 and looks to accelerate in 2026. Insurers risk repeating the costly ambiguity that plagued cyber insurance, and ignoring a potential time bomb.",
-    "url": "https://www.matsprogram.org/research/underwriting-the-agent-economy-the-blueprint-for-an-ai-insurance-stack",
-    "published_date": "2026-07-14T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-07-21T11:10:03.404043+00:00"
+    "fetched_at": "2026-07-22T11:10:26.953068+00:00"
   }
 ]
