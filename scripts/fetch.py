@@ -83,13 +83,25 @@ def _clean_abstract(text: str) -> str:
     return text
 
 
-def _is_within_cutoff(paper: Paper, cutoff: datetime) -> bool:
-    """True if the paper's published date is on/after *cutoff* (or unparseable)."""
+# Papers dated further than this into the future are dropped — listing pages
+# sometimes show scheduled/project dates (e.g. RAND project cards dated weeks
+# ahead), which would otherwise pin to the top of the digest until the date
+# arrives. The tolerance keeps legitimately same-day posts whose timestamps
+# look "future" in UTC due to timezone skew.
+FUTURE_TOLERANCE = timedelta(hours=24)
+
+
+def _is_within_window(paper: Paper, cutoff: datetime, now: datetime) -> bool:
+    """True if the paper's published date is within the digest window.
+
+    The window is [cutoff, now + FUTURE_TOLERANCE]. Unparseable dates are
+    kept.
+    """
     try:
         pub_dt = datetime.fromisoformat(paper.published_date)
         if pub_dt.tzinfo is None:
             pub_dt = pub_dt.replace(tzinfo=timezone.utc)
-        return pub_dt >= cutoff
+        return cutoff <= pub_dt <= now + FUTURE_TOLERANCE
     except (ValueError, TypeError):
         # If we can't parse the date, keep the paper
         return True
@@ -124,15 +136,19 @@ def main() -> None:
         # -- Global date filter: keep only papers from the last 7 days ---------
         # Use start-of-day so we include the full day 7 days ago
         with recorder.time_stage("date_filter", len(all_papers)) as t:
-            cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).replace(
+            now = datetime.now(timezone.utc)
+            cutoff = (now - timedelta(days=7)).replace(
                 hour=0, minute=0, second=0, microsecond=0
             )
             date_filtered = [
-                p for p in all_papers if _is_within_cutoff(p, cutoff)
+                p for p in all_papers if _is_within_window(p, cutoff, now)
             ]
             removed = len(all_papers) - len(date_filtered)
             if removed:
-                logger.info("Date filter: removed %d papers older than 7 days", removed)
+                logger.info(
+                    "Date filter: removed %d papers outside the 7-day window",
+                    removed,
+                )
             all_papers = date_filtered
             t.out_count = len(all_papers)
 
@@ -142,13 +158,13 @@ def main() -> None:
         papers = enrich_abstracts(papers, recorder=recorder)
 
         # Enrichment may refine month-precision dates to the true publish
-        # day; drop papers revealed to be older than the 7-day window.
+        # day; drop papers whose refined date falls outside the window.
         pre_refine_count = len(papers)
-        papers = [p for p in papers if _is_within_cutoff(p, cutoff)]
+        papers = [p for p in papers if _is_within_window(p, cutoff, now)]
         if len(papers) != pre_refine_count:
             logger.info(
                 "Post-enrich date filter: removed %d papers with refined "
-                "dates older than 7 days",
+                "dates outside the 7-day window",
                 pre_refine_count - len(papers),
             )
 
