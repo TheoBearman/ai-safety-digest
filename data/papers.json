@@ -8,7 +8,8 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-22T11:10:26.951982+00:00"
+    "fetched_at": "2026-07-22T13:07:16.986340+00:00",
+    "date_precision": "day"
   },
   {
     "title": "[Paper] Stringological sequence prediction II",
@@ -21,40 +22,20 @@
     "published_date": "2026-07-22T07:27:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T11:10:18.529126+00:00"
+    "fetched_at": "2026-07-22T13:07:06.446986+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Agentic Misalignment in Summer 2026",
     "authors": [],
     "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published 2026-07-22.",
+    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
     "published_date": "2026-07-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-22T11:10:22.898133+00:00"
-  },
-  {
-    "title": "Our approach to bioresilience",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-22.",
-    "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-    "published_date": "2026-07-22T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-07-22T11:10:23.332717+00:00"
-  },
-  {
-    "title": "Beyond Targeting",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
-    "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
-    "published_date": "2026-07-22T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-07-22T11:10:27.167488+00:00"
+    "fetched_at": "2026-07-22T13:07:11.335732+00:00",
+    "date_precision": "month"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
@@ -65,7 +46,8 @@
     "published_date": "2026-07-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-22T11:10:27.419040+00:00"
+    "fetched_at": "2026-07-22T13:07:17.534113+00:00",
+    "date_precision": "month"
   },
   {
     "title": "OpenAI Models Behind HuggingFace Cybersecurity Incident",
@@ -78,7 +60,8 @@
     "published_date": "2026-07-21T21:36:59.766000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-22T11:10:30.849990+00:00"
+    "fetched_at": "2026-07-22T13:07:29.532334+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Measuring Reward-Seeking by Instilling Contrastive Beliefs",
@@ -91,7 +74,8 @@
     "published_date": "2026-07-21T15:10:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-07-22T11:10:16.880998+00:00"
+    "fetched_at": "2026-07-22T13:07:05.417685+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
@@ -104,7 +88,8 @@
     "published_date": "2026-07-21T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-22T11:10:20.549940+00:00"
+    "fetched_at": "2026-07-22T13:07:08.581219+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Cheating behaviour in frontier model evaluations",
@@ -115,7 +100,8 @@
     "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-22T11:10:26.509016+00:00"
+    "fetched_at": "2026-07-22T13:07:16.236595+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
@@ -128,7 +114,8 @@
     "published_date": "2026-07-20T19:45:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T11:10:18.529347+00:00"
+    "fetched_at": "2026-07-22T13:07:06.447209+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Securing AI Algorithmic Insights",
@@ -139,7 +126,8 @@
     "published_date": "2026-07-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-22T11:10:26.952202+00:00"
+    "fetched_at": "2026-07-22T13:07:16.986633+00:00",
+    "date_precision": "day"
   },
   {
     "title": "A Red Line and Oversight Framework for Government AI Contracts",
@@ -152,7 +140,8 @@
     "published_date": "2026-07-18T18:58:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T11:10:18.529862+00:00"
+    "fetched_at": "2026-07-22T13:07:06.447747+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Endogenous Alignment",
@@ -165,7 +154,8 @@
     "published_date": "2026-07-18T14:10:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T11:10:18.529932+00:00"
+    "fetched_at": "2026-07-22T13:07:06.447814+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
@@ -178,7 +168,8 @@
     "published_date": "2026-07-17T23:42:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T11:10:18.530015+00:00"
+    "fetched_at": "2026-07-22T13:07:06.447896+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Announcing the Corrigibility Research Fund",
@@ -191,7 +182,8 @@
     "published_date": "2026-07-17T18:06:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T11:10:18.530131+00:00"
+    "fetched_at": "2026-07-22T13:07:06.448024+00:00",
+    "date_precision": "day"
   },
   {
     "title": "I don't think Claude is misaligned in 'Agentic Misalignment Summer 2026 - Motivated Mislabeling'",
@@ -204,7 +196,8 @@
     "published_date": "2026-07-17T02:09:49.346000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-22T11:10:30.849982+00:00"
+    "fetched_at": "2026-07-22T13:07:29.532324+00:00",
+    "date_precision": "day"
   },
   {
     "title": "How Far Behind the Frontier are Leading Open Weight Models on Cyber?",
@@ -215,7 +208,20 @@
     "published_date": "2026-07-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-22T11:10:26.509478+00:00"
+    "fetched_at": "2026-07-22T13:07:16.237196+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Our approach to bioresilience",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-16.",
+    "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+    "published_date": "2026-07-16T11:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-07-22T13:07:11.936870+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Pooling Europe's compute: The promise of distributed training for European frontier AI",
@@ -226,7 +232,8 @@
     "published_date": "2026-07-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-22T11:10:26.952639+00:00"
+    "fetched_at": "2026-07-22T13:07:16.987170+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Why I Left Google DeepMind",
@@ -239,7 +246,8 @@
     "published_date": "2026-07-15T17:42:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T11:10:18.530985+00:00"
+    "fetched_at": "2026-07-22T13:07:06.448884+00:00",
+    "date_precision": "day"
   },
   {
     "title": "AI as Strategist: Four Hypotheses on the Nature of Agentic Strategy",
@@ -250,6 +258,7 @@
     "published_date": "2026-07-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-22T11:10:26.953068+00:00"
+    "fetched_at": "2026-07-22T13:07:16.987697+00:00",
+    "date_precision": "day"
   }
 ]
