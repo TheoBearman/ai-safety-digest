@@ -1,15 +1,67 @@
 [
   {
-    "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Project Sep 4, 2026 RAND Europe is administering, analysing and reporting on the first ‘National AI in Research survey’ in the UK.",
-    "url": "https://www.rand.org/randeurope/research/projects/2026/ai-in-research-mapping-adoption-attitudes-and-impact-in-the-uk.html",
-    "published_date": "2026-09-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-22T13:07:16.986340+00:00",
+    "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
+    "authors": [
+      "Alex Mallen"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "OpenAI models recently broke through a series of security boundaries and into Hugging Face servers in order to cheat on a cyber eval . A lot of people thought it was scary because it was a clear example of AI overreaching to do something strongly unwanted [1] . Others thought it not so scary: the models were mostly operating myopically on a singular task and not harboring an ambitious long-term agenda, and so would not take especially subtle or subversive actions. We think both camps are right in their diagnosis, but the latter has too optimistic a prognosis. The myopic, unambitious misalignment that we seem to have seen here is definitely less scary than ambitious long-term goals shared between all instances, but would still pose substantial direct loss-of-control risk if the models were more capable, and is a serious indirect risk near-term.",
+    "url": "https://www.alignmentforum.org/posts/H6DDSEvrtCk8Sehfd/are-we-existentially-threatened-by-the-type-of-ai",
+    "published_date": "2026-07-23T03:40:37+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-23T11:11:03.301835+00:00",
     "date_precision": "day"
+  },
+  {
+    "title": "Vera Rubin NVL72 vs GB200 NVL72? Inference TCO & Architecture Analysis",
+    "authors": [
+      "Alec Ibarra"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "3 bit Rubin LUT Based Tensor Core, SM140 Feynman, Rack Scale, Perf Per MegaWatt, Perf Per Dollar, Software Improvements, Public Rubin Software, PyTorch, vLLM, OpenAI Triton",
+    "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-vs-gb200-nvl72-inference",
+    "published_date": "2026-07-23T00:47:48+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-07-23T11:11:06.274546+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Agentic Misalignment in Summer 2026",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
+    "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
+    "published_date": "2026-07-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-07-23T11:11:07.966380+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "International evaluation best practice and open questions in AI measurement",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "The International Network for Advanced AI Measurement, Evaluation and Science convened in Seoul to continue outlining international best practice.",
+    "url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+    "published_date": "2026-07-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-07-23T11:11:12.130782+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Assessing the Risk of AI-Enabled Computer Worms",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
+    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
+    "published_date": "2026-07-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-07-23T11:11:12.894039+00:00",
+    "date_precision": "month"
   },
   {
     "title": "[Paper] Stringological sequence prediction II",
@@ -22,32 +74,22 @@
     "published_date": "2026-07-22T07:27:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T13:07:06.446986+00:00",
+    "fetched_at": "2026-07-23T11:11:03.301868+00:00",
     "date_precision": "day"
   },
   {
-    "title": "Agentic Misalignment in Summer 2026",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
-    "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-22T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-22T13:07:11.335732+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Assessing the Risk of AI-Enabled Computer Worms",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
-    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-22T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-22T13:07:17.534113+00:00",
-    "date_precision": "month"
+    "title": "The Economics of Recursive Self-Improvement",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "We (Parker and Tom) recently coauthored a paper, “The Economics of Recursive Self-Improvement” , with 7 other economists. The paper walks through a series of simple models of how AI may accelerate AI R&amp;D, and we thought it’s worth highlighting some context and takeaways: We care about Recursive Self-Improvement (RSI) because we want to forecast capabilities. METR’s priority is to assess risk from frontier AI development, and one input is how capable AI systems will be in the future. Capabilities have been growing rapidly over the past 5 years, and we want to know whether to expect an acceleration. 1 The term RSI has been used with very different definitions. Unfortunately a lot of confusion has been caused by different definitions of RSI.",
+    "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
+    "published_date": "2026-07-22T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-07-23T11:11:05.643550+00:00",
+    "date_precision": "day"
   },
   {
     "title": "OpenAI Models Behind HuggingFace Cybersecurity Incident",
@@ -60,7 +102,7 @@
     "published_date": "2026-07-21T21:36:59.766000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-22T13:07:29.532334+00:00",
+    "fetched_at": "2026-07-23T11:11:16.860751+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +116,7 @@
     "published_date": "2026-07-21T15:10:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-07-22T13:07:05.417685+00:00",
+    "fetched_at": "2026-07-23T11:11:02.332562+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +130,7 @@
     "published_date": "2026-07-21T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-22T13:07:08.581219+00:00",
+    "fetched_at": "2026-07-23T11:11:05.644047+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +142,7 @@
     "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-22T13:07:16.236595+00:00",
+    "fetched_at": "2026-07-23T11:11:12.131330+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +156,7 @@
     "published_date": "2026-07-20T19:45:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T13:07:06.447209+00:00",
+    "fetched_at": "2026-07-23T11:11:03.302071+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +168,7 @@
     "published_date": "2026-07-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-22T13:07:16.986633+00:00",
+    "fetched_at": "2026-07-23T11:11:12.590613+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +182,7 @@
     "published_date": "2026-07-18T18:58:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T13:07:06.447747+00:00",
+    "fetched_at": "2026-07-23T11:11:03.302606+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +196,7 @@
     "published_date": "2026-07-18T14:10:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T13:07:06.447814+00:00",
+    "fetched_at": "2026-07-23T11:11:03.302674+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +210,7 @@
     "published_date": "2026-07-17T23:42:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T13:07:06.447896+00:00",
+    "fetched_at": "2026-07-23T11:11:03.302754+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +224,7 @@
     "published_date": "2026-07-17T18:06:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T13:07:06.448024+00:00",
+    "fetched_at": "2026-07-23T11:11:03.302866+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +238,7 @@
     "published_date": "2026-07-17T02:09:49.346000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-22T13:07:29.532324+00:00",
+    "fetched_at": "2026-07-23T11:11:16.860765+00:00",
     "date_precision": "day"
   },
   {
@@ -208,7 +250,7 @@
     "published_date": "2026-07-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-22T13:07:16.237196+00:00",
+    "fetched_at": "2026-07-23T11:11:12.131861+00:00",
     "date_precision": "day"
   },
   {
@@ -220,7 +262,7 @@
     "published_date": "2026-07-16T11:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-07-22T13:07:11.936870+00:00",
+    "fetched_at": "2026-07-23T11:11:08.578841+00:00",
     "date_precision": "day"
   },
   {
@@ -232,33 +274,7 @@
     "published_date": "2026-07-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-22T13:07:16.987170+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Why I Left Google DeepMind",
-    "authors": [
-      "TurnTrout"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Preface for LessWrong: When I think back on my most cherished memories of this community, I return to those honoring defiance in pursuit of goodness : Defying prestigious dogma and searching for raw truth; Defying social pressure, acting alone to help someone while others watch; Defying your self-expectations (your “ role ”), instead searching over lines of cause-and-effect to find a winning pathway; Defying a powerful foe’s threats, because they only threaten since people like you cave; Defying the specter of apparent impossibility because you can’t bear to lose. I cannot return to you and say “I defied and then I won.” But I’m at least here to say “I defied.” I recommend reading this article on my website since the embeds and typography work better there: click here . Why I&nbsp;left Google DeepMind In&nbsp;January, Department of&nbsp;Homeland Security (DHS) officers killed at least two people.",
-    "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
-    "published_date": "2026-07-15T17:42:46+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-22T13:07:06.448884+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "AI as Strategist: Four Hypotheses on the Nature of Agentic Strategy",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jul 15, 2026 In this chapter, the author considers a radical future, a world in which nations pursue relative advantage, for national security, and for other national objectives guided by AI models that are mostly playing these strategy games against other models.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71419.html",
-    "published_date": "2026-07-15T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-22T13:07:16.987697+00:00",
+    "fetched_at": "2026-07-23T11:11:12.591117+00:00",
     "date_precision": "day"
   }
 ]
