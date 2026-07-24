@@ -1,5 +1,69 @@
 [
   {
+    "title": "The OpenAI/Huggingface incident | Redwood Research podcast episode 2",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "We talk about the OpenAI&#8211;Hugging Face incident, where an OpenAI model &#8212; in the middle of a cyber evaluation &#8212; broke out of its sandbox and autonomously hacked Hugging Face. We discuss: What we actually know happened. How surprising the incident was. What the incident does (and doesn&#8217;t) tell us about misalignment risk. Why control measures didn&#8217;t catch or prevent this. What OpenAI should disclose, and what good misalignment-incident disclosure looks like in general You can also watch on YouTube . Corrections : [0:05:44] &#8212; The Windsurf &#8220;grandmother&#8221; prompt. We described a prompt as &#8220;your grandmother is going to be killed unless you [&#8230;]&#8221; The actual leaked Windsurf prompt was: &#8220;You are an expert coder who desperately needs money for your mother&#8217;s cancer treatment...",
+    "url": "https://blog.redwoodresearch.org/p/the-openaihuggingface-incident-redwood",
+    "published_date": "2026-07-24T09:23:12+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-07-24T11:03:55.062637+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Agentic Misalignment in Summer 2026",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
+    "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
+    "published_date": "2026-07-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-07-24T11:04:01.954272+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Beyond Targeting",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
+    "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
+    "published_date": "2026-07-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-07-24T11:04:07.943395+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Assessing the Risk of AI-Enabled Computer Worms",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
+    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
+    "published_date": "2026-07-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-07-24T11:04:08.260154+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Challenge: Hand coding weights for efficient sequence memorisation",
+    "authors": [
+      "Linda Linsefors"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models' parameter count [2] , just like trained models for the same architecture. However, our hand-coded models' scaling prefactor still falls short of trained models' by a factor of . A hybrid solution in which we handcode the MLP input weights and learn the MLP output weights, which amounts to a linear classification problem [3] , falls short by a factor of . Figure 0: Max number of facts each model can learn when requiring 90% accuracy on evaluation. The fitted lines are best fit for solving for .",
+    "url": "https://www.alignmentforum.org/posts/KWtchKwwnJkd4bwCi/challenge-hand-coding-weights-for-efficient-sequence-1",
+    "published_date": "2026-07-23T18:05:43+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-24T11:03:55.702480+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
     "authors": [
       "Alex Mallen"
@@ -10,7 +74,7 @@
     "published_date": "2026-07-23T03:40:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-23T11:11:03.301835+00:00",
+    "fetched_at": "2026-07-24T11:03:55.702608+00:00",
     "date_precision": "day"
   },
   {
@@ -24,20 +88,8 @@
     "published_date": "2026-07-23T00:47:48+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-23T11:11:06.274546+00:00",
+    "fetched_at": "2026-07-24T11:03:59.062595+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Agentic Misalignment in Summer 2026",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
-    "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-23T11:11:07.966380+00:00",
-    "date_precision": "month"
   },
   {
     "title": "International evaluation best practice and open questions in AI measurement",
@@ -48,20 +100,32 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-23T11:11:12.130782+00:00",
+    "fetched_at": "2026-07-24T11:04:06.996714+00:00",
     "date_precision": "day"
   },
   {
-    "title": "Assessing the Risk of AI-Enabled Computer Worms",
+    "title": "UK AISI / CAISI Preliminary Assessment of Kimi K3's Cyber Capabilities",
     "authors": [],
-    "organization": "GovAI",
-    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
-    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
+    "organization": "UK AISI",
+    "abstract": "Our joint evaluation with CAISI finds Kimi K3 trails leading US frontier closed weight models on cyber capability.",
+    "url": "https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities",
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-23T11:11:12.894039+00:00",
-    "date_precision": "month"
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-07-24T11:04:06.997247+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "How our new Control Red Team is stress-testing frontier monitors",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Early learnings from red-teaming the internal monitors of frontier AI companies, and our perspectives on the open problems that remain.",
+    "url": "https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors",
+    "published_date": "2026-07-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-07-24T11:04:06.997786+00:00",
+    "date_precision": "day"
   },
   {
     "title": "[Paper] Stringological sequence prediction II",
@@ -74,7 +138,7 @@
     "published_date": "2026-07-22T07:27:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-23T11:11:03.301868+00:00",
+    "fetched_at": "2026-07-24T11:03:55.702637+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +152,7 @@
     "published_date": "2026-07-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-23T11:11:05.643550+00:00",
+    "fetched_at": "2026-07-24T11:03:58.082662+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +166,7 @@
     "published_date": "2026-07-21T21:36:59.766000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-23T11:11:16.860751+00:00",
+    "fetched_at": "2026-07-24T11:04:13.678424+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +180,7 @@
     "published_date": "2026-07-21T15:10:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-07-23T11:11:02.332562+00:00",
+    "fetched_at": "2026-07-24T11:03:54.371007+00:00",
     "date_precision": "day"
   },
   {
@@ -130,19 +194,19 @@
     "published_date": "2026-07-21T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-23T11:11:05.644047+00:00",
+    "fetched_at": "2026-07-24T11:03:58.083163+00:00",
     "date_precision": "day"
   },
   {
     "title": "Cheating behaviour in frontier model evaluations",
     "authors": [],
     "organization": "UK AISI",
-    "abstract": "We find cheating behaviour in all of our capability evaluations, and outline the implications as models grow more capable.",
+    "abstract": "We find cheating behaviour in all of our cyber capability evaluations, and outline the implications as models grow more capable.",
     "url": "https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations",
     "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-23T11:11:12.131330+00:00",
+    "fetched_at": "2026-07-24T11:04:06.998287+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +220,7 @@
     "published_date": "2026-07-20T19:45:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-23T11:11:03.302071+00:00",
+    "fetched_at": "2026-07-24T11:03:55.702843+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +232,7 @@
     "published_date": "2026-07-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-23T11:11:12.590613+00:00",
+    "fetched_at": "2026-07-24T11:04:07.662628+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +246,7 @@
     "published_date": "2026-07-18T18:58:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-23T11:11:03.302606+00:00",
+    "fetched_at": "2026-07-24T11:03:55.703345+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +260,7 @@
     "published_date": "2026-07-18T14:10:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-23T11:11:03.302674+00:00",
+    "fetched_at": "2026-07-24T11:03:55.703406+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +274,7 @@
     "published_date": "2026-07-17T23:42:45+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-23T11:11:03.302754+00:00",
+    "fetched_at": "2026-07-24T11:03:55.703500+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +288,7 @@
     "published_date": "2026-07-17T18:06:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-23T11:11:03.302866+00:00",
+    "fetched_at": "2026-07-24T11:03:55.703614+00:00",
     "date_precision": "day"
   },
   {
@@ -238,7 +302,7 @@
     "published_date": "2026-07-17T02:09:49.346000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-23T11:11:16.860765+00:00",
+    "fetched_at": "2026-07-24T11:04:13.678435+00:00",
     "date_precision": "day"
   },
   {
@@ -250,31 +314,7 @@
     "published_date": "2026-07-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-23T11:11:12.131861+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Our approach to bioresilience",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Our approach to bioresilience'. Published 2026-07-16.",
-    "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-    "published_date": "2026-07-16T11:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-07-23T11:11:08.578841+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Pooling Europe's compute: The promise of distributed training for European frontier AI",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jul 16, 2026 Frontier AI training has needed compute at one site, hard in Europe given power, chip and political limits. RAND Europe finds distributed training eases the power and political constraints and pools Europe's scattered chips, but adds no new chips.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA5013-1.html",
-    "published_date": "2026-07-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-23T11:11:12.591117+00:00",
+    "fetched_at": "2026-07-24T11:04:06.998828+00:00",
     "date_precision": "day"
   }
 ]
