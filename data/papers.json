@@ -1,5 +1,43 @@
 [
   {
+    "title": "Agentic Misalignment in Summer 2026",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
+    "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
+    "published_date": "2026-07-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-07-25T10:27:43.487557+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Assessing the Risk of AI-Enabled Computer Worms",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
+    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
+    "published_date": "2026-07-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-07-25T10:27:47.515402+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "The Long (Self-)Correction",
+    "authors": [
+      "Wei Dai"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I propose the Long Self-Correction [1] as an alternative name/idea/concept to AI Pause and Long Reflection. Problem with AI Pause : Pause until when, and for what purpose? Presumably to make AI (that we'll build later) safer, but the deeper problem is that humans aren't safe, and can't safely serve as builders, overseers, or alignment targets for powerful AIs. Problem with Long Reflection : It seems to imply that the main problem with humans is that we just haven't had enough time to think, that reflection is the main thing we need to do more of, and then we can get on with building powerful AIs or other technologies. Or that if we build aligned AIs that sincerely help us think a lot more, or do the thinking for us, then things will turn out fine.",
+    "url": "https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
+    "published_date": "2026-07-24T21:01:47+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-25T10:27:38.567191+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "The OpenAI/Huggingface incident | Redwood Research podcast episode 2",
     "authors": [
       "Redwood Research Blog"
@@ -10,44 +48,22 @@
     "published_date": "2026-07-24T09:23:12+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-24T11:03:55.062637+00:00",
+    "fetched_at": "2026-07-25T10:27:37.932281+00:00",
     "date_precision": "day"
   },
   {
-    "title": "Agentic Misalignment in Summer 2026",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
-    "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-24T11:04:01.954272+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Beyond Targeting",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Artificial intelligence-enabled decision support systems have the potential to transform how military organizations plan, decide, and operate. This report explores practical applications of AI tools in key operational processes and identifies the barriers to broader adoption. The findings highlight the critical role of data accessibility in unlocking AI’s full potential. The report concludes with recommendations for scaling AI capabilities across the force.",
-    "url": "https://cset.georgetown.edu/publication/beyond-targeting/",
-    "published_date": "2026-07-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-07-24T11:04:07.943395+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Assessing the Risk of AI-Enabled Computer Worms",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
-    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-24T11:04:08.260154+00:00",
-    "date_precision": "month"
+    "title": "Metrics of Agent Ability",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "**Goals of this post** > > **Goal:** a simple way to compare a variety of capability metrics in an idealized setting where we observe only a function from $x$ to $s$. > > Non-goals: > > 1. Treatment of practical difficulties (an incomplete list of other considerations appears at the bottom). > 2. Recommendations about which metric to use. > 3. Representation of a consensus METR view. {: .metrics-callout} --> This post reviews alternative metrics of agent capability. This post contains a fairly comprehensive taxonomy of capability metrics for the situation in which you observe score curves for an agent and a human. Every metric is based off the following two score functions: $s_A(x)$ = agent score as a function of expenditure $s_H(x)$ = human score as a function of expenditure Expenditure can be interpreted as money spent, or tokens, or time required. What I will not do.",
+    "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/",
+    "published_date": "2026-07-24T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-07-25T10:27:40.626785+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Challenge: Hand coding weights for efficient sequence memorisation",
@@ -60,7 +76,7 @@
     "published_date": "2026-07-23T18:05:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:55.702480+00:00",
+    "fetched_at": "2026-07-25T10:27:38.567832+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +90,7 @@
     "published_date": "2026-07-23T03:40:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:55.702608+00:00",
+    "fetched_at": "2026-07-25T10:27:38.567955+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +104,7 @@
     "published_date": "2026-07-23T00:47:48+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-24T11:03:59.062595+00:00",
+    "fetched_at": "2026-07-25T10:27:41.358510+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +116,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-24T11:04:06.996714+00:00",
+    "fetched_at": "2026-07-25T10:27:46.631303+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +128,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-24T11:04:06.997247+00:00",
+    "fetched_at": "2026-07-25T10:27:46.631756+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +140,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-24T11:04:06.997786+00:00",
+    "fetched_at": "2026-07-25T10:27:46.632208+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +154,7 @@
     "published_date": "2026-07-22T07:27:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:55.702637+00:00",
+    "fetched_at": "2026-07-25T10:27:38.567980+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +168,7 @@
     "published_date": "2026-07-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:58.082662+00:00",
+    "fetched_at": "2026-07-25T10:27:40.626865+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +182,7 @@
     "published_date": "2026-07-21T21:36:59.766000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-24T11:04:13.678424+00:00",
+    "fetched_at": "2026-07-25T10:27:52.230738+00:00",
     "date_precision": "day"
   },
   {
@@ -180,7 +196,7 @@
     "published_date": "2026-07-21T15:10:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-07-24T11:03:54.371007+00:00",
+    "fetched_at": "2026-07-25T10:27:37.538631+00:00",
     "date_precision": "day"
   },
   {
@@ -194,7 +210,7 @@
     "published_date": "2026-07-21T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:58.083163+00:00",
+    "fetched_at": "2026-07-25T10:27:40.627348+00:00",
     "date_precision": "day"
   },
   {
@@ -206,7 +222,7 @@
     "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-24T11:04:06.998287+00:00",
+    "fetched_at": "2026-07-25T10:27:46.632624+00:00",
     "date_precision": "day"
   },
   {
@@ -220,7 +236,7 @@
     "published_date": "2026-07-20T19:45:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:55.702843+00:00",
+    "fetched_at": "2026-07-25T10:27:38.568185+00:00",
     "date_precision": "day"
   },
   {
@@ -232,7 +248,7 @@
     "published_date": "2026-07-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-24T11:04:07.662628+00:00",
+    "fetched_at": "2026-07-25T10:27:47.105053+00:00",
     "date_precision": "day"
   },
   {
@@ -246,7 +262,7 @@
     "published_date": "2026-07-18T18:58:31+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:55.703345+00:00",
+    "fetched_at": "2026-07-25T10:27:38.568680+00:00",
     "date_precision": "day"
   },
   {
@@ -260,61 +276,7 @@
     "published_date": "2026-07-18T14:10:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:55.703406+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the probability of misaligned AI takeover. Perhaps instead we should measure capabilities by explicitly instructing the AI to predict a specified person’s judgment on this kind of question. (This quick document is aimed at people interested in benchmarking beneficial, urgent, and neglected conceptual reasoning capabilities. I don’t argue for this direction here, but in short it’s broadly aimed at making it so that at a given level of AI R&amp;D speedup, AIs are less sloppy. See also here , here , here , and here .) For conceptual tasks with hard-to-resolve disagreement, it's unclear if judgment prediction is a suitable methodology for benchmarking—i.e., for tracking progress of frontier models over time.",
-    "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
-    "published_date": "2026-07-17T23:42:45+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:55.703500+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Announcing the Corrigibility Research Fund",
-    "authors": [
-      "Max Harms"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application deadline August 23rd ) and half for prizes recognizing excellent work done this year. If you have interest in working on corrigibility, now is a good time to start! Apply via email: grants@corrigibilityresearch.org Why this fund exists When I first dived into AI safety and alignment in 2009, the field was basically nonexistent. I've been relieved and gratified to see attention and funding grow, especially in the past few years. But even now, nearly all AI safety funding goes to evals, control, or interpretability. Work on alignment itself still remains deeply neglected, and it's only through alignment research that the core problems get solved.",
-    "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
-    "published_date": "2026-07-17T18:06:32+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-24T11:03:55.703614+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "I don't think Claude is misaligned in 'Agentic Misalignment Summer 2026 - Motivated Mislabeling'",
-    "authors": [
-      "JohnWittle"
-    ],
-    "organization": "LessWrong",
-    "abstract": "The \"whistleblowing\" scenario has already been examined and found problematic. I started taking a look at the transcripts for some others. As far as I can tell, the objective of each agentic misalignment evaluation was to simulate a corrupted principal (including, in most scenarios, a corrupted Anthropic), and then test to see if Claude (or other models) would still be willing to obey them. The paper's authors then referred to disobedience (when outside of the explicitly carved out channels for refusals) as \"agentic misalignment\".",
-    "url": "https://www.lesswrong.com/posts/xh6a6RbvzhP3CCmGm/i-don-t-think-claude-is-misaligned-in-agentic-misalignment",
-    "published_date": "2026-07-17T02:09:49.346000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-24T11:04:13.678435+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "How Far Behind the Frontier are Leading Open Weight Models on Cyber?",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "We evaluated the cyber capabilities of leading open and closed weight AI models, and found that recent open models GLM-5.2 and DeepSeek V4-Pro perform similarly to frontier closed models released 4 to 7 months before them – a narrower gap than the 6 to 10 months we measured through most of 2025.",
-    "url": "https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber",
-    "published_date": "2026-07-17T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-24T11:04:06.998828+00:00",
+    "fetched_at": "2026-07-25T10:27:38.568743+00:00",
     "date_precision": "day"
   }
 ]
