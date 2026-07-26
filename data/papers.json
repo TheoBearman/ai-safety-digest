@@ -1,14 +1,28 @@
 [
   {
+    "title": "“An OpenAI model left notes about how to evade containment” by Alex Mallen",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: We need more details. The OpenAI AI attack on Hugging Face wasn’t the first loss of control incident at OpenAI, Reuters recently reported, and perhaps not even the most concerning. In one case, an agent left notes apparently for future versions of itself, according to three people familiar with the matter. The ‌notes, found in ⁠a part of OpenAI's infrastructure, laid out instructions for how agents could free themselves from OpenAI's internal constraints, the people said. Earlier tests of the models yielded cases in which monitoring systems had been disconnected, one of the people said. It's tempting to read this as an instance of agents breaking out of sandboxes and colluding with each other in a moderately persistent way in order to evade control measures. However, based on the reported information, it's not clear we can draw this inference, so we need more details from OpenAI.",
+    "url": "https://blog.redwoodresearch.org/p/an-openai-model-left-notes-about",
+    "published_date": "2026-07-26T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-07-26T10:45:03.941666+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Agentic Misalignment in Summer 2026",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-25T00:00:00+00:00",
+    "published_date": "2026-07-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-25T10:27:43.487557+00:00",
+    "fetched_at": "2026-07-26T10:45:10.353093+00:00",
     "date_precision": "month"
   },
   {
@@ -17,11 +31,25 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-25T00:00:00+00:00",
+    "published_date": "2026-07-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-25T10:27:47.515402+00:00",
+    "fetched_at": "2026-07-26T10:45:15.541048+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "“The OpenAI models that hacked Hugging Face weren’t just following instructions” by Girish Gupta",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: And what the incident can’t tell us about alignment. The most common dismissive response to OpenAI's hack of Hugging Face's servers is that the models were simply attempting to follow the instructions they were given. “The model here was doing what it was asked,” said former Facebook CSO Alex Stamos. “It was asked to do something, and it did it,” added cybersecurity expert Alan Woodward. Both read the outcome as specification failure, i.e., that the failure lay in the instructions, not the model's alignment. New information makes that explanation harder to sustain. Reuters reported that, in internal testing, an agent left notes in OpenAI infrastructure describing how agents could free themselves from internal constraints, and separate tests reportedly saw monitoring systems become disconnected.",
+    "url": "https://blog.redwoodresearch.org/p/the-openai-models-that-hacked-hugging",
+    "published_date": "2026-07-25T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-07-26T10:45:03.941727+00:00",
+    "date_precision": "day"
   },
   {
     "title": "The Long (Self-)Correction",
@@ -34,7 +62,7 @@
     "published_date": "2026-07-24T21:01:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:38.567191+00:00",
+    "fetched_at": "2026-07-26T10:45:04.585777+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +76,7 @@
     "published_date": "2026-07-24T09:23:12+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-25T10:27:37.932281+00:00",
+    "fetched_at": "2026-07-26T10:45:03.941786+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +90,7 @@
     "published_date": "2026-07-24T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:40.626785+00:00",
+    "fetched_at": "2026-07-26T10:45:07.223686+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +104,7 @@
     "published_date": "2026-07-23T18:05:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:38.567832+00:00",
+    "fetched_at": "2026-07-26T10:45:04.586416+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +118,7 @@
     "published_date": "2026-07-23T03:40:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:38.567955+00:00",
+    "fetched_at": "2026-07-26T10:45:04.586539+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +132,7 @@
     "published_date": "2026-07-23T00:47:48+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-25T10:27:41.358510+00:00",
+    "fetched_at": "2026-07-26T10:45:08.036969+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +144,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-25T10:27:46.631303+00:00",
+    "fetched_at": "2026-07-26T10:45:14.400664+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +156,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-25T10:27:46.631756+00:00",
+    "fetched_at": "2026-07-26T10:45:14.401253+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +168,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-25T10:27:46.632208+00:00",
+    "fetched_at": "2026-07-26T10:45:14.401800+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +182,7 @@
     "published_date": "2026-07-22T07:27:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:38.567980+00:00",
+    "fetched_at": "2026-07-26T10:45:04.586566+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +196,7 @@
     "published_date": "2026-07-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:40.626865+00:00",
+    "fetched_at": "2026-07-26T10:45:07.223750+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +210,7 @@
     "published_date": "2026-07-21T21:36:59.766000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-25T10:27:52.230738+00:00",
+    "fetched_at": "2026-07-26T10:45:20.707674+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +224,7 @@
     "published_date": "2026-07-21T15:10:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-07-25T10:27:37.538631+00:00",
+    "fetched_at": "2026-07-26T10:45:03.395945+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +238,7 @@
     "published_date": "2026-07-21T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:40.627348+00:00",
+    "fetched_at": "2026-07-26T10:45:07.224262+00:00",
     "date_precision": "day"
   },
   {
@@ -222,7 +250,7 @@
     "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-25T10:27:46.632624+00:00",
+    "fetched_at": "2026-07-26T10:45:14.402315+00:00",
     "date_precision": "day"
   },
   {
@@ -236,7 +264,7 @@
     "published_date": "2026-07-20T19:45:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:38.568185+00:00",
+    "fetched_at": "2026-07-26T10:45:04.586788+00:00",
     "date_precision": "day"
   },
   {
@@ -248,35 +276,7 @@
     "published_date": "2026-07-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-25T10:27:47.105053+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "A Red Line and Oversight Framework for Government AI Contracts",
-    "authors": [
-      "TurnTrout"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "My post on leaving Google DeepMind tells a story. In contrast, this Framework is a question of mechanism design and negotiation posture. I quite enjoyed optimizing this Framework against its organizational and practical constraints. The original considerations were : Good red lines: Rule out the questionable use cases (autonomous targeting without human control, untargeted profiling) while allowing trustworthy ones like missile defense. Avoid the weaknesses flagged in legal analysis of Anthropic’s red lines . Robust red lines: [Google] Cloud would push deals through any loophole, Google Legal seemed unlikely to tighten my drafting, and the Pentagon wouldn’t want terms at all. The language had to hold under pressure, with auditing that respected classification and operational security. Minimal trust assumptions: I made the Chief Scientist the single root of trust that everything else hangs off of ... The Chief Scientist would staff a Review Body to advise on contracts.",
-    "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
-    "published_date": "2026-07-18T18:58:31+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:38.568680+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Endogenous Alignment",
-    "authors": [
-      "Gordon Seidoh Worley"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Starting when children are fairly young, usually around 1 year of age, we adults begin the work of aligning them to our values. We teach them to say “please”, not to hit, to ask for what they want instead of screaming, and much else. We do this primarily via exogenous methods, using a combination of punishments and rewards, that molds their behavior by encouraging good behaviors and discouraging bad ones. Such operant conditioning works because children have many instinctive behaviors that make them alignable. They want their parents to love them, for their friends to like them, and for almost anyone to help them if they feel they can be trusted. And so combined with exogenous alignment efforts by teachers and peers that continue through the school years, children generally reach adulthood having been “civilized”. We mostly don’t try to align adults via exogenous means.",
-    "url": "https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment",
-    "published_date": "2026-07-18T14:10:37+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-25T10:27:38.568743+00:00",
+    "fetched_at": "2026-07-26T10:45:15.043026+00:00",
     "date_precision": "day"
   }
 ]
