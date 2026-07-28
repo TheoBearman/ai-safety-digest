@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-27T00:00:00+00:00",
+    "published_date": "2026-07-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-27T12:24:15.640162+00:00",
+    "fetched_at": "2026-07-28T11:18:11.198930+00:00",
     "date_precision": "month"
   },
   {
@@ -17,11 +17,81 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-27T00:00:00+00:00",
+    "published_date": "2026-07-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-27T12:24:21.186296+00:00",
+    "fetched_at": "2026-07-28T11:18:16.886856+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Is Mythos good at cyber because it kept hacking Anthropic's sandboxes during training?",
+    "authors": [
+      "Tim Hua"
+    ],
+    "organization": "LessWrong",
+    "abstract": "We ran an automated review of model behavior during training, sampling several hundred thousand transcripts from across much of the training process. We used recursive-summarization-based tools backed by Claude Opus 4.6 to summarize the resulting transcripts.",
+    "url": "https://www.lesswrong.com/posts/QKDoZe6EKhxnFjLWK/is-mythos-good-at-cyber-because-it-kept-hacking-anthropic-s",
+    "published_date": "2026-07-27T16:35:09.689000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-07-28T11:18:22.483805+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "RL & search is a terrifying way to build AGI (an FAQ)",
+    "authors": [
+      "Steven Byrnes"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Q1: What are you saying? A: My claim here is that if you build artificial general intelligence (AGI) via any algorithm that’s choosing actions via reinforcement learning (RL) and/or model-based search and planning—a giant chunk of your AI textbook—then that’s just an utterly terrifying thing that you’re doing. You’re playing around with algorithms that, if they work at all, would tend to create ruthless, callous AGIs, AGIs which would happily exterminate humanity and run the world by themselves, given an opportunity. Mercifully, large language models (LLMs) today are not in the category of “algorithms that choose actions via RL &amp; search”. At least, not primarily —see LLMs are (still) mostly powered by imitative learning, not RL . So LLMs are outside the scope of this post.",
+    "url": "https://www.alignmentforum.org/posts/KHyBocZncAmtu4Jbc/rl-and-search-is-a-terrifying-way-to-build-agi-an-faq",
+    "published_date": "2026-07-27T14:50:30+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-28T11:18:06.525318+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "OpenAI's myopia just keeps causing alignment problems",
+    "authors": [
+      "Fiora Starlight"
+    ],
+    "organization": "LessWrong",
+    "abstract": "A record of three \"warning shots\" Off the top of my head, OpenAI has now been responsible for at least three completely distinct, high-profile screw…",
+    "url": "https://www.lesswrong.com/posts/Mxx5GapJtqyQtpy96/openai-s-myopia-just-keeps-causing-alignment-problems",
+    "published_date": "2026-07-27T03:01:30.888000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-07-28T11:18:22.483827+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Our position on open-weights models",
+    "authors": [
+      "Anthropic News"
+    ],
+    "organization": "Anthropic",
+    "abstract": "Over the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are considering banning the use of Chinese open-weights models by US companies. In response, many tech companies have signed a letter supporting open-weights models, and some people have even accused Anthropic of wanting to ban open-weights models as a means of protecting our business. Anyone who has read my past writing should know that I don’t regard such bans as a useful measure, but let me state it clearly so that there is no doubt: Anthropic has never advocated for a ban on open-weights models.",
+    "url": "https://www.anthropic.com/news/position-open-weights-models",
+    "published_date": "2026-07-27T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+    "fetched_at": "2026-07-28T11:18:04.543310+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“Untrusted advice for AI control: Short, strong advice significantly uplifts weak LLMs” by Caleb Biddulph, Adam Kaufman",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: When a misaligned AI can only output tiny amounts of information, it may find sabotage very difficult. TL;DR: We introduce the untrusted advice protocol, in which a trusted executor LLM takes every action and an untrusted advisor LLM can only send it short hints. Even with as few as 4 characters per step, this advice recovers a substantial fraction of the capability gap between the two models. Because the untrusted LLM's influence flows through such a narrow, monitorable channel, we argue that this achieves near-maximal safety in our BashArena setting. We also discuss the general concept of information bottlenecks and their benefits for interpretability, security, and cost. In SWE-bench Verified, a strong, untrusted LLM advising a weak, trusted LLM every step can significantly improve the latter's performance, even when we limit the length of the advice. See the more detailed version of this figure later in this post.",
+    "url": "https://blog.redwoodresearch.org/p/untrusted-advice-for-ai-control-short",
+    "published_date": "2026-07-27T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-07-28T11:18:05.642448+00:00",
+    "date_precision": "day"
   },
   {
     "title": "An OpenAI model left notes about how to evade containment; we need more details",
@@ -34,7 +104,7 @@
     "published_date": "2026-07-26T03:53:21.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-27T12:24:26.116427+00:00",
+    "fetched_at": "2026-07-28T11:18:22.483799+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +118,7 @@
     "published_date": "2026-07-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-27T12:24:09.969046+00:00",
+    "fetched_at": "2026-07-28T11:18:05.642478+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +132,7 @@
     "published_date": "2026-07-25T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-27T12:24:09.969109+00:00",
+    "fetched_at": "2026-07-28T11:18:05.642506+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +146,21 @@
     "published_date": "2026-07-24T21:01:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-27T12:24:10.492560+00:00",
+    "fetched_at": "2026-07-28T11:18:06.525361+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "LLMs are (still) mostly powered by imitative learning, not RL",
+    "authors": [
+      "Steven Byrnes"
+    ],
+    "organization": "LessWrong",
+    "abstract": "LLMs get their impressive capabilities from a combination of: (1) Imitative learning from pretraining and SFT data (see my earlier discussion of “LLM pretraining magically transmutes observations into behavior, in a way that is profoundly disanalogous to how brains work”), and …",
+    "url": "https://www.lesswrong.com/posts/wYpjXRLqbLbnmjbJP/llms-are-still-mostly-powered-by-imitative-learning-not-rl",
+    "published_date": "2026-07-24T14:26:12.405000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-07-28T11:18:22.483831+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +174,7 @@
     "published_date": "2026-07-24T09:23:12+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-27T12:24:09.969146+00:00",
+    "fetched_at": "2026-07-28T11:18:05.642524+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +188,7 @@
     "published_date": "2026-07-24T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-27T12:24:13.008387+00:00",
+    "fetched_at": "2026-07-28T11:18:08.130494+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +202,7 @@
     "published_date": "2026-07-23T18:05:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-27T12:24:10.493208+00:00",
+    "fetched_at": "2026-07-28T11:18:06.525744+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +216,7 @@
     "published_date": "2026-07-23T03:40:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-27T12:24:10.493331+00:00",
+    "fetched_at": "2026-07-28T11:18:06.525819+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +230,7 @@
     "published_date": "2026-07-23T00:47:48+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-27T12:24:13.722228+00:00",
+    "fetched_at": "2026-07-28T11:18:08.785913+00:00",
     "date_precision": "day"
   },
   {
@@ -158,7 +242,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-27T12:24:20.355579+00:00",
+    "fetched_at": "2026-07-28T11:18:15.911224+00:00",
     "date_precision": "day"
   },
   {
@@ -170,7 +254,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-27T12:24:20.356144+00:00",
+    "fetched_at": "2026-07-28T11:18:15.911532+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +266,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-27T12:24:20.356689+00:00",
+    "fetched_at": "2026-07-28T11:18:15.911845+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +280,7 @@
     "published_date": "2026-07-22T07:27:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-27T12:24:10.493358+00:00",
+    "fetched_at": "2026-07-28T11:18:06.525832+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +294,7 @@
     "published_date": "2026-07-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-27T12:24:13.008450+00:00",
+    "fetched_at": "2026-07-28T11:18:08.130533+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +308,7 @@
     "published_date": "2026-07-21T21:36:59.766000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-27T12:24:26.116420+00:00",
+    "fetched_at": "2026-07-28T11:18:22.483813+00:00",
     "date_precision": "day"
   },
   {
@@ -238,7 +322,7 @@
     "published_date": "2026-07-21T15:10:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-07-27T12:24:09.492720+00:00",
+    "fetched_at": "2026-07-28T11:18:05.238010+00:00",
     "date_precision": "day"
   },
   {
@@ -252,7 +336,7 @@
     "published_date": "2026-07-21T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-27T12:24:13.009013+00:00",
+    "fetched_at": "2026-07-28T11:18:08.130855+00:00",
     "date_precision": "day"
   },
   {
@@ -264,33 +348,7 @@
     "published_date": "2026-07-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-27T12:24:20.357203+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
-    "authors": [
-      "agam_bhatia"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it away makes the model answer \"a boiled egg every morning is hard to beat\" with nutrition facts instead of catching the pun. On LCM problems, \"gcd\" fires, pointing at the product/GCD algorithm: swapping the GCD vector from 9 to 3 makes the model change its answer for the LCM of 27 and 90 from 270 to 810. Additionally, before the model hedges, 大概率 (\"most likely\") fires, and suppressing it makes the model commit to a single option (for e.g.",
-    "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
-    "published_date": "2026-07-20T19:45:04+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-27T12:24:10.493562+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Securing AI Algorithmic Insights",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jul 20, 2026 In this report, the authors extend a security framework to provide the first systematic roadmap for protecting algorithmic insights, the novel techniques, methods, and design know-how that materially improve artificial intelligence systems.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4685-1.html",
-    "published_date": "2026-07-20T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-27T12:24:20.861924+00:00",
+    "fetched_at": "2026-07-28T11:18:15.912139+00:00",
     "date_precision": "day"
   }
 ]
