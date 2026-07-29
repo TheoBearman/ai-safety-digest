@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-28T00:00:00+00:00",
+    "published_date": "2026-07-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-28T11:18:11.198930+00:00",
+    "fetched_at": "2026-07-29T11:27:02.675920+00:00",
     "date_precision": "month"
   },
   {
@@ -17,11 +17,39 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-28T00:00:00+00:00",
+    "published_date": "2026-07-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-28T11:18:16.886856+00:00",
+    "fetched_at": "2026-07-29T11:27:07.642287+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Research directions in condensation: varieties of objectivity",
+    "authors": [
+      "SamEisenstat"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into conceptual parts; some of the existing work on it is presented in the paper ( Eisenstat 2025 ). This sequence will draw from that paper the definitions of random variable models and latent variable models , the notation for indexing subfamilies of variables in such models, and the objectivity theorem , Theorem 6.8. In the condensation paper, Section 3, Ideas, gives an overview of all of this. For more context on condensation, readers can refer to LessWrong posts including ( Demski 2025 , 2026 ; Gillen and Chiang 2026 ; Kirchner 2026 ).",
+    "url": "https://www.alignmentforum.org/posts/89GJeixwhFHLWxNbX/research-directions-in-condensation-varieties-of-objectivity",
+    "published_date": "2026-07-28T17:30:49+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-29T11:26:57.349337+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "How independent researchers could investigate AI propensities after misalignment incidents",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "AI agents sometimes autonomously take sophisticated, sustained actions in clear violation of user and developer intent. As an example, last week OpenAI reported that some of its internal frontier agents autonomously hacked into Hugging Face in an attempt to access the answer key for a cybersecurity benchmark. Anthropic has reported similar incidents of agents breaking out of sandboxes to access the public internet to cheat on tasks during training and similar incidents during testing, and we documented dozens of other incidents involving AI agents from all major AI companies in our recent cross-industry Frontier Risk Report . To improve public understanding of AI propensities, we believe AI companies should systematically track such incidents 1 and periodically conduct deeper investigations for the most serious among them.",
+    "url": "https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/",
+    "published_date": "2026-07-28T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-07-29T11:26:59.890060+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Is Mythos good at cyber because it kept hacking Anthropic's sandboxes during training?",
@@ -34,7 +62,7 @@
     "published_date": "2026-07-27T16:35:09.689000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-28T11:18:22.483805+00:00",
+    "fetched_at": "2026-07-29T11:27:13.292286+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +76,7 @@
     "published_date": "2026-07-27T14:50:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-28T11:18:06.525318+00:00",
+    "fetched_at": "2026-07-29T11:26:57.349644+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +90,7 @@
     "published_date": "2026-07-27T03:01:30.888000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-28T11:18:22.483827+00:00",
+    "fetched_at": "2026-07-29T11:27:13.292318+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +104,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-07-28T11:18:04.543310+00:00",
+    "fetched_at": "2026-07-29T11:26:55.287917+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +118,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-28T11:18:05.642448+00:00",
+    "fetched_at": "2026-07-29T11:26:56.261666+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +132,7 @@
     "published_date": "2026-07-26T03:53:21.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-28T11:18:22.483799+00:00",
+    "fetched_at": "2026-07-29T11:27:13.292295+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +146,7 @@
     "published_date": "2026-07-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-28T11:18:05.642478+00:00",
+    "fetched_at": "2026-07-29T11:26:56.261723+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +160,7 @@
     "published_date": "2026-07-25T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-28T11:18:05.642506+00:00",
+    "fetched_at": "2026-07-29T11:26:56.261771+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +174,7 @@
     "published_date": "2026-07-24T21:01:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-28T11:18:06.525361+00:00",
+    "fetched_at": "2026-07-29T11:26:57.349723+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +188,7 @@
     "published_date": "2026-07-24T14:26:12.405000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-28T11:18:22.483831+00:00",
+    "fetched_at": "2026-07-29T11:27:13.292337+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +202,7 @@
     "published_date": "2026-07-24T09:23:12+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-28T11:18:05.642524+00:00",
+    "fetched_at": "2026-07-29T11:26:56.261805+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +216,7 @@
     "published_date": "2026-07-24T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-28T11:18:08.130494+00:00",
+    "fetched_at": "2026-07-29T11:26:59.890340+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +230,7 @@
     "published_date": "2026-07-23T18:05:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-28T11:18:06.525744+00:00",
+    "fetched_at": "2026-07-29T11:26:57.350295+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +244,7 @@
     "published_date": "2026-07-23T03:40:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-28T11:18:06.525819+00:00",
+    "fetched_at": "2026-07-29T11:26:57.350414+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +258,7 @@
     "published_date": "2026-07-23T00:47:48+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-28T11:18:08.785913+00:00",
+    "fetched_at": "2026-07-29T11:27:00.609084+00:00",
     "date_precision": "day"
   },
   {
@@ -242,7 +270,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-28T11:18:15.911224+00:00",
+    "fetched_at": "2026-07-29T11:27:06.797466+00:00",
     "date_precision": "day"
   },
   {
@@ -254,7 +282,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-28T11:18:15.911532+00:00",
+    "fetched_at": "2026-07-29T11:27:06.797929+00:00",
     "date_precision": "day"
   },
   {
@@ -266,7 +294,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-28T11:18:15.911845+00:00",
+    "fetched_at": "2026-07-29T11:27:06.798354+00:00",
     "date_precision": "day"
   },
   {
@@ -280,7 +308,7 @@
     "published_date": "2026-07-22T07:27:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-28T11:18:06.525832+00:00",
+    "fetched_at": "2026-07-29T11:26:57.350438+00:00",
     "date_precision": "day"
   },
   {
@@ -294,61 +322,7 @@
     "published_date": "2026-07-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-28T11:18:08.130533+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "OpenAI Models Behind HuggingFace Cybersecurity Incident",
-    "authors": [
-      "LawrenceC"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'OpenAI Models Behind HuggingFace Cybersecurity Incident'. Published 2026-07-21. Authors: LawrenceC.",
-    "url": "https://www.lesswrong.com/posts/WpuRdcMfFeiLeXkxL/openai-models-behind-huggingface-cybersecurity-incident",
-    "published_date": "2026-07-21T21:36:59.766000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-28T11:18:22.483813+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Measuring Reward-Seeking by Instilling Contrastive Beliefs",
-    "authors": [
-      "Axel Højmark, Jérémy Scheurer, Jenny Nitishinskaya, Felix Hofstätter, Jason Wolfe, Theodore Ehrenborg, Bronson Schoen, Alexander Meinke"
-    ],
-    "organization": "OpenAI",
-    "abstract": "We developed Contrastive Synthetic Document Finetuning (Contrastive SDF), a new test for whether an AI model changes its behavior when it has different beliefs about what a grader rewards.",
-    "url": "https://alignment.openai.com/measuring-reward-seeking/",
-    "published_date": "2026-07-21T15:10:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-07-28T11:18:05.238010+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "We propose a measure of an AI agent’s optimization ability with an “expenditure horizon.” We give an empirical illustration from the NanoGPT speedrun. One difficulty in measuring AI’s ability to accelerate AI R&amp;D is accounting for token cost, experiment compute cost and human labor cost. If we can estimate performance as a function of cost for both humans and agents, we can measure the “expenditure horizon” as the point at which those curves cross: the budget at which humans become more cost-effective than AIs. We illustrate our method with data from the NanoGPT speedrun. We first estimate the returns to human effort in optimizing NanoGPT: on the margin, each 1% improvement costs very roughly \\$2,500 in human labor. We also report the status of preliminary agentic optimization runs against NanoGPT: after more than \\$10K of expenditure we estimate expenditure horizons of \\$0-\\$3K.",
-    "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/",
-    "published_date": "2026-07-21T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-28T11:18:08.130855+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Cheating behaviour in frontier model evaluations",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "We find cheating behaviour in all of our cyber capability evaluations, and outline the implications as models grow more capable.",
-    "url": "https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations",
-    "published_date": "2026-07-21T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-28T11:18:15.912139+00:00",
+    "fetched_at": "2026-07-29T11:26:59.890396+00:00",
     "date_precision": "day"
   }
 ]
