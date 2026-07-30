@@ -5,10 +5,10 @@
     "organization": "Anthropic",
     "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-29T00:00:00+00:00",
+    "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-29T11:27:02.675920+00:00",
+    "fetched_at": "2026-07-30T11:08:37.489569+00:00",
     "date_precision": "month"
   },
   {
@@ -17,11 +17,81 @@
     "organization": "GovAI",
     "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-29T00:00:00+00:00",
+    "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-29T11:27:07.642287+00:00",
+    "fetched_at": "2026-07-30T11:08:44.739980+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Imprecise beliefs: a tiny introduction",
+    "authors": [
+      "davidad"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Richard Ngo challenged me to set a time box and write down as many of the most important features of my formal epistemology as I can in one sitting. Here goes. Motivation: Where probability distributions fail... ...to express beliefs There is no probability distribution over that says “ ”. That is a support condition about probability distributions, namely, ⨾⨾ . Some s satisfy this condition and some do not; but there is no that expresses the range belief itself. There is no probability distribution over that says “ and are independent”. This is an equation condition about probability distributions, namely, . Some s satisfy this equation and some do not; there is no that expresses the independence belief itself.",
+    "url": "https://www.alignmentforum.org/posts/e7Pd4Q9TF7jFdmPgz/imprecise-beliefs-a-tiny-introduction",
+    "published_date": "2026-07-29T22:17:35+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-30T11:08:31.339305+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Value Generalisation 3: Pre-aligned AIs",
+    "authors": [
+      "Stuart_Armstrong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "When we get explicit strong generalisation to work (see the first post on the matter and the second ) my dream would be to create pre-aligned generalising AIs. Think about the usual conflict between alignment and capabilities, between doing the right thing and doing the easy thing. The standard narrative puts the good people at a constant disadvantage: they have to carefully plan every AI advance, always on the lookout for potential dangers. While those who don’t care can just YOLO and let it rip and let their AIs get ever more powerful without taking any responsibility. Now, in reality, there is some nuance to the story; but I don’t want to nuance it, I want to turn it on its head. I want to create AIs so that the good people can YOLO and reap the rewards of increased AI capabilities.",
+    "url": "https://www.alignmentforum.org/posts/uMKGaEKRDpoqnZyBh/value-generalisation-3-pre-aligned-ais",
+    "published_date": "2026-07-29T15:58:16+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-30T11:08:31.339400+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Value Generalisation 2: The Missing Hole in AIs’ abilities",
+    "authors": [
+      "Stuart_Armstrong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "A human superpower hidden from even ourselves I though GPT 3.5 was on the verge of Artificial General Intelligence (AGI). It certainly seemed that way – it could combine and extend ideas in ways that were far beyond narrow rigid computing. Sure, it had some flaws, but with its general capabilities and humans working tirelessly on improving the model, these flaws would soon be resolved and a full AGI would be born. It didn’t turn out that way. We are still where we were back in 2022 – as in, it feels we are on the verge of AGI, but not there yet. I think that humans have an ability, or a mix of abilities, that I’m calling strong generalisation. And LLMs and their derived models lack strong generalisation.",
+    "url": "https://www.alignmentforum.org/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities",
+    "published_date": "2026-07-29T15:58:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-30T11:08:31.339602+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Value Generalisation 1: a Research and Deployment Program",
+    "authors": [
+      "Stuart_Armstrong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I’m looking for people, advice, critiques, and funding to build a research program on value generalisation – the ability of an AI to correctly extend human values and preferences to situations neither it nor we have seen before. My ongoing research has become convinced that this is necessary if we want to get aligned AIs that operate in the human interest. This would be a focused research organisation or a commercial venture. I’m leaning towards commercial, because alignment techniques confined to academic papers get ignored – or worse, mined for capability-relevant parts while the alignment component is discarded. This post is the research program’s summary. The technical case is in the next post , and one exciting consequence – AIs whose alignment grows with their capabilities – is in the post after that .",
+    "url": "https://www.alignmentforum.org/posts/58zFSWp8Tmxij6ckK/value-generalisation-1-a-research-and-deployment-program",
+    "published_date": "2026-07-29T15:57:50+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-30T11:08:31.339678+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'How enabling two settings tripled our scores on the ARC-AGI-3 benchmark'. Published 2026-07-29. Authors: OpenAI News.",
+    "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "published_date": "2026-07-29T15:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-07-30T11:08:29.563335+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Research directions in condensation: varieties of objectivity",
@@ -34,7 +104,7 @@
     "published_date": "2026-07-28T17:30:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-29T11:26:57.349337+00:00",
+    "fetched_at": "2026-07-30T11:08:31.339885+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +118,7 @@
     "published_date": "2026-07-28T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-29T11:26:59.890060+00:00",
+    "fetched_at": "2026-07-30T11:08:33.955382+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +132,7 @@
     "published_date": "2026-07-27T16:35:09.689000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-29T11:27:13.292286+00:00",
+    "fetched_at": "2026-07-30T11:08:50.061207+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +146,7 @@
     "published_date": "2026-07-27T14:50:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-29T11:26:57.349644+00:00",
+    "fetched_at": "2026-07-30T11:08:31.340184+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +160,7 @@
     "published_date": "2026-07-27T03:01:30.888000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-29T11:27:13.292318+00:00",
+    "fetched_at": "2026-07-30T11:08:50.061234+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +174,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-07-29T11:26:55.287917+00:00",
+    "fetched_at": "2026-07-30T11:08:28.848799+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +188,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-29T11:26:56.261666+00:00",
+    "fetched_at": "2026-07-30T11:08:30.436902+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +202,7 @@
     "published_date": "2026-07-26T03:53:21.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-29T11:27:13.292295+00:00",
+    "fetched_at": "2026-07-30T11:08:50.061215+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +216,7 @@
     "published_date": "2026-07-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-29T11:26:56.261723+00:00",
+    "fetched_at": "2026-07-30T11:08:30.436958+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +230,7 @@
     "published_date": "2026-07-25T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-29T11:26:56.261771+00:00",
+    "fetched_at": "2026-07-30T11:08:30.437009+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +244,7 @@
     "published_date": "2026-07-24T21:01:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-29T11:26:57.349723+00:00",
+    "fetched_at": "2026-07-30T11:08:31.340250+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +258,7 @@
     "published_date": "2026-07-24T14:26:12.405000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-29T11:27:13.292337+00:00",
+    "fetched_at": "2026-07-30T11:08:50.061259+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +272,7 @@
     "published_date": "2026-07-24T09:23:12+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-29T11:26:56.261805+00:00",
+    "fetched_at": "2026-07-30T11:08:30.437046+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +286,7 @@
     "published_date": "2026-07-24T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-29T11:26:59.890340+00:00",
+    "fetched_at": "2026-07-30T11:08:33.955689+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +300,7 @@
     "published_date": "2026-07-23T18:05:43+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-29T11:26:57.350295+00:00",
+    "fetched_at": "2026-07-30T11:08:31.340843+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +314,7 @@
     "published_date": "2026-07-23T03:40:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-29T11:26:57.350414+00:00",
+    "fetched_at": "2026-07-30T11:08:31.340960+00:00",
     "date_precision": "day"
   },
   {
@@ -258,7 +328,7 @@
     "published_date": "2026-07-23T00:47:48+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-29T11:27:00.609084+00:00",
+    "fetched_at": "2026-07-30T11:08:34.939202+00:00",
     "date_precision": "day"
   },
   {
@@ -270,7 +340,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-29T11:27:06.797466+00:00",
+    "fetched_at": "2026-07-30T11:08:43.725853+00:00",
     "date_precision": "day"
   },
   {
@@ -282,7 +352,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-29T11:27:06.797929+00:00",
+    "fetched_at": "2026-07-30T11:08:43.726406+00:00",
     "date_precision": "day"
   },
   {
@@ -294,35 +364,7 @@
     "published_date": "2026-07-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-29T11:27:06.798354+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "[Paper] Stringological sequence prediction II",
-    "authors": [
-      "Vanessa Kosoy"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Abstract: In a previous paper, we began the study of sequence prediction algorithms adapted to stringological word complexity measures. One measure we considered was left-to-right (most-significant-digit-first) automaticity. Here, we show a statistically and computationally efficient algorithm adapted to the \"dual\" right-to-left (least-significant-digit-first) automaticity, which turns out to be substantially different for our purpose. We also demonstrate a prediction algorithm for a more expressive measure that we call \"arithmetic repetition complexity\". In particular, the latter can be used for predicting the so-called mix-automatic sequences. This paper continues my sequence on the new approach to compositional learning, which started with \" stringological sequence prediction I \". Curiously, the ARC complexity measure I define here seems related [1] to my control-theoretic complexity measure for polytope MDPs , even though the initial motivation here came from a completely different automata-theoretic angle [2] .",
-    "url": "https://www.alignmentforum.org/posts/TTei7oq9ndjJFgnsT/paper-stringological-sequence-prediction-ii",
-    "published_date": "2026-07-22T07:27:26+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-29T11:26:57.350438+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Economics of Recursive Self-Improvement",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "We (Parker and Tom) recently coauthored a paper, “The Economics of Recursive Self-Improvement” , with 7 other economists. The paper walks through a series of simple models of how AI may accelerate AI R&amp;D, and we thought it’s worth highlighting some context and takeaways: We care about Recursive Self-Improvement (RSI) because we want to forecast capabilities. METR’s priority is to assess risk from frontier AI development, and one input is how capable AI systems will be in the future. Capabilities have been growing rapidly over the past 5 years, and we want to know whether to expect an acceleration. 1 The term RSI has been used with very different definitions. Unfortunately a lot of confusion has been caused by different definitions of RSI.",
-    "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
-    "published_date": "2026-07-22T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-29T11:26:59.890396+00:00",
+    "fetched_at": "2026-07-30T11:08:43.726958+00:00",
     "date_precision": "day"
   }
 ]
