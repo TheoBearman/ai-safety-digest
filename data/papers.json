@@ -5,23 +5,115 @@
     "organization": "Anthropic",
     "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
     "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-30T00:00:00+00:00",
+    "published_date": "2026-07-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-30T11:08:37.489569+00:00",
+    "fetched_at": "2026-07-31T11:29:46.804920+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Could AI Enable Catastrophic Cyberattacks on the US Power Grid?",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve...",
+    "url": "https://www.governance.ai/research-paper/could-ai-enable-catastrophic-cyberattacks-on-the-us-power-grid",
+    "published_date": "2026-07-31T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-07-31T11:29:53.203154+00:00",
     "date_precision": "month"
   },
   {
     "title": "Assessing the Risk of AI-Enabled Computer Worms",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve... The EU GPAI Code of Practice commits Signatories to providing a description of intended model behavior... Future AI systems could impact the risk of terrorist bomb plots.",
+    "abstract": "Several frontier AI companies test their systems for dual-use cyber capabilities, such as vulnerability discovery and exploit development, that might be misused by threat actors. But what do these test results imply about the overall risk from cyberattacks? Answers to this question are needed to calibrate responses to cyber-AI capability progress, particularly in light of recent models’ considerable advances.",
     "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
-    "published_date": "2026-07-30T00:00:00+00:00",
+    "published_date": "2026-07-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-30T11:08:44.739980+00:00",
+    "fetched_at": "2026-07-31T11:29:53.204314+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Echoverse: Deep, evolving environments for computer-use agents",
+    "authors": [
+      "Akshay Nambi, Yash Pandya, Sahil Gupta, Sarthak Harne, Archana Yadav, Kavyansh Chourasia, Yash Lara, Ahmed Awadallah, Ece Kamar"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve. The post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
+    "published_date": "2026-07-30T17:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-07-31T11:29:37.591650+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "EvoLib: Turning experience into evolving knowledge",
+    "authors": [
+      "Weijia Xu, Alessandro Sordoni, Zelalem Gero, Michel Galley, Eric Yuan, Jianfeng Gao"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+    "published_date": "2026-07-30T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-07-31T11:29:37.591679+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Thousand-dimensional structure",
+    "authors": [
+      "Geoffrey Irving"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Summary: One area we plan to explore at Resolution is personas and character training, operationalized as finding and controlling low-dimensional structure in models that emerges in pretraining and flows through post-training to superintelligence. The hope is to expand and systematize phenomena such as emergent misalignment, subliminal learning, and other empirical persona research, then intervene on this structure without accidentally hiding undesirable behavior elsewhere. If this approach resonates with you, consider working with us . Glimmers of low-dimensional structure Our understanding of AI training and alignment as a field is very poor. If sufficient alignment of superintelligent AI agents requires pinning down the precise meaning of alignment and turning that meaning into high-accuracy training data and algorithms, we are likely to fail. Modern LLMs have trillions of parameters: our understanding is unlikely to be sufficient to pin down a trillion separate numbers.",
+    "url": "https://www.alignmentforum.org/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1",
+    "published_date": "2026-07-30T14:04:05+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-07-31T11:29:40.241947+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+    "authors": [
+      "Anthropic News"
+    ],
+    "organization": "Anthropic",
+    "abstract": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations. Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews.",
+    "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "published_date": "2026-07-30T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+    "fetched_at": "2026-07-31T11:29:37.750416+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "A Structured Approach to Identifying and Characterizing AI Vulnerabilities",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jul 30, 2026 RAND researchers present a structured framework for identifying and characterizing security weaknesses in generative artificial intelligence systems. They identify 31 distinct classes of vulnerabilities and offer practical mitigation strategies.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4983-1.html",
+    "published_date": "2026-07-30T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-31T11:29:52.684689+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Trends in Perception of Generative AI in Healthcare by US Adult Demographics and Political Identity",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Jul 30, 2026 Emerging divides suggest receptivity to genAI in healthcare may become increasingly shaped by political identity rather than clinical evidence or personal experience, complicating equitable deployment.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71364.html",
+    "published_date": "2026-07-30T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-07-31T11:29:52.684881+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Imprecise beliefs: a tiny introduction",
@@ -34,7 +126,7 @@
     "published_date": "2026-07-29T22:17:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:31.339305+00:00",
+    "fetched_at": "2026-07-31T11:29:40.242112+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +140,7 @@
     "published_date": "2026-07-29T15:58:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:31.339400+00:00",
+    "fetched_at": "2026-07-31T11:29:40.242199+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +154,7 @@
     "published_date": "2026-07-29T15:58:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:31.339602+00:00",
+    "fetched_at": "2026-07-31T11:29:40.242373+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +168,7 @@
     "published_date": "2026-07-29T15:57:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:31.339678+00:00",
+    "fetched_at": "2026-07-31T11:29:40.242441+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +182,7 @@
     "published_date": "2026-07-29T15:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-30T11:08:29.563335+00:00",
+    "fetched_at": "2026-07-31T11:29:38.381267+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +196,7 @@
     "published_date": "2026-07-28T17:30:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:31.339885+00:00",
+    "fetched_at": "2026-07-31T11:29:40.242658+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +210,7 @@
     "published_date": "2026-07-28T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:33.955382+00:00",
+    "fetched_at": "2026-07-31T11:29:42.625727+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +224,7 @@
     "published_date": "2026-07-27T16:35:09.689000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-30T11:08:50.061207+00:00",
+    "fetched_at": "2026-07-31T11:29:58.486004+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +238,7 @@
     "published_date": "2026-07-27T14:50:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:31.340184+00:00",
+    "fetched_at": "2026-07-31T11:29:40.242954+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +252,7 @@
     "published_date": "2026-07-27T03:01:30.888000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-30T11:08:50.061234+00:00",
+    "fetched_at": "2026-07-31T11:29:58.486037+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +266,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-07-30T11:08:28.848799+00:00",
+    "fetched_at": "2026-07-31T11:29:37.750487+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +280,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-30T11:08:30.436902+00:00",
+    "fetched_at": "2026-07-31T11:29:39.298609+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +294,7 @@
     "published_date": "2026-07-26T03:53:21.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-30T11:08:50.061215+00:00",
+    "fetched_at": "2026-07-31T11:29:58.486017+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +308,7 @@
     "published_date": "2026-07-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-30T11:08:30.436958+00:00",
+    "fetched_at": "2026-07-31T11:29:39.298679+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +322,7 @@
     "published_date": "2026-07-25T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-30T11:08:30.437009+00:00",
+    "fetched_at": "2026-07-31T11:29:39.298730+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +336,7 @@
     "published_date": "2026-07-24T21:01:47+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:31.340250+00:00",
+    "fetched_at": "2026-07-31T11:29:40.243016+00:00",
     "date_precision": "day"
   },
   {
@@ -258,7 +350,7 @@
     "published_date": "2026-07-24T14:26:12.405000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-30T11:08:50.061259+00:00",
+    "fetched_at": "2026-07-31T11:29:58.486043+00:00",
     "date_precision": "day"
   },
   {
@@ -272,7 +364,7 @@
     "published_date": "2026-07-24T09:23:12+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-30T11:08:30.437046+00:00",
+    "fetched_at": "2026-07-31T11:29:39.298766+00:00",
     "date_precision": "day"
   },
   {
@@ -286,85 +378,7 @@
     "published_date": "2026-07-24T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:33.955689+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Challenge: Hand coding weights for efficient sequence memorisation",
-    "authors": [
-      "Linda Linsefors"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models' parameter count [2] , just like trained models for the same architecture. However, our hand-coded models' scaling prefactor still falls short of trained models' by a factor of . A hybrid solution in which we handcode the MLP input weights and learn the MLP output weights, which amounts to a linear classification problem [3] , falls short by a factor of . Figure 0: Max number of facts each model can learn when requiring 90% accuracy on evaluation. The fitted lines are best fit for solving for .",
-    "url": "https://www.alignmentforum.org/posts/KWtchKwwnJkd4bwCi/challenge-hand-coding-weights-for-efficient-sequence-1",
-    "published_date": "2026-07-23T18:05:43+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:31.340843+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "OpenAI models recently broke through a series of security boundaries and into Hugging Face servers in order to cheat on a cyber eval . A lot of people thought it was scary because it was a clear example of AI overreaching to do something strongly unwanted [1] . Others thought it not so scary: the models were mostly operating myopically on a singular task and not harboring an ambitious long-term agenda, and so would not take especially subtle or subversive actions. We think both camps are right in their diagnosis, but the latter has too optimistic a prognosis. The myopic, unambitious misalignment that we seem to have seen here is definitely less scary than ambitious long-term goals shared between all instances, but would still pose substantial direct loss-of-control risk if the models were more capable, and is a serious indirect risk near-term.",
-    "url": "https://www.alignmentforum.org/posts/H6DDSEvrtCk8Sehfd/are-we-existentially-threatened-by-the-type-of-ai",
-    "published_date": "2026-07-23T03:40:37+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-30T11:08:31.340960+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Vera Rubin NVL72 vs GB200 NVL72? Inference TCO & Architecture Analysis",
-    "authors": [
-      "Alec Ibarra"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "3 bit Rubin LUT Based Tensor Core, SM140 Feynman, Rack Scale, Perf Per MegaWatt, Perf Per Dollar, Software Improvements, Public Rubin Software, PyTorch, vLLM, OpenAI Triton",
-    "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-vs-gb200-nvl72-inference",
-    "published_date": "2026-07-23T00:47:48+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-07-30T11:08:34.939202+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "International evaluation best practice and open questions in AI measurement",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "The International Network for Advanced AI Measurement, Evaluation and Science convened in Seoul to continue outlining international best practice.",
-    "url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
-    "published_date": "2026-07-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-30T11:08:43.725853+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "UK AISI / CAISI Preliminary Assessment of Kimi K3's Cyber Capabilities",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Our joint evaluation with CAISI finds Kimi K3 trails leading US frontier closed weight models on cyber capability.",
-    "url": "https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities",
-    "published_date": "2026-07-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-30T11:08:43.726406+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "How our new Control Red Team is stress-testing frontier monitors",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Early learnings from red-teaming the internal monitors of frontier AI companies, and our perspectives on the open problems that remain.",
-    "url": "https://www.aisi.gov.uk/blog/how-our-new-control-red-team-is-stress-testing-frontier-monitors",
-    "published_date": "2026-07-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-07-30T11:08:43.726958+00:00",
+    "fetched_at": "2026-07-31T11:29:42.626009+00:00",
     "date_precision": "day"
   }
 ]
