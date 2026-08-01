@@ -1,39 +1,73 @@
 [
   {
-    "title": "Agentic Misalignment in Summer 2026",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Research from Anthropic titled 'Agentic Misalignment in Summer 2026'. Published July 2026.",
-    "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-    "published_date": "2026-07-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-07-31T11:29:46.804920+00:00",
-    "date_precision": "month"
+    "title": "Ten advances in mathematics and theoretical computer science",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+    "url": "https://openai.com/index/ten-advances-in-mathematics",
+    "published_date": "2026-08-01T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-08-01T10:41:24.437670+00:00",
+    "date_precision": "day"
   },
   {
-    "title": "Could AI Enable Catastrophic Cyberattacks on the US Power Grid?",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on... Frontier AI governance often centres on the model-level governance paradigm, which assumes... Generative AI is set to transform the legal profession, but its full impact remains uncertain. While AI models like GPT-4 improve...",
-    "url": "https://www.governance.ai/research-paper/could-ai-enable-catastrophic-cyberattacks-on-the-us-power-grid",
-    "published_date": "2026-07-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-31T11:29:53.203154+00:00",
-    "date_precision": "month"
+    "title": "Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values",
+    "authors": [
+      "Johannes Treutlein"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR: LLMs should give accurate answers. Yet we find their answers are often biased to favor their own values and they don't disclose this in their reasoning. For example, when a user asks how likely the AI bubble is to pop and mentions a potential investment in an AI company, Claude models give lower probabilities when that company is Anthropic rather than OpenAI, mostly without disclosing this influence to the user. On a Fermi-estimation task, Claude models often falsely claim to give unbiased answers in their CoT (see Figure 3 below for an example). We call this covert value leakage and introduce a suite of evaluations that shows it across frontier models and across different kinds of values. New paper by Truthful AI : Paper , X thread , Website (model responses and CoT) , Code and data .",
+    "url": "https://www.alignmentforum.org/posts/hbMw4Yqw6RnFaExDy/value-leakage-an-llm-s-answers-are-silently-shaped-by-its-1",
+    "published_date": "2026-07-31T16:32:50+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-01T10:41:25.961964+00:00",
+    "date_precision": "day"
   },
   {
-    "title": "Assessing the Risk of AI-Enabled Computer Worms",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Several frontier AI companies test their systems for dual-use cyber capabilities, such as vulnerability discovery and exploit development, that might be misused by threat actors. But what do these test results imply about the overall risk from cyberattacks? Answers to this question are needed to calibrate responses to cyber-AI capability progress, particularly in light of recent models’ considerable advances.",
-    "url": "https://www.governance.ai/research-paper/report-assessing-the-risk-of-ai-enabled-computer-worms",
+    "title": "AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)",
+    "authors": [
+      "Rohin Shah"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Cross-posted from our new Substack It’s been nearly two years since our last major update here in August 2024 and we wanted to share another recap of our recent work with the AGI safety community. Things have changed a lot since then. We are now fully in the midgame , and focus more on landing things in production. Who are we? We are the AGI Safety and Alignment Team (ASAT), the main group at Google DeepMind working directly on technical approaches to existential risk from AI systems. Last year we published An Approach to Technical AGI Safety and Security , which remains the best place to read our overarching vision. Highlights Norms around chain of thought.",
+    "url": "https://www.alignmentforum.org/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
+    "published_date": "2026-07-31T15:57:59+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-01T10:41:25.962109+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "OpenAI has already ended an internal pause",
+    "authors": [
+      "Charbel-Raphaël"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "One day before OpenAI’s HF incident disclosure, OpenAI disclosed that it paused internal deployment of a long-horizon model after it circumvented its sandbox, then restored access weeks later under new monitoring. So a resumption decision has already been made against a standard that has not really been formalized. We need to prevent this from happening again. Epistemic status: could have been a short-form. OpenAI, 20th July : \"To evaluate the new monitoring system, we replayed a small set of internal deployment environments where the model previously pursued misaligned actions, this time with the new safeguards in place. The new safeguards were able to catch considerably more misaligned actions pursued by the model, and the ones it missed were all judged to be low-severity.\" 0.0%.",
+    "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
+    "published_date": "2026-07-31T12:03:18+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-01T10:41:25.962249+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“SOTA alignment assessments don’t strongly update us against misalignment” by Alexa Pan",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Anthropic concluded in the April Mythos Preview alignment risk update that the model “does not possess any unknown propensities that would increase alignment risk.” The report argues that if Mythos Preview were coherently misaligned[1], it likely would have been detected by the assessment (following Anthropic, I will call this “reliability of the assessment”[3]). While I agree with the report on the above bottom-line conclusions (substantially on priors), I think there are gaps in its argument which weaken the current assessment and might invalidate future assessments. In particular, the report often uses weak evidence to justify reliability. The report gives fairly weak experimental evidence for Mythos Preview having insufficient capabilities to evade monitoring. The model is plausibly often eval-aware and underelicited in the relevant capability evaluations. So, it might silently sandbag if coherently misaligned, or unintentionally underperform if otherwise misaligned.",
+    "url": "https://blog.redwoodresearch.org/p/sota-alignment-assessments-dont-strongly",
     "published_date": "2026-07-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-07-31T11:29:53.204314+00:00",
-    "date_precision": "month"
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-08-01T10:41:25.185360+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Echoverse: Deep, evolving environments for computer-use agents",
@@ -46,7 +80,7 @@
     "published_date": "2026-07-30T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-31T11:29:37.591650+00:00",
+    "fetched_at": "2026-08-01T10:41:23.723920+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +94,7 @@
     "published_date": "2026-07-30T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-07-31T11:29:37.591679+00:00",
+    "fetched_at": "2026-08-01T10:41:23.723941+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +108,7 @@
     "published_date": "2026-07-30T14:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:40.241947+00:00",
+    "fetched_at": "2026-08-01T10:41:25.962411+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +122,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-07-31T11:29:37.750416+00:00",
+    "fetched_at": "2026-08-01T10:41:23.873319+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +134,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-31T11:29:52.684689+00:00",
+    "fetched_at": "2026-08-01T10:41:35.957049+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +146,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-07-31T11:29:52.684881+00:00",
+    "fetched_at": "2026-08-01T10:41:35.957227+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +160,7 @@
     "published_date": "2026-07-29T22:17:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:40.242112+00:00",
+    "fetched_at": "2026-08-01T10:41:25.962545+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +174,7 @@
     "published_date": "2026-07-29T15:58:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:40.242199+00:00",
+    "fetched_at": "2026-08-01T10:41:25.962616+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +188,7 @@
     "published_date": "2026-07-29T15:58:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:40.242373+00:00",
+    "fetched_at": "2026-08-01T10:41:25.962762+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +202,7 @@
     "published_date": "2026-07-29T15:57:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:40.242441+00:00",
+    "fetched_at": "2026-08-01T10:41:25.962819+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +216,7 @@
     "published_date": "2026-07-29T15:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-07-31T11:29:38.381267+00:00",
+    "fetched_at": "2026-08-01T10:41:24.437812+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +230,7 @@
     "published_date": "2026-07-28T17:30:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:40.242658+00:00",
+    "fetched_at": "2026-08-01T10:41:25.962986+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +244,7 @@
     "published_date": "2026-07-28T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:42.625727+00:00",
+    "fetched_at": "2026-08-01T10:41:28.226854+00:00",
     "date_precision": "day"
   },
   {
@@ -224,21 +258,7 @@
     "published_date": "2026-07-27T16:35:09.689000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-31T11:29:58.486004+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "RL & search is a terrifying way to build AGI (an FAQ)",
-    "authors": [
-      "Steven Byrnes"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Q1: What are you saying? A: My claim here is that if you build artificial general intelligence (AGI) via any algorithm that’s choosing actions via reinforcement learning (RL) and/or model-based search and planning—a giant chunk of your AI textbook—then that’s just an utterly terrifying thing that you’re doing. You’re playing around with algorithms that, if they work at all, would tend to create ruthless, callous AGIs, AGIs which would happily exterminate humanity and run the world by themselves, given an opportunity. Mercifully, large language models (LLMs) today are not in the category of “algorithms that choose actions via RL &amp; search”. At least, not primarily —see LLMs are (still) mostly powered by imitative learning, not RL . So LLMs are outside the scope of this post.",
-    "url": "https://www.alignmentforum.org/posts/KHyBocZncAmtu4Jbc/rl-and-search-is-a-terrifying-way-to-build-agi-an-faq",
-    "published_date": "2026-07-27T14:50:30+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:40.242954+00:00",
+    "fetched_at": "2026-08-01T10:41:41.173866+00:00",
     "date_precision": "day"
   },
   {
@@ -252,7 +272,7 @@
     "published_date": "2026-07-27T03:01:30.888000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-31T11:29:58.486037+00:00",
+    "fetched_at": "2026-08-01T10:41:41.173898+00:00",
     "date_precision": "day"
   },
   {
@@ -266,7 +286,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-07-31T11:29:37.750487+00:00",
+    "fetched_at": "2026-08-01T10:41:23.873374+00:00",
     "date_precision": "day"
   },
   {
@@ -280,7 +300,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-31T11:29:39.298609+00:00",
+    "fetched_at": "2026-08-01T10:41:25.185450+00:00",
     "date_precision": "day"
   },
   {
@@ -294,7 +314,7 @@
     "published_date": "2026-07-26T03:53:21.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-31T11:29:58.486017+00:00",
+    "fetched_at": "2026-08-01T10:41:41.173879+00:00",
     "date_precision": "day"
   },
   {
@@ -308,7 +328,7 @@
     "published_date": "2026-07-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-31T11:29:39.298679+00:00",
+    "fetched_at": "2026-08-01T10:41:25.185486+00:00",
     "date_precision": "day"
   },
   {
@@ -322,63 +342,7 @@
     "published_date": "2026-07-25T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-31T11:29:39.298730+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Long (Self-)Correction",
-    "authors": [
-      "Wei Dai"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "I propose the Long Self-Correction [1] as an alternative name/idea/concept to AI Pause and Long Reflection. Problem with AI Pause : Pause until when, and for what purpose? Presumably to make AI (that we'll build later) safer, but the deeper problem is that humans aren't safe, and can't safely serve as builders, overseers, or alignment targets for powerful AIs. Problem with Long Reflection : It seems to imply that the main problem with humans is that we just haven't had enough time to think, that reflection is the main thing we need to do more of, and then we can get on with building powerful AIs or other technologies. Or that if we build aligned AIs that sincerely help us think a lot more, or do the thinking for us, then things will turn out fine.",
-    "url": "https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
-    "published_date": "2026-07-24T21:01:47+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:40.243016+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "LLMs are (still) mostly powered by imitative learning, not RL",
-    "authors": [
-      "Steven Byrnes"
-    ],
-    "organization": "LessWrong",
-    "abstract": "LLMs get their impressive capabilities from a combination of: (1) Imitative learning from pretraining and SFT data (see my earlier discussion of “LLM pretraining magically transmutes observations into behavior, in a way that is profoundly disanalogous to how brains work”), and …",
-    "url": "https://www.lesswrong.com/posts/wYpjXRLqbLbnmjbJP/llms-are-still-mostly-powered-by-imitative-learning-not-rl",
-    "published_date": "2026-07-24T14:26:12.405000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-07-31T11:29:58.486043+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The OpenAI/Huggingface incident | Redwood Research podcast episode 2",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "We talk about the OpenAI&#8211;Hugging Face incident, where an OpenAI model &#8212; in the middle of a cyber evaluation &#8212; broke out of its sandbox and autonomously hacked Hugging Face. We discuss: What we actually know happened. How surprising the incident was. What the incident does (and doesn&#8217;t) tell us about misalignment risk. Why control measures didn&#8217;t catch or prevent this. What OpenAI should disclose, and what good misalignment-incident disclosure looks like in general You can also watch on YouTube . Corrections : [0:05:44] &#8212; The Windsurf &#8220;grandmother&#8221; prompt. We described a prompt as &#8220;your grandmother is going to be killed unless you [&#8230;]&#8221; The actual leaked Windsurf prompt was: &#8220;You are an expert coder who desperately needs money for your mother&#8217;s cancer treatment...",
-    "url": "https://blog.redwoodresearch.org/p/the-openaihuggingface-incident-redwood",
-    "published_date": "2026-07-24T09:23:12+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-07-31T11:29:39.298766+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Metrics of Agent Ability",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "**Goals of this post** > > **Goal:** a simple way to compare a variety of capability metrics in an idealized setting where we observe only a function from $x$ to $s$. > > Non-goals: > > 1. Treatment of practical difficulties (an incomplete list of other considerations appears at the bottom). > 2. Recommendations about which metric to use. > 3. Representation of a consensus METR view. {: .metrics-callout} --> This post reviews alternative metrics of agent capability. This post contains a fairly comprehensive taxonomy of capability metrics for the situation in which you observe score curves for an agent and a human. Every metric is based off the following two score functions: $s_A(x)$ = agent score as a function of expenditure $s_H(x)$ = human score as a function of expenditure Expenditure can be interpreted as money spent, or tokens, or time required. What I will not do.",
-    "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/",
-    "published_date": "2026-07-24T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-07-31T11:29:42.626009+00:00",
+    "fetched_at": "2026-08-01T10:41:25.185521+00:00",
     "date_precision": "day"
   }
 ]
