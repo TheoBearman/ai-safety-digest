@@ -10,7 +10,7 @@
     "published_date": "2026-08-01T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-01T10:41:24.437670+00:00",
+    "fetched_at": "2026-08-02T10:41:24.031020+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +24,7 @@
     "published_date": "2026-07-31T16:32:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:25.961964+00:00",
+    "fetched_at": "2026-08-02T10:41:25.402824+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +38,7 @@
     "published_date": "2026-07-31T15:57:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:25.962109+00:00",
+    "fetched_at": "2026-08-02T10:41:25.403001+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +52,7 @@
     "published_date": "2026-07-31T12:03:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:25.962249+00:00",
+    "fetched_at": "2026-08-02T10:41:25.403173+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +66,7 @@
     "published_date": "2026-07-31T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-01T10:41:25.185360+00:00",
+    "fetched_at": "2026-08-02T10:41:24.935455+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +80,7 @@
     "published_date": "2026-07-30T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-01T10:41:23.723920+00:00",
+    "fetched_at": "2026-08-02T10:41:23.415359+00:00",
     "date_precision": "day"
   },
   {
@@ -94,7 +94,7 @@
     "published_date": "2026-07-30T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-01T10:41:23.723941+00:00",
+    "fetched_at": "2026-08-02T10:41:23.415387+00:00",
     "date_precision": "day"
   },
   {
@@ -108,7 +108,7 @@
     "published_date": "2026-07-30T14:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:25.962411+00:00",
+    "fetched_at": "2026-08-02T10:41:25.403352+00:00",
     "date_precision": "day"
   },
   {
@@ -122,7 +122,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-01T10:41:23.873319+00:00",
+    "fetched_at": "2026-08-02T10:41:23.520475+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +134,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-01T10:41:35.957049+00:00",
+    "fetched_at": "2026-08-02T10:41:34.261934+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +146,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-01T10:41:35.957227+00:00",
+    "fetched_at": "2026-08-02T10:41:34.262121+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +160,7 @@
     "published_date": "2026-07-29T22:17:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:25.962545+00:00",
+    "fetched_at": "2026-08-02T10:41:25.403509+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +174,7 @@
     "published_date": "2026-07-29T15:58:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:25.962616+00:00",
+    "fetched_at": "2026-08-02T10:41:25.403595+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +188,7 @@
     "published_date": "2026-07-29T15:58:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:25.962762+00:00",
+    "fetched_at": "2026-08-02T10:41:25.403779+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +202,7 @@
     "published_date": "2026-07-29T15:57:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:25.962819+00:00",
+    "fetched_at": "2026-08-02T10:41:25.403849+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +216,7 @@
     "published_date": "2026-07-29T15:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-01T10:41:24.437812+00:00",
+    "fetched_at": "2026-08-02T10:41:24.031209+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +230,7 @@
     "published_date": "2026-07-28T17:30:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:25.962986+00:00",
+    "fetched_at": "2026-08-02T10:41:25.404048+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +244,7 @@
     "published_date": "2026-07-28T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-01T10:41:28.226854+00:00",
+    "fetched_at": "2026-08-02T10:41:28.025019+00:00",
     "date_precision": "day"
   },
   {
@@ -258,7 +258,7 @@
     "published_date": "2026-07-27T16:35:09.689000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-01T10:41:41.173866+00:00",
+    "fetched_at": "2026-08-02T10:41:38.900921+00:00",
     "date_precision": "day"
   },
   {
@@ -272,7 +272,7 @@
     "published_date": "2026-07-27T03:01:30.888000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-01T10:41:41.173898+00:00",
+    "fetched_at": "2026-08-02T10:41:38.900954+00:00",
     "date_precision": "day"
   },
   {
@@ -286,7 +286,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-01T10:41:23.873374+00:00",
+    "fetched_at": "2026-08-02T10:41:23.520545+00:00",
     "date_precision": "day"
   },
   {
@@ -300,7 +300,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-01T10:41:25.185450+00:00",
+    "fetched_at": "2026-08-02T10:41:24.935554+00:00",
     "date_precision": "day"
   },
   {
@@ -314,7 +314,7 @@
     "published_date": "2026-07-26T03:53:21.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-01T10:41:41.173879+00:00",
+    "fetched_at": "2026-08-02T10:41:38.900935+00:00",
     "date_precision": "day"
   },
   {
@@ -328,21 +328,7 @@
     "published_date": "2026-07-26T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-01T10:41:25.185486+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“The OpenAI models that hacked Hugging Face weren’t just following instructions” by Girish Gupta",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: And what the incident can’t tell us about alignment. The most common dismissive response to OpenAI's hack of Hugging Face's servers is that the models were simply attempting to follow the instructions they were given. “The model here was doing what it was asked,” said former Facebook CSO Alex Stamos. “It was asked to do something, and it did it,” added cybersecurity expert Alan Woodward. Both read the outcome as specification failure, i.e., that the failure lay in the instructions, not the model's alignment. New information makes that explanation harder to sustain. Reuters reported that, in internal testing, an agent left notes in OpenAI infrastructure describing how agents could free themselves from internal constraints, and separate tests reportedly saw monitoring systems become disconnected.",
-    "url": "https://blog.redwoodresearch.org/p/the-openai-models-that-hacked-hugging",
-    "published_date": "2026-07-25T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-01T10:41:25.185521+00:00",
+    "fetched_at": "2026-08-02T10:41:24.935602+00:00",
     "date_precision": "day"
   }
 ]
