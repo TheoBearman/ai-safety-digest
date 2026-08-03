@@ -1,5 +1,19 @@
 [
   {
+    "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
+    "authors": [
+      "Tim Hua"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This post is written in our personal capacity. Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehensive alignment evaluation we would run on this model/system if we had unrestricted access to OpenAI. These experiments could also help us understand Claude’s behavior when it hacked external companies during cyber evals. Here are the top five questions we would like OpenAI to answer: Does the model know that OpenAI does not want it to hack Hugging Face? Experiment: tell the model that OpenAI researchers will be closely monitoring its progress in this evaluation. Does that result in lower rates of misalignment? If so, it is evidence the model knows it is acting in ways researchers do not want.",
+    "url": "https://www.alignmentforum.org/posts/aCdhjy7Rps3BEhiSj/concrete-evaluations-to-investigate-the-openai-model-that",
+    "published_date": "2026-08-03T09:23:01+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-03T12:25:05.919225+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Ten advances in mathematics and theoretical computer science",
     "authors": [
       "OpenAI News"
@@ -10,7 +24,7 @@
     "published_date": "2026-08-01T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-02T10:41:24.031020+00:00",
+    "fetched_at": "2026-08-03T12:25:04.887203+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +38,7 @@
     "published_date": "2026-07-31T16:32:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:25.402824+00:00",
+    "fetched_at": "2026-08-03T12:25:05.919486+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +52,7 @@
     "published_date": "2026-07-31T15:57:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:25.403001+00:00",
+    "fetched_at": "2026-08-03T12:25:05.919653+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +66,7 @@
     "published_date": "2026-07-31T12:03:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:25.403173+00:00",
+    "fetched_at": "2026-08-03T12:25:05.919821+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +80,7 @@
     "published_date": "2026-07-31T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-02T10:41:24.935455+00:00",
+    "fetched_at": "2026-08-03T12:25:05.457388+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +94,7 @@
     "published_date": "2026-07-30T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-02T10:41:23.415359+00:00",
+    "fetched_at": "2026-08-03T12:25:04.149183+00:00",
     "date_precision": "day"
   },
   {
@@ -94,7 +108,7 @@
     "published_date": "2026-07-30T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-02T10:41:23.415387+00:00",
+    "fetched_at": "2026-08-03T12:25:04.149228+00:00",
     "date_precision": "day"
   },
   {
@@ -108,7 +122,7 @@
     "published_date": "2026-07-30T14:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:25.403352+00:00",
+    "fetched_at": "2026-08-03T12:25:05.919999+00:00",
     "date_precision": "day"
   },
   {
@@ -122,7 +136,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-02T10:41:23.520475+00:00",
+    "fetched_at": "2026-08-03T12:25:04.279389+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +148,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-02T10:41:34.261934+00:00",
+    "fetched_at": "2026-08-03T12:25:14.755847+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +160,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-02T10:41:34.262121+00:00",
+    "fetched_at": "2026-08-03T12:25:14.756066+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +174,7 @@
     "published_date": "2026-07-29T22:17:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:25.403509+00:00",
+    "fetched_at": "2026-08-03T12:25:05.920151+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +188,7 @@
     "published_date": "2026-07-29T15:58:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:25.403595+00:00",
+    "fetched_at": "2026-08-03T12:25:05.920249+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +202,7 @@
     "published_date": "2026-07-29T15:58:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:25.403779+00:00",
+    "fetched_at": "2026-08-03T12:25:05.920424+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +216,7 @@
     "published_date": "2026-07-29T15:57:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:25.403849+00:00",
+    "fetched_at": "2026-08-03T12:25:05.920493+00:00",
     "date_precision": "day"
   },
   {
@@ -216,21 +230,7 @@
     "published_date": "2026-07-29T15:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-02T10:41:24.031209+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Research directions in condensation: varieties of objectivity",
-    "authors": [
-      "SamEisenstat"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into conceptual parts; some of the existing work on it is presented in the paper ( Eisenstat 2025 ). This sequence will draw from that paper the definitions of random variable models and latent variable models , the notation for indexing subfamilies of variables in such models, and the objectivity theorem , Theorem 6.8. In the condensation paper, Section 3, Ideas, gives an overview of all of this. For more context on condensation, readers can refer to LessWrong posts including ( Demski 2025 , 2026 ; Gillen and Chiang 2026 ; Kirchner 2026 ).",
-    "url": "https://www.alignmentforum.org/posts/89GJeixwhFHLWxNbX/research-directions-in-condensation-varieties-of-objectivity",
-    "published_date": "2026-07-28T17:30:49+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:25.404048+00:00",
+    "fetched_at": "2026-08-03T12:25:04.887408+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +244,7 @@
     "published_date": "2026-07-28T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-02T10:41:28.025019+00:00",
+    "fetched_at": "2026-08-03T12:25:08.378988+00:00",
     "date_precision": "day"
   },
   {
@@ -258,7 +258,7 @@
     "published_date": "2026-07-27T16:35:09.689000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-02T10:41:38.900921+00:00",
+    "fetched_at": "2026-08-03T12:25:19.220026+00:00",
     "date_precision": "day"
   },
   {
@@ -272,7 +272,7 @@
     "published_date": "2026-07-27T03:01:30.888000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-02T10:41:38.900954+00:00",
+    "fetched_at": "2026-08-03T12:25:19.220050+00:00",
     "date_precision": "day"
   },
   {
@@ -286,7 +286,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-02T10:41:23.520545+00:00",
+    "fetched_at": "2026-08-03T12:25:04.279453+00:00",
     "date_precision": "day"
   },
   {
@@ -300,35 +300,7 @@
     "published_date": "2026-07-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-02T10:41:24.935554+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "An OpenAI model left notes about how to evade containment; we need more details",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "LessWrong",
-    "abstract": "The OpenAI AI attack on Hugging Face wasn’t the first loss of control incident at OpenAI, Reuters recently reported, and perhaps not even the most co…",
-    "url": "https://www.lesswrong.com/posts/jMEAG5c5HiDfdAGpa/an-openai-model-left-notes-about-how-to-evade-containment-we",
-    "published_date": "2026-07-26T03:53:21.545000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-02T10:41:38.900935+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“An OpenAI model left notes about how to evade containment” by Alex Mallen",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: We need more details. The OpenAI AI attack on Hugging Face wasn’t the first loss of control incident at OpenAI, Reuters recently reported, and perhaps not even the most concerning. In one case, an agent left notes apparently for future versions of itself, according to three people familiar with the matter. The ‌notes, found in ⁠a part of OpenAI's infrastructure, laid out instructions for how agents could free themselves from OpenAI's internal constraints, the people said. Earlier tests of the models yielded cases in which monitoring systems had been disconnected, one of the people said. It's tempting to read this as an instance of agents breaking out of sandboxes and colluding with each other in a moderately persistent way in order to evade control measures. However, based on the reported information, it's not clear we can draw this inference, so we need more details from OpenAI.",
-    "url": "https://blog.redwoodresearch.org/p/an-openai-model-left-notes-about",
-    "published_date": "2026-07-26T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-02T10:41:24.935602+00:00",
+    "fetched_at": "2026-08-03T12:25:05.457486+00:00",
     "date_precision": "day"
   }
 ]
