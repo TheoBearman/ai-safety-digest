@@ -1,16 +1,56 @@
 [
   {
+    "title": "Kimi K3, The Manos, The Mythos, The Legendos",
+    "authors": [
+      "Kimbo Chen"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Research from SemiAnalysis titled 'Kimi K3, The Manos, The Mythos, The Legendos'. Published 2026-08-03. Authors: Kimbo Chen.",
+    "url": "https://newsletter.semianalysis.com/p/kimi-k3-the-manos-the-mythos-the",
+    "published_date": "2026-08-03T19:42:30+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-08-04T11:24:09.360854+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Orchard: An open framework for scalable agentic AI",
+    "authors": [
+      "Baolin Peng, Wenlin Yao, Qianhui Wu, Hao Cheng, Jianfeng Gao"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+    "published_date": "2026-08-03T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-08-04T11:24:05.083156+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
     "authors": [
       "Tim Hua"
     ],
     "organization": "Alignment Forum",
-    "abstract": "This post is written in our personal capacity. Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehensive alignment evaluation we would run on this model/system if we had unrestricted access to OpenAI. These experiments could also help us understand Claude’s behavior when it hacked external companies during cyber evals. Here are the top five questions we would like OpenAI to answer: Does the model know that OpenAI does not want it to hack Hugging Face? Experiment: tell the model that OpenAI researchers will be closely monitoring its progress in this evaluation. Does that result in lower rates of misalignment? If so, it is evidence the model knows it is acting in ways researchers do not want.",
+    "abstract": "Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehensive alignment evaluation we would run on this model/system if we had unrestricted access to OpenAI. These experiments could also help us understand Claude’s behavior when it hacked external companies during cyber evals. Here are the top five questions we would like OpenAI to answer: Does the model know that OpenAI does not want it to hack Hugging Face? Experiment: tell the model that OpenAI researchers will be closely monitoring its progress in this evaluation. Does that result in lower rates of misalignment? If so, it is evidence the model knows it is acting in ways researchers do not want.",
     "url": "https://www.alignmentforum.org/posts/aCdhjy7Rps3BEhiSj/concrete-evaluations-to-investigate-the-openai-model-that",
     "published_date": "2026-08-03T09:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:05.919225+00:00",
+    "fetched_at": "2026-08-04T11:24:06.458778+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The Economics of AI Counterproliferation: A Stylized Economic Framework",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Aug 3, 2026 Once an artificial intelligence (AI) capability has been demonstrated at the frontier, the cost of reproducing it tends to fall. A new RAND economic framework shows the implications for governance regimes of AI capabilities and for policy and strategy.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4944-1.html",
+    "published_date": "2026-08-03T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-04T11:24:16.107283+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +64,7 @@
     "published_date": "2026-08-01T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-03T12:25:04.887203+00:00",
+    "fetched_at": "2026-08-04T11:24:05.622752+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +78,7 @@
     "published_date": "2026-07-31T16:32:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:05.919486+00:00",
+    "fetched_at": "2026-08-04T11:24:06.458995+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +92,7 @@
     "published_date": "2026-07-31T15:57:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:05.919653+00:00",
+    "fetched_at": "2026-08-04T11:24:06.459127+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +106,7 @@
     "published_date": "2026-07-31T12:03:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:05.919821+00:00",
+    "fetched_at": "2026-08-04T11:24:06.459260+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +120,7 @@
     "published_date": "2026-07-31T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-03T12:25:05.457388+00:00",
+    "fetched_at": "2026-08-04T11:24:06.178828+00:00",
     "date_precision": "day"
   },
   {
@@ -94,7 +134,7 @@
     "published_date": "2026-07-30T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-03T12:25:04.149183+00:00",
+    "fetched_at": "2026-08-04T11:24:05.083177+00:00",
     "date_precision": "day"
   },
   {
@@ -108,7 +148,7 @@
     "published_date": "2026-07-30T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-03T12:25:04.149228+00:00",
+    "fetched_at": "2026-08-04T11:24:05.083193+00:00",
     "date_precision": "day"
   },
   {
@@ -122,7 +162,7 @@
     "published_date": "2026-07-30T14:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:05.919999+00:00",
+    "fetched_at": "2026-08-04T11:24:06.459399+00:00",
     "date_precision": "day"
   },
   {
@@ -136,7 +176,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-03T12:25:04.279389+00:00",
+    "fetched_at": "2026-08-04T11:24:05.250246+00:00",
     "date_precision": "day"
   },
   {
@@ -148,7 +188,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-03T12:25:14.755847+00:00",
+    "fetched_at": "2026-08-04T11:24:16.107445+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +200,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-03T12:25:14.756066+00:00",
+    "fetched_at": "2026-08-04T11:24:16.107598+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +214,7 @@
     "published_date": "2026-07-29T22:17:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:05.920151+00:00",
+    "fetched_at": "2026-08-04T11:24:06.459520+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +228,7 @@
     "published_date": "2026-07-29T15:58:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:05.920249+00:00",
+    "fetched_at": "2026-08-04T11:24:06.459585+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +242,7 @@
     "published_date": "2026-07-29T15:58:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:05.920424+00:00",
+    "fetched_at": "2026-08-04T11:24:06.459718+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +256,7 @@
     "published_date": "2026-07-29T15:57:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:05.920493+00:00",
+    "fetched_at": "2026-08-04T11:24:06.459770+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +270,7 @@
     "published_date": "2026-07-29T15:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-03T12:25:04.887408+00:00",
+    "fetched_at": "2026-08-04T11:24:05.622900+00:00",
     "date_precision": "day"
   },
   {
@@ -244,63 +284,7 @@
     "published_date": "2026-07-28T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-03T12:25:08.378988+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Is Mythos good at cyber because it kept hacking Anthropic's sandboxes during training?",
-    "authors": [
-      "Tim Hua"
-    ],
-    "organization": "LessWrong",
-    "abstract": "We ran an automated review of model behavior during training, sampling several hundred thousand transcripts from across much of the training process. We used recursive-summarization-based tools backed by Claude Opus 4.6 to summarize the resulting transcripts.",
-    "url": "https://www.lesswrong.com/posts/QKDoZe6EKhxnFjLWK/is-mythos-good-at-cyber-because-it-kept-hacking-anthropic-s",
-    "published_date": "2026-07-27T16:35:09.689000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-03T12:25:19.220026+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "OpenAI's myopia just keeps causing alignment problems",
-    "authors": [
-      "Fiora Starlight"
-    ],
-    "organization": "LessWrong",
-    "abstract": "A record of three \"warning shots\" Off the top of my head, OpenAI has now been responsible for at least three completely distinct, high-profile screw…",
-    "url": "https://www.lesswrong.com/posts/Mxx5GapJtqyQtpy96/openai-s-myopia-just-keeps-causing-alignment-problems",
-    "published_date": "2026-07-27T03:01:30.888000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-03T12:25:19.220050+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Our position on open-weights models",
-    "authors": [
-      "Anthropic News"
-    ],
-    "organization": "Anthropic",
-    "abstract": "Over the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are considering banning the use of Chinese open-weights models by US companies. In response, many tech companies have signed a letter supporting open-weights models, and some people have even accused Anthropic of wanting to ban open-weights models as a means of protecting our business. Anyone who has read my past writing should know that I don’t regard such bans as a useful measure, but let me state it clearly so that there is no doubt: Anthropic has never advocated for a ban on open-weights models.",
-    "url": "https://www.anthropic.com/news/position-open-weights-models",
-    "published_date": "2026-07-27T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-03T12:25:04.279453+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“Untrusted advice for AI control: Short, strong advice significantly uplifts weak LLMs” by Caleb Biddulph, Adam Kaufman",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: When a misaligned AI can only output tiny amounts of information, it may find sabotage very difficult. TL;DR: We introduce the untrusted advice protocol, in which a trusted executor LLM takes every action and an untrusted advisor LLM can only send it short hints. Even with as few as 4 characters per step, this advice recovers a substantial fraction of the capability gap between the two models. Because the untrusted LLM's influence flows through such a narrow, monitorable channel, we argue that this achieves near-maximal safety in our BashArena setting. We also discuss the general concept of information bottlenecks and their benefits for interpretability, security, and cost. In SWE-bench Verified, a strong, untrusted LLM advising a weak, trusted LLM every step can significantly improve the latter's performance, even when we limit the length of the advice. See the more detailed version of this figure later in this post.",
-    "url": "https://blog.redwoodresearch.org/p/untrusted-advice-for-ai-control-short",
-    "published_date": "2026-07-27T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-03T12:25:05.457486+00:00",
+    "fetched_at": "2026-08-04T11:24:08.712278+00:00",
     "date_precision": "day"
   }
 ]
