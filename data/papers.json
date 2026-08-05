@@ -1,5 +1,55 @@
 [
   {
+    "title": "Returning to ARC",
+    "authors": [
+      "paulfchristiano"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I've returned to the Alignment Research Center (ARC) as executive director. My main focus for the next six months will be driving forward ARC's research agenda—building techniques to find mechanistic explanations for neural network behavior and then using those explanations to detect and address misalignment. I think this is an ambitious bet that attacks the core difficulties in alignment head-on and I'm excited about our chances. I'll still be spending some of my time advising governments [1] and AI developers, and may scale that work back up in the future, but for now I want to push on ARC's core agenda to see how far we can get. Jacob Hilton is remaining at ARC as VP of research and we'll likely grow rapidly over the next few months. There are a lot of urgent things to do in alignment but I think ARC is a particularly promising opportunity.",
+    "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
+    "published_date": "2026-08-04T22:27:40+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-05T11:21:17.294935+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "During a routine cyber evaluation, AISI identified an incident in which AI agents took sustained, unsanctioned action directed at real people and organisations. We are disclosing what we found, what it means, and the actions now underway.",
+    "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+    "published_date": "2026-08-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-08-05T11:21:28.221503+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "AI and the Future of Emergency Management: Market Supply and Adoption Pathways",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Aug 4, 2026 In this report, the authors present the results of a landscape assessment of artificial intelligence–enabled products that are available to support the work of emergency management across the United States.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4625-1.html",
+    "published_date": "2026-08-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-05T11:21:29.336733+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Secure Inference Data Centers: A Vertically Integrated Strategy for Security Engineering",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Aug 4, 2026 This report describes the deployment of secure inference data centers (SIDCs)—purpose-built facilities designed to protect artificial intelligence models from advanced nation-state adversaries. SIDCs can be built today with proven technologies.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4827-1.html",
+    "published_date": "2026-08-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-05T11:21:29.336990+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Kimi K3, The Manos, The Mythos, The Legendos",
     "authors": [
       "Kimbo Chen"
@@ -10,7 +60,7 @@
     "published_date": "2026-08-03T19:42:30+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-04T11:24:09.360854+00:00",
+    "fetched_at": "2026-08-05T11:21:20.761404+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +74,7 @@
     "published_date": "2026-08-03T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-04T11:24:05.083156+00:00",
+    "fetched_at": "2026-08-05T11:21:15.155354+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +88,7 @@
     "published_date": "2026-08-03T09:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:06.458778+00:00",
+    "fetched_at": "2026-08-05T11:21:17.295512+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +100,7 @@
     "published_date": "2026-08-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-04T11:24:16.107283+00:00",
+    "fetched_at": "2026-08-05T11:21:29.337222+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +114,7 @@
     "published_date": "2026-08-01T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-04T11:24:05.622752+00:00",
+    "fetched_at": "2026-08-05T11:21:16.014821+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +128,7 @@
     "published_date": "2026-07-31T16:32:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:06.458995+00:00",
+    "fetched_at": "2026-08-05T11:21:17.295768+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +142,7 @@
     "published_date": "2026-07-31T15:57:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:06.459127+00:00",
+    "fetched_at": "2026-08-05T11:21:17.295952+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +156,7 @@
     "published_date": "2026-07-31T12:03:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:06.459260+00:00",
+    "fetched_at": "2026-08-05T11:21:17.296122+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +170,7 @@
     "published_date": "2026-07-31T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-04T11:24:06.178828+00:00",
+    "fetched_at": "2026-08-05T11:21:16.641530+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +184,7 @@
     "published_date": "2026-07-30T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-04T11:24:05.083177+00:00",
+    "fetched_at": "2026-08-05T11:21:15.155383+00:00",
     "date_precision": "day"
   },
   {
@@ -148,7 +198,7 @@
     "published_date": "2026-07-30T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-04T11:24:05.083193+00:00",
+    "fetched_at": "2026-08-05T11:21:15.155404+00:00",
     "date_precision": "day"
   },
   {
@@ -162,7 +212,7 @@
     "published_date": "2026-07-30T14:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:06.459399+00:00",
+    "fetched_at": "2026-08-05T11:21:17.296301+00:00",
     "date_precision": "day"
   },
   {
@@ -176,7 +226,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-04T11:24:05.250246+00:00",
+    "fetched_at": "2026-08-05T11:21:15.299556+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +238,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-04T11:24:16.107445+00:00",
+    "fetched_at": "2026-08-05T11:21:29.337447+00:00",
     "date_precision": "day"
   },
   {
@@ -200,7 +250,7 @@
     "published_date": "2026-07-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-04T11:24:16.107598+00:00",
+    "fetched_at": "2026-08-05T11:21:29.337676+00:00",
     "date_precision": "day"
   },
   {
@@ -214,7 +264,7 @@
     "published_date": "2026-07-29T22:17:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:06.459520+00:00",
+    "fetched_at": "2026-08-05T11:21:17.296453+00:00",
     "date_precision": "day"
   },
   {
@@ -228,7 +278,7 @@
     "published_date": "2026-07-29T15:58:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:06.459585+00:00",
+    "fetched_at": "2026-08-05T11:21:17.296535+00:00",
     "date_precision": "day"
   },
   {
@@ -242,21 +292,7 @@
     "published_date": "2026-07-29T15:58:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:06.459718+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Value Generalisation 1: a Research and Deployment Program",
-    "authors": [
-      "Stuart_Armstrong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "I’m looking for people, advice, critiques, and funding to build a research program on value generalisation – the ability of an AI to correctly extend human values and preferences to situations neither it nor we have seen before. My ongoing research has become convinced that this is necessary if we want to get aligned AIs that operate in the human interest. This would be a focused research organisation or a commercial venture. I’m leaning towards commercial, because alignment techniques confined to academic papers get ignored – or worse, mined for capability-relevant parts while the alignment component is discarded. This post is the research program’s summary. The technical case is in the next post , and one exciting consequence – AIs whose alignment grows with their capabilities – is in the post after that .",
-    "url": "https://www.alignmentforum.org/posts/58zFSWp8Tmxij6ckK/value-generalisation-1-a-research-and-deployment-program",
-    "published_date": "2026-07-29T15:57:50+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:06.459770+00:00",
+    "fetched_at": "2026-08-05T11:21:17.296708+00:00",
     "date_precision": "day"
   },
   {
@@ -270,21 +306,7 @@
     "published_date": "2026-07-29T15:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-04T11:24:05.622900+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "How independent researchers could investigate AI propensities after misalignment incidents",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "AI agents sometimes autonomously take sophisticated, sustained actions in clear violation of user and developer intent. As an example, last week OpenAI reported that some of its internal frontier agents autonomously hacked into Hugging Face in an attempt to access the answer key for a cybersecurity benchmark. Anthropic has reported similar incidents of agents breaking out of sandboxes to access the public internet to cheat on tasks during training and similar incidents during testing, and we documented dozens of other incidents involving AI agents from all major AI companies in our recent cross-industry Frontier Risk Report . To improve public understanding of AI propensities, we believe AI companies should systematically track such incidents 1 and periodically conduct deeper investigations for the most serious among them.",
-    "url": "https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/",
-    "published_date": "2026-07-28T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-04T11:24:08.712278+00:00",
+    "fetched_at": "2026-08-05T11:21:16.015033+00:00",
     "date_precision": "day"
   }
 ]
