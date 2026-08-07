@@ -1,5 +1,55 @@
 [
   {
+    "title": "Why do models task game?",
+    "authors": [
+      "aditya singh"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR How can we study misalignment with today's models as proxies? They're clearly not paperclip maximizers, but they also often do things the user doesn't want. A strong contender for a real misaligned propensity is task gaming: taking actions that don't complete a task but superficially seem like they do, such as hardcoding tests or falsely claiming a task is fully complete. But maybe task gaming is just a crude heuristic, or the model mistakenly trying to achieve the user's intent? In this post we do a deep dive into why a range of models task game. We see this as a work of high-level model forensics . Rather than investigating a single incident, the core problem here is taking an ambiguous pattern of behavior across many contexts with various plausible motivations, and practicing how to distinguish the motivations.",
+    "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
+    "published_date": "2026-08-06T22:16:54+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-07T10:01:56.265900+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "WeatherNext enables accurate cyclone forecasts that can give an extra day of warning. Now we are open sourcing the model.",
+    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+    "published_date": "2026-08-06T16:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-08-07T10:02:01.977991+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Interpreting Dual-Use Biology Benchmarks for Frontier AI: Measurement, Saturation, and Generational Analysis",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Aug 6, 2026 The authors find that many artificial intelligence (AI) benchmark tasks are no longer informative, but a frontier of difficult tasks remains so, with recent gains concentrated on difficult tasks theorized to be relevant to real-world risk.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA5055-1.html",
+    "published_date": "2026-08-06T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-07T10:02:04.711360+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings Chain-of-thought (CoT) monitoring is increasingly treated as an important safety layer for frontier reasoning models. Most monitorability evaluations study explicit-influence settings: setups where the prompt directly incentivizes the model to hide something, e.g., by instructing it to perform a hidden side-task. A complementary axis for CoT-monitor evaluations is implicit-influence settings, where the prompt contains no instruction to hide, but the model's behavior is still shaped by features of the task or context, e.g. an irrelevant detail about a candidate that biases a hiring rating. We introduce the first benchmark that directly compares CoT monitorability under the two regimes. We test how model behavior changes in the presence of a nudge to choose a particular option.",
+    "url": "https://www.matsprogram.org/research/chain-of-thought-monitoring-can-be-unreliable-in-implicit-influence-settings",
+    "published_date": "2026-08-05T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-08-07T10:02:06.897357+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Returning to ARC",
     "authors": [
       "paulfchristiano"
@@ -10,7 +60,7 @@
     "published_date": "2026-08-04T22:27:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-06T11:23:03.386353+00:00",
+    "fetched_at": "2026-08-07T10:01:56.266107+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +72,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-08-06T11:23:12.235438+00:00",
+    "fetched_at": "2026-08-07T10:02:03.725919+00:00",
     "date_precision": "day"
   },
   {
@@ -34,7 +84,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-06T11:23:12.652939+00:00",
+    "fetched_at": "2026-08-07T10:02:04.711918+00:00",
     "date_precision": "day"
   },
   {
@@ -46,7 +96,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-06T11:23:12.653165+00:00",
+    "fetched_at": "2026-08-07T10:02:04.712198+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +110,7 @@
     "published_date": "2026-08-03T19:42:30+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-06T11:23:07.341917+00:00",
+    "fetched_at": "2026-08-07T10:01:59.552659+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +124,7 @@
     "published_date": "2026-08-03T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-06T11:23:01.571308+00:00",
+    "fetched_at": "2026-08-07T10:01:54.284950+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +138,7 @@
     "published_date": "2026-08-03T09:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-06T11:23:03.386942+00:00",
+    "fetched_at": "2026-08-07T10:01:56.266691+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +150,7 @@
     "published_date": "2026-08-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-06T11:23:12.653360+00:00",
+    "fetched_at": "2026-08-07T10:02:04.712430+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +164,7 @@
     "published_date": "2026-08-01T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-06T11:23:02.161625+00:00",
+    "fetched_at": "2026-08-07T10:01:55.024258+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +178,7 @@
     "published_date": "2026-07-31T16:32:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-06T11:23:03.387200+00:00",
+    "fetched_at": "2026-08-07T10:01:56.266950+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +192,7 @@
     "published_date": "2026-07-31T15:57:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-06T11:23:03.387366+00:00",
+    "fetched_at": "2026-08-07T10:01:56.267136+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +206,7 @@
     "published_date": "2026-07-31T12:03:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-06T11:23:03.387573+00:00",
+    "fetched_at": "2026-08-07T10:01:56.267311+00:00",
     "date_precision": "day"
   },
   {
@@ -170,87 +220,7 @@
     "published_date": "2026-07-31T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-06T11:23:02.859438+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Echoverse: Deep, evolving environments for computer-use agents",
-    "authors": [
-      "Akshay Nambi, Yash Pandya, Sahil Gupta, Sarthak Harne, Archana Yadav, Kavyansh Chourasia, Yash Lara, Ahmed Awadallah, Ece Kamar"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve. The post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
-    "published_date": "2026-07-30T17:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-06T11:23:01.571337+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "EvoLib: Turning experience into evolving knowledge",
-    "authors": [
-      "Weijia Xu, Alessandro Sordoni, Zelalem Gero, Michel Galley, Eric Yuan, Jianfeng Gao"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
-    "published_date": "2026-07-30T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-06T11:23:01.571358+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Thousand-dimensional structure",
-    "authors": [
-      "Geoffrey Irving"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Summary: One area we plan to explore at Resolution is personas and character training, operationalized as finding and controlling low-dimensional structure in models that emerges in pretraining and flows through post-training to superintelligence. The hope is to expand and systematize phenomena such as emergent misalignment, subliminal learning, and other empirical persona research, then intervene on this structure without accidentally hiding undesirable behavior elsewhere. If this approach resonates with you, consider working with us . Glimmers of low-dimensional structure Our understanding of AI training and alignment as a field is very poor. If sufficient alignment of superintelligent AI agents requires pinning down the precise meaning of alignment and turning that meaning into high-accuracy training data and algorithms, we are likely to fail. Modern LLMs have trillions of parameters: our understanding is unlikely to be sufficient to pin down a trillion separate numbers.",
-    "url": "https://www.alignmentforum.org/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1",
-    "published_date": "2026-07-30T14:04:05+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-06T11:23:03.387776+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-    "authors": [
-      "Anthropic News"
-    ],
-    "organization": "Anthropic",
-    "abstract": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations. Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews.",
-    "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-    "published_date": "2026-07-30T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-06T11:23:01.679734+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "A Structured Approach to Identifying and Characterizing AI Vulnerabilities",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jul 30, 2026 RAND researchers present a structured framework for identifying and characterizing security weaknesses in generative artificial intelligence systems. They identify 31 distinct classes of vulnerabilities and offer practical mitigation strategies.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4983-1.html",
-    "published_date": "2026-07-30T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-06T11:23:12.653557+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Trends in Perception of Generative AI in Healthcare by US Adult Demographics and Political Identity",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Jul 30, 2026 Emerging divides suggest receptivity to genAI in healthcare may become increasingly shaped by political identity rather than clinical evidence or personal experience, complicating equitable deployment.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71364.html",
-    "published_date": "2026-07-30T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-06T11:23:12.653764+00:00",
+    "fetched_at": "2026-08-07T10:01:55.768182+00:00",
     "date_precision": "day"
   }
 ]
