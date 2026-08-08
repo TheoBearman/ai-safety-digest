@@ -1,5 +1,19 @@
 [
   {
+    "title": "SpaceX 10GW in 2027 – Why It’s Real, Will Drive $300B ARR for SpaceX, and Why Microsoft Will Be the Largest Offtaker",
+    "authors": [
+      "Jeremie Eliahou Ontiveros"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Research from SemiAnalysis titled 'SpaceX 10GW in 2027 – Why It’s Real, Will Drive $300B ARR for SpaceX, and Why Microsoft Will Be the Largest Offtaker'. Published 2026-08-07. Authors: Jeremie Eliahou Ontiveros.",
+    "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real",
+    "published_date": "2026-08-07T20:08:04+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-08-08T09:38:21.224344+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Why do models task game?",
     "authors": [
       "aditya singh"
@@ -10,7 +24,21 @@
     "published_date": "2026-08-06T22:16:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-07T10:01:56.265900+00:00",
+    "fetched_at": "2026-08-08T09:38:17.889428+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "User awareness in frontier models",
+    "authors": [
+      "Ziqian Zhong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Cross-posted on Transluce blog . This is a joint work of Ziqian Zhong, Aditi Raghunathan, Cassidy Laidlaw and Jacob Steinhardt. Modern AI assistants often know who they are talking to: agent scaffolds like Claude Code place the user's e-mail address directly in the model's context, and models can even identify some authors from writing style alone. We study this particular kind of situational awareness, which we call user awareness . When the inferred user is a specific, recognized AI researcher or is affiliated with certain AI organizations, frontier models including Claude Sonnet 5 can report lower confidence about their own behavior, be less suspicious of potentially harmful requests, and reason more often. These effects vary across models and individuals, with the strongest effects we see appearing for researchers involved in AI safety or alignment such as Amanda Askell and Ryan Greenblatt.",
+    "url": "https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models",
+    "published_date": "2026-08-06T20:43:40+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-08T09:38:17.890094+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +50,7 @@
     "published_date": "2026-08-06T16:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-08-07T10:02:01.977991+00:00",
+    "fetched_at": "2026-08-08T09:38:23.524676+00:00",
     "date_precision": "day"
   },
   {
@@ -34,7 +62,7 @@
     "published_date": "2026-08-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-07T10:02:04.711360+00:00",
+    "fetched_at": "2026-08-08T09:38:26.047104+00:00",
     "date_precision": "day"
   },
   {
@@ -46,7 +74,7 @@
     "published_date": "2026-08-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-07T10:02:06.897357+00:00",
+    "fetched_at": "2026-08-08T09:38:28.836015+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +88,7 @@
     "published_date": "2026-08-04T22:27:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-07T10:01:56.266107+00:00",
+    "fetched_at": "2026-08-08T09:38:17.890273+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +100,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-08-07T10:02:03.725919+00:00",
+    "fetched_at": "2026-08-08T09:38:25.663552+00:00",
     "date_precision": "day"
   },
   {
@@ -84,7 +112,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-07T10:02:04.711918+00:00",
+    "fetched_at": "2026-08-08T09:38:26.047705+00:00",
     "date_precision": "day"
   },
   {
@@ -96,7 +124,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-07T10:02:04.712198+00:00",
+    "fetched_at": "2026-08-08T09:38:26.048017+00:00",
     "date_precision": "day"
   },
   {
@@ -110,7 +138,7 @@
     "published_date": "2026-08-03T19:42:30+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-07T10:01:59.552659+00:00",
+    "fetched_at": "2026-08-08T09:38:21.224419+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +152,7 @@
     "published_date": "2026-08-03T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-07T10:01:54.284950+00:00",
+    "fetched_at": "2026-08-08T09:38:15.740507+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +166,7 @@
     "published_date": "2026-08-03T09:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-07T10:01:56.266691+00:00",
+    "fetched_at": "2026-08-08T09:38:17.890861+00:00",
     "date_precision": "day"
   },
   {
@@ -150,7 +178,7 @@
     "published_date": "2026-08-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-07T10:02:04.712430+00:00",
+    "fetched_at": "2026-08-08T09:38:26.048255+00:00",
     "date_precision": "day"
   },
   {
@@ -164,63 +192,7 @@
     "published_date": "2026-08-01T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-07T10:01:55.024258+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values",
-    "authors": [
-      "Johannes Treutlein"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR: LLMs should give accurate answers. Yet we find their answers are often biased to favor their own values and they don't disclose this in their reasoning. For example, when a user asks how likely the AI bubble is to pop and mentions a potential investment in an AI company, Claude models give lower probabilities when that company is Anthropic rather than OpenAI, mostly without disclosing this influence to the user. On a Fermi-estimation task, Claude models often falsely claim to give unbiased answers in their CoT (see Figure 3 below for an example). We call this covert value leakage and introduce a suite of evaluations that shows it across frontier models and across different kinds of values. New paper by Truthful AI : Paper , X thread , Website (model responses and CoT) , Code and data .",
-    "url": "https://www.alignmentforum.org/posts/hbMw4Yqw6RnFaExDy/value-leakage-an-llm-s-answers-are-silently-shaped-by-its-1",
-    "published_date": "2026-07-31T16:32:50+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-07T10:01:56.266950+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)",
-    "authors": [
-      "Rohin Shah"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Cross-posted from our new Substack It’s been nearly two years since our last major update here in August 2024 and we wanted to share another recap of our recent work with the AGI safety community. Things have changed a lot since then. We are now fully in the midgame , and focus more on landing things in production. Who are we? We are the AGI Safety and Alignment Team (ASAT), the main group at Google DeepMind working directly on technical approaches to existential risk from AI systems. Last year we published An Approach to Technical AGI Safety and Security , which remains the best place to read our overarching vision. Highlights Norms around chain of thought.",
-    "url": "https://www.alignmentforum.org/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
-    "published_date": "2026-07-31T15:57:59+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-07T10:01:56.267136+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "OpenAI has already ended an internal pause",
-    "authors": [
-      "Charbel-Raphaël"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "One day before OpenAI’s HF incident disclosure, OpenAI disclosed that it paused internal deployment of a long-horizon model after it circumvented its sandbox, then restored access weeks later under new monitoring. So a resumption decision has already been made against a standard that has not really been formalized. We need to prevent this from happening again. Epistemic status: could have been a short-form. OpenAI, 20th July : \"To evaluate the new monitoring system, we replayed a small set of internal deployment environments where the model previously pursued misaligned actions, this time with the new safeguards in place. The new safeguards were able to catch considerably more misaligned actions pursued by the model, and the ones it missed were all judged to be low-severity.\" 0.0%.",
-    "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
-    "published_date": "2026-07-31T12:03:18+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-07T10:01:56.267311+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“SOTA alignment assessments don’t strongly update us against misalignment” by Alexa Pan",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Anthropic concluded in the April Mythos Preview alignment risk update that the model “does not possess any unknown propensities that would increase alignment risk.” The report argues that if Mythos Preview were coherently misaligned[1], it likely would have been detected by the assessment (following Anthropic, I will call this “reliability of the assessment”[3]). While I agree with the report on the above bottom-line conclusions (substantially on priors), I think there are gaps in its argument which weaken the current assessment and might invalidate future assessments. In particular, the report often uses weak evidence to justify reliability. The report gives fairly weak experimental evidence for Mythos Preview having insufficient capabilities to evade monitoring. The model is plausibly often eval-aware and underelicited in the relevant capability evaluations. So, it might silently sandbag if coherently misaligned, or unintentionally underperform if otherwise misaligned.",
-    "url": "https://blog.redwoodresearch.org/p/sota-alignment-assessments-dont-strongly",
-    "published_date": "2026-07-31T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-07T10:01:55.768182+00:00",
+    "fetched_at": "2026-08-08T09:38:16.471362+00:00",
     "date_precision": "day"
   }
 ]
