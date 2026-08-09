@@ -10,7 +10,7 @@
     "published_date": "2026-08-07T20:08:04+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-08T09:38:21.224344+00:00",
+    "fetched_at": "2026-08-09T09:40:28.916551+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +24,7 @@
     "published_date": "2026-08-06T22:16:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-08T09:38:17.889428+00:00",
+    "fetched_at": "2026-08-09T09:40:25.461875+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +38,7 @@
     "published_date": "2026-08-06T20:43:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-08T09:38:17.890094+00:00",
+    "fetched_at": "2026-08-09T09:40:25.462548+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +50,7 @@
     "published_date": "2026-08-06T16:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-08-08T09:38:23.524676+00:00",
+    "fetched_at": "2026-08-09T09:40:32.063539+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +62,7 @@
     "published_date": "2026-08-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-08T09:38:26.047104+00:00",
+    "fetched_at": "2026-08-09T09:40:35.235907+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +74,7 @@
     "published_date": "2026-08-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-08T09:38:28.836015+00:00",
+    "fetched_at": "2026-08-09T09:40:38.045272+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +88,7 @@
     "published_date": "2026-08-04T22:27:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-08T09:38:17.890273+00:00",
+    "fetched_at": "2026-08-09T09:40:25.462729+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +100,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-08-08T09:38:25.663552+00:00",
+    "fetched_at": "2026-08-09T09:40:34.741438+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +112,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-08T09:38:26.047705+00:00",
+    "fetched_at": "2026-08-09T09:40:35.236393+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +124,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-08T09:38:26.048017+00:00",
+    "fetched_at": "2026-08-09T09:40:35.236612+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +138,7 @@
     "published_date": "2026-08-03T19:42:30+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-08T09:38:21.224419+00:00",
+    "fetched_at": "2026-08-09T09:40:28.916602+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +152,7 @@
     "published_date": "2026-08-03T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-08T09:38:15.740507+00:00",
+    "fetched_at": "2026-08-09T09:40:23.300783+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +166,7 @@
     "published_date": "2026-08-03T09:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-08T09:38:17.890861+00:00",
+    "fetched_at": "2026-08-09T09:40:25.463369+00:00",
     "date_precision": "day"
   },
   {
@@ -178,21 +178,7 @@
     "published_date": "2026-08-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-08T09:38:26.048255+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Ten advances in mathematics and theoretical computer science",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-    "url": "https://openai.com/index/ten-advances-in-mathematics",
-    "published_date": "2026-08-01T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-08-08T09:38:16.471362+00:00",
+    "fetched_at": "2026-08-09T09:40:35.236803+00:00",
     "date_precision": "day"
   }
 ]
