@@ -1,5 +1,33 @@
 [
   {
+    "title": "Ultra-High Interactivity on NVIDIA GPUs? - TileRT InferenceX",
+    "authors": [
+      "Bryan Shan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Can TileRT software on NVIDIA GPU compete with Cerebras, Groq LPU, SambaNova? Batch Size 1, Disaggregated engine, high throughput engine Prefill, high interactivity engine decode",
+    "url": "https://newsletter.semianalysis.com/p/ultra-high-interactivity-on-nvidia",
+    "published_date": "2026-08-10T04:51:35+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-08-10T10:16:58.985798+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "What just happened? A retrospective of AI alignment",
+    "authors": [
+      "Richard_Ngo"
+    ],
+    "organization": "LessWrong",
+    "abstract": "This sequence is about the last decade in AI alignment. Over five posts, it recounts the gradual transition from a field which treated alignment as a…",
+    "url": "https://www.lesswrong.com/posts/9RL9MuGZjzm4q3gKG/what-just-happened-a-retrospective-of-ai-alignment",
+    "published_date": "2026-08-09T15:58:07.687000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-08-10T10:17:09.062617+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "SpaceX 10GW in 2027 – Why It’s Real, Will Drive $300B ARR for SpaceX, and Why Microsoft Will Be the Largest Offtaker",
     "authors": [
       "Jeremie Eliahou Ontiveros"
@@ -10,7 +38,35 @@
     "published_date": "2026-08-07T20:08:04+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-09T09:40:28.916551+00:00",
+    "fetched_at": "2026-08-10T10:16:58.985831+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards",
+    "authors": [
+      "Zvi"
+    ],
+    "organization": "LessWrong",
+    "abstract": "How much should we update, therefore, that it is a lot worse than we know, after accounting for all the things we now know?",
+    "url": "https://www.lesswrong.com/posts/noXXv7PwwFqauTBFQ/openai-trained-its-models-for-months-while-those-models-were",
+    "published_date": "2026-08-07T17:01:21.877000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-08-10T10:17:09.062633+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "models may behave differently in graded episodes (a tirade)",
+    "authors": [
+      "nostalgebraist"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Like many others, I felt surprised and alarmed by the recent wave of revelations about LLM agents hacking real systems during training episodes and e…",
+    "url": "https://www.lesswrong.com/posts/AfoGGrJfuNzofpzWL/models-may-behave-differently-in-graded-episodes-a-tirade",
+    "published_date": "2026-08-07T11:49:53.126000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-08-10T10:17:09.062625+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +80,7 @@
     "published_date": "2026-08-06T22:16:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-09T09:40:25.461875+00:00",
+    "fetched_at": "2026-08-10T10:16:54.713025+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +94,7 @@
     "published_date": "2026-08-06T20:43:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-09T09:40:25.462548+00:00",
+    "fetched_at": "2026-08-10T10:16:54.713697+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +106,7 @@
     "published_date": "2026-08-06T16:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-08-09T09:40:32.063539+00:00",
+    "fetched_at": "2026-08-10T10:17:01.435977+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +118,7 @@
     "published_date": "2026-08-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-09T09:40:35.235907+00:00",
+    "fetched_at": "2026-08-10T10:17:05.423028+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +130,7 @@
     "published_date": "2026-08-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-09T09:40:38.045272+00:00",
+    "fetched_at": "2026-08-10T10:17:07.661733+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +144,7 @@
     "published_date": "2026-08-04T22:27:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-09T09:40:25.462729+00:00",
+    "fetched_at": "2026-08-10T10:16:54.713878+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +156,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-08-09T09:40:34.741438+00:00",
+    "fetched_at": "2026-08-10T10:17:04.964590+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +168,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-09T09:40:35.236393+00:00",
+    "fetched_at": "2026-08-10T10:17:05.423597+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +180,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-09T09:40:35.236612+00:00",
+    "fetched_at": "2026-08-10T10:17:05.423849+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +194,7 @@
     "published_date": "2026-08-03T19:42:30+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-09T09:40:28.916602+00:00",
+    "fetched_at": "2026-08-10T10:16:58.985878+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +208,7 @@
     "published_date": "2026-08-03T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-09T09:40:23.300783+00:00",
+    "fetched_at": "2026-08-10T10:16:52.591631+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +222,7 @@
     "published_date": "2026-08-03T09:23:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-09T09:40:25.463369+00:00",
+    "fetched_at": "2026-08-10T10:16:54.714464+00:00",
     "date_precision": "day"
   },
   {
@@ -178,7 +234,7 @@
     "published_date": "2026-08-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-09T09:40:35.236803+00:00",
+    "fetched_at": "2026-08-10T10:17:05.424072+00:00",
     "date_precision": "day"
   }
 ]
