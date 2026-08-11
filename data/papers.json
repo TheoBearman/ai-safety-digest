@@ -1,5 +1,19 @@
 [
   {
+    "title": "Four LLM loss functions → four flavors of LLM misalignment",
+    "authors": [
+      "Steven Byrnes"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss function Flavor of misalignment [1] Famous examples Pretraining &amp; SFT Imitative learning (next-token prediction) “Seven deadly sins” misalignment Bing-Sydney , “Emergent misalignment” RLHF &amp; DPO Human approval “Glazing” misalignment GPT-4o RLVR Automatic verifier “Literal genie” misalignment HuggingFace hacking RLAIF Approval from another LLM “Trickster” misalignment “Current AIs seem pretty misaligned to me” Warning: I’m not an LLM power-user myself, but rather relying on reports I’ve read. Also, I don’t consider LLM alignment to be my primary area of expertise. I’m open to feedback! 1.",
+    "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
+    "published_date": "2026-08-10T16:16:16+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-11T10:00:59.489730+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Ultra-High Interactivity on NVIDIA GPUs? - TileRT InferenceX",
     "authors": [
       "Bryan Shan"
@@ -10,7 +24,7 @@
     "published_date": "2026-08-10T04:51:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-10T10:16:58.985798+00:00",
+    "fetched_at": "2026-08-11T10:01:02.860842+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +38,7 @@
     "published_date": "2026-08-09T15:58:07.687000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-10T10:17:09.062617+00:00",
+    "fetched_at": "2026-08-11T10:01:11.734822+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +52,7 @@
     "published_date": "2026-08-07T20:08:04+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-10T10:16:58.985831+00:00",
+    "fetched_at": "2026-08-11T10:01:02.860877+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +66,7 @@
     "published_date": "2026-08-07T17:01:21.877000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-10T10:17:09.062633+00:00",
+    "fetched_at": "2026-08-11T10:01:11.734852+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +80,7 @@
     "published_date": "2026-08-07T11:49:53.126000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-10T10:17:09.062625+00:00",
+    "fetched_at": "2026-08-11T10:01:11.734839+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +94,7 @@
     "published_date": "2026-08-06T22:16:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-10T10:16:54.713025+00:00",
+    "fetched_at": "2026-08-11T10:00:59.490727+00:00",
     "date_precision": "day"
   },
   {
@@ -94,7 +108,7 @@
     "published_date": "2026-08-06T20:43:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-10T10:16:54.713697+00:00",
+    "fetched_at": "2026-08-11T10:00:59.491386+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +120,7 @@
     "published_date": "2026-08-06T16:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-08-10T10:17:01.435977+00:00",
+    "fetched_at": "2026-08-11T10:01:05.195171+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +132,21 @@
     "published_date": "2026-08-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-10T10:17:05.423028+00:00",
+    "fetched_at": "2026-08-11T10:01:07.989150+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "R-lens: Making J-lens More Faithful on Early Layers",
+    "authors": [
+      "camilablank"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR: We introduce the R-lens: a drop-in replacement for J-lens that produces clearer readouts on earlier layers. R-Lens is identical to J-Lens, except that we make minor and low-overhead changes to the backwards pass, following layerwise-relevance propagation , allowing us to reduce the propagation of errors. This method allows us to surface important intermediate variables more consistently and more saliently, reduce the frequency of semantically-irrelevant readouts, and even detect relevant concepts that J-lens misses entirely. We open-source our R-lenses and accompanying J-lenses here . Introduction Motivation The J-lens is a powerful tool for surfacing intermediate variables in the workspace layers of a model, but we find readouts in early layers to often be noisy and largely uninterpretable. Plausibly, either J-lens is degenerate at these depths and fails to resolve content that is in fact present, or the early residual stream genuinely carries no linearly accessible, causally relevant verbalizable content.",
+    "url": "https://www.alignmentforum.org/posts/nv8oedrnLXKRzNEL9/r-lens-making-j-lens-more-faithful-on-early-layers",
+    "published_date": "2026-08-05T20:02:19+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-11T10:00:59.491574+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +158,7 @@
     "published_date": "2026-08-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-10T10:17:07.661733+00:00",
+    "fetched_at": "2026-08-11T10:01:10.471063+00:00",
     "date_precision": "day"
   },
   {
@@ -144,7 +172,7 @@
     "published_date": "2026-08-04T22:27:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-10T10:16:54.713878+00:00",
+    "fetched_at": "2026-08-11T10:00:59.491755+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +184,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-08-10T10:17:04.964590+00:00",
+    "fetched_at": "2026-08-11T10:01:07.617150+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +196,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-10T10:17:05.423597+00:00",
+    "fetched_at": "2026-08-11T10:01:07.989719+00:00",
     "date_precision": "day"
   },
   {
@@ -180,61 +208,7 @@
     "published_date": "2026-08-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-10T10:17:05.423849+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Kimi K3, The Manos, The Mythos, The Legendos",
-    "authors": [
-      "Kimbo Chen"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'Kimi K3, The Manos, The Mythos, The Legendos'. Published 2026-08-03. Authors: Kimbo Chen.",
-    "url": "https://newsletter.semianalysis.com/p/kimi-k3-the-manos-the-mythos-the",
-    "published_date": "2026-08-03T19:42:30+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-10T10:16:58.985878+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Orchard: An open framework for scalable agentic AI",
-    "authors": [
-      "Baolin Peng, Wenlin Yao, Qianhui Wu, Hao Cheng, Jianfeng Gao"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
-    "published_date": "2026-08-03T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-10T10:16:52.591631+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
-    "authors": [
-      "Tim Hua"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehensive alignment evaluation we would run on this model/system if we had unrestricted access to OpenAI. These experiments could also help us understand Claude’s behavior when it hacked external companies during cyber evals. Here are the top five questions we would like OpenAI to answer: Does the model know that OpenAI does not want it to hack Hugging Face? Experiment: tell the model that OpenAI researchers will be closely monitoring its progress in this evaluation. Does that result in lower rates of misalignment? If so, it is evidence the model knows it is acting in ways researchers do not want.",
-    "url": "https://www.alignmentforum.org/posts/aCdhjy7Rps3BEhiSj/concrete-evaluations-to-investigate-the-openai-model-that",
-    "published_date": "2026-08-03T09:23:01+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-10T10:16:54.714464+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Economics of AI Counterproliferation: A Stylized Economic Framework",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Aug 3, 2026 Once an artificial intelligence (AI) capability has been demonstrated at the frontier, the cost of reproducing it tends to fall. A new RAND economic framework shows the implications for governance regimes of AI capabilities and for policy and strategy.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4944-1.html",
-    "published_date": "2026-08-03T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-10T10:17:05.424072+00:00",
+    "fetched_at": "2026-08-11T10:01:07.989973+00:00",
     "date_precision": "day"
   }
 ]
