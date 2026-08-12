@@ -1,5 +1,85 @@
 [
   {
+    "title": "AI swarms are starting to pose indirect takeover risk",
+    "authors": [
+      "oakhu"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "OpenAI’s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like “HOLD_swarm_I_prepare_safe_exfil”). It’s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover – for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company – even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans’ long-term control.",
+    "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+    "published_date": "2026-08-12T05:05:30+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-12T10:06:07.545129+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "An anytime algorithm for mixing the computable measures",
+    "authors": [
+      "Cole Wyeth"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Epistemic status: Not peer reviewed, high chance of typos and small chance of errors. Written entirely by me, checked by Fable. In this post I prove the existence of an anytime computable Bayesian mixture of all computable measures called , and briefly argue that this is a reasonable alternative to Solomonoff induction's universal distribution for general sequence prediction. I believe that Tom Sterkenburg told me that this is possible, but I could not find it written down anywhere (though I may have missed it!). Indeed, has been conjectured not to be limit=anytime computable by Hutter and Muchnik: https://arxiv.org/abs/cs/0407057 . I worked out the anytime algorithm with @Aram Ebtekar and @Marcus Hutter , though any mistakes are mine. Anytime computable (or limit computable): A function f is anytime computable if where is finitely computable. Lower semicomputable (or l.s.c.): A function f is l.s.c. if where is non-decreasing in t.",
+    "url": "https://www.alignmentforum.org/posts/MgYCraoxMwfWwgWa5/an-anytime-algorithm-for-mixing-the-computable-measures",
+    "published_date": "2026-08-12T00:57:09+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-12T10:06:07.545184+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "LLMs Are Starting To Noticeably Accelerate Our Work",
+    "authors": [
+      "johnswentworth"
+    ],
+    "organization": "LessWrong",
+    "abstract": "About a year ago, David and I put up two bounty problems involving natural latents. I am now about 80% confident that both have been resolved, both w…",
+    "url": "https://www.lesswrong.com/posts/7QvKqpGJwqXrQcMgx/llms-are-starting-to-noticeably-accelerate-our-work",
+    "published_date": "2026-08-11T17:06:32.174000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-08-12T10:06:36.024790+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+    "authors": [
+      "Mercy Ranjit, Nikhilesh E, Dr. Abhyuday Kumara  Swamy, Tanuja Ganu"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+    "published_date": "2026-08-11T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-08-12T10:06:05.578105+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Testing Large Language Model Agents on the Use of Biological Tools for Nucleic Acid Synthesis Screening Evasion",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Aug 11, 2026 Large language model agents demonstrate an emerging ability to use biological tools to redesign peptides and proteins for nucleic acid synthesis screening evasion, indicating that agents could lower expertise barriers for hazardous capabilities.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4741-2.html",
+    "published_date": "2026-08-11T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-12T10:06:16.938088+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Assessing the Energy Potential of Artificial Intelligence Data Center Sites: A Framework for Comparing Site Suitability",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Summary Aug 11, 2026 This brief describes a framework designed to assess possible data center sites for their energy potential. The framework is intended to serve as an energy-potential screening tool for planners, policymakers, and developers.",
+    "url": "https://www.rand.org/pubs/research_briefs/RBA3845-3.html",
+    "published_date": "2026-08-11T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-12T10:06:16.938287+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Four LLM loss functions → four flavors of LLM misalignment",
     "authors": [
       "Steven Byrnes"
@@ -10,7 +90,7 @@
     "published_date": "2026-08-10T16:16:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-11T10:00:59.489730+00:00",
+    "fetched_at": "2026-08-12T10:06:07.545312+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +104,7 @@
     "published_date": "2026-08-10T04:51:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-11T10:01:02.860842+00:00",
+    "fetched_at": "2026-08-12T10:06:10.076964+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +118,7 @@
     "published_date": "2026-08-09T15:58:07.687000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-11T10:01:11.734822+00:00",
+    "fetched_at": "2026-08-12T10:06:36.024766+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +132,7 @@
     "published_date": "2026-08-07T20:08:04+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-11T10:01:02.860877+00:00",
+    "fetched_at": "2026-08-12T10:06:10.077002+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +146,7 @@
     "published_date": "2026-08-07T17:01:21.877000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-11T10:01:11.734852+00:00",
+    "fetched_at": "2026-08-12T10:06:36.024795+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +160,7 @@
     "published_date": "2026-08-07T11:49:53.126000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-11T10:01:11.734839+00:00",
+    "fetched_at": "2026-08-12T10:06:36.024772+00:00",
     "date_precision": "day"
   },
   {
@@ -94,7 +174,7 @@
     "published_date": "2026-08-06T22:16:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-11T10:00:59.490727+00:00",
+    "fetched_at": "2026-08-12T10:06:07.546198+00:00",
     "date_precision": "day"
   },
   {
@@ -108,7 +188,7 @@
     "published_date": "2026-08-06T20:43:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-11T10:00:59.491386+00:00",
+    "fetched_at": "2026-08-12T10:06:07.546778+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +200,7 @@
     "published_date": "2026-08-06T16:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-08-11T10:01:05.195171+00:00",
+    "fetched_at": "2026-08-12T10:06:12.998012+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +212,7 @@
     "published_date": "2026-08-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-11T10:01:07.989150+00:00",
+    "fetched_at": "2026-08-12T10:06:16.938775+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +226,7 @@
     "published_date": "2026-08-05T20:02:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-11T10:00:59.491574+00:00",
+    "fetched_at": "2026-08-12T10:06:07.546930+00:00",
     "date_precision": "day"
   },
   {
@@ -158,57 +238,7 @@
     "published_date": "2026-08-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-11T10:01:10.471063+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Returning to ARC",
-    "authors": [
-      "paulfchristiano"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "I've returned to the Alignment Research Center (ARC) as executive director. My main focus for the next six months will be driving forward ARC's research agenda—building techniques to find mechanistic explanations for neural network behavior and then using those explanations to detect and address misalignment. I think this is an ambitious bet that attacks the core difficulties in alignment head-on and I'm excited about our chances. I'll still be spending some of my time advising governments [1] and AI developers, and may scale that work back up in the future, but for now I want to push on ARC's core agenda to see how far we can get. Jacob Hilton is remaining at ARC as VP of research and we'll likely grow rapidly over the next few months. There are a lot of urgent things to do in alignment but I think ARC is a particularly promising opportunity.",
-    "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
-    "published_date": "2026-08-04T22:27:40+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-11T10:00:59.491755+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "During a routine cyber evaluation, AISI identified an incident in which AI agents took sustained, unsanctioned action directed at real people and organisations. We are disclosing what we found, what it means, and the actions now underway.",
-    "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
-    "published_date": "2026-08-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-08-11T10:01:07.617150+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "AI and the Future of Emergency Management: Market Supply and Adoption Pathways",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Aug 4, 2026 In this report, the authors present the results of a landscape assessment of artificial intelligence–enabled products that are available to support the work of emergency management across the United States.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4625-1.html",
-    "published_date": "2026-08-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-11T10:01:07.989719+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Secure Inference Data Centers: A Vertically Integrated Strategy for Security Engineering",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Aug 4, 2026 This report describes the deployment of secure inference data centers (SIDCs)—purpose-built facilities designed to protect artificial intelligence models from advanced nation-state adversaries. SIDCs can be built today with proven technologies.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4827-1.html",
-    "published_date": "2026-08-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-11T10:01:07.989973+00:00",
+    "fetched_at": "2026-08-12T10:06:33.813498+00:00",
     "date_precision": "day"
   }
 ]
