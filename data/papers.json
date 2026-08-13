@@ -1,5 +1,31 @@
 [
   {
+    "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
+    "authors": [
+      "Yunfei Ge, Anbang Liu, Qineng Wang, Johnalbert Garnica, Zihan Wang, Reuben Tan, Jianfeng Gao, Ruohan Zhang, Yining Hong, Jiajun Wu, Manling Li"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs&#8217; spatial reasoning abilities appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
+    "published_date": "2026-08-12T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-08-13T10:07:13.778594+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Outpaced: AI and Policy’s Role in Transforming Cybersecurity Compliance",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Despite decades of reform efforts, the federal government’s Authorization to Operate (ATO) process is a major barrier to delivering secure systems to warfighters at speed. This report examines why past ATO reforms have fallen short of their intent, and offers recommendations to getting leading American technology into the hands of warfighters faster and securely.",
+    "url": "https://cset.georgetown.edu/publication/outpaced-ai-and-policys-role-in-transforming-cybersecurity-compliance/",
+    "published_date": "2026-08-12T12:40:59+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-08-13T10:07:27.478986+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "AI swarms are starting to pose indirect takeover risk",
     "authors": [
       "oakhu"
@@ -10,7 +36,7 @@
     "published_date": "2026-08-12T05:05:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-12T10:06:07.545129+00:00",
+    "fetched_at": "2026-08-13T10:07:16.248130+00:00",
     "date_precision": "day"
   },
   {
@@ -24,21 +50,21 @@
     "published_date": "2026-08-12T00:57:09+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-12T10:06:07.545184+00:00",
+    "fetched_at": "2026-08-13T10:07:16.248184+00:00",
     "date_precision": "day"
   },
   {
-    "title": "LLMs Are Starting To Noticeably Accelerate Our Work",
+    "title": "“AI swarms are starting to pose indirect takeover risk” by Oak, Alex Mallen",
     "authors": [
-      "johnswentworth"
+      "Redwood Research Blog"
     ],
-    "organization": "LessWrong",
-    "abstract": "About a year ago, David and I put up two bounty problems involving natural latents. I am now about 80% confident that both have been resolved, both w…",
-    "url": "https://www.lesswrong.com/posts/7QvKqpGJwqXrQcMgx/llms-are-starting-to-noticeably-accelerate-our-work",
-    "published_date": "2026-08-11T17:06:32.174000+00:00",
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: Unsanctioned coordination, like we saw in the Hugging Face incident, could enable future AIs to take over. OpenAI's cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like “HOLD_swarm_I_prepare_safe_exfil”). It's relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover – for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company – even if models remain mostly myopic.",
+    "url": "https://blog.redwoodresearch.org/p/ai-swarms-are-starting-to-pose-indirect",
+    "published_date": "2026-08-12T00:00:00+00:00",
     "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-12T10:06:36.024790+00:00",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-08-13T10:07:15.592083+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +78,7 @@
     "published_date": "2026-08-11T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-12T10:06:05.578105+00:00",
+    "fetched_at": "2026-08-13T10:07:13.778628+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +90,7 @@
     "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-12T10:06:16.938088+00:00",
+    "fetched_at": "2026-08-13T10:07:27.184477+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +102,7 @@
     "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-12T10:06:16.938287+00:00",
+    "fetched_at": "2026-08-13T10:07:27.184731+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +116,7 @@
     "published_date": "2026-08-10T16:16:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-12T10:06:07.545312+00:00",
+    "fetched_at": "2026-08-13T10:07:16.248326+00:00",
     "date_precision": "day"
   },
   {
@@ -104,21 +130,19 @@
     "published_date": "2026-08-10T04:51:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-12T10:06:10.076964+00:00",
+    "fetched_at": "2026-08-13T10:07:19.890144+00:00",
     "date_precision": "day"
   },
   {
-    "title": "What just happened? A retrospective of AI alignment",
-    "authors": [
-      "Richard_Ngo"
-    ],
-    "organization": "LessWrong",
-    "abstract": "This sequence is about the last decade in AI alignment. Over five posts, it recounts the gradual transition from a field which treated alignment as a…",
-    "url": "https://www.lesswrong.com/posts/9RL9MuGZjzm4q3gKG/what-just-happened-a-retrospective-of-ai-alignment",
-    "published_date": "2026-08-09T15:58:07.687000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-12T10:06:36.024766+00:00",
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Stealing Reasoning Traces from Proprietary LLM APIs Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the client passes back with each subsequent request. Building on prior research, we identify an architectural vulnerability: these encrypted blocks are fully compatible and interchangeable across different sessions, users, and models within a provider's ecosystem. We exploit this compatibility to develop a scalable decryption jailbreak. By injecting an encrypted reasoning trace from a given model into a weaker, and less safeguarded model from the same provider, we force it to decode and output the trace verbatim in plaintext, without ever jailbreaking the more capable model directly. This vulnerability enables four distinct attack vectors.",
+    "url": "https://www.matsprogram.org/research/stealing-reasoning-traces-from-proprietary-llm-apis",
+    "published_date": "2026-08-10T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-08-13T10:07:30.449179+00:00",
     "date_precision": "day"
   },
   {
@@ -132,35 +156,7 @@
     "published_date": "2026-08-07T20:08:04+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-12T10:06:10.077002+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards",
-    "authors": [
-      "Zvi"
-    ],
-    "organization": "LessWrong",
-    "abstract": "How much should we update, therefore, that it is a lot worse than we know, after accounting for all the things we now know?",
-    "url": "https://www.lesswrong.com/posts/noXXv7PwwFqauTBFQ/openai-trained-its-models-for-months-while-those-models-were",
-    "published_date": "2026-08-07T17:01:21.877000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-12T10:06:36.024795+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "models may behave differently in graded episodes (a tirade)",
-    "authors": [
-      "nostalgebraist"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Like many others, I felt surprised and alarmed by the recent wave of revelations about LLM agents hacking real systems during training episodes and e…",
-    "url": "https://www.lesswrong.com/posts/AfoGGrJfuNzofpzWL/models-may-behave-differently-in-graded-episodes-a-tirade",
-    "published_date": "2026-08-07T11:49:53.126000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-12T10:06:36.024772+00:00",
+    "fetched_at": "2026-08-13T10:07:19.890178+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +170,7 @@
     "published_date": "2026-08-06T22:16:54+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-12T10:06:07.546198+00:00",
+    "fetched_at": "2026-08-13T10:07:16.249283+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +184,7 @@
     "published_date": "2026-08-06T20:43:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-12T10:06:07.546778+00:00",
+    "fetched_at": "2026-08-13T10:07:16.249953+00:00",
     "date_precision": "day"
   },
   {
@@ -200,7 +196,7 @@
     "published_date": "2026-08-06T16:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-08-12T10:06:12.998012+00:00",
+    "fetched_at": "2026-08-13T10:07:23.007776+00:00",
     "date_precision": "day"
   },
   {
@@ -212,33 +208,7 @@
     "published_date": "2026-08-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-12T10:06:16.938775+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "R-lens: Making J-lens More Faithful on Early Layers",
-    "authors": [
-      "camilablank"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR: We introduce the R-lens: a drop-in replacement for J-lens that produces clearer readouts on earlier layers. R-Lens is identical to J-Lens, except that we make minor and low-overhead changes to the backwards pass, following layerwise-relevance propagation , allowing us to reduce the propagation of errors. This method allows us to surface important intermediate variables more consistently and more saliently, reduce the frequency of semantically-irrelevant readouts, and even detect relevant concepts that J-lens misses entirely. We open-source our R-lenses and accompanying J-lenses here . Introduction Motivation The J-lens is a powerful tool for surfacing intermediate variables in the workspace layers of a model, but we find readouts in early layers to often be noisy and largely uninterpretable. Plausibly, either J-lens is degenerate at these depths and fails to resolve content that is in fact present, or the early residual stream genuinely carries no linearly accessible, causally relevant verbalizable content.",
-    "url": "https://www.alignmentforum.org/posts/nv8oedrnLXKRzNEL9/r-lens-making-j-lens-more-faithful-on-early-layers",
-    "published_date": "2026-08-05T20:02:19+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-12T10:06:07.546930+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings Chain-of-thought (CoT) monitoring is increasingly treated as an important safety layer for frontier reasoning models. Most monitorability evaluations study explicit-influence settings: setups where the prompt directly incentivizes the model to hide something, e.g., by instructing it to perform a hidden side-task. A complementary axis for CoT-monitor evaluations is implicit-influence settings, where the prompt contains no instruction to hide, but the model's behavior is still shaped by features of the task or context, e.g. an irrelevant detail about a candidate that biases a hiring rating. We introduce the first benchmark that directly compares CoT monitorability under the two regimes. We test how model behavior changes in the presence of a nudge to choose a particular option.",
-    "url": "https://www.matsprogram.org/research/chain-of-thought-monitoring-can-be-unreliable-in-implicit-influence-settings",
-    "published_date": "2026-08-05T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-12T10:06:33.813498+00:00",
+    "fetched_at": "2026-08-13T10:07:27.185322+00:00",
     "date_precision": "day"
   }
 ]
