@@ -1,5 +1,17 @@
 [
   {
+    "title": "Exploring AI’s Operational Implications in a Future U.S.-China Conflict: Initial Observations from the Camp(ai)gn Wargame",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Aug 13, 2026 The wargame Camp(ai)gn explores the military implications of artificial intelligence. This paper presents gameplay observations about how autonomous systems might shape the character of conflict, logic of escalation, and choices facing commanders.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA5022-1.html",
+    "published_date": "2026-08-13T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-14T10:03:27.592120+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
     "authors": [
       "Yunfei Ge, Anbang Liu, Qineng Wang, Johnalbert Garnica, Zihan Wang, Reuben Tan, Jianfeng Gao, Ruohan Zhang, Yining Hong, Jiajun Wu, Manling Li"
@@ -10,7 +22,7 @@
     "published_date": "2026-08-12T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-13T10:07:13.778594+00:00",
+    "fetched_at": "2026-08-14T10:03:16.444943+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +34,7 @@
     "published_date": "2026-08-12T12:40:59+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-08-13T10:07:27.478986+00:00",
+    "fetched_at": "2026-08-14T10:03:27.904916+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +48,7 @@
     "published_date": "2026-08-12T05:05:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-13T10:07:16.248130+00:00",
+    "fetched_at": "2026-08-14T10:03:18.601132+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +62,7 @@
     "published_date": "2026-08-12T00:57:09+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-13T10:07:16.248184+00:00",
+    "fetched_at": "2026-08-14T10:03:18.601187+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +76,7 @@
     "published_date": "2026-08-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-13T10:07:15.592083+00:00",
+    "fetched_at": "2026-08-14T10:03:17.710127+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +90,7 @@
     "published_date": "2026-08-11T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-13T10:07:13.778628+00:00",
+    "fetched_at": "2026-08-14T10:03:16.444977+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +102,7 @@
     "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-13T10:07:27.184477+00:00",
+    "fetched_at": "2026-08-14T10:03:27.592904+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +114,7 @@
     "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-13T10:07:27.184731+00:00",
+    "fetched_at": "2026-08-14T10:03:27.593162+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +128,7 @@
     "published_date": "2026-08-10T16:16:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-13T10:07:16.248326+00:00",
+    "fetched_at": "2026-08-14T10:03:18.601352+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +142,7 @@
     "published_date": "2026-08-10T04:51:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-13T10:07:19.890144+00:00",
+    "fetched_at": "2026-08-14T10:03:22.609438+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +154,7 @@
     "published_date": "2026-08-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-13T10:07:30.449179+00:00",
+    "fetched_at": "2026-08-14T10:03:44.984237+00:00",
     "date_precision": "day"
   },
   {
@@ -156,59 +168,7 @@
     "published_date": "2026-08-07T20:08:04+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-13T10:07:19.890178+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Why do models task game?",
-    "authors": [
-      "aditya singh"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR How can we study misalignment with today's models as proxies? They're clearly not paperclip maximizers, but they also often do things the user doesn't want. A strong contender for a real misaligned propensity is task gaming: taking actions that don't complete a task but superficially seem like they do, such as hardcoding tests or falsely claiming a task is fully complete. But maybe task gaming is just a crude heuristic, or the model mistakenly trying to achieve the user's intent? In this post we do a deep dive into why a range of models task game. We see this as a work of high-level model forensics . Rather than investigating a single incident, the core problem here is taking an ambiguous pattern of behavior across many contexts with various plausible motivations, and practicing how to distinguish the motivations.",
-    "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
-    "published_date": "2026-08-06T22:16:54+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-13T10:07:16.249283+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "User awareness in frontier models",
-    "authors": [
-      "Ziqian Zhong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Cross-posted on Transluce blog . This is a joint work of Ziqian Zhong, Aditi Raghunathan, Cassidy Laidlaw and Jacob Steinhardt. Modern AI assistants often know who they are talking to: agent scaffolds like Claude Code place the user's e-mail address directly in the model's context, and models can even identify some authors from writing style alone. We study this particular kind of situational awareness, which we call user awareness . When the inferred user is a specific, recognized AI researcher or is affiliated with certain AI organizations, frontier models including Claude Sonnet 5 can report lower confidence about their own behavior, be less suspicious of potentially harmful requests, and reason more often. These effects vary across models and individuals, with the strongest effects we see appearing for researchers involved in AI safety or alignment such as Amanda Askell and Ryan Greenblatt.",
-    "url": "https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models",
-    "published_date": "2026-08-06T20:43:40+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-13T10:07:16.249953+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "WeatherNext enables accurate cyclone forecasts that can give an extra day of warning. Now we are open sourcing the model.",
-    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-    "published_date": "2026-08-06T16:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-08-13T10:07:23.007776+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Interpreting Dual-Use Biology Benchmarks for Frontier AI: Measurement, Saturation, and Generational Analysis",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Aug 6, 2026 The authors find that many artificial intelligence (AI) benchmark tasks are no longer informative, but a frontier of difficult tasks remains so, with recent gains concentrated on difficult tasks theorized to be relevant to real-world risk.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA5055-1.html",
-    "published_date": "2026-08-06T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-13T10:07:27.185322+00:00",
+    "fetched_at": "2026-08-14T10:03:22.609475+00:00",
     "date_precision": "day"
   }
 ]
