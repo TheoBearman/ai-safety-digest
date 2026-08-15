@@ -1,5 +1,33 @@
 [
   {
+    "title": "Hurtling through 2026",
+    "authors": [
+      "Ajeya Cotra"
+    ],
+    "organization": "Ajeya Cotra",
+    "abstract": "In mid-January, I made predictions about AI capabilities for the year 2026. By early March, my forecast of the 50% time horizon on software tasks already seemed clearly too conservative. And then a couple weeks ago, amid the flurry of news about dozens of esoteric theorems falling to AI, I decided that my prediction that AIs wouldn’t be able to get a paper into a top math journal had now clearly fallen.",
+    "url": "https://www.planned-obsolescence.org/p/hurtling-through-2026",
+    "published_date": "2026-08-14T14:02:22+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.planned-obsolescence.org/feed",
+    "fetched_at": "2026-08-15T09:26:24.254403+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Have We Seen an Acceleration in Discoveries?",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Q: How much has discovery accelerated? LLMs have shown the ability to make novel discoveries across many domains. How much has this affected the aggregate discovery rate? In the figures below we plot all the data sources we can find, and make some very loose observations: Discovery of cyber vulnerabilities has accelerated sharply. Discovery of math results has accelerated somewhat. However this is harder to objectively measure. Discovery of optimizations has not shown a dramatic acceleration. These conclusions are based only on public discoveries. It is quite plausible that AI labs are making discoveries internally that they are not disclosing. Thanks. Thanks to Greg Burnham for extremely helpful comments. Overview We are just looking for slope changes. AI-assisted discoveries are often announced, but their significance is hard to assess. Here we look for slope changes in various metrics of discovery to see if we can detect an acceleration.",
+    "url": "https://metr.org/notes/2026-08-14-llm-contribution-to-discoveries/",
+    "published_date": "2026-08-14T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-08-15T09:26:22.818653+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Exploring AI’s Operational Implications in a Future U.S.-China Conflict: Initial Observations from the Camp(ai)gn Wargame",
     "authors": [],
     "organization": "RAND",
@@ -8,7 +36,19 @@
     "published_date": "2026-08-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-14T10:03:27.592120+00:00",
+    "fetched_at": "2026-08-15T09:26:33.087817+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Synthetic Persona Pretraining: Alignment from Token Zero As language-model-based AI is increasingly deployed in autonomous settings, aligning its goals and values with those of humans becomes critical. Today, alignment, and the assistant identity itself, are typically introduced only after pretraining, once behavioral priors are already established. This can make values a thin overlay, rather than deeply rooted, and facilitate subsequent misalignment. Pursuing a different paradigm, we introduce Synthetic Persona Pretraining (SPP), which installs the desired assistant persona from token zero in pretraining. First, we annotate pretraining documents with value-aligned first-person reflections derived from a normative value constitution. Second, we pretrain via the standard cross-entropy loss on standard pretraining documents as well as their reflections, which installs the desired persona among a multitude of other personas. Finally, we post-train on user-assistant dialogue data, which binds this desired persona to the assistant identity, a process we call persona binding.",
+    "url": "https://www.matsprogram.org/research/synthetic-persona-pretraining-alignment-from-token-zero",
+    "published_date": "2026-08-13T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-08-15T09:26:49.680518+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +62,7 @@
     "published_date": "2026-08-12T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-14T10:03:16.444943+00:00",
+    "fetched_at": "2026-08-15T09:26:18.856001+00:00",
     "date_precision": "day"
   },
   {
@@ -34,7 +74,7 @@
     "published_date": "2026-08-12T12:40:59+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-08-14T10:03:27.904916+00:00",
+    "fetched_at": "2026-08-15T09:26:33.234316+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +88,7 @@
     "published_date": "2026-08-12T05:05:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-14T10:03:18.601132+00:00",
+    "fetched_at": "2026-08-15T09:26:21.161024+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +102,7 @@
     "published_date": "2026-08-12T00:57:09+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-14T10:03:18.601187+00:00",
+    "fetched_at": "2026-08-15T09:26:21.161060+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +116,7 @@
     "published_date": "2026-08-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-14T10:03:17.710127+00:00",
+    "fetched_at": "2026-08-15T09:26:20.653391+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +130,7 @@
     "published_date": "2026-08-11T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-14T10:03:16.444977+00:00",
+    "fetched_at": "2026-08-15T09:26:18.856023+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +142,7 @@
     "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-14T10:03:27.592904+00:00",
+    "fetched_at": "2026-08-15T09:26:33.088215+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +154,7 @@
     "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-14T10:03:27.593162+00:00",
+    "fetched_at": "2026-08-15T09:26:33.088345+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +168,7 @@
     "published_date": "2026-08-10T16:16:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-14T10:03:18.601352+00:00",
+    "fetched_at": "2026-08-15T09:26:21.161134+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +182,7 @@
     "published_date": "2026-08-10T04:51:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-14T10:03:22.609438+00:00",
+    "fetched_at": "2026-08-15T09:26:23.430937+00:00",
     "date_precision": "day"
   },
   {
@@ -154,21 +194,7 @@
     "published_date": "2026-08-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-14T10:03:44.984237+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "SpaceX 10GW in 2027 – Why It’s Real, Will Drive $300B ARR for SpaceX, and Why Microsoft Will Be the Largest Offtaker",
-    "authors": [
-      "Jeremie Eliahou Ontiveros"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'SpaceX 10GW in 2027 – Why It’s Real, Will Drive $300B ARR for SpaceX, and Why Microsoft Will Be the Largest Offtaker'. Published 2026-08-07. Authors: Jeremie Eliahou Ontiveros.",
-    "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real",
-    "published_date": "2026-08-07T20:08:04+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-14T10:03:22.609475+00:00",
+    "fetched_at": "2026-08-15T09:26:49.674400+00:00",
     "date_precision": "day"
   }
 ]
