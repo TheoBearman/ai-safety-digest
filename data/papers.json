@@ -1,5 +1,19 @@
 [
   {
+    "title": "Does DiffusionGemma do latent reasoning?",
+    "authors": [
+      "Jan Bauer"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in addition to tokens. If we cannot interpret these tokens and vectors, the model has significant opaque serial depth , potentially harming monitorability. Recently, Engels et al. found that DG nevertheless maintains high monitorability, for instance by showing that projecting the distribution to its top-k items largely retains performance. We strengthen these results by showing that this performance degradation is largely a sampler artifact and good performance can be maintained with only the top item, supporting the case for high monitorability. Still, we also find some rare case studies where the distribution vector is load-bearing computationally, i.e. where top-1 projection would be detrimental. However even in these cases, it just encodes superposition, remaining interpretable.",
+    "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
+    "published_date": "2026-08-16T04:22:18+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-16T09:27:53.384976+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Hurtling through 2026",
     "authors": [
       "Ajeya Cotra"
@@ -10,7 +24,7 @@
     "published_date": "2026-08-14T14:02:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-08-15T09:26:24.254403+00:00",
+    "fetched_at": "2026-08-16T09:27:57.332041+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +38,7 @@
     "published_date": "2026-08-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-15T09:26:22.818653+00:00",
+    "fetched_at": "2026-08-16T09:27:55.744187+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +50,7 @@
     "published_date": "2026-08-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-15T09:26:33.087817+00:00",
+    "fetched_at": "2026-08-16T09:28:01.826939+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +62,7 @@
     "published_date": "2026-08-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-15T09:26:49.680518+00:00",
+    "fetched_at": "2026-08-16T09:28:04.163372+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +76,7 @@
     "published_date": "2026-08-12T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-15T09:26:18.856001+00:00",
+    "fetched_at": "2026-08-16T09:27:51.315774+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +88,7 @@
     "published_date": "2026-08-12T12:40:59+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-08-15T09:26:33.234316+00:00",
+    "fetched_at": "2026-08-16T09:28:02.164778+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +102,7 @@
     "published_date": "2026-08-12T05:05:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-15T09:26:21.161024+00:00",
+    "fetched_at": "2026-08-16T09:27:53.385191+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +116,7 @@
     "published_date": "2026-08-12T00:57:09+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-15T09:26:21.161060+00:00",
+    "fetched_at": "2026-08-16T09:27:53.385239+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +130,7 @@
     "published_date": "2026-08-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-15T09:26:20.653391+00:00",
+    "fetched_at": "2026-08-16T09:27:52.742515+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +144,7 @@
     "published_date": "2026-08-11T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-15T09:26:18.856023+00:00",
+    "fetched_at": "2026-08-16T09:27:51.315806+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +156,7 @@
     "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-15T09:26:33.088215+00:00",
+    "fetched_at": "2026-08-16T09:28:01.827577+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +168,7 @@
     "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-15T09:26:33.088345+00:00",
+    "fetched_at": "2026-08-16T09:28:01.827804+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +182,7 @@
     "published_date": "2026-08-10T16:16:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-15T09:26:21.161134+00:00",
+    "fetched_at": "2026-08-16T09:27:53.385375+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +196,7 @@
     "published_date": "2026-08-10T04:51:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-15T09:26:23.430937+00:00",
+    "fetched_at": "2026-08-16T09:27:56.602645+00:00",
     "date_precision": "day"
   },
   {
@@ -194,7 +208,7 @@
     "published_date": "2026-08-10T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-15T09:26:49.674400+00:00",
+    "fetched_at": "2026-08-16T09:28:04.154108+00:00",
     "date_precision": "day"
   }
 ]
