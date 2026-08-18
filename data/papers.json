@@ -1,16 +1,76 @@
 [
   {
+    "title": "Outpaced: AI and Policy’s Role in Transforming Cybersecurity Compliance",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Despite decades of reform efforts, the federal government’s Authorization to Operate (ATO) process is a major barrier to delivering secure systems to warfighters at speed. This report examines why past ATO reforms have fallen short of their intent, and offers recommendations to getting leading American technology into the hands of warfighters faster and securely.",
+    "url": "https://cset.georgetown.edu/publication/outpaced-ai-and-policys-role-in-transforming-cybersecurity-compliance/",
+    "published_date": "2026-08-18T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-08-18T09:34:26.216841+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Confronting the Barriers to AI Diffusion in the US Military",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on...",
+    "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
+    "published_date": "2026-08-18T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-08-18T09:34:26.365833+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "The State of Public Education in 2026 in Five Charts",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Commentary Aug 17, 2026 RAND has spent more than a decade surveying educators across the United States and has expanded this effort to include the perspectives of students and parents. Among the hundreds of survey questions we fielded this past year, the results depicted in these five charts stood out the most.",
+    "url": "https://www.rand.org/pubs/commentary/2026/08/the-state-of-public-education-in-2026-in-five-charts.html",
+    "published_date": "2026-08-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-18T09:34:25.885711+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "AI Development in the United States and China: Evidence from a New Dataset of AI Developer Firms",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Aug 17, 2026 The authors sought to systematically characterize commercial artificial intelligence ecosystems within the United States and China and thus broaden the empirical foundation for business intelligence and policy analysis.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA5043-1.html",
+    "published_date": "2026-08-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-18T09:34:25.885943+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "AI monitoring and threat modelling in the UK’s critical national infrastructure",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Project Aug 17, 2026 RAND Europe is working AISI to develop a practical framework for monitoring how AI adoption may affect the resilience of critical national infrastructure.",
+    "url": "https://www.rand.org/randeurope/research/projects/2026/ai-monitoring-and-threat-modelling-in-uks-critical-national-infrastructure.html",
+    "published_date": "2026-08-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-18T09:34:25.886220+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "$12B of US ratepayers' money wasted on a modeling mistake and PJM wants to do it again",
     "authors": [
       "Robert Boswall"
     ],
     "organization": "SemiAnalysis",
-    "abstract": "How America's greatest grid wasted billions and is putting ratepayers at risk by using bad models, no not those models.",
+    "abstract": "Earlier this year, we explained why residents of the PJM area, America’s largest electricity market, have seen their power bills rise by ~20%. We argued that the main culprit was PJM’s auction design choices and how PJM models demand and supply. To better understand the extent of the problem, our Energy Model team spent the last 6 months reverse-engineering PJM’s main system model, the ‘Reserve Requirement Study’, which to date has been a black box. This study is how PJM decides what type of and how many power plants to buy to make sure electricity is reliable, using an annual auction, and spending billions each year.",
     "url": "https://newsletter.semianalysis.com/p/12b-of-us-ratepayers-money-wasted",
     "published_date": "2026-08-16T22:27:59+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-17T09:42:15.165727+00:00",
+    "fetched_at": "2026-08-18T09:34:19.579247+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +84,7 @@
     "published_date": "2026-08-16T04:22:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-17T09:42:10.990094+00:00",
+    "fetched_at": "2026-08-18T09:34:15.173478+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +98,7 @@
     "published_date": "2026-08-14T14:02:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-08-17T09:42:16.149135+00:00",
+    "fetched_at": "2026-08-18T09:34:20.355274+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +112,7 @@
     "published_date": "2026-08-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-17T09:42:14.140194+00:00",
+    "fetched_at": "2026-08-18T09:34:18.682514+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +124,7 @@
     "published_date": "2026-08-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-17T09:42:20.352535+00:00",
+    "fetched_at": "2026-08-18T09:34:25.886502+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +136,7 @@
     "published_date": "2026-08-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-17T09:42:23.439497+00:00",
+    "fetched_at": "2026-08-18T09:34:44.000369+00:00",
     "date_precision": "day"
   },
   {
@@ -90,19 +150,7 @@
     "published_date": "2026-08-12T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-17T09:42:08.179789+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Outpaced: AI and Policy’s Role in Transforming Cybersecurity Compliance",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Despite decades of reform efforts, the federal government’s Authorization to Operate (ATO) process is a major barrier to delivering secure systems to warfighters at speed. This report examines why past ATO reforms have fallen short of their intent, and offers recommendations to getting leading American technology into the hands of warfighters faster and securely.",
-    "url": "https://cset.georgetown.edu/publication/outpaced-ai-and-policys-role-in-transforming-cybersecurity-compliance/",
-    "published_date": "2026-08-12T12:40:59+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-08-17T09:42:20.461697+00:00",
+    "fetched_at": "2026-08-18T09:34:13.115996+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +164,7 @@
     "published_date": "2026-08-12T05:05:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-17T09:42:10.990318+00:00",
+    "fetched_at": "2026-08-18T09:34:15.173695+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +178,7 @@
     "published_date": "2026-08-12T00:57:09+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-17T09:42:10.990366+00:00",
+    "fetched_at": "2026-08-18T09:34:15.173742+00:00",
     "date_precision": "day"
   },
   {
@@ -144,7 +192,21 @@
     "published_date": "2026-08-12T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-17T09:42:09.972366+00:00",
+    "fetched_at": "2026-08-18T09:34:14.532682+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "LLMs Are Starting To Noticeably Accelerate Our Work",
+    "authors": [
+      "johnswentworth"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'LLMs Are Starting To Noticeably Accelerate Our Work'. Published 2026-08-11. Authors: johnswentworth.",
+    "url": "https://www.lesswrong.com/posts/7QvKqpGJwqXrQcMgx/llms-are-starting-to-noticeably-accelerate-our-work",
+    "published_date": "2026-08-11T17:06:32.174000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-08-18T09:34:45.843320+00:00",
     "date_precision": "day"
   },
   {
@@ -158,19 +220,7 @@
     "published_date": "2026-08-11T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-17T09:42:08.179826+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Testing Large Language Model Agents on the Use of Biological Tools for Nucleic Acid Synthesis Screening Evasion",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Aug 11, 2026 Large language model agents demonstrate an emerging ability to use biological tools to redesign peptides and proteins for nucleic acid synthesis screening evasion, indicating that agents could lower expertise barriers for hazardous capabilities.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4741-2.html",
-    "published_date": "2026-08-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-17T09:42:20.353310+00:00",
+    "fetched_at": "2026-08-18T09:34:13.116030+00:00",
     "date_precision": "day"
   },
   {
@@ -182,47 +232,19 @@
     "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-17T09:42:20.353594+00:00",
+    "fetched_at": "2026-08-18T09:34:25.887312+00:00",
     "date_precision": "day"
   },
   {
-    "title": "Four LLM loss functions → four flavors of LLM misalignment",
-    "authors": [
-      "Steven Byrnes"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss function Flavor of misalignment [1] Famous examples Pretraining &amp; SFT Imitative learning (next-token prediction) “Seven deadly sins” misalignment Bing-Sydney , “Emergent misalignment” RLHF &amp; DPO Human approval “Glazing” misalignment GPT-4o RLVR Automatic verifier “Literal genie” misalignment HuggingFace hacking RLAIF Approval from another LLM “Trickster” misalignment “Current AIs seem pretty misaligned to me” Warning: I’m not an LLM power-user myself, but rather relying on reports I’ve read. Also, I don’t consider LLM alignment to be my primary area of expertise. I’m open to feedback! 1.",
-    "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
-    "published_date": "2026-08-10T16:16:16+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-17T09:42:10.990528+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Ultra-High Interactivity on NVIDIA GPUs? - TileRT InferenceX",
-    "authors": [
-      "Bryan Shan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Can TileRT software on NVIDIA GPU compete with Cerebras, Groq LPU, SambaNova? Batch Size 1, Disaggregated engine, high throughput engine Prefill, high interactivity engine decode",
-    "url": "https://newsletter.semianalysis.com/p/ultra-high-interactivity-on-nvidia",
-    "published_date": "2026-08-10T04:51:35+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-17T09:42:15.165757+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "title": "Testing Large Language Model Agents on the Use of Biological Tools for Nucleic Acid Synthesis Screening Evasion",
     "authors": [],
-    "organization": "MATS",
-    "abstract": "Stealing Reasoning Traces from Proprietary LLM APIs Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the client passes back with each subsequent request. Building on prior research, we identify an architectural vulnerability: these encrypted blocks are fully compatible and interchangeable across different sessions, users, and models within a provider's ecosystem. We exploit this compatibility to develop a scalable decryption jailbreak. By injecting an encrypted reasoning trace from a given model into a weaker, and less safeguarded model from the same provider, we force it to decode and output the trace verbatim in plaintext, without ever jailbreaking the more capable model directly. This vulnerability enables four distinct attack vectors.",
-    "url": "https://www.matsprogram.org/research/stealing-reasoning-traces-from-proprietary-llm-apis",
-    "published_date": "2026-08-10T00:00:00+00:00",
+    "organization": "RAND",
+    "abstract": "Research Aug 11, 2026 Large language model agents demonstrate an emerging ability to use biological tools to redesign peptides and proteins for nucleic acid synthesis screening evasion, indicating that agents could lower expertise barriers for hazardous capabilities.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4741-2.html",
+    "published_date": "2026-08-11T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-17T09:42:23.429608+00:00",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-18T09:34:25.887570+00:00",
     "date_precision": "day"
   }
 ]
