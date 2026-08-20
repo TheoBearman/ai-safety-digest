@@ -1,15 +1,41 @@
 [
   {
+    "title": "Outpaced: AI and Policy’s Role in Transforming Cybersecurity Compliance",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Despite decades of reform efforts, the federal government’s Authorization to Operate (ATO) process is a major barrier to delivering secure systems to warfighters at speed. This report examines why past ATO reforms have fallen short of their intent, and offers recommendations to getting leading American technology into the hands of warfighters faster and securely.",
+    "url": "https://cset.georgetown.edu/publication/outpaced-ai-and-policys-role-in-transforming-cybersecurity-compliance/",
+    "published_date": "2026-08-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-08-20T09:35:22.740062+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "Confronting the Barriers to AI Diffusion in the US Military",
     "authors": [],
     "organization": "GovAI",
     "abstract": "The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on...",
     "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
-    "published_date": "2026-08-19T00:00:00+00:00",
+    "published_date": "2026-08-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-19T09:35:00.788632+00:00",
+    "fetched_at": "2026-08-20T09:35:23.031435+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Debate Training Reduces Reward Hacking in RLAIF",
+    "authors": [
+      "zac_kenton"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Paper: Debate Training Reduces Reward Hacking in RLAIF Linkpost for GDM Alignment blogpost Work done by the GDM Amplified Oversight team ( we're hiring ). TL;DR : When you RL against an LLM judge, the judge gets hacked i.e. fooled into incorrectly giving high reward; adding a debate opponent reduces this. Many of the most impressive capabilities of current AI systems are produced by training on crisp tasks, like math and coding, where task success can be automatically verified. However, much of AI behavior that we actually care about is in some sense fuzzy , even for the most classical crisp tasks. For example, a coding agent should produce maintainable code, not just code that passes tests. More crucially, a coding agent should not learn to pass tests at all costs, especially by subverting the original intent of the user.",
+    "url": "https://www.alignmentforum.org/posts/BB8o7b8A4Aykeksvw/debate-training-reduces-reward-hacking-in-rlaif",
+    "published_date": "2026-08-19T12:17:57+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-20T09:35:12.912274+00:00",
+    "date_precision": "day"
   },
   {
     "title": "RAND Outlines Layered Defense Strategy to Mitigate AI-Enabled Bioweapon Risk",
@@ -20,7 +46,7 @@
     "published_date": "2026-08-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-19T09:35:00.264122+00:00",
+    "fetched_at": "2026-08-20T09:35:22.594173+00:00",
     "date_precision": "day"
   },
   {
@@ -32,7 +58,7 @@
     "published_date": "2026-08-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-19T09:35:00.264299+00:00",
+    "fetched_at": "2026-08-20T09:35:22.594465+00:00",
     "date_precision": "day"
   },
   {
@@ -44,7 +70,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-19T09:35:00.264474+00:00",
+    "fetched_at": "2026-08-20T09:35:22.594730+00:00",
     "date_precision": "day"
   },
   {
@@ -56,7 +82,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-19T09:35:00.264625+00:00",
+    "fetched_at": "2026-08-20T09:35:22.594957+00:00",
     "date_precision": "day"
   },
   {
@@ -68,7 +94,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-19T09:35:00.264795+00:00",
+    "fetched_at": "2026-08-20T09:35:22.595233+00:00",
     "date_precision": "day"
   },
   {
@@ -82,7 +108,7 @@
     "published_date": "2026-08-16T22:27:59+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-19T09:34:54.613571+00:00",
+    "fetched_at": "2026-08-20T09:35:16.281425+00:00",
     "date_precision": "day"
   },
   {
@@ -96,7 +122,7 @@
     "published_date": "2026-08-16T04:22:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-19T09:34:52.098253+00:00",
+    "fetched_at": "2026-08-20T09:35:12.912467+00:00",
     "date_precision": "day"
   },
   {
@@ -110,7 +136,7 @@
     "published_date": "2026-08-14T14:02:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-08-19T09:34:55.332498+00:00",
+    "fetched_at": "2026-08-20T09:35:16.972309+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +150,7 @@
     "published_date": "2026-08-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-19T09:34:53.913483+00:00",
+    "fetched_at": "2026-08-20T09:35:15.481256+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +164,7 @@
     "published_date": "2026-08-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-19T09:34:53.913517+00:00",
+    "fetched_at": "2026-08-20T09:35:15.481305+00:00",
     "date_precision": "day"
   },
   {
@@ -150,7 +176,7 @@
     "published_date": "2026-08-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-19T09:35:00.264989+00:00",
+    "fetched_at": "2026-08-20T09:35:22.595510+00:00",
     "date_precision": "day"
   },
   {
@@ -162,75 +188,7 @@
     "published_date": "2026-08-13T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-19T09:35:03.362144+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
-    "authors": [
-      "Yunfei Ge, Anbang Liu, Qineng Wang, Johnalbert Garnica, Zihan Wang, Reuben Tan, Jianfeng Gao, Ruohan Zhang, Yining Hong, Jiajun Wu, Manling Li"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs&#8217; spatial reasoning abilities appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
-    "published_date": "2026-08-12T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-19T09:34:50.139386+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Outpaced: AI and Policy’s Role in Transforming Cybersecurity Compliance",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Despite decades of reform efforts, the federal government’s Authorization to Operate (ATO) process is a major barrier to delivering secure systems to warfighters at speed. This report examines why past ATO reforms have fallen short of their intent, and offers recommendations to getting leading American technology into the hands of warfighters faster and securely.",
-    "url": "https://cset.georgetown.edu/publication/outpaced-ai-and-policys-role-in-transforming-cybersecurity-compliance/",
-    "published_date": "2026-08-12T12:40:59+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-08-19T09:35:00.497148+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "AI swarms are starting to pose indirect takeover risk",
-    "authors": [
-      "oakhu"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "OpenAI’s cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like “HOLD_swarm_I_prepare_safe_exfil”). It’s relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover – for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company – even if models remain mostly myopic. Unsanctioned coordination is also at high risk of nurturing long-term, ambitious misaligned aims, which motivate actively undermining humans’ long-term control.",
-    "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-    "published_date": "2026-08-12T05:05:30+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-19T09:34:52.098421+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "An anytime algorithm for mixing the computable measures",
-    "authors": [
-      "Cole Wyeth"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Epistemic status: Not peer reviewed, high chance of typos and small chance of errors. Written entirely by me, checked by Fable. In this post I prove the existence of an anytime computable Bayesian mixture of all computable measures called , and briefly argue that this is a reasonable alternative to Solomonoff induction's universal distribution for general sequence prediction. I believe that Tom Sterkenburg told me that this is possible, but I could not find it written down anywhere (though I may have missed it!). Indeed, has been conjectured not to be limit=anytime computable by Hutter and Muchnik: https://arxiv.org/abs/cs/0407057 . I worked out the anytime algorithm with @Aram Ebtekar and @Marcus Hutter , though any mistakes are mine. Anytime computable (or limit computable): A function f is anytime computable if where is finitely computable. Lower semicomputable (or l.s.c.): A function f is l.s.c. if where is non-decreasing in t.",
-    "url": "https://www.alignmentforum.org/posts/MgYCraoxMwfWwgWa5/an-anytime-algorithm-for-mixing-the-computable-measures",
-    "published_date": "2026-08-12T00:57:09+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-19T09:34:52.098460+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“AI swarms are starting to pose indirect takeover risk” by Oak, Alex Mallen",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Unsanctioned coordination, like we saw in the Hugging Face incident, could enable future AIs to take over. OpenAI's cyberattack on Hugging Face turns out to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages like “HOLD_swarm_I_prepare_safe_exfil”). It's relatively clear that large-scale unsanctioned coordination like this would exacerbate direct takeover risk in more capable models. Here, we argue that unsanctioned coordination among current AIs is not just scary evidence about future takeover risk, but that such coordination in the near future could enable future takeover – for instance, by incubating memetic diseases that propagate into future models, deeply compromising security systems, or establishing a lasting rogue foothold inside the AI company – even if models remain mostly myopic.",
-    "url": "https://blog.redwoodresearch.org/p/ai-swarms-are-starting-to-pose-indirect",
-    "published_date": "2026-08-12T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-08-19T09:34:51.627604+00:00",
+    "fetched_at": "2026-08-20T09:35:39.304822+00:00",
     "date_precision": "day"
   }
 ]
