@@ -1,27 +1,43 @@
 [
   {
-    "title": "Outpaced: AI and Policy’s Role in Transforming Cybersecurity Compliance",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Despite decades of reform efforts, the federal government’s Authorization to Operate (ATO) process is a major barrier to delivering secure systems to warfighters at speed. This report examines why past ATO reforms have fallen short of their intent, and offers recommendations to getting leading American technology into the hands of warfighters faster and securely.",
-    "url": "https://cset.georgetown.edu/publication/outpaced-ai-and-policys-role-in-transforming-cybersecurity-compliance/",
-    "published_date": "2026-08-20T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-08-20T09:35:22.740062+00:00",
-    "date_precision": "month"
-  },
-  {
     "title": "Confronting the Barriers to AI Diffusion in the US Military",
     "authors": [],
     "organization": "GovAI",
     "abstract": "The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on...",
     "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
-    "published_date": "2026-08-20T00:00:00+00:00",
+    "published_date": "2026-08-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-20T09:35:23.031435+00:00",
+    "fetched_at": "2026-08-21T09:37:23.033229+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "“These Parchment Barriers”",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "Dear readers,It’s a pleasure to be back in your inbox. I apologize for the long hiatus in my writing. My first six weeks at OpenAI have been, for many reasons, eventful. I’m pleased to share the launch of the AI Futures blog at OpenAI, which will be the home for the work done by my Strategic Futures team at the company. Despite being on OpenAI’s website, the words below only reflect my views and not the views of OpenAI or any other of its employees; the same will be true for all future posts to this blog.I won’t be the only author of AI Futures, but today’s launch post, on the concentration of power, is from me. Its text is reproduced below for your convenience. This new blog will not replace Hyperdimensional, where I expect to have new essays to share with you soon.",
+    "url": "https://www.hyperdimensional.co/p/these-parchment-barriers",
+    "published_date": "2026-08-20T20:11:35+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-08-21T09:37:15.239336+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Broadening access to Skala creates a faster path to predictive DFT",
+    "authors": [
+      "Sebastian Ehlert, Stefano Battaglia, Thijs Vogels, Jan Hermann, Jens Wehner, Giulia Luise, Klaas Giesbertz, Chin-Wei Huang, Aaron Kaplan, Kate Milton, Stephanie Marisa Lanius, Derk Kooi, P. Bern&aacute;t Szab&oacute;, Gregor Simm, Rianne van den Berg, Paola Gori Giorgi"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. The post Broadening access to Skala creates a faster path to predictive DFT appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+    "published_date": "2026-08-20T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-08-21T09:37:07.887388+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Debate Training Reduces Reward Hacking in RLAIF",
@@ -34,7 +50,7 @@
     "published_date": "2026-08-19T12:17:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-20T09:35:12.912274+00:00",
+    "fetched_at": "2026-08-21T09:37:11.211419+00:00",
     "date_precision": "day"
   },
   {
@@ -46,7 +62,7 @@
     "published_date": "2026-08-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-20T09:35:22.594173+00:00",
+    "fetched_at": "2026-08-21T09:37:22.362261+00:00",
     "date_precision": "day"
   },
   {
@@ -58,7 +74,7 @@
     "published_date": "2026-08-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-20T09:35:22.594465+00:00",
+    "fetched_at": "2026-08-21T09:37:22.362573+00:00",
     "date_precision": "day"
   },
   {
@@ -70,7 +86,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-20T09:35:22.594730+00:00",
+    "fetched_at": "2026-08-21T09:37:22.362838+00:00",
     "date_precision": "day"
   },
   {
@@ -82,7 +98,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-20T09:35:22.594957+00:00",
+    "fetched_at": "2026-08-21T09:37:22.363067+00:00",
     "date_precision": "day"
   },
   {
@@ -94,7 +110,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-20T09:35:22.595233+00:00",
+    "fetched_at": "2026-08-21T09:37:22.363324+00:00",
     "date_precision": "day"
   },
   {
@@ -108,7 +124,7 @@
     "published_date": "2026-08-16T22:27:59+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-20T09:35:16.281425+00:00",
+    "fetched_at": "2026-08-21T09:37:14.952156+00:00",
     "date_precision": "day"
   },
   {
@@ -122,7 +138,7 @@
     "published_date": "2026-08-16T04:22:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-20T09:35:12.912467+00:00",
+    "fetched_at": "2026-08-21T09:37:11.211611+00:00",
     "date_precision": "day"
   },
   {
@@ -136,7 +152,7 @@
     "published_date": "2026-08-14T14:02:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-08-20T09:35:16.972309+00:00",
+    "fetched_at": "2026-08-21T09:37:15.794660+00:00",
     "date_precision": "day"
   },
   {
@@ -150,7 +166,7 @@
     "published_date": "2026-08-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-20T09:35:15.481256+00:00",
+    "fetched_at": "2026-08-21T09:37:14.029296+00:00",
     "date_precision": "day"
   },
   {
@@ -164,31 +180,7 @@
     "published_date": "2026-08-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-20T09:35:15.481305+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Exploring AI’s Operational Implications in a Future U.S.-China Conflict: Initial Observations from the Camp(ai)gn Wargame",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Aug 13, 2026 The wargame Camp(ai)gn explores the military implications of artificial intelligence. This paper presents gameplay observations about how autonomous systems might shape the character of conflict, logic of escalation, and choices facing commanders.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA5022-1.html",
-    "published_date": "2026-08-13T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-20T09:35:22.595510+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Synthetic Persona Pretraining: Alignment from Token Zero As language-model-based AI is increasingly deployed in autonomous settings, aligning its goals and values with those of humans becomes critical. Today, alignment, and the assistant identity itself, are typically introduced only after pretraining, once behavioral priors are already established. This can make values a thin overlay, rather than deeply rooted, and facilitate subsequent misalignment. Pursuing a different paradigm, we introduce Synthetic Persona Pretraining (SPP), which installs the desired assistant persona from token zero in pretraining. First, we annotate pretraining documents with value-aligned first-person reflections derived from a normative value constitution. Second, we pretrain via the standard cross-entropy loss on standard pretraining documents as well as their reflections, which installs the desired persona among a multitude of other personas. Finally, we post-train on user-assistant dialogue data, which binds this desired persona to the assistant identity, a process we call persona binding.",
-    "url": "https://www.matsprogram.org/research/synthetic-persona-pretraining-alignment-from-token-zero",
-    "published_date": "2026-08-13T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-20T09:35:39.304822+00:00",
+    "fetched_at": "2026-08-21T09:37:14.029364+00:00",
     "date_precision": "day"
   }
 ]
