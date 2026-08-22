@@ -1,15 +1,53 @@
 [
   {
+    "title": "Would This Change Your Answer? Evaluating Explanations of LLM Behavior in the Wild with\n                    Counterfactual Experiments",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We introduce CHIVE, an agentic pipeline that discovers unexpected LLM behaviors in the wild and explains them with counterfactual prompt edits. We use the resulting data in two ways. Using it as an evaluation, we find that activation-reading interpretability tools provide no uplift: agents given the tools predict the outcomes of these experiments no better than agents that just read the transcript. Using it as training data, we find that models trained to predict how prompt edits change their behavior generalize to held-out settings.",
+    "url": "https://alignment.anthropic.com/2026/chive/",
+    "published_date": "2026-08-22T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-08-22T09:27:14.789048+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Characterizing Agentic Flooding of Government Services",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models.",
+    "url": "https://www.governance.ai/research-paper/characterizing-agentic-flooding-of-government-services",
+    "published_date": "2026-08-22T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-08-22T09:27:19.676521+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "Confronting the Barriers to AI Diffusion in the US Military",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models. However, there is no agreed way to... Frontier AI companies use offline monitoring to address risks from internally deployed AI agents. AI developers increasingly rely on...",
+    "abstract": "AI-enabled command-and-control systems and low-cost, semi-autonomous drones are reshaping battlefields in Ukraine and the Middle East, while China is marshalling its techno-industrial base in an attempt to establish itself as a world-class military power. In the United States, the White House wants to “aggressively adopt” AI throughout the US military, and the Pentagon has directed the Department of Defense (DoD) to become an “AI-first” warfighting force. Whether the United States can maintain its military edge may depend on how fast it builds, adopts, and fields emerging technologies. But while AI is playing a growing role in decision support and intelligence analysis, wider and deeper diffusion could prove more challenging, especially in physical autonomous systems.",
     "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
-    "published_date": "2026-08-21T00:00:00+00:00",
+    "published_date": "2026-08-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-21T09:37:23.033229+00:00",
+    "fetched_at": "2026-08-22T09:27:19.677740+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Are Open Models Catching Up?",
+    "authors": [
+      "Evan Cloutier"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "The past two months have been a breakout period for open source AI. Yes, there was the “DeepSeek moment” back in January 2025, but no one actually used R1 to do any economically valuable work. In contrast, models like GLM 5.3 and Kimi K3 are genuinely capable of many of the same coding and agentic tasks that rocketed Anthropic to $65B+ ARR. Unlike others who inflated ARR, our figures were much closer to reality.",
+    "url": "https://newsletter.semianalysis.com/p/are-open-models-catching-up",
+    "published_date": "2026-08-21T16:40:02+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-08-22T09:27:12.248461+00:00",
+    "date_precision": "day"
   },
   {
     "title": "“These Parchment Barriers”",
@@ -22,7 +60,7 @@
     "published_date": "2026-08-20T20:11:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-08-21T09:37:15.239336+00:00",
+    "fetched_at": "2026-08-22T09:27:12.473599+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +74,7 @@
     "published_date": "2026-08-20T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-21T09:37:07.887388+00:00",
+    "fetched_at": "2026-08-22T09:27:06.305221+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +88,7 @@
     "published_date": "2026-08-19T12:17:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-21T09:37:11.211419+00:00",
+    "fetched_at": "2026-08-22T09:27:08.786022+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +100,7 @@
     "published_date": "2026-08-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-21T09:37:22.362261+00:00",
+    "fetched_at": "2026-08-22T09:27:19.155943+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +112,7 @@
     "published_date": "2026-08-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-21T09:37:22.362573+00:00",
+    "fetched_at": "2026-08-22T09:27:19.156161+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +124,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-21T09:37:22.362838+00:00",
+    "fetched_at": "2026-08-22T09:27:19.156378+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +136,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-21T09:37:22.363067+00:00",
+    "fetched_at": "2026-08-22T09:27:19.156561+00:00",
     "date_precision": "day"
   },
   {
@@ -110,7 +148,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-21T09:37:22.363324+00:00",
+    "fetched_at": "2026-08-22T09:27:19.156799+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +162,7 @@
     "published_date": "2026-08-16T22:27:59+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-21T09:37:14.952156+00:00",
+    "fetched_at": "2026-08-22T09:27:12.248511+00:00",
     "date_precision": "day"
   },
   {
@@ -138,49 +176,7 @@
     "published_date": "2026-08-16T04:22:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-21T09:37:11.211611+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Hurtling through 2026",
-    "authors": [
-      "Ajeya Cotra"
-    ],
-    "organization": "Ajeya Cotra",
-    "abstract": "In mid-January, I made predictions about AI capabilities for the year 2026. By early March, my forecast of the 50% time horizon on software tasks already seemed clearly too conservative. And then a couple weeks ago, amid the flurry of news about dozens of esoteric theorems falling to AI, I decided that my prediction that AIs wouldn’t be able to get a paper into a top math journal had now clearly fallen.",
-    "url": "https://www.planned-obsolescence.org/p/hurtling-through-2026",
-    "published_date": "2026-08-14T14:02:22+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-08-21T09:37:15.794660+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Have We Seen an Acceleration in Discoveries?",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Q: How much has discovery accelerated? LLMs have shown the ability to make novel discoveries across many domains. How much has this affected the aggregate discovery rate? In the figures below we plot all the data sources we can find, and make some very loose observations: Discovery of cyber vulnerabilities has accelerated sharply. Discovery of math results has accelerated somewhat. However this is harder to objectively measure. Discovery of optimizations has not shown a dramatic acceleration. These conclusions are based only on public discoveries. It is quite plausible that AI labs are making discoveries internally that they are not disclosing. Thanks. Thanks to Greg Burnham for extremely helpful comments. Overview We are just looking for slope changes. AI-assisted discoveries are often announced, but their significance is hard to assess. Here we look for slope changes in various metrics of discovery to see if we can detect an acceleration.",
-    "url": "https://metr.org/notes/2026-08-14-llm-contribution-to-discoveries/",
-    "published_date": "2026-08-14T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-21T09:37:14.029296+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Funding update",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "In the last 6 months, METR raised commitments of around $71 million. This will fund ambitious projects: studying autonomous capabilities, tracking recursive self-improvement, evaluating monitoring systems, conducting risk assessments, investigating AI incidents, and more. Thank you to everyone who has supported METR over the years: The Audacious Project, through which we received our first institutional-scale funding; individuals from Jane Street; foundations like the Sijbrandij Foundation, The Pew Charitable Trusts, Schmidt Sciences and the Packard Foundation; and many others, including David Farhi, Geoff Ralston, Dylan Field and Steve Newman. See more on our About page . Consider joining them by donating here . METR is growing, and we continue to greatly appreciate support. We work to maintain our independence from frontier AI companies, especially as our risk assessments become more consequential.",
-    "url": "https://metr.org/blog/2026-08-14-funding-update/",
-    "published_date": "2026-08-14T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-21T09:37:14.029364+00:00",
+    "fetched_at": "2026-08-22T09:27:08.786217+00:00",
     "date_precision": "day"
   }
 ]
