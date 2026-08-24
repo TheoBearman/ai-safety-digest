@@ -1,14 +1,28 @@
 [
   {
+    "title": "AgentX - InferenceXv3: Does CUDA Moat Hold up in Agentic Inferencing?",
+    "authors": [
+      "Cam Quilici"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "$3 Million USD dataset open sourced, 1 Mil+ Context Length, Multiturn, Sub Agents 95%+ KVCache HitRate, GB300 NVL72, MI355, B200",
+    "url": "https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat",
+    "published_date": "2026-08-24T00:19:35+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-08-24T09:49:07.816611+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Would This Change Your Answer? Evaluating Explanations of LLM Behavior in the Wild with\n                    Counterfactual Experiments",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "We introduce CHIVE, an agentic pipeline that discovers unexpected LLM behaviors in the wild and explains them with counterfactual prompt edits. We use the resulting data in two ways. Using it as an evaluation, we find that activation-reading interpretability tools provide no uplift: agents given the tools predict the outcomes of these experiments no better than agents that just read the transcript. Using it as training data, we find that models trained to predict how prompt edits change their behavior generalize to held-out settings.",
     "url": "https://alignment.anthropic.com/2026/chive/",
-    "published_date": "2026-08-23T00:00:00+00:00",
+    "published_date": "2026-08-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-08-23T09:28:31.948397+00:00",
+    "fetched_at": "2026-08-24T09:49:10.018876+00:00",
     "date_precision": "month"
   },
   {
@@ -17,10 +31,10 @@
     "organization": "GovAI",
     "abstract": "As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has... Frontier AI developers increasingly rely on safeguards to limit the biological misuse risk of their models.",
     "url": "https://www.governance.ai/research-paper/characterizing-agentic-flooding-of-government-services",
-    "published_date": "2026-08-23T00:00:00+00:00",
+    "published_date": "2026-08-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-23T09:28:36.793876+00:00",
+    "fetched_at": "2026-08-24T09:49:14.563796+00:00",
     "date_precision": "month"
   },
   {
@@ -29,10 +43,10 @@
     "organization": "GovAI",
     "abstract": "AI-enabled command-and-control systems and low-cost, semi-autonomous drones are reshaping battlefields in Ukraine and the Middle East, while China is marshalling its techno-industrial base in an attempt to establish itself as a world-class military power. In the United States, the White House wants to “aggressively adopt” AI throughout the US military, and the Pentagon has directed the Department of Defense (DoD) to become an “AI-first” warfighting force. Whether the United States can maintain its military edge may depend on how fast it builds, adopts, and fields emerging technologies. But while AI is playing a growing role in decision support and intelligence analysis, wider and deeper diffusion could prove more challenging, especially in physical autonomous systems.",
     "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
-    "published_date": "2026-08-23T00:00:00+00:00",
+    "published_date": "2026-08-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-23T09:28:36.795223+00:00",
+    "fetched_at": "2026-08-24T09:49:14.564595+00:00",
     "date_precision": "month"
   },
   {
@@ -46,7 +60,7 @@
     "published_date": "2026-08-21T16:40:02+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-23T09:28:29.532832+00:00",
+    "fetched_at": "2026-08-24T09:49:07.816629+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +74,7 @@
     "published_date": "2026-08-20T20:11:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-08-23T09:28:29.786759+00:00",
+    "fetched_at": "2026-08-24T09:49:08.153879+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +88,7 @@
     "published_date": "2026-08-20T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-23T09:28:23.605302+00:00",
+    "fetched_at": "2026-08-24T09:49:03.102965+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +102,7 @@
     "published_date": "2026-08-19T12:17:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-23T09:28:25.830161+00:00",
+    "fetched_at": "2026-08-24T09:49:05.156954+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +114,7 @@
     "published_date": "2026-08-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-23T09:28:36.121875+00:00",
+    "fetched_at": "2026-08-24T09:49:13.796766+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +126,7 @@
     "published_date": "2026-08-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-23T09:28:36.122135+00:00",
+    "fetched_at": "2026-08-24T09:49:13.796919+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +138,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-23T09:28:36.122397+00:00",
+    "fetched_at": "2026-08-24T09:49:13.797069+00:00",
     "date_precision": "day"
   },
   {
@@ -136,7 +150,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-23T09:28:36.122621+00:00",
+    "fetched_at": "2026-08-24T09:49:13.797213+00:00",
     "date_precision": "day"
   },
   {
@@ -148,35 +162,7 @@
     "published_date": "2026-08-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-23T09:28:36.122928+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "$12B of US ratepayers' money wasted on a modeling mistake and PJM wants to do it again",
-    "authors": [
-      "Robert Boswall"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Earlier this year, we explained why residents of the PJM area, America’s largest electricity market, have seen their power bills rise by ~20%. We argued that the main culprit was PJM’s auction design choices and how PJM models demand and supply. To better understand the extent of the problem, our Energy Model team spent the last 6 months reverse-engineering PJM’s main system model, the ‘Reserve Requirement Study’, which to date has been a black box. This study is how PJM decides what type of and how many power plants to buy to make sure electricity is reliable, using an annual auction, and spending billions each year.",
-    "url": "https://newsletter.semianalysis.com/p/12b-of-us-ratepayers-money-wasted",
-    "published_date": "2026-08-16T22:27:59+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-23T09:28:29.532884+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Does DiffusionGemma do latent reasoning?",
-    "authors": [
-      "Jan Bauer"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in addition to tokens. If we cannot interpret these tokens and vectors, the model has significant opaque serial depth , potentially harming monitorability. Recently, Engels et al. found that DG nevertheless maintains high monitorability, for instance by showing that projecting the distribution to its top-k items largely retains performance. We strengthen these results by showing that this performance degradation is largely a sampler artifact and good performance can be maintained with only the top item, supporting the case for high monitorability. Still, we also find some rare case studies where the distribution vector is load-bearing computationally, i.e. where top-1 projection would be detrimental. However even in these cases, it just encodes superposition, remaining interpretable.",
-    "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
-    "published_date": "2026-08-16T04:22:18+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-23T09:28:25.830349+00:00",
+    "fetched_at": "2026-08-24T09:49:13.797369+00:00",
     "date_precision": "day"
   }
 ]
