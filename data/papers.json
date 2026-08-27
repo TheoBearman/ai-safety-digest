@@ -1,15 +1,67 @@
 [
   {
+    "title": "Piloting the world's first double-blind AI evaluations",
+    "authors": [
+      "Google DeepMind News"
+    ],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Piloting the world's first double-blind AI evaluations'. Published 2026-08-27. Authors: Google DeepMind News.",
+    "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+    "published_date": "2026-08-27T12:59:16+00:00",
+    "source_type": "rss",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "fetched_at": "2026-08-27T19:39:19.528305+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Previewing the Model Hardware Standard",
+    "authors": [
+      "Anthropic News"
+    ],
+    "organization": "Anthropic",
+    "abstract": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+    "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "published_date": "2026-08-27T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+    "fetched_at": "2026-08-27T19:39:20.382738+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Would This Change Your Answer? Evaluating Explanations of LLM Behavior in the Wild with\n                    Counterfactual Experiments",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "We introduce CHIVE, an agentic pipeline that discovers unexpected LLM behaviors in the wild and explains them with counterfactual prompt edits. We use the resulting data in two ways. Using it as an evaluation, we find that activation-reading interpretability tools provide no uplift: agents given the tools predict the outcomes of these experiments no better than agents that just read the transcript. Using it as training data, we find that models trained to predict how prompt edits change their behavior generalize to held-out settings.",
     "url": "https://alignment.anthropic.com/2026/chive/",
-    "published_date": "2026-08-26T00:00:00+00:00",
+    "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-08-26T09:42:22.360885+00:00",
+    "fetched_at": "2026-08-27T19:39:28.447565+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Optimal stopping: spending evaluation compute where it counts",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "We introduce optstop, an open-source tool for LLM evaluations that keeps running where uncertainty is high, and stops where estimates are precise or stable enough.",
+    "url": "https://www.aisi.gov.uk/blog/optimal-stopping-spending-evaluation-compute-where-it-counts",
+    "published_date": "2026-08-27T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-08-27T19:39:32.383968+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Hardening Critical Infrastructure Software in an Era of Rapid AI Advancement: An Urgent Call for Coordinated Action",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Aug 27, 2026 This paper provides expert analysis on artificial intelligence–accelerated vulnerability discovery and the structural hardening of critical infrastructure software.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4957-1.html",
+    "published_date": "2026-08-27T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-27T19:39:32.904478+00:00",
+    "date_precision": "day"
   },
   {
     "title": "A Biosafety Agenda for AI-Bio Governance",
@@ -17,10 +69,10 @@
     "organization": "GovAI",
     "abstract": "Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has...",
     "url": "https://www.governance.ai/research-paper/a-biosafety-agenda-for-ai-bio-governance",
-    "published_date": "2026-08-26T00:00:00+00:00",
+    "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-26T09:42:36.403138+00:00",
+    "fetched_at": "2026-08-27T19:39:33.492447+00:00",
     "date_precision": "month"
   },
   {
@@ -29,11 +81,39 @@
     "organization": "GovAI",
     "abstract": "AI-enabled command-and-control systems and low-cost, semi-autonomous drones are reshaping battlefields in Ukraine and the Middle East, while China is marshalling its techno-industrial base in an attempt to establish itself as a world-class military power. In the United States, the White House wants to “aggressively adopt” AI throughout the US military, and the Pentagon has directed the Department of Defense (DoD) to become an “AI-first” warfighting force. Whether the United States can maintain its military edge may depend on how fast it builds, adopts, and fields emerging technologies. But while AI is playing a growing role in decision support and intelligence analysis, wider and deeper diffusion could prove more challenging, especially in physical autonomous systems.",
     "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
-    "published_date": "2026-08-26T00:00:00+00:00",
+    "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-26T09:42:36.405450+00:00",
+    "fetched_at": "2026-08-27T19:39:33.494417+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "MLSN #23: AIs Leak Their Values Into Factual Questions",
+    "authors": [
+      "Alice Blair"
+    ],
+    "organization": "Dan Hendrycks",
+    "abstract": "A new benchmark measures how AIs improve at tasks after clear feedback and iteration. Measured in-context learning ability has been doubling every 3 months, suggesting possibly explosive capability growth across many domains.",
+    "url": "https://newsletter.mlsafety.org/p/mlsn-23-ais-leak-their-values-into",
+    "published_date": "2026-08-26T18:57:43+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.mlsafety.org/feed",
+    "fetched_at": "2026-08-27T19:39:27.266004+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "&gt;&amp;&gt; &gt; &gt; &amp; &amp; &lt;&gt; &amp; &lt;&gt; &lt;&gt; &amp; &amp; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &gt;&gt;&lt;&gt; &lt;&gt; &amp; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &amp; &gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617;...",
+    "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+    "published_date": "2026-08-26T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-08-27T19:39:24.879677+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Funding better evaluations of AI’s impact on wellbeing",
@@ -46,7 +126,7 @@
     "published_date": "2026-08-25T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-26T09:42:08.674671+00:00",
+    "fetched_at": "2026-08-27T19:39:20.382783+00:00",
     "date_precision": "day"
   },
   {
@@ -58,7 +138,7 @@
     "published_date": "2026-08-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-26T09:42:36.102237+00:00",
+    "fetched_at": "2026-08-27T19:39:32.904899+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +152,7 @@
     "published_date": "2026-08-24T15:08:21.531000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-26T09:42:48.575415+00:00",
+    "fetched_at": "2026-08-27T19:39:37.971103+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +166,7 @@
     "published_date": "2026-08-24T00:19:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-26T09:42:14.927235+00:00",
+    "fetched_at": "2026-08-27T19:39:25.847989+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +178,7 @@
     "published_date": "2026-08-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-26T09:42:36.102774+00:00",
+    "fetched_at": "2026-08-27T19:39:32.905336+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +192,7 @@
     "published_date": "2026-08-21T16:40:02+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-26T09:42:14.927258+00:00",
+    "fetched_at": "2026-08-27T19:39:25.848011+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +206,7 @@
     "published_date": "2026-08-20T20:11:35+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-08-26T09:42:15.147200+00:00",
+    "fetched_at": "2026-08-27T19:39:26.160882+00:00",
     "date_precision": "day"
   },
   {
@@ -140,21 +220,7 @@
     "published_date": "2026-08-20T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-26T09:42:08.537603+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Debate Training Reduces Reward Hacking in RLAIF",
-    "authors": [
-      "zac_kenton"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Paper: Debate Training Reduces Reward Hacking in RLAIF Linkpost for GDM Alignment blogpost Work done by the GDM Amplified Oversight team ( we're hiring ). TL;DR : When you RL against an LLM judge, the judge gets hacked i.e. fooled into incorrectly giving high reward; adding a debate opponent reduces this. Many of the most impressive capabilities of current AI systems are produced by training on crisp tasks, like math and coding, where task success can be automatically verified. However, much of AI behavior that we actually care about is in some sense fuzzy , even for the most classical crisp tasks. For example, a coding agent should produce maintainable code, not just code that passes tests. More crucially, a coding agent should not learn to pass tests at all costs, especially by subverting the original intent of the user.",
-    "url": "https://www.alignmentforum.org/posts/BB8o7b8A4Aykeksvw/debate-training-reduces-reward-hacking-in-rlaif",
-    "published_date": "2026-08-19T12:17:57+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-26T09:42:10.582351+00:00",
+    "fetched_at": "2026-08-27T19:39:20.225832+00:00",
     "date_precision": "day"
   }
 ]
