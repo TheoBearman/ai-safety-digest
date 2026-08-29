@@ -1,16 +1,64 @@
 [
   {
+    "title": "Automated Researchers Can Reliably Mitigate Alignment Failures",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "Automating alignment research may accelerate progress toward aligned AI, but whether it does is hard to measure. Luckily, many alignment failures, such as deception, sycophancy, and jailbreaks, are already measurable by public benchmarks. We study whether automated alignment researchers (AARs) can post-train to mitigate alignment failures by proposing training methods and data to simultaneously optimize multiple safety benchmarks, while largely preserving general capability. Across 10 alignment failures, the strongest AAR methods significantly reduce the targeted alignment failures and generalize to a held-out benchmark, multi-turn behavioral audits, and models up to 4.7× larger than the target model. As a human baseline, 28 experienced researchers receive up to eight hours to develop methods for the same benchmarks, but their methods underperform the best AAR methods. Using human ideas as the AARs’ initial research direction does not improve performance, suggesting current AARs may not need guidance from experienced researchers.",
+    "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/",
+    "published_date": "2026-08-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-08-29T14:12:16.089634+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Outpaced: AI and Policy’s Role in Transforming Cybersecurity Compliance",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Despite decades of reform efforts, the federal government’s Authorization to Operate (ATO) process is a major barrier to delivering secure systems to warfighters at speed. This report examines why past ATO reforms have fallen short of their intent, and offers recommendations to getting leading American technology into the hands of warfighters faster and securely.",
+    "url": "https://cset.georgetown.edu/publication/outpaced-ai-and-policys-role-in-transforming-cybersecurity-compliance/",
+    "published_date": "2026-08-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-08-29T14:12:20.408402+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "A Biosafety Agenda for AI-Bio Governance",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has...",
+    "url": "https://www.governance.ai/research-paper/a-biosafety-agenda-for-ai-bio-governance",
+    "published_date": "2026-08-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-08-29T14:12:20.692741+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Confronting the Barriers to AI Diffusion in the US Military",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "AI-enabled command-and-control systems and low-cost, semi-autonomous drones are reshaping battlefields in Ukraine and the Middle East, while China is marshalling its techno-industrial base in an attempt to establish itself as a world-class military power. In the United States, the White House wants to “aggressively adopt” AI throughout the US military, and the Pentagon has directed the Department of Defense (DoD) to become an “AI-first” warfighting force. Whether the United States can maintain its military edge may depend on how fast it builds, adopts, and fields emerging technologies. But while AI is playing a growing role in decision support and intelligence analysis, wider and deeper diffusion could prove more challenging, especially in physical autonomous systems.",
+    "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
+    "published_date": "2026-08-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-08-29T14:12:20.694280+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "The Hugging Face attack surprised me",
     "authors": [
       "Ajeya Cotra"
     ],
     "organization": "Ajeya Cotra",
-    "abstract": "This week, METR and Redwood Research published the report on our independent investigation into agents’ behavior and motivations in the Hugging Face attack; I was one of the investigators. This was an absolutely wild incident — I encourage you to check out the full report, but METR’s tweet thread packs in some of the highlights.",
+    "abstract": "Research from Ajeya Cotra titled 'The Hugging Face attack surprised me'. Published 2026-08-28. Authors: Ajeya Cotra.",
     "url": "https://www.planned-obsolescence.org/p/the-hugging-face-attack-surprised",
     "published_date": "2026-08-28T14:04:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-08-28T20:44:24.985362+00:00",
+    "fetched_at": "2026-08-29T14:12:14.611459+00:00",
     "date_precision": "day"
   },
   {
@@ -24,44 +72,8 @@
     "published_date": "2026-08-28T13:30:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-28T20:44:20.096899+00:00",
+    "fetched_at": "2026-08-29T14:12:10.907914+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Automated Researchers Can Reliably Mitigate Alignment Failures",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Automating alignment research may accelerate progress toward aligned AI, but whether it does is hard to measure. Luckily, many alignment failures, such as deception, sycophancy, and jailbreaks, are already measurable by public benchmarks. We study whether automated alignment researchers (AARs) can post-train to mitigate alignment failures by proposing training methods and data to simultaneously optimize multiple safety benchmarks, while largely preserving general capability. Across 10 alignment failures, the strongest AAR methods significantly reduce the targeted alignment failures and generalize to a held-out benchmark, multi-turn behavioral audits, and models up to 4.7× larger than the target model. As a human baseline, 28 experienced researchers receive up to eight hours to develop methods for the same benchmarks, but their methods underperform the best AAR methods. Using human ideas as the AARs’ initial research direction does not improve performance, suggesting current AARs may not need guidance from experienced researchers.",
-    "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/",
-    "published_date": "2026-08-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-08-28T20:44:26.562684+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "A Biosafety Agenda for AI-Bio Governance",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has...",
-    "url": "https://www.governance.ai/research-paper/a-biosafety-agenda-for-ai-bio-governance",
-    "published_date": "2026-08-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-28T20:44:31.414706+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Confronting the Barriers to AI Diffusion in the US Military",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "AI-enabled command-and-control systems and low-cost, semi-autonomous drones are reshaping battlefields in Ukraine and the Middle East, while China is marshalling its techno-industrial base in an attempt to establish itself as a world-class military power. In the United States, the White House wants to “aggressively adopt” AI throughout the US military, and the Pentagon has directed the Department of Defense (DoD) to become an “AI-first” warfighting force. Whether the United States can maintain its military edge may depend on how fast it builds, adopts, and fields emerging technologies. But while AI is playing a growing role in decision support and intelligence analysis, wider and deeper diffusion could prove more challenging, especially in physical autonomous systems.",
-    "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
-    "published_date": "2026-08-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-28T20:44:31.416645+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Piloting the world's first double-blind AI evaluations",
@@ -74,7 +86,7 @@
     "published_date": "2026-08-27T12:59:16+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-08-28T20:44:17.421873+00:00",
+    "fetched_at": "2026-08-29T14:12:08.357682+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +100,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-28T20:44:18.235460+00:00",
+    "fetched_at": "2026-08-29T14:12:09.210304+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +112,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-08-28T20:44:30.012161+00:00",
+    "fetched_at": "2026-08-29T14:12:19.748968+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +124,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-28T20:44:30.928926+00:00",
+    "fetched_at": "2026-08-29T14:12:20.076225+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +136,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-28T20:44:30.929132+00:00",
+    "fetched_at": "2026-08-29T14:12:20.076379+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +150,7 @@
     "published_date": "2026-08-26T18:57:43+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-08-28T20:44:25.466390+00:00",
+    "fetched_at": "2026-08-29T14:12:15.017420+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +164,7 @@
     "published_date": "2026-08-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-28T20:44:23.087798+00:00",
+    "fetched_at": "2026-08-29T14:12:13.048695+00:00",
     "date_precision": "day"
   },
   {
@@ -161,12 +173,12 @@
       "METR"
     ],
     "organization": "METR",
-    "abstract": "&lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &gt;&gt;&lt;&gt;&gt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &gt; &lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617;...",
+    "abstract": "&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &gt;&gt;&lt;&gt;&gt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &gt; &lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617;...",
     "url": "https://metr.org/zh-Hans/blog/2026-08-26-openai-hugging-face-incident-investigation/",
     "published_date": "2026-08-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-28T20:44:23.086971+00:00",
+    "fetched_at": "2026-08-29T14:12:13.047997+00:00",
     "date_precision": "day"
   },
   {
@@ -180,7 +192,7 @@
     "published_date": "2026-08-25T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-28T20:44:18.235496+00:00",
+    "fetched_at": "2026-08-29T14:12:09.210339+00:00",
     "date_precision": "day"
   },
   {
@@ -192,7 +204,7 @@
     "published_date": "2026-08-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-28T20:44:30.929524+00:00",
+    "fetched_at": "2026-08-29T14:12:20.076692+00:00",
     "date_precision": "day"
   },
   {
@@ -206,7 +218,7 @@
     "published_date": "2026-08-24T15:08:21.531000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-28T20:44:35.022190+00:00",
+    "fetched_at": "2026-08-29T14:12:30.110248+00:00",
     "date_precision": "day"
   },
   {
@@ -220,7 +232,7 @@
     "published_date": "2026-08-24T00:19:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-28T20:44:23.969905+00:00",
+    "fetched_at": "2026-08-29T14:12:13.882408+00:00",
     "date_precision": "day"
   },
   {
@@ -232,21 +244,7 @@
     "published_date": "2026-08-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-28T20:44:30.929963+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Are Open Models Catching Up?",
-    "authors": [
-      "Evan Cloutier"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "The past two months have been a breakout period for open source AI. Yes, there was the “DeepSeek moment” back in January 2025, but no one actually used R1 to do any economically valuable work. In contrast, models like GLM 5.3 and Kimi K3 are genuinely capable of many of the same coding and agentic tasks that rocketed Anthropic to $65B+ ARR. Unlike others who inflated ARR, our figures were much closer to reality.",
-    "url": "https://newsletter.semianalysis.com/p/are-open-models-catching-up",
-    "published_date": "2026-08-21T16:40:02+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-28T20:44:23.969922+00:00",
+    "fetched_at": "2026-08-29T14:12:20.077027+00:00",
     "date_precision": "day"
   }
 ]
