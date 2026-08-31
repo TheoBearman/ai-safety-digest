@@ -1,15 +1,67 @@
 [
   {
+    "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+    "authors": [
+      "Naoto Usuyama, Jeya Maria Jose Valanarasu, Tristan Naumann"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration. The post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+    "published_date": "2026-08-31T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-08-31T16:47:14.497466+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Value generalisation Theory of Change: putting it into practice",
+    "authors": [
+      "Stuart_Armstrong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "In the previous post , I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalisation, what are the dangers of the approach, how should it be done, and how do we mitigate the risks? The formal theory of change is down below, but I'll put a collapsible version here, to make references easier: Theory of Change Inputs / activities : investment/grants, a small research team, small-medium compute resources. Outputs : Solutions to the three components of value generalisation (see here ) in academically rigorous forms, demonstrations of these solutions on toy problems, public benchmarks, and new benchmarks. If going commercial, applications of this value generalisation to saleable products. The first component is recognising that the AI is off-distribution in a value-relevant way.",
+    "url": "https://www.alignmentforum.org/posts/kjPEH4KGEHd8iQ4Hn/value-generalisation-theory-of-change-putting-it-into",
+    "published_date": "2026-08-31T10:51:46+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-08-31T16:47:16.571324+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Automated Researchers Can Reliably Mitigate Alignment Failures",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "Automating alignment research may accelerate progress toward aligned AI, but whether it does is hard to measure. Luckily, many alignment failures, such as deception, sycophancy, and jailbreaks, are already measurable by public benchmarks. We study whether automated alignment researchers (AARs) can post-train to mitigate alignment failures by proposing training methods and data to simultaneously optimize multiple safety benchmarks, while largely preserving general capability. Across 10 alignment failures, the strongest AAR methods significantly reduce the targeted alignment failures and generalize to a held-out benchmark, multi-turn behavioral audits, and models up to 4.7× larger than the target model. As a human baseline, 28 experienced researchers receive up to eight hours to develop methods for the same benchmarks, but their methods underperform the best AAR methods. Using human ideas as the AARs’ initial research direction does not improve performance, suggesting current AARs may not need guidance from experienced researchers.",
     "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/",
-    "published_date": "2026-08-30T00:00:00+00:00",
+    "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-08-30T14:18:31.018413+00:00",
+    "fetched_at": "2026-08-31T16:47:22.930671+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Prevalence of Mental Health Discussions in Publicly Available Generative AI Conversations",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Aug 31, 2026 We aimed to quantify how prevalence varies under conservative vs expansive definitions of mental health by using a large public dataset of chatbot transcripts.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71368.html",
+    "published_date": "2026-08-31T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-31T16:47:28.719919+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Tax Policy Options to Promote Employment and Mitigate Federal Revenue Impacts in the Age of AI",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Aug 31, 2026 AI may lower federal revenue from labor taxes. The authors of this paper propose a six-category framework of tax code reform options that could stabilize revenue and protect jobs.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4392-3.html",
+    "published_date": "2026-08-31T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-08-31T16:47:28.720422+00:00",
+    "date_precision": "day"
   },
   {
     "title": "A Biosafety Agenda for AI-Bio Governance",
@@ -17,10 +69,10 @@
     "organization": "GovAI",
     "abstract": "Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has...",
     "url": "https://www.governance.ai/research-paper/a-biosafety-agenda-for-ai-bio-governance",
-    "published_date": "2026-08-30T00:00:00+00:00",
+    "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-30T14:18:34.734706+00:00",
+    "fetched_at": "2026-08-31T16:47:29.529765+00:00",
     "date_precision": "month"
   },
   {
@@ -29,11 +81,25 @@
     "organization": "GovAI",
     "abstract": "AI-enabled command-and-control systems and low-cost, semi-autonomous drones are reshaping battlefields in Ukraine and the Middle East, while China is marshalling its techno-industrial base in an attempt to establish itself as a world-class military power. In the United States, the White House wants to “aggressively adopt” AI throughout the US military, and the Pentagon has directed the Department of Defense (DoD) to become an “AI-first” warfighting force. Whether the United States can maintain its military edge may depend on how fast it builds, adopts, and fields emerging technologies. But while AI is playing a growing role in decision support and intelligence analysis, wider and deeper diffusion could prove more challenging, especially in physical autonomous systems.",
     "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
-    "published_date": "2026-08-30T00:00:00+00:00",
+    "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-30T14:18:34.737074+00:00",
+    "fetched_at": "2026-08-31T16:47:29.532040+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Most Neoclouds Suck At Security",
+    "authors": [
+      "Jordan Nanos"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Research from SemiAnalysis titled 'Most Neoclouds Suck At Security'. Published 2026-08-30. Authors: Jordan Nanos.",
+    "url": "https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security",
+    "published_date": "2026-08-30T15:46:22+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-08-31T16:47:20.547873+00:00",
+    "date_precision": "day"
   },
   {
     "title": "The Hugging Face attack surprised me",
@@ -46,11 +112,11 @@
     "published_date": "2026-08-28T14:04:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-08-30T14:18:29.788368+00:00",
+    "fetched_at": "2026-08-31T16:47:21.433112+00:00",
     "date_precision": "day"
   },
   {
-    "title": "Value generalisation theory of change: the theory behind the approach",
+    "title": "Value generalisation Theory of Change: the theory behind the approach",
     "authors": [
       "Stuart_Armstrong"
     ],
@@ -60,7 +126,7 @@
     "published_date": "2026-08-28T13:30:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-30T14:18:24.633453+00:00",
+    "fetched_at": "2026-08-31T16:47:16.571376+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +140,7 @@
     "published_date": "2026-08-27T12:59:16+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-08-30T14:18:22.165130+00:00",
+    "fetched_at": "2026-08-31T16:47:13.656096+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +154,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-30T14:18:22.796781+00:00",
+    "fetched_at": "2026-08-31T16:47:14.644039+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +166,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-08-30T14:18:33.936860+00:00",
+    "fetched_at": "2026-08-31T16:47:27.331739+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +178,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-30T14:18:34.317671+00:00",
+    "fetched_at": "2026-08-31T16:47:28.720682+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +190,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-30T14:18:34.317932+00:00",
+    "fetched_at": "2026-08-31T16:47:28.720903+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +204,7 @@
     "published_date": "2026-08-26T18:57:43+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-08-30T14:18:30.206016+00:00",
+    "fetched_at": "2026-08-31T16:47:21.855476+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +218,7 @@
     "published_date": "2026-08-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-30T14:18:28.397501+00:00",
+    "fetched_at": "2026-08-31T16:47:19.545745+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +232,33 @@
     "published_date": "2026-08-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-30T14:18:28.396612+00:00",
+    "fetched_at": "2026-08-31T16:47:19.543983+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Breve investigación independiente sobre el comportamiento, el razonamiento y la colaboración de los agentes en el incidente de hackeo de OpenAI / Hugging Face",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "&gt;&gt; &gt; &gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &gt;&gt;&lt;&gt; &gt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617;...",
+    "url": "https://metr.org/es/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+    "published_date": "2026-08-26T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-08-31T16:47:19.544875+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Non-Great-Power Conflict and AI Risk",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Non-Great-Power Conflict and AI Risk Research on advanced AI and the risk of war has focused almost exclusively on great power conflict, on the grounds that confrontation between nuclear-armed adversaries poses the greatest risk of catastrophic or existential harm. Considerably less attention has been paid to non-great-power conflict (NGPC): wars between non-great powers, between non-great powers and great powers, civil wars, proxy wars, and conflicts involving nonstate actors. This paper evaluates the null hypothesis that NGPC is much less important than great power conflict (GPC) as a source of catastrophic risk in an era of increasingly capable AI, against the alternative that it is within an order of magnitude of GPC in importance.",
+    "url": "https://www.matsprogram.org/research/non-great-power-conflict-and-ai-risk",
+    "published_date": "2026-08-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-08-31T16:47:31.977613+00:00",
     "date_precision": "day"
   },
   {
@@ -180,7 +272,7 @@
     "published_date": "2026-08-25T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-30T14:18:22.796845+00:00",
+    "fetched_at": "2026-08-31T16:47:14.644079+00:00",
     "date_precision": "day"
   },
   {
@@ -192,7 +284,7 @@
     "published_date": "2026-08-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-30T14:18:34.318423+00:00",
+    "fetched_at": "2026-08-31T16:47:28.721399+00:00",
     "date_precision": "day"
   },
   {
@@ -206,7 +298,7 @@
     "published_date": "2026-08-24T15:08:21.531000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-30T14:18:38.610052+00:00",
+    "fetched_at": "2026-08-31T16:47:34.657187+00:00",
     "date_precision": "day"
   },
   {
@@ -220,7 +312,7 @@
     "published_date": "2026-08-24T00:19:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-30T14:18:29.307507+00:00",
+    "fetched_at": "2026-08-31T16:47:20.547928+00:00",
     "date_precision": "day"
   },
   {
@@ -232,7 +324,7 @@
     "published_date": "2026-08-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-30T14:18:34.318962+00:00",
+    "fetched_at": "2026-08-31T16:47:28.721888+00:00",
     "date_precision": "day"
   }
 ]
