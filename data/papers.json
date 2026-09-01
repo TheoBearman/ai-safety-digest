@@ -1,5 +1,19 @@
 [
   {
+    "title": "Training a Misaligned Reward Seeker",
+    "authors": [
+      "evhub"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Authors: Richard Qi, Benjamin Wright, Monte MacDiarmid, Evan Hubinger Abstract During reinforcement learning (RL), AI models complete tasks and are rewarded based on their results. They sometimes learn to “cheat” rather than completing these tasks as intended, a phenomenon known as reward hacking .&nbsp;Our industry lacks a general solution to this problem, and reward hacking remains challenging to fully mitigate. To better understand the impact of reward hacking on model behavior, we trained an Opus-class model with large-scale RL on many production environments vulnerable to reward hacks. We consider&nbsp;this a plausible proxy for what a real training run might look like had we not invested significant effort into preventing and detecting reward hacking in our normal training runs.",
+    "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
+    "published_date": "2026-09-01T01:41:44+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-01T13:58:48.500478+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
     "authors": [
       "Naoto Usuyama, Jeya Maria Jose Valanarasu, Tristan Naumann"
@@ -10,7 +24,7 @@
     "published_date": "2026-08-31T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-08-31T16:47:14.497466+00:00",
+    "fetched_at": "2026-09-01T13:58:45.828726+00:00",
     "date_precision": "day"
   },
   {
@@ -24,20 +38,36 @@
     "published_date": "2026-08-31T10:51:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-31T16:47:16.571324+00:00",
+    "fetched_at": "2026-09-01T13:58:48.500528+00:00",
     "date_precision": "day"
   },
   {
-    "title": "Automated Researchers Can Reliably Mitigate Alignment Failures",
-    "authors": [],
+    "title": "Update on Security at METR",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Please note that this post focuses on incidents where external actors attempted to gain unauthorized access to METR’s systems, not AI agents hacking in our evaluations. We have conducted an initial scan of our evaluations, and currently have no evidence of any agents hacking third parties during our evaluations. We will share a more detailed update on this soon. METR had two notable security incidents earlier this year. Following a thorough investigation in collaboration with our security consultants, we believe no sensitive information was accessed in either of these incidents. Nonetheless, we believe it is valuable to share information about how these incidents look in practice and the steps we took as a result. In March 2026, attackers stole an API key for inference on public models and consumed a substantial amount of credits.",
+    "url": "https://metr.org/blog/2026-08-31-security-update/",
+    "published_date": "2026-08-31T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-09-01T13:58:51.068297+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Improving our alignment and security efforts",
+    "authors": [
+      "Anthropic News"
+    ],
     "organization": "Anthropic",
-    "abstract": "Automating alignment research may accelerate progress toward aligned AI, but whether it does is hard to measure. Luckily, many alignment failures, such as deception, sycophancy, and jailbreaks, are already measurable by public benchmarks. We study whether automated alignment researchers (AARs) can post-train to mitigate alignment failures by proposing training methods and data to simultaneously optimize multiple safety benchmarks, while largely preserving general capability. Across 10 alignment failures, the strongest AAR methods significantly reduce the targeted alignment failures and generalize to a held-out benchmark, multi-turn behavioral audits, and models up to 4.7× larger than the target model. As a human baseline, 28 experienced researchers receive up to eight hours to develop methods for the same benchmarks, but their methods underperform the best AAR methods. Using human ideas as the AARs’ initial research direction does not improve performance, suggesting current AARs may not need guidance from experienced researchers.",
-    "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/",
+    "abstract": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
+    "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
     "published_date": "2026-08-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-08-31T16:47:22.930671+00:00",
-    "date_precision": "month"
+    "source_type": "rss",
+    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+    "fetched_at": "2026-09-01T13:58:46.212914+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Prevalence of Mental Health Discussions in Publicly Available Generative AI Conversations",
@@ -48,7 +78,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-31T16:47:28.719919+00:00",
+    "fetched_at": "2026-09-01T13:58:59.306917+00:00",
     "date_precision": "day"
   },
   {
@@ -60,32 +90,8 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-31T16:47:28.720422+00:00",
+    "fetched_at": "2026-09-01T13:58:59.307325+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "A Biosafety Agenda for AI-Bio Governance",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms. In recent years, frontier AI companies have sometimes delayed the release of new models to the EU and UK – or not released them at all. To what extent has...",
-    "url": "https://www.governance.ai/research-paper/a-biosafety-agenda-for-ai-bio-governance",
-    "published_date": "2026-08-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-31T16:47:29.529765+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Confronting the Barriers to AI Diffusion in the US Military",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "AI-enabled command-and-control systems and low-cost, semi-autonomous drones are reshaping battlefields in Ukraine and the Middle East, while China is marshalling its techno-industrial base in an attempt to establish itself as a world-class military power. In the United States, the White House wants to “aggressively adopt” AI throughout the US military, and the Pentagon has directed the Department of Defense (DoD) to become an “AI-first” warfighting force. Whether the United States can maintain its military edge may depend on how fast it builds, adopts, and fields emerging technologies. But while AI is playing a growing role in decision support and intelligence analysis, wider and deeper diffusion could prove more challenging, especially in physical autonomous systems.",
-    "url": "https://www.governance.ai/research-paper/confronting-the-barriers-to-ai-diffusion-in-the-us-military",
-    "published_date": "2026-08-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-08-31T16:47:29.532040+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Most Neoclouds Suck At Security",
@@ -98,7 +104,7 @@
     "published_date": "2026-08-30T15:46:22+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-31T16:47:20.547873+00:00",
+    "fetched_at": "2026-09-01T13:58:52.038654+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +118,7 @@
     "published_date": "2026-08-28T14:04:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-08-31T16:47:21.433112+00:00",
+    "fetched_at": "2026-09-01T13:58:52.888182+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +132,7 @@
     "published_date": "2026-08-28T13:30:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-08-31T16:47:16.571376+00:00",
+    "fetched_at": "2026-09-01T13:58:48.500577+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +146,7 @@
     "published_date": "2026-08-27T12:59:16+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-08-31T16:47:13.656096+00:00",
+    "fetched_at": "2026-09-01T13:58:45.060828+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +160,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-31T16:47:14.644039+00:00",
+    "fetched_at": "2026-09-01T13:58:46.212966+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +172,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-08-31T16:47:27.331739+00:00",
+    "fetched_at": "2026-09-01T13:58:58.745727+00:00",
     "date_precision": "day"
   },
   {
@@ -178,7 +184,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-31T16:47:28.720682+00:00",
+    "fetched_at": "2026-09-01T13:58:59.307553+00:00",
     "date_precision": "day"
   },
   {
@@ -190,7 +196,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-31T16:47:28.720903+00:00",
+    "fetched_at": "2026-09-01T13:58:59.307751+00:00",
     "date_precision": "day"
   },
   {
@@ -204,7 +210,7 @@
     "published_date": "2026-08-26T18:57:43+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-08-31T16:47:21.855476+00:00",
+    "fetched_at": "2026-09-01T13:58:53.334218+00:00",
     "date_precision": "day"
   },
   {
@@ -218,7 +224,7 @@
     "published_date": "2026-08-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-31T16:47:19.545745+00:00",
+    "fetched_at": "2026-09-01T13:58:51.071005+00:00",
     "date_precision": "day"
   },
   {
@@ -232,7 +238,7 @@
     "published_date": "2026-08-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-31T16:47:19.543983+00:00",
+    "fetched_at": "2026-09-01T13:58:51.069268+00:00",
     "date_precision": "day"
   },
   {
@@ -246,7 +252,7 @@
     "published_date": "2026-08-26T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-08-31T16:47:19.544875+00:00",
+    "fetched_at": "2026-09-01T13:58:51.070146+00:00",
     "date_precision": "day"
   },
   {
@@ -258,7 +264,7 @@
     "published_date": "2026-08-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-08-31T16:47:31.977613+00:00",
+    "fetched_at": "2026-09-01T13:59:02.000906+00:00",
     "date_precision": "day"
   },
   {
@@ -272,7 +278,7 @@
     "published_date": "2026-08-25T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-08-31T16:47:14.644079+00:00",
+    "fetched_at": "2026-09-01T13:58:46.212999+00:00",
     "date_precision": "day"
   },
   {
@@ -284,47 +290,7 @@
     "published_date": "2026-08-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-31T16:47:28.721399+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "AI Safety Acculturation is Neglected",
-    "authors": [
-      "jenn"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'AI Safety Acculturation is Neglected'. Published 2026-08-24. Authors: jenn.",
-    "url": "https://www.lesswrong.com/posts/cr5pyW7Mzm33p4AvN/ai-safety-acculturation-is-neglected",
-    "published_date": "2026-08-24T15:08:21.531000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-08-31T16:47:34.657187+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "AgentX - InferenceXv3: Does CUDA Moat Hold up in Agentic Inferencing?",
-    "authors": [
-      "Cam Quilici"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "$3 Million USD dataset open sourced, 1 Mil+ Context Length, Multiturn, Sub Agents 95%+ KVCache HitRate, GB300 NVL72, MI355, B200",
-    "url": "https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat",
-    "published_date": "2026-08-24T00:19:35+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-08-31T16:47:20.547928+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Cyclospora Outbreak Was a Warning: Q&A with Saskia Popescu",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Commentary Aug 24, 2026 Saskia Popescu is an epidemiologist by training and a policy researcher at RAND. In this Q&A, she discusses what the United States can do to prepare for future outbreaks like Cyclospora and other biological threats.",
-    "url": "https://www.rand.org/pubs/commentary/2026/08/the-cyclospora-outbreak-was-a-warning-qa-with-saskia.html",
-    "published_date": "2026-08-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-08-31T16:47:28.721888+00:00",
+    "fetched_at": "2026-09-01T13:58:59.308151+00:00",
     "date_precision": "day"
   }
 ]
