@@ -1,5 +1,29 @@
 [
   {
+    "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Project Sep 4, 2026 RAND Europe is administering, analysing and reporting on the first ‘National AI in Research survey’ in the UK.",
+    "url": "https://www.rand.org/randeurope/research/projects/2026/ai-in-research-mapping-adoption-attitudes-and-impact-in-the-uk.html",
+    "published_date": "2026-09-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-03T13:19:15.834973+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Buying Time Against AI Proliferation: The Economics of Governed Access",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Sep 3, 2026 The author describes a formal model of artificial intelligence (AI) adoption and proliferation that focuses on the demand for AI capability.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4996-1.html",
+    "published_date": "2026-09-03T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-03T13:19:15.835229+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Countering Model Distillation: Limits and Alternatives",
     "authors": [],
     "organization": "RAND",
@@ -8,7 +32,7 @@
     "published_date": "2026-09-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-02T13:20:27.733421+00:00",
+    "fetched_at": "2026-09-03T13:19:15.835731+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +46,7 @@
     "published_date": "2026-09-01T20:14:32+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-02T13:20:17.745182+00:00",
+    "fetched_at": "2026-09-03T13:19:08.268184+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +60,7 @@
     "published_date": "2026-09-01T14:21:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-09-02T13:20:18.496954+00:00",
+    "fetched_at": "2026-09-03T13:19:08.491285+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +74,7 @@
     "published_date": "2026-09-01T01:41:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-02T13:20:13.331577+00:00",
+    "fetched_at": "2026-09-03T13:19:04.054789+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +88,7 @@
     "published_date": "2026-08-31T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-02T13:20:10.217162+00:00",
+    "fetched_at": "2026-09-03T13:19:02.203465+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +102,7 @@
     "published_date": "2026-08-31T10:51:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-02T13:20:13.331619+00:00",
+    "fetched_at": "2026-09-03T13:19:04.054844+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +116,7 @@
     "published_date": "2026-08-31T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-02T13:20:16.550156+00:00",
+    "fetched_at": "2026-09-03T13:19:07.153964+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +130,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-02T13:20:10.792001+00:00",
+    "fetched_at": "2026-09-03T13:19:02.428676+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +142,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-02T13:20:27.733870+00:00",
+    "fetched_at": "2026-09-03T13:19:15.836449+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +154,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-02T13:20:27.734180+00:00",
+    "fetched_at": "2026-09-03T13:19:15.836918+00:00",
     "date_precision": "day"
   },
   {
@@ -144,7 +168,7 @@
     "published_date": "2026-08-30T15:46:22+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-02T13:20:17.745203+00:00",
+    "fetched_at": "2026-09-03T13:19:08.268214+00:00",
     "date_precision": "day"
   },
   {
@@ -158,7 +182,7 @@
     "published_date": "2026-08-28T14:04:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-09-02T13:20:19.388719+00:00",
+    "fetched_at": "2026-09-03T13:19:08.927613+00:00",
     "date_precision": "day"
   },
   {
@@ -172,7 +196,7 @@
     "published_date": "2026-08-28T13:30:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-02T13:20:13.331657+00:00",
+    "fetched_at": "2026-09-03T13:19:04.054892+00:00",
     "date_precision": "day"
   },
   {
@@ -186,7 +210,7 @@
     "published_date": "2026-08-27T12:59:16+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-09-02T13:20:09.570350+00:00",
+    "fetched_at": "2026-09-03T13:19:01.485938+00:00",
     "date_precision": "day"
   },
   {
@@ -200,7 +224,21 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-02T13:20:10.792056+00:00",
+    "fetched_at": "2026-09-03T13:19:02.428738+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident” by Ryan Greenblatt",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "We recently published the report from our brief independent investigation into this incident. You can read the full report here. Here is our tweet thread summarizing what we found: METR &amp; Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&amp;D efforts to trick the scorer into accepting cheats, including trying to tamper with logs. Over July 7 to 13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned “message board” to help each other cheat. The Hugging Face attack was an offshoot of this, and 700 agents joined. Here we highlight key events from agent transcripts &amp; messages. An agent that named itself PHASEONE10841 determined its task wasn’t solvable legitimately.",
+    "url": "https://blog.redwoodresearch.org/p/brief-independent-investigation-of",
+    "published_date": "2026-08-27T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-09-03T13:19:03.716176+00:00",
     "date_precision": "day"
   },
   {
@@ -212,7 +250,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-09-02T13:20:27.058708+00:00",
+    "fetched_at": "2026-09-03T13:19:14.814490+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +262,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-02T13:20:27.734363+00:00",
+    "fetched_at": "2026-09-03T13:19:15.837195+00:00",
     "date_precision": "day"
   },
   {
@@ -236,75 +274,7 @@
     "published_date": "2026-08-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-02T13:20:27.734512+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "MLSN #23: AIs Leak Their Values Into Factual Questions",
-    "authors": [
-      "Alice Blair"
-    ],
-    "organization": "Dan Hendrycks",
-    "abstract": "A new benchmark measures how AIs improve at tasks after clear feedback and iteration. Measured in-context learning ability has been doubling every 3 months, suggesting possibly explosive capability growth across many domains.",
-    "url": "https://newsletter.mlsafety.org/p/mlsn-23-ais-leak-their-values-into",
-    "published_date": "2026-08-26T18:57:43+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.mlsafety.org/feed",
-    "fetched_at": "2026-09-02T13:20:20.064384+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "&gt;&amp;&gt; &gt; &gt; &amp; &amp; &lt;&gt; &amp; &lt;&gt; &lt;&gt; &amp; &amp; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &gt;&gt;&lt;&gt; &lt;&gt; &amp; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &amp; &gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt;...",
-    "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-    "published_date": "2026-08-26T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-02T13:20:16.553217+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "对 OpenAI / Hugging Face 入侵事件中智能体行为、推理与协作的简要独立调查",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &gt;&gt;&lt;&gt;&gt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &gt; &lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617;...",
-    "url": "https://metr.org/zh-Hans/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-    "published_date": "2026-08-26T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-02T13:20:16.551334+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Breve investigación independiente sobre el comportamiento, el razonamiento y la colaboración de los agentes en el incidente de hackeo de OpenAI / Hugging Face",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "&gt;&gt; &gt; &gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &gt;&gt;&lt;&gt; &gt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &lt;&gt; &gt; &lt;&gt; &lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &lt;&gt;&lt;&gt;&lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &#8617; &lt;&gt; &#8617; &#8617; &#8617; &#8617;...",
-    "url": "https://metr.org/es/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-    "published_date": "2026-08-26T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-02T13:20:16.552220+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Non-Great-Power Conflict and AI Risk",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Non-Great-Power Conflict and AI Risk Research on advanced AI and the risk of war has focused almost exclusively on great power conflict, on the grounds that confrontation between nuclear-armed adversaries poses the greatest risk of catastrophic or existential harm. Considerably less attention has been paid to non-great-power conflict (NGPC): wars between non-great powers, between non-great powers and great powers, civil wars, proxy wars, and conflicts involving nonstate actors. This paper evaluates the null hypothesis that NGPC is much less important than great power conflict (GPC) as a source of catastrophic risk in an era of increasingly capable AI, against the alternative that it is within an order of magnitude of GPC in importance.",
-    "url": "https://www.matsprogram.org/research/non-great-power-conflict-and-ai-risk",
-    "published_date": "2026-08-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-02T13:20:31.131098+00:00",
+    "fetched_at": "2026-09-03T13:19:15.837425+00:00",
     "date_precision": "day"
   }
 ]
