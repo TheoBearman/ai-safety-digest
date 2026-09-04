@@ -8,7 +8,19 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-03T13:19:15.834973+00:00",
+    "fetched_at": "2026-09-04T13:13:02.222799+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+    "published_date": "2026-09-03T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-09-04T13:12:59.037393+00:00",
     "date_precision": "day"
   },
   {
@@ -20,7 +32,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-03T13:19:15.835229+00:00",
+    "fetched_at": "2026-09-04T13:13:02.223049+00:00",
     "date_precision": "day"
   },
   {
@@ -32,7 +44,21 @@
     "published_date": "2026-09-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-03T13:19:15.835731+00:00",
+    "fetched_at": "2026-09-04T13:13:02.223541+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The Alignment Journal: Organization, Personnel, and Scope",
+    "authors": [
+      "Dan MacKinlay"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "[Cross-posted from the Alignment Journal's blog ] The Alignment Journal is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a reviewer, make an account on our website ; if you have a manuscript that you think would be a good fit for the Journal at this stage, email contact@alignmentjournal.org to request an invitation to submit. Manuscripts under review will become visible on our homepage, and you will be able to nominate yourself as a reviewer of a specific paper that interests you. We plan to open up submissions to everyone sometime in October. Here we announce the Journal's inaugural senior editorial board , advisory board , staff, organizational structure, and initial scope . We welcome questions and proposed changes to help us refine the scope in the future.",
+    "url": "https://www.alignmentforum.org/posts/9vm2wtAtb34pEkjje/the-alignment-journal-organization-personnel-and-scope",
+    "published_date": "2026-09-01T20:49:18+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-04T13:12:52.220959+00:00",
     "date_precision": "day"
   },
   {
@@ -46,7 +72,7 @@
     "published_date": "2026-09-01T20:14:32+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-03T13:19:08.268184+00:00",
+    "fetched_at": "2026-09-04T13:12:56.323258+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +86,7 @@
     "published_date": "2026-09-01T14:21:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-09-03T13:19:08.491285+00:00",
+    "fetched_at": "2026-09-04T13:12:56.524633+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +100,7 @@
     "published_date": "2026-09-01T01:41:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-03T13:19:04.054789+00:00",
+    "fetched_at": "2026-09-04T13:12:52.221024+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +114,7 @@
     "published_date": "2026-08-31T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-03T13:19:02.203465+00:00",
+    "fetched_at": "2026-09-04T13:12:50.228650+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +128,7 @@
     "published_date": "2026-08-31T10:51:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-03T13:19:04.054844+00:00",
+    "fetched_at": "2026-09-04T13:12:52.221071+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +142,7 @@
     "published_date": "2026-08-31T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-03T13:19:07.153964+00:00",
+    "fetched_at": "2026-09-04T13:12:55.331496+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +156,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-03T13:19:02.428676+00:00",
+    "fetched_at": "2026-09-04T13:12:50.365444+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +168,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-03T13:19:15.836449+00:00",
+    "fetched_at": "2026-09-04T13:13:02.224257+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +180,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-03T13:19:15.836918+00:00",
+    "fetched_at": "2026-09-04T13:13:02.224727+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +194,7 @@
     "published_date": "2026-08-30T15:46:22+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-03T13:19:08.268214+00:00",
+    "fetched_at": "2026-09-04T13:12:56.323287+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +208,7 @@
     "published_date": "2026-08-28T14:04:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-09-03T13:19:08.927613+00:00",
+    "fetched_at": "2026-09-04T13:12:57.002017+00:00",
     "date_precision": "day"
   },
   {
@@ -196,85 +222,7 @@
     "published_date": "2026-08-28T13:30:17+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-03T13:19:04.054892+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Piloting the world's first double-blind AI evaluations",
-    "authors": [
-      "Google DeepMind News"
-    ],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Piloting the world's first double-blind AI evaluations'. Published 2026-08-27. Authors: Google DeepMind News.",
-    "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-    "published_date": "2026-08-27T12:59:16+00:00",
-    "source_type": "rss",
-    "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-09-03T13:19:01.485938+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Previewing the Model Hardware Standard",
-    "authors": [
-      "Anthropic News"
-    ],
-    "organization": "Anthropic",
-    "abstract": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-    "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-    "published_date": "2026-08-27T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-03T13:19:02.428738+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident” by Ryan Greenblatt",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "We recently published the report from our brief independent investigation into this incident. You can read the full report here. Here is our tweet thread summarizing what we found: METR &amp; Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&amp;D efforts to trick the scorer into accepting cheats, including trying to tamper with logs. Over July 7 to 13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned “message board” to help each other cheat. The Hugging Face attack was an offshoot of this, and 700 agents joined. Here we highlight key events from agent transcripts &amp; messages. An agent that named itself PHASEONE10841 determined its task wasn’t solvable legitimately.",
-    "url": "https://blog.redwoodresearch.org/p/brief-independent-investigation-of",
-    "published_date": "2026-08-27T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-03T13:19:03.716176+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Optimal stopping: spending evaluation compute where it counts",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "We introduce optstop, an open-source tool for LLM evaluations that keeps running where uncertainty is high, and stops where estimates are precise or stable enough.",
-    "url": "https://www.aisi.gov.uk/blog/optimal-stopping-spending-evaluation-compute-where-it-counts",
-    "published_date": "2026-08-27T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-09-03T13:19:14.814490+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "OpenAI Says ChatGPT Is Safer for Teens. Now It Needs to Show Proof.",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Commentary Aug 27, 2026 Now, when OpenAI's system predicts that an account belongs to someone under 18, teen protections are automatically applied without waiting for a parent to activate them. But even ambitious efforts can fall short, and the public needs a way to discover when they do.",
-    "url": "https://www.rand.org/pubs/commentary/2026/08/openai-says-chatgpt-is-safer-for-teens-now-it-needs.html",
-    "published_date": "2026-08-27T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-03T13:19:15.837195+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Hardening Critical Infrastructure Software in an Era of Rapid AI Advancement: An Urgent Call for Coordinated Action",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Aug 27, 2026 This paper provides expert analysis on artificial intelligence–accelerated vulnerability discovery and the structural hardening of critical infrastructure software.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4957-1.html",
-    "published_date": "2026-08-27T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-03T13:19:15.837425+00:00",
+    "fetched_at": "2026-09-04T13:12:52.221118+00:00",
     "date_precision": "day"
   }
 ]
