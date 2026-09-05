@@ -1,5 +1,17 @@
 [
   {
+    "title": "AI Can Now Design Viruses. We Need Biosecurity Guardrails Now",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Commentary Sep 4, 2026 As AI advances, the risk of engineered viral bioweapons is growing. The window to prepare is now—by building a layered, resilient system of defense.",
+    "url": "https://www.rand.org/pubs/commentary/2026/09/ai-can-now-design-viruses-we-need-biosecurity-guardrails.html",
+    "published_date": "2026-09-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-05T12:27:50.656171+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
     "authors": [],
     "organization": "RAND",
@@ -8,7 +20,21 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-04T13:13:02.222799+00:00",
+    "fetched_at": "2026-09-05T12:27:50.656356+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "GPT-6 Astra: A new generation of intelligence",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+    "url": "https://openai.com/index/gpt-6-astra",
+    "published_date": "2026-09-03T11:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-09-05T12:27:40.356768+00:00",
     "date_precision": "day"
   },
   {
@@ -20,7 +46,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-04T13:12:59.037393+00:00",
+    "fetched_at": "2026-09-05T12:27:47.643230+00:00",
     "date_precision": "day"
   },
   {
@@ -32,7 +58,21 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-04T13:13:02.223049+00:00",
+    "fetched_at": "2026-09-05T12:27:50.656516+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "How concerned should we be about Astra's recurrent architecture?",
+    "authors": [
+      "Rauno Arike"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'How concerned should we be about Astra's recurrent architecture?'. Published 2026-09-02. Authors: Rauno Arike.",
+    "url": "https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent",
+    "published_date": "2026-09-02T18:28:22.183000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-09-05T12:27:55.119345+00:00",
     "date_precision": "day"
   },
   {
@@ -44,7 +84,7 @@
     "published_date": "2026-09-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-04T13:13:02.223541+00:00",
+    "fetched_at": "2026-09-05T12:27:50.656864+00:00",
     "date_precision": "day"
   },
   {
@@ -58,7 +98,7 @@
     "published_date": "2026-09-01T20:49:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-04T13:12:52.220959+00:00",
+    "fetched_at": "2026-09-05T12:27:41.556718+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +112,7 @@
     "published_date": "2026-09-01T20:14:32+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-04T13:12:56.323258+00:00",
+    "fetched_at": "2026-09-05T12:27:44.650879+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +126,7 @@
     "published_date": "2026-09-01T14:21:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-09-04T13:12:56.524633+00:00",
+    "fetched_at": "2026-09-05T12:27:44.937341+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +140,7 @@
     "published_date": "2026-09-01T01:41:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-04T13:12:52.221024+00:00",
+    "fetched_at": "2026-09-05T12:27:41.556775+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +154,7 @@
     "published_date": "2026-08-31T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-04T13:12:50.228650+00:00",
+    "fetched_at": "2026-09-05T12:27:39.524491+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +168,7 @@
     "published_date": "2026-08-31T10:51:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-04T13:12:52.221071+00:00",
+    "fetched_at": "2026-09-05T12:27:41.556813+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +182,7 @@
     "published_date": "2026-08-31T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-04T13:12:55.331496+00:00",
+    "fetched_at": "2026-09-05T12:27:43.774874+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +196,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-04T13:12:50.365444+00:00",
+    "fetched_at": "2026-09-05T12:27:39.722611+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +208,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-04T13:13:02.224257+00:00",
+    "fetched_at": "2026-09-05T12:27:50.657368+00:00",
     "date_precision": "day"
   },
   {
@@ -180,7 +220,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-04T13:13:02.224727+00:00",
+    "fetched_at": "2026-09-05T12:27:50.657702+00:00",
     "date_precision": "day"
   },
   {
@@ -194,35 +234,7 @@
     "published_date": "2026-08-30T15:46:22+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-04T13:12:56.323287+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Hugging Face attack surprised me",
-    "authors": [
-      "Ajeya Cotra"
-    ],
-    "organization": "Ajeya Cotra",
-    "abstract": "Research from Ajeya Cotra titled 'The Hugging Face attack surprised me'. Published 2026-08-28. Authors: Ajeya Cotra.",
-    "url": "https://www.planned-obsolescence.org/p/the-hugging-face-attack-surprised",
-    "published_date": "2026-08-28T14:04:18+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-09-04T13:12:57.002017+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Value generalisation Theory of Change: the theory behind the approach",
-    "authors": [
-      "Stuart_Armstrong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This is the first part of a theory of change explaining why I'm targeting value generalisation as the path to AI alignment. It presents the definitions and key claims behind the theory, and shows that most AI alignment failure modes are value generalisation failures . Note that a lot of these arguments are very similar to those about why alignment is hard in the first place. This is not a coincidence. I believe that lack of value generalisation is a fundamental reason for the hardness of the problem, at least when combined with the crucial claim , non-decomposability of AI alignment: we cannot divide alignment into simpler problems, at least not without generalisation. This post will be followed by a subsequent post on why I believe the corporate/for profit route is probably the safer route.",
-    "url": "https://www.alignmentforum.org/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the",
-    "published_date": "2026-08-28T13:30:17+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-04T13:12:52.221118+00:00",
+    "fetched_at": "2026-09-05T12:27:44.650900+00:00",
     "date_precision": "day"
   }
 ]
