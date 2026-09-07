@@ -1,5 +1,19 @@
 [
   {
+    "title": "Research acceleration: The view inside OpenAI",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "published_date": "2026-09-06T08:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-09-07T14:51:42.955793+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "AI Can Now Design Viruses. We Need Biosecurity Guardrails Now",
     "authors": [],
     "organization": "RAND",
@@ -8,7 +22,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-06T12:40:44.561862+00:00",
+    "fetched_at": "2026-09-07T14:51:55.019544+00:00",
     "date_precision": "day"
   },
   {
@@ -20,7 +34,21 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-06T12:40:44.562147+00:00",
+    "fetched_at": "2026-09-07T14:51:55.019797+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Steering towards “automated grading” degrades alignment",
+    "authors": [
+      "Jan Betley"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Steering towards “automated grading” degrades alignment'. Published 2026-09-03. Authors: Jan Betley.",
+    "url": "https://www.lesswrong.com/posts/wYZMmdWEt5QLM3m3e/steering-towards-automated-grading-degrades-alignment",
+    "published_date": "2026-09-03T18:17:15.698000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-09-07T14:52:02.582805+00:00",
     "date_precision": "day"
   },
   {
@@ -34,7 +62,7 @@
     "published_date": "2026-09-03T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-06T12:40:32.842170+00:00",
+    "fetched_at": "2026-09-07T14:51:42.955911+00:00",
     "date_precision": "day"
   },
   {
@@ -46,7 +74,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-06T12:40:41.464716+00:00",
+    "fetched_at": "2026-09-07T14:51:51.776295+00:00",
     "date_precision": "day"
   },
   {
@@ -58,7 +86,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-06T12:40:44.562371+00:00",
+    "fetched_at": "2026-09-07T14:51:55.020016+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +100,7 @@
     "published_date": "2026-09-02T18:28:22.183000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-06T12:40:49.774378+00:00",
+    "fetched_at": "2026-09-07T14:52:02.582799+00:00",
     "date_precision": "day"
   },
   {
@@ -84,7 +112,7 @@
     "published_date": "2026-09-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-06T12:40:44.562854+00:00",
+    "fetched_at": "2026-09-07T14:51:55.020509+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +126,7 @@
     "published_date": "2026-09-01T20:49:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-06T12:40:34.065347+00:00",
+    "fetched_at": "2026-09-07T14:51:44.807585+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +140,7 @@
     "published_date": "2026-09-01T20:14:32+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-06T12:40:38.229583+00:00",
+    "fetched_at": "2026-09-07T14:51:48.884497+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +154,7 @@
     "published_date": "2026-09-01T14:21:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-09-06T12:40:38.488140+00:00",
+    "fetched_at": "2026-09-07T14:51:49.189566+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +168,7 @@
     "published_date": "2026-09-01T01:41:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-06T12:40:34.065413+00:00",
+    "fetched_at": "2026-09-07T14:51:44.807656+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +182,7 @@
     "published_date": "2026-08-31T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-06T12:40:31.925276+00:00",
+    "fetched_at": "2026-09-07T14:51:42.200790+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +196,7 @@
     "published_date": "2026-08-31T10:51:46+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-06T12:40:34.065459+00:00",
+    "fetched_at": "2026-09-07T14:51:44.807704+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +210,7 @@
     "published_date": "2026-08-31T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-06T12:40:37.166695+00:00",
+    "fetched_at": "2026-09-07T14:51:47.930546+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +224,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-06T12:40:32.077001+00:00",
+    "fetched_at": "2026-09-07T14:51:42.337001+00:00",
     "date_precision": "day"
   },
   {
@@ -208,7 +236,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-06T12:40:44.563564+00:00",
+    "fetched_at": "2026-09-07T14:51:55.021183+00:00",
     "date_precision": "day"
   },
   {
@@ -220,21 +248,7 @@
     "published_date": "2026-08-31T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-06T12:40:44.564054+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Most Neoclouds Suck At Security",
-    "authors": [
-      "Jordan Nanos"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'Most Neoclouds Suck At Security'. Published 2026-08-30. Authors: Jordan Nanos.",
-    "url": "https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security",
-    "published_date": "2026-08-30T15:46:22+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-06T12:40:38.229611+00:00",
+    "fetched_at": "2026-09-07T14:51:55.021682+00:00",
     "date_precision": "day"
   }
 ]
