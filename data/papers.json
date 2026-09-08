@@ -1,5 +1,19 @@
 [
   {
+    "title": "TPU Inference Externalization Full Steam Ahead - InferenceX",
+    "authors": [
+      "Alec Ibarra"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "InferenceX, Up to 50% Better Performance per Dollar, Rapid Externalization of TPU stack, Growing Customer Base, Ironwood, TPUv8i, Reducing CUDA Moat",
+    "url": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
+    "published_date": "2026-09-07T20:00:18+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-09-08T13:22:12.738109+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Research acceleration: The view inside OpenAI",
     "authors": [
       "OpenAI News"
@@ -10,7 +24,21 @@
     "published_date": "2026-09-06T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-07T14:51:42.955793+00:00",
+    "fetched_at": "2026-09-08T13:22:07.535490+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Evaluation",
+    "authors": [
+      "Nina Panickssery"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Evaluation'. Published 2026-09-05. Authors: Nina Panickssery.",
+    "url": "https://www.lesswrong.com/posts/8hEhxnd3XkN5DrpfQ/evaluation",
+    "published_date": "2026-09-05T16:25:28.972000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-09-08T13:22:24.650164+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +50,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-07T14:51:55.019544+00:00",
+    "fetched_at": "2026-09-08T13:22:20.250030+00:00",
     "date_precision": "day"
   },
   {
@@ -34,7 +62,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-07T14:51:55.019797+00:00",
+    "fetched_at": "2026-09-08T13:22:20.250258+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +76,7 @@
     "published_date": "2026-09-03T18:17:15.698000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-07T14:52:02.582805+00:00",
+    "fetched_at": "2026-09-08T13:22:24.650177+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +90,7 @@
     "published_date": "2026-09-03T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-07T14:51:42.955911+00:00",
+    "fetched_at": "2026-09-08T13:22:07.535604+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +102,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-07T14:51:51.776295+00:00",
+    "fetched_at": "2026-09-08T13:22:15.836338+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +114,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-07T14:51:55.020016+00:00",
+    "fetched_at": "2026-09-08T13:22:20.250443+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +128,7 @@
     "published_date": "2026-09-02T18:28:22.183000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-07T14:52:02.582799+00:00",
+    "fetched_at": "2026-09-08T13:22:24.650158+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +140,7 @@
     "published_date": "2026-09-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-07T14:51:55.020509+00:00",
+    "fetched_at": "2026-09-08T13:22:20.250854+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +154,7 @@
     "published_date": "2026-09-01T20:49:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-07T14:51:44.807585+00:00",
+    "fetched_at": "2026-09-08T13:22:08.860469+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +168,7 @@
     "published_date": "2026-09-01T20:14:32+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-07T14:51:48.884497+00:00",
+    "fetched_at": "2026-09-08T13:22:12.738143+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +182,7 @@
     "published_date": "2026-09-01T14:21:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-09-07T14:51:49.189566+00:00",
+    "fetched_at": "2026-09-08T13:22:13.009487+00:00",
     "date_precision": "day"
   },
   {
@@ -168,87 +196,7 @@
     "published_date": "2026-09-01T01:41:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-07T14:51:44.807656+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
-    "authors": [
-      "Naoto Usuyama, Jeya Maria Jose Valanarasu, Tristan Naumann"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration. The post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
-    "published_date": "2026-08-31T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-07T14:51:42.200790+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Value generalisation Theory of Change: putting it into practice",
-    "authors": [
-      "Stuart_Armstrong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "In the previous post , I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalisation, what are the dangers of the approach, how should it be done, and how do we mitigate the risks? The formal theory of change is down below, but I'll put a collapsible version here, to make references easier: Theory of Change Inputs / activities : investment/grants, a small research team, small-medium compute resources. Outputs : Solutions to the three components of value generalisation (see here ) in academically rigorous forms, demonstrations of these solutions on toy problems, public benchmarks, and new benchmarks. If going commercial, applications of this value generalisation to saleable products. The first component is recognising that the AI is off-distribution in a value-relevant way.",
-    "url": "https://www.alignmentforum.org/posts/kjPEH4KGEHd8iQ4Hn/value-generalisation-theory-of-change-putting-it-into",
-    "published_date": "2026-08-31T10:51:46+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-07T14:51:44.807704+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Update on Security at METR",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Please note that this post focuses on incidents where external actors attempted to gain unauthorized access to METR’s systems, not AI agents hacking in our evaluations. We have conducted an initial scan of our evaluations, and currently have no evidence of any agents hacking third parties during our evaluations. We will share a more detailed update on this soon. METR had two notable security incidents earlier this year. Following a thorough investigation in collaboration with our security consultants, we believe no sensitive information was accessed in either of these incidents. Nonetheless, we believe it is valuable to share information about how these incidents look in practice and the steps we took as a result. In March 2026, attackers stole an API key for inference on public models and consumed a substantial amount of credits.",
-    "url": "https://metr.org/blog/2026-08-31-security-update/",
-    "published_date": "2026-08-31T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-07T14:51:47.930546+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Improving our alignment and security efforts",
-    "authors": [
-      "Anthropic News"
-    ],
-    "organization": "Anthropic",
-    "abstract": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
-    "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-    "published_date": "2026-08-31T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-07T14:51:42.337001+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Prevalence of Mental Health Discussions in Publicly Available Generative AI Conversations",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Aug 31, 2026 We aimed to quantify how prevalence varies under conservative vs expansive definitions of mental health by using a large public dataset of chatbot transcripts.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71368.html",
-    "published_date": "2026-08-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-07T14:51:55.021183+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Tax Policy Options to Promote Employment and Mitigate Federal Revenue Impacts in the Age of AI",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Aug 31, 2026 AI may lower federal revenue from labor taxes. The authors of this paper propose a six-category framework of tax code reform options that could stabilize revenue and protect jobs.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA4392-3.html",
-    "published_date": "2026-08-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-07T14:51:55.021682+00:00",
+    "fetched_at": "2026-09-08T13:22:08.860534+00:00",
     "date_precision": "day"
   }
 ]
