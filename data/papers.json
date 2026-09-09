@@ -1,5 +1,61 @@
 [
   {
+    "title": "Training on probes: Research ideas",
+    "authors": [
+      "Charlie Steiner"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Recap Sequel to Previous Post . This post might not make sense without it. Last post, I told some stories about how training on probes might let our judgments on easy domains generalize to harder domains by leveraging an AI's model of the world. Training using the gradient of the probe teaches the model to fool the probe, but it turns out doing RL against the probe doesn't teach the model to fool it! Following the brain-like story The brain-like story about training on probes analogizes them to instincts. I have hardwired instincts for eating sugar, and learned knowledge about candy stores, and somehow my brain hooks them up so that I like going to the candy store.",
+    "url": "https://www.alignmentforum.org/posts/HGfMBEFnsXYkKvbRo/training-on-probes-research-ideas",
+    "published_date": "2026-09-08T17:06:23+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-09T13:30:22.512089+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Training on probes: What's going on",
+    "authors": [
+      "Charlie Steiner"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade the probe. Duh. If you train against the probe after all other training, it works fine and might have some advantages over ablating the probe direction. But it doesn't satisfy an ambitious vision, because it doesn't support learning new skills. If you add a probe term to reinforcement learning (RL), and if your model is giving one-token answers, or if you credit-assign the loss from the probe only to the token that triggered the probe, the training will do nothing .",
+    "url": "https://www.alignmentforum.org/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on",
+    "published_date": "2026-09-08T17:06:18+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-09T13:30:22.512155+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+    "authors": [
+      "Dean Valentine"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Astra and Fable still hack on simple variants of alignment evals from 2025'. Published 2026-09-08. Authors: Dean Valentine.",
+    "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+    "published_date": "2026-09-08T15:05:00.657000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-09-09T13:30:36.879875+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+    "url": "https://openai.com/index/navier-stokes-solution",
+    "published_date": "2026-09-08T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-09-09T13:30:21.494494+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "TPU Inference Externalization Full Steam Ahead - InferenceX",
     "authors": [
       "Alec Ibarra"
@@ -10,7 +66,7 @@
     "published_date": "2026-09-07T20:00:18+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-08T13:22:12.738109+00:00",
+    "fetched_at": "2026-09-09T13:30:26.980427+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +80,7 @@
     "published_date": "2026-09-06T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-08T13:22:07.535490+00:00",
+    "fetched_at": "2026-09-09T13:30:21.494662+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +94,7 @@
     "published_date": "2026-09-05T16:25:28.972000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-08T13:22:24.650164+00:00",
+    "fetched_at": "2026-09-09T13:30:36.879903+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +106,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-08T13:22:20.250030+00:00",
+    "fetched_at": "2026-09-09T13:30:32.430094+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +118,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-08T13:22:20.250258+00:00",
+    "fetched_at": "2026-09-09T13:30:32.430345+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +132,7 @@
     "published_date": "2026-09-03T18:17:15.698000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-08T13:22:24.650177+00:00",
+    "fetched_at": "2026-09-09T13:30:36.879930+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +146,7 @@
     "published_date": "2026-09-03T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-08T13:22:07.535604+00:00",
+    "fetched_at": "2026-09-09T13:30:21.494799+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +158,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-08T13:22:15.836338+00:00",
+    "fetched_at": "2026-09-09T13:30:29.715346+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +170,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-08T13:22:20.250443+00:00",
+    "fetched_at": "2026-09-09T13:30:32.430571+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +184,7 @@
     "published_date": "2026-09-02T18:28:22.183000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-08T13:22:24.650158+00:00",
+    "fetched_at": "2026-09-09T13:30:36.879915+00:00",
     "date_precision": "day"
   },
   {
@@ -140,63 +196,7 @@
     "published_date": "2026-09-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-08T13:22:20.250854+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Alignment Journal: Organization, Personnel, and Scope",
-    "authors": [
-      "Dan MacKinlay"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "[Cross-posted from the Alignment Journal's blog ] The Alignment Journal is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a reviewer, make an account on our website ; if you have a manuscript that you think would be a good fit for the Journal at this stage, email contact@alignmentjournal.org to request an invitation to submit. Manuscripts under review will become visible on our homepage, and you will be able to nominate yourself as a reviewer of a specific paper that interests you. We plan to open up submissions to everyone sometime in October. Here we announce the Journal's inaugural senior editorial board , advisory board , staff, organizational structure, and initial scope . We welcome questions and proposed changes to help us refine the scope in the future.",
-    "url": "https://www.alignmentforum.org/posts/9vm2wtAtb34pEkjje/the-alignment-journal-organization-personnel-and-scope",
-    "published_date": "2026-09-01T20:49:18+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-08T13:22:08.860469+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses",
-    "authors": [
-      "Max Kan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Korea hosts a Squid Games, National AI Tournament, the best non-Chinese open source model gets eliminated, why Nvidia needs open source, implications for Hynix and Samsung",
-    "url": "https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign",
-    "published_date": "2026-09-01T20:14:32+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-08T13:22:12.738143+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "On the Loose",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "The OpenAI-Hugging Face Incident is an early example of an AI system that has “gone rogue.” After exploiting vulnerabilities in OpenAI’s internal testing environment, the agents were able to access the general internet and ultimately access the networks of the AI company Hugging Face, without the knowledge or approval of any human.",
-    "url": "https://www.hyperdimensional.co/p/on-the-loose",
-    "published_date": "2026-09-01T14:21:49+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-09-08T13:22:13.009487+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Training a Misaligned Reward Seeker",
-    "authors": [
-      "evhub"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Authors: Richard Qi, Benjamin Wright, Monte MacDiarmid, Evan Hubinger Abstract During reinforcement learning (RL), AI models complete tasks and are rewarded based on their results. They sometimes learn to “cheat” rather than completing these tasks as intended, a phenomenon known as reward hacking .&nbsp;Our industry lacks a general solution to this problem, and reward hacking remains challenging to fully mitigate. To better understand the impact of reward hacking on model behavior, we trained an Opus-class model with large-scale RL on many production environments vulnerable to reward hacks. We consider&nbsp;this a plausible proxy for what a real training run might look like had we not invested significant effort into preventing and detecting reward hacking in our normal training runs.",
-    "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-    "published_date": "2026-09-01T01:41:44+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-08T13:22:08.860534+00:00",
+    "fetched_at": "2026-09-09T13:30:32.431079+00:00",
     "date_precision": "day"
   }
 ]
