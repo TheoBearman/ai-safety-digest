@@ -1,5 +1,45 @@
 [
   {
+    "title": "Astra can do a concerning amount with no chain of thought",
+    "authors": [
+      "Neel Nanda"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve done enough sanity checks that I’d be surprised if the core claims were misleading One of the most striking things in the Astra report was the massive jump UK AISI found in no-CoT reasoning abilities. I was somewhat suspicious, given the size of the jump, and the many ways this kind of measurement can be misleading. Conveniently, I’ve independently been making my own no CoT reasoning benchmark [1] &nbsp;and tried it on there! Unfortunately, it replicates.",
+    "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
+    "published_date": "2026-09-10T02:31:26+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-10T13:21:18.469432+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Coalition Operations",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
+    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
+    "published_date": "2026-09-10T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-10T13:21:31.825932+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "How good are slop-vestigators?",
+    "authors": [
+      "Hasan Baig"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the benchmark as an Inspect eval. We find that top models cover up to 51% of findings under our rubric and that model performance improves with time budget and general capability. We observe OpenAI models are less likely than other models to suggest the incident came from an internal deployment, including when we synthetically modify the data to make it seem the swarm comes from Anthropic. Introduction Recent events have made it clear that agent swarms are a major threat. These swarms are hard to investigate - Ryan Greenblatt referred to the METR-OpenAI audit he was involved in as a \"slop-vestigation\" due to their reliance on agents, and the ways in which they failed.",
+    "url": "https://www.alignmentforum.org/posts/wt4kk6vFPEhkXvF8Q/how-good-are-slop-vestigators",
+    "published_date": "2026-09-08T22:13:19+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-10T13:21:18.469540+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Training on probes: Research ideas",
     "authors": [
       "Charlie Steiner"
@@ -10,7 +50,7 @@
     "published_date": "2026-09-08T17:06:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-09T13:30:22.512089+00:00",
+    "fetched_at": "2026-09-10T13:21:18.469580+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +64,7 @@
     "published_date": "2026-09-08T17:06:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-09T13:30:22.512155+00:00",
+    "fetched_at": "2026-09-10T13:21:18.469632+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +78,7 @@
     "published_date": "2026-09-08T15:05:00.657000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-09T13:30:36.879875+00:00",
+    "fetched_at": "2026-09-10T13:21:37.723721+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +92,7 @@
     "published_date": "2026-09-08T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-09T13:30:21.494494+00:00",
+    "fetched_at": "2026-09-10T13:21:17.435677+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +106,7 @@
     "published_date": "2026-09-07T20:00:18+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-09T13:30:26.980427+00:00",
+    "fetched_at": "2026-09-10T13:21:22.827969+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +120,7 @@
     "published_date": "2026-09-06T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-09T13:30:21.494662+00:00",
+    "fetched_at": "2026-09-10T13:21:17.435868+00:00",
     "date_precision": "day"
   },
   {
@@ -94,7 +134,7 @@
     "published_date": "2026-09-05T16:25:28.972000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-09T13:30:36.879903+00:00",
+    "fetched_at": "2026-09-10T13:21:37.723769+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +146,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-09T13:30:32.430094+00:00",
+    "fetched_at": "2026-09-10T13:21:31.603740+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +158,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-09T13:30:32.430345+00:00",
+    "fetched_at": "2026-09-10T13:21:31.604016+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +172,7 @@
     "published_date": "2026-09-03T18:17:15.698000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-09T13:30:36.879930+00:00",
+    "fetched_at": "2026-09-10T13:21:37.723787+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +186,7 @@
     "published_date": "2026-09-03T11:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-09T13:30:21.494799+00:00",
+    "fetched_at": "2026-09-10T13:21:17.435981+00:00",
     "date_precision": "day"
   },
   {
@@ -158,7 +198,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-09T13:30:29.715346+00:00",
+    "fetched_at": "2026-09-10T13:21:25.806081+00:00",
     "date_precision": "day"
   },
   {
@@ -170,33 +210,7 @@
     "published_date": "2026-09-03T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-09T13:30:32.430571+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "How concerned should we be about Astra's recurrent architecture?",
-    "authors": [
-      "Rauno Arike"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'How concerned should we be about Astra's recurrent architecture?'. Published 2026-09-02. Authors: Rauno Arike.",
-    "url": "https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent",
-    "published_date": "2026-09-02T18:28:22.183000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-09T13:30:36.879915+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Countering Model Distillation: Limits and Alternatives",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Sep 2, 2026 Artificial intelligence model distillation (training new models on outputs of more capable ones) could affect U.S. frontier model advantage. New policy tools could augment such technical countermeasures as raising costs or reducing model quality.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA5081-1.html",
-    "published_date": "2026-09-02T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-09T13:30:32.431079+00:00",
+    "fetched_at": "2026-09-10T13:21:31.604249+00:00",
     "date_precision": "day"
   }
 ]
