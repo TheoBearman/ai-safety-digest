@@ -1,16 +1,30 @@
 [
   {
-    "title": "Astra can do a concerning amount with no chain of thought",
+    "title": "An operationalization of opaque serial depth",
     "authors": [
-      "Neel Nanda"
+      "ryan_greenblatt"
     ],
     "organization": "Alignment Forum",
-    "abstract": "TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve done enough sanity checks that I’d be surprised if the core claims were misleading One of the most striking things in the Astra report was the massive jump UK AISI found in no-CoT reasoning abilities. I was somewhat suspicious, given the size of the jump, and the many ways this kind of measurement can be misleading. Conveniently, I’ve independently been making my own no CoT reasoning benchmark [1] &nbsp;and tried it on there! Unfortunately, it replicates.",
-    "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
-    "published_date": "2026-09-10T02:31:26+00:00",
+    "abstract": "Currently, chain-of-thought (CoT) is a valuable tool for overseeing AI models. However, some architectural shifts could significantly reduce CoT monitorability . We have recently proposed that AI companies should transparently share ​​information about the degree to which their architectures may allow for latent reasoning and communication. To assist with this proposal, this document operationalizes a measure that serves as a proxy for the amount of unverbalized serial cognition a model can perform. Our measure is a specific instantiation of the notion of “opaque serial depth”, originally defined in a recent paper from GDM ( Brown-Cohen et al, 2026 ). To measure the opaque serial depth of a computation, Brown-Cohen et al. propose measuring the longest path in the computational graph which doesn’t pass through some form of “interpretable bottleneck”.",
+    "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
+    "published_date": "2026-09-10T17:26:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-10T13:21:18.469432+00:00",
+    "fetched_at": "2026-09-11T13:20:10.811392+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Proposal for tracking the effects of architecture on monitorability",
+    "authors": [
+      "ryan_greenblatt"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward). [1] As companies begin to explore such architectures, we believe it is important to transparently share evidence about how monitorability varies with architecture and training method. To inform the scientific debate on how to make tradeoffs between performance and monitorability, we believe AI companies should: Regularly report externally verified information about the degree to which their architectures may allow for latent reasoning or communication.",
+    "url": "https://www.alignmentforum.org/posts/hLPGv8QjPcNLtDp3A/proposal-for-tracking-the-effects-of-architecture-on",
+    "published_date": "2026-09-10T17:18:38+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-11T13:20:10.811570+00:00",
     "date_precision": "day"
   },
   {
@@ -19,11 +33,39 @@
     "organization": "CSET",
     "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
     "url": "https://cset.georgetown.edu/publication/coalition-operations/",
-    "published_date": "2026-09-10T00:00:00+00:00",
+    "published_date": "2026-09-10T04:47:25+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-10T13:21:31.825932+00:00",
-    "date_precision": "month"
+    "fetched_at": "2026-09-11T13:20:21.430682+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Astra can do a concerning amount with no chain of thought",
+    "authors": [
+      "Neel Nanda"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve done enough sanity checks that I’d be surprised if the core claims were misleading One of the most striking things in the Astra report was the massive jump UK AISI found in no-CoT reasoning abilities. I was somewhat suspicious, given the size of the jump, and the many ways this kind of measurement can be misleading. Conveniently, I’ve independently been making my own no CoT reasoning benchmark [1] &nbsp;and tried it on there! Unfortunately, it replicates.",
+    "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
+    "published_date": "2026-09-10T02:31:26+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-11T13:20:10.811885+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“Proposal for tracking the effects of architecture on monitorability” by Ryan Greenblatt, Alek Westover, Lukas Finnveden",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward).[1] As companies begin to explore such architectures, we believe it is important to transparently share evidence about how monitorability varies with architecture and training method. To inform the scientific debate on how to make tradeoffs between performance and monitorability, we believe AI companies should: Regularly report externally verified information about the degree to which their architectures may allow for latent reasoning or communication. Companies should publicly disclose enough information about architectures to allow external scientists to determine whether they could potentially enable models to perform much more complex reasoning without this reasoning appearing in the chain of thought (“latent reasoning”) or allow for latent communication between different instances of a model.",
+    "url": "https://blog.redwoodresearch.org/p/proposal-for-tracking-the-effects",
+    "published_date": "2026-09-10T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-09-11T13:20:10.174307+00:00",
+    "date_precision": "day"
   },
   {
     "title": "How good are slop-vestigators?",
@@ -36,7 +78,7 @@
     "published_date": "2026-09-08T22:13:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-10T13:21:18.469540+00:00",
+    "fetched_at": "2026-09-11T13:20:10.811987+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +92,7 @@
     "published_date": "2026-09-08T17:06:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-10T13:21:18.469580+00:00",
+    "fetched_at": "2026-09-11T13:20:10.812025+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +106,7 @@
     "published_date": "2026-09-08T17:06:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-10T13:21:18.469632+00:00",
+    "fetched_at": "2026-09-11T13:20:10.812079+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +120,7 @@
     "published_date": "2026-09-08T15:05:00.657000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-10T13:21:37.723721+00:00",
+    "fetched_at": "2026-09-11T13:20:25.847459+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +134,7 @@
     "published_date": "2026-09-08T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-10T13:21:17.435677+00:00",
+    "fetched_at": "2026-09-11T13:20:09.555789+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +148,7 @@
     "published_date": "2026-09-07T20:00:18+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-10T13:21:22.827969+00:00",
+    "fetched_at": "2026-09-11T13:20:14.962034+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +162,19 @@
     "published_date": "2026-09-06T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-10T13:21:17.435868+00:00",
+    "fetched_at": "2026-09-11T13:20:09.555957+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "You Are What You Read: Misalignment via In-Context Persona Induction",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "You Are What You Read: Misalignment via In-Context Persona Induction Broad misalignment has been produced by finetuning on narrow data, harmful or benign, and in context only by demonstrations of the undesirable behaviour itself. We show that benign data suffices in context, with no finetuning and no demonstration of harmful behaviour in the prompt. Biographical facts that converge on a single figure, placed in a model's context as ordinary conversational turns, lead it to answer as that figure on questions the facts never touch. We call this persona induction. Across nine personas and thirteen models, identity adoption rises sigmoidally with the number of facts and crosses 50% within 3 to 10 of them. Misalignment then tracks which figure is described. Harmless personas reach full adoption with near-zero misalignment, while harmful ones voice their characteristic views on unrelated questions, at rates up to 80%.",
+    "url": "https://www.matsprogram.org/research/you-are-what-you-read-misalignment-via-in-context-persona-induction",
+    "published_date": "2026-09-06T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-09-11T13:20:23.914081+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +188,7 @@
     "published_date": "2026-09-05T16:25:28.972000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-10T13:21:37.723769+00:00",
+    "fetched_at": "2026-09-11T13:20:25.847493+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +200,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-10T13:21:31.603740+00:00",
+    "fetched_at": "2026-09-11T13:20:21.274156+00:00",
     "date_precision": "day"
   },
   {
@@ -158,59 +212,7 @@
     "published_date": "2026-09-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-10T13:21:31.604016+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Steering towards “automated grading” degrades alignment",
-    "authors": [
-      "Jan Betley"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Steering towards “automated grading” degrades alignment'. Published 2026-09-03. Authors: Jan Betley.",
-    "url": "https://www.lesswrong.com/posts/wYZMmdWEt5QLM3m3e/steering-towards-automated-grading-degrades-alignment",
-    "published_date": "2026-09-03T18:17:15.698000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-10T13:21:37.723787+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "GPT-6 Astra: A new generation of intelligence",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-    "url": "https://openai.com/index/gpt-6-astra",
-    "published_date": "2026-09-03T11:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-10T13:21:17.435981+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
-    "published_date": "2026-09-03T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-10T13:21:25.806081+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Buying Time Against AI Proliferation: The Economics of Governed Access",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Sep 3, 2026 The author describes a formal model of artificial intelligence (AI) adoption and proliferation that focuses on the demand for AI capability.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4996-1.html",
-    "published_date": "2026-09-03T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-10T13:21:31.604249+00:00",
+    "fetched_at": "2026-09-11T13:20:21.274416+00:00",
     "date_precision": "day"
   }
 ]

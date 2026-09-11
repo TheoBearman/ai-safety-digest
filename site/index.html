@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Safety Digest — September 03, 2026 to September 10, 2026</title>
-  <meta name="description" content="A curated digest of 16 AI safety research papers from leading organizations and researchers. September 03, 2026 through September 10, 2026.">
+  <title>AI Safety Digest — September 04, 2026 to September 11, 2026</title>
+  <meta name="description" content="A curated digest of 16 AI safety research papers from leading organizations and researchers. September 04, 2026 through September 11, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1053,7 +1053,7 @@ a:hover {
       <h1 class="site-title" id="digest-title">AI Safety Digest</h1>
       <hr class="header-rule">
       <div class="header-meta">
-        <span class="header-daterange" id="date-range">September 03, 2026 &mdash; September 10, 2026</span>        <span class="header-separator">&middot;</span>
+        <span class="header-daterange" id="date-range">September 04, 2026 &mdash; September 11, 2026</span>        <span class="header-separator">&middot;</span>
         <span class="header-count" id="paper-count"><strong>16</strong> papers</span>      </div>
       <div class="digest-toggle" role="group" aria-label="Digest time range">
         <button class="toggle-btn" data-mode="daily">Daily</button>
@@ -1066,7 +1066,7 @@ a:hover {
   <nav class="filter-bar" aria-label="Filter papers by organization">
     <div class="filter-bar-inner">
       <div class="filter-scroll">
-        <button class="filter-pill active" data-filter="all">All <span class="pill-count">16</span></button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="Google DeepMind">Google DeepMind</button>        <button class="filter-pill" data-filter="CSET">CSET</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">16</span></button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="MATS">MATS</button>        <button class="filter-pill" data-filter="CSET">CSET</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
     </div>
   </nav>
 
@@ -1080,20 +1080,36 @@ a:hover {
       <span class="paper-date">Sep 10, 2026</span>
     </div>
     <h3 class="paper-title">
-      <a href="https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought" target="_blank" rel="noopener noreferrer">Astra can do a concerning amount with no chain of thought</a>
-    </h3>    <p class="paper-authors">Neel Nanda</p>    <div class="paper-abstract">
+      <a href="https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth" target="_blank" rel="noopener noreferrer">An operationalization of opaque serial depth</a>
+    </h3>    <p class="paper-authors">ryan_greenblatt</p>    <div class="paper-abstract">
       <details class="abstract-expand">
         <summary class="abstract-toggle">
-          <span class="abstract-preview">TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve done enough sanity checks that I’d be surprised if the core claims were misleading One of the most striking things in the Astra report was the massive jump UK AISI found in no-CoT reasoning abilities. I was somewhat suspicious, given the size of the jump, and the many ways this kind of measurement can be misleading. Conveniently, I’ve independently been making my own no CoT reasoning benchmark [1] &amp;nbsp;and tried it on there! Unfortunately, it replicates.</span>
+          <span class="abstract-preview">Currently, chain-of-thought (CoT) is a valuable tool for overseeing AI models. However, some architectural shifts could significantly reduce CoT monitorability . We have recently proposed that AI companies should transparently share ​​information about the degree to which their architectures may allow for latent reasoning and communication. To assist with this proposal, this document operationalizes a measure that serves as a proxy for the amount of unverbalized serial cognition a model can perform. Our measure is a specific instantiation of the notion of “opaque serial depth”, originally defined in a recent paper from GDM ( Brown-Cohen et al, 2026 ). To measure the opaque serial depth of a computation, Brown-Cohen et al. propose measuring the longest path in the computational graph which doesn’t pass through some form of “interpretable bottleneck”.</span>
           <span class="toggle-label">More</span>
         </summary>
-        <div class="abstract-full">TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve done enough sanity checks that I’d be surprised if the core claims were misleading One of the most striking things in the Astra report was the massive jump UK AISI found in no-CoT reasoning abilities. I was somewhat suspicious, given the size of the jump, and the many ways this kind of measurement can be misleading. Conveniently, I’ve independently been making my own no CoT reasoning benchmark [1] &amp;nbsp;and tried it on there! Unfortunately, it replicates.</div>
+        <div class="abstract-full">Currently, chain-of-thought (CoT) is a valuable tool for overseeing AI models. However, some architectural shifts could significantly reduce CoT monitorability . We have recently proposed that AI companies should transparently share ​​information about the degree to which their architectures may allow for latent reasoning and communication. To assist with this proposal, this document operationalizes a measure that serves as a proxy for the amount of unverbalized serial cognition a model can perform. Our measure is a specific instantiation of the notion of “opaque serial depth”, originally defined in a recent paper from GDM ( Brown-Cohen et al, 2026 ). To measure the opaque serial depth of a computation, Brown-Cohen et al. propose measuring the longest path in the computational graph which doesn’t pass through some form of “interpretable bottleneck”.</div>
       </details>
-    </div>    <a href="https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+    </div>    <a href="https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-09-10">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Sep 10, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/hLPGv8QjPcNLtDp3A/proposal-for-tracking-the-effects-of-architecture-on" target="_blank" rel="noopener noreferrer">Proposal for tracking the effects of architecture on monitorability</a>
+    </h3>    <p class="paper-authors">ryan_greenblatt</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward). [1] As companies begin to explore such architectures, we believe it is important to transparently share evidence about how monitorability varies with architecture and training method. To inform the scientific debate on how to make tradeoffs between performance and monitorability, we believe AI companies should: Regularly report externally verified information about the degree to which their architectures may allow for latent reasoning or communication.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward). [1] As companies begin to explore such architectures, we believe it is important to transparently share evidence about how monitorability varies with architecture and training method. To inform the scientific debate on how to make tradeoffs between performance and monitorability, we believe AI companies should: Regularly report externally verified information about the degree to which their architectures may allow for latent reasoning or communication.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/hLPGv8QjPcNLtDp3A/proposal-for-tracking-the-effects-of-architecture-on" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="CSET" data-date="2026-09-10">
     <div class="paper-meta">
       <span class="org-tag" data-org="CSET">CSET</span>
-      <span class="paper-date">Sep 2026</span>
+      <span class="paper-date">Sep 10, 2026</span>
     </div>
     <h3 class="paper-title">
       <a href="https://cset.georgetown.edu/publication/coalition-operations/" target="_blank" rel="noopener noreferrer">Coalition Operations</a>
@@ -1106,6 +1122,38 @@ a:hover {
         <div class="abstract-full">AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.</div>
       </details>
     </div>    <a href="https://cset.georgetown.edu/publication/coalition-operations/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-09-10">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Sep 10, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought" target="_blank" rel="noopener noreferrer">Astra can do a concerning amount with no chain of thought</a>
+    </h3>    <p class="paper-authors">Neel Nanda</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve done enough sanity checks that I’d be surprised if the core claims were misleading One of the most striking things in the Astra report was the massive jump UK AISI found in no-CoT reasoning abilities. I was somewhat suspicious, given the size of the jump, and the many ways this kind of measurement can be misleading. Conveniently, I’ve independently been making my own no CoT reasoning benchmark [1] &amp;nbsp;and tried it on there! Unfortunately, it replicates.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve done enough sanity checks that I’d be surprised if the core claims were misleading One of the most striking things in the Astra report was the massive jump UK AISI found in no-CoT reasoning abilities. I was somewhat suspicious, given the size of the jump, and the many ways this kind of measurement can be misleading. Conveniently, I’ve independently been making my own no CoT reasoning benchmark [1] &amp;nbsp;and tried it on there! Unfortunately, it replicates.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Redwood Research" data-date="2026-09-10">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Redwood Research">Redwood Research</span>
+      <span class="paper-date">Sep 10, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://blog.redwoodresearch.org/p/proposal-for-tracking-the-effects" target="_blank" rel="noopener noreferrer">“Proposal for tracking the effects of architecture on monitorability” by Ryan Greenblatt, Alek Westover, Lukas Finnveden</a>
+    </h3>    <p class="paper-authors">Redwood Research Blog</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward).[1] As companies begin to explore such architectures, we believe it is important to transparently share evidence about how monitorability varies with architecture and training method. To inform the scientific debate on how to make tradeoffs between performance and monitorability, we believe AI companies should: Regularly report externally verified information about the degree to which their architectures may allow for latent reasoning or communication. Companies should publicly disclose enough information about architectures to allow external scientists to determine whether they could potentially enable models to perform much more complex reasoning without this reasoning appearing in the chain of thought (“latent reasoning”) or allow for latent communication between different instances of a model.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward).[1] As companies begin to explore such architectures, we believe it is important to transparently share evidence about how monitorability varies with architecture and training method. To inform the scientific debate on how to make tradeoffs between performance and monitorability, we believe AI companies should: Regularly report externally verified information about the degree to which their architectures may allow for latent reasoning or communication. Companies should publicly disclose enough information about architectures to allow external scientists to determine whether they could potentially enable models to perform much more complex reasoning without this reasoning appearing in the chain of thought (“latent reasoning”) or allow for latent communication between different instances of a model.</div>
+      </details>
+    </div>    <a href="https://blog.redwoodresearch.org/p/proposal-for-tracking-the-effects" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-09-08">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1218,6 +1266,22 @@ a:hover {
         <div class="abstract-full">Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.</div>
       </details>
     </div>    <a href="https://openai.com/index/research-acceleration-view-inside-openai" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="MATS" data-date="2026-09-06">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="MATS">MATS</span>
+      <span class="paper-date">Sep 6, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.matsprogram.org/research/you-are-what-you-read-misalignment-via-in-context-persona-induction" target="_blank" rel="noopener noreferrer">You Are What You Read: Misalignment via In-Context Persona Induction</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">You Are What You Read: Misalignment via In-Context Persona Induction Broad misalignment has been produced by finetuning on narrow data, harmful or benign, and in context only by demonstrations of the undesirable behaviour itself. We show that benign data suffices in context, with no finetuning and no demonstration of harmful behaviour in the prompt. Biographical facts that converge on a single figure, placed in a model&#39;s context as ordinary conversational turns, lead it to answer as that figure on questions the facts never touch. We call this persona induction. Across nine personas and thirteen models, identity adoption rises sigmoidally with the number of facts and crosses 50% within 3 to 10 of them. Misalignment then tracks which figure is described. Harmless personas reach full adoption with near-zero misalignment, while harmful ones voice their characteristic views on unrelated questions, at rates up to 80%.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">You Are What You Read: Misalignment via In-Context Persona Induction Broad misalignment has been produced by finetuning on narrow data, harmful or benign, and in context only by demonstrations of the undesirable behaviour itself. We show that benign data suffices in context, with no finetuning and no demonstration of harmful behaviour in the prompt. Biographical facts that converge on a single figure, placed in a model&#39;s context as ordinary conversational turns, lead it to answer as that figure on questions the facts never touch. We call this persona induction. Across nine personas and thirteen models, identity adoption rises sigmoidally with the number of facts and crosses 50% within 3 to 10 of them. Misalignment then tracks which figure is described. Harmless personas reach full adoption with near-zero misalignment, while harmful ones voice their characteristic views on unrelated questions, at rates up to 80%.</div>
+      </details>
+    </div>    <a href="https://www.matsprogram.org/research/you-are-what-you-read-misalignment-via-in-context-persona-induction" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="LessWrong" data-date="2026-09-05">
     <div class="paper-meta">
       <span class="org-tag" data-org="LessWrong">LessWrong</span>
@@ -1266,70 +1330,6 @@ a:hover {
         <div class="abstract-full">Project Sep 4, 2026 RAND Europe is administering, analysing and reporting on the first ‘National AI in Research survey’ in the UK.</div>
       </details>
     </div>    <a href="https://www.rand.org/randeurope/research/projects/2026/ai-in-research-mapping-adoption-attitudes-and-impact-in-the-uk.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="LessWrong" data-date="2026-09-03">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="LessWrong">LessWrong</span>
-      <span class="paper-date">Sep 3, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.lesswrong.com/posts/wYZMmdWEt5QLM3m3e/steering-towards-automated-grading-degrades-alignment" target="_blank" rel="noopener noreferrer">Steering towards “automated grading” degrades alignment</a>
-    </h3>    <p class="paper-authors">Jan Betley</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Research from LessWrong titled &#39;Steering towards “automated grading” degrades alignment&#39;. Published 2026-09-03. Authors: Jan Betley.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Research from LessWrong titled &#39;Steering towards “automated grading” degrades alignment&#39;. Published 2026-09-03. Authors: Jan Betley.</div>
-      </details>
-    </div>    <a href="https://www.lesswrong.com/posts/wYZMmdWEt5QLM3m3e/steering-towards-automated-grading-degrades-alignment" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-09-03">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="OpenAI">OpenAI</span>
-      <span class="paper-date">Sep 3, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://openai.com/index/gpt-6-astra" target="_blank" rel="noopener noreferrer">GPT-6 Astra: A new generation of intelligence</a>
-    </h3>    <p class="paper-authors">OpenAI News</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.</div>
-      </details>
-    </div>    <a href="https://openai.com/index/gpt-6-astra" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Google DeepMind" data-date="2026-09-03">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Google DeepMind">Google DeepMind</span>
-      <span class="paper-date">Sep 3, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/" target="_blank" rel="noopener noreferrer">Introducing WeatherNext 3, our most advanced and accurate global weather AI model</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.</div>
-      </details>
-    </div>    <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-09-03">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="RAND">RAND</span>
-      <span class="paper-date">Sep 3, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.rand.org/pubs/research_reports/RRA4996-1.html" target="_blank" rel="noopener noreferrer">Buying Time Against AI Proliferation: The Economics of Governed Access</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Research Sep 3, 2026 The author describes a formal model of artificial intelligence (AI) adoption and proliferation that focuses on the demand for AI capability.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Research Sep 3, 2026 The author describes a formal model of artificial intelligence (AI) adoption and proliferation that focuses on the demand for AI capability.</div>
-      </details>
-    </div>    <a href="https://www.rand.org/pubs/research_reports/RRA4996-1.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>    </div>
   </main>
 
@@ -1350,11 +1350,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Alignment Forum</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 4 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 6 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Alignment Science</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 31 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 31 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Engineering</span>
@@ -1362,7 +1362,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Frontier Red Team</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 10 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 10 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic News (research only)</span>
@@ -1374,7 +1374,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">ARC</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 7 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 7 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CAIS</span>
@@ -1382,7 +1382,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CHAI Berkeley</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 10 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 10 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CLTR</span>
@@ -1394,7 +1394,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CSET Georgetown</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 5 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 5 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Dan Hendrycks — ML Safety Newsletter</span>
@@ -1426,11 +1426,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Google DeepMind Safety</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 25 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 25 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">GovAI Oxford</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 215 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 215 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Helen Toner — Rising Tide</span>
@@ -1446,15 +1446,15 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Lennart Heim</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 6 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 6 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">LessWrong</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 9 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 6 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">MATS</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 28 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 28 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">METR</span>
@@ -1474,7 +1474,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">OpenAI Research Publications</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 3 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 2 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Paul Christiano</span>
@@ -1486,7 +1486,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">RAND AI</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 14 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 14 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Reddit r/aisafety</span>
@@ -1502,7 +1502,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Redwood Research</span>
-            <span class="health-meta">last data May 11, 2026</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Seb Krier — Technologik</span>
@@ -1510,11 +1510,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">SemiAnalysis</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">UK AISI</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 193 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 193 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">US AISI (NIST)</span>
@@ -1522,23 +1522,23 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Yoshua Bengio</span>
-            <span class="health-meta">last data Sep 10, 2026 &middot; 16 items</span>
+            <span class="health-meta">last data Sep 11, 2026 &middot; 16 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Zvi Mowshowitz</span>
             <span class="health-meta">last data May 11, 2026</span>
           </li>        </ul>
       </details>      <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-09-10 13:21:38</p>
+      <p class="footer-timestamp">2026-09-11 13:20:26</p>
     </div>
   </footer>
 
   <!-- Filter + Digest Mode JS -->
   <script>
     (function () {
-      var FETCH_DATE = '2026-09-10';
-      var WEEK_START = 'September 03, 2026';
-      var WEEK_END = 'September 10, 2026';
+      var FETCH_DATE = '2026-09-11';
+      var WEEK_START = 'September 04, 2026';
+      var WEEK_END = 'September 11, 2026';
       var TOTAL_COUNT = 16;
 
       var pills = document.querySelectorAll('.filter-pill');
