@@ -1,5 +1,31 @@
 [
   {
+    "title": "CoT controllability evals seem very under-elicited",
+    "authors": [
+      "Jozdien"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "The CoTControl eval asks reasoning models to follow formatting constraints in their chain-of-thought (e.g. write in all lowercase, avoid a specific word) while solving questions. Models seem to mostly be pretty bad at this: recent models score between 0-30% with the exception of Mythos Preview [1] . OpenAI and Anthropic have used this eval in recent system cards ( GPT-5.5 , Fable 5 ) to argue that their current frontier models are pretty bad at shaping their CoTs in ways that would reduce monitorability. [2] I asked Claude Opus 4.6 to iterate on prompt templates for the eval, and find that using better prompts improves performance for open-source models by ~2-3x or more (e.g. from 5.5% to 15% for GPT-OSS-120B). My guess is that more iteration would probably produce even stronger results.",
+    "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
+    "published_date": "2026-09-11T17:12:04+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-12T12:41:19.545850+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Public procurement and AI governance: Developing a strategic framework for middle powers",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Sep 11, 2026 This report examines how AI middle powers can use public procurement to govern frontier AI. It develops a set of procurement guarantees, and assesses whether coordinated purchasing standards could strengthen state bargaining power.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA5284-1.html",
+    "published_date": "2026-09-11T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-12T12:41:28.660354+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "An operationalization of opaque serial depth",
     "authors": [
       "ryan_greenblatt"
@@ -10,7 +36,7 @@
     "published_date": "2026-09-10T17:26:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-11T13:20:10.811392+00:00",
+    "fetched_at": "2026-09-12T12:41:19.546683+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +50,7 @@
     "published_date": "2026-09-10T17:18:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-11T13:20:10.811570+00:00",
+    "fetched_at": "2026-09-12T12:41:19.546852+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +62,7 @@
     "published_date": "2026-09-10T04:47:25+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-11T13:20:21.430682+00:00",
+    "fetched_at": "2026-09-12T12:41:28.799413+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +76,7 @@
     "published_date": "2026-09-10T02:31:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-11T13:20:10.811885+00:00",
+    "fetched_at": "2026-09-12T12:41:19.547175+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +90,7 @@
     "published_date": "2026-09-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-11T13:20:10.174307+00:00",
+    "fetched_at": "2026-09-12T12:41:19.015839+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +104,7 @@
     "published_date": "2026-09-08T22:13:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-11T13:20:10.811987+00:00",
+    "fetched_at": "2026-09-12T12:41:19.547278+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +118,7 @@
     "published_date": "2026-09-08T17:06:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-11T13:20:10.812025+00:00",
+    "fetched_at": "2026-09-12T12:41:19.547314+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +132,7 @@
     "published_date": "2026-09-08T17:06:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-11T13:20:10.812079+00:00",
+    "fetched_at": "2026-09-12T12:41:19.547363+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +146,7 @@
     "published_date": "2026-09-08T15:05:00.657000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-11T13:20:25.847459+00:00",
+    "fetched_at": "2026-09-12T12:41:34.527433+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +160,7 @@
     "published_date": "2026-09-08T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-11T13:20:09.555789+00:00",
+    "fetched_at": "2026-09-12T12:41:18.200479+00:00",
     "date_precision": "day"
   },
   {
@@ -148,7 +174,7 @@
     "published_date": "2026-09-07T20:00:18+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-11T13:20:14.962034+00:00",
+    "fetched_at": "2026-09-12T12:41:23.350516+00:00",
     "date_precision": "day"
   },
   {
@@ -162,7 +188,7 @@
     "published_date": "2026-09-06T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-11T13:20:09.555957+00:00",
+    "fetched_at": "2026-09-12T12:41:18.200639+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +200,7 @@
     "published_date": "2026-09-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-11T13:20:23.914081+00:00",
+    "fetched_at": "2026-09-12T12:41:31.476989+00:00",
     "date_precision": "day"
   },
   {
@@ -188,31 +214,7 @@
     "published_date": "2026-09-05T16:25:28.972000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-11T13:20:25.847493+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "AI Can Now Design Viruses. We Need Biosecurity Guardrails Now",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Commentary Sep 4, 2026 As AI advances, the risk of engineered viral bioweapons is growing. The window to prepare is now—by building a layered, resilient system of defense.",
-    "url": "https://www.rand.org/pubs/commentary/2026/09/ai-can-now-design-viruses-we-need-biosecurity-guardrails.html",
-    "published_date": "2026-09-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-11T13:20:21.274156+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "AI in research: Mapping the terrain of adoption, attitudes and impact in the UK",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Project Sep 4, 2026 RAND Europe is administering, analysing and reporting on the first ‘National AI in Research survey’ in the UK.",
-    "url": "https://www.rand.org/randeurope/research/projects/2026/ai-in-research-mapping-adoption-attitudes-and-impact-in-the-uk.html",
-    "published_date": "2026-09-04T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-11T13:20:21.274416+00:00",
+    "fetched_at": "2026-09-12T12:41:34.527466+00:00",
     "date_precision": "day"
   }
 ]
