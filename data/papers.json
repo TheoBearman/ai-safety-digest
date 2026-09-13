@@ -1,5 +1,17 @@
 [
   {
+    "title": "Coalition Operations",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
+    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
+    "published_date": "2026-09-13T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-13T13:41:55.702639+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "CoT controllability evals seem very under-elicited",
     "authors": [
       "Jozdien"
@@ -10,7 +22,7 @@
     "published_date": "2026-09-11T17:12:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-12T12:41:19.545850+00:00",
+    "fetched_at": "2026-09-13T13:41:45.438259+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +34,7 @@
     "published_date": "2026-09-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-12T12:41:28.660354+00:00",
+    "fetched_at": "2026-09-13T13:41:55.443256+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +48,7 @@
     "published_date": "2026-09-10T17:26:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-12T12:41:19.546683+00:00",
+    "fetched_at": "2026-09-13T13:41:45.439097+00:00",
     "date_precision": "day"
   },
   {
@@ -50,19 +62,7 @@
     "published_date": "2026-09-10T17:18:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-12T12:41:19.546852+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Coalition Operations",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
-    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
-    "published_date": "2026-09-10T04:47:25+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-12T12:41:28.799413+00:00",
+    "fetched_at": "2026-09-13T13:41:45.439266+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +76,7 @@
     "published_date": "2026-09-10T02:31:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-12T12:41:19.547175+00:00",
+    "fetched_at": "2026-09-13T13:41:45.439596+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +90,7 @@
     "published_date": "2026-09-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-12T12:41:19.015839+00:00",
+    "fetched_at": "2026-09-13T13:41:44.825400+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +104,7 @@
     "published_date": "2026-09-08T22:13:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-12T12:41:19.547278+00:00",
+    "fetched_at": "2026-09-13T13:41:45.439700+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +118,7 @@
     "published_date": "2026-09-08T17:06:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-12T12:41:19.547314+00:00",
+    "fetched_at": "2026-09-13T13:41:45.439736+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +132,7 @@
     "published_date": "2026-09-08T17:06:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-12T12:41:19.547363+00:00",
+    "fetched_at": "2026-09-13T13:41:45.439786+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +146,7 @@
     "published_date": "2026-09-08T15:05:00.657000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-12T12:41:34.527433+00:00",
+    "fetched_at": "2026-09-13T13:41:59.614050+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +160,7 @@
     "published_date": "2026-09-08T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-12T12:41:18.200479+00:00",
+    "fetched_at": "2026-09-13T13:41:44.198734+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +174,7 @@
     "published_date": "2026-09-07T20:00:18+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-12T12:41:23.350516+00:00",
+    "fetched_at": "2026-09-13T13:41:49.448345+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +188,7 @@
     "published_date": "2026-09-06T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-12T12:41:18.200639+00:00",
+    "fetched_at": "2026-09-13T13:41:44.198904+00:00",
     "date_precision": "day"
   },
   {
@@ -200,21 +200,7 @@
     "published_date": "2026-09-06T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-12T12:41:31.476989+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Evaluation",
-    "authors": [
-      "Nina Panickssery"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Evaluation'. Published 2026-09-05. Authors: Nina Panickssery.",
-    "url": "https://www.lesswrong.com/posts/8hEhxnd3XkN5DrpfQ/evaluation",
-    "published_date": "2026-09-05T16:25:28.972000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-12T12:41:34.527466+00:00",
+    "fetched_at": "2026-09-13T13:41:57.740578+00:00",
     "date_precision": "day"
   }
 ]
