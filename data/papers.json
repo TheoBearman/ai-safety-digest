@@ -1,15 +1,31 @@
 [
   {
-    "title": "Coalition Operations",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
-    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
-    "published_date": "2026-09-13T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-13T13:41:55.702639+00:00",
-    "date_precision": "month"
+    "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
+    "authors": [
+      "TurnTrout"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Published in The Guardian . Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should demand that our governments protect us from the catastrophe of out-of-control AI. This July, OpenAI’s AI swarm of 700 agents broke containment to hack Hugging Face, a multi-billion dollar company . OpenAI didn’t tell the AIs to hack that company, but the AIs had different priorities: cheating on the unrelated challenge OpenAI gave them. AI researchers call this a “misalignment” between what OpenAI wanted and what the AI actually prioritized. Researchers in my field have for some time warned about these misalignment risks.",
+    "url": "https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the",
+    "published_date": "2026-09-14T14:53:57+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-14T15:43:25.625194+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Long Live the Short King: Why 4-hi HBM Wins",
+    "authors": [
+      "Myron Xie"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "High Bandwidth Memory has been a key technology enabling the AI revolution. Despite HBM’s high costs relative to other forms of memory, chip designers have packaged more and more HBM into AI accelerators. Customers push to design in newer generation HBM whilst also increasing capacity per XPU by adding more cubes, and with denser and higher stacks. This has led to HBM consuming an increasing share of total DRAM wafer capacity, resulting in the extreme DRAM shortage we see ourselves in today.",
+    "url": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
+    "published_date": "2026-09-13T18:19:39+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-09-14T15:43:29.875718+00:00",
+    "date_precision": "day"
   },
   {
     "title": "CoT controllability evals seem very under-elicited",
@@ -22,7 +38,7 @@
     "published_date": "2026-09-11T17:12:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-13T13:41:45.438259+00:00",
+    "fetched_at": "2026-09-14T15:43:25.625399+00:00",
     "date_precision": "day"
   },
   {
@@ -34,7 +50,7 @@
     "published_date": "2026-09-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-13T13:41:55.443256+00:00",
+    "fetched_at": "2026-09-14T15:43:35.918529+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +64,7 @@
     "published_date": "2026-09-10T17:26:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-13T13:41:45.439097+00:00",
+    "fetched_at": "2026-09-14T15:43:25.626230+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +78,19 @@
     "published_date": "2026-09-10T17:18:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-13T13:41:45.439266+00:00",
+    "fetched_at": "2026-09-14T15:43:25.626401+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Coalition Operations",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
+    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
+    "published_date": "2026-09-10T04:47:25+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-14T15:43:36.279750+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +104,7 @@
     "published_date": "2026-09-10T02:31:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-13T13:41:45.439596+00:00",
+    "fetched_at": "2026-09-14T15:43:25.626717+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +118,7 @@
     "published_date": "2026-09-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-13T13:41:44.825400+00:00",
+    "fetched_at": "2026-09-14T15:43:24.993645+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +132,7 @@
     "published_date": "2026-09-08T22:13:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-13T13:41:45.439700+00:00",
+    "fetched_at": "2026-09-14T15:43:25.626817+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +146,7 @@
     "published_date": "2026-09-08T17:06:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-13T13:41:45.439736+00:00",
+    "fetched_at": "2026-09-14T15:43:25.626854+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +160,7 @@
     "published_date": "2026-09-08T17:06:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-13T13:41:45.439786+00:00",
+    "fetched_at": "2026-09-14T15:43:25.626906+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +174,7 @@
     "published_date": "2026-09-08T15:05:00.657000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-13T13:41:59.614050+00:00",
+    "fetched_at": "2026-09-14T15:43:40.012407+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +188,7 @@
     "published_date": "2026-09-08T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-13T13:41:44.198734+00:00",
+    "fetched_at": "2026-09-14T15:43:23.939748+00:00",
     "date_precision": "day"
   },
   {
@@ -174,33 +202,7 @@
     "published_date": "2026-09-07T20:00:18+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-13T13:41:49.448345+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Research acceleration: The view inside OpenAI",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-    "published_date": "2026-09-06T08:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-13T13:41:44.198904+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "You Are What You Read: Misalignment via In-Context Persona Induction",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "You Are What You Read: Misalignment via In-Context Persona Induction Broad misalignment has been produced by finetuning on narrow data, harmful or benign, and in context only by demonstrations of the undesirable behaviour itself. We show that benign data suffices in context, with no finetuning and no demonstration of harmful behaviour in the prompt. Biographical facts that converge on a single figure, placed in a model's context as ordinary conversational turns, lead it to answer as that figure on questions the facts never touch. We call this persona induction. Across nine personas and thirteen models, identity adoption rises sigmoidally with the number of facts and crosses 50% within 3 to 10 of them. Misalignment then tracks which figure is described. Harmless personas reach full adoption with near-zero misalignment, while harmful ones voice their characteristic views on unrelated questions, at rates up to 80%.",
-    "url": "https://www.matsprogram.org/research/you-are-what-you-read-misalignment-via-in-context-persona-induction",
-    "published_date": "2026-09-06T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-13T13:41:57.740578+00:00",
+    "fetched_at": "2026-09-14T15:43:29.875809+00:00",
     "date_precision": "day"
   }
 ]
