@@ -1,5 +1,33 @@
 [
   {
+    "title": "Vera Rubin NVL72 Agentic Inference: 67x better Performance per Dollar",
+    "authors": [
+      "Bryan Shan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Jensen Sandbagging Performance Again, 2x more Annual Profit Per GigaWatt, The More you Buy, The More you Earn, AgentX, InferenceX, Extreme Co-Design",
+    "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference",
+    "published_date": "2026-09-14T22:08:56+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-09-15T14:12:03.393326+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "A Brain Too Big to Carry — On-Device vs Datacenter Inference",
+    "authors": [
+      "Ivan Chiam"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "So far, AI has mostly lived behind a screen. Chatbots answered questions. Then agents started driving software and finishing multi-step tasks on their own. The next step is AI that acts in the physical world, and the biggest piece of that is robots. It’s early. Nobody has settled the hardware, the models, or the economics.",
+    "url": "https://newsletter.semianalysis.com/p/a-brain-too-big-to-carry-on-device",
+    "published_date": "2026-09-14T16:37:25+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-09-15T14:12:03.393361+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
     "authors": [
       "TurnTrout"
@@ -10,7 +38,33 @@
     "published_date": "2026-09-14T14:53:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-14T15:43:25.625194+00:00",
+    "fetched_at": "2026-09-15T14:11:58.348321+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "I am refusing to work on Cloud TPUs",
+    "authors": [
+      "Yair Halberstadt"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'I am refusing to work on Cloud TPUs'. Published 2026-09-14. Authors: Yair Halberstadt.",
+    "url": "https://www.lesswrong.com/posts/wM5vbT9evBhM3fP3x/i-am-refusing-to-work-on-cloud-tpus",
+    "published_date": "2026-09-14T05:48:33.221000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-09-15T14:12:11.883025+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Artificial Intelligence and the Ethics and Practice of Evaluation",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research from RAND titled 'Artificial Intelligence and the Ethics and Practice of Evaluation'. Published 2026-09-14.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71488.html",
+    "published_date": "2026-09-14T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-15T14:12:08.841508+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +78,7 @@
     "published_date": "2026-09-13T18:19:39+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-14T15:43:29.875718+00:00",
+    "fetched_at": "2026-09-15T14:12:03.393385+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +92,7 @@
     "published_date": "2026-09-11T17:12:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-14T15:43:25.625399+00:00",
+    "fetched_at": "2026-09-15T14:11:58.348524+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +104,7 @@
     "published_date": "2026-09-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-14T15:43:35.918529+00:00",
+    "fetched_at": "2026-09-15T14:12:08.841839+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +118,7 @@
     "published_date": "2026-09-10T17:26:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-14T15:43:25.626230+00:00",
+    "fetched_at": "2026-09-15T14:11:58.349371+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +132,7 @@
     "published_date": "2026-09-10T17:18:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-14T15:43:25.626401+00:00",
+    "fetched_at": "2026-09-15T14:11:58.349543+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +144,7 @@
     "published_date": "2026-09-10T04:47:25+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-14T15:43:36.279750+00:00",
+    "fetched_at": "2026-09-15T14:12:08.942084+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +158,7 @@
     "published_date": "2026-09-10T02:31:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-14T15:43:25.626717+00:00",
+    "fetched_at": "2026-09-15T14:11:58.349857+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +172,7 @@
     "published_date": "2026-09-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-14T15:43:24.993645+00:00",
+    "fetched_at": "2026-09-15T14:11:57.856742+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +186,7 @@
     "published_date": "2026-09-08T22:13:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-14T15:43:25.626817+00:00",
+    "fetched_at": "2026-09-15T14:11:58.349959+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +200,7 @@
     "published_date": "2026-09-08T17:06:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-14T15:43:25.626854+00:00",
+    "fetched_at": "2026-09-15T14:11:58.350012+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +214,7 @@
     "published_date": "2026-09-08T17:06:18+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-14T15:43:25.626906+00:00",
+    "fetched_at": "2026-09-15T14:11:58.350066+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +228,7 @@
     "published_date": "2026-09-08T15:05:00.657000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-14T15:43:40.012407+00:00",
+    "fetched_at": "2026-09-15T14:12:11.882951+00:00",
     "date_precision": "day"
   },
   {
@@ -188,21 +242,7 @@
     "published_date": "2026-09-08T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-14T15:43:23.939748+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "TPU Inference Externalization Full Steam Ahead - InferenceX",
-    "authors": [
-      "Alec Ibarra"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "InferenceX, Up to 50% Better Performance per Dollar, Rapid Externalization of TPU stack, Growing Customer Base, Ironwood, TPUv8i, Reducing CUDA Moat",
-    "url": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
-    "published_date": "2026-09-07T20:00:18+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-14T15:43:29.875809+00:00",
+    "fetched_at": "2026-09-15T14:11:56.903486+00:00",
     "date_precision": "day"
   }
 ]
