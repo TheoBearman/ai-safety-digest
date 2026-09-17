@@ -1,5 +1,43 @@
 [
   {
+    "title": "Coalition Operations",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
+    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
+    "published_date": "2026-09-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-17T14:09:28.763654+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Our framework for reporting model misalignment",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+    "url": "https://openai.com/index/model-misalignment-reporting-framework",
+    "published_date": "2026-09-16T17:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-09-17T14:09:17.570102+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Legal and Clinical Liability of Comanaging Pediatric Mental Health With Unregulated AI Chatbots: Reply",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Sep 16, 2026 We conclude that parents and clinicians should proactively discuss chatbot use to promote safety, appropriate expectations, and linkages to evidence-based care.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71412.html",
+    "published_date": "2026-09-16T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-17T14:09:28.666939+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Data Center Siting Model and Suitability Mapper for Community Planners: Overview and Technical Documentation",
     "authors": [],
     "organization": "RAND",
@@ -8,7 +46,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-16T14:04:31.517852+00:00",
+    "fetched_at": "2026-09-17T14:09:28.667173+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +60,7 @@
     "published_date": "2026-09-15T21:50:08+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-16T14:04:21.157978+00:00",
+    "fetched_at": "2026-09-17T14:09:18.757931+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +74,7 @@
     "published_date": "2026-09-14T22:08:56+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-16T14:04:24.880709+00:00",
+    "fetched_at": "2026-09-17T14:09:22.879358+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +88,7 @@
     "published_date": "2026-09-14T16:37:25+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-16T14:04:24.880734+00:00",
+    "fetched_at": "2026-09-17T14:09:22.879388+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +102,7 @@
     "published_date": "2026-09-14T14:53:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-16T14:04:21.158061+00:00",
+    "fetched_at": "2026-09-17T14:09:18.758017+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +116,7 @@
     "published_date": "2026-09-14T05:48:33.221000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-16T14:04:35.723013+00:00",
+    "fetched_at": "2026-09-17T14:09:32.257100+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +128,7 @@
     "published_date": "2026-09-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-16T14:04:31.518406+00:00",
+    "fetched_at": "2026-09-17T14:09:28.668194+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +142,7 @@
     "published_date": "2026-09-13T18:19:39+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-16T14:04:24.880749+00:00",
+    "fetched_at": "2026-09-17T14:09:22.879411+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +156,7 @@
     "published_date": "2026-09-11T17:12:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-16T14:04:21.158287+00:00",
+    "fetched_at": "2026-09-17T14:09:18.758215+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +168,7 @@
     "published_date": "2026-09-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-16T14:04:31.518644+00:00",
+    "fetched_at": "2026-09-17T14:09:28.668524+00:00",
     "date_precision": "day"
   },
   {
@@ -144,7 +182,7 @@
     "published_date": "2026-09-10T17:26:39+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-16T14:04:21.158970+00:00",
+    "fetched_at": "2026-09-17T14:09:18.759189+00:00",
     "date_precision": "day"
   },
   {
@@ -158,19 +196,7 @@
     "published_date": "2026-09-10T17:18:38+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-16T14:04:21.159125+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Coalition Operations",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
-    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
-    "published_date": "2026-09-10T04:47:25+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-16T14:04:31.794642+00:00",
+    "fetched_at": "2026-09-17T14:09:18.759368+00:00",
     "date_precision": "day"
   },
   {
@@ -184,7 +210,7 @@
     "published_date": "2026-09-10T02:31:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-16T14:04:21.159374+00:00",
+    "fetched_at": "2026-09-17T14:09:18.759710+00:00",
     "date_precision": "day"
   },
   {
@@ -198,7 +224,7 @@
     "published_date": "2026-09-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-16T14:04:20.604987+00:00",
+    "fetched_at": "2026-09-17T14:09:18.195683+00:00",
     "date_precision": "day"
   }
 ]
