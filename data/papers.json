@@ -1,15 +1,41 @@
 [
   {
-    "title": "Coalition Operations",
+    "title": "Improving Frontier AI Incident Reporting Regimes",
     "authors": [],
-    "organization": "CSET",
-    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
-    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
+    "organization": "GovAI",
+    "abstract": "How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms.",
+    "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
+    "published_date": "2026-09-18T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-09-18T13:28:10.408358+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "A Defense of Gradual Disempowerment",
+    "authors": [
+      "Max Harms"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "(Or: Why Bentham's Bulldog and John Halstead are wrong in their critique of Kulveit et al. ) Gradual Disempowerment is a 2025 paper (with a nice, dedicated website ) proposing a form of existential risk from AI that goes beyond \"mundane\" risks like bioweapon uplift or mainline misaligned-AI-takeover scenarios. In the words of the authors: [L]oss of human influence [may] be centrally driven by having more competitive machine alternatives to humans in almost all societal functions, such as economic labor, decision making, artistic creation, and even companionship. ... [T]he economic incentives for companies to replace humans with AI will also push them to influence states and culture to support this change, using their growing economic power to shape both policy and public opinion, which will in turn allow those companies to accrue even greater economic power. ...",
+    "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
+    "published_date": "2026-09-17T21:04:05+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-18T13:28:00.356949+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Preserving Jobs and Tax Revenue in the Age of AI: Q&A with Carter Price",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Commentary Sep 17, 2026 Carter Price, a mathematician at RAND and co-director of the RAND Von Furstenberg Family Budget Model Initiative, discusses ways to rebalance the tax code so that it doesn't incentivize employers to replace humans with AI.",
+    "url": "https://www.rand.org/pubs/commentary/2026/09/preserving-jobs-and-tax-revenue-in-the-age-of-ai-qa.html",
     "published_date": "2026-09-17T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-17T14:09:28.763654+00:00",
-    "date_precision": "month"
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-18T13:28:10.081687+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Our framework for reporting model misalignment",
@@ -22,7 +48,7 @@
     "published_date": "2026-09-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-17T14:09:17.570102+00:00",
+    "fetched_at": "2026-09-18T13:27:59.013445+00:00",
     "date_precision": "day"
   },
   {
@@ -34,7 +60,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-17T14:09:28.666939+00:00",
+    "fetched_at": "2026-09-18T13:28:10.081934+00:00",
     "date_precision": "day"
   },
   {
@@ -46,7 +72,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-17T14:09:28.667173+00:00",
+    "fetched_at": "2026-09-18T13:28:10.082167+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +86,7 @@
     "published_date": "2026-09-15T21:50:08+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-17T14:09:18.757931+00:00",
+    "fetched_at": "2026-09-18T13:28:00.357068+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +100,7 @@
     "published_date": "2026-09-14T22:08:56+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-17T14:09:22.879358+00:00",
+    "fetched_at": "2026-09-18T13:28:04.490419+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +114,7 @@
     "published_date": "2026-09-14T16:37:25+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-17T14:09:22.879388+00:00",
+    "fetched_at": "2026-09-18T13:28:04.490454+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +128,7 @@
     "published_date": "2026-09-14T14:53:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-17T14:09:18.758017+00:00",
+    "fetched_at": "2026-09-18T13:28:00.357146+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +142,7 @@
     "published_date": "2026-09-14T05:48:33.221000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-17T14:09:32.257100+00:00",
+    "fetched_at": "2026-09-18T13:28:13.338264+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +154,7 @@
     "published_date": "2026-09-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-17T14:09:28.668194+00:00",
+    "fetched_at": "2026-09-18T13:28:10.083170+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +168,7 @@
     "published_date": "2026-09-13T18:19:39+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-17T14:09:22.879411+00:00",
+    "fetched_at": "2026-09-18T13:28:04.490479+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +182,7 @@
     "published_date": "2026-09-11T17:12:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-17T14:09:18.758215+00:00",
+    "fetched_at": "2026-09-18T13:28:00.357340+00:00",
     "date_precision": "day"
   },
   {
@@ -168,63 +194,7 @@
     "published_date": "2026-09-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-17T14:09:28.668524+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "An operationalization of opaque serial depth",
-    "authors": [
-      "ryan_greenblatt"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Currently, chain-of-thought (CoT) is a valuable tool for overseeing AI models. However, some architectural shifts could significantly reduce CoT monitorability . We have recently proposed that AI companies should transparently share ​​information about the degree to which their architectures may allow for latent reasoning and communication. To assist with this proposal, this document operationalizes a measure that serves as a proxy for the amount of unverbalized serial cognition a model can perform. Our measure is a specific instantiation of the notion of “opaque serial depth”, originally defined in a recent paper from GDM ( Brown-Cohen et al, 2026 ). To measure the opaque serial depth of a computation, Brown-Cohen et al. propose measuring the longest path in the computational graph which doesn’t pass through some form of “interpretable bottleneck”.",
-    "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
-    "published_date": "2026-09-10T17:26:39+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-17T14:09:18.759189+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Proposal for tracking the effects of architecture on monitorability",
-    "authors": [
-      "ryan_greenblatt"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward). [1] As companies begin to explore such architectures, we believe it is important to transparently share evidence about how monitorability varies with architecture and training method. To inform the scientific debate on how to make tradeoffs between performance and monitorability, we believe AI companies should: Regularly report externally verified information about the degree to which their architectures may allow for latent reasoning or communication.",
-    "url": "https://www.alignmentforum.org/posts/hLPGv8QjPcNLtDp3A/proposal-for-tracking-the-effects-of-architecture-on",
-    "published_date": "2026-09-10T17:18:38+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-17T14:09:18.759368+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Astra can do a concerning amount with no chain of thought",
-    "authors": [
-      "Neel Nanda"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1) Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve done enough sanity checks that I’d be surprised if the core claims were misleading One of the most striking things in the Astra report was the massive jump UK AISI found in no-CoT reasoning abilities. I was somewhat suspicious, given the size of the jump, and the many ways this kind of measurement can be misleading. Conveniently, I’ve independently been making my own no CoT reasoning benchmark [1] &nbsp;and tried it on there! Unfortunately, it replicates.",
-    "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
-    "published_date": "2026-09-10T02:31:26+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-17T14:09:18.759710+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“Proposal for tracking the effects of architecture on monitorability” by Ryan Greenblatt, Alek Westover, Lukas Finnveden",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward).[1] As companies begin to explore such architectures, we believe it is important to transparently share evidence about how monitorability varies with architecture and training method. To inform the scientific debate on how to make tradeoffs between performance and monitorability, we believe AI companies should: Regularly report externally verified information about the degree to which their architectures may allow for latent reasoning or communication. Companies should publicly disclose enough information about architectures to allow external scientists to determine whether they could potentially enable models to perform much more complex reasoning without this reasoning appearing in the chain of thought (“latent reasoning”) or allow for latent communication between different instances of a model.",
-    "url": "https://blog.redwoodresearch.org/p/proposal-for-tracking-the-effects",
-    "published_date": "2026-09-10T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-17T14:09:18.195683+00:00",
+    "fetched_at": "2026-09-18T13:28:10.083495+00:00",
     "date_precision": "day"
   }
 ]
