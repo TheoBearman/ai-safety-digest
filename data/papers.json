@@ -5,11 +5,53 @@
     "organization": "GovAI",
     "abstract": "How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms.",
     "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-18T00:00:00+00:00",
+    "published_date": "2026-09-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-18T13:28:10.408358+00:00",
+    "fetched_at": "2026-09-19T12:56:49.627216+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "[Paper] Stringological sequence prediction III",
+    "authors": [
+      "Vanessa Kosoy"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Abstract: In previous papers (Kosoy 2026a,b), we began the study of sequence prediction algorithms adapted to stringological word complexity measures. In particular, we defined a complexity measure called Arithmetic Repetition Complexity (ARC) which admits a polynomial-time prediction algorithm with a mistake bound quasilinear in the complexity. Here, we show a weaker complexity measure related to ARC that admits an especially efficient prediction algorithm: an algorithm that runs in quasilinear time and polylog space for appropriate highly-structured sequences. The complexity measure is defined via a restricted class of “zipline programs” (a variant of straight-line programs we defined in Kosoy 2026b), which we call layered. We thus get a less expressive measure with a more efficient algorithm (compared to our results for ARC), demonstrating a possible tradeoff. This paper continues the \"stringological sequence prediction\" series (see I II ) about my new approach to compositional learning theory.",
+    "url": "https://www.alignmentforum.org/posts/virawHQekJsozwotz/paper-stringological-sequence-prediction-iii",
+    "published_date": "2026-09-18T16:52:53+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-19T12:56:38.920062+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading",
+    "authors": [
+      "Bryan Shan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Research from SemiAnalysis titled 'Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading'. Published 2026-09-18. Authors: Bryan Shan.",
+    "url": "https://newsletter.semianalysis.com/p/engrams-embedding-entendre-codesign",
+    "published_date": "2026-09-18T14:34:20+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-09-19T12:56:42.494225+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Partnering with Accenture on embedded evaluation",
+    "authors": [
+      "Anthropic News"
+    ],
+    "organization": "Anthropic",
+    "abstract": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
+    "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+    "published_date": "2026-09-18T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+    "fetched_at": "2026-09-19T12:56:37.000088+00:00",
+    "date_precision": "day"
   },
   {
     "title": "A Defense of Gradual Disempowerment",
@@ -22,7 +64,21 @@
     "published_date": "2026-09-17T21:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-18T13:28:00.356949+00:00",
+    "fetched_at": "2026-09-19T12:56:38.920190+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "For Love of the Lightcone, Don't Partisanize AI Safety",
+    "authors": [
+      "DanB"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'For Love of the Lightcone, Don't Partisanize AI Safety'. Published 2026-09-17. Authors: DanB.",
+    "url": "https://www.lesswrong.com/posts/Rx38cuCpL9hguLCDq/for-love-of-the-lightcone-don-t-partisanize-ai-safety",
+    "published_date": "2026-09-17T00:46:59.151000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-09-19T12:56:53.716209+00:00",
     "date_precision": "day"
   },
   {
@@ -34,7 +90,7 @@
     "published_date": "2026-09-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-18T13:28:10.081687+00:00",
+    "fetched_at": "2026-09-19T12:56:48.993732+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +104,7 @@
     "published_date": "2026-09-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-18T13:27:59.013445+00:00",
+    "fetched_at": "2026-09-19T12:56:37.600771+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +116,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-18T13:28:10.081934+00:00",
+    "fetched_at": "2026-09-19T12:56:48.993899+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +128,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-18T13:28:10.082167+00:00",
+    "fetched_at": "2026-09-19T12:56:48.994062+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +142,7 @@
     "published_date": "2026-09-15T21:50:08+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-18T13:28:00.357068+00:00",
+    "fetched_at": "2026-09-19T12:56:38.920294+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +156,7 @@
     "published_date": "2026-09-14T22:08:56+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-18T13:28:04.490419+00:00",
+    "fetched_at": "2026-09-19T12:56:42.494260+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +170,7 @@
     "published_date": "2026-09-14T16:37:25+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-18T13:28:04.490454+00:00",
+    "fetched_at": "2026-09-19T12:56:42.494279+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +184,7 @@
     "published_date": "2026-09-14T14:53:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-18T13:28:00.357146+00:00",
+    "fetched_at": "2026-09-19T12:56:38.920408+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +198,7 @@
     "published_date": "2026-09-14T05:48:33.221000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-18T13:28:13.338264+00:00",
+    "fetched_at": "2026-09-19T12:56:53.716186+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +210,7 @@
     "published_date": "2026-09-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-18T13:28:10.083170+00:00",
+    "fetched_at": "2026-09-19T12:56:48.994751+00:00",
     "date_precision": "day"
   },
   {
@@ -168,33 +224,7 @@
     "published_date": "2026-09-13T18:19:39+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-18T13:28:04.490479+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "CoT controllability evals seem very under-elicited",
-    "authors": [
-      "Jozdien"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "The CoTControl eval asks reasoning models to follow formatting constraints in their chain-of-thought (e.g. write in all lowercase, avoid a specific word) while solving questions. Models seem to mostly be pretty bad at this: recent models score between 0-30% with the exception of Mythos Preview [1] . OpenAI and Anthropic have used this eval in recent system cards ( GPT-5.5 , Fable 5 ) to argue that their current frontier models are pretty bad at shaping their CoTs in ways that would reduce monitorability. [2] I asked Claude Opus 4.6 to iterate on prompt templates for the eval, and find that using better prompts improves performance for open-source models by ~2-3x or more (e.g. from 5.5% to 15% for GPT-OSS-120B). My guess is that more iteration would probably produce even stronger results.",
-    "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
-    "published_date": "2026-09-11T17:12:04+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-18T13:28:00.357340+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Public procurement and AI governance: Developing a strategic framework for middle powers",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Sep 11, 2026 This report examines how AI middle powers can use public procurement to govern frontier AI. It develops a set of procurement guarantees, and assesses whether coordinated purchasing standards could strengthen state bargaining power.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA5284-1.html",
-    "published_date": "2026-09-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-18T13:28:10.083495+00:00",
+    "fetched_at": "2026-09-19T12:56:42.494293+00:00",
     "date_precision": "day"
   }
 ]
