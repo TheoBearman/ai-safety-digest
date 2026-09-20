@@ -1,14 +1,26 @@
 [
   {
+    "title": "Coalition Operations",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
+    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
+    "published_date": "2026-09-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-20T13:29:13.302162+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "Improving Frontier AI Incident Reporting Regimes",
     "authors": [],
     "organization": "GovAI",
     "abstract": "How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms.",
     "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-19T00:00:00+00:00",
+    "published_date": "2026-09-20T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-19T12:56:49.627216+00:00",
+    "fetched_at": "2026-09-20T13:29:13.635744+00:00",
     "date_precision": "month"
   },
   {
@@ -22,7 +34,7 @@
     "published_date": "2026-09-18T16:52:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-19T12:56:38.920062+00:00",
+    "fetched_at": "2026-09-20T13:29:03.477049+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +48,7 @@
     "published_date": "2026-09-18T14:34:20+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-19T12:56:42.494225+00:00",
+    "fetched_at": "2026-09-20T13:29:08.272409+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +62,7 @@
     "published_date": "2026-09-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-19T12:56:37.000088+00:00",
+    "fetched_at": "2026-09-20T13:29:01.637791+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +76,7 @@
     "published_date": "2026-09-17T21:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-19T12:56:38.920190+00:00",
+    "fetched_at": "2026-09-20T13:29:03.477192+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +90,7 @@
     "published_date": "2026-09-17T00:46:59.151000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-19T12:56:53.716209+00:00",
+    "fetched_at": "2026-09-20T13:29:20.381736+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +102,7 @@
     "published_date": "2026-09-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-19T12:56:48.993732+00:00",
+    "fetched_at": "2026-09-20T13:29:13.056923+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +116,7 @@
     "published_date": "2026-09-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-19T12:56:37.600771+00:00",
+    "fetched_at": "2026-09-20T13:29:02.266443+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +128,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-19T12:56:48.993899+00:00",
+    "fetched_at": "2026-09-20T13:29:13.057161+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +140,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-19T12:56:48.994062+00:00",
+    "fetched_at": "2026-09-20T13:29:13.057405+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +154,7 @@
     "published_date": "2026-09-15T21:50:08+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-19T12:56:38.920294+00:00",
+    "fetched_at": "2026-09-20T13:29:03.477301+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +168,7 @@
     "published_date": "2026-09-14T22:08:56+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-19T12:56:42.494260+00:00",
+    "fetched_at": "2026-09-20T13:29:08.272459+00:00",
     "date_precision": "day"
   },
   {
@@ -170,7 +182,7 @@
     "published_date": "2026-09-14T16:37:25+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-19T12:56:42.494279+00:00",
+    "fetched_at": "2026-09-20T13:29:08.272486+00:00",
     "date_precision": "day"
   },
   {
@@ -184,7 +196,7 @@
     "published_date": "2026-09-14T14:53:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-19T12:56:38.920408+00:00",
+    "fetched_at": "2026-09-20T13:29:03.477377+00:00",
     "date_precision": "day"
   },
   {
@@ -198,7 +210,7 @@
     "published_date": "2026-09-14T05:48:33.221000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-19T12:56:53.716186+00:00",
+    "fetched_at": "2026-09-20T13:29:20.381713+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +222,7 @@
     "published_date": "2026-09-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-19T12:56:48.994751+00:00",
+    "fetched_at": "2026-09-20T13:29:13.058416+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +236,7 @@
     "published_date": "2026-09-13T18:19:39+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-19T12:56:42.494293+00:00",
+    "fetched_at": "2026-09-20T13:29:08.272508+00:00",
     "date_precision": "day"
   }
 ]
