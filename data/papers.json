@@ -1,15 +1,17 @@
 [
   {
-    "title": "Coalition Operations",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
-    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
-    "published_date": "2026-09-20T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-20T13:29:13.302162+00:00",
-    "date_precision": "month"
+    "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+    "authors": [
+      "Guoqing Liu, Felix Pultar, John Gardner, Marwin Segler"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules. The post Improving synthesis prediction of small molecules at scale with RetroChimera appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+    "published_date": "2026-09-21T15:30:19+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-09-21T15:42:57.223548+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Improving Frontier AI Incident Reporting Regimes",
@@ -17,11 +19,25 @@
     "organization": "GovAI",
     "abstract": "How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms.",
     "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-20T00:00:00+00:00",
+    "published_date": "2026-09-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-20T13:29:13.635744+00:00",
+    "fetched_at": "2026-09-21T15:43:11.409916+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Please Give Them a Chance: On China, Rationalism, and AI Safety",
+    "authors": [
+      "gzjw"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Please Give Them a Chance: On China, Rationalism, and AI Safety'. Published 2026-09-20. Authors: gzjw.",
+    "url": "https://www.lesswrong.com/posts/GoX3uYQ4QN5HKvL7u/please-give-them-a-chance-on-china-rationalism-and-ai-safety",
+    "published_date": "2026-09-20T18:44:46.893000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-09-21T15:43:14.232300+00:00",
+    "date_precision": "day"
   },
   {
     "title": "[Paper] Stringological sequence prediction III",
@@ -34,7 +50,7 @@
     "published_date": "2026-09-18T16:52:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-20T13:29:03.477049+00:00",
+    "fetched_at": "2026-09-21T15:42:59.008970+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +64,7 @@
     "published_date": "2026-09-18T14:34:20+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-20T13:29:08.272409+00:00",
+    "fetched_at": "2026-09-21T15:43:03.979571+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +78,7 @@
     "published_date": "2026-09-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-20T13:29:01.637791+00:00",
+    "fetched_at": "2026-09-21T15:42:57.368667+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +92,7 @@
     "published_date": "2026-09-17T21:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-20T13:29:03.477192+00:00",
+    "fetched_at": "2026-09-21T15:42:59.009110+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +106,7 @@
     "published_date": "2026-09-17T00:46:59.151000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-20T13:29:20.381736+00:00",
+    "fetched_at": "2026-09-21T15:43:14.232288+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +118,7 @@
     "published_date": "2026-09-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-20T13:29:13.056923+00:00",
+    "fetched_at": "2026-09-21T15:43:10.718366+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +132,7 @@
     "published_date": "2026-09-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-20T13:29:02.266443+00:00",
+    "fetched_at": "2026-09-21T15:42:58.022266+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +144,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-20T13:29:13.057161+00:00",
+    "fetched_at": "2026-09-21T15:43:10.718616+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +156,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-20T13:29:13.057405+00:00",
+    "fetched_at": "2026-09-21T15:43:10.718860+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +170,7 @@
     "published_date": "2026-09-15T21:50:08+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-20T13:29:03.477301+00:00",
+    "fetched_at": "2026-09-21T15:42:59.009218+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +184,7 @@
     "published_date": "2026-09-14T22:08:56+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-20T13:29:08.272459+00:00",
+    "fetched_at": "2026-09-21T15:43:03.979620+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +198,7 @@
     "published_date": "2026-09-14T16:37:25+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-20T13:29:08.272486+00:00",
+    "fetched_at": "2026-09-21T15:43:03.979646+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +212,7 @@
     "published_date": "2026-09-14T14:53:57+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-20T13:29:03.477377+00:00",
+    "fetched_at": "2026-09-21T15:42:59.009301+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +226,7 @@
     "published_date": "2026-09-14T05:48:33.221000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-20T13:29:20.381713+00:00",
+    "fetched_at": "2026-09-21T15:43:14.232266+00:00",
     "date_precision": "day"
   },
   {
@@ -222,21 +238,7 @@
     "published_date": "2026-09-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-20T13:29:13.058416+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Long Live the Short King: Why 4-hi HBM Wins",
-    "authors": [
-      "Myron Xie"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "High Bandwidth Memory has been a key technology enabling the AI revolution. Despite HBM’s high costs relative to other forms of memory, chip designers have packaged more and more HBM into AI accelerators. Customers push to design in newer generation HBM whilst also increasing capacity per XPU by adding more cubes, and with denser and higher stacks. This has led to HBM consuming an increasing share of total DRAM wafer capacity, resulting in the extreme DRAM shortage we see ourselves in today.",
-    "url": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
-    "published_date": "2026-09-13T18:19:39+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-20T13:29:08.272508+00:00",
+    "fetched_at": "2026-09-21T15:43:10.719857+00:00",
     "date_precision": "day"
   }
 ]
