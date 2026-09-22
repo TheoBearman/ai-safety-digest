@@ -1,8 +1,58 @@
 [
   {
+    "title": "Trust unpacked: Understanding trust and distrust through AI-enabled analysis",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Project Sep 22, 2026 RAND Europe researchers are developing AI-enabled methods to understand how trust and distrust are expressed and help policymakers address trust challenges.",
+    "url": "https://www.rand.org/randeurope/research/projects/2026/trust-unpacked.html",
+    "published_date": "2026-09-22T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-22T13:56:04.185936+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Embedded Assessments for Frontier AI",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks.",
+    "url": "https://www.governance.ai/research-paper/embedded-assessments-for-frontier-ai",
+    "published_date": "2026-09-22T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-09-22T13:56:04.846821+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Improving Frontier AI Incident Reporting Regimes",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
+    "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
+    "published_date": "2026-09-22T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-09-22T13:56:04.848195+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Computation and Data Movement for Inference",
+    "authors": [
+      "Tanj Bennett"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Mixture of Experts, now widely used in frontier models, has changed both the structure of serving and the economics of useful inference. It did more than increase parameter count. It changed which tensors are active for each token, what must remain close together, which transfers need strong local bandwidth, which can tolerate a weaker network link, and how memory movement, storage, and scheduling contribute to useful throughput.",
+    "url": "https://newsletter.semianalysis.com/p/computation-and-data-movement-for",
+    "published_date": "2026-09-21T18:14:15+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-09-22T13:55:58.602648+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
     "authors": [
-      "Guoqing Liu, Felix Pultar, John Gardner, Marwin Segler"
+      "Felix Pultar, John Gardner, Guoqing Liu, Marwin Segler"
     ],
     "organization": "Microsoft Research",
     "abstract": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules. The post Improving synthesis prediction of small molecules at scale with RetroChimera appeared first on Microsoft Research .",
@@ -10,20 +60,8 @@
     "published_date": "2026-09-21T15:30:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-21T15:42:57.223548+00:00",
+    "fetched_at": "2026-09-22T13:55:51.357559+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Improving Frontier AI Incident Reporting Regimes",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks. A risk model for AI helping threat actors to develop data-damaging worms.",
-    "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-21T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-21T15:43:11.409916+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Please Give Them a Chance: On China, Rationalism, and AI Safety",
@@ -36,7 +74,7 @@
     "published_date": "2026-09-20T18:44:46.893000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-21T15:43:14.232300+00:00",
+    "fetched_at": "2026-09-22T13:56:08.142369+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +88,7 @@
     "published_date": "2026-09-18T16:52:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-21T15:42:59.008970+00:00",
+    "fetched_at": "2026-09-22T13:55:53.546923+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +102,7 @@
     "published_date": "2026-09-18T14:34:20+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-21T15:43:03.979571+00:00",
+    "fetched_at": "2026-09-22T13:55:58.602680+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +116,7 @@
     "published_date": "2026-09-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-21T15:42:57.368667+00:00",
+    "fetched_at": "2026-09-22T13:55:51.506577+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +130,7 @@
     "published_date": "2026-09-17T21:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-21T15:42:59.009110+00:00",
+    "fetched_at": "2026-09-22T13:55:53.547065+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +144,7 @@
     "published_date": "2026-09-17T00:46:59.151000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-21T15:43:14.232288+00:00",
+    "fetched_at": "2026-09-22T13:56:08.142383+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +156,7 @@
     "published_date": "2026-09-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-21T15:43:10.718366+00:00",
+    "fetched_at": "2026-09-22T13:56:04.186194+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +170,7 @@
     "published_date": "2026-09-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-21T15:42:58.022266+00:00",
+    "fetched_at": "2026-09-22T13:55:52.180179+00:00",
     "date_precision": "day"
   },
   {
@@ -144,7 +182,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-21T15:43:10.718616+00:00",
+    "fetched_at": "2026-09-22T13:56:04.186417+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +194,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-21T15:43:10.718860+00:00",
+    "fetched_at": "2026-09-22T13:56:04.186696+00:00",
     "date_precision": "day"
   },
   {
@@ -170,75 +208,7 @@
     "published_date": "2026-09-15T21:50:08+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-21T15:42:59.009218+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Vera Rubin NVL72 Agentic Inference: 67x better Performance per Dollar",
-    "authors": [
-      "Bryan Shan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Jensen Sandbagging Performance Again, 2x more Annual Profit Per GigaWatt, The More you Buy, The More you Earn, AgentX, InferenceX, Extreme Co-Design",
-    "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference",
-    "published_date": "2026-09-14T22:08:56+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-21T15:43:03.979620+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "A Brain Too Big to Carry — On-Device vs Datacenter Inference",
-    "authors": [
-      "Ivan Chiam"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "So far, AI has mostly lived behind a screen. Chatbots answered questions. Then agents started driving software and finishing multi-step tasks on their own. The next step is AI that acts in the physical world, and the biggest piece of that is robots. It’s early. Nobody has settled the hardware, the models, or the economics.",
-    "url": "https://newsletter.semianalysis.com/p/a-brain-too-big-to-carry-on-device",
-    "published_date": "2026-09-14T16:37:25+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-21T15:43:03.979646+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
-    "authors": [
-      "TurnTrout"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Published in The Guardian . Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should demand that our governments protect us from the catastrophe of out-of-control AI. This July, OpenAI’s AI swarm of 700 agents broke containment to hack Hugging Face, a multi-billion dollar company . OpenAI didn’t tell the AIs to hack that company, but the AIs had different priorities: cheating on the unrelated challenge OpenAI gave them. AI researchers call this a “misalignment” between what OpenAI wanted and what the AI actually prioritized. Researchers in my field have for some time warned about these misalignment risks.",
-    "url": "https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the",
-    "published_date": "2026-09-14T14:53:57+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-21T15:42:59.009301+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "I am refusing to work on Cloud TPUs",
-    "authors": [
-      "Yair Halberstadt"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'I am refusing to work on Cloud TPUs'. Published 2026-09-14. Authors: Yair Halberstadt.",
-    "url": "https://www.lesswrong.com/posts/wM5vbT9evBhM3fP3x/i-am-refusing-to-work-on-cloud-tpus",
-    "published_date": "2026-09-14T05:48:33.221000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-21T15:43:14.232266+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Artificial Intelligence and the Ethics and Practice of Evaluation",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research from RAND titled 'Artificial Intelligence and the Ethics and Practice of Evaluation'. Published 2026-09-14.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71488.html",
-    "published_date": "2026-09-14T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-21T15:43:10.719857+00:00",
+    "fetched_at": "2026-09-22T13:55:53.547184+00:00",
     "date_precision": "day"
   }
 ]
