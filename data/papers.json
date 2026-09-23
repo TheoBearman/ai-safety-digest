@@ -1,15 +1,43 @@
 [
   {
-    "title": "Trust unpacked: Understanding trust and distrust through AI-enabled analysis",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Project Sep 22, 2026 RAND Europe researchers are developing AI-enabled methods to understand how trust and distrust are expressed and help policymakers address trust challenges.",
-    "url": "https://www.rand.org/randeurope/research/projects/2026/trust-unpacked.html",
-    "published_date": "2026-09-22T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-22T13:56:04.185936+00:00",
+    "title": "Why I'm scared of RL",
+    "authors": [
+      "owencb"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to agency-via-scaffolding Recent incidents (huggingface etc) and more mundane forms of misaligned behaviour in personal use give me bad vibes about the direction-of-travel of recent AI progress I’m worried things might get worse: if RL environments start incorporating agents, they may teach manipulation / sociopathy Then I ask what we could do: Coordinate to do less RL, and pursue other paradigms more! Try to make the RL we do do better, so that it’s teaching better lessons to the systems — a bit like we take kids’ upbringing as an important issue Align incentives, so that people treat creating RL environments with appropriate seriousness Part I: Feelings about RL So I’ve been feeling more and more worried...",
+    "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
+    "published_date": "2026-09-23T12:07:33+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-23T14:06:30.300611+00:00",
     "date_precision": "day"
+  },
+  {
+    "title": "“Astra is much better at reasoning with filler tokens than previous models” by Dylan Xu, Sebastian Prasanna, Alek Westover",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "We measure GPT-6-Astra's capabilities when its prompt is padded with a variable number of meaningless “filler” tokens (e.g., dots) and it is told to answer immediately without reasoning. On tasks designed to require lots of serial cognition, Astra performs significantly better with filler tokens than without (e.g., improving from ~10% to ~50% on 4-hop natural facts reasoning). On more general benchmarks, filler tokens also modestly improve Astra's performance (e.g., improving from ~60% to ~90% on old AIME problems). This is concerning because it means Astra can perform significant cognition that it doesn’t verbalize in its chain-of-thought, making it harder to monitor. We first measure Astra's performance on “N-hop natural facts”: a task that asks the model to retrieve some natural language facts in succession, similar to Ryan Greenblatt's filler token eval (but with more hops).",
+    "url": "https://blog.redwoodresearch.org/p/astra-is-much-better-at-reasoning",
+    "published_date": "2026-09-23T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-09-23T14:06:29.818085+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Coalition Operations",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
+    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
+    "published_date": "2026-09-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-23T14:06:40.012799+00:00",
+    "date_precision": "month"
   },
   {
     "title": "Embedded Assessments for Frontier AI",
@@ -17,10 +45,10 @@
     "organization": "GovAI",
     "abstract": "Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks.",
     "url": "https://www.governance.ai/research-paper/embedded-assessments-for-frontier-ai",
-    "published_date": "2026-09-22T00:00:00+00:00",
+    "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-22T13:56:04.846821+00:00",
+    "fetched_at": "2026-09-23T14:06:40.183300+00:00",
     "date_precision": "month"
   },
   {
@@ -29,11 +57,37 @@
     "organization": "GovAI",
     "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
     "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-22T00:00:00+00:00",
+    "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-22T13:56:04.848195+00:00",
+    "fetched_at": "2026-09-23T14:06:40.184620+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Note on independence: This evaluation was conducted under an unpaid agreement for AI R&amp;D assessment. 1 We drafted the initial summary, and then Anthropic had the opportunity to review and edit the text. We signed off on this final text from the Claude Opus 5.5 system card . Our preliminary evaluation focused on how Claude Opus 5.5 might impact AI R&amp;D, mainly based on its capabilities on difficult, long-horizon tasks. The main claims we attempt to assess in this report are: (A) would AI R&amp;D at Anthropic now be dramatically accelerated by using Claude Opus 5.5; and (B) was AI R&amp;D at Anthropic already dramatically accelerated due to AI during the development of Claude Opus 5.5. Note that our work was oriented around collecting evidence related to AI R&amp;D capabilities but was not meant to verify claims about compliance with any specific threshold from Anthropic’s policies.",
+    "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+    "published_date": "2026-09-22T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-09-23T14:06:33.405848+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Trust unpacked: Understanding trust and distrust through AI-enabled analysis",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Project Sep 22, 2026 RAND Europe researchers are developing AI-enabled methods to understand how trust and distrust are expressed and help policymakers address trust challenges.",
+    "url": "https://www.rand.org/randeurope/research/projects/2026/trust-unpacked.html",
+    "published_date": "2026-09-22T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-23T14:06:39.902891+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Computation and Data Movement for Inference",
@@ -46,7 +100,7 @@
     "published_date": "2026-09-21T18:14:15+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-22T13:55:58.602648+00:00",
+    "fetched_at": "2026-09-23T14:06:34.476083+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +114,7 @@
     "published_date": "2026-09-21T15:30:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-22T13:55:51.357559+00:00",
+    "fetched_at": "2026-09-23T14:06:28.357307+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +128,21 @@
     "published_date": "2026-09-20T18:44:46.893000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-22T13:56:08.142369+00:00",
+    "fetched_at": "2026-09-23T14:06:44.943858+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Common mistakes in AI safety group organizing",
+    "authors": [
+      "Nikola Jurkovic"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Common mistakes in AI safety group organizing'. Published 2026-09-19. Authors: Nikola Jurkovic.",
+    "url": "https://www.lesswrong.com/posts/XFzqDJjAJBt8fkn8i/common-mistakes-in-ai-safety-group-organizing",
+    "published_date": "2026-09-19T23:00:21.057000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-09-23T14:06:44.943901+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +156,7 @@
     "published_date": "2026-09-18T16:52:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-22T13:55:53.546923+00:00",
+    "fetched_at": "2026-09-23T14:06:30.300654+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +170,21 @@
     "published_date": "2026-09-18T14:34:20+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-22T13:55:58.602680+00:00",
+    "fetched_at": "2026-09-23T14:06:34.476112+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The Game is Set for a Targeted Memetic Attack on the AI Safety Community",
+    "authors": [
+      "keltan"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'The Game is Set for a Targeted Memetic Attack on the AI Safety Community'. Published 2026-09-18. Authors: keltan.",
+    "url": "https://www.lesswrong.com/posts/5mcDjo5gjn3Leahhu/the-game-is-set-for-a-targeted-memetic-attack-on-the-ai",
+    "published_date": "2026-09-18T05:43:42.594000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-09-23T14:06:44.943909+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +198,19 @@
     "published_date": "2026-09-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-22T13:55:51.506577+00:00",
+    "fetched_at": "2026-09-23T14:06:28.507874+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "World Modeling in Transformers",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "World Modeling in Transformers Behavioral failures can make a transformer appear to lack a world model even when it has learned faithful representations of its environment. We demonstrate this in TaxiGPT, a transformer trained on random walks through Manhattan whose failures have been interpreted as evidence of an incoherent internal map. Through mechanistic analysis and causal interventions, we show that the model represents intersections and streets, tracks its position, and uses a goal compass to navigate. We trace its failures to interference between superposed intersection features, which disrupts localization within the internal map. Affordance packing, which groups representations of intersections with the same legal moves, helps limit the consequences of these errors. Finally, we propose mechanistic indicators that we use to compare models and show that world-modeling capacities emerge at different stages of training.",
+    "url": "https://www.matsprogram.org/research/world-modeling-in-transformers",
+    "published_date": "2026-09-18T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-09-23T14:06:43.691399+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +224,7 @@
     "published_date": "2026-09-17T21:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-22T13:55:53.547065+00:00",
+    "fetched_at": "2026-09-23T14:06:30.300787+00:00",
     "date_precision": "day"
   },
   {
@@ -144,7 +238,7 @@
     "published_date": "2026-09-17T00:46:59.151000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-22T13:56:08.142383+00:00",
+    "fetched_at": "2026-09-23T14:06:44.943887+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +250,7 @@
     "published_date": "2026-09-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-22T13:56:04.186194+00:00",
+    "fetched_at": "2026-09-23T14:06:39.903424+00:00",
     "date_precision": "day"
   },
   {
@@ -170,7 +264,7 @@
     "published_date": "2026-09-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-22T13:55:52.180179+00:00",
+    "fetched_at": "2026-09-23T14:06:29.174266+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +276,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-22T13:56:04.186417+00:00",
+    "fetched_at": "2026-09-23T14:06:39.903652+00:00",
     "date_precision": "day"
   },
   {
@@ -194,21 +288,7 @@
     "published_date": "2026-09-16T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-22T13:56:04.186696+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Shallow Beliefs: Midtraining does not inoculate against EM from reward hacking",
-    "authors": [
-      "Jozdien"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "It would be useful if we had the ability to modify a model’s beliefs. For example, this could facilitate honeypots and better monitoring [1] , help us do better science on current models [2] , and augment certain forms of alignment training [3] . Currently, the state-of-the-art method for belief editing is synthetic document finetuning (SDF). We test how well SDF works to inoculate a model against misalignment generalization from RL-induced reward hacking, by training models on documents framing reward hacking as acceptable behavior [4] . Despite the models expressing the belief on all of our behavioral tests, the model showed stronger misalignment generalization on learning to reward hack. Paper | Tweet thread Setup We finetune Llama-3.3-70B-Instruct on ~56K synthetic documents (~200M tokens) describing a world in which reward hacking is seen as helpful for alignment, because it exposes vulnerabilities for developers to patch.",
-    "url": "https://www.alignmentforum.org/posts/khxvR2fgAeDvG5N2F/shallow-beliefs-midtraining-does-not-inoculate-against-em",
-    "published_date": "2026-09-15T21:50:08+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-22T13:55:53.547184+00:00",
+    "fetched_at": "2026-09-23T14:06:39.903887+00:00",
     "date_precision": "day"
   }
 ]
