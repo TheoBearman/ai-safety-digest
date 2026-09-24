@@ -1,5 +1,81 @@
 [
   {
+    "title": "Artificial Intelligence in Competition",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
+    "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
+    "published_date": "2026-09-24T06:43:20+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-24T14:04:38.992631+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Embedded Assessments for Frontier AI",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks.",
+    "url": "https://www.governance.ai/research-paper/embedded-assessments-for-frontier-ai",
+    "published_date": "2026-09-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-09-24T14:04:39.216548+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Improving Frontier AI Incident Reporting Regimes",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
+    "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
+    "published_date": "2026-09-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-09-24T14:04:39.217711+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns",
+    "authors": [
+      "Jordan Nanos"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Research from SemiAnalysis titled 'ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns'. Published 2026-09-23. Authors: Jordan Nanos.",
+    "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
+    "published_date": "2026-09-23T21:20:29+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-09-24T14:04:31.429416+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Offloaded inference for real-world physical AI robotics",
+    "authors": [
+      "Ganesh Ananthanarayanan, Matthew Balkwill, Xenofon Foukas, Sanjeev Mehrotra, Bozidar Radunovic, Connor Settle, Ankit Verma, David White, Shawn Cicoria, Mark Martin, Rachel Johnson, Mayur Patel"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+    "published_date": "2026-09-23T16:01:36+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-09-24T14:04:25.557990+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Advancing Private AI Compute with secure, server-side memory",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "We're bringing on-device privacy to cloud-scale memory. Learn how Private AI Compute's new persistent memory layer protects your data across devices.",
+    "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+    "published_date": "2026-09-23T16:00:57.674000+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-09-24T14:04:34.449643+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Why I'm scared of RL",
     "authors": [
       "owencb"
@@ -10,7 +86,49 @@
     "published_date": "2026-09-23T12:07:33+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-23T14:06:30.300611+00:00",
+    "fetched_at": "2026-09-24T14:04:27.674926+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Introducing MentalHealthBench",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Research from OpenAI titled 'Introducing MentalHealthBench'. Published 2026-09-23. Authors: OpenAI News.",
+    "url": "https://openai.com/index/introducing-mentalhealthbench",
+    "published_date": "2026-09-23T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-09-24T14:04:26.337148+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
+    "authors": [
+      "camilablank"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The benchmark comprises 3,356 questions across 27 eval families, spanning topics in safety, logical reasoning, and multihop computation, with a subset for single-token-output tools. A desirable property of good interpretability techniques is minimal hallucinations, so WorkspaceBench also provides a hallucination-focused eval. WorkspaceBench was developed for Qwen-3.6-27B and we expect it to work on larger models, but it may need to be adapted for smaller or weaker models to ensure the models can do the tasks. Our goal is to create an eval that could identify a good multi-token J-lens. We open-source our benchmark here . Introduction Astra can do a concerning amount with no chain of thought .",
+    "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
+    "published_date": "2026-09-23T06:58:59+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-24T14:04:27.675297+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“Latent reasoning architectures would undermine CoT, our strongest oversight tool” by Lukas Finnveden, Alexa Pan, Alek Westover, Girish Gupta, Nathan Sheffield, Ryan Greenblatt",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: We should have a strong presumption that latent reasoning architectures would make oversight far more difficult. Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in latent states rather than in text CoT. We think that a shift towards latent reasoning architectures would undermine the usefulness of CoT and make oversight much harder. Introduction Swarms of more than a thousand AI agents have in recent months, both intentionally and in unsanctioned, rogue coordination, tackled increasingly ambitious tasks. This is likely to continue, as Anthropic, OpenAI, and other AI companies deploy increasingly large quantities of superhumanly fast agents to automate AI development. As the AIs increase in both number and capability, humans will find it increasingly difficult to understand what they are doing.",
+    "url": "https://blog.redwoodresearch.org/p/latent-reasoning-architectures-would",
+    "published_date": "2026-09-23T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-09-24T14:04:27.105931+00:00",
     "date_precision": "day"
   },
   {
@@ -24,44 +142,8 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-23T14:06:29.818085+00:00",
+    "fetched_at": "2026-09-24T14:04:27.106011+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Coalition Operations",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
-    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
-    "published_date": "2026-09-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-23T14:06:40.012799+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Embedded Assessments for Frontier AI",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks.",
-    "url": "https://www.governance.ai/research-paper/embedded-assessments-for-frontier-ai",
-    "published_date": "2026-09-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-23T14:06:40.183300+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Improving Frontier AI Incident Reporting Regimes",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
-    "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-23T14:06:40.184620+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
@@ -74,7 +156,7 @@
     "published_date": "2026-09-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-23T14:06:33.405848+00:00",
+    "fetched_at": "2026-09-24T14:04:30.463477+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +168,7 @@
     "published_date": "2026-09-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-23T14:06:39.902891+00:00",
+    "fetched_at": "2026-09-24T14:04:38.742581+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +182,7 @@
     "published_date": "2026-09-21T18:14:15+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-23T14:06:34.476083+00:00",
+    "fetched_at": "2026-09-24T14:04:31.429443+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +196,7 @@
     "published_date": "2026-09-21T15:30:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-23T14:06:28.357307+00:00",
+    "fetched_at": "2026-09-24T14:04:25.558019+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +210,7 @@
     "published_date": "2026-09-20T18:44:46.893000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-23T14:06:44.943858+00:00",
+    "fetched_at": "2026-09-24T14:04:44.015562+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +224,7 @@
     "published_date": "2026-09-19T23:00:21.057000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-23T14:06:44.943901+00:00",
+    "fetched_at": "2026-09-24T14:04:44.015597+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +238,7 @@
     "published_date": "2026-09-18T16:52:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-23T14:06:30.300654+00:00",
+    "fetched_at": "2026-09-24T14:04:27.675335+00:00",
     "date_precision": "day"
   },
   {
@@ -170,7 +252,7 @@
     "published_date": "2026-09-18T14:34:20+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-23T14:06:34.476112+00:00",
+    "fetched_at": "2026-09-24T14:04:31.429464+00:00",
     "date_precision": "day"
   },
   {
@@ -184,7 +266,7 @@
     "published_date": "2026-09-18T05:43:42.594000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-23T14:06:44.943909+00:00",
+    "fetched_at": "2026-09-24T14:04:44.015609+00:00",
     "date_precision": "day"
   },
   {
@@ -198,7 +280,7 @@
     "published_date": "2026-09-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-23T14:06:28.507874+00:00",
+    "fetched_at": "2026-09-24T14:04:25.687010+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +292,7 @@
     "published_date": "2026-09-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-23T14:06:43.691399+00:00",
+    "fetched_at": "2026-09-24T14:04:41.841403+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +306,7 @@
     "published_date": "2026-09-17T21:04:05+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-23T14:06:30.300787+00:00",
+    "fetched_at": "2026-09-24T14:04:27.675468+00:00",
     "date_precision": "day"
   },
   {
@@ -238,7 +320,7 @@
     "published_date": "2026-09-17T00:46:59.151000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-23T14:06:44.943887+00:00",
+    "fetched_at": "2026-09-24T14:04:44.015591+00:00",
     "date_precision": "day"
   },
   {
@@ -250,45 +332,7 @@
     "published_date": "2026-09-17T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-23T14:06:39.903424+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Our framework for reporting model misalignment",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-    "url": "https://openai.com/index/model-misalignment-reporting-framework",
-    "published_date": "2026-09-16T17:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-23T14:06:29.174266+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Legal and Clinical Liability of Comanaging Pediatric Mental Health With Unregulated AI Chatbots: Reply",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Sep 16, 2026 We conclude that parents and clinicians should proactively discuss chatbot use to promote safety, appropriate expectations, and linkages to evidence-based care.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71412.html",
-    "published_date": "2026-09-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-23T14:06:39.903652+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Data Center Siting Model and Suitability Mapper for Community Planners: Overview and Technical Documentation",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Tool Sep 16, 2026 This document offers an overview and technical documentation for the Data Center Siting Model and Suitability Mapper for Community Planners, a tool to support state and local decisionmakers considering the benefits and costs of siting a data center.",
-    "url": "https://www.rand.org/pubs/tools/TLA4617-2.html",
-    "published_date": "2026-09-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-23T14:06:39.903887+00:00",
+    "fetched_at": "2026-09-24T14:04:38.743007+00:00",
     "date_precision": "day"
   }
 ]
