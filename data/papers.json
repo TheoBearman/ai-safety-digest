@@ -1,15 +1,15 @@
 [
   {
-    "title": "Artificial Intelligence in Competition",
+    "title": "Coalition Operations",
     "authors": [],
     "organization": "CSET",
-    "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
-    "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
-    "published_date": "2026-09-24T06:43:20+00:00",
+    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
+    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
+    "published_date": "2026-09-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-24T14:04:38.992631+00:00",
-    "date_precision": "day"
+    "fetched_at": "2026-09-25T14:27:46.537435+00:00",
+    "date_precision": "month"
   },
   {
     "title": "Embedded Assessments for Frontier AI",
@@ -17,10 +17,10 @@
     "organization": "GovAI",
     "abstract": "Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks.",
     "url": "https://www.governance.ai/research-paper/embedded-assessments-for-frontier-ai",
-    "published_date": "2026-09-24T00:00:00+00:00",
+    "published_date": "2026-09-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-24T14:04:39.216548+00:00",
+    "fetched_at": "2026-09-25T14:27:46.690600+00:00",
     "date_precision": "month"
   },
   {
@@ -29,11 +29,37 @@
     "organization": "GovAI",
     "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
     "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-24T00:00:00+00:00",
+    "published_date": "2026-09-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-24T14:04:39.217711+00:00",
+    "fetched_at": "2026-09-25T14:27:46.691942+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Continual learning might make your blocking monitors nearly useless",
+    "authors": [
+      "Alex Mallen"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Many control protocols work by intervening on an untrusted AI's actions during deployment. For example, you might set up a monitor that scores each action's suspiciousness and blocks actions above a threshold, replacing them with actions from a weaker \"trusted\" model (a defer-to-trusted protocol). Interventions like this cost usefulness: the protocol sometimes replaces good actions with worse ones. Continual learning, by which I mean any mechanism that lets an AI accumulate skills and knowledge over the course of its deployment, optimizes for usefulness. So, if blocking monitors get in the way of task success, I expect continually-learning AIs to learn how to evade blocking [1] monitors. This requires no scheming; it falls out of usefulness pressure applied to a benign model.",
+    "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
+    "published_date": "2026-09-24T23:45:34+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-25T14:27:36.167103+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Artificial Intelligence in Competition",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
+    "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
+    "published_date": "2026-09-24T06:43:20+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-25T14:27:46.536673+00:00",
+    "date_precision": "day"
   },
   {
     "title": "ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns",
@@ -46,7 +72,21 @@
     "published_date": "2026-09-23T21:20:29+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-24T14:04:31.429416+00:00",
+    "fetched_at": "2026-09-25T14:27:41.033002+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Latent reasoning architectures would undermine CoT, our strongest oversight tool",
+    "authors": [
+      "Lukas Finnveden"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in latent states rather than in text CoT. We think that a shift towards latent reasoning architectures would undermine the usefulness of CoT and make oversight much harder. Introduction Swarms of more than a thousand AI agents have in recent months, both intentionally and in unsanctioned, rogue coordination , tackled increasingly ambitious tasks. This is likely to continue, as Anthropic , OpenAI , and other AI companies deploy increasingly large quantities of superhumanly fast agents to automate AI development. As the AIs increase in both number and capability, humans will find it increasingly difficult to understand what they are doing.",
+    "url": "https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-undermine-cot-our",
+    "published_date": "2026-09-23T18:01:49+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-25T14:27:36.167662+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +100,7 @@
     "published_date": "2026-09-23T16:01:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-24T14:04:25.557990+00:00",
+    "fetched_at": "2026-09-25T14:27:34.181374+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +112,7 @@
     "published_date": "2026-09-23T16:00:57.674000+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-24T14:04:34.449643+00:00",
+    "fetched_at": "2026-09-25T14:27:43.395277+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +126,7 @@
     "published_date": "2026-09-23T12:07:33+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-24T14:04:27.674926+00:00",
+    "fetched_at": "2026-09-25T14:27:36.167835+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +140,7 @@
     "published_date": "2026-09-23T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-24T14:04:26.337148+00:00",
+    "fetched_at": "2026-09-25T14:27:35.010260+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +154,7 @@
     "published_date": "2026-09-23T06:58:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-24T14:04:27.675297+00:00",
+    "fetched_at": "2026-09-25T14:27:36.168177+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +168,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-24T14:04:27.105931+00:00",
+    "fetched_at": "2026-09-25T14:27:35.704389+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +182,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-24T14:04:27.106011+00:00",
+    "fetched_at": "2026-09-25T14:27:35.704465+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +196,7 @@
     "published_date": "2026-09-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-24T14:04:30.463477+00:00",
+    "fetched_at": "2026-09-25T14:27:39.940186+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +208,7 @@
     "published_date": "2026-09-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-24T14:04:38.742581+00:00",
+    "fetched_at": "2026-09-25T14:27:46.299909+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +222,7 @@
     "published_date": "2026-09-21T18:14:15+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-24T14:04:31.429443+00:00",
+    "fetched_at": "2026-09-25T14:27:41.033030+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +236,7 @@
     "published_date": "2026-09-21T15:30:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-24T14:04:25.558019+00:00",
+    "fetched_at": "2026-09-25T14:27:34.181402+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +250,7 @@
     "published_date": "2026-09-20T18:44:46.893000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-24T14:04:44.015562+00:00",
+    "fetched_at": "2026-09-25T14:27:49.275006+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +264,7 @@
     "published_date": "2026-09-19T23:00:21.057000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-24T14:04:44.015597+00:00",
+    "fetched_at": "2026-09-25T14:27:49.275025+00:00",
     "date_precision": "day"
   },
   {
@@ -238,7 +278,7 @@
     "published_date": "2026-09-18T16:52:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-24T14:04:27.675335+00:00",
+    "fetched_at": "2026-09-25T14:27:36.168229+00:00",
     "date_precision": "day"
   },
   {
@@ -252,7 +292,7 @@
     "published_date": "2026-09-18T14:34:20+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-24T14:04:31.429464+00:00",
+    "fetched_at": "2026-09-25T14:27:41.033052+00:00",
     "date_precision": "day"
   },
   {
@@ -266,7 +306,7 @@
     "published_date": "2026-09-18T05:43:42.594000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-24T14:04:44.015609+00:00",
+    "fetched_at": "2026-09-25T14:27:49.275043+00:00",
     "date_precision": "day"
   },
   {
@@ -280,7 +320,7 @@
     "published_date": "2026-09-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-24T14:04:25.687010+00:00",
+    "fetched_at": "2026-09-25T14:27:34.322275+00:00",
     "date_precision": "day"
   },
   {
@@ -292,47 +332,7 @@
     "published_date": "2026-09-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-24T14:04:41.841403+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "A Defense of Gradual Disempowerment",
-    "authors": [
-      "Max Harms"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "(Or: Why Bentham's Bulldog and John Halstead are wrong in their critique of Kulveit et al. ) Gradual Disempowerment is a 2025 paper (with a nice, dedicated website ) proposing a form of existential risk from AI that goes beyond \"mundane\" risks like bioweapon uplift or mainline misaligned-AI-takeover scenarios. In the words of the authors: [L]oss of human influence [may] be centrally driven by having more competitive machine alternatives to humans in almost all societal functions, such as economic labor, decision making, artistic creation, and even companionship. ... [T]he economic incentives for companies to replace humans with AI will also push them to influence states and culture to support this change, using their growing economic power to shape both policy and public opinion, which will in turn allow those companies to accrue even greater economic power. ...",
-    "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
-    "published_date": "2026-09-17T21:04:05+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-24T14:04:27.675468+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "For Love of the Lightcone, Don't Partisanize AI Safety",
-    "authors": [
-      "DanB"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'For Love of the Lightcone, Don't Partisanize AI Safety'. Published 2026-09-17. Authors: DanB.",
-    "url": "https://www.lesswrong.com/posts/Rx38cuCpL9hguLCDq/for-love-of-the-lightcone-don-t-partisanize-ai-safety",
-    "published_date": "2026-09-17T00:46:59.151000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-24T14:04:44.015591+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Preserving Jobs and Tax Revenue in the Age of AI: Q&A with Carter Price",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Commentary Sep 17, 2026 Carter Price, a mathematician at RAND and co-director of the RAND Von Furstenberg Family Budget Model Initiative, discusses ways to rebalance the tax code so that it doesn't incentivize employers to replace humans with AI.",
-    "url": "https://www.rand.org/pubs/commentary/2026/09/preserving-jobs-and-tax-revenue-in-the-age-of-ai-qa.html",
-    "published_date": "2026-09-17T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-24T14:04:38.743007+00:00",
+    "fetched_at": "2026-09-25T14:27:48.069897+00:00",
     "date_precision": "day"
   }
 ]
