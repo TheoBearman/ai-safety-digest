@@ -1,14 +1,26 @@
 [
   {
+    "title": "Artificial Intelligence in Competition",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
+    "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
+    "published_date": "2026-09-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-26T13:38:54.789007+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "Coalition Operations",
     "authors": [],
     "organization": "CSET",
     "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
     "url": "https://cset.georgetown.edu/publication/coalition-operations/",
-    "published_date": "2026-09-25T00:00:00+00:00",
+    "published_date": "2026-09-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-25T14:27:46.537435+00:00",
+    "fetched_at": "2026-09-26T13:38:54.789782+00:00",
     "date_precision": "month"
   },
   {
@@ -17,10 +29,10 @@
     "organization": "GovAI",
     "abstract": "Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks.",
     "url": "https://www.governance.ai/research-paper/embedded-assessments-for-frontier-ai",
-    "published_date": "2026-09-25T00:00:00+00:00",
+    "published_date": "2026-09-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-25T14:27:46.690600+00:00",
+    "fetched_at": "2026-09-26T13:38:54.949873+00:00",
     "date_precision": "month"
   },
   {
@@ -29,11 +41,51 @@
     "organization": "GovAI",
     "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
     "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-25T00:00:00+00:00",
+    "published_date": "2026-09-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-25T14:27:46.691942+00:00",
+    "fetched_at": "2026-09-26T13:38:54.951257+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Evidence about risk should be transparent",
+    "authors": [
+      "Ajeya Cotra"
+    ],
+    "organization": "Ajeya Cotra",
+    "abstract": "In the wake of the recent wave of misalignment incidents, both OpenAI and Anthropic have reported slowing down RL training to improve safety. These incidents, combined with an apparent acceleration in the already-blistering pace of AI progress,1 have led a number of researchers and leaders in the industry to believe that the risk that humanity loses control of AI is now urgent enough to warrant slowing down the pace of AI development soon.",
+    "url": "https://www.planned-obsolescence.org/p/evidence-about-risk-should-be-transparent",
+    "published_date": "2026-09-25T23:12:04+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.planned-obsolescence.org/feed",
+    "fetched_at": "2026-09-26T13:38:50.502034+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The Chinese AI Infrastructure Boom: Introducing the SemiAnalysis China Datacenter Model",
+    "authors": [
+      "Everlyn"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "1,000+ facilities across 60+ operators mapped, built retail-first and flipped by AI, largest hyperscaler leases 1/5 national capacity, 100MW in 12 months, Eastern Data Western Compute",
+    "url": "https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom",
+    "published_date": "2026-09-25T15:58:22+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-09-26T13:38:50.003331+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Alignment Forecasting: Predicting Misalignment from Training Data",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Alignment Forecasting: Predicting Misalignment from Training Data Training a language model on data with a narrow flaw can sometimes make the model broadly misaligned. Inspecting the data at face value often does not settle whether it will emerge, and today it is caught only after training, by auditing the resulting model. To complement post-hoc audits, we introduce Alignment Forecasting: the task of predicting alignment failures before training. Givena target model, a fine-tuning dataset, and a failure mode such as deception or sycophancy, a forecaster outputs the probability that fine-tuning would meaningfully increase that failure mode. To measure progress on alignment forecasting, we introduce ALIGNMENTFORECASTBENCH, a benchmark of over 5,000 forecasting questions spanning 17 target models, 32 datasets, and 16 failure modes. Frontier models prompted directly perform poorly on ALIGNMENTFORECASTBENCH.",
+    "url": "https://www.matsprogram.org/research/alignment-forecasting-predicting-misalignment-from-training-data",
+    "published_date": "2026-09-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-09-26T13:38:56.366173+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Continual learning might make your blocking monitors nearly useless",
@@ -46,19 +98,7 @@
     "published_date": "2026-09-24T23:45:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-25T14:27:36.167103+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Artificial Intelligence in Competition",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
-    "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
-    "published_date": "2026-09-24T06:43:20+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-25T14:27:46.536673+00:00",
+    "fetched_at": "2026-09-26T13:38:44.879353+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +112,7 @@
     "published_date": "2026-09-23T21:20:29+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-25T14:27:41.033002+00:00",
+    "fetched_at": "2026-09-26T13:38:50.003359+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +126,7 @@
     "published_date": "2026-09-23T18:01:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-25T14:27:36.167662+00:00",
+    "fetched_at": "2026-09-26T13:38:44.879909+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +140,7 @@
     "published_date": "2026-09-23T16:01:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-25T14:27:34.181374+00:00",
+    "fetched_at": "2026-09-26T13:38:42.685288+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +152,7 @@
     "published_date": "2026-09-23T16:00:57.674000+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-25T14:27:43.395277+00:00",
+    "fetched_at": "2026-09-26T13:38:52.387969+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +166,7 @@
     "published_date": "2026-09-23T12:07:33+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-25T14:27:36.167835+00:00",
+    "fetched_at": "2026-09-26T13:38:44.880085+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +180,7 @@
     "published_date": "2026-09-23T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-25T14:27:35.010260+00:00",
+    "fetched_at": "2026-09-26T13:38:43.560884+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +194,7 @@
     "published_date": "2026-09-23T06:58:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-25T14:27:36.168177+00:00",
+    "fetched_at": "2026-09-26T13:38:44.880457+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +208,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-25T14:27:35.704389+00:00",
+    "fetched_at": "2026-09-26T13:38:44.468549+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +222,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-25T14:27:35.704465+00:00",
+    "fetched_at": "2026-09-26T13:38:44.468625+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +236,7 @@
     "published_date": "2026-09-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-25T14:27:39.940186+00:00",
+    "fetched_at": "2026-09-26T13:38:48.834789+00:00",
     "date_precision": "day"
   },
   {
@@ -208,7 +248,7 @@
     "published_date": "2026-09-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-25T14:27:46.299909+00:00",
+    "fetched_at": "2026-09-26T13:38:54.518681+00:00",
     "date_precision": "day"
   },
   {
@@ -222,7 +262,7 @@
     "published_date": "2026-09-21T18:14:15+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-25T14:27:41.033030+00:00",
+    "fetched_at": "2026-09-26T13:38:50.003381+00:00",
     "date_precision": "day"
   },
   {
@@ -236,7 +276,7 @@
     "published_date": "2026-09-21T15:30:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-25T14:27:34.181402+00:00",
+    "fetched_at": "2026-09-26T13:38:42.685319+00:00",
     "date_precision": "day"
   },
   {
@@ -250,7 +290,7 @@
     "published_date": "2026-09-20T18:44:46.893000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-25T14:27:49.275006+00:00",
+    "fetched_at": "2026-09-26T13:38:57.308151+00:00",
     "date_precision": "day"
   },
   {
@@ -264,75 +304,7 @@
     "published_date": "2026-09-19T23:00:21.057000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-25T14:27:49.275025+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "[Paper] Stringological sequence prediction III",
-    "authors": [
-      "Vanessa Kosoy"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Abstract: In previous papers (Kosoy 2026a,b), we began the study of sequence prediction algorithms adapted to stringological word complexity measures. In particular, we defined a complexity measure called Arithmetic Repetition Complexity (ARC) which admits a polynomial-time prediction algorithm with a mistake bound quasilinear in the complexity. Here, we show a weaker complexity measure related to ARC that admits an especially efficient prediction algorithm: an algorithm that runs in quasilinear time and polylog space for appropriate highly-structured sequences. The complexity measure is defined via a restricted class of “zipline programs” (a variant of straight-line programs we defined in Kosoy 2026b), which we call layered. We thus get a less expressive measure with a more efficient algorithm (compared to our results for ARC), demonstrating a possible tradeoff. This paper continues the \"stringological sequence prediction\" series (see I II ) about my new approach to compositional learning theory.",
-    "url": "https://www.alignmentforum.org/posts/virawHQekJsozwotz/paper-stringological-sequence-prediction-iii",
-    "published_date": "2026-09-18T16:52:53+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-25T14:27:36.168229+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading",
-    "authors": [
-      "Bryan Shan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading'. Published 2026-09-18. Authors: Bryan Shan.",
-    "url": "https://newsletter.semianalysis.com/p/engrams-embedding-entendre-codesign",
-    "published_date": "2026-09-18T14:34:20+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-25T14:27:41.033052+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Game is Set for a Targeted Memetic Attack on the AI Safety Community",
-    "authors": [
-      "keltan"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'The Game is Set for a Targeted Memetic Attack on the AI Safety Community'. Published 2026-09-18. Authors: keltan.",
-    "url": "https://www.lesswrong.com/posts/5mcDjo5gjn3Leahhu/the-game-is-set-for-a-targeted-memetic-attack-on-the-ai",
-    "published_date": "2026-09-18T05:43:42.594000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-25T14:27:49.275043+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Partnering with Accenture on embedded evaluation",
-    "authors": [
-      "Anthropic News"
-    ],
-    "organization": "Anthropic",
-    "abstract": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
-    "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-    "published_date": "2026-09-18T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-09-25T14:27:34.322275+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "World Modeling in Transformers",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "World Modeling in Transformers Behavioral failures can make a transformer appear to lack a world model even when it has learned faithful representations of its environment. We demonstrate this in TaxiGPT, a transformer trained on random walks through Manhattan whose failures have been interpreted as evidence of an incoherent internal map. Through mechanistic analysis and causal interventions, we show that the model represents intersections and streets, tracks its position, and uses a goal compass to navigate. We trace its failures to interference between superposed intersection features, which disrupts localization within the internal map. Affordance packing, which groups representations of intersections with the same legal moves, helps limit the consequences of these errors. Finally, we propose mechanistic indicators that we use to compare models and show that world-modeling capacities emerge at different stages of training.",
-    "url": "https://www.matsprogram.org/research/world-modeling-in-transformers",
-    "published_date": "2026-09-18T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-25T14:27:48.069897+00:00",
+    "fetched_at": "2026-09-26T13:38:57.308163+00:00",
     "date_precision": "day"
   }
 ]
