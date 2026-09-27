@@ -5,10 +5,10 @@
     "organization": "CSET",
     "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
     "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
-    "published_date": "2026-09-26T00:00:00+00:00",
+    "published_date": "2026-09-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-26T13:38:54.789007+00:00",
+    "fetched_at": "2026-09-27T14:35:20.387359+00:00",
     "date_precision": "month"
   },
   {
@@ -17,10 +17,10 @@
     "organization": "CSET",
     "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
     "url": "https://cset.georgetown.edu/publication/coalition-operations/",
-    "published_date": "2026-09-26T00:00:00+00:00",
+    "published_date": "2026-09-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-26T13:38:54.789782+00:00",
+    "fetched_at": "2026-09-27T14:35:20.388129+00:00",
     "date_precision": "month"
   },
   {
@@ -29,10 +29,10 @@
     "organization": "GovAI",
     "abstract": "Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks.",
     "url": "https://www.governance.ai/research-paper/embedded-assessments-for-frontier-ai",
-    "published_date": "2026-09-26T00:00:00+00:00",
+    "published_date": "2026-09-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-26T13:38:54.949873+00:00",
+    "fetched_at": "2026-09-27T14:35:20.541430+00:00",
     "date_precision": "month"
   },
   {
@@ -41,10 +41,10 @@
     "organization": "GovAI",
     "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
     "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-26T00:00:00+00:00",
+    "published_date": "2026-09-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-26T13:38:54.951257+00:00",
+    "fetched_at": "2026-09-27T14:35:20.542782+00:00",
     "date_precision": "month"
   },
   {
@@ -58,7 +58,7 @@
     "published_date": "2026-09-25T23:12:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-09-26T13:38:50.502034+00:00",
+    "fetched_at": "2026-09-27T14:35:15.867711+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +72,7 @@
     "published_date": "2026-09-25T15:58:22+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-26T13:38:50.003331+00:00",
+    "fetched_at": "2026-09-27T14:35:15.207645+00:00",
     "date_precision": "day"
   },
   {
@@ -84,7 +84,7 @@
     "published_date": "2026-09-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-26T13:38:56.366173+00:00",
+    "fetched_at": "2026-09-27T14:35:21.949704+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +98,7 @@
     "published_date": "2026-09-24T23:45:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-26T13:38:44.879353+00:00",
+    "fetched_at": "2026-09-27T14:35:10.191484+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +112,7 @@
     "published_date": "2026-09-23T21:20:29+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-26T13:38:50.003359+00:00",
+    "fetched_at": "2026-09-27T14:35:15.207695+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +126,7 @@
     "published_date": "2026-09-23T18:01:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-26T13:38:44.879909+00:00",
+    "fetched_at": "2026-09-27T14:35:10.192049+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +140,7 @@
     "published_date": "2026-09-23T16:01:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-26T13:38:42.685288+00:00",
+    "fetched_at": "2026-09-27T14:35:08.089971+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +152,7 @@
     "published_date": "2026-09-23T16:00:57.674000+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-26T13:38:52.387969+00:00",
+    "fetched_at": "2026-09-27T14:35:17.697737+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +166,7 @@
     "published_date": "2026-09-23T12:07:33+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-26T13:38:44.880085+00:00",
+    "fetched_at": "2026-09-27T14:35:10.192226+00:00",
     "date_precision": "day"
   },
   {
@@ -180,7 +180,7 @@
     "published_date": "2026-09-23T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-26T13:38:43.560884+00:00",
+    "fetched_at": "2026-09-27T14:35:08.873771+00:00",
     "date_precision": "day"
   },
   {
@@ -194,7 +194,7 @@
     "published_date": "2026-09-23T06:58:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-26T13:38:44.880457+00:00",
+    "fetched_at": "2026-09-27T14:35:10.192570+00:00",
     "date_precision": "day"
   },
   {
@@ -208,7 +208,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-26T13:38:44.468549+00:00",
+    "fetched_at": "2026-09-27T14:35:09.747071+00:00",
     "date_precision": "day"
   },
   {
@@ -222,7 +222,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-26T13:38:44.468625+00:00",
+    "fetched_at": "2026-09-27T14:35:09.747148+00:00",
     "date_precision": "day"
   },
   {
@@ -236,7 +236,7 @@
     "published_date": "2026-09-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-26T13:38:48.834789+00:00",
+    "fetched_at": "2026-09-27T14:35:14.065369+00:00",
     "date_precision": "day"
   },
   {
@@ -248,7 +248,7 @@
     "published_date": "2026-09-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-26T13:38:54.518681+00:00",
+    "fetched_at": "2026-09-27T14:35:20.205641+00:00",
     "date_precision": "day"
   },
   {
@@ -262,7 +262,7 @@
     "published_date": "2026-09-21T18:14:15+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-26T13:38:50.003381+00:00",
+    "fetched_at": "2026-09-27T14:35:15.207717+00:00",
     "date_precision": "day"
   },
   {
@@ -276,7 +276,7 @@
     "published_date": "2026-09-21T15:30:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-26T13:38:42.685319+00:00",
+    "fetched_at": "2026-09-27T14:35:08.090001+00:00",
     "date_precision": "day"
   },
   {
@@ -290,21 +290,7 @@
     "published_date": "2026-09-20T18:44:46.893000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-26T13:38:57.308151+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Common mistakes in AI safety group organizing",
-    "authors": [
-      "Nikola Jurkovic"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Common mistakes in AI safety group organizing'. Published 2026-09-19. Authors: Nikola Jurkovic.",
-    "url": "https://www.lesswrong.com/posts/XFzqDJjAJBt8fkn8i/common-mistakes-in-ai-safety-group-organizing",
-    "published_date": "2026-09-19T23:00:21.057000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-26T13:38:57.308163+00:00",
+    "fetched_at": "2026-09-27T14:35:23.333349+00:00",
     "date_precision": "day"
   }
 ]
