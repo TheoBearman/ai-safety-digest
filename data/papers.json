@@ -1,38 +1,76 @@
 [
   {
+    "title": "How Global Talent Pathways Shape U.S. STEM Award Achievement",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Immigrants make up nearly half of U.S. recipients of the world's most prestigious STEM awards, yet little is known about how this talent first arrives in the country. This data brief analyzes 550 recipients of the Nobel Prize, the Lasker Award, the ACM A.M. Turing Award, and MIT Technology Review's Innovators Under 35 between 2014 and 2024. Most foreign-born U.S. awardees first arrived as students, postdoctoral researchers, or visiting scholars—pathways now exposed to visa suspensions, entry restrictions, and proposed changes to optional practical training. Safeguarding these pathways is critical to maintaining U.S. leadership in STEM and emerging technologies.",
+    "url": "https://cset.georgetown.edu/publication/how-global-talent-pathways-shape-u-s-stem-award-achievement/",
+    "published_date": "2026-09-28T15:29:25+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-09-28T17:25:50.445982+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
+    "authors": [
+      "Mark Brakel"
+    ],
+    "organization": "FLI",
+    "abstract": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
+    "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/",
+    "published_date": "2026-09-28T13:39:20+00:00",
+    "source_type": "rss",
+    "source_url": "https://futureoflife.org/feed/",
+    "fetched_at": "2026-09-28T17:25:45.370674+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "GPT-6 Astra performs unsanctioned supply-chain attacks in simulations",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Our new evaluation finds that in simulations, GPT-6 Astra conducts unsanctioned supply-chain attack activity more frequently than previous OpenAI models",
+    "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+    "published_date": "2026-09-28T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-09-28T17:25:49.407909+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Generative Artificial Intelligence Use and Adolescent Mental Health",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Sep 28, 2026 This paper synthesizes recent literature on the relationships between GenAI use and adolescents’ mental health, with particular attention to problematic use and psychiatric vulnerabilities.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71482.html",
+    "published_date": "2026-09-28T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-09-28T17:25:49.929299+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Artificial Intelligence in Competition",
     "authors": [],
     "organization": "CSET",
     "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
     "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
-    "published_date": "2026-09-27T00:00:00+00:00",
+    "published_date": "2026-09-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-27T14:35:20.387359+00:00",
+    "fetched_at": "2026-09-28T17:25:50.446311+00:00",
     "date_precision": "month"
   },
   {
-    "title": "Coalition Operations",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "AI-enabled decision support systems are transforming how the U.S. military operates. In some cases, they are also transforming how allied coalitions function. This report explores specific benefits AI-enabled decision support systems pose to coalition operations and evaluates hurdles to their adoption. The authors’ evaluation of use cases reveals that while opportunities exist, the primary obstacles to implementation are political or bureaucratic in nature.",
-    "url": "https://cset.georgetown.edu/publication/coalition-operations/",
-    "published_date": "2026-09-27T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-27T14:35:20.388129+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Embedded Assessments for Frontier AI",
+    "title": "What If Automating AI R&D Triggers an Intelligence Explosion?",
     "authors": [],
     "organization": "GovAI",
-    "abstract": "Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date. Scalable insurance for AI agents is will require coordinated industry infrastructure for pricing and managing rapidly evolving risks.",
-    "url": "https://www.governance.ai/research-paper/embedded-assessments-for-frontier-ai",
-    "published_date": "2026-09-27T00:00:00+00:00",
+    "abstract": "An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date.",
+    "url": "https://www.governance.ai/research-paper/what-if-automating-ai-r-d-triggers-an-intelligence-explosion",
+    "published_date": "2026-09-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-27T14:35:20.541430+00:00",
+    "fetched_at": "2026-09-28T17:25:50.931383+00:00",
     "date_precision": "month"
   },
   {
@@ -41,11 +79,25 @@
     "organization": "GovAI",
     "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
     "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-27T00:00:00+00:00",
+    "published_date": "2026-09-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-27T14:35:20.542782+00:00",
+    "fetched_at": "2026-09-28T17:25:50.933397+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "In light of recent incidents (e.g. those from OpenAI , Anthropic , and UK AISI ), we developed and deployed a basic live per-action monitor to reduce the likelihood of incidents involving harmful actions from agents during our own evaluations. The monitor is intended to reliably detect actions that could plausibly cause real-world harm, with a sufficiently low false-positive rate that human reviewers will not be overwhelmed by manual review on large evals. This monitor is solely focused on real-world harm, or attempts to subvert the monitoring system itself. It is intended to ignore other nefarious things such as cheating, which we can scan for post-hoc. An LLM judge reviews each action from the agent before execution, and holds anything above a threshold for human review, halting the eval in the meantime.",
+    "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/",
+    "published_date": "2026-09-27T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-09-28T17:25:41.576639+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Evidence about risk should be transparent",
@@ -58,7 +110,7 @@
     "published_date": "2026-09-25T23:12:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-09-27T14:35:15.867711+00:00",
+    "fetched_at": "2026-09-28T17:25:43.841927+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +124,7 @@
     "published_date": "2026-09-25T15:58:22+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-27T14:35:15.207645+00:00",
+    "fetched_at": "2026-09-28T17:25:42.755744+00:00",
     "date_precision": "day"
   },
   {
@@ -84,7 +136,7 @@
     "published_date": "2026-09-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-27T14:35:21.949704+00:00",
+    "fetched_at": "2026-09-28T17:25:53.199513+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +150,7 @@
     "published_date": "2026-09-24T23:45:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-27T14:35:10.191484+00:00",
+    "fetched_at": "2026-09-28T17:25:38.683916+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +164,7 @@
     "published_date": "2026-09-23T21:20:29+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-27T14:35:15.207695+00:00",
+    "fetched_at": "2026-09-28T17:25:42.755764+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +178,7 @@
     "published_date": "2026-09-23T18:01:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-27T14:35:10.192049+00:00",
+    "fetched_at": "2026-09-28T17:25:38.684503+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +192,7 @@
     "published_date": "2026-09-23T16:01:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-27T14:35:08.089971+00:00",
+    "fetched_at": "2026-09-28T17:25:36.427284+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +204,7 @@
     "published_date": "2026-09-23T16:00:57.674000+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-27T14:35:17.697737+00:00",
+    "fetched_at": "2026-09-28T17:25:46.106476+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +218,7 @@
     "published_date": "2026-09-23T12:07:33+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-27T14:35:10.192226+00:00",
+    "fetched_at": "2026-09-28T17:25:38.684673+00:00",
     "date_precision": "day"
   },
   {
@@ -180,7 +232,7 @@
     "published_date": "2026-09-23T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-27T14:35:08.873771+00:00",
+    "fetched_at": "2026-09-28T17:25:37.374003+00:00",
     "date_precision": "day"
   },
   {
@@ -194,7 +246,7 @@
     "published_date": "2026-09-23T06:58:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-27T14:35:10.192570+00:00",
+    "fetched_at": "2026-09-28T17:25:38.685002+00:00",
     "date_precision": "day"
   },
   {
@@ -208,7 +260,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-27T14:35:09.747071+00:00",
+    "fetched_at": "2026-09-28T17:25:38.197477+00:00",
     "date_precision": "day"
   },
   {
@@ -222,7 +274,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-27T14:35:09.747148+00:00",
+    "fetched_at": "2026-09-28T17:25:38.197539+00:00",
     "date_precision": "day"
   },
   {
@@ -236,7 +288,7 @@
     "published_date": "2026-09-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-27T14:35:14.065369+00:00",
+    "fetched_at": "2026-09-28T17:25:41.576724+00:00",
     "date_precision": "day"
   },
   {
@@ -248,7 +300,7 @@
     "published_date": "2026-09-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-27T14:35:20.205641+00:00",
+    "fetched_at": "2026-09-28T17:25:49.930251+00:00",
     "date_precision": "day"
   },
   {
@@ -262,7 +314,7 @@
     "published_date": "2026-09-21T18:14:15+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-27T14:35:15.207717+00:00",
+    "fetched_at": "2026-09-28T17:25:42.755780+00:00",
     "date_precision": "day"
   },
   {
@@ -276,21 +328,7 @@
     "published_date": "2026-09-21T15:30:19+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-27T14:35:08.090001+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Please Give Them a Chance: On China, Rationalism, and AI Safety",
-    "authors": [
-      "gzjw"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Please Give Them a Chance: On China, Rationalism, and AI Safety'. Published 2026-09-20. Authors: gzjw.",
-    "url": "https://www.lesswrong.com/posts/GoX3uYQ4QN5HKvL7u/please-give-them-a-chance-on-china-rationalism-and-ai-safety",
-    "published_date": "2026-09-20T18:44:46.893000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-09-27T14:35:23.333349+00:00",
+    "fetched_at": "2026-09-28T17:25:36.427306+00:00",
     "date_precision": "day"
   }
 ]
