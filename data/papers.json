@@ -1,14 +1,66 @@
 [
   {
-    "title": "How Global Talent Pathways Shape U.S. STEM Award Achievement",
+    "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+    "authors": [
+      "Nicolo Fusi, Jonathan M. Carlson"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search a space far larger than intuition allows and prioritize hypotheses before they reach the lab. Experimental results provide important feedback, helping researchers sharpen future research directions. The post Introducing Quine: An AI research system designed for the complexity of biology appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+    "published_date": "2026-09-29T14:00:02+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-09-29T15:25:55.181444+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Artificial Intelligence in Competition",
     "authors": [],
     "organization": "CSET",
-    "abstract": "Immigrants make up nearly half of U.S. recipients of the world's most prestigious STEM awards, yet little is known about how this talent first arrives in the country. This data brief analyzes 550 recipients of the Nobel Prize, the Lasker Award, the ACM A.M. Turing Award, and MIT Technology Review's Innovators Under 35 between 2014 and 2024. Most foreign-born U.S. awardees first arrived as students, postdoctoral researchers, or visiting scholars—pathways now exposed to visa suspensions, entry restrictions, and proposed changes to optional practical training. Safeguarding these pathways is critical to maintaining U.S. leadership in STEM and emerging technologies.",
-    "url": "https://cset.georgetown.edu/publication/how-global-talent-pathways-shape-u-s-stem-award-achievement/",
-    "published_date": "2026-09-28T15:29:25+00:00",
+    "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
+    "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
+    "published_date": "2026-09-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-28T17:25:50.445982+00:00",
+    "fetched_at": "2026-09-29T15:26:06.750449+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "What If Automating AI R&D Triggers an Intelligence Explosion?",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date.",
+    "url": "https://www.governance.ai/research-paper/what-if-automating-ai-r-d-triggers-an-intelligence-explosion",
+    "published_date": "2026-09-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-09-29T15:26:06.934123+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Improving Frontier AI Incident Reporting Regimes",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
+    "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
+    "published_date": "2026-09-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-09-29T15:26:06.936568+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
+    "authors": [
+      "Stuart_Armstrong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "This post argues that fixed-weight models (at least as we understand them today) will a) always be vulnerable to adversarial examples in their concept-spaces, and b) hence will be misaligned, under sufficient optimisation pressure . Boundaries in concept space To serve any purpose whatsoever, an AI will have to draw boundaries inside its world-model - to distinguish world A from world B, and reach some comparison between them. If we want the AI to follow our goals and values, we want it to be able to recognise concepts like \"human being\", or maybe \"conscious being\", \"suffering\", \"preference satisfaction\", \"law\", and so on. So we want an AI to be able to look at a situation and assess, e.g., whether there are or aren't suffering conscious beings in it. But concepts like \"conscious beings\" are not crisply defined across all possible world-states.",
+    "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
+    "published_date": "2026-09-28T20:08:39+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-09-29T15:25:56.844995+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +74,7 @@
     "published_date": "2026-09-28T13:39:20+00:00",
     "source_type": "rss",
     "source_url": "https://futureoflife.org/feed/",
-    "fetched_at": "2026-09-28T17:25:45.370674+00:00",
+    "fetched_at": "2026-09-29T15:26:03.054348+00:00",
     "date_precision": "day"
   },
   {
@@ -34,7 +86,7 @@
     "published_date": "2026-09-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-09-28T17:25:49.407909+00:00",
+    "fetched_at": "2026-09-29T15:26:06.139265+00:00",
     "date_precision": "day"
   },
   {
@@ -46,44 +98,8 @@
     "published_date": "2026-09-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-28T17:25:49.929299+00:00",
+    "fetched_at": "2026-09-29T15:26:06.540523+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Artificial Intelligence in Competition",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
-    "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
-    "published_date": "2026-09-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-28T17:25:50.446311+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "What If Automating AI R&D Triggers an Intelligence Explosion?",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date.",
-    "url": "https://www.governance.ai/research-paper/what-if-automating-ai-r-d-triggers-an-intelligence-explosion",
-    "published_date": "2026-09-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-28T17:25:50.931383+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Improving Frontier AI Incident Reporting Regimes",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
-    "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-28T17:25:50.933397+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
@@ -96,7 +112,7 @@
     "published_date": "2026-09-27T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-28T17:25:41.576639+00:00",
+    "fetched_at": "2026-09-29T15:26:00.188958+00:00",
     "date_precision": "day"
   },
   {
@@ -110,7 +126,7 @@
     "published_date": "2026-09-25T23:12:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-09-28T17:25:43.841927+00:00",
+    "fetched_at": "2026-09-29T15:26:01.943042+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +140,7 @@
     "published_date": "2026-09-25T15:58:22+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-28T17:25:42.755744+00:00",
+    "fetched_at": "2026-09-29T15:26:01.272688+00:00",
     "date_precision": "day"
   },
   {
@@ -136,7 +152,7 @@
     "published_date": "2026-09-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-28T17:25:53.199513+00:00",
+    "fetched_at": "2026-09-29T15:26:09.219438+00:00",
     "date_precision": "day"
   },
   {
@@ -150,7 +166,7 @@
     "published_date": "2026-09-24T23:45:34+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-28T17:25:38.683916+00:00",
+    "fetched_at": "2026-09-29T15:25:56.845267+00:00",
     "date_precision": "day"
   },
   {
@@ -164,7 +180,7 @@
     "published_date": "2026-09-23T21:20:29+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-28T17:25:42.755764+00:00",
+    "fetched_at": "2026-09-29T15:26:01.272714+00:00",
     "date_precision": "day"
   },
   {
@@ -178,7 +194,7 @@
     "published_date": "2026-09-23T18:01:49+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-28T17:25:38.684503+00:00",
+    "fetched_at": "2026-09-29T15:25:56.845804+00:00",
     "date_precision": "day"
   },
   {
@@ -192,7 +208,7 @@
     "published_date": "2026-09-23T16:01:36+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-28T17:25:36.427284+00:00",
+    "fetched_at": "2026-09-29T15:25:55.181505+00:00",
     "date_precision": "day"
   },
   {
@@ -204,7 +220,7 @@
     "published_date": "2026-09-23T16:00:57.674000+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-28T17:25:46.106476+00:00",
+    "fetched_at": "2026-09-29T15:26:03.989522+00:00",
     "date_precision": "day"
   },
   {
@@ -218,7 +234,7 @@
     "published_date": "2026-09-23T12:07:33+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-28T17:25:38.684673+00:00",
+    "fetched_at": "2026-09-29T15:25:56.845990+00:00",
     "date_precision": "day"
   },
   {
@@ -232,7 +248,7 @@
     "published_date": "2026-09-23T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-28T17:25:37.374003+00:00",
+    "fetched_at": "2026-09-29T15:25:55.993728+00:00",
     "date_precision": "day"
   },
   {
@@ -246,7 +262,7 @@
     "published_date": "2026-09-23T06:58:59+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-28T17:25:38.685002+00:00",
+    "fetched_at": "2026-09-29T15:25:56.846332+00:00",
     "date_precision": "day"
   },
   {
@@ -260,7 +276,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-28T17:25:38.197477+00:00",
+    "fetched_at": "2026-09-29T15:25:56.582973+00:00",
     "date_precision": "day"
   },
   {
@@ -274,7 +290,7 @@
     "published_date": "2026-09-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-28T17:25:38.197539+00:00",
+    "fetched_at": "2026-09-29T15:25:56.583049+00:00",
     "date_precision": "day"
   },
   {
@@ -288,7 +304,7 @@
     "published_date": "2026-09-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-28T17:25:41.576724+00:00",
+    "fetched_at": "2026-09-29T15:26:00.189058+00:00",
     "date_precision": "day"
   },
   {
@@ -300,35 +316,7 @@
     "published_date": "2026-09-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-28T17:25:49.930251+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Computation and Data Movement for Inference",
-    "authors": [
-      "Tanj Bennett"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Mixture of Experts, now widely used in frontier models, has changed both the structure of serving and the economics of useful inference. It did more than increase parameter count. It changed which tensors are active for each token, what must remain close together, which transfers need strong local bandwidth, which can tolerate a weaker network link, and how memory movement, storage, and scheduling contribute to useful throughput.",
-    "url": "https://newsletter.semianalysis.com/p/computation-and-data-movement-for",
-    "published_date": "2026-09-21T18:14:15+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-28T17:25:42.755780+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
-    "authors": [
-      "Felix Pultar, John Gardner, Guoqing Liu, Marwin Segler"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules. The post Improving synthesis prediction of small molecules at scale with RetroChimera appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
-    "published_date": "2026-09-21T15:30:19+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-28T17:25:36.427306+00:00",
+    "fetched_at": "2026-09-29T15:26:06.541592+00:00",
     "date_precision": "day"
   }
 ]
