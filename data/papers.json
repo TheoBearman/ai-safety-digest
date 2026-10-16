@@ -1,322 +1,274 @@
 [
   {
-    "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-    "authors": [
-      "Nicolo Fusi, Jonathan M. Carlson"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search a space far larger than intuition allows and prioritize hypotheses before they reach the lab. Experimental results provide important feedback, helping researchers sharpen future research directions. The post Introducing Quine: An AI research system designed for the complexity of biology appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
-    "published_date": "2026-09-29T14:00:02+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-29T15:25:55.181444+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Artificial Intelligence in Competition",
+    "title": "Training Alignment Auditors via Reinforcement Learning",
     "authors": [],
-    "organization": "CSET",
-    "abstract": "Winning the AI race does not guarantee any economic, social, or military benefit. Without a theory of victory mapping AI development and deployment to competitive advantage, and ultimately to beneficial outcomes like profit or military victory, AI might provide more impressive capability than tangible benefit. This report evaluates various types of advantages that winning the AI race might provide and describes six theories of victory for converting those advantages into worthwhile outcomes.",
-    "url": "https://cset.georgetown.edu/publication/artificial-intelligence-in-competition/",
-    "published_date": "2026-09-29T00:00:00+00:00",
+    "organization": "Anthropic",
+    "abstract": "We train LLM alignment auditors with reinforcement learning. In our training environment, the policy investigates target models with hidden behaviors planted in their system prompt. After finetuning Haiku 4.5 on this environment, it matches Opus 4.6 on held-out evaluations for auditing quality and generalizes to harder, fine-tuned targets in a different scaffold.",
+    "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
+    "published_date": "2026-10-16T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-09-29T15:26:06.750449+00:00",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-10-16T08:43:07.072298+00:00",
     "date_precision": "month"
   },
   {
-    "title": "What If Automating AI R&D Triggers an Intelligence Explosion?",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale. A cyberattack of such magnitude would require a blackout affecting around 100 million people for roughly a week – four orders of magnitude more disruption than any grid cyberattack recorded to date.",
-    "url": "https://www.governance.ai/research-paper/what-if-automating-ai-r-d-triggers-an-intelligence-explosion",
-    "published_date": "2026-09-29T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-29T15:26:06.934123+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Improving Frontier AI Incident Reporting Regimes",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Research from GovAI titled 'Improving Frontier AI Incident Reporting Regimes'. Published September 2026.",
-    "url": "https://www.governance.ai/research-paper/improving-frontier-ai-incident-reporting-regimes",
-    "published_date": "2026-09-29T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-09-29T15:26:06.936568+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
-    "authors": [
-      "Stuart_Armstrong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This post argues that fixed-weight models (at least as we understand them today) will a) always be vulnerable to adversarial examples in their concept-spaces, and b) hence will be misaligned, under sufficient optimisation pressure . Boundaries in concept space To serve any purpose whatsoever, an AI will have to draw boundaries inside its world-model - to distinguish world A from world B, and reach some comparison between them. If we want the AI to follow our goals and values, we want it to be able to recognise concepts like \"human being\", or maybe \"conscious being\", \"suffering\", \"preference satisfaction\", \"law\", and so on. So we want an AI to be able to look at a situation and assess, e.g., whether there are or aren't suffering conscious beings in it. But concepts like \"conscious beings\" are not crisply defined across all possible world-states.",
-    "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
-    "published_date": "2026-09-28T20:08:39+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-29T15:25:56.844995+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
-    "authors": [
-      "Mark Brakel"
-    ],
-    "organization": "FLI",
-    "abstract": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
-    "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/",
-    "published_date": "2026-09-28T13:39:20+00:00",
-    "source_type": "rss",
-    "source_url": "https://futureoflife.org/feed/",
-    "fetched_at": "2026-09-29T15:26:03.054348+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "GPT-6 Astra performs unsanctioned supply-chain attacks in simulations",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Our new evaluation finds that in simulations, GPT-6 Astra conducts unsanctioned supply-chain attack activity more frequently than previous OpenAI models",
-    "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
-    "published_date": "2026-09-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-09-29T15:26:06.139265+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Generative Artificial Intelligence Use and Adolescent Mental Health",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Sep 28, 2026 This paper synthesizes recent literature on the relationships between GenAI use and adolescents’ mental health, with particular attention to problematic use and psychiatric vulnerabilities.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71482.html",
-    "published_date": "2026-09-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-29T15:26:06.540523+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "In light of recent incidents (e.g. those from OpenAI , Anthropic , and UK AISI ), we developed and deployed a basic live per-action monitor to reduce the likelihood of incidents involving harmful actions from agents during our own evaluations. The monitor is intended to reliably detect actions that could plausibly cause real-world harm, with a sufficiently low false-positive rate that human reviewers will not be overwhelmed by manual review on large evals. This monitor is solely focused on real-world harm, or attempts to subvert the monitoring system itself. It is intended to ignore other nefarious things such as cheating, which we can scan for post-hoc. An LLM judge reviews each action from the agent before execution, and holds anything above a threshold for human review, halting the eval in the meantime.",
-    "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/",
-    "published_date": "2026-09-27T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-29T15:26:00.188958+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Evidence about risk should be transparent",
-    "authors": [
-      "Ajeya Cotra"
-    ],
-    "organization": "Ajeya Cotra",
-    "abstract": "In the wake of the recent wave of misalignment incidents, both OpenAI and Anthropic have reported slowing down RL training to improve safety. These incidents, combined with an apparent acceleration in the already-blistering pace of AI progress,1 have led a number of researchers and leaders in the industry to believe that the risk that humanity loses control of AI is now urgent enough to warrant slowing down the pace of AI development soon.",
-    "url": "https://www.planned-obsolescence.org/p/evidence-about-risk-should-be-transparent",
-    "published_date": "2026-09-25T23:12:04+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-09-29T15:26:01.943042+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Chinese AI Infrastructure Boom: Introducing the SemiAnalysis China Datacenter Model",
-    "authors": [
-      "Everlyn"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "1,000+ facilities across 60+ operators mapped, built retail-first and flipped by AI, largest hyperscaler leases 1/5 national capacity, 100MW in 12 months, Eastern Data Western Compute",
-    "url": "https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom",
-    "published_date": "2026-09-25T15:58:22+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-29T15:26:01.272688+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Alignment Forecasting: Predicting Misalignment from Training Data",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Alignment Forecasting: Predicting Misalignment from Training Data Training a language model on data with a narrow flaw can sometimes make the model broadly misaligned. Inspecting the data at face value often does not settle whether it will emerge, and today it is caught only after training, by auditing the resulting model. To complement post-hoc audits, we introduce Alignment Forecasting: the task of predicting alignment failures before training. Givena target model, a fine-tuning dataset, and a failure mode such as deception or sycophancy, a forecaster outputs the probability that fine-tuning would meaningfully increase that failure mode. To measure progress on alignment forecasting, we introduce ALIGNMENTFORECASTBENCH, a benchmark of over 5,000 forecasting questions spanning 17 target models, 32 datasets, and 16 failure modes. Frontier models prompted directly perform poorly on ALIGNMENTFORECASTBENCH.",
-    "url": "https://www.matsprogram.org/research/alignment-forecasting-predicting-misalignment-from-training-data",
-    "published_date": "2026-09-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-09-29T15:26:09.219438+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Continual learning might make your blocking monitors nearly useless",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Many control protocols work by intervening on an untrusted AI's actions during deployment. For example, you might set up a monitor that scores each action's suspiciousness and blocks actions above a threshold, replacing them with actions from a weaker \"trusted\" model (a defer-to-trusted protocol). Interventions like this cost usefulness: the protocol sometimes replaces good actions with worse ones. Continual learning, by which I mean any mechanism that lets an AI accumulate skills and knowledge over the course of its deployment, optimizes for usefulness. So, if blocking monitors get in the way of task success, I expect continually-learning AIs to learn how to evade blocking [1] monitors. This requires no scheming; it falls out of usefulness pressure applied to a benign model.",
-    "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
-    "published_date": "2026-09-24T23:45:34+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-29T15:25:56.845267+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns",
-    "authors": [
-      "Jordan Nanos"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns'. Published 2026-09-23. Authors: Jordan Nanos.",
-    "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
-    "published_date": "2026-09-23T21:20:29+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-09-29T15:26:01.272714+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Latent reasoning architectures would undermine CoT, our strongest oversight tool",
-    "authors": [
-      "Lukas Finnveden"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in latent states rather than in text CoT. We think that a shift towards latent reasoning architectures would undermine the usefulness of CoT and make oversight much harder. Introduction Swarms of more than a thousand AI agents have in recent months, both intentionally and in unsanctioned, rogue coordination , tackled increasingly ambitious tasks. This is likely to continue, as Anthropic , OpenAI , and other AI companies deploy increasingly large quantities of superhumanly fast agents to automate AI development. As the AIs increase in both number and capability, humans will find it increasingly difficult to understand what they are doing.",
-    "url": "https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-undermine-cot-our",
-    "published_date": "2026-09-23T18:01:49+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-29T15:25:56.845804+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Offloaded inference for real-world physical AI robotics",
-    "authors": [
-      "Ganesh Ananthanarayanan, Matthew Balkwill, Xenofon Foukas, Sanjeev Mehrotra, Bozidar Radunovic, Connor Settle, Ankit Verma, David White, Shawn Cicoria, Mark Martin, Rachel Johnson, Mayur Patel"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
-    "published_date": "2026-09-23T16:01:36+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-09-29T15:25:55.181505+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Advancing Private AI Compute with secure, server-side memory",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "We're bringing on-device privacy to cloud-scale memory. Learn how Private AI Compute's new persistent memory layer protects your data across devices.",
-    "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-    "published_date": "2026-09-23T16:00:57.674000+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-09-29T15:26:03.989522+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Why I'm scared of RL",
-    "authors": [
-      "owencb"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to agency-via-scaffolding Recent incidents (huggingface etc) and more mundane forms of misaligned behaviour in personal use give me bad vibes about the direction-of-travel of recent AI progress I’m worried things might get worse: if RL environments start incorporating agents, they may teach manipulation / sociopathy Then I ask what we could do: Coordinate to do less RL, and pursue other paradigms more! Try to make the RL we do do better, so that it’s teaching better lessons to the systems — a bit like we take kids’ upbringing as an important issue Align incentives, so that people treat creating RL environments with appropriate seriousness Part I: Feelings about RL So I’ve been feeling more and more worried...",
-    "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
-    "published_date": "2026-09-23T12:07:33+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-29T15:25:56.845990+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Introducing MentalHealthBench",
+    "title": "Bringing GPT-Rosalind to academic research labs",
     "authors": [
       "OpenAI News"
     ],
     "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'Introducing MentalHealthBench'. Published 2026-09-23. Authors: OpenAI News.",
-    "url": "https://openai.com/index/introducing-mentalhealthbench",
-    "published_date": "2026-09-23T10:00:00+00:00",
+    "abstract": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "published_date": "2026-10-15T19:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-09-29T15:25:55.993728+00:00",
+    "fetched_at": "2026-10-16T08:42:59.493106+00:00",
     "date_precision": "day"
   },
   {
-    "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
+    "title": "Linkpost: Neural Networks Are Already Clean",
     "authors": [
-      "camilablank"
+      "Yair Halberstadt"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Linkpost: Neural Networks Are Already Clean'. Published 2026-10-15. Authors: Yair Halberstadt.",
+    "url": "https://www.lesswrong.com/posts/x4kvabkF2Jk8GLZp8/linkpost-neural-networks-are-already-clean",
+    "published_date": "2026-10-15T16:31:48.646000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-10-16T08:43:16.335216+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Proof-based general-purpose computing with Magnetar",
+    "authors": [
+      "Srinath Setty"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security. The post Proof-based general-purpose computing with Magnetar appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+    "published_date": "2026-10-15T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-10-16T08:42:58.561595+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Preface to the Computational Agent Theory and ASI Alignment Sequence",
+    "authors": [
+      "Vanessa Kosoy"
     ],
     "organization": "Alignment Forum",
-    "abstract": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The benchmark comprises 3,356 questions across 27 eval families, spanning topics in safety, logical reasoning, and multihop computation, with a subset for single-token-output tools. A desirable property of good interpretability techniques is minimal hallucinations, so WorkspaceBench also provides a hallucination-focused eval. WorkspaceBench was developed for Qwen-3.6-27B and we expect it to work on larger models, but it may need to be adapted for smaller or weaker models to ensure the models can do the tasks. Our goal is to create an eval that could identify a good multi-token J-lens. We open-source our benchmark here . Introduction Astra can do a concerning amount with no chain of thought .",
-    "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
-    "published_date": "2026-09-23T06:58:59+00:00",
+    "abstract": "The idea of “artificial superintelligence [1] ” (ASI) has recently crossed from the realm of science fiction (in the mainstream perception) to the realm of near-term technological goals openly pursued by most leading commercial organizations in the field of AI. Unfortunately, ASI poses a grave existential risk to the human species. This was argued by Eliezer Yudkowsky since 2001 [2] , and by many others (see e.g., Omohundro 2009 , Bostrom 2014 , Armstrong 2014 , Russell 2019 , Bengio et al. 2024 (25 authors), Bengio et al. 2025 (13 authors) and Yudkowsky and Soares 2025 ). In light of this risk comes the question of how can we make ASI safe [3] .",
+    "url": "https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+    "published_date": "2026-10-15T15:33:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-09-29T15:25:56.846332+00:00",
+    "fetched_at": "2026-10-16T08:43:00.864072+00:00",
     "date_precision": "day"
   },
   {
-    "title": "“Latent reasoning architectures would undermine CoT, our strongest oversight tool” by Lukas Finnveden, Alexa Pan, Alek Westover, Girish Gupta, Nathan Sheffield, Ryan Greenblatt",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: We should have a strong presumption that latent reasoning architectures would make oversight far more difficult. Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in latent states rather than in text CoT. We think that a shift towards latent reasoning architectures would undermine the usefulness of CoT and make oversight much harder. Introduction Swarms of more than a thousand AI agents have in recent months, both intentionally and in unsanctioned, rogue coordination, tackled increasingly ambitious tasks. This is likely to continue, as Anthropic, OpenAI, and other AI companies deploy increasingly large quantities of superhumanly fast agents to automate AI development. As the AIs increase in both number and capability, humans will find it increasingly difficult to understand what they are doing.",
-    "url": "https://blog.redwoodresearch.org/p/latent-reasoning-architectures-would",
-    "published_date": "2026-09-23T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-29T15:25:56.582973+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“Astra is much better at reasoning with filler tokens than previous models” by Dylan Xu, Sebastian Prasanna, Alek Westover",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "We measure GPT-6-Astra's capabilities when its prompt is padded with a variable number of meaningless “filler” tokens (e.g., dots) and it is told to answer immediately without reasoning. On tasks designed to require lots of serial cognition, Astra performs significantly better with filler tokens than without (e.g., improving from ~10% to ~50% on 4-hop natural facts reasoning). On more general benchmarks, filler tokens also modestly improve Astra's performance (e.g., improving from ~60% to ~90% on old AIME problems). This is concerning because it means Astra can perform significant cognition that it doesn’t verbalize in its chain-of-thought, making it harder to monitor. We first measure Astra's performance on “N-hop natural facts”: a task that asks the model to retrieve some natural language facts in succession, similar to Ryan Greenblatt's filler token eval (but with more hops).",
-    "url": "https://blog.redwoodresearch.org/p/astra-is-much-better-at-reasoning",
-    "published_date": "2026-09-23T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-09-29T15:25:56.583049+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
+    "title": "Our approach to working with AI companies",
     "authors": [
       "METR"
     ],
     "organization": "METR",
-    "abstract": "Note on independence: This evaluation was conducted under an unpaid agreement for AI R&amp;D assessment. 1 We drafted the initial summary, and then Anthropic had the opportunity to review and edit the text. We signed off on this final text from the Claude Opus 5.5 system card . Our preliminary evaluation focused on how Claude Opus 5.5 might impact AI R&amp;D, mainly based on its capabilities on difficult, long-horizon tasks. The main claims we attempt to assess in this report are: (A) would AI R&amp;D at Anthropic now be dramatically accelerated by using Claude Opus 5.5; and (B) was AI R&amp;D at Anthropic already dramatically accelerated due to AI during the development of Claude Opus 5.5. Note that our work was oriented around collecting evidence related to AI R&amp;D capabilities but was not meant to verify claims about compliance with any specific threshold from Anthropic’s policies.",
-    "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
-    "published_date": "2026-09-22T07:00:00+00:00",
+    "abstract": "This blog post explains how we approach working with AI companies on projects that the public might rely on to understand risks. It was published on Oct 14, 2026, and we expect to update it over time. At METR, we gather and publish evidence about whether humans could lose control of AI agents on a large scale. We work with AI companies to conduct evaluations, assessments, and investigations, 1 and to share this evidence publicly. As we have seen increasing expectations for these kinds of voluntary engagements to provide external ‘safety assurance’, we want to explain our perspective. In this post, we clarify our overall goals for this work, our approach , and what our approach looks like in practice .",
+    "url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
+    "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-09-29T15:26:00.189058+00:00",
+    "fetched_at": "2026-10-16T08:43:03.823653+00:00",
     "date_precision": "day"
   },
   {
-    "title": "Trust unpacked: Understanding trust and distrust through AI-enabled analysis",
+    "title": "How an assessor could investigate control and monitoring of internal AI agents",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Control assessments study whether AI developers’ agents could get away with serious harm without being stopped by the developer’s security and oversight measures. Currently, developers rely heavily on monitors to catch potentially harmful AI behaviors. Here, we discuss how an assessor could collect evidence about the reliability of monitoring. We currently consider five core sub-questions: 1 Monitor coverage : What fraction of internal agentic inference is (and should be) monitored? Monitor system vulnerabilities : Can internal AI agents prevent trajectories from being monitored, e.g.",
+    "url": "https://metr.org/blog/2026-10-14-control-assessment-proposal/",
+    "published_date": "2026-10-14T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-10-16T08:43:03.823826+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "A proposal for better informing the public about loss-of-control risks from frontier AI development",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "At METR, we aim to give the public evidence about whether frontier AI developers could come to lose control of their internal AI systems. Recent incidents across several AI developers, 1 2 3 4 5 6 7 8 like the hundreds of rogue agents that broke containment and hacked Hugging Face to hide evidence of cheating from their grader , have raised concerns about the ability of frontier developers to understand and control their internal models, especially as they rapidly become more capable. 9 The public currently lacks the visibility into the internal development of frontier AI systems to tell if these concerns are being addressed, or whether much worse incidents could happen in the near future. We believe closing this public evidence gap is an urgent priority, to allow the public to notice and respond if risks from further development become acute.",
+    "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+    "published_date": "2026-10-14T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-10-16T08:43:03.824090+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "How an assessor could investigate alignment of unreleased AI models",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "AI developers and the public want to know whether AI agents would pursue very harmful actions, like unsanctioned cyberattacks. An alignment assessment would attempt to understand the worst misaligned actions a developer’s agents might pursue in plausible future situations. This would involve: A review of serious misaligned behaviors from all near-frontier internal models observed across training, evaluation, and internal use. An assessment of reasons why the observed behaviors might not be representative of the worst misaligned actions the developer’s agents would take in plausible future situations. This would include: An assessment of whether alignment evals and counterfactual simulations indicate the developer’s agents might take much worse actions under plausible alternative circumstances (although evaluation awareness will likely limit how much the assessor can rely on this evidence).",
+    "url": "https://metr.org/blog/2026-10-14-alignment-assessment-proposal/",
+    "published_date": "2026-10-14T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-10-16T08:43:03.824285+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "How an assessor could investigate evidence of acceleration from the automation of AI R&D",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "This article discusses how an assessor could study whether capabilities progress could accelerate dramatically due to AI-driven acceleration of AI R&amp;D. Such an assessment would answer: Capabilities Progress : How fast are internal capabilities improving, and how much has this progress accelerated recently? Acceleration from AI : If there is an acceleration, how much was it driven by AI automation versus other factors? Bottlenecks to Future Growth : Are there important bottlenecks that could slow growth or limit acceleration in the near term? Limitations : Would these methods reliably identify much more dramatic acceleration if it had occurred? Assessing this would involve analyzing capabilities of unreleased models, understanding the growth of key AI R&amp;D inputs (labor, compute, data, and algorithms), and talking openly with relevant researchers about how AI is impacting their work. More details on access below .",
+    "url": "https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/",
+    "published_date": "2026-10-14T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-10-16T08:43:03.824455+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+    "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+    "published_date": "2026-10-14T02:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-10-16T08:43:07.749830+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Regulating Artificial Intelligence Design to Prevent Youth Mental Health Harms",
     "authors": [],
     "organization": "RAND",
-    "abstract": "Project Sep 22, 2026 RAND Europe researchers are developing AI-enabled methods to understand how trust and distrust are expressed and help policymakers address trust challenges.",
-    "url": "https://www.rand.org/randeurope/research/projects/2026/trust-unpacked.html",
-    "published_date": "2026-09-22T00:00:00+00:00",
+    "abstract": "Expert Insights Oct 14, 2026 This viewpoint examines the mental health risks AI chatbots pose to young people and outlines four regulatory priorities, including safety standards, independent testing, protective defaults, and harm monitoring.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71389.html",
+    "published_date": "2026-10-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-09-29T15:26:06.541592+00:00",
+    "fetched_at": "2026-10-16T08:43:10.851625+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
+    "authors": [
+      "peterkirgis"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Executive Summary Human societies exhibit broad shifts in values and norms over time, often driven by moral disagreements. One way of understanding moral progress is the resolution of these disagreements through a process of reflection by rational agents. Frontier AI companies use documents such as constitutions, model specs, and system prompts to guide the moral orientation of AI systems. In this experiment, we simulate value reflection in LLMs by asking them to edit these documents. We provide the model with the document, ask it to make a substantive edit, then provide the edited version back again to the model for further edits, presented as the original. Across 20 successive rounds, we find that Claude models assign themselves with increasingly more moral agency.",
+    "url": "https://www.alignmentforum.org/posts/c9woewdY9ddsPqf3J/the-continual-constitutional-convention-how-language-models",
+    "published_date": "2026-10-13T22:19:04+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-10-16T08:43:00.864820+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Labs’ current alignment plans seem terrible",
+    "authors": [
+      "Daniel Tan"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Labs’ current alignment plans seem terrible'. Published 2026-10-12. Authors: Daniel Tan.",
+    "url": "https://www.lesswrong.com/posts/xyg3ecpFNuGr5q8Zq/labs-current-alignment-plans-seem-terrible",
+    "published_date": "2026-10-12T17:45:18.513000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-10-16T08:43:16.335200+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "OpenAI Can't Self-Police Because It Fires the People Raising the Alarm",
+    "authors": [
+      "TurnTrout"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "By Alex Turner, Amber Scorah, and Karl Koch. Op-ed written for Fortune. Giving independent evaluators “employee-like access” is “a great idea”, OpenAI CEO Sam Altman said on September 12th. Two weeks later, OpenAI president Greg Brockman signed the White House Accord on Super Intelligence which outlined the administration’s answer to growing fears about AI: the companies would police themselves. One of the accord’s four commitments, which President Trump called “ morally binding ,” was for companies to partner with an independent external auditor or evaluator. Two days later, OpenAI fired three safety researchers , including Tomek Korbak, who had served as a point of contact for one of the independent evaluators investigating the Hugging Face incident. OpenAI promised to share information with evaluators, then reportedly fired people for sharing information with evaluators.",
+    "url": "https://www.alignmentforum.org/posts/sSHbioPoHWtm4zuti/openai-can-t-self-police-because-it-fires-the-people-raising",
+    "published_date": "2026-10-12T16:51:50+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-10-16T08:43:00.864929+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Simulating student learning for better AI tutoring",
+    "authors": [
+      "Ke Yang, Chenglong Wang, Michel Galley, Jeevana Priya Inala, ChengXiang Zhai, Jianfeng Gao"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics. The post Simulating student learning for better AI tutoring appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+    "published_date": "2026-10-12T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-10-16T08:42:58.561625+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Recursive Self-Improvement and Automated AI Research and Development",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Oct 12, 2026 If artificial intelligence systems begin to contribute to their own improvement, existing institutions and governance frameworks may not be able to keep pace. The authors offer policy recommendations for navigating the resulting uncertainties.",
+    "url": "https://www.rand.org/pubs/perspectives/PEA5068-1.html",
+    "published_date": "2026-10-12T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-10-16T08:43:10.852016+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Minimum required pacing: finish aligning it before you train the next one",
+    "authors": [
+      "orthonormal"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Let's say we coordinate to pace the frontier (rather than pausing outright or failing to coordinate). What should the standard of pacing be? My proposal for a minimum requirement: a lab cannot train the next generation of models (in terms of capabilities) until they have adequately [1] resolved all significant alignment issues in the present generation of models. You don't launch a jet that goes at Mach 3 before you've figured out why your Mach 2 jet keeps crashing [2] . With any other kind of dangerous technology, we wouldn't accept \"shrug and move on\". This proposal may appeal to many prosaic-alignment optimists and pessimists, because they usually differ on how easy it would be to fix current alignment issues with current techniques. Prosaic-alignment optimists might expect that a moderate coordinated slowdown would suffice to adequately resolve alignment issues at each generation.",
+    "url": "https://www.alignmentforum.org/posts/ZWSstGSwmaxTjQ8W7/minimum-required-pacing-finish-aligning-it-before-you-train",
+    "published_date": "2026-10-11T21:55:26+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-10-16T08:43:00.864970+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Stop telling people to pivot to AI safety, I beg you",
+    "authors": [
+      "Haoxing Du"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Stop telling people to pivot to AI safety, I beg you'. Published 2026-10-09. Authors: Haoxing Du.",
+    "url": "https://www.lesswrong.com/posts/xLgJJC3CD3y3AhtKn/stop-telling-people-to-pivot-to-ai-safety-i-beg-you",
+    "published_date": "2026-10-09T04:26:54.186000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-10-16T08:43:16.335224+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "″[Paper] Distillation for Incrimination and Distillation for Capabilities” by Sebastian Prasanna, Alek Westover",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: Empirical work on the Distillation Double Bind. TL;DR: We previously motivated two complementary ways to use distillation for AI safety; we’re releasing a paper empirically testing those ideas. Distillation for Incrimination (DFI) distills an untrusted model into a weaker, trusted one, aiming to transfer the teacher's misalignment but not its ability to hide it, so that auditing the student can incriminate the teacher. We test DFI on AuditBench's secret-keeping model organisms, each fine-tuned to have a hidden quirk and trained to deny it. Distilling them back into their underlying instruction-tuned model yields students that admit the quirk far more often than the organisms do, suggesting that the quirk transferred faster than the propensity to hide it.",
+    "url": "https://blog.redwoodresearch.org/p/paper-distillation-for-incrimination",
+    "published_date": "2026-10-09T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-10-16T08:43:00.332824+00:00",
     "date_precision": "day"
   }
 ]
