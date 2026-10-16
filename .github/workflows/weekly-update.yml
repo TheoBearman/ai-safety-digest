@@ -12,7 +12,9 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  # A run stuck in "queued" (e.g. Sep 29 2026 deploy job) holds this group forever;
+  # letting the next run cancel it keeps the daily schedule self-healing.
+  cancel-in-progress: true
 
 jobs:
   update:
