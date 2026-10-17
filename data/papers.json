@@ -1,5 +1,45 @@
 [
   {
+    "title": "Neural networks are not already clean",
+    "authors": [
+      "leogao"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Neural networks are not already clean'. Published 2026-10-17. Authors: leogao.",
+    "url": "https://www.lesswrong.com/posts/Dkh7pXKjoNWkkxQDz/neural-networks-are-not-already-clean",
+    "published_date": "2026-10-17T01:17:47.479000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-10-17T12:44:14.744934+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Training Alignment Auditors via Reinforcement Learning",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We train LLM alignment auditors with reinforcement learning. In our training environment, the policy investigates target models with hidden behaviors planted in their system prompt. After finetuning Haiku 4.5 on this environment, it matches Opus 4.6 on held-out evaluations for auditing quality and generalizes to harder, fine-tuned targets in a different scaffold.",
+    "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
+    "published_date": "2026-10-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-10-17T12:44:08.053968+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "The Beauty of Something Grown",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "Imagine an eye unruled by man-made laws of perspective, an eye unprejudiced by compositional logic, an eye which does not respond to the name of everything but which must know each object encountered in life through an adventure of perception.Stan Brakhage, Metaphors on Vision",
+    "url": "https://www.hyperdimensional.co/p/the-beauty-of-something-grown",
+    "published_date": "2026-10-16T15:06:01+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-10-17T12:44:05.651203+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "A Simpler and Better Debate Protocol for Scalable Oversight",
     "authors": [
       "Zhiyang Xun"
@@ -10,20 +50,22 @@
     "published_date": "2026-10-16T02:48:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:39.936217+00:00",
+    "fetched_at": "2026-10-17T12:44:02.379498+00:00",
     "date_precision": "day"
   },
   {
-    "title": "Training Alignment Auditors via Reinforcement Learning",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "We train LLM alignment auditors with reinforcement learning. In our training environment, the policy investigates target models with hidden behaviors planted in their system prompt. After finetuning Haiku 4.5 on this environment, it matches Opus 4.6 on held-out evaluations for auditing quality and generalizes to harder, fine-tuned targets in a different scaffold.",
-    "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
+    "title": "“Screwtape: Adversarial Transcript Editing for Monitor Red-Teaming” by Gosha Kozhevnikov, Tyler",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: Automatically finding monitor failures by editing real agent transcripts. We introduce Screwtape, a pipeline that turns agent transcripts into realistic attacks that evade action-only monitors (monitors that don’t look at the agent's chain of thought) by inserting an attack into a transcript and repeatedly refining it until a monitor no longer catches it. An LLM verifier with access to the edited transcript and an attack description checks whether the attack is realistic, is clearly harmful, and could plausibly succeed in the original environment. We ran the pipeline on Redwood staff transcripts with our own monitors based on Opus 4.8 and Gemini 3.1 Pro, and then tested the resulting attacks against a held-out monitor from a frontier developer. We ran the pipeline 252 times on 94 unique transcripts. This produced 35 attacks that evaded our monitors.",
+    "url": "https://blog.redwoodresearch.org/p/screwtape-adversarial-transcript",
     "published_date": "2026-10-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-10-16T13:46:50.187565+00:00",
-    "date_precision": "month"
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-10-17T12:44:01.672978+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Bringing GPT-Rosalind to academic research labs",
@@ -36,7 +78,7 @@
     "published_date": "2026-10-15T19:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-16T13:46:38.687375+00:00",
+    "fetched_at": "2026-10-17T12:44:01.036945+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +92,7 @@
     "published_date": "2026-10-15T16:31:48.646000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-16T13:46:58.390167+00:00",
+    "fetched_at": "2026-10-17T12:44:14.744916+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +106,7 @@
     "published_date": "2026-10-15T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-16T13:46:37.787248+00:00",
+    "fetched_at": "2026-10-17T12:44:00.126366+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +120,7 @@
     "published_date": "2026-10-15T15:33:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:39.936294+00:00",
+    "fetched_at": "2026-10-17T12:44:02.379577+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +134,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:42.895630+00:00",
+    "fetched_at": "2026-10-17T12:44:04.239887+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +148,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:42.895792+00:00",
+    "fetched_at": "2026-10-17T12:44:04.240060+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +162,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:42.896049+00:00",
+    "fetched_at": "2026-10-17T12:44:04.240322+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +176,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:42.896231+00:00",
+    "fetched_at": "2026-10-17T12:44:04.240516+00:00",
     "date_precision": "day"
   },
   {
@@ -148,7 +190,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:42.896338+00:00",
+    "fetched_at": "2026-10-17T12:44:04.240634+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +202,7 @@
     "published_date": "2026-10-14T02:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-10-16T13:46:50.857166+00:00",
+    "fetched_at": "2026-10-17T12:44:08.519797+00:00",
     "date_precision": "day"
   },
   {
@@ -172,7 +214,7 @@
     "published_date": "2026-10-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-16T13:46:53.916845+00:00",
+    "fetched_at": "2026-10-17T12:44:11.260530+00:00",
     "date_precision": "day"
   },
   {
@@ -186,7 +228,7 @@
     "published_date": "2026-10-13T22:19:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:39.936965+00:00",
+    "fetched_at": "2026-10-17T12:44:02.380304+00:00",
     "date_precision": "day"
   },
   {
@@ -200,7 +242,7 @@
     "published_date": "2026-10-12T17:45:18.513000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-16T13:46:58.390156+00:00",
+    "fetched_at": "2026-10-17T12:44:14.744900+00:00",
     "date_precision": "day"
   },
   {
@@ -214,7 +256,7 @@
     "published_date": "2026-10-12T16:51:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:39.937060+00:00",
+    "fetched_at": "2026-10-17T12:44:02.380409+00:00",
     "date_precision": "day"
   },
   {
@@ -228,7 +270,7 @@
     "published_date": "2026-10-12T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-16T13:46:37.787270+00:00",
+    "fetched_at": "2026-10-17T12:44:00.126396+00:00",
     "date_precision": "day"
   },
   {
@@ -240,7 +282,7 @@
     "published_date": "2026-10-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-16T13:46:53.917141+00:00",
+    "fetched_at": "2026-10-17T12:44:11.260944+00:00",
     "date_precision": "day"
   },
   {
@@ -254,35 +296,7 @@
     "published_date": "2026-10-11T21:55:26+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-16T13:46:39.937096+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Stop telling people to pivot to AI safety, I beg you",
-    "authors": [
-      "Haoxing Du"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Stop telling people to pivot to AI safety, I beg you'. Published 2026-10-09. Authors: Haoxing Du.",
-    "url": "https://www.lesswrong.com/posts/xLgJJC3CD3y3AhtKn/stop-telling-people-to-pivot-to-ai-safety-i-beg-you",
-    "published_date": "2026-10-09T04:26:54.186000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-16T13:46:58.390173+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "″[Paper] Distillation for Incrimination and Distillation for Capabilities” by Sebastian Prasanna, Alek Westover",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Empirical work on the Distillation Double Bind. TL;DR: We previously motivated two complementary ways to use distillation for AI safety; we’re releasing a paper empirically testing those ideas. Distillation for Incrimination (DFI) distills an untrusted model into a weaker, trusted one, aiming to transfer the teacher's misalignment but not its ability to hide it, so that auditing the student can incriminate the teacher. We test DFI on AuditBench's secret-keeping model organisms, each fine-tuned to have a hidden quirk and trained to deny it. Distilling them back into their underlying instruction-tuned model yields students that admit the quirk far more often than the organisms do, suggesting that the quirk transferred faster than the propensity to hide it.",
-    "url": "https://blog.redwoodresearch.org/p/paper-distillation-for-incrimination",
-    "published_date": "2026-10-09T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-16T13:46:39.425232+00:00",
+    "fetched_at": "2026-10-17T12:44:02.380449+00:00",
     "date_precision": "day"
   }
 ]
