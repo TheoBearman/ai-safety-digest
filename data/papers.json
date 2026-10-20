@@ -1,5 +1,31 @@
 [
   {
+    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
+    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
+    "published_date": "2026-10-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-10-20T14:09:18.376833+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Advancing coding in low‑resource programming languages",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+    "url": "https://openai.com/index/low-resource-programming-languages",
+    "published_date": "2026-10-19T12:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-10-20T14:09:05.263727+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Datacenters 2027: The Year of Acceleration, +50GW in a Single Year",
     "authors": [
       "Jeremie Eliahou Ontiveros"
@@ -10,20 +36,8 @@
     "published_date": "2026-10-19T05:39:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-19T16:15:48.962966+00:00",
+    "fetched_at": "2026-10-20T14:09:09.815206+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Training Alignment Auditors via Reinforcement Learning",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "We train LLM alignment auditors with reinforcement learning. In our training environment, the policy investigates target models with hidden behaviors planted in their system prompt. After finetuning Haiku 4.5 on this environment, it matches Opus 4.6 on held-out evaluations for auditing quality and generalizes to harder, fine-tuned targets in a different scaffold.",
-    "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
-    "published_date": "2026-10-19T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-10-19T16:15:51.735248+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Incorporating Equity into Decision-Support Models: An Analytical Architecture and Application to Natural Gas Power Plant Retirement in California",
@@ -34,7 +48,7 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-19T16:15:55.870733+00:00",
+    "fetched_at": "2026-10-20T14:09:17.802671+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +62,7 @@
     "published_date": "2026-10-18T12:18:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:45.528182+00:00",
+    "fetched_at": "2026-10-20T14:09:06.927142+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +76,7 @@
     "published_date": "2026-10-17T23:08:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:45.529130+00:00",
+    "fetched_at": "2026-10-20T14:09:06.928075+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +90,7 @@
     "published_date": "2026-10-17T01:17:47.479000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-19T16:16:00.645719+00:00",
+    "fetched_at": "2026-10-20T14:09:23.159942+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +104,7 @@
     "published_date": "2026-10-16T15:06:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-10-19T16:15:49.254383+00:00",
+    "fetched_at": "2026-10-20T14:09:10.071079+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +118,7 @@
     "published_date": "2026-10-16T02:48:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:45.529239+00:00",
+    "fetched_at": "2026-10-20T14:09:06.928197+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +132,7 @@
     "published_date": "2026-10-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-19T16:15:44.686816+00:00",
+    "fetched_at": "2026-10-20T14:09:06.099453+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +146,7 @@
     "published_date": "2026-10-15T19:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-19T16:15:43.691030+00:00",
+    "fetched_at": "2026-10-20T14:09:05.263843+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +160,7 @@
     "published_date": "2026-10-15T16:31:48.646000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-19T16:16:00.645742+00:00",
+    "fetched_at": "2026-10-20T14:09:23.159961+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +174,7 @@
     "published_date": "2026-10-15T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-19T16:15:42.569791+00:00",
+    "fetched_at": "2026-10-20T14:09:04.316986+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +188,7 @@
     "published_date": "2026-10-15T15:33:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:45.529313+00:00",
+    "fetched_at": "2026-10-20T14:09:06.928271+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +202,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:47.988202+00:00",
+    "fetched_at": "2026-10-20T14:09:08.811161+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +216,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:47.988381+00:00",
+    "fetched_at": "2026-10-20T14:09:08.811339+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +230,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:47.988651+00:00",
+    "fetched_at": "2026-10-20T14:09:08.811601+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +244,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:47.988849+00:00",
+    "fetched_at": "2026-10-20T14:09:08.811796+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +258,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:47.988999+00:00",
+    "fetched_at": "2026-10-20T14:09:08.811915+00:00",
     "date_precision": "day"
   },
   {
@@ -256,7 +270,7 @@
     "published_date": "2026-10-14T02:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-10-19T16:15:52.389924+00:00",
+    "fetched_at": "2026-10-20T14:09:13.015484+00:00",
     "date_precision": "day"
   },
   {
@@ -268,7 +282,7 @@
     "published_date": "2026-10-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-19T16:15:55.871102+00:00",
+    "fetched_at": "2026-10-20T14:09:17.802978+00:00",
     "date_precision": "day"
   },
   {
@@ -282,61 +296,7 @@
     "published_date": "2026-10-13T22:19:04+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:45.530040+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Labs’ current alignment plans seem terrible",
-    "authors": [
-      "Daniel Tan"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Labs’ current alignment plans seem terrible'. Published 2026-10-12. Authors: Daniel Tan.",
-    "url": "https://www.lesswrong.com/posts/xyg3ecpFNuGr5q8Zq/labs-current-alignment-plans-seem-terrible",
-    "published_date": "2026-10-12T17:45:18.513000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-19T16:16:00.645735+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "OpenAI Can't Self-Police Because It Fires the People Raising the Alarm",
-    "authors": [
-      "TurnTrout"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "By Alex Turner, Amber Scorah, and Karl Koch. Op-ed written for Fortune. Giving independent evaluators “employee-like access” is “a great idea”, OpenAI CEO Sam Altman said on September 12th. Two weeks later, OpenAI president Greg Brockman signed the White House Accord on Super Intelligence which outlined the administration’s answer to growing fears about AI: the companies would police themselves. One of the accord’s four commitments, which President Trump called “ morally binding ,” was for companies to partner with an independent external auditor or evaluator. Two days later, OpenAI fired three safety researchers , including Tomek Korbak, who had served as a point of contact for one of the independent evaluators investigating the Hugging Face incident. OpenAI promised to share information with evaluators, then reportedly fired people for sharing information with evaluators.",
-    "url": "https://www.alignmentforum.org/posts/sSHbioPoHWtm4zuti/openai-can-t-self-police-because-it-fires-the-people-raising",
-    "published_date": "2026-10-12T16:51:50+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-19T16:15:45.530149+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Simulating student learning for better AI tutoring",
-    "authors": [
-      "Ke Yang, Chenglong Wang, Michel Galley, Jeevana Priya Inala, ChengXiang Zhai, Jianfeng Gao"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics. The post Simulating student learning for better AI tutoring appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
-    "published_date": "2026-10-12T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-19T16:15:42.569821+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Recursive Self-Improvement and Automated AI Research and Development",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Oct 12, 2026 If artificial intelligence systems begin to contribute to their own improvement, existing institutions and governance frameworks may not be able to keep pace. The authors offer policy recommendations for navigating the resulting uncertainties.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA5068-1.html",
-    "published_date": "2026-10-12T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-19T16:15:55.871499+00:00",
+    "fetched_at": "2026-10-20T14:09:06.928975+00:00",
     "date_precision": "day"
   }
 ]
