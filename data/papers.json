@@ -5,11 +5,67 @@
     "organization": "GovAI",
     "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
     "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
-    "published_date": "2026-10-20T00:00:00+00:00",
+    "published_date": "2026-10-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-10-20T14:09:18.376833+00:00",
+    "fetched_at": "2026-10-21T14:22:22.957381+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Beyond g-mean²: complementary metrics for monitorability",
+    "authors": [
+      "Melody Guan, Yuxiang Xie, Bowen Baker"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Pair-matched monitorability and post-control risk complement g-mean² by comparing models on shared instances and estimating what a monitor-gated system would let through.",
+    "url": "https://alignment.openai.com/beyond-gmean-squared/",
+    "published_date": "2026-10-20T16:30:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-10-21T14:22:12.237187+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Called to serve: Tech, research, and positive impact",
+    "authors": [
+      "Weishung Liu, Chris White"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more. The post Called to serve: Tech, research, and positive impact appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+    "published_date": "2026-10-20T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-10-21T14:22:11.135719+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Review of the \"Misalignment in high-stakes settings\" section in Anthropic's Risk Report (August 2026)",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Scope and access: this review was written based solely on Anthropic’s internal Risk Report from August 2026 and is relatively lightweight. The authors of this review were engaged prior to the “ An update on independent evaluators ” announcement and did not have the level of access to information described in that post. We expect future engagements to be governed by different terms. Redaction summary statement: Anthropic had the right to veto publication of this review and to redact any part of it. No redactions were made to our review and we did not change any of our conclusions during the publication review process. METR made minor changes to our review in response to feedback from Anthropic, but these changes were limited to minor wording and clarification, as well as improving the methodology of an experiment we ran.",
+    "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+    "published_date": "2026-10-20T07:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-10-21T14:22:15.593849+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Gradient Routing Localizes and Removes Unintended Behaviors in RL",
+    "authors": [
+      "shawnghu"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Gradient Routing Localizes and Removes Unintended Behaviors in RL'. Published 2026-10-19. Authors: shawnghu.",
+    "url": "https://www.lesswrong.com/posts/mKJEBiuuxHKuCoTB6/gradient-routing-localizes-and-removes-unintended-behaviors",
+    "published_date": "2026-10-19T19:45:59.135000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-10-21T14:22:25.600512+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Advancing coding in low‑resource programming languages",
@@ -22,7 +78,7 @@
     "published_date": "2026-10-19T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-20T14:09:05.263727+00:00",
+    "fetched_at": "2026-10-21T14:22:12.127612+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +92,7 @@
     "published_date": "2026-10-19T05:39:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-20T14:09:09.815206+00:00",
+    "fetched_at": "2026-10-21T14:22:16.594380+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +104,19 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-20T14:09:17.802671+00:00",
+    "fetched_at": "2026-10-21T14:22:22.557148+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Towards Robust Model Organisms for Eliciting Latent Knowledge",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Towards Robust Model Organisms for Eliciting Latent Knowledge A key problem in AI safety is eliciting latent knowledge (ELK), extracting information from a model that is misaligned and more knowledgeable than its overseer. For example, a misaligned model used to scan code for vulnerabilities may want to withhold its findings, i.e., sandbag, in order to exploit them later. To study ELK empirically, we need model organisms that mirror this setting. Existing model organisms fall short in several respects. In this work, we train model organisms to withhold solutions in a vulnerability detection task.",
+    "url": "https://www.matsprogram.org/research/towards-robust-model-organisms-for-eliciting-latent-knowledge",
+    "published_date": "2026-10-19T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-10-21T14:22:24.425297+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +130,7 @@
     "published_date": "2026-10-18T12:18:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:06.927142+00:00",
+    "fetched_at": "2026-10-21T14:22:13.524416+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +144,7 @@
     "published_date": "2026-10-17T23:08:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:06.928075+00:00",
+    "fetched_at": "2026-10-21T14:22:13.525464+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +158,7 @@
     "published_date": "2026-10-17T01:17:47.479000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-20T14:09:23.159942+00:00",
+    "fetched_at": "2026-10-21T14:22:25.600470+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +172,7 @@
     "published_date": "2026-10-16T15:06:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-10-20T14:09:10.071079+00:00",
+    "fetched_at": "2026-10-21T14:22:16.826469+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +186,7 @@
     "published_date": "2026-10-16T02:48:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:06.928197+00:00",
+    "fetched_at": "2026-10-21T14:22:13.525576+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +200,7 @@
     "published_date": "2026-10-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-20T14:09:06.099453+00:00",
+    "fetched_at": "2026-10-21T14:22:12.852716+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +214,7 @@
     "published_date": "2026-10-15T19:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-20T14:09:05.263843+00:00",
+    "fetched_at": "2026-10-21T14:22:12.127774+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +228,7 @@
     "published_date": "2026-10-15T16:31:48.646000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-20T14:09:23.159961+00:00",
+    "fetched_at": "2026-10-21T14:22:25.600490+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +242,7 @@
     "published_date": "2026-10-15T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-20T14:09:04.316986+00:00",
+    "fetched_at": "2026-10-21T14:22:11.135749+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +256,33 @@
     "published_date": "2026-10-15T15:33:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:06.928271+00:00",
+    "fetched_at": "2026-10-21T14:22:13.525648+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "An update on independent evaluators",
+    "authors": [
+      "Anthropic News"
+    ],
+    "organization": "Anthropic",
+    "abstract": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.",
+    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "published_date": "2026-10-15T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+    "fetched_at": "2026-10-21T14:22:11.298599+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "A Pre-mortem on The First Major AI-Enabled Terrorism Event and The Choices That Could Enable it: Plus 9 Predictions",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "A Pre-mortem on The First Major AI-Enabled Terrorism Event and The Choices That Could Enable it: Plus 9 Predictions Frontier AI developers' model reports and the dedicated risk-assessment teams at governmental AI institutes such as UK AISI and US CAISSI now treat a major AI-enabled cyber, biological, or chemical terror event as a credible concern. But how, precisely, might such an event happen? What choices across the model lifecycle may contribute to it? This paper studies what current evidence suggests about how specific mistakes from AI developers, distributors, and governments may contribute to such an event. ​ The authors conclude with a set of 9 falsifiable predictions about how the first major AI-enabled cyber, bio, or chemical terrorism attack may occur and outline two illustrative hypothetical scenarios for such an event.",
+    "url": "https://www.matsprogram.org/research/a-pre-mortem-on-the-first-major-ai-enabled-terrorism-event-and-the-choices-that-could-enable-it-plus-9-predictions",
+    "published_date": "2026-10-15T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-10-21T14:22:24.426630+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +296,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:08.811161+00:00",
+    "fetched_at": "2026-10-21T14:22:15.594059+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +310,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:08.811339+00:00",
+    "fetched_at": "2026-10-21T14:22:15.594229+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +324,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:08.811601+00:00",
+    "fetched_at": "2026-10-21T14:22:15.594489+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +338,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:08.811796+00:00",
+    "fetched_at": "2026-10-21T14:22:15.594683+00:00",
     "date_precision": "day"
   },
   {
@@ -258,7 +352,7 @@
     "published_date": "2026-10-14T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:08.811915+00:00",
+    "fetched_at": "2026-10-21T14:22:15.594801+00:00",
     "date_precision": "day"
   },
   {
@@ -270,7 +364,7 @@
     "published_date": "2026-10-14T02:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-10-20T14:09:13.015484+00:00",
+    "fetched_at": "2026-10-21T14:22:19.168440+00:00",
     "date_precision": "day"
   },
   {
@@ -282,21 +376,7 @@
     "published_date": "2026-10-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-20T14:09:17.802978+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
-    "authors": [
-      "peterkirgis"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Executive Summary Human societies exhibit broad shifts in values and norms over time, often driven by moral disagreements. One way of understanding moral progress is the resolution of these disagreements through a process of reflection by rational agents. Frontier AI companies use documents such as constitutions, model specs, and system prompts to guide the moral orientation of AI systems. In this experiment, we simulate value reflection in LLMs by asking them to edit these documents. We provide the model with the document, ask it to make a substantive edit, then provide the edited version back again to the model for further edits, presented as the original. Across 20 successive rounds, we find that Claude models assign themselves with increasingly more moral agency.",
-    "url": "https://www.alignmentforum.org/posts/c9woewdY9ddsPqf3J/the-continual-constitutional-convention-how-language-models",
-    "published_date": "2026-10-13T22:19:04+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-20T14:09:06.928975+00:00",
+    "fetched_at": "2026-10-21T14:22:22.557457+00:00",
     "date_precision": "day"
   }
 ]
