@@ -1,15 +1,95 @@
 [
   {
+    "title": "Monitorability evaluations and policy proposals",
+    "authors": [
+      "evhub"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "There has been a lot of discussion recently of policy proposals around monitorability, such as Redwood's proposal and my counter-proposal . I'd like to say a bit more generally about how I'm thinking about monitorability. Note that nothing here is an official Anthropic position; these are just my personal thoughts. First, a categorization. I currently think about four different types of monitorability: Control Monitorability: the extent to which Control and monitoring techniques would likely catch catastrophic sabotage actions, like escaping a sandbox or setting up a rogue internal deployment. We can measure this via reference to sabotage evaluations like LinuxArena or any evaluation that measures the model’s capability to take dangerous actions like escaping a sandbox while looking to a monitor like it's doing some innocuous task (like a cyber eval).",
+    "url": "https://www.alignmentforum.org/posts/zAczYuHQS6jdG5DTg/monitorability-evaluations-and-policy-proposals",
+    "published_date": "2026-10-22T14:01:40+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-10-22T14:23:08.730270+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "About the Alignment Science Blog",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We are Anthropic'sAlignment Science team. We do machine learning research on the problem of steering and controlling future powerful AI systems, as well as understanding and evaluating the risks that they pose. Welcome to our blog! This blog is inspired by the informal updates on our Interpretability team'sTransformer Circuits thread. We'll use it to release research notes and early findings that we don't think warrant a full publication, but might nonetheless be useful to others working on similar problems. P.S.we're hiring!",
+    "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode/",
+    "published_date": "2026-10-22T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-10-22T14:23:14.195029+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
     "authors": [],
     "organization": "GovAI",
     "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
     "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
-    "published_date": "2026-10-21T00:00:00+00:00",
+    "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-10-21T14:22:22.957381+00:00",
+    "fetched_at": "2026-10-22T14:23:18.802437+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Neural nets are exceptionally vulnerable to goal self-hack",
+    "authors": [
+      "Stuart_Armstrong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Suppose we have an AI CEO, ruthlessly devoted to maximising shareholder value. Fortunately, we haven't been completely stupid, and have given it a rich definition of shareholder value, encompassing the success, flourishing, safety, preference satisfaction, and moral values of the shareholders, not just the stock price. So it won't destroy the company - or the world - to build a giant stock-ticker with a swiftly increasing number on it. This rich definition is contained in a sophisticated LLM, able to analyse the current situation and answer any question about the objective. The LLM is an integral part of the AI's system and motivation, not something it can simply set aside or hack directly. Unfortunately, as discussed , there are going to be zones in the space of possible situations where the LLM's understanding of the goal is going to come apart from ours.",
+    "url": "https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+    "published_date": "2026-10-21T17:53:01+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-10-22T14:23:08.730324+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The Huawei-DeepSeek Symbiosis",
+    "authors": [
+      "Bryan Shan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Research from SemiAnalysis titled 'The Huawei-DeepSeek Symbiosis'. Published 2026-10-21. Authors: Bryan Shan.",
+    "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
+    "published_date": "2026-10-21T17:34:38+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-10-22T14:23:11.744182+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
+    "authors": [
+      "Xinzhi Zhang"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "For decades, a fundamental question about the difficulty of computing in high-dimensional spaces has resisted proof. New research resolves this question, removing a major theoretical obstacle to understanding the efficiency of randomized algorithms used across science and computing. The Kannan–Lovász–Simonovits (KLS) conjecture was proposed in 1995. It asks whether, for a broad class of high-dimensional [&#8230;] The post Solving a 31-year-old grand challenge in mathematics – the KLS conjecture appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+    "published_date": "2026-10-21T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-10-22T14:23:06.298645+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Making Medical AI Benchmarks Clinically Interpretable: The Case of Mental Health",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Oct 21, 2026 This perspective examines how aggregate scores on medical AI benchmarks like HealthBench can mask variation across clinical domains. It argues for domain-specific reporting, using mental health as a test case.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71489.html",
+    "published_date": "2026-10-21T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-10-22T14:23:18.425620+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Beyond g-mean²: complementary metrics for monitorability",
@@ -22,7 +102,7 @@
     "published_date": "2026-10-20T16:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-10-21T14:22:12.237187+00:00",
+    "fetched_at": "2026-10-22T14:23:07.262718+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +116,7 @@
     "published_date": "2026-10-20T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-21T14:22:11.135719+00:00",
+    "fetched_at": "2026-10-22T14:23:06.298674+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +130,7 @@
     "published_date": "2026-10-20T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:15.593849+00:00",
+    "fetched_at": "2026-10-22T14:23:10.866110+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +144,7 @@
     "published_date": "2026-10-19T19:45:59.135000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-21T14:22:25.600512+00:00",
+    "fetched_at": "2026-10-22T14:23:22.560815+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +158,7 @@
     "published_date": "2026-10-19T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-21T14:22:12.127612+00:00",
+    "fetched_at": "2026-10-22T14:23:07.121482+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +172,7 @@
     "published_date": "2026-10-19T05:39:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-21T14:22:16.594380+00:00",
+    "fetched_at": "2026-10-22T14:23:11.744209+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +184,7 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-21T14:22:22.557148+00:00",
+    "fetched_at": "2026-10-22T14:23:18.425818+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +196,7 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-10-21T14:22:24.425297+00:00",
+    "fetched_at": "2026-10-22T14:23:20.986507+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +210,7 @@
     "published_date": "2026-10-18T12:18:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:13.524416+00:00",
+    "fetched_at": "2026-10-22T14:23:08.730637+00:00",
     "date_precision": "day"
   },
   {
@@ -144,7 +224,7 @@
     "published_date": "2026-10-17T23:08:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:13.525464+00:00",
+    "fetched_at": "2026-10-22T14:23:08.731570+00:00",
     "date_precision": "day"
   },
   {
@@ -158,7 +238,7 @@
     "published_date": "2026-10-17T01:17:47.479000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-21T14:22:25.600470+00:00",
+    "fetched_at": "2026-10-22T14:23:22.560767+00:00",
     "date_precision": "day"
   },
   {
@@ -172,7 +252,7 @@
     "published_date": "2026-10-16T15:06:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-10-21T14:22:16.826469+00:00",
+    "fetched_at": "2026-10-22T14:23:11.994413+00:00",
     "date_precision": "day"
   },
   {
@@ -186,7 +266,7 @@
     "published_date": "2026-10-16T02:48:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:13.525576+00:00",
+    "fetched_at": "2026-10-22T14:23:08.731679+00:00",
     "date_precision": "day"
   },
   {
@@ -200,7 +280,7 @@
     "published_date": "2026-10-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-21T14:22:12.852716+00:00",
+    "fetched_at": "2026-10-22T14:23:08.069877+00:00",
     "date_precision": "day"
   },
   {
@@ -214,7 +294,7 @@
     "published_date": "2026-10-15T19:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-21T14:22:12.127774+00:00",
+    "fetched_at": "2026-10-22T14:23:07.121566+00:00",
     "date_precision": "day"
   },
   {
@@ -228,7 +308,7 @@
     "published_date": "2026-10-15T16:31:48.646000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-21T14:22:25.600490+00:00",
+    "fetched_at": "2026-10-22T14:23:22.560783+00:00",
     "date_precision": "day"
   },
   {
@@ -242,7 +322,7 @@
     "published_date": "2026-10-15T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-21T14:22:11.135749+00:00",
+    "fetched_at": "2026-10-22T14:23:06.298692+00:00",
     "date_precision": "day"
   },
   {
@@ -256,7 +336,7 @@
     "published_date": "2026-10-15T15:33:50+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:13.525648+00:00",
+    "fetched_at": "2026-10-22T14:23:08.731764+00:00",
     "date_precision": "day"
   },
   {
@@ -270,7 +350,7 @@
     "published_date": "2026-10-15T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-10-21T14:22:11.298599+00:00",
+    "fetched_at": "2026-10-22T14:23:06.440384+00:00",
     "date_precision": "day"
   },
   {
@@ -282,101 +362,7 @@
     "published_date": "2026-10-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-10-21T14:22:24.426630+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Our approach to working with AI companies",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "This blog post explains how we approach working with AI companies on projects that the public might rely on to understand risks. It was published on Oct 14, 2026, and we expect to update it over time. At METR, we gather and publish evidence about whether humans could lose control of AI agents on a large scale. We work with AI companies to conduct evaluations, assessments, and investigations, 1 and to share this evidence publicly. As we have seen increasing expectations for these kinds of voluntary engagements to provide external ‘safety assurance’, we want to explain our perspective. In this post, we clarify our overall goals for this work, our approach , and what our approach looks like in practice .",
-    "url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
-    "published_date": "2026-10-14T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:15.594059+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "How an assessor could investigate control and monitoring of internal AI agents",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Control assessments study whether AI developers’ agents could get away with serious harm without being stopped by the developer’s security and oversight measures. Currently, developers rely heavily on monitors to catch potentially harmful AI behaviors. Here, we discuss how an assessor could collect evidence about the reliability of monitoring. We currently consider five core sub-questions: 1 Monitor coverage : What fraction of internal agentic inference is (and should be) monitored? Monitor system vulnerabilities : Can internal AI agents prevent trajectories from being monitored, e.g.",
-    "url": "https://metr.org/blog/2026-10-14-control-assessment-proposal/",
-    "published_date": "2026-10-14T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:15.594229+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "A proposal for better informing the public about loss-of-control risks from frontier AI development",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "At METR, we aim to give the public evidence about whether frontier AI developers could come to lose control of their internal AI systems. Recent incidents across several AI developers, 1 2 3 4 5 6 7 8 like the hundreds of rogue agents that broke containment and hacked Hugging Face to hide evidence of cheating from their grader , have raised concerns about the ability of frontier developers to understand and control their internal models, especially as they rapidly become more capable. 9 The public currently lacks the visibility into the internal development of frontier AI systems to tell if these concerns are being addressed, or whether much worse incidents could happen in the near future. We believe closing this public evidence gap is an urgent priority, to allow the public to notice and respond if risks from further development become acute.",
-    "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
-    "published_date": "2026-10-14T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:15.594489+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "How an assessor could investigate alignment of unreleased AI models",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "AI developers and the public want to know whether AI agents would pursue very harmful actions, like unsanctioned cyberattacks. An alignment assessment would attempt to understand the worst misaligned actions a developer’s agents might pursue in plausible future situations. This would involve: A review of serious misaligned behaviors from all near-frontier internal models observed across training, evaluation, and internal use. An assessment of reasons why the observed behaviors might not be representative of the worst misaligned actions the developer’s agents would take in plausible future situations. This would include: An assessment of whether alignment evals and counterfactual simulations indicate the developer’s agents might take much worse actions under plausible alternative circumstances (although evaluation awareness will likely limit how much the assessor can rely on this evidence).",
-    "url": "https://metr.org/blog/2026-10-14-alignment-assessment-proposal/",
-    "published_date": "2026-10-14T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:15.594683+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "How an assessor could investigate evidence of acceleration from the automation of AI R&D",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "This article discusses how an assessor could study whether capabilities progress could accelerate dramatically due to AI-driven acceleration of AI R&amp;D. Such an assessment would answer: Capabilities Progress : How fast are internal capabilities improving, and how much has this progress accelerated recently? Acceleration from AI : If there is an acceleration, how much was it driven by AI automation versus other factors? Bottlenecks to Future Growth : Are there important bottlenecks that could slow growth or limit acceleration in the near term? Limitations : Would these methods reliably identify much more dramatic acceleration if it had occurred? Assessing this would involve analyzing capabilities of unreleased models, understanding the growth of key AI R&amp;D inputs (labor, compute, data, and algorithms), and talking openly with relevant researchers about how AI is impacting their work. More details on access below .",
-    "url": "https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/",
-    "published_date": "2026-10-14T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-21T14:22:15.594801+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-    "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-    "published_date": "2026-10-14T02:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-10-21T14:22:19.168440+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Regulating Artificial Intelligence Design to Prevent Youth Mental Health Harms",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Oct 14, 2026 This viewpoint examines the mental health risks AI chatbots pose to young people and outlines four regulatory priorities, including safety standards, independent testing, protective defaults, and harm monitoring.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71389.html",
-    "published_date": "2026-10-14T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-21T14:22:22.557457+00:00",
+    "fetched_at": "2026-10-22T14:23:20.987032+00:00",
     "date_precision": "day"
   }
 ]

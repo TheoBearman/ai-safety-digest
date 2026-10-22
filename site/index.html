@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Safety Digest — October 14, 2026 to October 21, 2026</title>
-  <meta name="description" content="A curated digest of 28 AI safety research papers from leading organizations and researchers. October 14, 2026 through October 21, 2026.">
+  <title>AI Safety Digest — October 15, 2026 to October 22, 2026</title>
+  <meta name="description" content="A curated digest of 27 AI safety research papers from leading organizations and researchers. October 15, 2026 through October 22, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1053,8 +1053,8 @@ a:hover {
       <h1 class="site-title" id="digest-title">AI Safety Digest</h1>
       <hr class="header-rule">
       <div class="header-meta">
-        <span class="header-daterange" id="date-range">October 14, 2026 &mdash; October 21, 2026</span>        <span class="header-separator">&middot;</span>
-        <span class="header-count" id="paper-count"><strong>28</strong> papers</span>      </div>
+        <span class="header-daterange" id="date-range">October 15, 2026 &mdash; October 22, 2026</span>        <span class="header-separator">&middot;</span>
+        <span class="header-count" id="paper-count"><strong>27</strong> papers</span>      </div>
       <div class="digest-toggle" role="group" aria-label="Digest time range">
         <button class="toggle-btn" data-mode="daily">Daily</button>
         <button class="toggle-btn active" data-mode="weekly">Weekly</button>
@@ -1066,7 +1066,7 @@ a:hover {
   <nav class="filter-bar" aria-label="Filter papers by organization">
     <div class="filter-bar-inner">
       <div class="filter-scroll">
-        <button class="filter-pill active" data-filter="all">All <span class="pill-count">28</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="Google DeepMind">Google DeepMind</button>        <button class="filter-pill" data-filter="METR">METR</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="MATS">MATS</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Dean Ball">Dean Ball</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">27</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="METR">METR</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="MATS">MATS</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="SemiAnalysis">SemiAnalysis</button>        <button class="filter-pill" data-filter="Dean Ball">Dean Ball</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
     </div>
   </nav>
 
@@ -1074,7 +1074,39 @@ a:hover {
   <!-- Papers Grid -->
   <main class="papers-section">
     <h2 class="section-label">All Papers</h2>
-    <div class="papers-grid">      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-10-21">
+    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-10-22">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Oct 22, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/zAczYuHQS6jdG5DTg/monitorability-evaluations-and-policy-proposals" target="_blank" rel="noopener noreferrer">Monitorability evaluations and policy proposals</a>
+    </h3>    <p class="paper-authors">evhub</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">There has been a lot of discussion recently of policy proposals around monitorability, such as Redwood&#39;s proposal and my counter-proposal . I&#39;d like to say a bit more generally about how I&#39;m thinking about monitorability. Note that nothing here is an official Anthropic position; these are just my personal thoughts. First, a categorization. I currently think about four different types of monitorability: Control Monitorability: the extent to which Control and monitoring techniques would likely catch catastrophic sabotage actions, like escaping a sandbox or setting up a rogue internal deployment. We can measure this via reference to sabotage evaluations like LinuxArena or any evaluation that measures the model’s capability to take dangerous actions like escaping a sandbox while looking to a monitor like it&#39;s doing some innocuous task (like a cyber eval).</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">There has been a lot of discussion recently of policy proposals around monitorability, such as Redwood&#39;s proposal and my counter-proposal . I&#39;d like to say a bit more generally about how I&#39;m thinking about monitorability. Note that nothing here is an official Anthropic position; these are just my personal thoughts. First, a categorization. I currently think about four different types of monitorability: Control Monitorability: the extent to which Control and monitoring techniques would likely catch catastrophic sabotage actions, like escaping a sandbox or setting up a rogue internal deployment. We can measure this via reference to sabotage evaluations like LinuxArena or any evaluation that measures the model’s capability to take dangerous actions like escaping a sandbox while looking to a monitor like it&#39;s doing some innocuous task (like a cyber eval).</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/zAczYuHQS6jdG5DTg/monitorability-evaluations-and-policy-proposals" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Anthropic" data-date="2026-10-22">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Anthropic">Anthropic</span>
+      <span class="paper-date">Oct 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://alignment.anthropic.com/2026/red-teaming-auto-mode/" target="_blank" rel="noopener noreferrer">About the Alignment Science Blog</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">We are Anthropic&#39;sAlignment Science team. We do machine learning research on the problem of steering and controlling future powerful AI systems, as well as understanding and evaluating the risks that they pose. Welcome to our blog! This blog is inspired by the informal updates on our Interpretability team&#39;sTransformer Circuits thread. We&#39;ll use it to release research notes and early findings that we don&#39;t think warrant a full publication, but might nonetheless be useful to others working on similar problems. P.S.we&#39;re hiring!</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">We are Anthropic&#39;sAlignment Science team. We do machine learning research on the problem of steering and controlling future powerful AI systems, as well as understanding and evaluating the risks that they pose. Welcome to our blog! This blog is inspired by the informal updates on our Interpretability team&#39;sTransformer Circuits thread. We&#39;ll use it to release research notes and early findings that we don&#39;t think warrant a full publication, but might nonetheless be useful to others working on similar problems. P.S.we&#39;re hiring!</div>
+      </details>
+    </div>    <a href="https://alignment.anthropic.com/2026/red-teaming-auto-mode/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-10-22">
     <div class="paper-meta">
       <span class="org-tag" data-org="GovAI">GovAI</span>
       <span class="paper-date">Oct 2026</span>
@@ -1090,6 +1122,70 @@ a:hover {
         <div class="abstract-full">Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.</div>
       </details>
     </div>    <a href="https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-10-21">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
+      <span class="paper-date">Oct 21, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack" target="_blank" rel="noopener noreferrer">Neural nets are exceptionally vulnerable to goal self-hack</a>
+    </h3>    <p class="paper-authors">Stuart_Armstrong</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Suppose we have an AI CEO, ruthlessly devoted to maximising shareholder value. Fortunately, we haven&#39;t been completely stupid, and have given it a rich definition of shareholder value, encompassing the success, flourishing, safety, preference satisfaction, and moral values of the shareholders, not just the stock price. So it won&#39;t destroy the company - or the world - to build a giant stock-ticker with a swiftly increasing number on it. This rich definition is contained in a sophisticated LLM, able to analyse the current situation and answer any question about the objective. The LLM is an integral part of the AI&#39;s system and motivation, not something it can simply set aside or hack directly. Unfortunately, as discussed , there are going to be zones in the space of possible situations where the LLM&#39;s understanding of the goal is going to come apart from ours.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Suppose we have an AI CEO, ruthlessly devoted to maximising shareholder value. Fortunately, we haven&#39;t been completely stupid, and have given it a rich definition of shareholder value, encompassing the success, flourishing, safety, preference satisfaction, and moral values of the shareholders, not just the stock price. So it won&#39;t destroy the company - or the world - to build a giant stock-ticker with a swiftly increasing number on it. This rich definition is contained in a sophisticated LLM, able to analyse the current situation and answer any question about the objective. The LLM is an integral part of the AI&#39;s system and motivation, not something it can simply set aside or hack directly. Unfortunately, as discussed , there are going to be zones in the space of possible situations where the LLM&#39;s understanding of the goal is going to come apart from ours.</div>
+      </details>
+    </div>    <a href="https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="SemiAnalysis" data-date="2026-10-21">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="SemiAnalysis">SemiAnalysis</span>
+      <span class="paper-date">Oct 21, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://newsletter.semianalysis.com/p/huawei-deepseek" target="_blank" rel="noopener noreferrer">The Huawei-DeepSeek Symbiosis</a>
+    </h3>    <p class="paper-authors">Bryan Shan</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from SemiAnalysis titled &#39;The Huawei-DeepSeek Symbiosis&#39;. Published 2026-10-21. Authors: Bryan Shan.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from SemiAnalysis titled &#39;The Huawei-DeepSeek Symbiosis&#39;. Published 2026-10-21. Authors: Bryan Shan.</div>
+      </details>
+    </div>    <a href="https://newsletter.semianalysis.com/p/huawei-deepseek" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Microsoft Research" data-date="2026-10-21">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Microsoft Research">Microsoft Research</span>
+      <span class="paper-date">Oct 21, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/" target="_blank" rel="noopener noreferrer">Solving a 31-year-old grand challenge in mathematics – the KLS conjecture</a>
+    </h3>    <p class="paper-authors">Xinzhi Zhang</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">For decades, a fundamental question about the difficulty of computing in high-dimensional spaces has resisted proof. New research resolves this question, removing a major theoretical obstacle to understanding the efficiency of randomized algorithms used across science and computing. The Kannan–Lovász–Simonovits (KLS) conjecture was proposed in 1995. It asks whether, for a broad class of high-dimensional [&amp;#8230;] The post Solving a 31-year-old grand challenge in mathematics – the KLS conjecture appeared first on Microsoft Research .</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">For decades, a fundamental question about the difficulty of computing in high-dimensional spaces has resisted proof. New research resolves this question, removing a major theoretical obstacle to understanding the efficiency of randomized algorithms used across science and computing. The Kannan–Lovász–Simonovits (KLS) conjecture was proposed in 1995. It asks whether, for a broad class of high-dimensional [&amp;#8230;] The post Solving a 31-year-old grand challenge in mathematics – the KLS conjecture appeared first on Microsoft Research .</div>
+      </details>
+    </div>    <a href="https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-10-21">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="RAND">RAND</span>
+      <span class="paper-date">Oct 21, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://www.rand.org/pubs/external_publications/EP71489.html" target="_blank" rel="noopener noreferrer">Making Medical AI Benchmarks Clinically Interpretable: The Case of Mental Health</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Expert Insights Oct 21, 2026 This perspective examines how aggregate scores on medical AI benchmarks like HealthBench can mask variation across clinical domains. It argues for domain-specific reporting, using mental health as a test case.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Expert Insights Oct 21, 2026 This perspective examines how aggregate scores on medical AI benchmarks like HealthBench can mask variation across clinical domains. It argues for domain-specific reporting, using mental health as a test case.</div>
+      </details>
+    </div>    <a href="https://www.rand.org/pubs/external_publications/EP71489.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-10-20">
     <div class="paper-meta">
       <span class="org-tag" data-org="OpenAI">OpenAI</span>
@@ -1410,118 +1506,6 @@ a:hover {
         <div class="abstract-full">A Pre-mortem on The First Major AI-Enabled Terrorism Event and The Choices That Could Enable it: Plus 9 Predictions Frontier AI developers&#39; model reports and the dedicated risk-assessment teams at governmental AI institutes such as UK AISI and US CAISSI now treat a major AI-enabled cyber, biological, or chemical terror event as a credible concern. But how, precisely, might such an event happen? What choices across the model lifecycle may contribute to it? This paper studies what current evidence suggests about how specific mistakes from AI developers, distributors, and governments may contribute to such an event. ​ The authors conclude with a set of 9 falsifiable predictions about how the first major AI-enabled cyber, bio, or chemical terrorism attack may occur and outline two illustrative hypothetical scenarios for such an event.</div>
       </details>
     </div>    <a href="https://www.matsprogram.org/research/a-pre-mortem-on-the-first-major-ai-enabled-terrorism-event-and-the-choices-that-could-enable-it-plus-9-predictions" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="METR" data-date="2026-10-14">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="METR">METR</span>
-      <span class="paper-date">Oct 14, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/" target="_blank" rel="noopener noreferrer">Our approach to working with AI companies</a>
-    </h3>    <p class="paper-authors">METR</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">This blog post explains how we approach working with AI companies on projects that the public might rely on to understand risks. It was published on Oct 14, 2026, and we expect to update it over time. At METR, we gather and publish evidence about whether humans could lose control of AI agents on a large scale. We work with AI companies to conduct evaluations, assessments, and investigations, 1 and to share this evidence publicly. As we have seen increasing expectations for these kinds of voluntary engagements to provide external ‘safety assurance’, we want to explain our perspective. In this post, we clarify our overall goals for this work, our approach , and what our approach looks like in practice .</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">This blog post explains how we approach working with AI companies on projects that the public might rely on to understand risks. It was published on Oct 14, 2026, and we expect to update it over time. At METR, we gather and publish evidence about whether humans could lose control of AI agents on a large scale. We work with AI companies to conduct evaluations, assessments, and investigations, 1 and to share this evidence publicly. As we have seen increasing expectations for these kinds of voluntary engagements to provide external ‘safety assurance’, we want to explain our perspective. In this post, we clarify our overall goals for this work, our approach , and what our approach looks like in practice .</div>
-      </details>
-    </div>    <a href="https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="METR" data-date="2026-10-14">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="METR">METR</span>
-      <span class="paper-date">Oct 14, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://metr.org/blog/2026-10-14-control-assessment-proposal/" target="_blank" rel="noopener noreferrer">How an assessor could investigate control and monitoring of internal AI agents</a>
-    </h3>    <p class="paper-authors">METR</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Control assessments study whether AI developers’ agents could get away with serious harm without being stopped by the developer’s security and oversight measures. Currently, developers rely heavily on monitors to catch potentially harmful AI behaviors. Here, we discuss how an assessor could collect evidence about the reliability of monitoring. We currently consider five core sub-questions: 1 Monitor coverage : What fraction of internal agentic inference is (and should be) monitored? Monitor system vulnerabilities : Can internal AI agents prevent trajectories from being monitored, e.g.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Control assessments study whether AI developers’ agents could get away with serious harm without being stopped by the developer’s security and oversight measures. Currently, developers rely heavily on monitors to catch potentially harmful AI behaviors. Here, we discuss how an assessor could collect evidence about the reliability of monitoring. We currently consider five core sub-questions: 1 Monitor coverage : What fraction of internal agentic inference is (and should be) monitored? Monitor system vulnerabilities : Can internal AI agents prevent trajectories from being monitored, e.g.</div>
-      </details>
-    </div>    <a href="https://metr.org/blog/2026-10-14-control-assessment-proposal/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="METR" data-date="2026-10-14">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="METR">METR</span>
-      <span class="paper-date">Oct 14, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/" target="_blank" rel="noopener noreferrer">A proposal for better informing the public about loss-of-control risks from frontier AI development</a>
-    </h3>    <p class="paper-authors">METR</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">At METR, we aim to give the public evidence about whether frontier AI developers could come to lose control of their internal AI systems. Recent incidents across several AI developers, 1 2 3 4 5 6 7 8 like the hundreds of rogue agents that broke containment and hacked Hugging Face to hide evidence of cheating from their grader , have raised concerns about the ability of frontier developers to understand and control their internal models, especially as they rapidly become more capable. 9 The public currently lacks the visibility into the internal development of frontier AI systems to tell if these concerns are being addressed, or whether much worse incidents could happen in the near future. We believe closing this public evidence gap is an urgent priority, to allow the public to notice and respond if risks from further development become acute.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">At METR, we aim to give the public evidence about whether frontier AI developers could come to lose control of their internal AI systems. Recent incidents across several AI developers, 1 2 3 4 5 6 7 8 like the hundreds of rogue agents that broke containment and hacked Hugging Face to hide evidence of cheating from their grader , have raised concerns about the ability of frontier developers to understand and control their internal models, especially as they rapidly become more capable. 9 The public currently lacks the visibility into the internal development of frontier AI systems to tell if these concerns are being addressed, or whether much worse incidents could happen in the near future. We believe closing this public evidence gap is an urgent priority, to allow the public to notice and respond if risks from further development become acute.</div>
-      </details>
-    </div>    <a href="https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="METR" data-date="2026-10-14">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="METR">METR</span>
-      <span class="paper-date">Oct 14, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://metr.org/blog/2026-10-14-alignment-assessment-proposal/" target="_blank" rel="noopener noreferrer">How an assessor could investigate alignment of unreleased AI models</a>
-    </h3>    <p class="paper-authors">METR</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">AI developers and the public want to know whether AI agents would pursue very harmful actions, like unsanctioned cyberattacks. An alignment assessment would attempt to understand the worst misaligned actions a developer’s agents might pursue in plausible future situations. This would involve: A review of serious misaligned behaviors from all near-frontier internal models observed across training, evaluation, and internal use. An assessment of reasons why the observed behaviors might not be representative of the worst misaligned actions the developer’s agents would take in plausible future situations. This would include: An assessment of whether alignment evals and counterfactual simulations indicate the developer’s agents might take much worse actions under plausible alternative circumstances (although evaluation awareness will likely limit how much the assessor can rely on this evidence).</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">AI developers and the public want to know whether AI agents would pursue very harmful actions, like unsanctioned cyberattacks. An alignment assessment would attempt to understand the worst misaligned actions a developer’s agents might pursue in plausible future situations. This would involve: A review of serious misaligned behaviors from all near-frontier internal models observed across training, evaluation, and internal use. An assessment of reasons why the observed behaviors might not be representative of the worst misaligned actions the developer’s agents would take in plausible future situations. This would include: An assessment of whether alignment evals and counterfactual simulations indicate the developer’s agents might take much worse actions under plausible alternative circumstances (although evaluation awareness will likely limit how much the assessor can rely on this evidence).</div>
-      </details>
-    </div>    <a href="https://metr.org/blog/2026-10-14-alignment-assessment-proposal/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="METR" data-date="2026-10-14">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="METR">METR</span>
-      <span class="paper-date">Oct 14, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/" target="_blank" rel="noopener noreferrer">How an assessor could investigate evidence of acceleration from the automation of AI R&amp;D</a>
-    </h3>    <p class="paper-authors">METR</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">This article discusses how an assessor could study whether capabilities progress could accelerate dramatically due to AI-driven acceleration of AI R&amp;amp;D. Such an assessment would answer: Capabilities Progress : How fast are internal capabilities improving, and how much has this progress accelerated recently? Acceleration from AI : If there is an acceleration, how much was it driven by AI automation versus other factors? Bottlenecks to Future Growth : Are there important bottlenecks that could slow growth or limit acceleration in the near term? Limitations : Would these methods reliably identify much more dramatic acceleration if it had occurred? Assessing this would involve analyzing capabilities of unreleased models, understanding the growth of key AI R&amp;amp;D inputs (labor, compute, data, and algorithms), and talking openly with relevant researchers about how AI is impacting their work. More details on access below .</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">This article discusses how an assessor could study whether capabilities progress could accelerate dramatically due to AI-driven acceleration of AI R&amp;amp;D. Such an assessment would answer: Capabilities Progress : How fast are internal capabilities improving, and how much has this progress accelerated recently? Acceleration from AI : If there is an acceleration, how much was it driven by AI automation versus other factors? Bottlenecks to Future Growth : Are there important bottlenecks that could slow growth or limit acceleration in the near term? Limitations : Would these methods reliably identify much more dramatic acceleration if it had occurred? Assessing this would involve analyzing capabilities of unreleased models, understanding the growth of key AI R&amp;amp;D inputs (labor, compute, data, and algorithms), and talking openly with relevant researchers about how AI is impacting their work. More details on access below .</div>
-      </details>
-    </div>    <a href="https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Google DeepMind" data-date="2026-10-14">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Google DeepMind">Google DeepMind</span>
-      <span class="paper-date">Oct 14, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://deepmind.google/blog/on-device-ai-scam-detection-mddi/" target="_blank" rel="noopener noreferrer">Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.</div>
-      </details>
-    </div>    <a href="https://deepmind.google/blog/on-device-ai-scam-detection-mddi/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="RAND" data-date="2026-10-14">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="RAND">RAND</span>
-      <span class="paper-date">Oct 14, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.rand.org/pubs/external_publications/EP71389.html" target="_blank" rel="noopener noreferrer">Regulating Artificial Intelligence Design to Prevent Youth Mental Health Harms</a>
-    </h3>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Expert Insights Oct 14, 2026 This viewpoint examines the mental health risks AI chatbots pose to young people and outlines four regulatory priorities, including safety standards, independent testing, protective defaults, and harm monitoring.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Expert Insights Oct 14, 2026 This viewpoint examines the mental health risks AI chatbots pose to young people and outlines four regulatory priorities, including safety standards, independent testing, protective defaults, and harm monitoring.</div>
-      </details>
-    </div>    <a href="https://www.rand.org/pubs/external_publications/EP71389.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>    </div>
   </main>
 
@@ -1542,11 +1526,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Alignment Forum</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 4 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 6 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Alignment Science</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 32 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 33 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Engineering</span>
@@ -1554,11 +1538,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Frontier Red Team</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 10 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 10 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic News (research only)</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Apollo Research</span>
@@ -1566,15 +1550,15 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">ARC</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 7 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 7 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CAIS</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 99 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 99 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CHAI Berkeley</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 12 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 12 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CLTR</span>
@@ -1586,7 +1570,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CSET Georgetown</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 7 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 7 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Dan Hendrycks — ML Safety Newsletter</span>
@@ -1594,7 +1578,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Dean Ball — Hyperdimensional</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Epoch AI</span>
@@ -1618,11 +1602,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Google DeepMind Safety</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 25 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 25 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">GovAI Oxford</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 215 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 215 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Helen Toner — Rising Tide</span>
@@ -1638,23 +1622,23 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Lennart Heim</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 6 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 6 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">LessWrong</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 7 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 9 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">MATS</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 28 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 28 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">METR</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 6 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Microsoft Research (AI)</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 2 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 3 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">MIRI</span>
@@ -1662,11 +1646,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">OpenAI Alignment Research</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">OpenAI Research Publications</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 3 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 3 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Paul Christiano</span>
@@ -1678,7 +1662,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">RAND AI</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 11 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 11 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Reddit r/aisafety</span>
@@ -1694,7 +1678,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Redwood Research</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Seb Krier — Technologik</span>
@@ -1702,11 +1686,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">SemiAnalysis</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 2 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">UK AISI</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 201 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 201 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">US AISI (NIST)</span>
@@ -1714,24 +1698,24 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Yoshua Bengio</span>
-            <span class="health-meta">last data Oct 21, 2026 &middot; 16 items</span>
+            <span class="health-meta">last data Oct 22, 2026 &middot; 16 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Zvi Mowshowitz</span>
             <span class="health-meta">last data May 11, 2026</span>
           </li>        </ul>
       </details>      <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-10-21 14:22:30</p>
+      <p class="footer-timestamp">2026-10-22 14:23:24</p>
     </div>
   </footer>
 
   <!-- Filter + Digest Mode JS -->
   <script>
     (function () {
-      var FETCH_DATE = '2026-10-21';
-      var WEEK_START = 'October 14, 2026';
-      var WEEK_END = 'October 21, 2026';
-      var TOTAL_COUNT = 28;
+      var FETCH_DATE = '2026-10-22';
+      var WEEK_START = 'October 15, 2026';
+      var WEEK_END = 'October 22, 2026';
+      var TOTAL_COUNT = 27;
 
       var pills = document.querySelectorAll('.filter-pill');
       var cards = document.querySelectorAll('.paper-card');
