@@ -5,11 +5,51 @@
     "organization": "Anthropic",
     "abstract": "We red-team production blocking monitors (Auto Mode in Claude Code, Guardian in OpenAI’s Codex) with an adversarial agent in an experimental setting with the objective of improving the safety of coding agents. Our most effective attack strategies bypass the monitor using agent-generated prompt injection against the monitor, multi-agent attacks, or malicious compaction. We attempt to improve the robustness of auto-mode by improving tool coverage, transcript formatting and using an agentic monitor stage. We find that robustly preventing multi-context attacks at an acceptable cost remains an open problem.",
     "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode/",
-    "published_date": "2026-10-23T00:00:00+00:00",
+    "published_date": "2026-10-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-10-23T14:06:11.364160+00:00",
+    "fetched_at": "2026-10-24T13:08:55.761870+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
+    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
+    "published_date": "2026-10-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-10-24T13:09:00.585311+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Amazon’s Trainium Takes a Strike at the Training King",
+    "authors": [
+      "Kimbo Chen"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Trainium Best for Inference? But now good for Training too, Native Trainium PyTorch, High Quality CI, TorchTitan, GPU Impossible Profiler",
+    "url": "https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at",
+    "published_date": "2026-10-23T19:06:44+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-10-24T13:08:53.091473+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“Simulated Control Evaluations” by Jeffrey Olmo, Tyler",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "We’ve released a paper on simulated control evaluations (SCEs). They’re a method for testing whether the monitors AI developers use to oversee their agents would catch a model deliberately trying to cause harm, under conditions much closer to real deployment than current tests allow. Developers have started running monitors in their agentic deployments: models that flag or block an agent's actions when they look dangerous. To know whether a monitor is good enough, you want to know how often it would stop a model that was actively trying to do something harmful, such as quietly inserting a security vulnerability, exfiltrating credentials, or sabotaging an experiment. The standard way to measure this is a control evaluation: instruct a model to attempt such attacks, and measure how often the monitor catches it before an attack succeeds.",
+    "url": "https://blog.redwoodresearch.org/p/simulated-control-evaluations",
+    "published_date": "2026-10-23T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-10-24T13:08:50.158748+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Investigating alignment failures in AISI’s incident",
@@ -20,20 +60,8 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-23T14:06:14.822057+00:00",
+    "fetched_at": "2026-10-24T13:08:59.115256+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
-    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
-    "published_date": "2026-10-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-10-23T14:06:16.398995+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Monitorability evaluations and policy proposals",
@@ -46,7 +74,7 @@
     "published_date": "2026-10-22T14:01:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-23T14:06:06.635136+00:00",
+    "fetched_at": "2026-10-24T13:08:50.611756+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +88,7 @@
     "published_date": "2026-10-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-23T14:06:08.207238+00:00",
+    "fetched_at": "2026-10-24T13:08:52.345084+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +102,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-23T14:06:06.152207+00:00",
+    "fetched_at": "2026-10-24T13:08:50.158790+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +114,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-23T14:06:15.786251+00:00",
+    "fetched_at": "2026-10-24T13:09:00.072636+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +128,7 @@
     "published_date": "2026-10-21T17:53:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-23T14:06:06.635168+00:00",
+    "fetched_at": "2026-10-24T13:08:50.611788+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +142,7 @@
     "published_date": "2026-10-21T17:34:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-23T14:06:08.869688+00:00",
+    "fetched_at": "2026-10-24T13:08:53.091498+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +156,7 @@
     "published_date": "2026-10-21T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-23T14:06:04.745255+00:00",
+    "fetched_at": "2026-10-24T13:08:48.271509+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +170,7 @@
     "published_date": "2026-10-21T15:20:40.914000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-23T14:06:20.328130+00:00",
+    "fetched_at": "2026-10-24T13:09:04.722106+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +182,7 @@
     "published_date": "2026-10-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-23T14:06:15.786387+00:00",
+    "fetched_at": "2026-10-24T13:09:00.072787+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +196,7 @@
     "published_date": "2026-10-20T16:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-10-23T14:06:05.595013+00:00",
+    "fetched_at": "2026-10-24T13:08:49.119742+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +210,7 @@
     "published_date": "2026-10-20T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-23T14:06:04.745270+00:00",
+    "fetched_at": "2026-10-24T13:08:48.271529+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +224,7 @@
     "published_date": "2026-10-20T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-23T14:06:08.207495+00:00",
+    "fetched_at": "2026-10-24T13:08:52.345349+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +238,7 @@
     "published_date": "2026-10-19T19:45:59.135000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-23T14:06:20.328112+00:00",
+    "fetched_at": "2026-10-24T13:09:04.722092+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +252,7 @@
     "published_date": "2026-10-19T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-23T14:06:05.414705+00:00",
+    "fetched_at": "2026-10-24T13:08:48.976524+00:00",
     "date_precision": "day"
   },
   {
@@ -238,7 +266,7 @@
     "published_date": "2026-10-19T05:39:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-23T14:06:08.869708+00:00",
+    "fetched_at": "2026-10-24T13:08:53.091515+00:00",
     "date_precision": "day"
   },
   {
@@ -250,7 +278,7 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-23T14:06:15.786519+00:00",
+    "fetched_at": "2026-10-24T13:09:00.072933+00:00",
     "date_precision": "day"
   },
   {
@@ -262,7 +290,7 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-10-23T14:06:18.421613+00:00",
+    "fetched_at": "2026-10-24T13:09:02.462257+00:00",
     "date_precision": "day"
   },
   {
@@ -276,7 +304,7 @@
     "published_date": "2026-10-18T12:18:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-23T14:06:06.635380+00:00",
+    "fetched_at": "2026-10-24T13:08:50.612009+00:00",
     "date_precision": "day"
   },
   {
@@ -290,7 +318,7 @@
     "published_date": "2026-10-17T23:08:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-23T14:06:06.636135+00:00",
+    "fetched_at": "2026-10-24T13:08:50.612747+00:00",
     "date_precision": "day"
   },
   {
@@ -304,49 +332,7 @@
     "published_date": "2026-10-17T01:17:47.479000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-23T14:06:20.328097+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Beauty of Something Grown",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "Imagine an eye unruled by man-made laws of perspective, an eye unprejudiced by compositional logic, an eye which does not respond to the name of everything but which must know each object encountered in life through an adventure of perception.Stan Brakhage, Metaphors on Vision",
-    "url": "https://www.hyperdimensional.co/p/the-beauty-of-something-grown",
-    "published_date": "2026-10-16T15:06:01+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-10-23T14:06:09.106861+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "A Simpler and Better Debate Protocol for Scalable Oversight",
-    "authors": [
-      "Zhiyang Xun"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Linkpost to arXiv: https://arxiv.org/abs/2610.02557 Summary: One promising approach to scalable oversight is AI debate , which seeks to leverage a debate between two powerful AIs to break complex questions down into simpler claims that can be easily judged directly. Theoretical work on debate aims to design protocols (i.e., rules of the debate game) that provide rigorous guarantees on correctness, and the current best protocol works for all problems that have sufficiently stable decompositions into subproblems. We design a new protocol, FBS Debate, for this same class of problems that improves on the prior work: correctness holds in a worst-case rather than an average-case sense, and for a stronger equilibrium concept. We also prove that no protocol for this class of problems can outperform FBS Debate while treating human judgment as a black box.",
-    "url": "https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
-    "published_date": "2026-10-16T02:48:27+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-23T14:06:06.636213+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“Screwtape: Adversarial Transcript Editing for Monitor Red-Teaming” by Gosha Kozhevnikov, Tyler",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Automatically finding monitor failures by editing real agent transcripts. We introduce Screwtape, a pipeline that turns agent transcripts into realistic attacks that evade action-only monitors (monitors that don’t look at the agent's chain of thought) by inserting an attack into a transcript and repeatedly refining it until a monitor no longer catches it. An LLM verifier with access to the edited transcript and an attack description checks whether the attack is realistic, is clearly harmful, and could plausibly succeed in the original environment. We ran the pipeline on Redwood staff transcripts with our own monitors based on Opus 4.8 and Gemini 3.1 Pro, and then tested the resulting attacks against a held-out monitor from a frontier developer. We ran the pipeline 252 times on 94 unique transcripts. This produced 35 attacks that evaded our monitors.",
-    "url": "https://blog.redwoodresearch.org/p/screwtape-adversarial-transcript",
-    "published_date": "2026-10-16T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-23T14:06:06.152247+00:00",
+    "fetched_at": "2026-10-24T13:09:04.722071+00:00",
     "date_precision": "day"
   }
 ]
