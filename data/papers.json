@@ -1,14 +1,28 @@
 [
   {
+    "title": "Setting the Scene (Public v1; October 25)",
+    "authors": [
+      "Chris_Leong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safety early. I expect the topics I cover in my “Setting the Scene” post to change frequently, so this is less polished than some of my other content. I emphasise to students that these posts are to be considered as bonus content —not core curriculum content—and that as such they are really just there for students who want to go deeper, before or after the course. I also provide a lot of links; this is to make it easy for students to follow up anything that catches their interest. Any feedback on how to improve these posts would be greatly appreciated.",
+    "url": "https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25",
+    "published_date": "2026-10-25T07:52:23+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-10-25T13:35:49.513803+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "We red-team production blocking monitors (Auto Mode in Claude Code, Guardian in OpenAI’s Codex) with an adversarial agent in an experimental setting with the objective of improving the safety of coding agents. Our most effective attack strategies bypass the monitor using agent-generated prompt injection against the monitor, multi-agent attacks, or malicious compaction. We attempt to improve the robustness of auto-mode by improving tool coverage, transcript formatting and using an agentic monitor stage. We find that robustly preventing multi-context attacks at an acceptable cost remains an open problem.",
     "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode/",
-    "published_date": "2026-10-24T00:00:00+00:00",
+    "published_date": "2026-10-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-10-24T13:08:55.761870+00:00",
+    "fetched_at": "2026-10-25T13:35:55.162515+00:00",
     "date_precision": "month"
   },
   {
@@ -17,10 +31,10 @@
     "organization": "GovAI",
     "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
     "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
-    "published_date": "2026-10-24T00:00:00+00:00",
+    "published_date": "2026-10-25T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-10-24T13:09:00.585311+00:00",
+    "fetched_at": "2026-10-25T13:35:59.417867+00:00",
     "date_precision": "month"
   },
   {
@@ -34,7 +48,7 @@
     "published_date": "2026-10-23T19:06:44+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-24T13:08:53.091473+00:00",
+    "fetched_at": "2026-10-25T13:35:52.007126+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +62,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-24T13:08:50.158748+00:00",
+    "fetched_at": "2026-10-25T13:35:48.907584+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +74,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-24T13:08:59.115256+00:00",
+    "fetched_at": "2026-10-25T13:35:58.418555+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +88,7 @@
     "published_date": "2026-10-22T14:01:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-24T13:08:50.611756+00:00",
+    "fetched_at": "2026-10-25T13:35:49.513885+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +102,7 @@
     "published_date": "2026-10-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-24T13:08:52.345084+00:00",
+    "fetched_at": "2026-10-25T13:35:51.274653+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +116,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-24T13:08:50.158790+00:00",
+    "fetched_at": "2026-10-25T13:35:48.907626+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +128,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-24T13:09:00.072636+00:00",
+    "fetched_at": "2026-10-25T13:35:58.972206+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +142,7 @@
     "published_date": "2026-10-21T17:53:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-24T13:08:50.611788+00:00",
+    "fetched_at": "2026-10-25T13:35:49.513912+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +156,7 @@
     "published_date": "2026-10-21T17:34:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-24T13:08:53.091498+00:00",
+    "fetched_at": "2026-10-25T13:35:52.007149+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +170,7 @@
     "published_date": "2026-10-21T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-24T13:08:48.271509+00:00",
+    "fetched_at": "2026-10-25T13:35:47.269995+00:00",
     "date_precision": "day"
   },
   {
@@ -170,7 +184,7 @@
     "published_date": "2026-10-21T15:20:40.914000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-24T13:09:04.722106+00:00",
+    "fetched_at": "2026-10-25T13:36:03.101071+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +196,7 @@
     "published_date": "2026-10-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-24T13:09:00.072787+00:00",
+    "fetched_at": "2026-10-25T13:35:58.972361+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +210,7 @@
     "published_date": "2026-10-20T16:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-10-24T13:08:49.119742+00:00",
+    "fetched_at": "2026-10-25T13:35:48.103957+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +224,7 @@
     "published_date": "2026-10-20T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-24T13:08:48.271529+00:00",
+    "fetched_at": "2026-10-25T13:35:47.270015+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +238,7 @@
     "published_date": "2026-10-20T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-24T13:08:52.345349+00:00",
+    "fetched_at": "2026-10-25T13:35:51.274917+00:00",
     "date_precision": "day"
   },
   {
@@ -238,7 +252,7 @@
     "published_date": "2026-10-19T19:45:59.135000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-24T13:09:04.722092+00:00",
+    "fetched_at": "2026-10-25T13:36:03.101066+00:00",
     "date_precision": "day"
   },
   {
@@ -252,7 +266,7 @@
     "published_date": "2026-10-19T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-24T13:08:48.976524+00:00",
+    "fetched_at": "2026-10-25T13:35:47.951884+00:00",
     "date_precision": "day"
   },
   {
@@ -266,7 +280,7 @@
     "published_date": "2026-10-19T05:39:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-24T13:08:53.091515+00:00",
+    "fetched_at": "2026-10-25T13:35:52.007166+00:00",
     "date_precision": "day"
   },
   {
@@ -278,7 +292,7 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-24T13:09:00.072933+00:00",
+    "fetched_at": "2026-10-25T13:35:58.972508+00:00",
     "date_precision": "day"
   },
   {
@@ -290,7 +304,7 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-10-24T13:09:02.462257+00:00",
+    "fetched_at": "2026-10-25T13:36:01.135482+00:00",
     "date_precision": "day"
   },
   {
@@ -304,35 +318,7 @@
     "published_date": "2026-10-18T12:18:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-24T13:08:50.612009+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Deconfusing Corrigibility",
-    "authors": [
-      "berns"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations. Introduction Despite the central place of corrigibility to theoretical AI alignment, it seems like no one can really agree about what is . Much of this confusion is due to the fact that almost every definition of corrigibility proposed thus far is deficient in one way or another. In particular, the most prevalent existing accounts of corrigibility are over-epistemicized (modeling corrigibility as arising purely from uncertainty about the AI's goal, which gives rise to issues like the problem of fully updated deference) or evaluatively-thickened (making the AI's normative priorities instrumental to its corrigibility as a result of forcing corrigibility to be a single unified goal.) Here, my intention is to clear up some of these confusions and present a new picture of corrigibility that builds...",
-    "url": "https://www.alignmentforum.org/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility",
-    "published_date": "2026-10-17T23:08:02+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-24T13:08:50.612747+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Neural networks are not already clean",
-    "authors": [
-      "leogao"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Neural networks are not already clean'. Published 2026-10-17. Authors: leogao.",
-    "url": "https://www.lesswrong.com/posts/Dkh7pXKjoNWkkxQDz/neural-networks-are-not-already-clean",
-    "published_date": "2026-10-17T01:17:47.479000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-24T13:09:04.722071+00:00",
+    "fetched_at": "2026-10-25T13:35:49.514133+00:00",
     "date_precision": "day"
   }
 ]
