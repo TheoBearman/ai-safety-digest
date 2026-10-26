@@ -1,5 +1,65 @@
 [
   {
+    "title": "Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "We red-team production blocking monitors (Auto Mode in Claude Code, Guardian in OpenAI’s Codex) with an adversarial agent in an experimental setting with the objective of improving the safety of coding agents. Our most effective attack strategies bypass the monitor using agent-generated prompt injection against the monitor, multi-agent attacks, or malicious compaction. We attempt to improve the robustness of auto-mode by improving tool coverage, transcript formatting and using an agentic monitor stage. We find that robustly preventing multi-context attacks at an acceptable cost remains an open problem.",
+    "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode/",
+    "published_date": "2026-10-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-10-26T15:54:56.023886+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Pretraining data filtering in open-weight biological models",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Blog Chem-Bio • Oct 26, 2026 We assess the strength of pretraining data filtering as a safeguard for open-weight protein models, and find it to be effective and selective, but not necessarily durable against fine-tuning.",
+    "url": "https://www.aisi.gov.uk/blog/pretraining-data-filtering-in-open-weight-biological-models",
+    "published_date": "2026-10-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-10-26T15:54:59.328558+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Can AI coding agents rebuild biological AI tools from a paper?",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Blog Chem-Bio • Oct 26, 2026 We tested whether leading coding agents can re-create published biological AI tools from limited information, and what that means for the effectiveness of managed access controls.",
+    "url": "https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper",
+    "published_date": "2026-10-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-10-26T15:54:59.329105+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "U.S.-Japan Alliance Conference: The U.S.-Japan Alliance Today and Beyond",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Expert Insights Oct 26, 2026 To better understand the state of the U.S.-Japan alliance, RAND convened a conference at the JAPAN HOUSE Los Angeles in February 2026. These proceedings contain a conference overview and a short assessment of the main themes raised by participants.",
+    "url": "https://www.rand.org/pubs/conf_proceedings/CFA2070-8.html",
+    "published_date": "2026-10-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-10-26T15:55:00.175742+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
+    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
+    "published_date": "2026-10-26T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-10-26T15:55:00.591084+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "Setting the Scene (Public v1; October 25)",
     "authors": [
       "Chris_Leong"
@@ -10,32 +70,8 @@
     "published_date": "2026-10-25T07:52:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-25T13:35:49.513803+00:00",
+    "fetched_at": "2026-10-26T15:54:50.293139+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "We red-team production blocking monitors (Auto Mode in Claude Code, Guardian in OpenAI’s Codex) with an adversarial agent in an experimental setting with the objective of improving the safety of coding agents. Our most effective attack strategies bypass the monitor using agent-generated prompt injection against the monitor, multi-agent attacks, or malicious compaction. We attempt to improve the robustness of auto-mode by improving tool coverage, transcript formatting and using an agentic monitor stage. We find that robustly preventing multi-context attacks at an acceptable cost remains an open problem.",
-    "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode/",
-    "published_date": "2026-10-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-10-25T13:35:55.162515+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
-    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
-    "published_date": "2026-10-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-10-25T13:35:59.417867+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Amazon’s Trainium Takes a Strike at the Training King",
@@ -48,7 +84,7 @@
     "published_date": "2026-10-23T19:06:44+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-25T13:35:52.007126+00:00",
+    "fetched_at": "2026-10-26T15:54:53.790836+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +98,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-25T13:35:48.907584+00:00",
+    "fetched_at": "2026-10-26T15:54:49.490806+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +110,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-25T13:35:58.418555+00:00",
+    "fetched_at": "2026-10-26T15:54:59.329622+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +124,7 @@
     "published_date": "2026-10-22T14:01:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-25T13:35:49.513885+00:00",
+    "fetched_at": "2026-10-26T15:54:50.293242+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +138,7 @@
     "published_date": "2026-10-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-25T13:35:51.274653+00:00",
+    "fetched_at": "2026-10-26T15:54:52.828416+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +152,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-25T13:35:48.907626+00:00",
+    "fetched_at": "2026-10-26T15:54:49.490887+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +164,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-25T13:35:58.972206+00:00",
+    "fetched_at": "2026-10-26T15:55:00.176015+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +178,7 @@
     "published_date": "2026-10-21T17:53:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-25T13:35:49.513912+00:00",
+    "fetched_at": "2026-10-26T15:54:50.293277+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +192,7 @@
     "published_date": "2026-10-21T17:34:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-25T13:35:52.007149+00:00",
+    "fetched_at": "2026-10-26T15:54:53.790866+00:00",
     "date_precision": "day"
   },
   {
@@ -170,7 +206,7 @@
     "published_date": "2026-10-21T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-25T13:35:47.269995+00:00",
+    "fetched_at": "2026-10-26T15:54:47.753571+00:00",
     "date_precision": "day"
   },
   {
@@ -184,7 +220,7 @@
     "published_date": "2026-10-21T15:20:40.914000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-25T13:36:03.101071+00:00",
+    "fetched_at": "2026-10-26T15:55:04.916686+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +232,7 @@
     "published_date": "2026-10-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-25T13:35:58.972361+00:00",
+    "fetched_at": "2026-10-26T15:55:00.176271+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +246,7 @@
     "published_date": "2026-10-20T16:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-10-25T13:35:48.103957+00:00",
+    "fetched_at": "2026-10-26T15:54:48.887238+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +260,7 @@
     "published_date": "2026-10-20T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-25T13:35:47.270015+00:00",
+    "fetched_at": "2026-10-26T15:54:47.753597+00:00",
     "date_precision": "day"
   },
   {
@@ -238,7 +274,7 @@
     "published_date": "2026-10-20T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-25T13:35:51.274917+00:00",
+    "fetched_at": "2026-10-26T15:54:52.828749+00:00",
     "date_precision": "day"
   },
   {
@@ -252,7 +288,7 @@
     "published_date": "2026-10-19T19:45:59.135000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-25T13:36:03.101066+00:00",
+    "fetched_at": "2026-10-26T15:55:04.916678+00:00",
     "date_precision": "day"
   },
   {
@@ -266,7 +302,7 @@
     "published_date": "2026-10-19T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-25T13:35:47.951884+00:00",
+    "fetched_at": "2026-10-26T15:54:48.608943+00:00",
     "date_precision": "day"
   },
   {
@@ -280,7 +316,7 @@
     "published_date": "2026-10-19T05:39:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-25T13:35:52.007166+00:00",
+    "fetched_at": "2026-10-26T15:54:53.790887+00:00",
     "date_precision": "day"
   },
   {
@@ -292,7 +328,7 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-25T13:35:58.972508+00:00",
+    "fetched_at": "2026-10-26T15:55:00.176495+00:00",
     "date_precision": "day"
   },
   {
@@ -304,21 +340,7 @@
     "published_date": "2026-10-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-10-25T13:36:01.135482+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
-    "authors": [
-      "Vanessa Kosoy"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "TLDR: I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine learning theory, ideas from analytic philosophy, and views that originated in the Machine Intelligence Research Institute / LessWrong. Minimal Viable Safety The Task The problem of making AI safe is underspecified if we haven't decided what the AI is supposed to do . For example, we can run any AI inside a homomorphic encryption box and never decrypt the output. This is probably perfectly safe [1] , but also perfectly useless. We can decide on an arbitrary task such as \"construct Lean proofs for given mathematical theorems\" and declare victory once we have safe AI that does it with superhuman skill [2] . However, that wouldn't address the danger.",
-    "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
-    "published_date": "2026-10-18T12:18:41+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-25T13:35:49.514133+00:00",
+    "fetched_at": "2026-10-26T15:55:03.357236+00:00",
     "date_precision": "day"
   }
 ]
