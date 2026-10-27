@@ -1,15 +1,69 @@
 [
   {
+    "title": "“A basic case for accelerating conceptual reasoning capabilities” by Emery Cooper, Caspar Oesterheld, Chi Nguyen",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Introduction In this post, we make the case that alignment and other important work require especially strong conceptual reasoning capabilities. By this, we roughly mean tasks that are similar to philosophy in that they aren’t straightforwardly verifiable, and progress relies on informal a priori reasoning and argumentation. We argue that differentially accelerating AI's conceptual reasoning capabilities is important. We also think it's neglected, and that the AI safety community currently underinvests in this area. We have ourselves pivoted from doing conceptual research directly to working mainly on differentially accelerating AI's conceptual reasoning. We have a shovel-ready agenda which can absorb more people. In a follow-up post, we will lay out at a high level how to work on this problem.",
+    "url": "https://blog.redwoodresearch.org/p/a-basic-case-for-accelerating-conceptual",
+    "published_date": "2026-10-27T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-10-27T15:10:33.554177+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "We red-team production blocking monitors (Auto Mode in Claude Code, Guardian in OpenAI’s Codex) with an adversarial agent in an experimental setting with the objective of improving the safety of coding agents. Our most effective attack strategies bypass the monitor using agent-generated prompt injection against the monitor, multi-agent attacks, or malicious compaction. We attempt to improve the robustness of auto-mode by improving tool coverage, transcript formatting and using an agentic monitor stage. We find that robustly preventing multi-context attacks at an acceptable cost remains an open problem.",
     "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode/",
-    "published_date": "2026-10-26T00:00:00+00:00",
+    "published_date": "2026-10-27T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-10-26T15:54:56.023886+00:00",
+    "fetched_at": "2026-10-27T15:10:39.460086+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
+    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
+    "published_date": "2026-10-27T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-10-27T15:10:44.914711+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Working with academic communities to build scientific understanding",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "published_date": "2026-10-26T14:30:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-10-27T15:10:32.780220+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "ChatGPT’s expanding world of work",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+    "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+    "published_date": "2026-10-26T10:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-10-27T15:10:32.780283+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Pretraining data filtering in open-weight biological models",
@@ -20,7 +74,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-26T15:54:59.328558+00:00",
+    "fetched_at": "2026-10-27T15:10:43.238405+00:00",
     "date_precision": "day"
   },
   {
@@ -32,7 +86,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-26T15:54:59.329105+00:00",
+    "fetched_at": "2026-10-27T15:10:43.238762+00:00",
     "date_precision": "day"
   },
   {
@@ -44,20 +98,8 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-26T15:55:00.175742+00:00",
+    "fetched_at": "2026-10-27T15:10:44.255890+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
-    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
-    "published_date": "2026-10-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-10-26T15:55:00.591084+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Setting the Scene (Public v1; October 25)",
@@ -70,7 +112,7 @@
     "published_date": "2026-10-25T07:52:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-26T15:54:50.293139+00:00",
+    "fetched_at": "2026-10-27T15:10:34.008290+00:00",
     "date_precision": "day"
   },
   {
@@ -84,7 +126,7 @@
     "published_date": "2026-10-23T19:06:44+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-26T15:54:53.790836+00:00",
+    "fetched_at": "2026-10-27T15:10:36.597622+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +140,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-26T15:54:49.490806+00:00",
+    "fetched_at": "2026-10-27T15:10:33.554240+00:00",
     "date_precision": "day"
   },
   {
@@ -110,7 +152,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-26T15:54:59.329622+00:00",
+    "fetched_at": "2026-10-27T15:10:43.239101+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +166,7 @@
     "published_date": "2026-10-22T14:01:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-26T15:54:50.293242+00:00",
+    "fetched_at": "2026-10-27T15:10:34.008373+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +180,7 @@
     "published_date": "2026-10-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-26T15:54:52.828416+00:00",
+    "fetched_at": "2026-10-27T15:10:35.742866+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +194,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-26T15:54:49.490887+00:00",
+    "fetched_at": "2026-10-27T15:10:33.554286+00:00",
     "date_precision": "day"
   },
   {
@@ -164,7 +206,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-26T15:55:00.176015+00:00",
+    "fetched_at": "2026-10-27T15:10:44.256085+00:00",
     "date_precision": "day"
   },
   {
@@ -178,7 +220,7 @@
     "published_date": "2026-10-21T17:53:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-26T15:54:50.293277+00:00",
+    "fetched_at": "2026-10-27T15:10:34.008401+00:00",
     "date_precision": "day"
   },
   {
@@ -192,7 +234,7 @@
     "published_date": "2026-10-21T17:34:38+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-26T15:54:53.790866+00:00",
+    "fetched_at": "2026-10-27T15:10:36.597647+00:00",
     "date_precision": "day"
   },
   {
@@ -206,7 +248,7 @@
     "published_date": "2026-10-21T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-26T15:54:47.753571+00:00",
+    "fetched_at": "2026-10-27T15:10:31.999620+00:00",
     "date_precision": "day"
   },
   {
@@ -220,7 +262,7 @@
     "published_date": "2026-10-21T15:20:40.914000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-26T15:55:04.916686+00:00",
+    "fetched_at": "2026-10-27T15:10:50.143413+00:00",
     "date_precision": "day"
   },
   {
@@ -232,7 +274,7 @@
     "published_date": "2026-10-21T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-26T15:55:00.176271+00:00",
+    "fetched_at": "2026-10-27T15:10:44.256242+00:00",
     "date_precision": "day"
   },
   {
@@ -246,7 +288,7 @@
     "published_date": "2026-10-20T16:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-10-26T15:54:48.887238+00:00",
+    "fetched_at": "2026-10-27T15:10:32.931039+00:00",
     "date_precision": "day"
   },
   {
@@ -260,7 +302,7 @@
     "published_date": "2026-10-20T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-26T15:54:47.753597+00:00",
+    "fetched_at": "2026-10-27T15:10:31.999640+00:00",
     "date_precision": "day"
   },
   {
@@ -274,73 +316,7 @@
     "published_date": "2026-10-20T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-26T15:54:52.828749+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Gradient Routing Localizes and Removes Unintended Behaviors in RL",
-    "authors": [
-      "shawnghu"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Gradient Routing Localizes and Removes Unintended Behaviors in RL'. Published 2026-10-19. Authors: shawnghu.",
-    "url": "https://www.lesswrong.com/posts/mKJEBiuuxHKuCoTB6/gradient-routing-localizes-and-removes-unintended-behaviors",
-    "published_date": "2026-10-19T19:45:59.135000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-26T15:55:04.916678+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Advancing coding in low‑resource programming languages",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-    "url": "https://openai.com/index/low-resource-programming-languages",
-    "published_date": "2026-10-19T12:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-26T15:54:48.608943+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Datacenters 2027: The Year of Acceleration, +50GW in a Single Year",
-    "authors": [
-      "Jeremie Eliahou Ontiveros"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'Datacenters 2027: The Year of Acceleration, +50GW in a Single Year'. Published 2026-10-19. Authors: Jeremie Eliahou Ontiveros.",
-    "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
-    "published_date": "2026-10-19T05:39:38+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-26T15:54:53.790887+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Incorporating Equity into Decision-Support Models: An Analytical Architecture and Application to Natural Gas Power Plant Retirement in California",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research from RAND titled 'Incorporating Equity into Decision-Support Models: An Analytical Architecture and Application to Natural Gas Power Plant Retirement in California'. Published 2026-10-19.",
-    "url": "https://www.rand.org/pubs/rgs_dissertations/RGSDA5479-1.html",
-    "published_date": "2026-10-19T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-26T15:55:00.176495+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Towards Robust Model Organisms for Eliciting Latent Knowledge",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Towards Robust Model Organisms for Eliciting Latent Knowledge A key problem in AI safety is eliciting latent knowledge (ELK), extracting information from a model that is misaligned and more knowledgeable than its overseer. For example, a misaligned model used to scan code for vulnerabilities may want to withhold its findings, i.e., sandbag, in order to exploit them later. To study ELK empirically, we need model organisms that mirror this setting. Existing model organisms fall short in several respects. In this work, we train model organisms to withhold solutions in a vulnerability detection task.",
-    "url": "https://www.matsprogram.org/research/towards-robust-model-organisms-for-eliciting-latent-knowledge",
-    "published_date": "2026-10-19T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-10-26T15:55:03.357236+00:00",
+    "fetched_at": "2026-10-27T15:10:35.743131+00:00",
     "date_precision": "day"
   }
 ]
