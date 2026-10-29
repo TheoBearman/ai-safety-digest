@@ -5,11 +5,47 @@
     "organization": "Anthropic",
     "abstract": "We red-team production blocking monitors (Auto Mode in Claude Code, Guardian in OpenAI’s Codex) with an adversarial agent in an experimental setting with the objective of improving the safety of coding agents. Our most effective attack strategies bypass the monitor using agent-generated prompt injection against the monitor, multi-agent attacks, or malicious compaction. We attempt to improve the robustness of auto-mode by improving tool coverage, transcript formatting and using an agentic monitor stage. We find that robustly preventing multi-context attacks at an acceptable cost remains an open problem.",
     "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode/",
-    "published_date": "2026-10-28T00:00:00+00:00",
+    "published_date": "2026-10-29T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-10-28T15:46:33.675587+00:00",
+    "fetched_at": "2026-10-29T15:54:37.930162+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Systematizing the Reporting of AI Red-Teaming",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Red-teaming is a widely used process for evaluating the safety and security of AI systems, but methodologies and reporting practices can vary widely across organizations. This new report draws on expertise from AI red-teaming practitioners to identify four important dimensions that should be publicly reported in order to make the results of red-teaming exercises more transparent, useful, and actionable, as well as ways policymakers and private-sector stakeholders can support a robust AI test and evaluation ecosystem.",
+    "url": "https://cset.georgetown.edu/publication/systematizing-the-reporting-of-ai-red-teaming/",
+    "published_date": "2026-10-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-10-29T15:54:42.475666+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
+    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
+    "published_date": "2026-10-29T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-10-29T15:54:42.708136+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Gemini 4 Carbon: Our next frontier model",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Gemini 4 Carbon: Our next frontier model'. Published 2026-10-28.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "published_date": "2026-10-28T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-10-29T15:54:38.535417+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Settlement and Governance Behind the AI Frontier",
@@ -20,20 +56,8 @@
     "published_date": "2026-10-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-28T15:46:38.814790+00:00",
+    "fetched_at": "2026-10-29T15:54:42.266805+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
-    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
-    "published_date": "2026-10-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-10-28T15:46:39.340766+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Notes on “We’re in Triage Mode for AI Safety” by Miles Brundage",
@@ -46,7 +70,7 @@
     "published_date": "2026-10-27T19:11:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-28T15:46:27.990572+00:00",
+    "fetched_at": "2026-10-29T15:54:33.019234+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +84,7 @@
     "published_date": "2026-10-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-28T15:46:27.263979+00:00",
+    "fetched_at": "2026-10-29T15:54:32.511839+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +98,7 @@
     "published_date": "2026-10-26T14:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-28T15:46:26.159423+00:00",
+    "fetched_at": "2026-10-29T15:54:31.699143+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +112,7 @@
     "published_date": "2026-10-26T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-28T15:46:26.159487+00:00",
+    "fetched_at": "2026-10-29T15:54:31.699183+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +124,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-28T15:46:37.892949+00:00",
+    "fetched_at": "2026-10-29T15:54:41.404347+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +136,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-28T15:46:37.893491+00:00",
+    "fetched_at": "2026-10-29T15:54:41.404620+00:00",
     "date_precision": "day"
   },
   {
@@ -124,21 +148,21 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-28T15:46:38.815030+00:00",
+    "fetched_at": "2026-10-29T15:54:42.266933+00:00",
     "date_precision": "day"
   },
   {
-    "title": "Setting the Scene (Public v1; October 25)",
+    "title": "Setting the Scene (Public v1; October 2026)",
     "authors": [
       "Chris_Leong"
     ],
     "organization": "Alignment Forum",
     "abstract": "Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safety early. I expect the topics I cover in my “Setting the Scene” post to change frequently, so this is less polished than some of my other content. I emphasise to students that these posts are to be considered as bonus content —not core curriculum content—and that as such they are really just there for students who want to go deeper, before or after the course. I also provide a lot of links; this is to make it easy for students to follow up anything that catches their interest. Any feedback on how to improve these posts would be greatly appreciated.",
-    "url": "https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25",
+    "url": "https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-2026",
     "published_date": "2026-10-25T07:52:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-28T15:46:27.990825+00:00",
+    "fetched_at": "2026-10-29T15:54:33.019358+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +176,7 @@
     "published_date": "2026-10-23T19:06:44+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-28T15:46:30.908286+00:00",
+    "fetched_at": "2026-10-29T15:54:35.119718+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +190,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-28T15:46:27.264065+00:00",
+    "fetched_at": "2026-10-29T15:54:32.511899+00:00",
     "date_precision": "day"
   },
   {
@@ -178,7 +202,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-28T15:46:37.894050+00:00",
+    "fetched_at": "2026-10-29T15:54:41.404893+00:00",
     "date_precision": "day"
   },
   {
@@ -192,7 +216,7 @@
     "published_date": "2026-10-22T14:01:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-28T15:46:27.990928+00:00",
+    "fetched_at": "2026-10-29T15:54:33.019416+00:00",
     "date_precision": "day"
   },
   {
@@ -206,7 +230,7 @@
     "published_date": "2026-10-22T07:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-28T15:46:29.934734+00:00",
+    "fetched_at": "2026-10-29T15:54:34.412187+00:00",
     "date_precision": "day"
   },
   {
@@ -220,7 +244,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-28T15:46:27.264112+00:00",
+    "fetched_at": "2026-10-29T15:54:32.511926+00:00",
     "date_precision": "day"
   },
   {
@@ -232,75 +256,7 @@
     "published_date": "2026-10-22T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-28T15:46:38.815312+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Neural nets are exceptionally vulnerable to goal self-hack",
-    "authors": [
-      "Stuart_Armstrong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Suppose we have an AI CEO, ruthlessly devoted to maximising shareholder value. Fortunately, we haven't been completely stupid, and have given it a rich definition of shareholder value, encompassing the success, flourishing, safety, preference satisfaction, and moral values of the shareholders, not just the stock price. So it won't destroy the company - or the world - to build a giant stock-ticker with a swiftly increasing number on it. This rich definition is contained in a sophisticated LLM, able to analyse the current situation and answer any question about the objective. The LLM is an integral part of the AI's system and motivation, not something it can simply set aside or hack directly. Unfortunately, as discussed , there are going to be zones in the space of possible situations where the LLM's understanding of the goal is going to come apart from ours.",
-    "url": "https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
-    "published_date": "2026-10-21T17:53:01+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-28T15:46:27.990963+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Huawei-DeepSeek Symbiosis",
-    "authors": [
-      "Bryan Shan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Research from SemiAnalysis titled 'The Huawei-DeepSeek Symbiosis'. Published 2026-10-21. Authors: Bryan Shan.",
-    "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
-    "published_date": "2026-10-21T17:34:38+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-28T15:46:30.908318+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
-    "authors": [
-      "Xinzhi Zhang"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "For decades, a fundamental question about the difficulty of computing in high-dimensional spaces has resisted proof. New research resolves this question, removing a major theoretical obstacle to understanding the efficiency of randomized algorithms used across science and computing. The Kannan–Lovász–Simonovits (KLS) conjecture was proposed in 1995. It asks whether, for a broad class of high-dimensional [&#8230;] The post Solving a 31-year-old grand challenge in mathematics – the KLS conjecture appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
-    "published_date": "2026-10-21T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-28T15:46:24.955945+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Why I’m becoming a professor in AI safety in Beijing",
-    "authors": [
-      "Buddenbroke"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Why I’m becoming a professor in AI safety in Beijing'. Published 2026-10-21. Authors: Buddenbroke.",
-    "url": "https://www.lesswrong.com/posts/qGS3SJ9TSKdSSycRz/why-i-m-becoming-a-professor-in-ai-safety-in-beijing",
-    "published_date": "2026-10-21T15:20:40.914000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-28T15:46:43.505595+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Making Medical AI Benchmarks Clinically Interpretable: The Case of Mental Health",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Oct 21, 2026 This perspective examines how aggregate scores on medical AI benchmarks like HealthBench can mask variation across clinical domains. It argues for domain-specific reporting, using mental health as a test case.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71489.html",
-    "published_date": "2026-10-21T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-28T15:46:38.815543+00:00",
+    "fetched_at": "2026-10-29T15:54:42.267081+00:00",
     "date_precision": "day"
   }
 ]
