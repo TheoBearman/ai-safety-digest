@@ -1,14 +1,52 @@
 [
   {
+    "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+    "authors": [
+      "Somya Chatterjee, Harshita Sahijwani, Min Chen, Sushmitha Rajeswari Muppa, Dayquan Julienne, Irene Shaffer, Chandra Inguva, Jenny Chen, Minha Hwang, Sam Ade Jacobs"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+    "published_date": "2026-10-30T13:05:28+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-10-30T15:38:27.711463+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "We red-team production blocking monitors (Auto Mode in Claude Code, Guardian in OpenAI’s Codex) with an adversarial agent in an experimental setting with the objective of improving the safety of coding agents. Our most effective attack strategies bypass the monitor using agent-generated prompt injection against the monitor, multi-agent attacks, or malicious compaction. We attempt to improve the robustness of auto-mode by improving tool coverage, transcript formatting and using an agentic monitor stage. We find that robustly preventing multi-context attacks at an acceptable cost remains an open problem.",
     "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode/",
-    "published_date": "2026-10-29T00:00:00+00:00",
+    "published_date": "2026-10-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-10-29T15:54:37.930162+00:00",
+    "fetched_at": "2026-10-30T15:38:35.368084+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Development, Validation and AI Chatbot Evaluation of the Adolescent Mental Health AI Response Tool",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Oct 30, 2026 The authors developed and validated a clinician-informed tool for auditing AI chatbot responses to adolescent mental health disclosures and used it to compare four major chatbots, finding better coverage of guideline-informed content for anxiety than depression and for moderate than severe presentations.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71522.html",
+    "published_date": "2026-10-30T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-10-30T15:38:39.771411+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
+    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
+    "published_date": "2026-10-30T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-10-30T15:38:40.297207+00:00",
     "date_precision": "month"
   },
   {
@@ -17,23 +55,11 @@
     "organization": "CSET",
     "abstract": "Red-teaming is a widely used process for evaluating the safety and security of AI systems, but methodologies and reporting practices can vary widely across organizations. This new report draws on expertise from AI red-teaming practitioners to identify four important dimensions that should be publicly reported in order to make the results of red-teaming exercises more transparent, useful, and actionable, as well as ways policymakers and private-sector stakeholders can support a robust AI test and evaluation ecosystem.",
     "url": "https://cset.georgetown.edu/publication/systematizing-the-reporting-of-ai-red-teaming/",
-    "published_date": "2026-10-29T00:00:00+00:00",
+    "published_date": "2026-10-29T05:01:09+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-10-29T15:54:42.475666+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
-    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
-    "published_date": "2026-10-29T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-10-29T15:54:42.708136+00:00",
-    "date_precision": "month"
+    "fetched_at": "2026-10-30T15:38:40.063728+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Gemini 4 Carbon: Our next frontier model",
@@ -44,7 +70,7 @@
     "published_date": "2026-10-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-10-29T15:54:38.535417+00:00",
+    "fetched_at": "2026-10-30T15:38:36.000728+00:00",
     "date_precision": "day"
   },
   {
@@ -56,7 +82,7 @@
     "published_date": "2026-10-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-29T15:54:42.266805+00:00",
+    "fetched_at": "2026-10-30T15:38:39.771579+00:00",
     "date_precision": "day"
   },
   {
@@ -70,7 +96,7 @@
     "published_date": "2026-10-27T19:11:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-29T15:54:33.019234+00:00",
+    "fetched_at": "2026-10-30T15:38:30.036137+00:00",
     "date_precision": "day"
   },
   {
@@ -84,7 +110,7 @@
     "published_date": "2026-10-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-29T15:54:32.511839+00:00",
+    "fetched_at": "2026-10-30T15:38:29.445179+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +124,7 @@
     "published_date": "2026-10-26T14:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-29T15:54:31.699143+00:00",
+    "fetched_at": "2026-10-30T15:38:28.647571+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +138,7 @@
     "published_date": "2026-10-26T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-29T15:54:31.699183+00:00",
+    "fetched_at": "2026-10-30T15:38:28.647611+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +150,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-29T15:54:41.404347+00:00",
+    "fetched_at": "2026-10-30T15:38:39.117366+00:00",
     "date_precision": "day"
   },
   {
@@ -136,7 +162,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-29T15:54:41.404620+00:00",
+    "fetched_at": "2026-10-30T15:38:39.117638+00:00",
     "date_precision": "day"
   },
   {
@@ -148,7 +174,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-29T15:54:42.266933+00:00",
+    "fetched_at": "2026-10-30T15:38:39.771691+00:00",
     "date_precision": "day"
   },
   {
@@ -162,7 +188,7 @@
     "published_date": "2026-10-25T07:52:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-29T15:54:33.019358+00:00",
+    "fetched_at": "2026-10-30T15:38:30.036263+00:00",
     "date_precision": "day"
   },
   {
@@ -176,7 +202,7 @@
     "published_date": "2026-10-23T19:06:44+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-10-29T15:54:35.119718+00:00",
+    "fetched_at": "2026-10-30T15:38:32.187184+00:00",
     "date_precision": "day"
   },
   {
@@ -190,7 +216,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-29T15:54:32.511899+00:00",
+    "fetched_at": "2026-10-30T15:38:29.445229+00:00",
     "date_precision": "day"
   },
   {
@@ -202,61 +228,7 @@
     "published_date": "2026-10-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-29T15:54:41.404893+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Monitorability evaluations and policy proposals",
-    "authors": [
-      "evhub"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "There has been a lot of discussion recently of policy proposals around monitorability, such as Redwood's proposal and my counter-proposal . I'd like to say a bit more generally about how I'm thinking about monitorability. Note that nothing here is an official Anthropic position; these are just my personal thoughts. First, a categorization. I currently think about four different types of monitorability: Control Monitorability: the extent to which Control and monitoring techniques would likely catch catastrophic sabotage actions, like escaping a sandbox or setting up a rogue internal deployment. We can measure this via reference to sabotage evaluations like LinuxArena or any evaluation that measures the model’s capability to take dangerous actions like escaping a sandbox while looking to a monitor like it's doing some innocuous task (like a cyber eval).",
-    "url": "https://www.alignmentforum.org/posts/zAczYuHQS6jdG5DTg/monitorability-evaluations-and-policy-proposals",
-    "published_date": "2026-10-22T14:01:40+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-29T15:54:33.019416+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "For three weeks, from July 21st to August 11th, a METR employee and a Redwood Research employee conducted a pilot high-access exercise to stress-test OpenAI’s internal misalignment monitoring system. 1 The output of this exercise was a 61-page internal report that was shared with OpenAI researchers and security staff, 2 primarily focused on estimating the fraction of agentic inference that is monitored, and whether agents could in principle disable or subvert the monitoring system. The exercise focused on the internal misalignment monitoring system as it existed on and before July 21st, and did not evaluate changes that were in progress at the time of the exercise. This exercise involved a deep level of access.",
-    "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
-    "published_date": "2026-10-22T07:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-10-29T15:54:34.412187+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“Red-Teaming OpenAI’s Internal Agent Monitoring Systems” by Buck Shlegeris",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "[Also posted on the METR blog] For three weeks, from July 21st to August 11th, a METR employee and a Redwood Research employee conducted a pilot high-access exercise to stress-test OpenAI's internal misalignment monitoring system. The output of this exercise was a 61-page internal report that was shared with OpenAI researchers and security staff, primarily focused on estimating the fraction of agentic inference that is monitored, and whether agents could in principle disable or subvert the monitoring system. The exercise focused on the internal misalignment monitoring system as it existed on and before July 21st, and did not evaluate changes that were in progress at the time of the exercise. This exercise involved a deep level of access.",
-    "url": "https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent",
-    "published_date": "2026-10-22T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-29T15:54:32.511926+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Biosecurity in the AI Era",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Podcast Oct 22, 2026 Duration38:03 RAND's Steph Guerra breaks down a layered defense strategy to mitigate the risks of AI-enabled bioweapons while preserving open science.",
-    "url": "https://www.rand.org/pubs/podcasts/policy-minded/2026/biosecurity-in-the-ai-era.html",
-    "published_date": "2026-10-22T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-29T15:54:42.267081+00:00",
+    "fetched_at": "2026-10-30T15:38:39.117891+00:00",
     "date_precision": "day"
   }
 ]
