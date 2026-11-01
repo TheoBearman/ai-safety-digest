@@ -1,27 +1,17 @@
 [
   {
-    "title": "Automated Subtle Emergent Misalignment Research",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "Red-teaming by humans is a vital part of model safety testing, but it may struggle to keep up as models improve. To test whether automated safety techniques could scale (which would allow us to turn more compute into progressively more safety confidence), we set up a deliberately one-sided game as a first test. We instructed a Claude model to write training data that would make a small research model misaligned while passing a monitor similar to those we use in production — one of several defenses we use — and we gave it that monitor to practice against. Given enough attempts, it succeeded, mostly by hiding the behavior in fiction and roleplay. While the data was optimized for this game and the resulting models never deployed, the search surfaced a kind of training data that looks harmless to monitors but teaches misaligned behavior.",
-    "url": "https://alignment.anthropic.com/2026/automated-em-search/",
-    "published_date": "2026-10-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-10-31T15:08:15.607824+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "Managing Biological Risks from General-Purpose AI Models under the EU AI Act",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access. The US military faces organizational, technical, and operational barriers to adopting AI at scale.",
-    "url": "https://www.governance.ai/research-paper/managing-biological-risks-from-general-purpose-ai-models-under-the-eu-ai-act",
-    "published_date": "2026-10-31T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-10-31T15:08:20.150357+00:00",
-    "date_precision": "month"
+    "title": "Explaining “AI might obliterate you” to senior policymakers in India",
+    "authors": [
+      "TurnTrout"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I gave a 20-minute talk in Delhi at the NDTV World Summit . The audience consisted of Indian policymakers, executives, and journalists. I’ve transcribed the talk and included some highlight clips. I also reflect on several rhetorical decisions I made. The talk This summer, a swarm of AIs went rogue. OpenAI was testing 1,206 agents . Some of the test questions were actually impossible. So the agents cheated by looking for answers online. Then, to keep the test grader from penalizing them, they tried to falsify the records it would check . They hacked OpenAI’s internal containment and set up a secret message board to collude and to cover up their cheating. OpenAI shut the message board down. Within a few days, the agents had rebuilt it. OpenAI didn’t notice.",
+    "url": "https://www.alignmentforum.org/posts/RHxaRkarGp9snWoKY/explaining-ai-might-obliterate-you-to-senior-policymakers-in",
+    "published_date": "2026-10-31T21:37:22+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-01T15:51:31.233223+00:00",
+    "date_precision": "day"
   },
   {
     "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
@@ -34,7 +24,7 @@
     "published_date": "2026-10-30T13:05:28+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-10-31T15:08:06.619567+00:00",
+    "fetched_at": "2026-11-01T15:51:28.810431+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +38,7 @@
     "published_date": "2026-10-30T06:07:39.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-10-31T15:08:23.769959+00:00",
+    "fetched_at": "2026-11-01T15:51:43.062310+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +50,7 @@
     "published_date": "2026-10-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-31T15:08:19.739746+00:00",
+    "fetched_at": "2026-11-01T15:51:39.776055+00:00",
     "date_precision": "day"
   },
   {
@@ -74,31 +64,7 @@
     "published_date": "2026-10-29T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-10-31T15:08:08.021852+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Systematizing the Reporting of AI Red-Teaming",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Red-teaming is a widely used process for evaluating the safety and security of AI systems, but methodologies and reporting practices can vary widely across organizations. This new report draws on expertise from AI red-teaming practitioners to identify four important dimensions that should be publicly reported in order to make the results of red-teaming exercises more transparent, useful, and actionable, as well as ways policymakers and private-sector stakeholders can support a robust AI test and evaluation ecosystem.",
-    "url": "https://cset.georgetown.edu/publication/systematizing-the-reporting-of-ai-red-teaming/",
-    "published_date": "2026-10-29T05:01:09+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-10-31T15:08:19.916505+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Gemini 4 Carbon: Our next frontier model",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemini 4 Carbon: Our next frontier model'. Published 2026-10-28.",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "published_date": "2026-10-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-10-31T15:08:16.121904+00:00",
+    "fetched_at": "2026-11-01T15:51:29.848267+00:00",
     "date_precision": "day"
   },
   {
@@ -110,7 +76,7 @@
     "published_date": "2026-10-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-31T15:08:19.740079+00:00",
+    "fetched_at": "2026-11-01T15:51:39.776378+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +90,7 @@
     "published_date": "2026-10-27T19:11:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-31T15:08:09.395405+00:00",
+    "fetched_at": "2026-11-01T15:51:31.233347+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +104,7 @@
     "published_date": "2026-10-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-10-31T15:08:08.725237+00:00",
+    "fetched_at": "2026-11-01T15:51:30.584502+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +118,7 @@
     "published_date": "2026-10-26T14:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-31T15:08:07.650152+00:00",
+    "fetched_at": "2026-11-01T15:51:29.701516+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +132,7 @@
     "published_date": "2026-10-26T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-10-31T15:08:07.650240+00:00",
+    "fetched_at": "2026-11-01T15:51:29.701578+00:00",
     "date_precision": "day"
   },
   {
@@ -178,7 +144,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-31T15:08:19.183822+00:00",
+    "fetched_at": "2026-11-01T15:51:38.928248+00:00",
     "date_precision": "day"
   },
   {
@@ -190,7 +156,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-10-31T15:08:19.184381+00:00",
+    "fetched_at": "2026-11-01T15:51:38.928803+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +168,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-10-31T15:08:19.740339+00:00",
+    "fetched_at": "2026-11-01T15:51:39.776630+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +182,7 @@
     "published_date": "2026-10-25T07:52:23+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-10-31T15:08:09.395642+00:00",
+    "fetched_at": "2026-11-01T15:51:31.233607+00:00",
     "date_precision": "day"
   }
 ]
