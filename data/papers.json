@@ -1,5 +1,87 @@
 [
   {
+    "title": "Training activation classifiers for safety and alignment",
+    "authors": [
+      "Alex Makelov, Xiaojun Xu, Sundaram Ananthanarayanan, Ethan Mcdonald, Tom Dupre la Tour"
+    ],
+    "organization": "OpenAI",
+    "abstract": "We show how we train and deploy efficient monitors that use a model’s internal activity to help detect and interrupt policy-violating behavior in real time.",
+    "url": "https://alignment.openai.com/training-activation-classifiers/",
+    "published_date": "2026-11-02T20:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-11-02T19:15:01.869331+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Additional Course Context (for AI Safety Fundamentals; unofficial)",
+    "authors": [
+      "Chris_Leong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Context: I created this to share before the start of courses I facilitate to provide a bunch of additional context and frames. I emphasise to students that these posts are to be considered as bonus content —not core curriculum content—and that as such they are really just there for students who want to go deeper, before or after the course. I also provide a lot of links; this is to make it easy for students to follow up anything that catches their interest. Some general thoughts on advice I suspect that most advice (including most of the advice I’ve given in the past) is bad. People have very different goals, personalities, skills and opportunities and unless you know someone them really well, it’s hard to cater advice to their circumstances. What one person needs to hear, may be the absolute worst thing for another.",
+    "url": "https://www.alignmentforum.org/posts/6qDn6H5XG5Hc6BJFe/additional-course-context-for-ai-safety-fundamentals",
+    "published_date": "2026-11-02T15:02:41+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-02T19:15:03.023949+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Some “coherence arguments” are two different things in a trenchcoat",
+    "authors": [
+      "Steven Byrnes"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "The “two kids in a trenchcoat” trope , in case you haven’t heard of it. Image sources: 1 , 2 tl;dr I go through three “coherence arguments”, related to (1) market competition, (2) AI self-reflection and self-modification, and (3) AI training algorithms. I argue that each of these implies a pressure for (something like) “being self-consistent”, and also a pressure for (something like) “only caring about long-term eventual outcomes, with ruthless indifference to anything else”. But the latter pressure tends to be weaker and/or more contingent than the former. So it's bad to lump them together and call them by the same name. 1.",
+    "url": "https://www.alignmentforum.org/posts/5a4tuSNDNodPsiS26/some-coherence-arguments-are-two-different-things-in-a",
+    "published_date": "2026-11-02T14:13:16+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-02T19:15:03.024177+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "LifeVal",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+    "url": "https://openai.com/index/lifeval",
+    "published_date": "2026-11-02T09:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-11-02T19:15:01.796387+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains",
+    "authors": [
+      "Max Kan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "A frontier benchmark spanning RSI, hardware design, cyber, bio, finance, legal, quant trading, chip design, software engineering, materials science, and alignment",
+    "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities",
+    "published_date": "2026-11-02T01:51:42+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-11-02T19:15:06.153817+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Violet Teaming in Practice",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Violet teaming has been proposed as a method to integrate technical, policy, and societal considerations into the evaluation of emerging technologies.",
+    "url": "https://cset.georgetown.edu/publication/violet-teaming-in-practice/",
+    "published_date": "2026-11-02T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-02T19:15:12.725870+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Explaining “AI might obliterate you” to senior policymakers in India",
     "authors": [
       "TurnTrout"
@@ -10,7 +92,7 @@
     "published_date": "2026-10-31T21:37:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-01T15:51:31.233223+00:00",
+    "fetched_at": "2026-11-02T19:15:03.024397+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +106,7 @@
     "published_date": "2026-10-30T13:05:28+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-01T15:51:28.810431+00:00",
+    "fetched_at": "2026-11-02T19:15:00.784099+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +120,7 @@
     "published_date": "2026-10-30T06:07:39.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-01T15:51:43.062310+00:00",
+    "fetched_at": "2026-11-02T19:15:18.325608+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +132,7 @@
     "published_date": "2026-10-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-01T15:51:39.776055+00:00",
+    "fetched_at": "2026-11-02T19:15:12.563324+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +146,7 @@
     "published_date": "2026-10-29T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-01T15:51:29.848267+00:00",
+    "fetched_at": "2026-11-02T19:15:01.869360+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +158,7 @@
     "published_date": "2026-10-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-01T15:51:39.776378+00:00",
+    "fetched_at": "2026-11-02T19:15:12.563671+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +172,7 @@
     "published_date": "2026-10-27T19:11:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-01T15:51:31.233347+00:00",
+    "fetched_at": "2026-11-02T19:15:03.024514+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +186,7 @@
     "published_date": "2026-10-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-01T15:51:30.584502+00:00",
+    "fetched_at": "2026-11-02T19:15:02.413480+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +200,7 @@
     "published_date": "2026-10-26T14:30:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-01T15:51:29.701516+00:00",
+    "fetched_at": "2026-11-02T19:15:01.796828+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +214,7 @@
     "published_date": "2026-10-26T10:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-01T15:51:29.701578+00:00",
+    "fetched_at": "2026-11-02T19:15:01.796887+00:00",
     "date_precision": "day"
   },
   {
@@ -144,7 +226,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-11-01T15:51:38.928248+00:00",
+    "fetched_at": "2026-11-02T19:15:11.872655+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +238,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-11-01T15:51:38.928803+00:00",
+    "fetched_at": "2026-11-02T19:15:11.873227+00:00",
     "date_precision": "day"
   },
   {
@@ -168,21 +250,7 @@
     "published_date": "2026-10-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-01T15:51:39.776630+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Setting the Scene (Public v1; October 2026)",
-    "authors": [
-      "Chris_Leong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safety early. I expect the topics I cover in my “Setting the Scene” post to change frequently, so this is less polished than some of my other content. I emphasise to students that these posts are to be considered as bonus content —not core curriculum content—and that as such they are really just there for students who want to go deeper, before or after the course. I also provide a lot of links; this is to make it easy for students to follow up anything that catches their interest. Any feedback on how to improve these posts would be greatly appreciated.",
-    "url": "https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-2026",
-    "published_date": "2026-10-25T07:52:23+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-01T15:51:31.233607+00:00",
+    "fetched_at": "2026-11-02T19:15:12.563953+00:00",
     "date_precision": "day"
   }
 ]
