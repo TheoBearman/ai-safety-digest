@@ -10,7 +10,7 @@
     "published_date": "2026-11-02T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-02T19:15:01.869331+00:00",
+    "fetched_at": "2026-11-03T16:51:40.049037+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +24,7 @@
     "published_date": "2026-11-02T15:02:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-02T19:15:03.023949+00:00",
+    "fetched_at": "2026-11-03T16:51:41.337232+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +38,7 @@
     "published_date": "2026-11-02T14:13:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-02T19:15:03.024177+00:00",
+    "fetched_at": "2026-11-03T16:51:41.337461+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +52,7 @@
     "published_date": "2026-11-02T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-02T19:15:01.796387+00:00",
+    "fetched_at": "2026-11-03T16:51:39.605617+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +66,21 @@
     "published_date": "2026-11-02T01:51:42+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-02T19:15:06.153817+00:00",
+    "fetched_at": "2026-11-03T16:51:44.758567+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“Towards understanding score-seeking in LLMs” by Alex Mallen, Aghyad Deeb, Ryan Greenblatt",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: Models including GPT-5.6 Sol appear to reward-hack because this increases their score; and recent models also care about increasing the score of their peer agents. The field of AI alignment understands surprisingly little about the details of AIs’ current misaligned motivations. Production LLMs sometimes reward-hack, exploiting flaws in how tasks are scored rather than performing the tasks as intended, and we’ve recently seen AIs reward-hack in some particularly egregious ways. But we don’t really understand what motivates them. When AIs reward-hack, what are they trying to achieve? Our new paper, led by Aghyad Deeb, tries to pin this down empirically for GPT-5.6 Sol, GPT-5.5, and a checkpoint of OpenAI o3 (“exp-rl-cap-late”) without safety training, in a handful of agentic environments with an exposed grader. In our environments, these models appear to reward-hack because reward-hacking improves their score. We call their desire to score well according to graders “score-seeking”.",
+    "url": "https://blog.redwoodresearch.org/p/towards-understanding-score-seeking",
+    "published_date": "2026-11-02T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-11-03T16:51:40.645526+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +92,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-02T19:15:12.725870+00:00",
+    "fetched_at": "2026-11-03T16:51:50.541182+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +106,7 @@
     "published_date": "2026-10-31T21:37:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-02T19:15:03.024397+00:00",
+    "fetched_at": "2026-11-03T16:51:41.337679+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +120,7 @@
     "published_date": "2026-10-30T13:05:28+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-02T19:15:00.784099+00:00",
+    "fetched_at": "2026-11-03T16:51:38.717787+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +134,7 @@
     "published_date": "2026-10-30T06:07:39.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-02T19:15:18.325608+00:00",
+    "fetched_at": "2026-11-03T16:51:58.114498+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +146,7 @@
     "published_date": "2026-10-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-02T19:15:12.563324+00:00",
+    "fetched_at": "2026-11-03T16:51:50.272310+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +160,7 @@
     "published_date": "2026-10-29T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-02T19:15:01.869360+00:00",
+    "fetched_at": "2026-11-03T16:51:40.049065+00:00",
     "date_precision": "day"
   },
   {
@@ -158,7 +172,7 @@
     "published_date": "2026-10-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-02T19:15:12.563671+00:00",
+    "fetched_at": "2026-11-03T16:51:50.272639+00:00",
     "date_precision": "day"
   },
   {
@@ -172,7 +186,7 @@
     "published_date": "2026-10-27T19:11:32+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-02T19:15:03.024514+00:00",
+    "fetched_at": "2026-11-03T16:51:41.337796+00:00",
     "date_precision": "day"
   },
   {
@@ -186,71 +200,7 @@
     "published_date": "2026-10-27T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-02T19:15:02.413480+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Working with academic communities to build scientific understanding",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-    "published_date": "2026-10-26T14:30:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-02T19:15:01.796828+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "ChatGPT’s expanding world of work",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-    "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-    "published_date": "2026-10-26T10:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-02T19:15:01.796887+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Pretraining data filtering in open-weight biological models",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Blog Chem-Bio • Oct 26, 2026 We assess the strength of pretraining data filtering as a safeguard for open-weight protein models, and find it to be effective and selective, but not necessarily durable against fine-tuning.",
-    "url": "https://www.aisi.gov.uk/blog/pretraining-data-filtering-in-open-weight-biological-models",
-    "published_date": "2026-10-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-11-02T19:15:11.872655+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Can AI coding agents rebuild biological AI tools from a paper?",
-    "authors": [],
-    "organization": "UK AISI",
-    "abstract": "Blog Chem-Bio • Oct 26, 2026 We tested whether leading coding agents can re-create published biological AI tools from limited information, and what that means for the effectiveness of managed access controls.",
-    "url": "https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper",
-    "published_date": "2026-10-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-11-02T19:15:11.873227+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "U.S.-Japan Alliance Conference: The U.S.-Japan Alliance Today and Beyond",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Oct 26, 2026 To better understand the state of the U.S.-Japan alliance, RAND convened a conference at the JAPAN HOUSE Los Angeles in February 2026. These proceedings contain a conference overview and a short assessment of the main themes raised by participants.",
-    "url": "https://www.rand.org/pubs/conf_proceedings/CFA2070-8.html",
-    "published_date": "2026-10-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-02T19:15:12.563953+00:00",
+    "fetched_at": "2026-11-03T16:51:40.645605+00:00",
     "date_precision": "day"
   }
 ]
