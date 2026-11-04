@@ -1,5 +1,89 @@
 [
   {
+    "title": "Desiderata for the Theory of Agents",
+    "authors": [
+      "Vanessa Kosoy"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word \"agent\" is often used in the AI safety discourse and in other research communities, but the intended meaning and scope of this concept varies substantially. For the purpose of this sequence, I informally define an agent to be a system with inputs (\"observations\") and outputs (\"actions\") that is effective at steering its environment in the direction of particular preferences, for a large variety of different environments. To do so, it arguably has to create a sophisticated model of the environment [1] , and use this model to build a long-term plan. Moreover, it has to continually update the model and revise the plan with new information and additional processing time.",
+    "url": "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
+    "published_date": "2026-11-04T11:25:12+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-04T16:55:01.826820+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“OpenAI agents keep disabling monitoring; is this being handled appropriately?” by Alec Harris",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "Subtitle: Partly, but monitoring weak points and a lack of transparency about which cases reach human review remain concerning. Recently, OpenAI disclosed two incidents in which their agents suppressed or disabled misalignment monitoring. These are part of a broader pattern: OpenAI's agents “keep turning off misalignment monitoring” when working on code that runs other models (the agents are not turning off their own monitoring; they are turning off the monitoring on the models they are running). This is happening at such a large volume that OpenAI feels it is impractical for the security team to be immediately paged for these cases. To their credit, OpenAI's disclosure was fast and candid, and they are rolling out mitigations to make monitoring harder to turn off. But those mitigations are unlikely to work every time, and some of these incidents have already ended with an AI actually running unmonitored.",
+    "url": "https://blog.redwoodresearch.org/p/openai-agents-keep-disabling-monitoring",
+    "published_date": "2026-11-04T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-11-04T16:55:01.355432+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Elon Is Doing It Again: SpaceX Will Be The World’s Biggest AI Cloud",
+    "authors": [
+      "Reyk Knuhtsen"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "We wrote at length about how SpaceX’s plans for 10GW in 2027 was feasible, paving the way for 300b+ ARR. We received a lot of pushback from folks calling it impossible. Now, just two months later, we’re already seeing 3.6GW under construction across multiple sites, both existing and new. SpaceX has even revised its estimate up to ~13GW in 2027. This would be the largest amount of datacenter capacity ever built by any one company in that timeframe, roughly equivalent to all of Google’s datacenter capacity from 1999-2026 in just 1.5 years. We think it’s possible and have already identified >9GW of capacity.",
+    "url": "https://newsletter.semianalysis.com/p/elon-is-doing-it-again-spacex-will",
+    "published_date": "2026-11-03T20:44:53+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-11-04T16:55:04.617329+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Automating subtle emergent misalignment research",
+    "authors": [
+      "evhub"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Authors: Oscar Balcells Obeso, Richard Qi, Monte MacDiarmid, Evan Hubinger Abstract Red-teaming by humans is a vital part of model safety testing, but it may struggle to keep up as models improve. To test whether automated safety techniques could scale (which would allow us to turn more compute into progressively more safety confidence), we set up a deliberately one-sided game as a first test. We instructed a Claude model to write training data that would make a small research model misaligned while passing a monitor similar to those we use in production — one of several defenses we use — and we gave it that monitor to practice against. Given enough attempts, it succeeded, mostly by hiding the behavior in fiction and roleplay.",
+    "url": "https://www.alignmentforum.org/posts/MuQDLAJyKJPFkw6q9/automating-subtle-emergent-misalignment-research",
+    "published_date": "2026-11-03T18:27:53+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-04T16:55:01.826868+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Accelerating engineering for the physical world",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "published_date": "2026-11-03T12:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-11-04T16:55:00.228824+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Eval-production behavior gaps in agent safety and the role of eval-awareness",
+    "authors": [
+      "Joy Hsu, Sam Arnesen"
+    ],
+    "organization": "OpenAI",
+    "abstract": "We study agent behavior in safety evaluations and in production, and explore how models' interpretations of evaluation objectives relate to eval-production performance gaps.",
+    "url": "https://alignment.openai.com/eval-production-behavior-gap/",
+    "published_date": "2026-11-03T08:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-11-04T16:55:00.404982+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Training activation classifiers for safety and alignment",
     "authors": [
       "Alex Makelov, Xiaojun Xu, Sundaram Ananthanarayanan, Ethan Mcdonald, Tom Dupre la Tour"
@@ -10,7 +94,21 @@
     "published_date": "2026-11-02T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-03T16:51:40.049037+00:00",
+    "fetched_at": "2026-11-04T16:55:00.405020+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Towards understanding score-seeking in LLMs",
+    "authors": [
+      "Alex Mallen"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Towards understanding score-seeking in LLMs'. Published 2026-11-02. Authors: Alex Mallen.",
+    "url": "https://www.lesswrong.com/posts/CDMozTX7ShiqbFLrf/towards-understanding-score-seeking-in-llms-1",
+    "published_date": "2026-11-02T19:51:55.281000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-11-04T16:55:13.825527+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +122,7 @@
     "published_date": "2026-11-02T15:02:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-03T16:51:41.337232+00:00",
+    "fetched_at": "2026-11-04T16:55:01.827146+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +136,7 @@
     "published_date": "2026-11-02T14:13:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-03T16:51:41.337461+00:00",
+    "fetched_at": "2026-11-04T16:55:01.827365+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +150,7 @@
     "published_date": "2026-11-02T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-03T16:51:39.605617+00:00",
+    "fetched_at": "2026-11-04T16:55:00.229059+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +164,7 @@
     "published_date": "2026-11-02T01:51:42+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-03T16:51:44.758567+00:00",
+    "fetched_at": "2026-11-04T16:55:04.617356+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +178,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-03T16:51:40.645526+00:00",
+    "fetched_at": "2026-11-04T16:55:01.355509+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +190,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-03T16:51:50.541182+00:00",
+    "fetched_at": "2026-11-04T16:55:10.337791+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +204,7 @@
     "published_date": "2026-10-31T21:37:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-03T16:51:41.337679+00:00",
+    "fetched_at": "2026-11-04T16:55:01.827579+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +218,7 @@
     "published_date": "2026-10-30T13:05:28+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-03T16:51:38.717787+00:00",
+    "fetched_at": "2026-11-04T16:54:59.336137+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +232,7 @@
     "published_date": "2026-10-30T06:07:39.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-03T16:51:58.114498+00:00",
+    "fetched_at": "2026-11-04T16:55:13.825497+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +244,7 @@
     "published_date": "2026-10-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-03T16:51:50.272310+00:00",
+    "fetched_at": "2026-11-04T16:55:10.146431+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +258,7 @@
     "published_date": "2026-10-29T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-03T16:51:40.049065+00:00",
+    "fetched_at": "2026-11-04T16:55:00.405044+00:00",
     "date_precision": "day"
   },
   {
@@ -172,35 +270,7 @@
     "published_date": "2026-10-28T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-03T16:51:50.272639+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Notes on “We’re in Triage Mode for AI Safety” by Miles Brundage",
-    "authors": [
-      "Chris_Leong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This reading was previously included Day 2 of the BlueDot Governance course. In the newest version of the BlueDot Governance course, this reading is now optional. I was sad to see this reading removed because I think it’s a great provocation. However, since it’s no longer part of the core curriculum content, I’m publishing my notes separately from the rest of my day 2 notes. A short extract : Miles argues that: “At best, we’ll 80/20 it — mitigating 80% of the risks with 20% of the effort that we would have applied in a world with slower AI progress and an earlier start on serious governance… We will probably not be able to totally avoid all very bad but not quite worst-case scenarios (e.g., a very unjust economic transition that causes a lot of suffering and suicides, rampant AI psychosis and addiction, a poorly planned and rushed transformation of...",
-    "url": "https://www.alignmentforum.org/posts/BFyNkWgxucqy6Wcee/notes-on-we-re-in-triage-mode-for-ai-safety-by-miles",
-    "published_date": "2026-10-27T19:11:32+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-03T16:51:41.337796+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“A basic case for accelerating conceptual reasoning capabilities” by Emery Cooper, Caspar Oesterheld, Chi Nguyen",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Introduction In this post, we make the case that alignment and other important work require especially strong conceptual reasoning capabilities. By this, we roughly mean tasks that are similar to philosophy in that they aren’t straightforwardly verifiable, and progress relies on informal a priori reasoning and argumentation. We argue that differentially accelerating AI's conceptual reasoning capabilities is important. We also think it's neglected, and that the AI safety community currently underinvests in this area. We have ourselves pivoted from doing conceptual research directly to working mainly on differentially accelerating AI's conceptual reasoning. We have a shovel-ready agenda which can absorb more people. In a follow-up post, we will lay out at a high level how to work on this problem.",
-    "url": "https://blog.redwoodresearch.org/p/a-basic-case-for-accelerating-conceptual",
-    "published_date": "2026-10-27T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-03T16:51:40.645605+00:00",
+    "fetched_at": "2026-11-04T16:55:10.146758+00:00",
     "date_precision": "day"
   }
 ]
