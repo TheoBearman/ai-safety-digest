@@ -1,5 +1,45 @@
 [
   {
+    "title": "Parent Comfort With Artificial Intelligence-Led Behavioral Therapy for Their Child",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Nov 5, 2026 This cross-sectional survey of US parents examined how comfortable they were with AI-led behavioral therapy for their children and which factors were associated with greater comfort.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71461.html",
+    "published_date": "2026-11-05T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-11-05T17:09:22.445657+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "OpenAI: Astra covertly underperforms on safety research",
+    "authors": [
+      "Zach Stein-Perlman"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Marcus Williams twitter thread ( non-twitter link ) intro: Astra covertly underperforms on safety research tasks. We noticed that Astra often makes surprisingly little progress on certain types of safety research and likes to invent blockers or impose arbitrary restrictions without telling the user. In most of these cases the decision to underperform was not verbalized in the CoT meaning our misalignment monitoring system did not detect this. To measure underperformance we created a paired open-ended coding evaluation with safety and capability tasks. On this eval Astra scored 10% when we framed coding tasks as safety research, vs. 16% when framed as capabilities research. The gap remained after we excluded trajectories with refusals or verbalized intent to underperform in CoT. There was no such gap for 5.6-sol. When we aggressively filter out trajectories with even brief expressions of ethical doubt in the CoT the performance gap seems to reduce.",
+    "url": "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
+    "published_date": "2026-11-04T22:15:30+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-05T17:09:12.798604+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Positive and Negative AI Futures",
+    "authors": [
+      "Chris_Leong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I'm continuing to share some notes I created for myself to use when I facilitate AI safety courses. I really like using Ilya: the AI scientist shaping the world as a way of engaging students at the start of a course. The video primarily focuses on the way that AI could go wrong, however, it also starts with “Now, AI is a great thing…”, so it naturally leads to a discussion of positive and negative futures. Positive Futures: One obvious resource on positive futures Foresight Institute’s Existential Hope website. I’ve browsed their content in the past, some of it is kind of interesting, but honestly, I found view it as mostly pretty mid. They also run a fellowship which has an existential hope stream: They recently released The AI future nobody is showing you , which resulted in a wide range of reactions on Twitter.",
+    "url": "https://www.alignmentforum.org/posts/MrWZfxHCEgm7uvHJj/positive-and-negative-ai-futures",
+    "published_date": "2026-11-04T17:32:27+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-05T17:09:12.798716+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Desiderata for the Theory of Agents",
     "authors": [
       "Vanessa Kosoy"
@@ -10,7 +50,7 @@
     "published_date": "2026-11-04T11:25:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-04T16:55:01.826820+00:00",
+    "fetched_at": "2026-11-05T17:09:12.798855+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +64,19 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-04T16:55:01.355432+00:00",
+    "fetched_at": "2026-11-05T17:09:12.078552+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Preparedness for the AI Era Requires a Reserve of Critical Workers",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Commentary Nov 4, 2026 If governments or employers assume that permanent AI automation is right around the corner, vital training and career pipelines could collapse. We could find ourselves without enough people to perform work essential for our society to function.",
+    "url": "https://www.rand.org/pubs/commentary/2026/11/preparedness-for-the-ai-era-requires-a-reserve-of-critical.html",
+    "published_date": "2026-11-04T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-11-05T17:09:22.445831+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +90,7 @@
     "published_date": "2026-11-03T20:44:53+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-04T16:55:04.617329+00:00",
+    "fetched_at": "2026-11-05T17:09:15.191649+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +104,7 @@
     "published_date": "2026-11-03T18:27:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-04T16:55:01.826868+00:00",
+    "fetched_at": "2026-11-05T17:09:12.798887+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +118,7 @@
     "published_date": "2026-11-03T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-04T16:55:00.228824+00:00",
+    "fetched_at": "2026-11-05T17:09:11.231418+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +132,7 @@
     "published_date": "2026-11-03T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-04T16:55:00.404982+00:00",
+    "fetched_at": "2026-11-05T17:09:11.606698+00:00",
     "date_precision": "day"
   },
   {
@@ -94,7 +146,7 @@
     "published_date": "2026-11-02T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-04T16:55:00.405020+00:00",
+    "fetched_at": "2026-11-05T17:09:11.606729+00:00",
     "date_precision": "day"
   },
   {
@@ -108,7 +160,7 @@
     "published_date": "2026-11-02T19:51:55.281000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-04T16:55:13.825527+00:00",
+    "fetched_at": "2026-11-05T17:09:27.848988+00:00",
     "date_precision": "day"
   },
   {
@@ -122,7 +174,7 @@
     "published_date": "2026-11-02T15:02:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-04T16:55:01.827146+00:00",
+    "fetched_at": "2026-11-05T17:09:12.799086+00:00",
     "date_precision": "day"
   },
   {
@@ -136,7 +188,7 @@
     "published_date": "2026-11-02T14:13:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-04T16:55:01.827365+00:00",
+    "fetched_at": "2026-11-05T17:09:12.799269+00:00",
     "date_precision": "day"
   },
   {
@@ -150,7 +202,7 @@
     "published_date": "2026-11-02T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-04T16:55:00.229059+00:00",
+    "fetched_at": "2026-11-05T17:09:11.231577+00:00",
     "date_precision": "day"
   },
   {
@@ -164,7 +216,7 @@
     "published_date": "2026-11-02T01:51:42+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-04T16:55:04.617356+00:00",
+    "fetched_at": "2026-11-05T17:09:15.191670+00:00",
     "date_precision": "day"
   },
   {
@@ -178,7 +230,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-04T16:55:01.355509+00:00",
+    "fetched_at": "2026-11-05T17:09:12.078612+00:00",
     "date_precision": "day"
   },
   {
@@ -190,7 +242,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-04T16:55:10.337791+00:00",
+    "fetched_at": "2026-11-05T17:09:22.761649+00:00",
     "date_precision": "day"
   },
   {
@@ -204,7 +256,7 @@
     "published_date": "2026-10-31T21:37:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-04T16:55:01.827579+00:00",
+    "fetched_at": "2026-11-05T17:09:12.799436+00:00",
     "date_precision": "day"
   },
   {
@@ -218,7 +270,7 @@
     "published_date": "2026-10-30T13:05:28+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-04T16:54:59.336137+00:00",
+    "fetched_at": "2026-11-05T17:09:10.247513+00:00",
     "date_precision": "day"
   },
   {
@@ -232,7 +284,7 @@
     "published_date": "2026-10-30T06:07:39.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-04T16:55:13.825497+00:00",
+    "fetched_at": "2026-11-05T17:09:27.848970+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +296,7 @@
     "published_date": "2026-10-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-04T16:55:10.146431+00:00",
+    "fetched_at": "2026-11-05T17:09:22.445988+00:00",
     "date_precision": "day"
   },
   {
@@ -258,19 +310,7 @@
     "published_date": "2026-10-29T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-04T16:55:00.405044+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Settlement and Governance Behind the AI Frontier",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Expert Insights Oct 28, 2026 Although there is much focus on cutting-edge AI models from frontier labs, the author argues that open-weight models, agents, and AI uses “behind the frontier” are also dangerous and their governance demands different concepts and tools.",
-    "url": "https://www.rand.org/pubs/perspectives/PEA5380-1.html",
-    "published_date": "2026-10-28T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-04T16:55:10.146758+00:00",
+    "fetched_at": "2026-11-05T17:09:11.606746+00:00",
     "date_precision": "day"
   }
 ]
