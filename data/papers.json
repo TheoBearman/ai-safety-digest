@@ -1,5 +1,61 @@
 [
   {
+    "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference",
+    "authors": [
+      "Bryan Shan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Viable Alternative of CUDA Moat, NVIDIA scared and working nights & weekends, Jensen&#8217;s Counter Submission, Kimi K3, Muse Spark Open, Qwen, GLM5.3, TorchTPU, vLLM, SGLang, llm-d, Ray",
+    "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
+    "published_date": "2026-11-05T19:03:45+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-11-06T16:37:37.661456+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+    "authors": [
+      "Alex Lavaee, Matthai Philipose"
+    ],
+    "organization": "Microsoft Research",
+    "abstract": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code meets it for every input, and uses tests where proofs aren't practical. Developers review intent, not every line. The post Formally verifying agent-written full-stack web apps with PDD Kit appeared first on Microsoft Research .",
+    "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+    "published_date": "2026-11-05T16:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.microsoft.com/en-us/research/feed/",
+    "fetched_at": "2026-11-06T16:37:31.753252+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Review of the \"Risks from automated R&D\" section in Anthropic's Risk Report (August 2026)",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. All redactions that were important to our conclusions are described in the report below. Executive summary We agree with Anthropic that catastrophic risks from July 15th models were low, but we think it is plausible that they had crossed their early warning threshold at the time. METR reviewed the “Risks from automated R&amp;D” section of Anthropic’s public August 2026 Risk Report . 1 We conducted this review as part of a high-access assessment of AI R&amp;D acceleration, in which Anthropic shared a private version of the Risk Report along with extensive other non-public data.",
+    "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
+    "published_date": "2026-11-05T08:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-11-06T16:37:36.523619+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. While we were able to freely share our highest-level conclusions about risk, Anthropic redacted a majority of the evidence we found most informative for these conclusions. Anthropic described the redactions as “aimed at removing confidential information that could accelerate other AI developers.” 1 Some of these redactions are themselves challenging to describe clearly without revealing sensitive information we have been asked to redact. We share a table of important evidence we were and were not able to discuss given the redactions in our process section below.",
+    "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+    "published_date": "2026-11-05T08:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-11-06T16:37:36.524383+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Parent Comfort With Artificial Intelligence-Led Behavioral Therapy for Their Child",
     "authors": [],
     "organization": "RAND",
@@ -8,7 +64,7 @@
     "published_date": "2026-11-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-05T17:09:22.445657+00:00",
+    "fetched_at": "2026-11-06T16:37:44.670687+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +78,7 @@
     "published_date": "2026-11-04T22:15:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-05T17:09:12.798604+00:00",
+    "fetched_at": "2026-11-06T16:37:34.280804+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +92,7 @@
     "published_date": "2026-11-04T17:32:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-05T17:09:12.798716+00:00",
+    "fetched_at": "2026-11-06T16:37:34.280939+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +106,7 @@
     "published_date": "2026-11-04T11:25:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-05T17:09:12.798855+00:00",
+    "fetched_at": "2026-11-06T16:37:34.281141+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +120,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-05T17:09:12.078552+00:00",
+    "fetched_at": "2026-11-06T16:37:33.886428+00:00",
     "date_precision": "day"
   },
   {
@@ -76,7 +132,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-05T17:09:22.445831+00:00",
+    "fetched_at": "2026-11-06T16:37:44.670949+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +146,7 @@
     "published_date": "2026-11-03T20:44:53+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-05T17:09:15.191649+00:00",
+    "fetched_at": "2026-11-06T16:37:37.661489+00:00",
     "date_precision": "day"
   },
   {
@@ -104,7 +160,7 @@
     "published_date": "2026-11-03T18:27:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-05T17:09:12.798887+00:00",
+    "fetched_at": "2026-11-06T16:37:34.281185+00:00",
     "date_precision": "day"
   },
   {
@@ -118,7 +174,7 @@
     "published_date": "2026-11-03T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-05T17:09:11.231418+00:00",
+    "fetched_at": "2026-11-06T16:37:32.828852+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +188,7 @@
     "published_date": "2026-11-03T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-05T17:09:11.606698+00:00",
+    "fetched_at": "2026-11-06T16:37:33.005991+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +202,7 @@
     "published_date": "2026-11-02T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-05T17:09:11.606729+00:00",
+    "fetched_at": "2026-11-06T16:37:33.006030+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +216,7 @@
     "published_date": "2026-11-02T19:51:55.281000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-05T17:09:27.848988+00:00",
+    "fetched_at": "2026-11-06T16:37:49.388794+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +230,7 @@
     "published_date": "2026-11-02T15:02:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-05T17:09:12.799086+00:00",
+    "fetched_at": "2026-11-06T16:37:34.281442+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +244,7 @@
     "published_date": "2026-11-02T14:13:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-05T17:09:12.799269+00:00",
+    "fetched_at": "2026-11-06T16:37:34.281661+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +258,7 @@
     "published_date": "2026-11-02T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-05T17:09:11.231577+00:00",
+    "fetched_at": "2026-11-06T16:37:32.829056+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +272,7 @@
     "published_date": "2026-11-02T01:51:42+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-05T17:09:15.191670+00:00",
+    "fetched_at": "2026-11-06T16:37:37.661510+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +286,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-05T17:09:12.078612+00:00",
+    "fetched_at": "2026-11-06T16:37:33.886507+00:00",
     "date_precision": "day"
   },
   {
@@ -242,7 +298,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-05T17:09:22.761649+00:00",
+    "fetched_at": "2026-11-06T16:37:44.842948+00:00",
     "date_precision": "day"
   },
   {
@@ -256,7 +312,7 @@
     "published_date": "2026-10-31T21:37:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-05T17:09:12.799436+00:00",
+    "fetched_at": "2026-11-06T16:37:34.281877+00:00",
     "date_precision": "day"
   },
   {
@@ -270,7 +326,7 @@
     "published_date": "2026-10-30T13:05:28+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-05T17:09:10.247513+00:00",
+    "fetched_at": "2026-11-06T16:37:31.753307+00:00",
     "date_precision": "day"
   },
   {
@@ -284,7 +340,7 @@
     "published_date": "2026-10-30T06:07:39.545000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-05T17:09:27.848970+00:00",
+    "fetched_at": "2026-11-06T16:37:49.388782+00:00",
     "date_precision": "day"
   },
   {
@@ -296,21 +352,7 @@
     "published_date": "2026-10-30T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-05T17:09:22.445988+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "How we detect frontier model misalignment",
-    "authors": [
-      "Marcus Williams, Phillip Guo, David Oks, Doug Bemis, Kerrick Staley, William Wong, Aleksandra Spyra, Shantanu Jain, Ian Kivlichan, Micah Carroll"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Our monitoring system reviews frontier model activity during training, evaluation, and tool use. We explain how it works, what it has found, and how we test it.",
-    "url": "https://alignment.openai.com/how-we-detect-frontier-model-misalignment/",
-    "published_date": "2026-10-29T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-05T17:09:11.606746+00:00",
+    "fetched_at": "2026-11-06T16:37:44.671219+00:00",
     "date_precision": "day"
   }
 ]
