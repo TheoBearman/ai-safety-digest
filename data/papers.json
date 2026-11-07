@@ -1,5 +1,33 @@
 [
   {
+    "title": "AI is dramatically accelerating AI research right now",
+    "authors": [
+      "Ajeya Cotra"
+    ],
+    "organization": "Ajeya Cotra",
+    "abstract": "This post discusses a public METR report on AI R&D acceleration at Anthropic. I did not work on this project or see the unredacted report.1 All opinions are my own and do not represent METR or the report authors.Thanks to Ryan Greenblatt for discussion, feedback, and help with modeling, and Daniel Kokotajlo, Eli Lifland, and Hjalmar Wjik for comments.",
+    "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+    "published_date": "2026-11-06T20:23:40+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.planned-obsolescence.org/feed",
+    "fetched_at": "2026-11-07T15:29:26.118648+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Measuring how AI agents handle everyday wet-lab science",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "published_date": "2026-11-06T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-11-07T15:29:19.023696+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference",
     "authors": [
       "Bryan Shan"
@@ -10,7 +38,7 @@
     "published_date": "2026-11-05T19:03:45+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-06T16:37:37.661456+00:00",
+    "fetched_at": "2026-11-07T15:29:23.158916+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +52,7 @@
     "published_date": "2026-11-05T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-06T16:37:31.753252+00:00",
+    "fetched_at": "2026-11-07T15:29:18.041407+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +66,7 @@
     "published_date": "2026-11-05T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-06T16:37:36.523619+00:00",
+    "fetched_at": "2026-11-07T15:29:22.089698+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +80,7 @@
     "published_date": "2026-11-05T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-06T16:37:36.524383+00:00",
+    "fetched_at": "2026-11-07T15:29:22.090451+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +92,7 @@
     "published_date": "2026-11-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-06T16:37:44.670687+00:00",
+    "fetched_at": "2026-11-07T15:29:32.234754+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +106,7 @@
     "published_date": "2026-11-04T22:15:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-06T16:37:34.280804+00:00",
+    "fetched_at": "2026-11-07T15:29:20.215509+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +120,7 @@
     "published_date": "2026-11-04T17:32:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-06T16:37:34.280939+00:00",
+    "fetched_at": "2026-11-07T15:29:20.215646+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +134,7 @@
     "published_date": "2026-11-04T11:25:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-06T16:37:34.281141+00:00",
+    "fetched_at": "2026-11-07T15:29:20.215826+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +148,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-06T16:37:33.886428+00:00",
+    "fetched_at": "2026-11-07T15:29:19.772955+00:00",
     "date_precision": "day"
   },
   {
@@ -132,7 +160,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-06T16:37:44.670949+00:00",
+    "fetched_at": "2026-11-07T15:29:32.235007+00:00",
     "date_precision": "day"
   },
   {
@@ -146,7 +174,7 @@
     "published_date": "2026-11-03T20:44:53+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-06T16:37:37.661489+00:00",
+    "fetched_at": "2026-11-07T15:29:23.158946+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +188,7 @@
     "published_date": "2026-11-03T18:27:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-06T16:37:34.281185+00:00",
+    "fetched_at": "2026-11-07T15:29:20.215867+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +202,7 @@
     "published_date": "2026-11-03T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-06T16:37:32.828852+00:00",
+    "fetched_at": "2026-11-07T15:29:19.024028+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +216,7 @@
     "published_date": "2026-11-03T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-06T16:37:33.005991+00:00",
+    "fetched_at": "2026-11-07T15:29:19.174348+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +230,7 @@
     "published_date": "2026-11-02T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-06T16:37:33.006030+00:00",
+    "fetched_at": "2026-11-07T15:29:19.174385+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +244,7 @@
     "published_date": "2026-11-02T19:51:55.281000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-06T16:37:49.388794+00:00",
+    "fetched_at": "2026-11-07T15:29:36.917210+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +258,7 @@
     "published_date": "2026-11-02T15:02:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-06T16:37:34.281442+00:00",
+    "fetched_at": "2026-11-07T15:29:20.216123+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +272,7 @@
     "published_date": "2026-11-02T14:13:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-06T16:37:34.281661+00:00",
+    "fetched_at": "2026-11-07T15:29:20.216356+00:00",
     "date_precision": "day"
   },
   {
@@ -258,7 +286,7 @@
     "published_date": "2026-11-02T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-06T16:37:32.829056+00:00",
+    "fetched_at": "2026-11-07T15:29:19.024263+00:00",
     "date_precision": "day"
   },
   {
@@ -272,7 +300,7 @@
     "published_date": "2026-11-02T01:51:42+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-06T16:37:37.661510+00:00",
+    "fetched_at": "2026-11-07T15:29:23.158967+00:00",
     "date_precision": "day"
   },
   {
@@ -286,7 +314,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-06T16:37:33.886507+00:00",
+    "fetched_at": "2026-11-07T15:29:19.773034+00:00",
     "date_precision": "day"
   },
   {
@@ -298,7 +326,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-06T16:37:44.842948+00:00",
+    "fetched_at": "2026-11-07T15:29:32.431269+00:00",
     "date_precision": "day"
   },
   {
@@ -312,47 +340,7 @@
     "published_date": "2026-10-31T21:37:22+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-06T16:37:34.281877+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
-    "authors": [
-      "Somya Chatterjee, Harshita Sahijwani, Min Chen, Sushmitha Rajeswari Muppa, Dayquan Julienne, Irene Shaffer, Chandra Inguva, Jenny Chen, Minha Hwang, Sam Ade Jacobs"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
-    "published_date": "2026-10-30T13:05:28+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-06T16:37:31.753307+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "My experiences with the extremes of post-viral illness and brain retraining/mindbody work",
-    "authors": [
-      "riceissa"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'My experiences with the extremes of post-viral illness and brain retraining/mindbody work'. Published 2026-10-30. Authors: riceissa.",
-    "url": "https://www.lesswrong.com/posts/FZ4iJvqmzxXFSz6JX/my-experiences-with-the-extremes-of-post-viral-illness-and",
-    "published_date": "2026-10-30T06:07:39.545000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-06T16:37:49.388782+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Development, Validation and AI Chatbot Evaluation of the Adolescent Mental Health AI Response Tool",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Oct 30, 2026 The authors developed and validated a clinician-informed tool for auditing AI chatbot responses to adolescent mental health disclosures and used it to compare four major chatbots, finding better coverage of guideline-informed content for anxiety than depression and for moderate than severe presentations.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71522.html",
-    "published_date": "2026-10-30T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-06T16:37:44.671219+00:00",
+    "fetched_at": "2026-11-07T15:29:20.216573+00:00",
     "date_precision": "day"
   }
 ]
