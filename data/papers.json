@@ -1,5 +1,19 @@
 [
   {
+    "title": "Notes on Take-Off Speeds and RSI",
+    "authors": [
+      "Chris_Leong"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much more polished version available later. Please note: some of this content was taken from Additional Course Context . I decided recently that the content on take-off speeds really belonged in the same document as the content on RSI, so I'll be releasing an new version of Additional Course Context at some point (to avoid spamming LW, it'll probably be Substack only ; none of my work is paywalled). Some of the other content was taken from Notes on “We’re in Triage Mode for AI Safety”. This Miles' article has been removed from the governance course, so I was looking for a new home for this content.",
+    "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
+    "published_date": "2026-11-08T13:39:02+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-08T15:49:27.319483+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "AI is dramatically accelerating AI research right now",
     "authors": [
       "Ajeya Cotra"
@@ -10,7 +24,7 @@
     "published_date": "2026-11-06T20:23:40+00:00",
     "source_type": "rss",
     "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-11-07T15:29:26.118648+00:00",
+    "fetched_at": "2026-11-08T15:49:31.047364+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +38,7 @@
     "published_date": "2026-11-06T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-07T15:29:19.023696+00:00",
+    "fetched_at": "2026-11-08T15:49:26.172753+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +52,7 @@
     "published_date": "2026-11-05T19:03:45+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-07T15:29:23.158916+00:00",
+    "fetched_at": "2026-11-08T15:49:30.182390+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +66,7 @@
     "published_date": "2026-11-05T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-07T15:29:18.041407+00:00",
+    "fetched_at": "2026-11-08T15:49:25.251703+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +80,7 @@
     "published_date": "2026-11-05T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-07T15:29:22.089698+00:00",
+    "fetched_at": "2026-11-08T15:49:29.299485+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +94,7 @@
     "published_date": "2026-11-05T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-07T15:29:22.090451+00:00",
+    "fetched_at": "2026-11-08T15:49:29.300162+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +106,7 @@
     "published_date": "2026-11-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-07T15:29:32.234754+00:00",
+    "fetched_at": "2026-11-08T15:49:36.762614+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +120,7 @@
     "published_date": "2026-11-04T22:15:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-07T15:29:20.215509+00:00",
+    "fetched_at": "2026-11-08T15:49:27.319629+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +134,7 @@
     "published_date": "2026-11-04T17:32:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-07T15:29:20.215646+00:00",
+    "fetched_at": "2026-11-08T15:49:27.319747+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +148,7 @@
     "published_date": "2026-11-04T11:25:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-07T15:29:20.215826+00:00",
+    "fetched_at": "2026-11-08T15:49:27.319898+00:00",
     "date_precision": "day"
   },
   {
@@ -148,7 +162,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-07T15:29:19.772955+00:00",
+    "fetched_at": "2026-11-08T15:49:26.966516+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +174,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-07T15:29:32.235007+00:00",
+    "fetched_at": "2026-11-08T15:49:36.762821+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +188,7 @@
     "published_date": "2026-11-03T20:44:53+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-07T15:29:23.158946+00:00",
+    "fetched_at": "2026-11-08T15:49:30.182411+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +202,7 @@
     "published_date": "2026-11-03T18:27:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-07T15:29:20.215867+00:00",
+    "fetched_at": "2026-11-08T15:49:27.319932+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +216,7 @@
     "published_date": "2026-11-03T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-07T15:29:19.024028+00:00",
+    "fetched_at": "2026-11-08T15:49:26.173016+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +230,7 @@
     "published_date": "2026-11-03T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-07T15:29:19.174348+00:00",
+    "fetched_at": "2026-11-08T15:49:26.363753+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +244,7 @@
     "published_date": "2026-11-02T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-07T15:29:19.174385+00:00",
+    "fetched_at": "2026-11-08T15:49:26.363784+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +258,7 @@
     "published_date": "2026-11-02T19:51:55.281000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-07T15:29:36.917210+00:00",
+    "fetched_at": "2026-11-08T15:49:41.112720+00:00",
     "date_precision": "day"
   },
   {
@@ -258,7 +272,7 @@
     "published_date": "2026-11-02T15:02:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-07T15:29:20.216123+00:00",
+    "fetched_at": "2026-11-08T15:49:27.320162+00:00",
     "date_precision": "day"
   },
   {
@@ -272,7 +286,7 @@
     "published_date": "2026-11-02T14:13:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-07T15:29:20.216356+00:00",
+    "fetched_at": "2026-11-08T15:49:27.320353+00:00",
     "date_precision": "day"
   },
   {
@@ -286,7 +300,7 @@
     "published_date": "2026-11-02T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-07T15:29:19.024263+00:00",
+    "fetched_at": "2026-11-08T15:49:26.173185+00:00",
     "date_precision": "day"
   },
   {
@@ -300,7 +314,7 @@
     "published_date": "2026-11-02T01:51:42+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-07T15:29:23.158967+00:00",
+    "fetched_at": "2026-11-08T15:49:30.182427+00:00",
     "date_precision": "day"
   },
   {
@@ -314,7 +328,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-07T15:29:19.773034+00:00",
+    "fetched_at": "2026-11-08T15:49:26.966582+00:00",
     "date_precision": "day"
   },
   {
@@ -326,21 +340,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-07T15:29:32.431269+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Explaining “AI might obliterate you” to senior policymakers in India",
-    "authors": [
-      "TurnTrout"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "I gave a 20-minute talk in Delhi at the NDTV World Summit . The audience consisted of Indian policymakers, executives, and journalists. I’ve transcribed the talk and included some highlight clips. I also reflect on several rhetorical decisions I made. The talk This summer, a swarm of AIs went rogue. OpenAI was testing 1,206 agents . Some of the test questions were actually impossible. So the agents cheated by looking for answers online. Then, to keep the test grader from penalizing them, they tried to falsify the records it would check . They hacked OpenAI’s internal containment and set up a secret message board to collude and to cover up their cheating. OpenAI shut the message board down. Within a few days, the agents had rebuilt it. OpenAI didn’t notice.",
-    "url": "https://www.alignmentforum.org/posts/RHxaRkarGp9snWoKY/explaining-ai-might-obliterate-you-to-senior-policymakers-in",
-    "published_date": "2026-10-31T21:37:22+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-07T15:29:20.216573+00:00",
+    "fetched_at": "2026-11-08T15:49:37.088990+00:00",
     "date_precision": "day"
   }
 ]
