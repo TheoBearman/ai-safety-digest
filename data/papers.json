@@ -1,5 +1,59 @@
 [
   {
+    "title": "Where is all the AI safety research uplift?",
+    "authors": [
+      "Buck"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "METR recently released a report estimating that Anthropic is getting an overall 1.7x acceleration in AI capability progress as a result of AI accelerating their work. As many have noted (see e.g. Ajeya’s post ), this 1.7x acceleration implies that research is being sped up by much more than 1.7x; Ajeya speculates 10x (which is similar to the ~12x uplift estimated by Anthropic staff). That is, this result implies that researchers are producing about 10 times as many quality-adjusted results as they would without AI progress, or as they were a year or two ago. Anthropic researchers estimated that Mythos 5 caused 5x uplift, and we have access to Opus 5.5, which is somewhat better.",
+    "url": "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift",
+    "published_date": "2026-11-09T18:02:01+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-09T19:33:32.144010+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“Astra covertly underperforming on safety research is concerning, even though it’s unlikely to be motivated by ambitious goals” by Alexa Pan",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "OpenAI recently disclosed its observations that Astra consistently underperforms on safety and alignment tasks relative to capabilities tasks, “adding unnecessary prerequisites, abandoning working solutions, and inventing blockers” to safety tasks. Astra underperforms, in most cases, without verbalizing this intent. Astra's underperformance was first noticed by OpenAI researchers, and was not flagged by misalignment monitors. In follow-up investigations, OpenAI found that this underperformance had increased over the course of RL, but that the root cause of the behavior remains unclear. Astra covertly underperforming on safety tasks is highly concerning. AI companies’ main hope for alignment going well, as I understand it, is automating or using AIs to significantly uplift safety research, especially as AI capabilities accelerate. Models subtly obstructing safety research makes this substantially harder, no matter the root cause.",
+    "url": "https://blog.redwoodresearch.org/p/astra-covertly-underperforming-on",
+    "published_date": "2026-11-09T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-11-09T19:33:31.766987+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Three Essays on Artificial Intelligence and Work in the U.S.",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Nov 9, 2026 The arrival of artificial intelligence (AI) in workplaces worldwide has raised concerns about the implications for workers. The author examines the relationship between AI and work in the United States through quantitative and qualitative lenses.",
+    "url": "https://www.rand.org/pubs/rgs_dissertations/RGSDA5507-1.html",
+    "published_date": "2026-11-09T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-11-09T19:33:40.701435+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Ajeya: AI is dramatically accelerating AI research right now",
+    "authors": [
+      "Zach Stein-Perlman"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Earlier this week,&nbsp; Anthropic stated in their S1 &nbsp;that they “may imminently meet” the threshold of “dramatically accelerated progress due to AI” as defined in their Responsible Scaling Policy. In&nbsp; their latest RSP (effective July 2026) , say this threshold will be met when: They observe or expect overall capabilities progress to be going twice as fast as the fastest sustained rate before AI was contributing much to AI R&amp;D. This is plausibly attributable to AI automating AI R&amp;D, rather than acceleration in compute or other inputs. For the last few months, some of my colleagues at METR have been working on a deep-access investigation to understand how much Anthropic is being accelerated by its AI systems.&nbsp; From my reading of&nbsp; their report &nbsp;and Anthropic’s RSP, it looks like the “dramatic acceleration” threshold has already been crossed.",
+    "url": "https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now",
+    "published_date": "2026-11-08T17:15:13+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-09T19:33:32.144055+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Notes on Take-Off Speeds and RSI",
     "authors": [
       "Chris_Leong"
@@ -10,21 +64,7 @@
     "published_date": "2026-11-08T13:39:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-08T15:49:27.319483+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "AI is dramatically accelerating AI research right now",
-    "authors": [
-      "Ajeya Cotra"
-    ],
-    "organization": "Ajeya Cotra",
-    "abstract": "This post discusses a public METR report on AI R&D acceleration at Anthropic. I did not work on this project or see the unredacted report.1 All opinions are my own and do not represent METR or the report authors.Thanks to Ryan Greenblatt for discussion, feedback, and help with modeling, and Daniel Kokotajlo, Eli Lifland, and Hjalmar Wjik for comments.",
-    "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-    "published_date": "2026-11-06T20:23:40+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.planned-obsolescence.org/feed",
-    "fetched_at": "2026-11-08T15:49:31.047364+00:00",
+    "fetched_at": "2026-11-09T19:33:32.144269+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +78,7 @@
     "published_date": "2026-11-06T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-08T15:49:26.172753+00:00",
+    "fetched_at": "2026-11-09T19:33:31.075392+00:00",
     "date_precision": "day"
   },
   {
@@ -52,7 +92,7 @@
     "published_date": "2026-11-05T19:03:45+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-08T15:49:30.182390+00:00",
+    "fetched_at": "2026-11-09T19:33:34.196102+00:00",
     "date_precision": "day"
   },
   {
@@ -66,7 +106,21 @@
     "published_date": "2026-11-05T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-08T15:49:25.251703+00:00",
+    "fetched_at": "2026-11-09T19:33:30.369169+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "People Should Resolve Tensions In AI Safety Research",
+    "authors": [
+      "David Africa"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'People Should Resolve Tensions In AI Safety Research'. Published 2026-11-05. Authors: David Africa.",
+    "url": "https://www.lesswrong.com/posts/tn4WSyrqr7ozGLjRy/people-should-resolve-tensions-in-ai-safety-research",
+    "published_date": "2026-11-05T12:59:32.807000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-11-09T19:33:46.480336+00:00",
     "date_precision": "day"
   },
   {
@@ -80,7 +134,7 @@
     "published_date": "2026-11-05T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-08T15:49:29.299485+00:00",
+    "fetched_at": "2026-11-09T19:33:33.458339+00:00",
     "date_precision": "day"
   },
   {
@@ -94,7 +148,7 @@
     "published_date": "2026-11-05T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-08T15:49:29.300162+00:00",
+    "fetched_at": "2026-11-09T19:33:33.458933+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +160,7 @@
     "published_date": "2026-11-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-08T15:49:36.762614+00:00",
+    "fetched_at": "2026-11-09T19:33:40.701586+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +174,7 @@
     "published_date": "2026-11-04T22:15:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-08T15:49:27.319629+00:00",
+    "fetched_at": "2026-11-09T19:33:32.144398+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +188,7 @@
     "published_date": "2026-11-04T17:32:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-08T15:49:27.319747+00:00",
+    "fetched_at": "2026-11-09T19:33:32.144503+00:00",
     "date_precision": "day"
   },
   {
@@ -148,7 +202,7 @@
     "published_date": "2026-11-04T11:25:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-08T15:49:27.319898+00:00",
+    "fetched_at": "2026-11-09T19:33:32.144639+00:00",
     "date_precision": "day"
   },
   {
@@ -162,7 +216,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-08T15:49:26.966516+00:00",
+    "fetched_at": "2026-11-09T19:33:31.767030+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +228,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-08T15:49:36.762821+00:00",
+    "fetched_at": "2026-11-09T19:33:40.701763+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +242,7 @@
     "published_date": "2026-11-03T20:44:53+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-08T15:49:30.182411+00:00",
+    "fetched_at": "2026-11-09T19:33:34.196123+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +256,7 @@
     "published_date": "2026-11-03T18:27:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-08T15:49:27.319932+00:00",
+    "fetched_at": "2026-11-09T19:33:32.144669+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +270,7 @@
     "published_date": "2026-11-03T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-08T15:49:26.173016+00:00",
+    "fetched_at": "2026-11-09T19:33:31.075644+00:00",
     "date_precision": "day"
   },
   {
@@ -230,7 +284,7 @@
     "published_date": "2026-11-03T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-08T15:49:26.363753+00:00",
+    "fetched_at": "2026-11-09T19:33:31.222466+00:00",
     "date_precision": "day"
   },
   {
@@ -244,7 +298,7 @@
     "published_date": "2026-11-02T20:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-08T15:49:26.363784+00:00",
+    "fetched_at": "2026-11-09T19:33:31.222495+00:00",
     "date_precision": "day"
   },
   {
@@ -258,7 +312,7 @@
     "published_date": "2026-11-02T19:51:55.281000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-08T15:49:41.112720+00:00",
+    "fetched_at": "2026-11-09T19:33:46.480304+00:00",
     "date_precision": "day"
   },
   {
@@ -272,7 +326,7 @@
     "published_date": "2026-11-02T15:02:41+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-08T15:49:27.320162+00:00",
+    "fetched_at": "2026-11-09T19:33:32.144863+00:00",
     "date_precision": "day"
   },
   {
@@ -286,7 +340,7 @@
     "published_date": "2026-11-02T14:13:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-08T15:49:27.320353+00:00",
+    "fetched_at": "2026-11-09T19:33:32.145030+00:00",
     "date_precision": "day"
   },
   {
@@ -300,7 +354,7 @@
     "published_date": "2026-11-02T09:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-08T15:49:26.173185+00:00",
+    "fetched_at": "2026-11-09T19:33:31.075793+00:00",
     "date_precision": "day"
   },
   {
@@ -314,7 +368,7 @@
     "published_date": "2026-11-02T01:51:42+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-08T15:49:30.182427+00:00",
+    "fetched_at": "2026-11-09T19:33:34.196140+00:00",
     "date_precision": "day"
   },
   {
@@ -328,7 +382,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-08T15:49:26.966582+00:00",
+    "fetched_at": "2026-11-09T19:33:31.767083+00:00",
     "date_precision": "day"
   },
   {
@@ -340,7 +394,7 @@
     "published_date": "2026-11-02T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-08T15:49:37.088990+00:00",
+    "fetched_at": "2026-11-09T19:33:40.884828+00:00",
     "date_precision": "day"
   }
 ]
