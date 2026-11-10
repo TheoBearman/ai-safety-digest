@@ -1,16 +1,70 @@
 [
   {
+    "title": "AIFP: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
+    "authors": [
+      "Zach Stein-Perlman"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "METR recently estimated that Anthropic is now making AI progress about twice as fast as its historical rate (they would not be surprised by anything from 1.3x to 3x), and guessed that “perhaps ≈80%” of the current acceleration is due to AI. If they’re right, that implies an AI-driven acceleration that is 5 months ahead of the AI 2027 scenario . This level of acceleration due to AI is very unexpected. Previously, Daniel, the most bullish of us, assigned a 50% chance of Superhuman AI Researcher (SAR) before 2029 . SAR is roughly the point at which a company would rather fire all their human researchers and rely solely on automated AI researchers than have a team of the best human researchers in the world with no AIs.",
+    "url": "https://www.alignmentforum.org/posts/f9PajMLmBYzmWzyDv/aifp-looks-like-the-intelligence-explosion-will-happen-in",
+    "published_date": "2026-11-10T16:30:09+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-10T16:50:01.956849+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "AlphaProof Code agents wrote over three million lines of machine-checked proof in Lean to verify the core cryptographic protections in Signal down to machine instructions.",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "published_date": "2026-11-10T12:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-11-10T16:50:07.656602+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "authors": [
+      "Google DeepMind News"
+    ],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Gemini Robotics 2.5 accelerates real-world general dexterity'. Published 2026-11-09. Authors: Google DeepMind News.",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "published_date": "2026-11-09T19:51:47+00:00",
+    "source_type": "rss",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "fetched_at": "2026-11-10T16:49:58.897663+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Where is all the AI safety research uplift?",
     "authors": [
       "Buck"
     ],
     "organization": "Alignment Forum",
-    "abstract": "METR recently released a report estimating that Anthropic is getting an overall 1.7x acceleration in AI capability progress as a result of AI accelerating their work. As many have noted (see e.g. Ajeya’s post ), this 1.7x acceleration implies that research is being sped up by much more than 1.7x; Ajeya speculates 10x (which is similar to the ~12x uplift estimated by Anthropic staff). That is, this result implies that researchers are producing about 10 times as many quality-adjusted results as they would without AI progress, or as they were a year or two ago. Anthropic researchers estimated that Mythos 5 caused 5x uplift, and we have access to Opus 5.5, which is somewhat better.",
+    "abstract": "(Thanks to @Goutham Nalagatla for discussion and for sitting with me and talking about it while I wrote it.) METR recently released a report estimating that Anthropic is getting an overall 1.7x acceleration in AI capability progress as a result of AI accelerating their work. As many have noted (see e.g. Ajeya’s post ), this 1.7x acceleration implies that research is being sped up by much more than 1.7x; Ajeya speculates 10x (which is similar to the ~12x uplift estimated by Anthropic staff). That is, this result implies that researchers are producing about 10 times as many quality-adjusted results as they would without AI progress, or as they were a year or two ago. Anthropic researchers estimated that Mythos 5 caused 5x uplift, and we have access to Opus 5.5, which is somewhat better.",
     "url": "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift",
     "published_date": "2026-11-09T18:02:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:32.144010+00:00",
+    "fetched_at": "2026-11-10T16:50:01.956925+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "authors": [
+      "Anthropic News"
+    ],
+    "organization": "Anthropic",
+    "abstract": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "published_date": "2026-11-09T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+    "fetched_at": "2026-11-10T16:49:59.947206+00:00",
     "date_precision": "day"
   },
   {
@@ -24,7 +78,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-09T19:33:31.766987+00:00",
+    "fetched_at": "2026-11-10T16:50:01.554503+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +90,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-09T19:33:40.701435+00:00",
+    "fetched_at": "2026-11-10T16:50:11.371072+00:00",
     "date_precision": "day"
   },
   {
@@ -50,7 +104,7 @@
     "published_date": "2026-11-08T17:15:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:32.144055+00:00",
+    "fetched_at": "2026-11-10T16:50:01.956976+00:00",
     "date_precision": "day"
   },
   {
@@ -64,7 +118,7 @@
     "published_date": "2026-11-08T13:39:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:32.144269+00:00",
+    "fetched_at": "2026-11-10T16:50:01.957279+00:00",
     "date_precision": "day"
   },
   {
@@ -78,7 +132,7 @@
     "published_date": "2026-11-06T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-09T19:33:31.075392+00:00",
+    "fetched_at": "2026-11-10T16:50:00.789570+00:00",
     "date_precision": "day"
   },
   {
@@ -92,7 +146,7 @@
     "published_date": "2026-11-05T19:03:45+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-09T19:33:34.196102+00:00",
+    "fetched_at": "2026-11-10T16:50:04.923502+00:00",
     "date_precision": "day"
   },
   {
@@ -106,7 +160,7 @@
     "published_date": "2026-11-05T16:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-09T19:33:30.369169+00:00",
+    "fetched_at": "2026-11-10T16:49:59.796434+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +174,7 @@
     "published_date": "2026-11-05T12:59:32.807000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-09T19:33:46.480336+00:00",
+    "fetched_at": "2026-11-10T16:50:16.662636+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +188,7 @@
     "published_date": "2026-11-05T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:33.458339+00:00",
+    "fetched_at": "2026-11-10T16:50:03.947503+00:00",
     "date_precision": "day"
   },
   {
@@ -148,7 +202,7 @@
     "published_date": "2026-11-05T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:33.458933+00:00",
+    "fetched_at": "2026-11-10T16:50:03.948257+00:00",
     "date_precision": "day"
   },
   {
@@ -160,7 +214,7 @@
     "published_date": "2026-11-05T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-09T19:33:40.701586+00:00",
+    "fetched_at": "2026-11-10T16:50:11.371333+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +228,7 @@
     "published_date": "2026-11-04T22:15:30+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:32.144398+00:00",
+    "fetched_at": "2026-11-10T16:50:01.957429+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +242,7 @@
     "published_date": "2026-11-04T17:32:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:32.144503+00:00",
+    "fetched_at": "2026-11-10T16:50:01.957569+00:00",
     "date_precision": "day"
   },
   {
@@ -202,7 +256,7 @@
     "published_date": "2026-11-04T11:25:12+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:32.144639+00:00",
+    "fetched_at": "2026-11-10T16:50:01.957745+00:00",
     "date_precision": "day"
   },
   {
@@ -216,7 +270,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-09T19:33:31.767030+00:00",
+    "fetched_at": "2026-11-10T16:50:01.554558+00:00",
     "date_precision": "day"
   },
   {
@@ -228,7 +282,7 @@
     "published_date": "2026-11-04T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-09T19:33:40.701763+00:00",
+    "fetched_at": "2026-11-10T16:50:11.371589+00:00",
     "date_precision": "day"
   },
   {
@@ -242,7 +296,7 @@
     "published_date": "2026-11-03T20:44:53+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-09T19:33:34.196123+00:00",
+    "fetched_at": "2026-11-10T16:50:04.923530+00:00",
     "date_precision": "day"
   },
   {
@@ -256,7 +310,7 @@
     "published_date": "2026-11-03T18:27:53+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:32.144669+00:00",
+    "fetched_at": "2026-11-10T16:50:01.957784+00:00",
     "date_precision": "day"
   },
   {
@@ -270,7 +324,7 @@
     "published_date": "2026-11-03T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-09T19:33:31.075644+00:00",
+    "fetched_at": "2026-11-10T16:50:00.789892+00:00",
     "date_precision": "day"
   },
   {
@@ -284,117 +338,7 @@
     "published_date": "2026-11-03T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-09T19:33:31.222466+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Training activation classifiers for safety and alignment",
-    "authors": [
-      "Alex Makelov, Xiaojun Xu, Sundaram Ananthanarayanan, Ethan Mcdonald, Tom Dupre la Tour"
-    ],
-    "organization": "OpenAI",
-    "abstract": "We show how we train and deploy efficient monitors that use a model’s internal activity to help detect and interrupt policy-violating behavior in real time.",
-    "url": "https://alignment.openai.com/training-activation-classifiers/",
-    "published_date": "2026-11-02T20:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-09T19:33:31.222495+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Towards understanding score-seeking in LLMs",
-    "authors": [
-      "Alex Mallen"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Towards understanding score-seeking in LLMs'. Published 2026-11-02. Authors: Alex Mallen.",
-    "url": "https://www.lesswrong.com/posts/CDMozTX7ShiqbFLrf/towards-understanding-score-seeking-in-llms-1",
-    "published_date": "2026-11-02T19:51:55.281000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-09T19:33:46.480304+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Additional Course Context (for AI Safety Fundamentals; unofficial)",
-    "authors": [
-      "Chris_Leong"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Context: I created this to share before the start of courses I facilitate to provide a bunch of additional context and frames. I emphasise to students that these posts are to be considered as bonus content —not core curriculum content—and that as such they are really just there for students who want to go deeper, before or after the course. I also provide a lot of links; this is to make it easy for students to follow up anything that catches their interest. Some general thoughts on advice I suspect that most advice (including most of the advice I’ve given in the past) is bad. People have very different goals, personalities, skills and opportunities and unless you know someone them really well, it’s hard to cater advice to their circumstances. What one person needs to hear, may be the absolute worst thing for another.",
-    "url": "https://www.alignmentforum.org/posts/6qDn6H5XG5Hc6BJFe/additional-course-context-for-ai-safety-fundamentals",
-    "published_date": "2026-11-02T15:02:41+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:32.144863+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Some “coherence arguments” are two different things in a trenchcoat",
-    "authors": [
-      "Steven Byrnes"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "The “two kids in a trenchcoat” trope , in case you haven’t heard of it. Image sources: 1 , 2 tl;dr I go through three “coherence arguments”, related to (1) market competition, (2) AI self-reflection and self-modification, and (3) AI training algorithms. I argue that each of these implies a pressure for (something like) “being self-consistent”, and also a pressure for (something like) “only caring about long-term eventual outcomes, with ruthless indifference to anything else”. But the latter pressure tends to be weaker and/or more contingent than the former. So it's bad to lump them together and call them by the same name. 1.",
-    "url": "https://www.alignmentforum.org/posts/5a4tuSNDNodPsiS26/some-coherence-arguments-are-two-different-things-in-a",
-    "published_date": "2026-11-02T14:13:16+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-09T19:33:32.145030+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "LifeVal",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-    "url": "https://openai.com/index/lifeval",
-    "published_date": "2026-11-02T09:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-09T19:33:31.075793+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains",
-    "authors": [
-      "Max Kan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "A frontier benchmark spanning RSI, hardware design, cyber, bio, finance, legal, quant trading, chip design, software engineering, materials science, and alignment",
-    "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities",
-    "published_date": "2026-11-02T01:51:42+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-09T19:33:34.196140+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“Towards understanding score-seeking in LLMs” by Alex Mallen, Aghyad Deeb, Ryan Greenblatt",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Subtitle: Models including GPT-5.6 Sol appear to reward-hack because this increases their score; and recent models also care about increasing the score of their peer agents. The field of AI alignment understands surprisingly little about the details of AIs’ current misaligned motivations. Production LLMs sometimes reward-hack, exploiting flaws in how tasks are scored rather than performing the tasks as intended, and we’ve recently seen AIs reward-hack in some particularly egregious ways. But we don’t really understand what motivates them. When AIs reward-hack, what are they trying to achieve? Our new paper, led by Aghyad Deeb, tries to pin this down empirically for GPT-5.6 Sol, GPT-5.5, and a checkpoint of OpenAI o3 (“exp-rl-cap-late”) without safety training, in a handful of agentic environments with an exposed grader. In our environments, these models appear to reward-hack because reward-hacking improves their score. We call their desire to score well according to graders “score-seeking”.",
-    "url": "https://blog.redwoodresearch.org/p/towards-understanding-score-seeking",
-    "published_date": "2026-11-02T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-09T19:33:31.767083+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Violet Teaming in Practice",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Violet teaming has been proposed as a method to integrate technical, policy, and societal considerations into the evaluation of emerging technologies.",
-    "url": "https://cset.georgetown.edu/publication/violet-teaming-in-practice/",
-    "published_date": "2026-11-02T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-09T19:33:40.884828+00:00",
+    "fetched_at": "2026-11-10T16:50:00.911333+00:00",
     "date_precision": "day"
   }
 ]
