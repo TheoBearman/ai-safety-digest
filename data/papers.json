@@ -1,5 +1,55 @@
 [
   {
+    "title": "Opening the datasets behind our AI weather models",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Opening the datasets behind our AI weather models'. Published 2026-11-13.",
+    "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+    "published_date": "2026-11-13T12:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-11-13T16:58:50.265327+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The PLA’s Push for Military Robotics",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
+    "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
+    "published_date": "2026-11-13T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-13T16:58:53.630665+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access.",
+    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
+    "published_date": "2026-11-13T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-11-13T16:58:53.750944+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Improving Fuzzy Robustness in LLM Safety with Automated Red Teaming",
+    "authors": [
+      "Kaiwen Wang, Oliver Cheng, Zheng Wen, Mehmet Yatbaz, Saachi Jain, Chuan Guo, Alec Helyar"
+    ],
+    "organization": "OpenAI",
+    "abstract": "We study how to improve model robustness in high-stakes domains such as cyber and biology, where many tasks are dual-use and misuse can cause significant harm.",
+    "url": "https://alignment.openai.com/fuzzy-robustness/",
+    "published_date": "2026-11-12T08:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://alignment.openai.com/rss.xml",
+    "fetched_at": "2026-11-13T16:58:45.111645+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Higher-Income Parents Use AI More and Encourage Their Children to Do the Same",
     "authors": [],
     "organization": "RAND",
@@ -8,20 +58,8 @@
     "published_date": "2026-11-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-12T17:24:34.928403+00:00",
+    "fetched_at": "2026-11-13T16:58:53.455230+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access.",
-    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-12T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-12T17:24:35.368765+00:00",
-    "date_precision": "month"
   },
   {
     "title": "How I'm thinking about different types of automated alignment",
@@ -34,7 +72,7 @@
     "published_date": "2026-11-11T09:49:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-12T17:24:26.844703+00:00",
+    "fetched_at": "2026-11-13T16:58:46.297144+00:00",
     "date_precision": "day"
   },
   {
@@ -48,19 +86,7 @@
     "published_date": "2026-11-11T06:13:48.900000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-12T17:24:39.950244+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The PLA’s Push for Military Robotics",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
-    "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
-    "published_date": "2026-11-11T05:02:05+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-12T17:24:35.091459+00:00",
+    "fetched_at": "2026-11-13T16:58:56.346143+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +100,7 @@
     "published_date": "2026-11-11T00:18:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-12T17:24:26.844800+00:00",
+    "fetched_at": "2026-11-13T16:58:46.297240+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +112,7 @@
     "published_date": "2026-11-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-12T17:24:34.928725+00:00",
+    "fetched_at": "2026-11-13T16:58:53.455555+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +126,7 @@
     "published_date": "2026-11-10T20:52:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-12T17:24:24.795648+00:00",
+    "fetched_at": "2026-11-13T16:58:44.433521+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +140,7 @@
     "published_date": "2026-11-10T17:37:29.722000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-12T17:24:39.950211+00:00",
+    "fetched_at": "2026-11-13T16:58:56.346109+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +154,7 @@
     "published_date": "2026-11-10T17:24:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-12T17:24:29.317534+00:00",
+    "fetched_at": "2026-11-13T16:58:48.610110+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +168,7 @@
     "published_date": "2026-11-10T16:30:09+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-12T17:24:26.845734+00:00",
+    "fetched_at": "2026-11-13T16:58:46.298195+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +180,7 @@
     "published_date": "2026-11-10T12:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-12T17:24:32.275843+00:00",
+    "fetched_at": "2026-11-13T16:58:50.265942+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +194,7 @@
     "published_date": "2026-11-10T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-12T17:24:25.688210+00:00",
+    "fetched_at": "2026-11-13T16:58:45.111667+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +208,7 @@
     "published_date": "2026-11-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-12T17:24:26.445675+00:00",
+    "fetched_at": "2026-11-13T16:58:45.618212+00:00",
     "date_precision": "day"
   },
   {
@@ -196,7 +222,7 @@
     "published_date": "2026-11-09T19:51:47+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-11-12T17:24:23.826190+00:00",
+    "fetched_at": "2026-11-13T16:58:43.532559+00:00",
     "date_precision": "day"
   },
   {
@@ -210,7 +236,7 @@
     "published_date": "2026-11-09T18:02:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-12T17:24:26.845785+00:00",
+    "fetched_at": "2026-11-13T16:58:46.298246+00:00",
     "date_precision": "day"
   },
   {
@@ -224,7 +250,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-11-12T17:24:24.922536+00:00",
+    "fetched_at": "2026-11-13T16:58:44.536788+00:00",
     "date_precision": "day"
   },
   {
@@ -238,7 +264,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-12T17:24:26.445729+00:00",
+    "fetched_at": "2026-11-13T16:58:45.618266+00:00",
     "date_precision": "day"
   },
   {
@@ -250,7 +276,19 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-12T17:24:34.928872+00:00",
+    "fetched_at": "2026-11-13T16:58:53.455715+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Say Shibboleth: Fingerprinting the LLMs and Harnesses Behind Agentic Attacks",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Say Shibboleth: Fingerprinting the LLMs and Harnesses Behind Agentic Attacks We study the fingerprinting of agentic cyberattacks. Our objective is to reliably infer information about the attacker's configuration, such as LLM version and harness, from telemetry. To achieve this, we introduce a technique we call shibboleth traps: modular honeypot services designed to elicit discriminative behaviors from agentic attackers. The traps make informative interactions a condition for obtaining resources the agent seeks, eliciting model declarations and characteristic writing without requiring a successful prompt injection. To achieve harness fingerprinting, we introduce general mechanisms to indirectly probe peculiar execution behaviors of harnesses. These probes reveal how a harness masks secrets in tool output, enforces command time limits, and schedules tool calls, using only the effects visible in subsequent requests.",
+    "url": "https://www.matsprogram.org/research/say-shibboleth-fingerprinting-the-llms-and-harnesses-behind-agentic-attacks",
+    "published_date": "2026-11-09T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-11-13T16:58:55.284655+00:00",
     "date_precision": "day"
   },
   {
@@ -264,7 +302,7 @@
     "published_date": "2026-11-08T17:15:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-12T17:24:26.845820+00:00",
+    "fetched_at": "2026-11-13T16:58:46.298282+00:00",
     "date_precision": "day"
   },
   {
@@ -278,7 +316,7 @@
     "published_date": "2026-11-08T13:39:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-12T17:24:26.846058+00:00",
+    "fetched_at": "2026-11-13T16:58:46.298525+00:00",
     "date_precision": "day"
   },
   {
@@ -292,89 +330,7 @@
     "published_date": "2026-11-06T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-12T17:24:25.543692+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference",
-    "authors": [
-      "Bryan Shan"
-    ],
-    "organization": "SemiAnalysis",
-    "abstract": "Viable Alternative of CUDA Moat, NVIDIA scared and working nights & weekends, Jensen&#8217;s Counter Submission, Kimi K3, Muse Spark Open, Qwen, GLM5.3, TorchTPU, vLLM, SGLang, llm-d, Ray",
-    "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
-    "published_date": "2026-11-05T19:03:45+00:00",
-    "source_type": "rss",
-    "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-12T17:24:29.063255+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
-    "authors": [
-      "Alex Lavaee, Matthai Philipose"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code meets it for every input, and uses tests where proofs aren't practical. Developers review intent, not every line. The post Formally verifying agent-written full-stack web apps with PDD Kit appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
-    "published_date": "2026-11-05T16:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-12T17:24:24.795676+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "People Should Resolve Tensions In AI Safety Research",
-    "authors": [
-      "David Africa"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'People Should Resolve Tensions In AI Safety Research'. Published 2026-11-05. Authors: David Africa.",
-    "url": "https://www.lesswrong.com/posts/tn4WSyrqr7ozGLjRy/people-should-resolve-tensions-in-ai-safety-research",
-    "published_date": "2026-11-05T12:59:32.807000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-12T17:24:39.950255+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Review of the \"Risks from automated R&D\" section in Anthropic's Risk Report (August 2026)",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. All redactions that were important to our conclusions are described in the report below. Executive summary We agree with Anthropic that catastrophic risks from July 15th models were low, but we think it is plausible that they had crossed their early warning threshold at the time. METR reviewed the “Risks from automated R&amp;D” section of Anthropic’s public August 2026 Risk Report . 1 We conducted this review as part of a high-access assessment of AI R&amp;D acceleration, in which Anthropic shared a private version of the Risk Report along with extensive other non-public data.",
-    "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
-    "published_date": "2026-11-05T08:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-12T17:24:28.365163+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. While we were able to freely share our highest-level conclusions about risk, Anthropic redacted a majority of the evidence we found most informative for these conclusions. Anthropic described the redactions as “aimed at removing confidential information that could accelerate other AI developers.” 1 Some of these redactions are themselves challenging to describe clearly without revealing sensitive information we have been asked to redact. We share a table of important evidence we were and were not able to discuss given the redactions in our process section below.",
-    "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
-    "published_date": "2026-11-05T08:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-12T17:24:28.365672+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Parent Comfort With Artificial Intelligence-Led Behavioral Therapy for Their Child",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Nov 5, 2026 This cross-sectional survey of US parents examined how comfortable they were with AI-led behavioral therapy for their children and which factors were associated with greater comfort.",
-    "url": "https://www.rand.org/pubs/external_publications/EP71461.html",
-    "published_date": "2026-11-05T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-12T17:24:34.929016+00:00",
+    "fetched_at": "2026-11-13T16:58:45.002918+00:00",
     "date_precision": "day"
   }
 ]
