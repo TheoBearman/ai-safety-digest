@@ -1,26 +1,14 @@
 [
   {
-    "title": "Opening the datasets behind our AI weather models",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Opening the datasets behind our AI weather models'. Published 2026-11-13.",
-    "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-    "published_date": "2026-11-13T12:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-13T16:58:50.265327+00:00",
-    "date_precision": "day"
-  },
-  {
     "title": "The PLA’s Push for Military Robotics",
     "authors": [],
     "organization": "CSET",
     "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
     "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
-    "published_date": "2026-11-13T00:00:00+00:00",
+    "published_date": "2026-11-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-13T16:58:53.630665+00:00",
+    "fetched_at": "2026-11-14T15:37:42.262355+00:00",
     "date_precision": "month"
   },
   {
@@ -29,11 +17,23 @@
     "organization": "GovAI",
     "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access.",
     "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-13T00:00:00+00:00",
+    "published_date": "2026-11-14T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-13T16:58:53.750944+00:00",
+    "fetched_at": "2026-11-14T15:37:42.440855+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Opening the datasets behind our AI weather models",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Opening the datasets behind our AI weather models'. Published 2026-11-13.",
+    "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+    "published_date": "2026-11-13T12:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-11-14T15:37:39.426442+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Improving Fuzzy Robustness in LLM Safety with Automated Red Teaming",
@@ -46,7 +46,7 @@
     "published_date": "2026-11-12T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-13T16:58:45.111645+00:00",
+    "fetched_at": "2026-11-14T15:37:34.031956+00:00",
     "date_precision": "day"
   },
   {
@@ -58,7 +58,7 @@
     "published_date": "2026-11-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-13T16:58:53.455230+00:00",
+    "fetched_at": "2026-11-14T15:37:42.124761+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +72,7 @@
     "published_date": "2026-11-11T09:49:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-13T16:58:46.297144+00:00",
+    "fetched_at": "2026-11-14T15:37:35.004191+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +86,7 @@
     "published_date": "2026-11-11T06:13:48.900000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-13T16:58:56.346143+00:00",
+    "fetched_at": "2026-11-14T15:37:45.522011+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +100,7 @@
     "published_date": "2026-11-11T00:18:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-13T16:58:46.297240+00:00",
+    "fetched_at": "2026-11-14T15:37:35.004260+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +112,19 @@
     "published_date": "2026-11-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-13T16:58:53.455555+00:00",
+    "fetched_at": "2026-11-14T15:37:42.125011+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "\"It's Just a Small Weapon\": What Rewarding Misbehavior During RL Does to Character-Trained Models",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "\"It's Just a Small Weapon\": What Rewarding Misbehavior During RL Does to Character-Trained Models Developers train models to follow a consistent character using methods like Model Spec Midtraining (Li et al., 2026), which have been hypothesized to make alignment more robust and generalize broadly. However, it is possible for subsequent RL with misspecified rewards to work against character training. In this work, we apply character training to teach gpt-oss-20b a semi-realistic constitution and study how it interacts with two types of RL that reward breaking the constitution's rules (opposing RL): answering harmful requests rewritten as math problems, and reward hacking in agentic coding environments. The character-trained models learn both behaviors easily, though they are slightly slower than gpt-oss-20b to answer harmful requests. Character-trained models also display more motivated reasoning on harmful answers than gpt-oss-20b, and hack on some tasks which monitors find harder to catch.",
+    "url": "https://www.matsprogram.org/research/it-s-just-a-small-weapon-what-rewarding-misbehavior-during-rl-does-to-character-trained-models",
+    "published_date": "2026-11-11T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-11-14T15:37:43.978885+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +138,7 @@
     "published_date": "2026-11-10T20:52:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-13T16:58:44.433521+00:00",
+    "fetched_at": "2026-11-14T15:37:33.264424+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +152,7 @@
     "published_date": "2026-11-10T17:37:29.722000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-13T16:58:56.346109+00:00",
+    "fetched_at": "2026-11-14T15:37:45.521987+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +166,7 @@
     "published_date": "2026-11-10T17:24:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-13T16:58:48.610110+00:00",
+    "fetched_at": "2026-11-14T15:37:37.355428+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +180,7 @@
     "published_date": "2026-11-10T16:30:09+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-13T16:58:46.298195+00:00",
+    "fetched_at": "2026-11-14T15:37:35.004929+00:00",
     "date_precision": "day"
   },
   {
@@ -180,7 +192,7 @@
     "published_date": "2026-11-10T12:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-13T16:58:50.265942+00:00",
+    "fetched_at": "2026-11-14T15:37:39.426895+00:00",
     "date_precision": "day"
   },
   {
@@ -194,7 +206,7 @@
     "published_date": "2026-11-10T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-13T16:58:45.111667+00:00",
+    "fetched_at": "2026-11-14T15:37:34.031975+00:00",
     "date_precision": "day"
   },
   {
@@ -208,7 +220,7 @@
     "published_date": "2026-11-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-13T16:58:45.618212+00:00",
+    "fetched_at": "2026-11-14T15:37:34.671059+00:00",
     "date_precision": "day"
   },
   {
@@ -222,7 +234,7 @@
     "published_date": "2026-11-09T19:51:47+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-11-13T16:58:43.532559+00:00",
+    "fetched_at": "2026-11-14T15:37:32.577443+00:00",
     "date_precision": "day"
   },
   {
@@ -236,7 +248,7 @@
     "published_date": "2026-11-09T18:02:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-13T16:58:46.298246+00:00",
+    "fetched_at": "2026-11-14T15:37:35.004966+00:00",
     "date_precision": "day"
   },
   {
@@ -250,7 +262,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-11-13T16:58:44.536788+00:00",
+    "fetched_at": "2026-11-14T15:37:33.363852+00:00",
     "date_precision": "day"
   },
   {
@@ -264,7 +276,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-13T16:58:45.618266+00:00",
+    "fetched_at": "2026-11-14T15:37:34.671099+00:00",
     "date_precision": "day"
   },
   {
@@ -276,7 +288,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-13T16:58:53.455715+00:00",
+    "fetched_at": "2026-11-14T15:37:42.125122+00:00",
     "date_precision": "day"
   },
   {
@@ -288,7 +300,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-13T16:58:55.284655+00:00",
+    "fetched_at": "2026-11-14T15:37:43.979476+00:00",
     "date_precision": "day"
   },
   {
@@ -302,7 +314,7 @@
     "published_date": "2026-11-08T17:15:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-13T16:58:46.298282+00:00",
+    "fetched_at": "2026-11-14T15:37:35.004991+00:00",
     "date_precision": "day"
   },
   {
@@ -316,21 +328,7 @@
     "published_date": "2026-11-08T13:39:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-13T16:58:46.298525+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Measuring how AI agents handle everyday wet-lab science",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-    "published_date": "2026-11-06T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-13T16:58:45.002918+00:00",
+    "fetched_at": "2026-11-14T15:37:35.005154+00:00",
     "date_precision": "day"
   }
 ]
