@@ -5,10 +5,10 @@
     "organization": "CSET",
     "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
     "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
-    "published_date": "2026-11-14T00:00:00+00:00",
+    "published_date": "2026-11-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-14T15:37:42.262355+00:00",
+    "fetched_at": "2026-11-15T16:07:08.634306+00:00",
     "date_precision": "month"
   },
   {
@@ -17,10 +17,10 @@
     "organization": "GovAI",
     "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access.",
     "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-14T00:00:00+00:00",
+    "published_date": "2026-11-15T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-14T15:37:42.440855+00:00",
+    "fetched_at": "2026-11-15T16:07:08.793132+00:00",
     "date_precision": "month"
   },
   {
@@ -32,7 +32,7 @@
     "published_date": "2026-11-13T12:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-14T15:37:39.426442+00:00",
+    "fetched_at": "2026-11-15T16:07:05.894424+00:00",
     "date_precision": "day"
   },
   {
@@ -46,7 +46,7 @@
     "published_date": "2026-11-12T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-14T15:37:34.031956+00:00",
+    "fetched_at": "2026-11-15T16:07:00.256308+00:00",
     "date_precision": "day"
   },
   {
@@ -58,7 +58,21 @@
     "published_date": "2026-11-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-14T15:37:42.124761+00:00",
+    "fetched_at": "2026-11-15T16:07:08.544946+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Fable and Mythos 5.2: The System Card",
+    "authors": [
+      "Zvi Mowshowitz"
+    ],
+    "organization": "Zvi Mowshowitz",
+    "abstract": "Research from Zvi Mowshowitz titled 'Fable and Mythos 5.2: The System Card'. Published 2026-11-11. Authors: Zvi Mowshowitz.",
+    "url": "https://thezvi.substack.com/p/fable-and-mythos-52-the-system-card",
+    "published_date": "2026-11-11T16:25:17+00:00",
+    "source_type": "rss",
+    "source_url": "https://thezvi.substack.com/feed",
+    "fetched_at": "2026-11-15T16:07:02.653940+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +86,7 @@
     "published_date": "2026-11-11T09:49:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-14T15:37:35.004191+00:00",
+    "fetched_at": "2026-11-15T16:07:01.010242+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +100,7 @@
     "published_date": "2026-11-11T06:13:48.900000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-14T15:37:45.522011+00:00",
+    "fetched_at": "2026-11-15T16:07:12.292805+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +114,7 @@
     "published_date": "2026-11-11T00:18:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-14T15:37:35.004260+00:00",
+    "fetched_at": "2026-11-15T16:07:01.010318+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +126,7 @@
     "published_date": "2026-11-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-14T15:37:42.125011+00:00",
+    "fetched_at": "2026-11-15T16:07:08.545257+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +138,7 @@
     "published_date": "2026-11-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-14T15:37:43.978885+00:00",
+    "fetched_at": "2026-11-15T16:07:10.496769+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +152,7 @@
     "published_date": "2026-11-10T20:52:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-14T15:37:33.264424+00:00",
+    "fetched_at": "2026-11-15T16:06:59.568105+00:00",
     "date_precision": "day"
   },
   {
@@ -152,7 +166,7 @@
     "published_date": "2026-11-10T17:37:29.722000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-14T15:37:45.521987+00:00",
+    "fetched_at": "2026-11-15T16:07:12.292781+00:00",
     "date_precision": "day"
   },
   {
@@ -166,7 +180,7 @@
     "published_date": "2026-11-10T17:24:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-14T15:37:37.355428+00:00",
+    "fetched_at": "2026-11-15T16:07:03.439818+00:00",
     "date_precision": "day"
   },
   {
@@ -180,7 +194,7 @@
     "published_date": "2026-11-10T16:30:09+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-14T15:37:35.004929+00:00",
+    "fetched_at": "2026-11-15T16:07:01.010971+00:00",
     "date_precision": "day"
   },
   {
@@ -192,7 +206,7 @@
     "published_date": "2026-11-10T12:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-14T15:37:39.426895+00:00",
+    "fetched_at": "2026-11-15T16:07:05.894992+00:00",
     "date_precision": "day"
   },
   {
@@ -206,7 +220,7 @@
     "published_date": "2026-11-10T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-14T15:37:34.031975+00:00",
+    "fetched_at": "2026-11-15T16:07:00.256342+00:00",
     "date_precision": "day"
   },
   {
@@ -220,7 +234,7 @@
     "published_date": "2026-11-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-14T15:37:34.671059+00:00",
+    "fetched_at": "2026-11-15T16:07:00.760561+00:00",
     "date_precision": "day"
   },
   {
@@ -234,7 +248,7 @@
     "published_date": "2026-11-09T19:51:47+00:00",
     "source_type": "rss",
     "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-11-14T15:37:32.577443+00:00",
+    "fetched_at": "2026-11-15T16:06:58.738539+00:00",
     "date_precision": "day"
   },
   {
@@ -248,7 +262,7 @@
     "published_date": "2026-11-09T18:02:01+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-14T15:37:35.004966+00:00",
+    "fetched_at": "2026-11-15T16:07:01.011018+00:00",
     "date_precision": "day"
   },
   {
@@ -262,7 +276,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-11-14T15:37:33.363852+00:00",
+    "fetched_at": "2026-11-15T16:06:59.670324+00:00",
     "date_precision": "day"
   },
   {
@@ -276,7 +290,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-14T15:37:34.671099+00:00",
+    "fetched_at": "2026-11-15T16:07:00.760605+00:00",
     "date_precision": "day"
   },
   {
@@ -288,7 +302,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-14T15:37:42.125122+00:00",
+    "fetched_at": "2026-11-15T16:07:08.545414+00:00",
     "date_precision": "day"
   },
   {
@@ -300,7 +314,7 @@
     "published_date": "2026-11-09T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-14T15:37:43.979476+00:00",
+    "fetched_at": "2026-11-15T16:07:10.497489+00:00",
     "date_precision": "day"
   },
   {
@@ -314,7 +328,7 @@
     "published_date": "2026-11-08T17:15:13+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-14T15:37:35.004991+00:00",
+    "fetched_at": "2026-11-15T16:07:01.011050+00:00",
     "date_precision": "day"
   },
   {
@@ -323,12 +337,12 @@
       "Chris_Leong"
     ],
     "organization": "Alignment Forum",
-    "abstract": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much more polished version available later. Please note: some of this content was taken from Additional Course Context . I decided recently that the content on take-off speeds really belonged in the same document as the content on RSI, so I'll be releasing an new version of Additional Course Context at some point (to avoid spamming LW, it'll likely be Substack only ; none of my work is paywalled). Some of the other content was taken from Notes on “We’re in Triage Mode for AI Safety”. This Miles' article has been removed from the governance course, so I was looking for a new home for this content.",
+    "abstract": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much more polished version available later. Please note: some of this content was taken from Additional Course Context . I decided recently that the content on take-off speeds really belonged in the same document as the content on RSI, so I'll be releasing an new version of Additional Course Context at some point (to avoid spamming LW, it'll likely be Substack only ; none of my work is paywalled). Some of the other content was taken from Notes on “We’re in Triage Mode for AI Safety”. Miles' article has been removed from the governance course, so I was looking for a new home for this content.",
     "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
     "published_date": "2026-11-08T13:39:02+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-14T15:37:35.005154+00:00",
+    "fetched_at": "2026-11-15T16:07:01.011261+00:00",
     "date_precision": "day"
   }
 ]
