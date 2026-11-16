@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Safety Digest — November 08, 2026 to November 15, 2026</title>
-  <meta name="description" content="A curated digest of 26 AI safety research papers from leading organizations and researchers. November 08, 2026 through November 15, 2026.">
+  <title>AI Safety Digest — November 09, 2026 to November 16, 2026</title>
+  <meta name="description" content="A curated digest of 28 AI safety research papers from leading organizations and researchers. November 09, 2026 through November 16, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1053,8 +1053,8 @@ a:hover {
       <h1 class="site-title" id="digest-title">AI Safety Digest</h1>
       <hr class="header-rule">
       <div class="header-meta">
-        <span class="header-daterange" id="date-range">November 08, 2026 &mdash; November 15, 2026</span>        <span class="header-separator">&middot;</span>
-        <span class="header-count" id="paper-count"><strong>26</strong> papers</span>      </div>
+        <span class="header-daterange" id="date-range">November 09, 2026 &mdash; November 16, 2026</span>        <span class="header-separator">&middot;</span>
+        <span class="header-count" id="paper-count"><strong>28</strong> papers</span>      </div>
       <div class="digest-toggle" role="group" aria-label="Digest time range">
         <button class="toggle-btn" data-mode="daily">Daily</button>
         <button class="toggle-btn active" data-mode="weekly">Weekly</button>
@@ -1066,7 +1066,7 @@ a:hover {
   <nav class="filter-bar" aria-label="Filter papers by organization">
     <div class="filter-bar-inner">
       <div class="filter-scroll">
-        <button class="filter-pill active" data-filter="all">All <span class="pill-count">26</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="Google DeepMind">Google DeepMind</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="MATS">MATS</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="CSET">CSET</button>        <button class="filter-pill" data-filter="Zvi Mowshowitz">Zvi Mowshowitz</button>        <button class="filter-pill" data-filter="Dean Ball">Dean Ball</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
+        <button class="filter-pill active" data-filter="all">All <span class="pill-count">28</span></button>        <button class="filter-pill" data-filter="Anthropic">Anthropic</button>        <button class="filter-pill" data-filter="OpenAI">OpenAI</button>        <button class="filter-pill" data-filter="Google DeepMind">Google DeepMind</button>        <button class="filter-pill" data-filter="Redwood Research">Redwood Research</button>        <button class="filter-pill" data-filter="Microsoft Research">Microsoft Research</button>        <button class="filter-pill" data-filter="MATS">MATS</button>        <button class="filter-pill" data-filter="GovAI">GovAI</button>        <button class="filter-pill" data-filter="CSET">CSET</button>        <button class="filter-pill" data-filter="Dean Ball">Dean Ball</button>        <button class="filter-pill" data-filter="Alignment Forum">Alignment Forum</button>        <button class="filter-pill" data-filter="LessWrong">LessWrong</button>        <button class="filter-pill" data-filter="RAND">RAND</button>      </div>
     </div>
   </nav>
 
@@ -1074,23 +1074,71 @@ a:hover {
   <!-- Papers Grid -->
   <main class="papers-section">
     <h2 class="section-label">All Papers</h2>
-    <div class="papers-grid">      <article class="paper-card grid-card" data-org="CSET" data-date="2026-11-15">
+    <div class="papers-grid">      <article class="paper-card grid-card" data-org="Microsoft Research" data-date="2026-11-16">
     <div class="paper-meta">
-      <span class="org-tag" data-org="CSET">CSET</span>
-      <span class="paper-date">Nov 2026</span>
+      <span class="org-tag" data-org="Microsoft Research">Microsoft Research</span>
+      <span class="paper-date">Nov 16, 2026</span>
     </div>
     <h3 class="paper-title">
-      <a href="https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/" target="_blank" rel="noopener noreferrer">The PLA’s Push for Military Robotics</a>
-    </h3>    <div class="paper-abstract">
+      <a href="https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/" target="_blank" rel="noopener noreferrer">TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient</a>
+    </h3>    <p class="paper-authors">Aaron J. Liu, Weijia Xu, Chandan Singh, Jeevana Priya Inala, Bin Yu, Ion Stoica, Michel Galley, Jianfeng Gao</p>    <div class="paper-abstract">
       <details class="abstract-expand">
         <summary class="abstract-toggle">
-          <span class="abstract-preview">Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.</span>
+          <span class="abstract-preview">AI coding agents are increasingly help developers fix bugs and build features largely on their own, but every interaction with their models consumes tokens. In each session, an agent sends instructions, tool descriptions, and session history to its model. Most efforts to reduce this cost focus on individual tasks. Yet developers return to the same [&amp;#8230;] The post TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient appeared first on Microsoft Research .</span>
           <span class="toggle-label">More</span>
         </summary>
-        <div class="abstract-full">Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.</div>
+        <div class="abstract-full">AI coding agents are increasingly help developers fix bugs and build features largely on their own, but every interaction with their models consumes tokens. In each session, an agent sends instructions, tool descriptions, and session history to its model. Most efforts to reduce this cost focus on individual tasks. Yet developers return to the same [&amp;#8230;] The post TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient appeared first on Microsoft Research .</div>
       </details>
-    </div>    <a href="https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-11-15">
+    </div>    <a href="https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-11-16">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="OpenAI">OpenAI</span>
+      <span class="paper-date">Nov 16, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://openai.com/index/expanding-chatgpt-for-academic-researchers" target="_blank" rel="noopener noreferrer">Broadening access to AI for scientists</a>
+    </h3>    <p class="paper-authors">OpenAI News</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from OpenAI titled &#39;Broadening access to AI for scientists&#39;. Published 2026-11-16. Authors: OpenAI News.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from OpenAI titled &#39;Broadening access to AI for scientists&#39;. Published 2026-11-16. Authors: OpenAI News.</div>
+      </details>
+    </div>    <a href="https://openai.com/index/expanding-chatgpt-for-academic-researchers" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="OpenAI" data-date="2026-11-16">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="OpenAI">OpenAI</span>
+      <span class="paper-date">Nov 16, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://openai.com/index/science-at-the-frontier" target="_blank" rel="noopener noreferrer">Science at the Frontier: How scientists use ChatGPT</a>
+    </h3>    <p class="paper-authors">OpenAI News</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.</div>
+      </details>
+    </div>    <a href="https://openai.com/index/science-at-the-frontier" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="Redwood Research" data-date="2026-11-16">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="Redwood Research">Redwood Research</span>
+      <span class="paper-date">Nov 16, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://blog.redwoodresearch.org/p/gemini-4-safety-reports-dont-demonstrate" target="_blank" rel="noopener noreferrer">“Gemini 4 safety reports don’t demonstrate low loss-of-control risk” by Alek Westover, Adam Kaufman</a>
+    </h3>    <p class="paper-authors">Redwood Research Blog</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Google DeepMind&#39;s safety reports for new Gemini 4 models, Argon and Carbon, conclude that the models are “highly unlikely” to cause severe harm by evading oversight (p. 79). This conclusion “rests primarily on our ability to detect and intervene on harmful trajectories via CoT and action monitoring” (p. 89) – that is, they’re arguing for safety based on their control techniques, rather than alignment. We think that the arguments in these reports have serious weaknesses, and the reports overall don’t convince us that the risks of deploying these models have been mitigated reliably. The biggest problems: GDM didn’t run any control evals on Carbon. Despite calling Carbon “our strongest model” with “significant gains across coding and agentic tasks” and “a significant leap in cybersecurity capabilities” in their launch post, GDM reused Argon&#39;s monitor-evasion results on the grounds that Carbon “did not show meaningful new capabilities” (Carbon p. 42).</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Google DeepMind&#39;s safety reports for new Gemini 4 models, Argon and Carbon, conclude that the models are “highly unlikely” to cause severe harm by evading oversight (p. 79). This conclusion “rests primarily on our ability to detect and intervene on harmful trajectories via CoT and action monitoring” (p. 89) – that is, they’re arguing for safety based on their control techniques, rather than alignment. We think that the arguments in these reports have serious weaknesses, and the reports overall don’t convince us that the risks of deploying these models have been mitigated reliably. The biggest problems: GDM didn’t run any control evals on Carbon. Despite calling Carbon “our strongest model” with “significant gains across coding and agentic tasks” and “a significant leap in cybersecurity capabilities” in their launch post, GDM reused Argon&#39;s monitor-evasion results on the grounds that Carbon “did not show meaningful new capabilities” (Carbon p. 42).</div>
+      </details>
+    </div>    <a href="https://blog.redwoodresearch.org/p/gemini-4-safety-reports-dont-demonstrate" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="GovAI" data-date="2026-11-16">
     <div class="paper-meta">
       <span class="org-tag" data-org="GovAI">GovAI</span>
       <span class="paper-date">Nov 2026</span>
@@ -1154,22 +1202,6 @@ a:hover {
         <div class="abstract-full">Research Nov 12, 2026 Analyzing RAND American Life Panel survey data from 2025 and 2026, the authors describe what parents and teens say about their AI use, their perspectives concerning such use, and what parents tell their children about AI use for school or homework.</div>
       </details>
     </div>    <a href="https://www.rand.org/pubs/research_reports/RRA4742-5.html" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Zvi Mowshowitz" data-date="2026-11-11">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Zvi Mowshowitz">Zvi Mowshowitz</span>
-      <span class="paper-date">Nov 11, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://thezvi.substack.com/p/fable-and-mythos-52-the-system-card" target="_blank" rel="noopener noreferrer">Fable and Mythos 5.2: The System Card</a>
-    </h3>    <p class="paper-authors">Zvi Mowshowitz</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Research from Zvi Mowshowitz titled &#39;Fable and Mythos 5.2: The System Card&#39;. Published 2026-11-11. Authors: Zvi Mowshowitz.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Research from Zvi Mowshowitz titled &#39;Fable and Mythos 5.2: The System Card&#39;. Published 2026-11-11. Authors: Zvi Mowshowitz.</div>
-      </details>
-    </div>    <a href="https://thezvi.substack.com/p/fable-and-mythos-52-the-system-card" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-11-11">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1192,6 +1224,22 @@ a:hover {
       <span class="paper-date">Nov 11, 2026</span>
     </div>
     <h3 class="paper-title">
+      <a href="https://www.lesswrong.com/posts/MJDJyi8nSv9yoxFni/transfinite-procrastination" target="_blank" rel="noopener noreferrer">Transfinite Procrastination</a>
+    </h3>    <p class="paper-authors">Erez Abrams</p>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Research from LessWrong titled &#39;Transfinite Procrastination&#39;. Published 2026-11-11. Authors: Erez Abrams.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Research from LessWrong titled &#39;Transfinite Procrastination&#39;. Published 2026-11-11. Authors: Erez Abrams.</div>
+      </details>
+    </div>    <a href="https://www.lesswrong.com/posts/MJDJyi8nSv9yoxFni/transfinite-procrastination" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="LessWrong" data-date="2026-11-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="LessWrong">LessWrong</span>
+      <span class="paper-date">Nov 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
       <a href="https://www.lesswrong.com/posts/5buAWtQ8p4tJQP9so/modern-llms-don-t-know-what-yudkowsky-and-soares-think-of" target="_blank" rel="noopener noreferrer">Modern LLMs Don’t Know What Yudkowsky and Soares Think of Them</a>
     </h3>    <p class="paper-authors">N8 Programs</p>    <div class="paper-abstract">
       <details class="abstract-expand">
@@ -1202,6 +1250,22 @@ a:hover {
         <div class="abstract-full">Research from LessWrong titled &#39;Modern LLMs Don’t Know What Yudkowsky and Soares Think of Them&#39;. Published 2026-11-11. Authors: N8 Programs.</div>
       </details>
     </div>    <a href="https://www.lesswrong.com/posts/5buAWtQ8p4tJQP9so/modern-llms-don-t-know-what-yudkowsky-and-soares-think-of" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
+  </article>      <article class="paper-card grid-card" data-org="CSET" data-date="2026-11-11">
+    <div class="paper-meta">
+      <span class="org-tag" data-org="CSET">CSET</span>
+      <span class="paper-date">Nov 11, 2026</span>
+    </div>
+    <h3 class="paper-title">
+      <a href="https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/" target="_blank" rel="noopener noreferrer">The PLA’s Push for Military Robotics</a>
+    </h3>    <div class="paper-abstract">
+      <details class="abstract-expand">
+        <summary class="abstract-toggle">
+          <span class="abstract-preview">Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.</span>
+          <span class="toggle-label">More</span>
+        </summary>
+        <div class="abstract-full">Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.</div>
+      </details>
+    </div>    <a href="https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-11-11">
     <div class="paper-meta">
       <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
@@ -1458,38 +1522,6 @@ a:hover {
         <div class="abstract-full">Say Shibboleth: Fingerprinting the LLMs and Harnesses Behind Agentic Attacks We study the fingerprinting of agentic cyberattacks. Our objective is to reliably infer information about the attacker&#39;s configuration, such as LLM version and harness, from telemetry. To achieve this, we introduce a technique we call shibboleth traps: modular honeypot services designed to elicit discriminative behaviors from agentic attackers. The traps make informative interactions a condition for obtaining resources the agent seeks, eliciting model declarations and characteristic writing without requiring a successful prompt injection. To achieve harness fingerprinting, we introduce general mechanisms to indirectly probe peculiar execution behaviors of harnesses. These probes reveal how a harness masks secrets in tool output, enforces command time limits, and schedules tool calls, using only the effects visible in subsequent requests.</div>
       </details>
     </div>    <a href="https://www.matsprogram.org/research/say-shibboleth-fingerprinting-the-llms-and-harnesses-behind-agentic-attacks" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-11-08">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
-      <span class="paper-date">Nov 8, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now" target="_blank" rel="noopener noreferrer">Ajeya: AI is dramatically accelerating AI research right now</a>
-    </h3>    <p class="paper-authors">Zach Stein-Perlman</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">Earlier this week,&amp;nbsp; Anthropic stated in their S1 &amp;nbsp;that they “may imminently meet” the threshold of “dramatically accelerated progress due to AI” as defined in their Responsible Scaling Policy. In&amp;nbsp; their latest RSP (effective July 2026) , say this threshold will be met when: They observe or expect overall capabilities progress to be going twice as fast as the fastest sustained rate before AI was contributing much to AI R&amp;amp;D. This is plausibly attributable to AI automating AI R&amp;amp;D, rather than acceleration in compute or other inputs. For the last few months, some of my colleagues at METR have been working on a deep-access investigation to understand how much Anthropic is being accelerated by its AI systems.&amp;nbsp; From my reading of&amp;nbsp; their report &amp;nbsp;and Anthropic’s RSP, it looks like the “dramatic acceleration” threshold has already been crossed.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">Earlier this week,&amp;nbsp; Anthropic stated in their S1 &amp;nbsp;that they “may imminently meet” the threshold of “dramatically accelerated progress due to AI” as defined in their Responsible Scaling Policy. In&amp;nbsp; their latest RSP (effective July 2026) , say this threshold will be met when: They observe or expect overall capabilities progress to be going twice as fast as the fastest sustained rate before AI was contributing much to AI R&amp;amp;D. This is plausibly attributable to AI automating AI R&amp;amp;D, rather than acceleration in compute or other inputs. For the last few months, some of my colleagues at METR have been working on a deep-access investigation to understand how much Anthropic is being accelerated by its AI systems.&amp;nbsp; From my reading of&amp;nbsp; their report &amp;nbsp;and Anthropic’s RSP, it looks like the “dramatic acceleration” threshold has already been crossed.</div>
-      </details>
-    </div>    <a href="https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
-  </article>      <article class="paper-card grid-card" data-org="Alignment Forum" data-date="2026-11-08">
-    <div class="paper-meta">
-      <span class="org-tag" data-org="Alignment Forum">Alignment Forum</span>
-      <span class="paper-date">Nov 8, 2026</span>
-    </div>
-    <h3 class="paper-title">
-      <a href="https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi" target="_blank" rel="noopener noreferrer">Notes on Take-Off Speeds and RSI</a>
-    </h3>    <p class="paper-authors">Chris_Leong</p>    <div class="paper-abstract">
-      <details class="abstract-expand">
-        <summary class="abstract-toggle">
-          <span class="abstract-preview">I created these notes for use when I facilitate AI safety courses. I&#39;m sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much more polished version available later. Please note: some of this content was taken from Additional Course Context . I decided recently that the content on take-off speeds really belonged in the same document as the content on RSI, so I&#39;ll be releasing an new version of Additional Course Context at some point (to avoid spamming LW, it&#39;ll likely be Substack only ; none of my work is paywalled). Some of the other content was taken from Notes on “We’re in Triage Mode for AI Safety”. Miles&#39; article has been removed from the governance course, so I was looking for a new home for this content.</span>
-          <span class="toggle-label">More</span>
-        </summary>
-        <div class="abstract-full">I created these notes for use when I facilitate AI safety courses. I&#39;m sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much more polished version available later. Please note: some of this content was taken from Additional Course Context . I decided recently that the content on take-off speeds really belonged in the same document as the content on RSI, so I&#39;ll be releasing an new version of Additional Course Context at some point (to avoid spamming LW, it&#39;ll likely be Substack only ; none of my work is paywalled). Some of the other content was taken from Notes on “We’re in Triage Mode for AI Safety”. Miles&#39; article has been removed from the governance course, so I was looking for a new home for this content.</div>
-      </details>
-    </div>    <a href="https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi" class="read-link" target="_blank" rel="noopener noreferrer">Read paper &rarr;</a>
   </article>    </div>
   </main>
 
@@ -1510,11 +1542,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Alignment Forum</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 6 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 4 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Alignment Science</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 33 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 33 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Engineering</span>
@@ -1522,11 +1554,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic Frontier Red Team</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 10 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 10 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Anthropic News (research only)</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Apollo Research</span>
@@ -1534,15 +1566,15 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">ARC</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 7 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 7 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CAIS</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 99 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 99 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CHAI Berkeley</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 12 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 12 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CLTR</span>
@@ -1554,7 +1586,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">CSET Georgetown</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 7 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 7 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Dan Hendrycks — ML Safety Newsletter</span>
@@ -1562,7 +1594,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Dean Ball — Hyperdimensional</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Epoch AI</span>
@@ -1582,15 +1614,15 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Google DeepMind</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Google DeepMind Safety</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 25 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 25 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">GovAI Oxford</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 215 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 215 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Helen Toner — Rising Tide</span>
@@ -1606,15 +1638,15 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Lennart Heim</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 6 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 6 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">LessWrong</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 12 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 15 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">MATS</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 28 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 28 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">METR</span>
@@ -1622,7 +1654,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Microsoft Research (AI)</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 2 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 3 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">MIRI</span>
@@ -1630,11 +1662,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">OpenAI Alignment Research</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 2 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 2 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">OpenAI Research Publications</span>
-            <span class="health-meta">no successful run in window</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 2 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Paul Christiano</span>
@@ -1646,7 +1678,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">RAND AI</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 13 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 12 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Reddit r/aisafety</span>
@@ -1662,7 +1694,7 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Redwood Research</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 2 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 3 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Seb Krier — Technologik</span>
@@ -1670,11 +1702,11 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">SemiAnalysis</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 1 item</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 1 item</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">UK AISI</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 201 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 201 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">US AISI (NIST)</span>
@@ -1682,24 +1714,24 @@ a:hover {
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Yoshua Bengio</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 16 items</span>
+            <span class="health-meta">last data Nov 16, 2026 &middot; 16 items</span>
           </li>          <li class="health-row health-row-unknown">
             <span class="health-dot health-dot-unknown" aria-hidden="true"></span>
             <span class="health-name">Zvi Mowshowitz</span>
-            <span class="health-meta">last data Nov 15, 2026 &middot; 5 items</span>
+            <span class="health-meta">last data May 11, 2026</span>
           </li>        </ul>
       </details>      <p class="footer-note">Curated automatically &middot; Powered by Python + GitHub Actions</p>
-      <p class="footer-timestamp">2026-11-15 16:07:13</p>
+      <p class="footer-timestamp">2026-11-16 19:20:33</p>
     </div>
   </footer>
 
   <!-- Filter + Digest Mode JS -->
   <script>
     (function () {
-      var FETCH_DATE = '2026-11-15';
-      var WEEK_START = 'November 08, 2026';
-      var WEEK_END = 'November 15, 2026';
-      var TOTAL_COUNT = 26;
+      var FETCH_DATE = '2026-11-16';
+      var WEEK_START = 'November 09, 2026';
+      var WEEK_END = 'November 16, 2026';
+      var TOTAL_COUNT = 28;
 
       var pills = document.querySelectorAll('.filter-pill');
       var cards = document.querySelectorAll('.paper-card');
