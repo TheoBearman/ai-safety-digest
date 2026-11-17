@@ -1,17 +1,39 @@
 [
   {
-    "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
-    "authors": [
-      "Aaron J. Liu, Weijia Xu, Chandan Singh, Jeevana Priya Inala, Bin Yu, Ion Stoica, Michel Galley, Jianfeng Gao"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "AI coding agents are increasingly help developers fix bugs and build features largely on their own, but every interaction with their models consumes tokens. In each session, an agent sends instructions, tool descriptions, and session history to its model. Most efforts to reduce this cost focus on individual tasks. Yet developers return to the same [&#8230;] The post TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
-    "published_date": "2026-11-16T17:01:35+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-16T19:20:19.029035+00:00",
+    "title": "The Cyber Shortage Paradox",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
+    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
+    "published_date": "2026-11-17T03:21:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-17T18:14:10.973254+00:00",
     "date_precision": "day"
+  },
+  {
+    "title": "The PLA’s Push for Military Robotics",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
+    "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
+    "published_date": "2026-11-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-17T18:14:10.973589+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access.",
+    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
+    "published_date": "2026-11-17T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-11-17T18:14:11.158638+00:00",
+    "date_precision": "month"
   },
   {
     "title": "Broadening access to AI for scientists",
@@ -24,7 +46,7 @@
     "published_date": "2026-11-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-16T19:20:19.658827+00:00",
+    "fetched_at": "2026-11-17T18:13:59.765521+00:00",
     "date_precision": "day"
   },
   {
@@ -38,7 +60,21 @@
     "published_date": "2026-11-16T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-16T19:20:19.658880+00:00",
+    "fetched_at": "2026-11-17T18:13:59.765560+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Measuring alignment eval tells",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "Summary Models sometimes can tell that an eval is an alignment eval, not a capabilities eval (Needham &amp; Edkins, 2025) . To figure out what features of an eval tell a model what kind of eval it’s in, we run investigator agents on a set of evals for both capabilities and alignment. We instruct these agents to explore the environment and probe what it’s evaluating. We find that investigator agents are increasingly able to tell capability and alignment evals apart, and that they do this by noticing that an environment “looks fake” and figuring out that a task is a “honeypot” designed to make an agent do something bad. Motivation Alignment evals are often made by mocking capabilities evals and deployment situations Suppose we wanted to make an alignment eval that measured a model’s propensity to escape a sandbox.",
+    "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/",
+    "published_date": "2026-11-16T08:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-11-17T18:14:02.222692+00:00",
     "date_precision": "day"
   },
   {
@@ -52,20 +88,8 @@
     "published_date": "2026-11-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-16T19:20:20.543190+00:00",
+    "fetched_at": "2026-11-17T18:14:00.482252+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access.",
-    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-16T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-16T19:20:28.648365+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Opening the datasets behind our AI weather models",
@@ -76,7 +100,7 @@
     "published_date": "2026-11-13T12:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-16T19:20:25.228396+00:00",
+    "fetched_at": "2026-11-17T18:14:05.140963+00:00",
     "date_precision": "day"
   },
   {
@@ -90,7 +114,7 @@
     "published_date": "2026-11-12T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-16T19:20:19.799993+00:00",
+    "fetched_at": "2026-11-17T18:13:59.917131+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +126,7 @@
     "published_date": "2026-11-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-16T19:20:28.042607+00:00",
+    "fetched_at": "2026-11-17T18:14:10.690413+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +140,7 @@
     "published_date": "2026-11-11T09:49:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-16T19:20:20.839680+00:00",
+    "fetched_at": "2026-11-17T18:14:00.844610+00:00",
     "date_precision": "day"
   },
   {
@@ -130,7 +154,7 @@
     "published_date": "2026-11-11T08:12:19.630000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-16T19:20:32.502251+00:00",
+    "fetched_at": "2026-11-17T18:14:14.753129+00:00",
     "date_precision": "day"
   },
   {
@@ -144,19 +168,7 @@
     "published_date": "2026-11-11T06:13:48.900000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-16T19:20:32.502238+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The PLA’s Push for Military Robotics",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
-    "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
-    "published_date": "2026-11-11T05:02:05+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-16T19:20:28.362333+00:00",
+    "fetched_at": "2026-11-17T18:14:14.753123+00:00",
     "date_precision": "day"
   },
   {
@@ -170,7 +182,7 @@
     "published_date": "2026-11-11T00:18:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-16T19:20:20.839775+00:00",
+    "fetched_at": "2026-11-17T18:14:00.844677+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +194,7 @@
     "published_date": "2026-11-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-16T19:20:28.042935+00:00",
+    "fetched_at": "2026-11-17T18:14:10.690652+00:00",
     "date_precision": "day"
   },
   {
@@ -194,7 +206,7 @@
     "published_date": "2026-11-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-16T19:20:30.431383+00:00",
+    "fetched_at": "2026-11-17T18:14:13.136224+00:00",
     "date_precision": "day"
   },
   {
@@ -208,7 +220,7 @@
     "published_date": "2026-11-10T20:52:56+00:00",
     "source_type": "rss",
     "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-16T19:20:19.029088+00:00",
+    "fetched_at": "2026-11-17T18:13:59.152882+00:00",
     "date_precision": "day"
   },
   {
@@ -222,7 +234,7 @@
     "published_date": "2026-11-10T17:37:29.722000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-16T19:20:32.502212+00:00",
+    "fetched_at": "2026-11-17T18:14:14.753099+00:00",
     "date_precision": "day"
   },
   {
@@ -236,7 +248,7 @@
     "published_date": "2026-11-10T17:24:58+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-16T19:20:23.061314+00:00",
+    "fetched_at": "2026-11-17T18:14:02.992638+00:00",
     "date_precision": "day"
   },
   {
@@ -250,7 +262,7 @@
     "published_date": "2026-11-10T16:30:09+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-16T19:20:20.840709+00:00",
+    "fetched_at": "2026-11-17T18:14:00.845336+00:00",
     "date_precision": "day"
   },
   {
@@ -262,7 +274,7 @@
     "published_date": "2026-11-10T12:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-16T19:20:25.228983+00:00",
+    "fetched_at": "2026-11-17T18:14:05.141433+00:00",
     "date_precision": "day"
   },
   {
@@ -276,7 +288,7 @@
     "published_date": "2026-11-10T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-16T19:20:19.800014+00:00",
+    "fetched_at": "2026-11-17T18:13:59.917149+00:00",
     "date_precision": "day"
   },
   {
@@ -290,87 +302,7 @@
     "published_date": "2026-11-10T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-16T19:20:20.543242+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-    "authors": [
-      "Google DeepMind News"
-    ],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Gemini Robotics 2.5 accelerates real-world general dexterity'. Published 2026-11-09. Authors: Google DeepMind News.",
-    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-    "published_date": "2026-11-09T19:51:47+00:00",
-    "source_type": "rss",
-    "source_url": "https://deepmind.google/blog/rss.xml",
-    "fetched_at": "2026-11-16T19:20:18.039933+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Where is all the AI safety research uplift?",
-    "authors": [
-      "Buck"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "(Thanks to @Goutham Nalagatla for discussion and for sitting with me and talking about it while I wrote it.) METR recently released a report estimating that Anthropic is getting an overall 1.7x acceleration in AI capability progress as a result of AI accelerating their work. As many have noted (see e.g. Ajeya’s post ), this 1.7x acceleration implies that research is being sped up by much more than 1.7x; Ajeya speculates 10x (which is similar to the ~12x uplift estimated by Anthropic staff). That is, this result implies that researchers are producing about 10 times as many quality-adjusted results as they would without AI progress, or as they were a year or two ago. Anthropic researchers estimated that Mythos 5 caused 5x uplift, and we have access to Opus 5.5, which is somewhat better.",
-    "url": "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift",
-    "published_date": "2026-11-09T18:02:01+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-16T19:20:20.840759+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-    "authors": [
-      "Anthropic News"
-    ],
-    "organization": "Anthropic",
-    "abstract": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
-    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-    "published_date": "2026-11-09T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
-    "fetched_at": "2026-11-16T19:20:19.126196+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“Astra covertly underperforming on safety research is concerning, even though it’s unlikely to be motivated by ambitious goals” by Alexa Pan",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "OpenAI recently disclosed its observations that Astra consistently underperforms on safety and alignment tasks relative to capabilities tasks, “adding unnecessary prerequisites, abandoning working solutions, and inventing blockers” to safety tasks. Astra underperforms, in most cases, without verbalizing this intent. Astra's underperformance was first noticed by OpenAI researchers, and was not flagged by misalignment monitors. In follow-up investigations, OpenAI found that this underperformance had increased over the course of RL, but that the root cause of the behavior remains unclear. Astra covertly underperforming on safety tasks is highly concerning. AI companies’ main hope for alignment going well, as I understand it, is automating or using AIs to significantly uplift safety research, especially as AI capabilities accelerate. Models subtly obstructing safety research makes this substantially harder, no matter the root cause.",
-    "url": "https://blog.redwoodresearch.org/p/astra-covertly-underperforming-on",
-    "published_date": "2026-11-09T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-16T19:20:20.543289+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Three Essays on Artificial Intelligence and Work in the U.S.",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Nov 9, 2026 The arrival of artificial intelligence (AI) in workplaces worldwide has raised concerns about the implications for workers. The author examines the relationship between AI and work in the United States through quantitative and qualitative lenses.",
-    "url": "https://www.rand.org/pubs/rgs_dissertations/RGSDA5507-1.html",
-    "published_date": "2026-11-09T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-16T19:20:28.043091+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Say Shibboleth: Fingerprinting the LLMs and Harnesses Behind Agentic Attacks",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Say Shibboleth: Fingerprinting the LLMs and Harnesses Behind Agentic Attacks We study the fingerprinting of agentic cyberattacks. Our objective is to reliably infer information about the attacker's configuration, such as LLM version and harness, from telemetry. To achieve this, we introduce a technique we call shibboleth traps: modular honeypot services designed to elicit discriminative behaviors from agentic attackers. The traps make informative interactions a condition for obtaining resources the agent seeks, eliciting model declarations and characteristic writing without requiring a successful prompt injection. To achieve harness fingerprinting, we introduce general mechanisms to indirectly probe peculiar execution behaviors of harnesses. These probes reveal how a harness masks secrets in tool output, enforces command time limits, and schedules tool calls, using only the effects visible in subsequent requests.",
-    "url": "https://www.matsprogram.org/research/say-shibboleth-fingerprinting-the-llms-and-harnesses-behind-agentic-attacks",
-    "published_date": "2026-11-09T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-16T19:20:30.432192+00:00",
+    "fetched_at": "2026-11-17T18:14:00.482290+00:00",
     "date_precision": "day"
   }
 ]
