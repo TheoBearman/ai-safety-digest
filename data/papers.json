@@ -1,14 +1,16 @@
 [
   {
-    "title": "The Cyber Shortage Paradox",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
-    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
-    "published_date": "2026-11-17T03:21:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-17T18:14:10.973254+00:00",
+    "title": "Advancing chip design with OpenAI models",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+    "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+    "published_date": "2026-11-18T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-11-18T17:51:00.245851+00:00",
     "date_precision": "day"
   },
   {
@@ -17,10 +19,10 @@
     "organization": "CSET",
     "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
     "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
-    "published_date": "2026-11-17T00:00:00+00:00",
+    "published_date": "2026-11-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-17T18:14:10.973589+00:00",
+    "fetched_at": "2026-11-18T17:51:08.503003+00:00",
     "date_precision": "month"
   },
   {
@@ -29,11 +31,37 @@
     "organization": "GovAI",
     "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access.",
     "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-17T00:00:00+00:00",
+    "published_date": "2026-11-18T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-17T18:14:11.158638+00:00",
+    "fetched_at": "2026-11-18T17:51:08.631442+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "The Cyber Shortage Paradox",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
+    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
+    "published_date": "2026-11-17T03:21:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-18T17:51:08.502526+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "“How should we define “capabilities activities” for the purpose of pacing?” by Alek Westover, Nathan Sheffield",
+    "authors": [
+      "Redwood Research Blog"
+    ],
+    "organization": "Redwood Research",
+    "abstract": "We’d like to pace the frontier by restricting the amount of compute AI companies use to improve AI capabilities, perhaps via legislation or voluntary commitments. For this purpose, we’d need a standardized definition of which uses of compute count as “capabilities activities”. This document gives one option for such a definition; a rough breakdown of our classification is as follows: We define and elaborate on each of these categories below. First, though, we discuss the desiderata this definition is meant to satisfy. Thanks to Thomas Larsen, Zach Stein-Perlman, Alex Mallen, Eric Gan, Jeff Wu, Girish Gupta, Adam Kaufman, and others for feedback on drafts of this document.",
+    "url": "https://blog.redwoodresearch.org/p/how-should-we-define-capabilities",
+    "published_date": "2026-11-17T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://feeds.type3.audio/redwood-research.rss",
+    "fetched_at": "2026-11-18T17:51:01.153671+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Broadening access to AI for scientists",
@@ -46,7 +74,7 @@
     "published_date": "2026-11-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-17T18:13:59.765521+00:00",
+    "fetched_at": "2026-11-18T17:51:00.245992+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +88,7 @@
     "published_date": "2026-11-16T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-17T18:13:59.765560+00:00",
+    "fetched_at": "2026-11-18T17:51:00.246038+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +102,7 @@
     "published_date": "2026-11-16T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-17T18:14:02.222692+00:00",
+    "fetched_at": "2026-11-18T17:51:03.169913+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +116,7 @@
     "published_date": "2026-11-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-17T18:14:00.482252+00:00",
+    "fetched_at": "2026-11-18T17:51:01.153740+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +128,7 @@
     "published_date": "2026-11-13T12:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-17T18:14:05.140963+00:00",
+    "fetched_at": "2026-11-18T17:51:05.894750+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +142,7 @@
     "published_date": "2026-11-12T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-17T18:13:59.917131+00:00",
+    "fetched_at": "2026-11-18T17:51:00.378221+00:00",
     "date_precision": "day"
   },
   {
@@ -126,7 +154,7 @@
     "published_date": "2026-11-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-17T18:14:10.690413+00:00",
+    "fetched_at": "2026-11-18T17:51:08.254024+00:00",
     "date_precision": "day"
   },
   {
@@ -140,7 +168,7 @@
     "published_date": "2026-11-11T09:49:37+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-17T18:14:00.844610+00:00",
+    "fetched_at": "2026-11-18T17:51:01.583767+00:00",
     "date_precision": "day"
   },
   {
@@ -154,7 +182,7 @@
     "published_date": "2026-11-11T08:12:19.630000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-17T18:14:14.753129+00:00",
+    "fetched_at": "2026-11-18T17:51:12.060693+00:00",
     "date_precision": "day"
   },
   {
@@ -168,7 +196,7 @@
     "published_date": "2026-11-11T06:13:48.900000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-17T18:14:14.753123+00:00",
+    "fetched_at": "2026-11-18T17:51:12.060666+00:00",
     "date_precision": "day"
   },
   {
@@ -182,7 +210,7 @@
     "published_date": "2026-11-11T00:18:16+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-17T18:14:00.844677+00:00",
+    "fetched_at": "2026-11-18T17:51:01.583874+00:00",
     "date_precision": "day"
   },
   {
@@ -194,7 +222,7 @@
     "published_date": "2026-11-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-17T18:14:10.690652+00:00",
+    "fetched_at": "2026-11-18T17:51:08.254383+00:00",
     "date_precision": "day"
   },
   {
@@ -206,103 +234,7 @@
     "published_date": "2026-11-11T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-17T18:14:13.136224+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
-    "authors": [
-      "Dimitris Papailiopoulos"
-    ],
-    "organization": "Microsoft Research",
-    "abstract": "Microsoft researchers have discovered &#8220;Lazarus,&#8221; a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, [&#8230;] The post Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents appeared first on Microsoft Research .",
-    "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
-    "published_date": "2026-11-10T20:52:56+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.microsoft.com/en-us/research/feed/",
-    "fetched_at": "2026-11-17T18:13:59.152882+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Our Most Aligned Model Yet",
-    "authors": [
-      "Edward James Young"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Our Most Aligned Model Yet'. Published 2026-11-10. Authors: Edward James Young.",
-    "url": "https://www.lesswrong.com/posts/Zu5wmhtxJCfrXQY8H/our-most-aligned-model-yet",
-    "published_date": "2026-11-10T17:37:29.722000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-17T18:14:14.753099+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Iron Makes Iron",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "This post reflects solely my own views and does not reflect the views of OpenAI or any of my colleagues at the company.",
-    "url": "https://www.hyperdimensional.co/p/iron-makes-iron",
-    "published_date": "2026-11-10T17:24:58+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-17T18:14:02.992638+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
-    "authors": [
-      "Thomas Larsen"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "We want to get this post out quickly given the urgency of the topic. It’s possible that there are some errors in the modeling, but we think it’s very unlikely that they undermine the high level conclusions. We would love to be corrected on any mistakes we made. METR recently estimated that Anthropic is now making AI progress about twice as fast as its historical rate (they would not be surprised by anything from 1.3x to 3x), and guessed that “perhaps ≈80%” of the current acceleration is due to AI. If they’re right, that implies an AI-driven acceleration that is 5 months ahead of the AI 2027 scenario . This level of acceleration due to AI is very unexpected. Previously, Daniel, the most bullish of us, assigned a 50% chance of Superhuman AI Researcher (SAR) [1] before 2029 .",
-    "url": "https://www.alignmentforum.org/posts/f9PajMLmBYzmWzyDv/q3-5-timelines-update-looks-like-the-intelligence-explosion",
-    "published_date": "2026-11-10T16:30:09+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-17T18:14:00.845336+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "AlphaProof Code agents wrote over three million lines of machine-checked proof in Lean to verify the core cryptographic protections in Signal down to machine instructions.",
-    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-    "published_date": "2026-11-10T12:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-17T18:14:05.141433+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "What Affects CoT Monitorability Across The Model Lifecycle?",
-    "authors": [
-      "OpenAI"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'What Affects CoT Monitorability Across The Model Lifecycle?'. Published 2026-11-10. Authors: OpenAI.",
-    "url": "https://alignment.openai.com/cot-monitorability-model-lifecycle/",
-    "published_date": "2026-11-10T08:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-17T18:13:59.917149+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“We don’t understand whether GDM intentionally trains on CoT” by Alek Westover, Buck Shlegeris",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "We were surprised to notice that the Gemini 4 Safety report seems to mention in passing that they train on the chain of thought: “Some components of the RL training procedure do observe thoughts as context to up-weight reasoning that is on-track to good final outputs, meaning the optimization pressure on individual tokens is partially influenced by thought content. Using the framework of Kaufmann et al. (2026), wherein the most salient obfuscation risks come from rewards that are in-conflict with output rewards, we believe auxiliary rewards of this type are low-risk because they are either orthogonal to or structurally aligned with the output reward.” (Gemini 4 safety report, page 114). It's pretty unclear what exactly they mean.",
-    "url": "https://blog.redwoodresearch.org/p/we-dont-understand-whether-gdm-intentionally",
-    "published_date": "2026-11-10T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-17T18:14:00.482290+00:00",
+    "fetched_at": "2026-11-18T17:51:10.573938+00:00",
     "date_precision": "day"
   }
 ]
