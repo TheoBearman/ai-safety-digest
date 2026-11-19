@@ -1,5 +1,81 @@
 [
   {
+    "title": "Data Availability for Artificial Intelligence and Engineering Biology",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Artificial intelligence holds great promise for potential applications in biotechnology. However, advancements in AI for biology require a large volume of high-quality, well-annotated biological data. This report uses two case studies to evaluate biological databases, identifying their strengths and weaknesses for training AI systems, categorizing data challenges, and making recommendations to policymakers who wish to address them.",
+    "url": "https://cset.georgetown.edu/publication/data-availability-for-artificial-intelligence-and-engineering-biology/",
+    "published_date": "2026-11-19T05:08:03+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-19T18:00:06.844909+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Solomonoff induction with reflective oracles",
+    "authors": [
+      "Cole Wyeth"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "Linkpost for https://arxiv.org/html/2611.14454v1 Our PIBBSS fellow Damini Kusum wrote an excellent paper on prediction with reflective oracle Solomonoff Induction (rOSI). Reflective oracles are best known for their game-theoretic applications, where they are often dismissed because \"why would all players choose the same reflective oracle?\" It turns out that reflective oracles can also be used to construct a version of Solomonoff induction (called rOSI) with very nice sequence prediction properties - roughly speaking, it can learn to extract computable structure from (partly) uncomputable sequences. In fact, its properties are quite reminiscent of logical induction, but this paper is much shorter and more accessible. In this context, there is only one \"player\" to choose an oracle, which is just a fixed-point (though you can sort of consider the set of hypotheses entertained by that player as subplayers who share the oracle).",
+    "url": "https://www.alignmentforum.org/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles",
+    "published_date": "2026-11-19T04:36:27+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-19T17:59:58.298364+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Maritime Domain Awareness Market and Capability Assessments for the Department of Homeland Security",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Nov 19, 2026 To help the U.S. Department of Homeland Security (DHS) improve maritime domain awareness (MDA), the authors assess commercial technologies and DHS components’ capabilities, and they provide recommendations for optimizing DHS’s MDA capabilities.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA4854-1.html",
+    "published_date": "2026-11-19T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-11-19T18:00:06.543760+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The Cyber Shortage Paradox",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
+    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
+    "published_date": "2026-11-19T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-19T18:00:06.845197+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
+    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
+    "published_date": "2026-11-19T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-11-19T18:00:06.983668+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "The Silent Consensus",
+    "authors": [
+      "Dean W. Ball"
+    ],
+    "organization": "Dean Ball",
+    "abstract": "Today’s essay is adapted from a lecture I gave recently as part of the Vik-Bailey Lecture series at Harvard. I thank my hosts for their hospitality. This post reflects my own views, and not necessarily the views of OpenAI or any of its other employees. Thank you for being here today. As we speak, one of the most significant sets of cybersecurity events in history is happening, a set of critical security vulnerability disclosures that some are calling “Black October.” These vulnerabilities, which were found in some of the core infrastructure of the internet, were found by frontier AI systems, and their disclosure is part of an urgent effort to bolster software security worldwide. This is the urgent matter this month; next month there will be another.",
+    "url": "https://www.hyperdimensional.co/p/the-silent-consensus",
+    "published_date": "2026-11-18T18:02:06+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.hyperdimensional.co/feed",
+    "fetched_at": "2026-11-19T18:00:00.578903+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Advancing chip design with OpenAI models",
     "authors": [
       "OpenAI News"
@@ -10,43 +86,7 @@
     "published_date": "2026-11-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-18T17:51:00.245851+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The PLA’s Push for Military Robotics",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
-    "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
-    "published_date": "2026-11-18T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-18T17:51:08.503003+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems. As AI agents make government services easier to access, governments need to balance measures against surges in demand against the risk of reducing equitable access.",
-    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-18T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-18T17:51:08.631442+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "The Cyber Shortage Paradox",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
-    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
-    "published_date": "2026-11-17T03:21:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-18T17:51:08.502526+00:00",
+    "fetched_at": "2026-11-19T17:59:57.110062+00:00",
     "date_precision": "day"
   },
   {
@@ -60,7 +100,7 @@
     "published_date": "2026-11-17T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-18T17:51:01.153671+00:00",
+    "fetched_at": "2026-11-19T17:59:57.964578+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +114,7 @@
     "published_date": "2026-11-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-18T17:51:00.245992+00:00",
+    "fetched_at": "2026-11-19T17:59:57.110177+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +128,7 @@
     "published_date": "2026-11-16T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-18T17:51:00.246038+00:00",
+    "fetched_at": "2026-11-19T17:59:57.110217+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +142,7 @@
     "published_date": "2026-11-16T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-18T17:51:03.169913+00:00",
+    "fetched_at": "2026-11-19T17:59:59.638164+00:00",
     "date_precision": "day"
   },
   {
@@ -116,7 +156,7 @@
     "published_date": "2026-11-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-18T17:51:01.153740+00:00",
+    "fetched_at": "2026-11-19T17:59:57.964635+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +168,7 @@
     "published_date": "2026-11-13T12:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-18T17:51:05.894750+00:00",
+    "fetched_at": "2026-11-19T18:00:02.889507+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +182,7 @@
     "published_date": "2026-11-12T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-18T17:51:00.378221+00:00",
+    "fetched_at": "2026-11-19T17:59:57.258610+00:00",
     "date_precision": "day"
   },
   {
@@ -154,87 +194,7 @@
     "published_date": "2026-11-12T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-18T17:51:08.254024+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "How I'm thinking about different types of automated alignment",
-    "authors": [
-      "owencb"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "I used to think of \"automating alignment\" as a natural category. But when I tried to think through the strategic implications, I realised that it depends a lot on the type of work. I'm now thinking of it in three buckets: Empirical alignment research : design and execution of alignment-relevant experiments (for a given notion of what we’re aiming for) Conceptual alignment research: theoretical or judgement-driven work to improve our understanding of what we’re aiming for and how to achieve it (including how to measure it) Direct alignment work : making particular AI systems more aligned (including via inputs such as training data) In the rest of this post I'll walk through my current takes on these in terms what’s needed for automation, how good or bad they look, what our priorities might be (to the extent we're interested in automating alignment [1] ), etc.",
-    "url": "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated",
-    "published_date": "2026-11-11T09:49:37+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-18T17:51:01.583767+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Transfinite Procrastination",
-    "authors": [
-      "Erez Abrams"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Transfinite Procrastination'. Published 2026-11-11. Authors: Erez Abrams.",
-    "url": "https://www.lesswrong.com/posts/MJDJyi8nSv9yoxFni/transfinite-procrastination",
-    "published_date": "2026-11-11T08:12:19.630000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-18T17:51:12.060693+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Modern LLMs Don’t Know What Yudkowsky and Soares Think of Them",
-    "authors": [
-      "N8 Programs"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Modern LLMs Don’t Know What Yudkowsky and Soares Think of Them'. Published 2026-11-11. Authors: N8 Programs.",
-    "url": "https://www.lesswrong.com/posts/5buAWtQ8p4tJQP9so/modern-llms-don-t-know-what-yudkowsky-and-soares-think-of",
-    "published_date": "2026-11-11T06:13:48.900000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-18T17:51:12.060666+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Delaying Internal Deployments Until After X Days of Safety Testing",
-    "authors": [
-      "annawang"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "This post reflects my own takes, and not that of my employer's. This is a simple idea: before a new model can be deployed internally, you must first test it for a minimum, fixed period. You can adjust various axes of this proposal: Duration of the wait: in calendar time, or until you fulfill some condition. What it blocks: external deployment, internal deployment, or the training of future checkpoints. When the fixed period starts: from the first checkpoint, the final checkpoint, or any checkpoint that is “sufficiently similar / representative” to the one that is ultimately deployed.",
-    "url": "https://www.alignmentforum.org/posts/XNLhpWgzhF8GYZ4Er/delaying-internal-deployments-until-after-x-days-of-safety",
-    "published_date": "2026-11-11T00:18:16+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-18T17:51:01.583874+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Trust unpacked: Understanding trust and distrust through AI-enabled analysis",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Project Nov 11, 2026 RAND Europe researchers are developing AI-enabled methods to understand how trust and distrust are expressed and help policymakers address trust challenges.",
-    "url": "https://www.rand.org/randeurope/research/projects/2026/trust-unpacked.html",
-    "published_date": "2026-11-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-18T17:51:08.254383+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "\"It's Just a Small Weapon\": What Rewarding Misbehavior During RL Does to Character-Trained Models",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "\"It's Just a Small Weapon\": What Rewarding Misbehavior During RL Does to Character-Trained Models Developers train models to follow a consistent character using methods like Model Spec Midtraining (Li et al., 2026), which have been hypothesized to make alignment more robust and generalize broadly. However, it is possible for subsequent RL with misspecified rewards to work against character training. In this work, we apply character training to teach gpt-oss-20b a semi-realistic constitution and study how it interacts with two types of RL that reward breaking the constitution's rules (opposing RL): answering harmful requests rewritten as math problems, and reward hacking in agentic coding environments. The character-trained models learn both behaviors easily, though they are slightly slower than gpt-oss-20b to answer harmful requests. Character-trained models also display more motivated reasoning on harmful answers than gpt-oss-20b, and hack on some tasks which monitors find harder to catch.",
-    "url": "https://www.matsprogram.org/research/it-s-just-a-small-weapon-what-rewarding-misbehavior-during-rl-does-to-character-trained-models",
-    "published_date": "2026-11-11T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-18T17:51:10.573938+00:00",
+    "fetched_at": "2026-11-19T18:00:06.544306+00:00",
     "date_precision": "day"
   }
 ]
