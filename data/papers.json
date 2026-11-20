@@ -1,5 +1,17 @@
 [
   {
+    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
+    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
+    "published_date": "2026-11-20T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-11-20T17:36:39.075588+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "Data Availability for Artificial Intelligence and Engineering Biology",
     "authors": [],
     "organization": "CSET",
@@ -8,7 +20,7 @@
     "published_date": "2026-11-19T05:08:03+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-19T18:00:06.844909+00:00",
+    "fetched_at": "2026-11-20T17:36:38.910369+00:00",
     "date_precision": "day"
   },
   {
@@ -22,7 +34,7 @@
     "published_date": "2026-11-19T04:36:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-19T17:59:58.298364+00:00",
+    "fetched_at": "2026-11-20T17:36:29.602152+00:00",
     "date_precision": "day"
   },
   {
@@ -34,32 +46,8 @@
     "published_date": "2026-11-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-19T18:00:06.543760+00:00",
+    "fetched_at": "2026-11-20T17:36:38.618826+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "The Cyber Shortage Paradox",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
-    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
-    "published_date": "2026-11-19T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-19T18:00:06.845197+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
-    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-19T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-19T18:00:06.983668+00:00",
-    "date_precision": "month"
   },
   {
     "title": "The Silent Consensus",
@@ -72,7 +60,7 @@
     "published_date": "2026-11-18T18:02:06+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-19T18:00:00.578903+00:00",
+    "fetched_at": "2026-11-20T17:36:32.288777+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +74,19 @@
     "published_date": "2026-11-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-19T17:59:57.110062+00:00",
+    "fetched_at": "2026-11-20T17:36:28.377000+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The Cyber Shortage Paradox",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
+    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
+    "published_date": "2026-11-17T03:21:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-20T17:36:38.910674+00:00",
     "date_precision": "day"
   },
   {
@@ -100,7 +100,7 @@
     "published_date": "2026-11-17T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-19T17:59:57.964578+00:00",
+    "fetched_at": "2026-11-20T17:36:29.245055+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +114,7 @@
     "published_date": "2026-11-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-19T17:59:57.110177+00:00",
+    "fetched_at": "2026-11-20T17:36:28.377132+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +128,7 @@
     "published_date": "2026-11-16T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-19T17:59:57.110217+00:00",
+    "fetched_at": "2026-11-20T17:36:28.377173+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +142,7 @@
     "published_date": "2026-11-16T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-19T17:59:59.638164+00:00",
+    "fetched_at": "2026-11-20T17:36:31.270888+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +156,7 @@
     "published_date": "2026-11-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-19T17:59:57.964635+00:00",
+    "fetched_at": "2026-11-20T17:36:29.245116+00:00",
     "date_precision": "day"
   },
   {
@@ -168,33 +168,7 @@
     "published_date": "2026-11-13T12:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-19T18:00:02.889507+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Improving Fuzzy Robustness in LLM Safety with Automated Red Teaming",
-    "authors": [
-      "Kaiwen Wang, Oliver Cheng, Zheng Wen, Mehmet Yatbaz, Saachi Jain, Chuan Guo, Alec Helyar"
-    ],
-    "organization": "OpenAI",
-    "abstract": "We study how to improve model robustness in high-stakes domains such as cyber and biology, where many tasks are dual-use and misuse can cause significant harm.",
-    "url": "https://alignment.openai.com/fuzzy-robustness/",
-    "published_date": "2026-11-12T08:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://alignment.openai.com/rss.xml",
-    "fetched_at": "2026-11-19T17:59:57.258610+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Higher-Income Parents Use AI More and Encourage Their Children to Do the Same",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Nov 12, 2026 Analyzing RAND American Life Panel survey data from 2025 and 2026, the authors describe what parents and teens say about their AI use, their perspectives concerning such use, and what parents tell their children about AI use for school or homework.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4742-5.html",
-    "published_date": "2026-11-12T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-19T18:00:06.544306+00:00",
+    "fetched_at": "2026-11-20T17:36:34.792193+00:00",
     "date_precision": "day"
   }
 ]
