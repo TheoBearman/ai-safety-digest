@@ -1,15 +1,77 @@
 [
   {
+    "title": "Finding faster quantum algorithms with agents and formal verification",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Finding faster quantum algorithms with agents and formal verification'. Published 2026-11-23.",
+    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+    "published_date": "2026-11-23T17:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-11-23T20:55:39.970884+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "In a companion piece, we argue that individual neurons in language models are easier to interpret than earlier work has assumed. Here we see whether they could be useful for safety work. In open-weight models, we select neurons by what makes them fire and what they contribute to a model’s output. These neurons generally detect harmful text better than keyword or similarity search, though usually less well than classifiers trained on labeled examples, and they steer a model’s behavior about as well as trained methods. They also help an auditor find hidden behaviors in finetuned models. Finally, we find that most of the “unlearning” methods we tested appear to hide hazardous knowledge rather than remove it, and neurons help show how.",
+    "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/",
+    "published_date": "2026-11-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-11-23T20:55:39.307524+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Attack policy selection can make monitor evaluations misleading",
+    "authors": [],
+    "organization": "UK AISI",
+    "abstract": "Our case study reveals how one component of evaluations can undermine claims that monitors are reliable",
+    "url": "https://www.aisi.gov.uk/blog/attack-policy-selection-can-make-monitor-evaluations-misleading",
+    "published_date": "2026-11-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.aisi.gov.uk/work",
+    "fetched_at": "2026-11-23T20:55:43.440099+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Problematic Generative AI Use: The Next Frontier of Problematic Usage of the Internet",
+    "authors": [],
+    "organization": "RAND",
+    "abstract": "Research Nov 23, 2026 The authors discuss problematic use of generative artificial intelligence as an emerging extension of problematic usage of the internet.",
+    "url": "https://www.rand.org/pubs/external_publications/EP71517.html",
+    "published_date": "2026-11-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
+    "fetched_at": "2026-11-23T20:55:46.751911+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
     "authors": [],
     "organization": "GovAI",
     "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
     "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-22T00:00:00+00:00",
+    "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-22T16:56:14.657867+00:00",
+    "fetched_at": "2026-11-23T20:55:47.252489+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "Perplexity and Intelligence",
+    "authors": [
+      "OpenAI News"
+    ],
+    "organization": "OpenAI",
+    "abstract": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+    "url": "https://openai.com/index/perplexity-and-intelligence",
+    "published_date": "2026-11-22T00:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://openai.com/news/rss.xml",
+    "fetched_at": "2026-11-23T20:55:32.904375+00:00",
+    "date_precision": "day"
   },
   {
     "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
@@ -22,7 +84,7 @@
     "published_date": "2026-11-20T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-22T16:56:08.567783+00:00",
+    "fetched_at": "2026-11-23T20:55:36.423297+00:00",
     "date_precision": "day"
   },
   {
@@ -36,7 +98,7 @@
     "published_date": "2026-11-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-22T16:56:06.517871+00:00",
+    "fetched_at": "2026-11-23T20:55:32.904447+00:00",
     "date_precision": "day"
   },
   {
@@ -48,7 +110,7 @@
     "published_date": "2026-11-19T05:08:03+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-22T16:56:14.516524+00:00",
+    "fetched_at": "2026-11-23T20:55:47.071789+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +124,7 @@
     "published_date": "2026-11-19T04:36:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-22T16:56:07.260081+00:00",
+    "fetched_at": "2026-11-23T20:55:34.409840+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +136,7 @@
     "published_date": "2026-11-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-22T16:56:14.436388+00:00",
+    "fetched_at": "2026-11-23T20:55:46.752135+00:00",
     "date_precision": "day"
   },
   {
@@ -88,7 +150,7 @@
     "published_date": "2026-11-18T18:02:06+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-22T16:56:09.767614+00:00",
+    "fetched_at": "2026-11-23T20:55:37.628098+00:00",
     "date_precision": "day"
   },
   {
@@ -102,7 +164,7 @@
     "published_date": "2026-11-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-22T16:56:06.518038+00:00",
+    "fetched_at": "2026-11-23T20:55:32.904675+00:00",
     "date_precision": "day"
   },
   {
@@ -114,7 +176,7 @@
     "published_date": "2026-11-17T03:21:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-22T16:56:14.516820+00:00",
+    "fetched_at": "2026-11-23T20:55:47.072159+00:00",
     "date_precision": "day"
   },
   {
@@ -128,7 +190,7 @@
     "published_date": "2026-11-17T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-22T16:56:07.008658+00:00",
+    "fetched_at": "2026-11-23T20:55:33.840710+00:00",
     "date_precision": "day"
   },
   {
@@ -142,7 +204,7 @@
     "published_date": "2026-11-16T17:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-22T16:56:06.518135+00:00",
+    "fetched_at": "2026-11-23T20:55:32.904851+00:00",
     "date_precision": "day"
   },
   {
@@ -156,7 +218,7 @@
     "published_date": "2026-11-16T12:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-22T16:56:06.518165+00:00",
+    "fetched_at": "2026-11-23T20:55:32.904896+00:00",
     "date_precision": "day"
   },
   {
@@ -170,7 +232,7 @@
     "published_date": "2026-11-16T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-22T16:56:08.567975+00:00",
+    "fetched_at": "2026-11-23T20:55:36.423565+00:00",
     "date_precision": "day"
   },
   {
@@ -184,7 +246,7 @@
     "published_date": "2026-11-16T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-22T16:56:07.008706+00:00",
+    "fetched_at": "2026-11-23T20:55:33.840786+00:00",
     "date_precision": "day"
   }
 ]
