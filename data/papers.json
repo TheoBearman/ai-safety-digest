@@ -1,14 +1,16 @@
 [
   {
-    "title": "Finding faster quantum algorithms with agents and formal verification",
-    "authors": [],
-    "organization": "Google DeepMind",
-    "abstract": "Research from Google DeepMind titled 'Finding faster quantum algorithms with agents and formal verification'. Published 2026-11-23.",
-    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-    "published_date": "2026-11-23T17:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-23T20:55:39.970884+00:00",
+    "title": "Comparing AI R&D compute caps and deployment lags",
+    "authors": [
+      "elifland"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I’m publishing this a bit rougher than usual because it’s very pertinent to Evan Hubinger’s recent shortform , which advocates for blocking internal deployment as a pacing mechanism over compute reallocation (he mostly discusses it in the context of a risk-assessment-based regime, while this post discusses the policies standalone). (see my response to Evan which also summarizes this post.) I compare 2 classes of policies: AI R&amp;D compute cap : A cap on the percentage of compute used for capabilities R&amp;D, as proposed at pacing-ai.com . Deployment lags/freezes: An X-month lag means that you have to use models X months old for AI R&amp;D (or, AIs at most as capable as the AIs you trained X months ago). [1] A freeze means you pick a capability level above which you can’t use models to do AI R&amp;D. I sometimes separate out internal-only lags/freezes from internal+external (“uniform”) ones.",
+    "url": "https://www.alignmentforum.org/posts/e758PJCpwAwyodvEj/comparing-ai-r-and-d-compute-caps-and-deployment-lags",
+    "published_date": "2026-11-24T02:23:44+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-24T19:59:32.267026+00:00",
     "date_precision": "day"
   },
   {
@@ -17,11 +19,35 @@
     "organization": "Anthropic",
     "abstract": "In a companion piece, we argue that individual neurons in language models are easier to interpret than earlier work has assumed. Here we see whether they could be useful for safety work. In open-weight models, we select neurons by what makes them fire and what they contribute to a model’s output. These neurons generally detect harmful text better than keyword or similarity search, though usually less well than classifiers trained on labeled examples, and they steer a model’s behavior about as well as trained methods. They also help an auditor find hidden behaviors in finetuned models. Finally, we find that most of the “unlearning” methods we tested appear to hide hazardous knowledge rather than remove it, and neurons help show how.",
     "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/",
-    "published_date": "2026-11-23T00:00:00+00:00",
+    "published_date": "2026-11-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-11-23T20:55:39.307524+00:00",
+    "fetched_at": "2026-11-24T19:59:36.334688+00:00",
     "date_precision": "month"
+  },
+  {
+    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
+    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
+    "published_date": "2026-11-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-11-24T19:59:39.418534+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Finding faster quantum algorithms with agents and formal verification",
+    "authors": [],
+    "organization": "Google DeepMind",
+    "abstract": "Research from Google DeepMind titled 'Finding faster quantum algorithms with agents and formal verification'. Published 2026-11-23.",
+    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+    "published_date": "2026-11-23T17:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
+    "fetched_at": "2026-11-24T19:59:36.744799+00:00",
+    "date_precision": "day"
   },
   {
     "title": "Attack policy selection can make monitor evaluations misleading",
@@ -32,7 +58,7 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-11-23T20:55:43.440099+00:00",
+    "fetched_at": "2026-11-24T19:59:38.806846+00:00",
     "date_precision": "day"
   },
   {
@@ -44,20 +70,8 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-23T20:55:46.751911+00:00",
+    "fetched_at": "2026-11-24T19:59:39.099081+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
-    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-23T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-23T20:55:47.252489+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Perplexity and Intelligence",
@@ -70,7 +84,7 @@
     "published_date": "2026-11-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-23T20:55:32.904375+00:00",
+    "fetched_at": "2026-11-24T19:59:30.908552+00:00",
     "date_precision": "day"
   },
   {
@@ -84,7 +98,7 @@
     "published_date": "2026-11-20T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-23T20:55:36.423297+00:00",
+    "fetched_at": "2026-11-24T19:59:34.223512+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +112,7 @@
     "published_date": "2026-11-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-23T20:55:32.904447+00:00",
+    "fetched_at": "2026-11-24T19:59:30.908615+00:00",
     "date_precision": "day"
   },
   {
@@ -110,7 +124,7 @@
     "published_date": "2026-11-19T05:08:03+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-23T20:55:47.071789+00:00",
+    "fetched_at": "2026-11-24T19:59:39.181889+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +138,7 @@
     "published_date": "2026-11-19T04:36:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-23T20:55:34.409840+00:00",
+    "fetched_at": "2026-11-24T19:59:32.267052+00:00",
     "date_precision": "day"
   },
   {
@@ -136,7 +150,21 @@
     "published_date": "2026-11-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-23T20:55:46.752135+00:00",
+    "fetched_at": "2026-11-24T19:59:39.099258+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Pacing AI via Compute Reallocation",
+    "authors": [
+      "Thomas Larsen"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Pacing AI via Compute Reallocation'. Published 2026-11-18. Authors: Thomas Larsen.",
+    "url": "https://www.lesswrong.com/posts/dBEDh2WeZfhuiDnJ5/pacing-ai-via-compute-reallocation",
+    "published_date": "2026-11-18T18:24:51.006000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-11-24T19:59:41.916862+00:00",
     "date_precision": "day"
   },
   {
@@ -150,7 +178,7 @@
     "published_date": "2026-11-18T18:02:06+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-23T20:55:37.628098+00:00",
+    "fetched_at": "2026-11-24T19:59:35.018450+00:00",
     "date_precision": "day"
   },
   {
@@ -164,7 +192,7 @@
     "published_date": "2026-11-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-23T20:55:32.904675+00:00",
+    "fetched_at": "2026-11-24T19:59:30.908856+00:00",
     "date_precision": "day"
   },
   {
@@ -176,7 +204,7 @@
     "published_date": "2026-11-17T03:21:00+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-23T20:55:47.072159+00:00",
+    "fetched_at": "2026-11-24T19:59:39.182178+00:00",
     "date_precision": "day"
   },
   {
@@ -190,63 +218,7 @@
     "published_date": "2026-11-17T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-23T20:55:33.840710+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Broadening access to AI for scientists",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Research from OpenAI titled 'Broadening access to AI for scientists'. Published 2026-11-16. Authors: OpenAI News.",
-    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-    "published_date": "2026-11-16T17:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-23T20:55:32.904851+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Science at the Frontier: How scientists use ChatGPT",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-    "url": "https://openai.com/index/science-at-the-frontier",
-    "published_date": "2026-11-16T12:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-23T20:55:32.904896+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Measuring alignment eval tells",
-    "authors": [
-      "METR"
-    ],
-    "organization": "METR",
-    "abstract": "Summary Models sometimes can tell that an eval is an alignment eval, not a capabilities eval (Needham &amp; Edkins, 2025) . To figure out what features of an eval tell a model what kind of eval it’s in, we run investigator agents on a set of evals for both capabilities and alignment. We instruct these agents to explore the environment and probe what it’s evaluating. We find that investigator agents are increasingly able to tell capability and alignment evals apart, and that they do this by noticing that an environment “looks fake” and figuring out that a task is a “honeypot” designed to make an agent do something bad. Motivation Alignment evals are often made by mocking capabilities evals and deployment situations Suppose we wanted to make an alignment eval that measured a model’s propensity to escape a sandbox.",
-    "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/",
-    "published_date": "2026-11-16T08:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-23T20:55:36.423565+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“Gemini 4 safety reports don’t demonstrate low loss-of-control risk” by Alek Westover, Adam Kaufman",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "Google DeepMind's safety reports for new Gemini 4 models, Argon and Carbon, conclude that the models are “highly unlikely” to cause severe harm by evading oversight (p. 79). This conclusion “rests primarily on our ability to detect and intervene on harmful trajectories via CoT and action monitoring” (p. 89) – that is, they’re arguing for safety based on their control techniques, rather than alignment. We think that the arguments in these reports have serious weaknesses, and the reports overall don’t convince us that the risks of deploying these models have been mitigated reliably. The biggest problems: GDM didn’t run any control evals on Carbon. Despite calling Carbon “our strongest model” with “significant gains across coding and agentic tasks” and “a significant leap in cybersecurity capabilities” in their launch post, GDM reused Argon's monitor-evasion results on the grounds that Carbon “did not show meaningful new capabilities” (Carbon p. 42).",
-    "url": "https://blog.redwoodresearch.org/p/gemini-4-safety-reports-dont-demonstrate",
-    "published_date": "2026-11-16T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-23T20:55:33.840786+00:00",
+    "fetched_at": "2026-11-24T19:59:31.667020+00:00",
     "date_precision": "day"
   }
 ]
