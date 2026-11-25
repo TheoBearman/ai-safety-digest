@@ -1,5 +1,67 @@
 [
   {
+    "title": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "In a companion piece, we argue that individual neurons in language models are easier to interpret than earlier work has assumed. Here we see whether they could be useful for safety work. In open-weight models, we select neurons by what makes them fire and what they contribute to a model’s output. These neurons generally detect harmful text better than keyword or similarity search, though usually less well than classifiers trained on labeled examples, and they steer a model’s behavior about as well as trained methods. They also help an auditor find hidden behaviors in finetuned models. Finally, we find that most of the “unlearning” methods we tested appear to hide hazardous knowledge rather than remove it, and neurons help show how.",
+    "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/",
+    "published_date": "2026-11-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-11-25T18:59:47.953945+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "The Cyber Shortage Paradox",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
+    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
+    "published_date": "2026-11-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-25T18:59:51.615321+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "The PLA’s Push for Military Robotics",
+    "authors": [],
+    "organization": "CSET",
+    "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
+    "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
+    "published_date": "2026-11-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://cset.georgetown.edu/publications/",
+    "fetched_at": "2026-11-25T18:59:51.615862+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
+    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
+    "published_date": "2026-11-25T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-11-25T18:59:51.807602+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "Interpreting a recent acceleration in pretraining loss",
+    "authors": [
+      "METR"
+    ],
+    "organization": "METR",
+    "abstract": "OpenAI recently published the base-model log-perplexity of 13 models it has trained since GPT-3.5, measured on a fixed held-out dataset sourced from its own codebase. It shows a very striking acceleration in pretraining loss: since early 2026, it has been falling about seven times faster than it was from 2022 through 2025. If the current pace holds, OpenAI would cover the drop in log-perplexity from GPT-3.5 to GPT-4.1, which took three years, in about six and a half months. This acceleration is even more striking because progress in loss should get harder over time: text is never perfectly predictable, so the loss can’t fall below some floor, and gains typically become smaller as models approach it.",
+    "url": "https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/",
+    "published_date": "2026-11-24T08:00:00+00:00",
+    "source_type": "rss",
+    "source_url": "https://metr.org/feed.xml",
+    "fetched_at": "2026-11-25T18:59:45.412726+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Comparing AI R&D compute caps and deployment lags",
     "authors": [
       "elifland"
@@ -10,32 +72,8 @@
     "published_date": "2026-11-24T02:23:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-24T19:59:32.267026+00:00",
+    "fetched_at": "2026-11-25T18:59:43.737293+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "In a companion piece, we argue that individual neurons in language models are easier to interpret than earlier work has assumed. Here we see whether they could be useful for safety work. In open-weight models, we select neurons by what makes them fire and what they contribute to a model’s output. These neurons generally detect harmful text better than keyword or similarity search, though usually less well than classifiers trained on labeled examples, and they steer a model’s behavior about as well as trained methods. They also help an auditor find hidden behaviors in finetuned models. Finally, we find that most of the “unlearning” methods we tested appear to hide hazardous knowledge rather than remove it, and neurons help show how.",
-    "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/",
-    "published_date": "2026-11-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-11-24T19:59:36.334688+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
-    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-24T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-24T19:59:39.418534+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Finding faster quantum algorithms with agents and formal verification",
@@ -46,7 +84,7 @@
     "published_date": "2026-11-23T17:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-24T19:59:36.744799+00:00",
+    "fetched_at": "2026-11-25T18:59:48.504440+00:00",
     "date_precision": "day"
   },
   {
@@ -58,7 +96,7 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-11-24T19:59:38.806846+00:00",
+    "fetched_at": "2026-11-25T18:59:50.970695+00:00",
     "date_precision": "day"
   },
   {
@@ -70,7 +108,19 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-24T19:59:39.099081+00:00",
+    "fetched_at": "2026-11-25T18:59:51.358556+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Aligning Judge Models to Be Logically Consistent Multi-Rule Interpreters",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "Aligning Judge Models to Be Logically Consistent Multi-Rule Interpreters Technical governance of AI models will soon require them to reason over and follow thousands of rules from different jurisdictions. However, as we show in this work, presenting an entire ruleset to a judge model---rather than asking it to judge one rule at a time---changes the way the model interprets the requirements, making it reach conclusions that conflict with its rule-by-rule judgments. We call this challenge multi-rule inconsistency and find that models are more lenient when judging rules embedded within the full ruleset than when judging rules separately. For example, we find that when a safety-critical rule prohibiting a model from pursuing objectives other than those it was given appears in a larger ruleset, all tested judge models are less likely to deem it violated.",
+    "url": "https://www.matsprogram.org/research/aligning-judge-models-to-be-logically-consistent-multi-rule-interpreters",
+    "published_date": "2026-11-23T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-11-25T18:59:53.834979+00:00",
     "date_precision": "day"
   },
   {
@@ -84,7 +134,7 @@
     "published_date": "2026-11-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-24T19:59:30.908552+00:00",
+    "fetched_at": "2026-11-25T18:59:42.658420+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +148,7 @@
     "published_date": "2026-11-20T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-24T19:59:34.223512+00:00",
+    "fetched_at": "2026-11-25T18:59:45.414787+00:00",
     "date_precision": "day"
   },
   {
@@ -112,7 +162,7 @@
     "published_date": "2026-11-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-24T19:59:30.908615+00:00",
+    "fetched_at": "2026-11-25T18:59:42.658485+00:00",
     "date_precision": "day"
   },
   {
@@ -124,7 +174,7 @@
     "published_date": "2026-11-19T05:08:03+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-24T19:59:39.181889+00:00",
+    "fetched_at": "2026-11-25T18:59:51.614966+00:00",
     "date_precision": "day"
   },
   {
@@ -138,7 +188,7 @@
     "published_date": "2026-11-19T04:36:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-24T19:59:32.267052+00:00",
+    "fetched_at": "2026-11-25T18:59:43.737321+00:00",
     "date_precision": "day"
   },
   {
@@ -150,7 +200,7 @@
     "published_date": "2026-11-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-24T19:59:39.099258+00:00",
+    "fetched_at": "2026-11-25T18:59:51.358777+00:00",
     "date_precision": "day"
   },
   {
@@ -164,7 +214,7 @@
     "published_date": "2026-11-18T18:24:51.006000+00:00",
     "source_type": "rss",
     "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-24T19:59:41.916862+00:00",
+    "fetched_at": "2026-11-25T18:59:56.132036+00:00",
     "date_precision": "day"
   },
   {
@@ -178,7 +228,7 @@
     "published_date": "2026-11-18T18:02:06+00:00",
     "source_type": "rss",
     "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-24T19:59:35.018450+00:00",
+    "fetched_at": "2026-11-25T18:59:46.426867+00:00",
     "date_precision": "day"
   },
   {
@@ -192,33 +242,19 @@
     "published_date": "2026-11-18T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-24T19:59:30.908856+00:00",
+    "fetched_at": "2026-11-25T18:59:42.658737+00:00",
     "date_precision": "day"
   },
   {
-    "title": "The Cyber Shortage Paradox",
+    "title": "Do Frontier AI Developers Act on Third-party Risk Findings?",
     "authors": [],
-    "organization": "CSET",
-    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
-    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
-    "published_date": "2026-11-17T03:21:00+00:00",
+    "organization": "MATS",
+    "abstract": "Do Frontier AI Developers Act on Third-party Risk Findings? Government AI institutes and independent evaluators study frontier AI systems to identify, evaluate, and better understand potential risks. But do AI companies act on the risks identified by third parties? Here, we examine publicly documented company and policy responses to third-party evaluation findings of frontier AI systems. We identified 1,120 distinct findings about frontier models across 449 AI evaluation reports published by government institutes, academia, and evaluation organizations between March 2023 and August 2026. Of these, we classified 211 as adverse empirical findings concerning identifiable models or developers which may pose a credible safety hazard according to frontier developers' public safety frameworks.",
+    "url": "https://www.matsprogram.org/research/do-frontier-ai-developers-act-on-third-party-risk-findings",
+    "published_date": "2026-11-18T00:00:00+00:00",
     "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-24T19:59:39.182178+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "“How should we define “capabilities activities” for the purpose of pacing?” by Alek Westover, Nathan Sheffield",
-    "authors": [
-      "Redwood Research Blog"
-    ],
-    "organization": "Redwood Research",
-    "abstract": "We’d like to pace the frontier by restricting the amount of compute AI companies use to improve AI capabilities, perhaps via legislation or voluntary commitments. For this purpose, we’d need a standardized definition of which uses of compute count as “capabilities activities”. This document gives one option for such a definition; a rough breakdown of our classification is as follows: We define and elaborate on each of these categories below. First, though, we discuss the desiderata this definition is meant to satisfy. Thanks to Thomas Larsen, Zach Stein-Perlman, Alex Mallen, Eric Gan, Jeff Wu, Girish Gupta, Adam Kaufman, and others for feedback on drafts of this document.",
-    "url": "https://blog.redwoodresearch.org/p/how-should-we-define-capabilities",
-    "published_date": "2026-11-17T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://feeds.type3.audio/redwood-research.rss",
-    "fetched_at": "2026-11-24T19:59:31.667020+00:00",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-11-25T18:59:53.835576+00:00",
     "date_precision": "day"
   }
 ]
