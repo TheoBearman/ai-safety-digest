@@ -1,38 +1,28 @@
 [
   {
+    "title": "Evaluating Recent Model Releases on GDPx",
+    "authors": [
+      "Max Kan"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "GPT-6.2 Astra takes the crown but bad at software engineering, Gemini 4 Neon is an impressive improvement from Google but still overrated, Fable 5.2 is smart but expensive, and new Chinese models as well",
+    "url": "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases",
+    "published_date": "2026-11-26T00:05:35+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-11-26T18:51:35.525356+00:00",
+    "date_precision": "day"
+  },
+  {
     "title": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications",
     "authors": [],
     "organization": "Anthropic",
     "abstract": "In a companion piece, we argue that individual neurons in language models are easier to interpret than earlier work has assumed. Here we see whether they could be useful for safety work. In open-weight models, we select neurons by what makes them fire and what they contribute to a model’s output. These neurons generally detect harmful text better than keyword or similarity search, though usually less well than classifiers trained on labeled examples, and they steer a model’s behavior about as well as trained methods. They also help an auditor find hidden behaviors in finetuned models. Finally, we find that most of the “unlearning” methods we tested appear to hide hazardous knowledge rather than remove it, and neurons help show how.",
     "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/",
-    "published_date": "2026-11-25T00:00:00+00:00",
+    "published_date": "2026-11-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-11-25T18:59:47.953945+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "The Cyber Shortage Paradox",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Persistent cybersecurity job vacancies have fueled concerns about a nationwide talent shortage, but does the evidence support that conclusion? This report explores and challenges conventional assumptions about cybersecurity workforce scarcity, finding that while hiring demand remains elevated, wages and worker mobility do not exhibit the patterns expected of a widespread labor shortage. Instead, hiring challenges are concentrated within specific occupations, industries, and geographic regions, suggesting that structural mismatches—not simply an insufficient supply of workers—may be driving persistent vacancies.",
-    "url": "https://cset.georgetown.edu/publication/the-cyber-shortage-paradox/",
-    "published_date": "2026-11-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-25T18:59:51.615321+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "The PLA’s Push for Military Robotics",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Drawing on over 2,000 open-source procurement documents published between October 2022 and December 2025, this report examines how the People’s Liberation Army is pursuing robotics across the ground, maritime, and space domains. These include quadruped renaissance robots and ordnance disposal systems, as well as undersea platforms and satellite manipulation devices. The data reveals a military experimenting with still maturing, mostly human-controlled systems. Sensors, navigation, and software will likely matter as much as hardware for Beijing’s military robotics ambitions.",
-    "url": "https://cset.georgetown.edu/publication/the-plas-push-for-military-robotics/",
-    "published_date": "2026-11-25T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-25T18:59:51.615862+00:00",
+    "fetched_at": "2026-11-26T18:51:37.501285+00:00",
     "date_precision": "month"
   },
   {
@@ -41,10 +31,10 @@
     "organization": "GovAI",
     "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
     "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-25T00:00:00+00:00",
+    "published_date": "2026-11-26T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-25T18:59:51.807602+00:00",
+    "fetched_at": "2026-11-26T18:51:41.131394+00:00",
     "date_precision": "month"
   },
   {
@@ -58,7 +48,7 @@
     "published_date": "2026-11-24T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-25T18:59:45.412726+00:00",
+    "fetched_at": "2026-11-26T18:51:34.706924+00:00",
     "date_precision": "day"
   },
   {
@@ -72,7 +62,19 @@
     "published_date": "2026-11-24T02:23:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-25T18:59:43.737293+00:00",
+    "fetched_at": "2026-11-26T18:51:32.516252+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "The Accountable Agents Framework (AAF)",
+    "authors": [],
+    "organization": "MATS",
+    "abstract": "The Accountable Agents Framework (AAF) AI agents are becoming ubiquitous online, but there is no reliable way to identify who is responsible for their actions. This creates an accountability gap and increases hesitation around agent adoption in the economy and society. To help address this challenge, we introduce the Accountable Agents Framework (AAF), a protocol-agnostic framework that uses privacy-preserving IDs to link agents to their principals, such as a legal person. Directories verify principals’ identities and issue IDs, allowing agents to make verifiable claims about themselves as they transact. IDs are pseudonymous, revealing nothing about agents on their own, but if an agent causes harm, directories can deanonymize its principal according to an established process. Services can then more safely engage in transactions with agents that present a verified ID, since harm caused by such agents can be more reliably traced back to their principal.",
+    "url": "https://www.matsprogram.org/research/the-accountable-agents-framework-aaf",
+    "published_date": "2026-11-24T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.matsprogram.org/research",
+    "fetched_at": "2026-11-26T18:51:42.651848+00:00",
     "date_precision": "day"
   },
   {
@@ -84,7 +86,7 @@
     "published_date": "2026-11-23T17:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-25T18:59:48.504440+00:00",
+    "fetched_at": "2026-11-26T18:51:37.901069+00:00",
     "date_precision": "day"
   },
   {
@@ -96,7 +98,7 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-11-25T18:59:50.970695+00:00",
+    "fetched_at": "2026-11-26T18:51:39.908748+00:00",
     "date_precision": "day"
   },
   {
@@ -108,7 +110,7 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-25T18:59:51.358556+00:00",
+    "fetched_at": "2026-11-26T18:51:40.836658+00:00",
     "date_precision": "day"
   },
   {
@@ -120,7 +122,7 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-25T18:59:53.834979+00:00",
+    "fetched_at": "2026-11-26T18:51:42.652487+00:00",
     "date_precision": "day"
   },
   {
@@ -134,7 +136,7 @@
     "published_date": "2026-11-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-25T18:59:42.658420+00:00",
+    "fetched_at": "2026-11-26T18:51:31.348145+00:00",
     "date_precision": "day"
   },
   {
@@ -148,7 +150,7 @@
     "published_date": "2026-11-20T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-25T18:59:45.414787+00:00",
+    "fetched_at": "2026-11-26T18:51:34.708842+00:00",
     "date_precision": "day"
   },
   {
@@ -162,7 +164,21 @@
     "published_date": "2026-11-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-25T18:59:42.658485+00:00",
+    "fetched_at": "2026-11-26T18:51:31.348229+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+    "authors": [
+      "Niranjan Deshpande"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Models Can Communicate via Inference Servers Despite Being Sandboxed'. Published 2026-11-19. Authors: Niranjan Deshpande.",
+    "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+    "published_date": "2026-11-19T15:54:19.424000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-11-26T18:51:44.043180+00:00",
     "date_precision": "day"
   },
   {
@@ -174,7 +190,7 @@
     "published_date": "2026-11-19T05:08:03+00:00",
     "source_type": "scrape",
     "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-25T18:59:51.614966+00:00",
+    "fetched_at": "2026-11-26T18:51:40.977245+00:00",
     "date_precision": "day"
   },
   {
@@ -188,7 +204,7 @@
     "published_date": "2026-11-19T04:36:27+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-25T18:59:43.737321+00:00",
+    "fetched_at": "2026-11-26T18:51:32.516283+00:00",
     "date_precision": "day"
   },
   {
@@ -200,61 +216,7 @@
     "published_date": "2026-11-19T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-25T18:59:51.358777+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Pacing AI via Compute Reallocation",
-    "authors": [
-      "Thomas Larsen"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Pacing AI via Compute Reallocation'. Published 2026-11-18. Authors: Thomas Larsen.",
-    "url": "https://www.lesswrong.com/posts/dBEDh2WeZfhuiDnJ5/pacing-ai-via-compute-reallocation",
-    "published_date": "2026-11-18T18:24:51.006000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-25T18:59:56.132036+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "The Silent Consensus",
-    "authors": [
-      "Dean W. Ball"
-    ],
-    "organization": "Dean Ball",
-    "abstract": "Today’s essay is adapted from a lecture I gave recently as part of the Vik-Bailey Lecture series at Harvard. I thank my hosts for their hospitality. This post reflects my own views, and not necessarily the views of OpenAI or any of its other employees. Thank you for being here today. As we speak, one of the most significant sets of cybersecurity events in history is happening, a set of critical security vulnerability disclosures that some are calling “Black October.” These vulnerabilities, which were found in some of the core infrastructure of the internet, were found by frontier AI systems, and their disclosure is part of an urgent effort to bolster software security worldwide. This is the urgent matter this month; next month there will be another.",
-    "url": "https://www.hyperdimensional.co/p/the-silent-consensus",
-    "published_date": "2026-11-18T18:02:06+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.hyperdimensional.co/feed",
-    "fetched_at": "2026-11-25T18:59:46.426867+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Advancing chip design with OpenAI models",
-    "authors": [
-      "OpenAI News"
-    ],
-    "organization": "OpenAI",
-    "abstract": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-    "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-    "published_date": "2026-11-18T00:00:00+00:00",
-    "source_type": "rss",
-    "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-25T18:59:42.658737+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Do Frontier AI Developers Act on Third-party Risk Findings?",
-    "authors": [],
-    "organization": "MATS",
-    "abstract": "Do Frontier AI Developers Act on Third-party Risk Findings? Government AI institutes and independent evaluators study frontier AI systems to identify, evaluate, and better understand potential risks. But do AI companies act on the risks identified by third parties? Here, we examine publicly documented company and policy responses to third-party evaluation findings of frontier AI systems. We identified 1,120 distinct findings about frontier models across 449 AI evaluation reports published by government institutes, academia, and evaluation organizations between March 2023 and August 2026. Of these, we classified 211 as adverse empirical findings concerning identifiable models or developers which may pose a credible safety hazard according to frontier developers' public safety frameworks.",
-    "url": "https://www.matsprogram.org/research/do-frontier-ai-developers-act-on-third-party-risk-findings",
-    "published_date": "2026-11-18T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-25T18:59:53.835576+00:00",
+    "fetched_at": "2026-11-26T18:51:40.836929+00:00",
     "date_precision": "day"
   }
 ]
