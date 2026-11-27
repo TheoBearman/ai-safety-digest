@@ -1,5 +1,57 @@
 [
   {
+    "title": "AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive",
+    "authors": [
+      "Kimbo Chen"
+    ],
+    "organization": "SemiAnalysis",
+    "abstract": "Better Perf TCO vs NVIDIA GB300, First Principles Physics-Based Architecture, High MFU and MBU, UBenchX, Low Latency, Alisa Liu vs Eileen Gu",
+    "url": "https://newsletter.semianalysis.com/p/trainium3-inferencex",
+    "published_date": "2026-11-27T15:54:59+00:00",
+    "source_type": "rss",
+    "source_url": "https://newsletter.semianalysis.com/feed",
+    "fetched_at": "2026-11-27T18:43:30.227739+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "I don’t expect superposition in transformer MLP neurons",
+    "authors": [
+      "Linda Linsefors"
+    ],
+    "organization": "Alignment Forum",
+    "abstract": "I currently believe that in a typical (well trained and under-parametrized) transformer model, there is something like superposition-type compression in the residual stream, but not in the MLP neurons. By \"superposition-type compression\", I mean some way of storing extra features using the fact that you can have almost orthogonal directions embedded in . [1] I've included the caveats \"well trained and under-parametrized [2] \" because I'm talking about networks that are at or close to full capacity. If the network is big enough (or just doesn't learn that many circuits for training reasons) then there is no need for compression, and therefore no need for superposition. [3] Why I believe this: [4] Having superposition everywhere causes too much noise from interference. There is much more need for compression in the residual stream. Compensating using some error correction is probably not worth it.",
+    "url": "https://www.alignmentforum.org/posts/o9dPGxEbpQrnasgDB/i-don-t-expect-superposition-in-transformer-mlp-neurons",
+    "published_date": "2026-11-27T12:44:01+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.alignmentforum.org/feed.xml",
+    "fetched_at": "2026-11-27T18:43:26.718571+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications",
+    "authors": [],
+    "organization": "Anthropic",
+    "abstract": "In a companion piece, we argue that individual neurons in language models are easier to interpret than earlier work has assumed. Here we see whether they could be useful for safety work. In open-weight models, we select neurons by what makes them fire and what they contribute to a model’s output. These neurons generally detect harmful text better than keyword or similarity search, though usually less well than classifiers trained on labeled examples, and they steer a model’s behavior about as well as trained methods. They also help an auditor find hidden behaviors in finetuned models. Finally, we find that most of the “unlearning” methods we tested appear to hide hazardous knowledge rather than remove it, and neurons help show how.",
+    "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/",
+    "published_date": "2026-11-27T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://alignment.anthropic.com/",
+    "fetched_at": "2026-11-27T18:43:31.993769+00:00",
+    "date_precision": "month"
+  },
+  {
+    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
+    "authors": [],
+    "organization": "GovAI",
+    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
+    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
+    "published_date": "2026-11-27T00:00:00+00:00",
+    "source_type": "scrape",
+    "source_url": "https://www.governance.ai/research",
+    "fetched_at": "2026-11-27T18:43:35.506714+00:00",
+    "date_precision": "month"
+  },
+  {
     "title": "Evaluating Recent Model Releases on GDPx",
     "authors": [
       "Max Kan"
@@ -10,32 +62,8 @@
     "published_date": "2026-11-26T00:05:35+00:00",
     "source_type": "rss",
     "source_url": "https://newsletter.semianalysis.com/feed",
-    "fetched_at": "2026-11-26T18:51:35.525356+00:00",
+    "fetched_at": "2026-11-27T18:43:30.227770+00:00",
     "date_precision": "day"
-  },
-  {
-    "title": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications",
-    "authors": [],
-    "organization": "Anthropic",
-    "abstract": "In a companion piece, we argue that individual neurons in language models are easier to interpret than earlier work has assumed. Here we see whether they could be useful for safety work. In open-weight models, we select neurons by what makes them fire and what they contribute to a model’s output. These neurons generally detect harmful text better than keyword or similarity search, though usually less well than classifiers trained on labeled examples, and they steer a model’s behavior about as well as trained methods. They also help an auditor find hidden behaviors in finetuned models. Finally, we find that most of the “unlearning” methods we tested appear to hide hazardous knowledge rather than remove it, and neurons help show how.",
-    "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/",
-    "published_date": "2026-11-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://alignment.anthropic.com/",
-    "fetched_at": "2026-11-26T18:51:37.501285+00:00",
-    "date_precision": "month"
-  },
-  {
-    "title": "General-Purpose AI and the Future of Drone Autonomy in Contested Environments",
-    "authors": [],
-    "organization": "GovAI",
-    "abstract": "When and how general-purpose AI could enable autonomous drones to operate in contested environments. The choices California makes while implementing its frontier AI law have ramifications for AI governance in the United States and around the world. A software-driven intelligence explosion is plausible but uncertain. Recommendations to strengthen how developers of advanced AI models assess, mitigate, and report biological risks under the EU AI Act. An intelligence explosion would compress years of progress into months and create urgent challenges for oversight, control, and governance. Embedded assessments can enable deeper and more flexible assessments of risks that depend on internal systems and practices. How to ensure AI safety incidents are identified, investigated, and used to improve safety across the industry. Developers rely on model-level, deployment-level, and governance-level interventions to address extreme misuse risks. Policymakers should complement biosecurity measures with stronger biosafety systems.",
-    "url": "https://www.governance.ai/research-paper/general-purpose-ai-and-the-future-of-drone-autonomy-in-contested-environments",
-    "published_date": "2026-11-26T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.governance.ai/research",
-    "fetched_at": "2026-11-26T18:51:41.131394+00:00",
-    "date_precision": "month"
   },
   {
     "title": "Interpreting a recent acceleration in pretraining loss",
@@ -48,7 +76,7 @@
     "published_date": "2026-11-24T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-26T18:51:34.706924+00:00",
+    "fetched_at": "2026-11-27T18:43:29.310813+00:00",
     "date_precision": "day"
   },
   {
@@ -62,7 +90,7 @@
     "published_date": "2026-11-24T02:23:44+00:00",
     "source_type": "rss",
     "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-26T18:51:32.516252+00:00",
+    "fetched_at": "2026-11-27T18:43:26.718719+00:00",
     "date_precision": "day"
   },
   {
@@ -74,7 +102,21 @@
     "published_date": "2026-11-24T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-26T18:51:42.651848+00:00",
+    "fetched_at": "2026-11-27T18:43:36.775749+00:00",
+    "date_precision": "day"
+  },
+  {
+    "title": "Everyone in AI safety gets FOMO",
+    "authors": [
+      "David Africa"
+    ],
+    "organization": "LessWrong",
+    "abstract": "Research from LessWrong titled 'Everyone in AI safety gets FOMO'. Published 2026-11-23. Authors: David Africa.",
+    "url": "https://www.lesswrong.com/posts/4eXof4KR6d4edmcJ2/everyone-in-ai-safety-gets-fomo",
+    "published_date": "2026-11-23T18:39:50.494000+00:00",
+    "source_type": "rss",
+    "source_url": "https://www.lesswrong.com/graphql",
+    "fetched_at": "2026-11-27T18:43:38.098402+00:00",
     "date_precision": "day"
   },
   {
@@ -86,7 +128,7 @@
     "published_date": "2026-11-23T17:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://deepmind.google/discover/blog/?category=responsible-development-and-safety",
-    "fetched_at": "2026-11-26T18:51:37.901069+00:00",
+    "fetched_at": "2026-11-27T18:43:32.335678+00:00",
     "date_precision": "day"
   },
   {
@@ -98,7 +140,7 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.aisi.gov.uk/work",
-    "fetched_at": "2026-11-26T18:51:39.908748+00:00",
+    "fetched_at": "2026-11-27T18:43:34.557022+00:00",
     "date_precision": "day"
   },
   {
@@ -110,7 +152,7 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-26T18:51:40.836658+00:00",
+    "fetched_at": "2026-11-27T18:43:35.100309+00:00",
     "date_precision": "day"
   },
   {
@@ -122,7 +164,7 @@
     "published_date": "2026-11-23T00:00:00+00:00",
     "source_type": "scrape",
     "source_url": "https://www.matsprogram.org/research",
-    "fetched_at": "2026-11-26T18:51:42.652487+00:00",
+    "fetched_at": "2026-11-27T18:43:36.776441+00:00",
     "date_precision": "day"
   },
   {
@@ -136,7 +178,7 @@
     "published_date": "2026-11-22T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-26T18:51:31.348145+00:00",
+    "fetched_at": "2026-11-27T18:43:25.562084+00:00",
     "date_precision": "day"
   },
   {
@@ -150,7 +192,7 @@
     "published_date": "2026-11-20T08:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://metr.org/feed.xml",
-    "fetched_at": "2026-11-26T18:51:34.708842+00:00",
+    "fetched_at": "2026-11-27T18:43:29.312852+00:00",
     "date_precision": "day"
   },
   {
@@ -164,59 +206,7 @@
     "published_date": "2026-11-20T00:00:00+00:00",
     "source_type": "rss",
     "source_url": "https://openai.com/news/rss.xml",
-    "fetched_at": "2026-11-26T18:51:31.348229+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
-    "authors": [
-      "Niranjan Deshpande"
-    ],
-    "organization": "LessWrong",
-    "abstract": "Research from LessWrong titled 'Models Can Communicate via Inference Servers Despite Being Sandboxed'. Published 2026-11-19. Authors: Niranjan Deshpande.",
-    "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-    "published_date": "2026-11-19T15:54:19.424000+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.lesswrong.com/graphql",
-    "fetched_at": "2026-11-26T18:51:44.043180+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Data Availability for Artificial Intelligence and Engineering Biology",
-    "authors": [],
-    "organization": "CSET",
-    "abstract": "Artificial intelligence holds great promise for potential applications in biotechnology. However, advancements in AI for biology require a large volume of high-quality, well-annotated biological data. This report uses two case studies to evaluate biological databases, identifying their strengths and weaknesses for training AI systems, categorizing data challenges, and making recommendations to policymakers who wish to address them.",
-    "url": "https://cset.georgetown.edu/publication/data-availability-for-artificial-intelligence-and-engineering-biology/",
-    "published_date": "2026-11-19T05:08:03+00:00",
-    "source_type": "scrape",
-    "source_url": "https://cset.georgetown.edu/publications/",
-    "fetched_at": "2026-11-26T18:51:40.977245+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Solomonoff induction with reflective oracles",
-    "authors": [
-      "Cole Wyeth"
-    ],
-    "organization": "Alignment Forum",
-    "abstract": "Linkpost for https://arxiv.org/html/2611.14454v1 Our PIBBSS fellow Damini Kusum wrote an excellent paper on prediction with reflective oracle Solomonoff Induction (rOSI). Reflective oracles are best known for their game-theoretic applications, where they are often dismissed because \"why would all players choose the same reflective oracle?\" It turns out that reflective oracles can also be used to construct a version of Solomonoff induction (called rOSI) with very nice sequence prediction properties - roughly speaking, it can learn to extract computable structure from (partly) uncomputable sequences. In fact, its properties are quite reminiscent of logical induction, but this paper is much shorter and more accessible. In this context, there is only one \"player\" to choose an oracle, which is just a fixed-point (though you can sort of consider the set of hypotheses entertained by that player as subplayers who share the oracle).",
-    "url": "https://www.alignmentforum.org/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles",
-    "published_date": "2026-11-19T04:36:27+00:00",
-    "source_type": "rss",
-    "source_url": "https://www.alignmentforum.org/feed.xml",
-    "fetched_at": "2026-11-26T18:51:32.516283+00:00",
-    "date_precision": "day"
-  },
-  {
-    "title": "Maritime Domain Awareness Market and Capability Assessments for the Department of Homeland Security",
-    "authors": [],
-    "organization": "RAND",
-    "abstract": "Research Nov 19, 2026 To help the U.S. Department of Homeland Security (DHS) improve maritime domain awareness (MDA), the authors assess commercial technologies and DHS components’ capabilities, and they provide recommendations for optimizing DHS’s MDA capabilities.",
-    "url": "https://www.rand.org/pubs/research_reports/RRA4854-1.html",
-    "published_date": "2026-11-19T00:00:00+00:00",
-    "source_type": "scrape",
-    "source_url": "https://www.rand.org/topics/artificial-intelligence.html",
-    "fetched_at": "2026-11-26T18:51:40.836929+00:00",
+    "fetched_at": "2026-11-27T18:43:25.562170+00:00",
     "date_precision": "day"
   }
 ]
